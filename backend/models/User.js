@@ -18,22 +18,22 @@ const UserSchema = new mongoose.Schema({
     },
     photo: {
         type: String,
-        default: '/uploads/user_photo.png' // Ajustado para corresponder ao que você mencionou
+        default: '/uploads/user_photo.png'
     },
     score: {
         type: Number,
-        default: 0 // Pontuação inicial padrão
+        default: 0
     },
-    courses: [{ // Campo para armazenar os cursos do usuário
+    courses: [{
         course: {
             type: String,
             required: true
         },
         progress: {
             type: Number,
-            default: 0 // Progresso inicial padrão
+            default: 0
         },
-        lessons: [{ // Campo para armazenar as aulas e seu status
+        lessons: [{
             title: String,
             completed: { type: Boolean, default: false }
         }]

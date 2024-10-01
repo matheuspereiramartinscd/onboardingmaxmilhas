@@ -5,11 +5,11 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
 const UserEditForm = ({ onUpdate }) => {
-    const { userId } = useParams(); // Obter o ID do usuário a partir da URL
+    const { userId } = useParams();
     const [name, setName] = useState('');
-    const [photo, setPhoto] = useState(null); // Para armazenar a foto selecionada
-    const [initialPhoto, setInitialPhoto] = useState(null); // Armazenar a foto original
-    const [errorMessage, setErrorMessage] = useState(''); // State for error message
+    const [photo, setPhoto] = useState(null);
+    const [initialPhoto, setInitialPhoto] = useState(null);
+    const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
         const fetchUser = async () => {
@@ -17,7 +17,7 @@ const UserEditForm = ({ onUpdate }) => {
                 const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
                 const response = await axios.get(`${apiUrl}/api/users/${userId}`);
                 setName(response.data.name);
-                setInitialPhoto(response.data.photo); // Armazena a foto original
+                setInitialPhoto(response.data.photo); // Armazenar a foto original
             } catch (error) {
                 console.error('Erro ao buscar o usuário:', error);
             }
@@ -28,58 +28,53 @@ const UserEditForm = ({ onUpdate }) => {
 
     const handlePhotoChange = (e) => {
         const selectedFile = e.target.files[0];
-        // Check if a file was selected
         if (selectedFile) {
             const fileType = selectedFile.type;
             const validTypes = ['image/jpeg', 'image/png', 'image/jpg'];
 
-            // Validate the file type
             if (validTypes.includes(fileType)) {
                 setPhoto(selectedFile);
-                setErrorMessage(''); // Clear error message
+                setErrorMessage('');
             } else {
                 setPhoto(null);
                 setErrorMessage('Por favor, selecione um arquivo de imagem válido (jpg, png ou jpeg).');
-                e.target.value = ''; // Clear the input if the file is invalid
+                e.target.value = '';
             }
         } else {
-            setPhoto(null); // Clear photo state if no file is selected
+            setPhoto(null);
             setErrorMessage('');
         }
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault(); // Impede o recarregamento da página
+        e.preventDefault();
 
-        // Criação do formData para enviar nome e foto
         const formData = new FormData();
         formData.append('name', name);
 
+        // Se a foto não foi alterada, passar a foto inicial
         if (photo) {
-            formData.append('photo', photo); // Se uma nova foto foi selecionada, adicioná-la
+            formData.append('photo', photo);
         }
 
         try {
             const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
-            // Faz a requisição PUT para atualizar o usuário
             const response = await axios.put(`${apiUrl}/api/users/${userId}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
-                    'Authorization': `Bearer ${localStorage.getItem('token')}`, // Se necessário, inclui o token de autenticação
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`,
                 },
             });
 
-            onUpdate(response.data); // Atualiza o estado no componente pai com os novos dados do usuário
-            // Removed success alert here
+            onUpdate(response.data);
         } catch (error) {
             console.error('Erro ao atualizar o usuário:', error);
-            alert('Erro ao atualizar o usuário.'); // Feedback em caso de erro
+            alert('Erro ao atualizar o usuário.');
         }
     };
 
     return (
         <div className={styles.editFormPage}>
-
             <div className={styles.titleContainer}>
                 <h1 className={styles.newTitle}>Editar Informações do Usuário</h1>
                 <hr className={styles.separator} />
@@ -101,9 +96,9 @@ const UserEditForm = ({ onUpdate }) => {
                     <input
                         type="file"
                         id="photo"
-                        onChange={handlePhotoChange} // Change handler updated
+                        onChange={handlePhotoChange}
                         className={styles.input}
-                        accept="image/jpeg, image/png, image/jpg" // Limit accepted file types
+                        accept="image/jpeg, image/png, image/jpg"
                     />
                     {initialPhoto && !photo && (
                         <img
@@ -112,10 +107,10 @@ const UserEditForm = ({ onUpdate }) => {
                             className={styles.userCurrentPhoto}
                         />
                     )}
-                    {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>} {/* Display error message */}
+                    {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
                 </div>
                 <button type="submit" className={styles.submitButton}>Atualizar</button>
-                <p style={{ color: 'orange' }}>Formato aceito: jpg, png ou jpeg.</p> {/* Warning message */}
+                <p style={{ color: 'orange' }}>Formato aceito: jpg, png ou jpeg.</p>
             </form>
         </div>
     );
