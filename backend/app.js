@@ -210,5 +210,36 @@ app.delete('/api/users/delete-lesson/:courseName/:lessonTitle', async (req, res)
     }
 });
 
+// Add multer to handle file uploads
+
+
+// Modify the route to handle user updates with file uploads
+app.put('/api/users/:id', upload.single('photo'), async (req, res) => {
+    const { id } = req.params; // ID do usuário a ser atualizado
+    const { name } = req.body; // O novo nome a ser atualizado
+    const photoPath = req.file ? req.file.path : null; // Caminho da nova foto se existir
+
+    try {
+        const user = await User.findById(id);
+
+        if (!user) {
+            return res.status(404).json({ message: 'Usuário não encontrado' });
+        }
+
+        // Atualiza o usuário com o novo nome e, se houver, o novo caminho da foto
+        user.name = name || user.name; // Atualiza o nome se novo nome for fornecido
+        if (photoPath) {
+            user.photo = photoPath; // Atualiza a foto se nova foto for fornecida
+        }
+
+        await user.save(); // Salva as alterações
+        res.status(200).json({ message: 'Usuário atualizado com sucesso', user });
+    } catch (error) {
+        console.error('Erro ao atualizar usuário:', error);
+        res.status(500).json({ message: 'Erro ao atualizar usuário', error: error.message });
+    }
+});
+
+
 // Start the server
 startServer();

@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const User = require('../models/User');
+const User = require('../models/User'); // Make sure your User model is defined correctly
 const router = express.Router();
 
 // Configuração do multer para armazenamento de arquivos
@@ -73,6 +73,10 @@ router.put('/update/:id', upload.single('photo'), async (req, res) => {
         const { id } = req.params;
         const { name, email } = req.body;
         const user = await User.findById(id);
+
+        if (!user) {
+            return res.status(404).json({ message: 'Usuário não encontrado' });
+        }
 
         if (req.file) {
             // Atualiza a foto do usuário com o caminho do arquivo local
@@ -176,17 +180,25 @@ router.put('/:userId/progress/:course', async (req, res) => {
 });
 
 // Endpoint para deletar um curso do usuário
-router.delete('/users/delete-course/:id', async (req, res) => {
+router.delete('/:userId/delete-course/:course', async (req, res) => {
+    const { userId, course } = req.params;
+
     try {
-        const { id } = req.params;
-        await Course.findByIdAndDelete(id);
+        const user = await User.findById(userId);
+        if (!user) {
+            return res.status(404).json({ message: 'Usuário não encontrado' });
+        }
+
+        user.courses = user.courses.filter(c => c.course !== course);
+        await user.save();
+
         res.status(200).json({ message: 'Curso deletado com sucesso!' });
     } catch (error) {
-        res.status(500).json({ message: 'Erro ao deletar curso', error });
+        res.status(500).json({ message: 'Erro ao deletar curso', error: error.message });
     }
 });
 
 // Endpoint para deletar uma lição de um curso
 // Implementar a lógica aqui, se necessário
 
-module.exports = router; 
+module.exports = router;

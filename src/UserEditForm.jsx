@@ -1,6 +1,5 @@
 import styles from './UserEditForm.module.css';
 import React, { useState, useEffect } from 'react';
-import Header from './Header';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
@@ -8,7 +7,7 @@ const UserEditForm = ({ onUpdate }) => {
     const { userId } = useParams();
     const [name, setName] = useState('');
     const [photo, setPhoto] = useState(null);
-    const [initialPhoto, setInitialPhoto] = useState(null);
+    const [initialPhoto, setInitialPhoto] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
@@ -17,7 +16,7 @@ const UserEditForm = ({ onUpdate }) => {
                 const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
                 const response = await axios.get(`${apiUrl}/api/users/${userId}`);
                 setName(response.data.name);
-                setInitialPhoto(response.data.photo); // Armazenar a foto original
+                setInitialPhoto(response.data.photo);
             } catch (error) {
                 console.error('Erro ao buscar o usuário:', error);
             }
@@ -29,10 +28,8 @@ const UserEditForm = ({ onUpdate }) => {
     const handlePhotoChange = (e) => {
         const selectedFile = e.target.files[0];
         if (selectedFile) {
-            const fileType = selectedFile.type;
             const validTypes = ['image/jpeg', 'image/png', 'image/jpg'];
-
-            if (validTypes.includes(fileType)) {
+            if (validTypes.includes(selectedFile.type)) {
                 setPhoto(selectedFile);
                 setErrorMessage('');
             } else {
@@ -49,10 +46,12 @@ const UserEditForm = ({ onUpdate }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        if (!name.trim()) {
+            return setErrorMessage('O nome não pode estar vazio.');
+        }
+
         const formData = new FormData();
         formData.append('name', name);
-
-        // Se a foto não foi alterada, passar a foto inicial
         if (photo) {
             formData.append('photo', photo);
         }
@@ -102,15 +101,14 @@ const UserEditForm = ({ onUpdate }) => {
                     />
                     {initialPhoto && !photo && (
                         <img
-                            src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/${initialPhoto}`}
-                            alt="User Current"
-                            className={styles.userCurrentPhoto}
+                            src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}${initialPhoto}`}
+                            alt="Imagem inicial do usuário"
+                            className={styles.imagePreview}
                         />
                     )}
-                    {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+                    {errorMessage && <p className={styles.error}>{errorMessage}</p>}
                 </div>
                 <button type="submit" className={styles.submitButton}>Atualizar</button>
-                <p style={{ color: 'orange' }}>Formato aceito: jpg, png ou jpeg.</p>
             </form>
         </div>
     );
