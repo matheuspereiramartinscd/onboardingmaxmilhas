@@ -1,11 +1,7 @@
 import styles from './CourseCard.module.css';
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
 
 const CourseCard = ({ imageUrl, title, description, onStartCourse }) => {
-    const navigate = useNavigate();
-
     return (
         <article className={styles.courseCard}>
             <img src={imageUrl} alt={`${title} course thumbnail`} className={styles.courseImage} />
@@ -15,7 +11,7 @@ const CourseCard = ({ imageUrl, title, description, onStartCourse }) => {
             </div>
             <button
                 className={styles.startButton}
-                onClick={onStartCourse}
+                onClick={onStartCourse} // Chama a função para iniciar o curso
             >
                 Iniciar
             </button>
