@@ -153,6 +153,7 @@
     align-items: center;
     /* Garante que o ícone de medalha padrão esteja centralizado */
     justify-content: center;
+
 }
 
 .medalIcon2 {
@@ -292,6 +293,10 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     }
 
+    .medalIcon2Container {
 
+        margin-right: 32px;
+        margin-left: 22px;
+    }
 
 }
