@@ -30,21 +30,56 @@
     width: 25px;
     background-color: #333;
     margin: 3px 0;
-    transition: 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    /* Suaviza transformações e opacidade */
 }
 
-.change {
-    background-color: green;
-    /* Change color to green when active */
-    transform: rotate(45deg);
+.change:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    /* Move a primeira barra para baixo e rotaciona */
 }
 
 .change:nth-child(2) {
     opacity: 0;
+    /* Oculta a barra do meio */
 }
 
 .change:nth-child(3) {
-    transform: rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+    /* Move a terceira barra para cima e rotaciona */
+}
+
+/* Estilo do dropdown */
+.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    /* Abre para a direita */
+    background-color: #fff;
+    z-index: 5;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    /* Ajusta para tocar o hamburger */
+    right: 0;
+    /* Abre para a direita */
+    background-color: #fff;
+    z-index: 10;
+    /* Higher z-index to appear above other elements */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    /* Remove margin to touch hamburger */
+    padding: 0;
+    /* Remove padding */
+    list-style: none;
+    /* Remove bullets from the dropdown items */
 }
 
 .navList {
@@ -85,40 +120,6 @@
 
 .text {
     display: inline;
-}
-
-.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    /* Centraliza a lista dropdown */
-    transform: translateX(-50%);
-    /* Ajusta a posição para centralizar corretamente */
-    background-color: #fff;
-    z-index: 5;
-}
-
-.dropdown {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    /* Adjust to make dropdown touch the hamburger */
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    z-index: 10;
-    /* Higher z-index to appear above other elements */
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 0;
-    /* Remove margin to touch hamburger */
-    padding: 0;
-    /* Remove padding */
-    list-style: none;
-    /* Remove bullets from the dropdown items */
 }
 
 .dropdown .navItem {
@@ -177,7 +178,6 @@
 @media (max-width: 980px) {
     .hamburger {
         display: flex;
-
     }
 
     .navList {

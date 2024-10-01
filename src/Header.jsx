@@ -77,6 +77,7 @@ const Header = () => {
                             src={`${apiUrl}/${userData.photo}`}
                             alt="User"
                             className={styles.userPhoto}
+                            onError={(e) => { e.target.src = '/assets/user_photo.png'; }}
                         />
                         <div className={styles.userDetails}>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

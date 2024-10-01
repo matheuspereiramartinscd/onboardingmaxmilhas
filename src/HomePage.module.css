@@ -27,4 +27,22 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-@media (max-width: 870px) {}
+@media (max-width: 490px) {
+    .courseTitle {
+        margin: 20px 0 15px 0;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        /* Cor branca */
+    }
+
+    .separator {
+        border: none;
+        border-top: 1px solid #ffffff;
+        margin: 0 0 51.4995px;
+        /* Ajuste conforme necessário */
+        width: 100%;
+        margin-top: -3px;
+    }
+}
