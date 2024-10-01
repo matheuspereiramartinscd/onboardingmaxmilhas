@@ -89,6 +89,38 @@ app.put('/api/users/update-course-lessons', async (req, res) => {
     }
 });
 
+app.post('/api/users/replicate-courses/:sourceUserId', async (req, res) => {
+    const { sourceUserId } = req.params; // ID do usuário de origem
+
+    try {
+        // Encontra o usuário de origem para obter os cursos
+        const sourceUser = await User.findById(sourceUserId);
+
+        if (!sourceUser) {
+            return res.status(404).json({ message: 'Usuário de origem não encontrado.' });
+        }
+
+        // Obter os cursos do usuário de origem
+        const coursesToReplicate = sourceUser.courses;
+
+        // Atualiza todos os outros usuários com os cursos do usuário de origem
+        const result = await User.updateMany(
+            { _id: { $ne: sourceUserId } }, // Atualiza todos os usuários exceto o de origem
+            { $set: { courses: coursesToReplicate } } // Define os cursos do usuário de origem
+        );
+
+        // Verifica se alguma atualização foi feita
+        if (result.modifiedCount > 0) {
+            res.status(200).json({ message: `Cursos do usuário '${sourceUser.email}' replicados para ${result.modifiedCount} usuários.` });
+        } else {
+            res.status(404).json({ message: 'Nenhum usuário encontrado para atualizar.' });
+        }
+    } catch (error) {
+        console.error('Erro ao replicar cursos:', error);
+        res.status(500).json({ message: 'Erro ao replicar cursos', error: error.message });
+    }
+});
+
 app.put('/api/users/:id/update-course-lessons', async (req, res) => {
     const { id } = req.params; // ID do usuário
     const { courseName, newLesson } = req.body; // O nome do curso e a nova lição a ser adicionada
