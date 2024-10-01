@@ -63,6 +63,7 @@
 .questTitle {
     font-weight: bold;
     font-size: 26px;
+    text-align: left;
     color: rgba(75, 65, 65, 0.973);
     margin-bottom: 10px;
 }
@@ -70,6 +71,7 @@
 .options {
     display: flex;
     flex-direction: column;
+
 }
 
 .option {
@@ -78,11 +80,17 @@
     font-size: 17px;
     display: flex;
     align-items: center;
+    margin-right: 10px;
+}
+
+.marginRight {
+    margin-right: 15px;
 }
 
 .radioInput {
     accent-color: green;
     margin-right: 10px;
+
 }
 
 .submitButton {

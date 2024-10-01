@@ -13,8 +13,8 @@ const QuizResultsPage = () => {
     const [points, setPoints] = useState(0);
     const [pointsAwarded, setPointsAwarded] = useState(false);
 
-    // Lógica para calcular pontos com base na porcentagem
     useEffect(() => {
+        // Calcular pontos com base na porcentagem
         if (percentage === 100) {
             setPoints(15000);
         } else if (percentage >= 90) {
@@ -46,14 +46,13 @@ const QuizResultsPage = () => {
     useEffect(() => {
         const updateUserPoints = async () => {
             const userId = localStorage.getItem('userId');
-            const pointsAlreadyAwarded = localStorage.getItem('pointsAwarded'); // Check if points were awarded
+            const pointsAlreadyAwarded = localStorage.getItem('pointsAwarded');
 
             if (userId && points > 0 && !pointsAwarded) {
                 try {
-                    // Use uma URL dinâmica com base no ambiente
                     const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
                     await axios.put(`${apiUrl}/api/users/${userId}/score`, {
-                        score: points // Enviar a quantidade de pontos
+                        score: points
                     }, {
                         headers: {
                             'Authorization': `Bearer ${localStorage.getItem('token')}`,
@@ -61,7 +60,7 @@ const QuizResultsPage = () => {
                     });
                     console.log('Pontuação atualizada com sucesso!');
                     setPointsAwarded(true);
-                    localStorage.setItem('pointsAwarded', 'true'); // Set flag in localStorage
+                    localStorage.setItem('pointsAwarded', 'true');
                 } catch (error) {
                     console.error('Erro ao atualizar a pontuação:', error);
                 }
@@ -72,14 +71,13 @@ const QuizResultsPage = () => {
     }, [points, pointsAwarded]);
 
     const handleRetakeQuiz = () => {
-        localStorage.removeItem('pointsAwarded'); // Reset the points awarded flag
+        localStorage.removeItem('pointsAwarded');
         setPointsAwarded(false);
-        navigate('/quiz'); // Navigate to the quiz page
+        navigate('/quiz');
     };
 
     return (
         <div className={styles.resultsPage}>
-
             <div className={styles.titleContainer}>
                 <h1 className={styles.newTitle}>Resultados do Quiz</h1>
                 <hr className={styles.separator} />
@@ -103,20 +101,25 @@ const QuizResultsPage = () => {
                     >
                         <div className={styles.questTitle}>{index + 1}. {item.question}</div>
                         <div className={styles.options}>
-                            {item.options.map((option, idx) => (
-                                <div key={idx} className={styles.option}>
-                                    {option[0] === answers[index] ? (
-                                        answers[index] === item.correctAnswer ? (
-                                            <span className={styles.correctIcon}>✔️</span>
+                            {item.options.map((option, idx) => {
+                                const isSelected = option === answers[index]; // Verifica se a opção foi selecionada
+                                const isCorrect = option === item.correctAnswer; // Verifica se a opção é correta
+
+                                return (
+                                    <div key={idx} className={styles.option}>
+                                        {isSelected ? (
+                                            isCorrect ? (
+                                                <span className={styles.correctIcon}>✔️</span> // Ícone verde para resposta correta
+                                            ) : (
+                                                <span className={styles.incorrectIcon}>❌</span> // Ícone vermelho para resposta errada
+                                            )
                                         ) : (
-                                            <span className={styles.incorrectIcon}>❌</span>
-                                        )
-                                    ) : (
-                                        <span className={styles.optionLetter}>{option[0]}. </span>
-                                    )}
-                                    <span className={styles.optionText}>{option.slice(3)}</span>
-                                </div>
-                            ))}
+                                            <span className={styles.optionLetter}>{String.fromCharCode(65 + idx)}. </span> // Letra da opção se não selecionada
+                                        )}
+                                        <span className={styles.optionText}>{option}</span>
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                 ))}

@@ -1,5 +1,7 @@
 import styles from './QuizQuestionsPage.module.css';
 import React, { useState, useEffect } from 'react';
+import Radio from '@mui/material/Radio';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from './Header';
 
@@ -600,9 +602,7 @@ const getRandomQuestions = (questions, limit = 10) => {
         return questions;
     }
 
-    // Embaralha as perguntas
     const shuffled = questions.sort(() => 0.5 - Math.random());
-    // Seleciona as 10 primeiras perguntas
     return shuffled.slice(0, limit);
 };
 
@@ -618,7 +618,7 @@ const QuizQuestionsPage = () => {
         if (course) {
             const questions = getRandomQuestions(course.questions);
             setQuestionsToShow(questions);
-            setAnswers(Array(questions.length).fill(null)); // Inicializa as respostas como null
+            setAnswers(Array(questions.length).fill(null));
         }
     }, [course]);
 
@@ -630,7 +630,6 @@ const QuizQuestionsPage = () => {
             </div>
         );
     }
-
     const handleAnswerChange = (questionIndex, answer) => {
         const newAnswers = [...answers];
         newAnswers[questionIndex] = answer;
@@ -652,10 +651,12 @@ const QuizQuestionsPage = () => {
             },
         });
     };
+    const getLetter = (index) => {
+        return String.fromCharCode(65 + index); // 65 é o código ASCII para 'A'
+    };
 
     return (
         <div className={styles.quizPage}>
-
             <div className={styles.titleContainer}>
                 <h2 className={styles.stylizedTitle}>Quiz</h2>
                 <hr className={styles.separator} />
@@ -678,7 +679,7 @@ const QuizQuestionsPage = () => {
                                                 onChange={() => handleAnswerChange(index, option)}
                                                 className={styles.radioInput}
                                             />
-                                            <span className={styles.optionText}>{option}</span>
+                                            <span className={styles.optionText}><span className={styles.marginRight}>{getLetter(idx)}.</span> {option}</span> {/* Adiciona a letra */}
                                         </label>
                                     ))}
                                 </div>
@@ -691,5 +692,6 @@ const QuizQuestionsPage = () => {
         </div>
     );
 };
+
 
 export default QuizQuestionsPage;
