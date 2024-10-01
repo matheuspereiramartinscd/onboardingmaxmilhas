@@ -15,6 +15,11 @@ const Navigation = () => {
         setIsActive(!isActive);
     };
 
+    // Função para fechar o menu ao clicar em um link
+    const handleLinkClick = () => {
+        setIsActive(false);
+    };
+
     return (
         <nav className={styles.navigation}>
             <div className={styles.hamburger} onClick={toggleMenu}>
@@ -24,31 +29,31 @@ const Navigation = () => {
             </div>
             <ul className={`${styles.navList} ${isActive ? styles.active : ''}`}>
                 <li className={styles.navItem}>
-                    <Link to="/home" className={styles.navLink}>
+                    <Link to="/home" className={styles.navLink} onClick={handleLinkClick}>
                         <span className={styles.icon}><img src={cursosIcon} alt="Cursos" /></span>
                         <span className={styles.text}>Cursos</span>
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link to="/quiz" className={styles.navLink}>
+                    <Link to="/quiz" className={styles.navLink} onClick={handleLinkClick}>
                         <span className={styles.icon}><img src={quizIcon} alt="Quiz" /></span>
                         <span className={styles.text}>Quiz</span>
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link to="/ranking" className={styles.navLink}>
+                    <Link to="/ranking" className={styles.navLink} onClick={handleLinkClick}>
                         <span className={styles.icon}><img src={rankingIcon} alt="Ranking de Colaboradores" /></span>
                         <span className={styles.text}>Ranking</span>
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link to="/faq" className={styles.navLink}>
+                    <Link to="/faq" className={styles.navLink} onClick={handleLinkClick}>
                         <span className={styles.icon}><img src={faqIcon} alt="FAQ" /></span>
                         <span className={styles.text}>FAQ</span>
                     </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link to="/links" className={styles.navLink}>
+                    <Link to="/links" className={styles.navLink} onClick={handleLinkClick}>
                         <span className={styles.icon}><img src={linksIcon} alt="Links úteis" /></span>
                         <span className={styles.text}>Links</span>
                     </Link>
@@ -57,19 +62,19 @@ const Navigation = () => {
             {isActive && (
                 <ul className={styles.dropdown}>
                     <li className={styles.navItem}>
-                        <Link to="/home" className={styles.navLink}>Cursos</Link>
+                        <Link to="/home" className={styles.navLink} onClick={handleLinkClick}>Cursos</Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link to="/quiz" className={styles.navLink}>Quiz</Link>
+                        <Link to="/quiz" className={styles.navLink} onClick={handleLinkClick}>Quiz</Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link to="/ranking" className={styles.navLink}>Ranking</Link>
+                        <Link to="/ranking" className={styles.navLink} onClick={handleLinkClick}>Ranking</Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link to="/faq" className={styles.navLink}>FAQ</Link>
+                        <Link to="/faq" className={styles.navLink} onClick={handleLinkClick}>FAQ</Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link to="/links" className={styles.navLink}>Links</Link>
+                        <Link to="/links" className={styles.navLink} onClick={handleLinkClick}>Links</Link>
                     </li>
                 </ul>
             )}
