@@ -61,6 +61,37 @@ app.put('/api/users/add-course', async (req, res) => {
     }
 });
 
+app.put('/api/users/:id/add-course', async (req, res) => {
+    const { id } = req.params; // ID do usuário a ser atualizado
+    const { courseName } = req.body; // Nome do novo curso a ser adicionado
+
+    if (!courseName) {
+        return res.status(400).json({ message: 'Nome do curso é necessário' });
+    }
+
+    try {
+        // Atualiza o usuário específico, adicionando o novo curso ao array de cursos
+        const result = await User.updateOne(
+            { _id: id }, // Busca o usuário pelo ID
+            {
+                $addToSet: {
+                    courses: { course: courseName, progress: 0, lessons: [] } // Inicializa o progresso e as lições
+                }
+            }
+        );
+
+        if (result.modifiedCount === 0) {
+            return res.status(404).json({ message: 'Usuário não encontrado ou curso já existe' });
+        }
+
+        res.status(200).json({ message: `Curso '${courseName}' adicionado ao usuário com ID '${id}'.` });
+    } catch (error) {
+        console.error('Erro ao adicionar curso ao usuário:', error);
+        res.status(500).json({ message: 'Erro ao adicionar curso', error: error.message });
+    }
+});
+
+
 // Route for updating lessons of an existing course for all users
 app.put('/api/users/update-course-lessons', async (req, res) => {
     const { courseName, newLesson } = req.body; // O nome do curso e a nova lição a ser adicionada
@@ -269,6 +300,56 @@ app.delete('/api/users/delete-lesson/:courseName/:lessonTitle', async (req, res)
         res.status(500).send({ message: 'Erro ao deletar lição.', error });
     }
 });
+
+app.delete('/api/users/:id/delete-lesson/:courseName/:lessonTitle', async (req, res) => {
+    const { id } = req.params; // ID do usuário a ser atualizado
+    const { courseName, lessonTitle } = req.params; // Nome do curso e título da lição a ser deletada
+
+    try {
+        // Atualiza o usuário específico, removendo a lição do curso especificado
+        const result = await User.updateOne(
+            { _id: id, 'courses.course': courseName }, // Busca o usuário pelo ID e pelo nome do curso
+            { $pull: { 'courses.$.lessons': { title: lessonTitle } } } // Remove a lição especificada
+        );
+
+        if (result.modifiedCount === 0) {
+            return res.status(404).send({ message: 'Usuário não encontrado ou lição não existe no curso especificado.' });
+        }
+
+        res.status(200).send({ message: `Lição "${lessonTitle}" deletada do curso "${courseName}" do usuário com ID "${id}".` });
+    } catch (error) {
+        console.error('Erro ao deletar lição:', error);
+        res.status(500).send({ message: 'Erro ao deletar lição.', error: error.message });
+    }
+});
+
+app.put('/api/users/:id/add-lesson/:courseName', async (req, res) => {
+    const { id } = req.params; // ID do usuário a ser atualizado
+    const { courseName } = req.params; // Nome do curso em que a lição será adicionada
+    const { newLesson } = req.body; // A nova lição a ser adicionada
+
+    if (!newLesson || !newLesson.title) {
+        return res.status(400).json({ message: 'Uma nova lição (com título) é necessária.' });
+    }
+
+    try {
+        // Atualiza o usuário específico, adicionando a nova lição ao curso especificado
+        const result = await User.updateOne(
+            { _id: id, 'courses.course': courseName }, // Busca o usuário pelo ID e pelo nome do curso
+            { $addToSet: { 'courses.$.lessons': newLesson } } // Adiciona a nova lição ao array de lições
+        );
+
+        if (result.modifiedCount === 0) {
+            return res.status(404).send({ message: 'Usuário não encontrado ou curso não existe.' });
+        }
+
+        res.status(200).send({ message: `Lição "${newLesson.title}" adicionada ao curso "${courseName}" do usuário com ID "${id}".` });
+    } catch (error) {
+        console.error('Erro ao adicionar lição:', error);
+        res.status(500).send({ message: 'Erro ao adicionar lição.', error: error.message });
+    }
+});
+
 
 // Start the server
 startServer();

@@ -77,56 +77,9 @@ const lessonsData = {
             </div>
         )
     },
-    /*'cockpit': {
-        title: 'Cockpit',
-        videoUrl: 'https://www.youtube.com/embed/watch?v=3Df-26ZtIPA',
-        description: (
-            <div>
-                <p className={styles.contentParagraph}>Cockpit</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
-            </div>
-        )
-    },
-    'ofertantes': {
-        title: 'Ofertantes',
-        videoUrl: 'https://www.youtube.com/embed/watch?v=3Df-26ZtIPA',
-        description: (
-            <div>
-                <p className={styles.contentParagraph}>Ofertantes</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
-            </div>
-        )
-    },
-    'comentarios': {
-        title: 'Comentários',
-        videoUrl: 'https://www.youtube.com/embed/watch?v=3Df-26ZtIPA',
-        description: (
-            <div>
-                <p className={styles.contentParagraph}>Comentários</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
-            </div>
-        )
-    },
-    'prejuizos': {
-        title: 'Prejuízos',
-        videoUrl: 'https://www.youtube.com/embed/watch?v=3Df-26ZtIPA',
-        description: (
-            <div>
-                <p className={styles.contentParagraph}>Prejuízos</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
-            </div>
-        )
-    },
-    */
 };
 
-const defaultLessons = [
-    /*{ title: 'bem-vindo-curso', duration: 5, completed: false },
-    { title: 'cockpit', duration: 4, completed: false },
-    { title: 'ofertantes', duration: 4, completed: false },
-    { title: 'comentarios', duration: 10, completed: false },
-    { title: 'prejuizos', duration: 10, completed: false },*/
-];
+const defaultLessons = [];
 
 const CourseDetailPage = () => {
     const { id, lesson } = useParams();
@@ -246,9 +199,11 @@ const CourseDetailPage = () => {
 
     const pageTitle = coursesData[id] || 'Curso desconhecido';
 
+    // Lógica para verificar se a lição atual é uma "bem-vindo"
+    const isWelcomeLesson = lesson.startsWith('bem-vindo');
+
     return (
         <div className={styles.courseDetail}>
-
             <h2 className={styles.courseTitle}>{pageTitle}</h2>
             <hr className={styles.separator} />
             <div className={styles.contentContainer}>
@@ -266,39 +221,32 @@ const CourseDetailPage = () => {
                 <div className={styles.infoContainer}>
                     <div className={styles.progressPanel}>
                         <h2 className={styles.progressLabel}>Progresso do curso</h2>
-                        <div className={styles.progressBarContainer}>
-                            <div className={styles.progressBar} style={{ width: `${progress}%` }}></div>
-                        </div>
-                        <div className={styles.progressPercentage}>{Math.round(progress)}% concluído</div>
+                        <progress value={progress} max={100} />
+                        <p>{Math.round(progress)}%</p>
                         <button className={styles.resetButton} onClick={handleResetProgress}>Reiniciar Progresso</button>
                     </div>
-
-                    <div className={styles.checklist}>
-                        <h2>Aulas</h2>
-                        <hr className={styles.checklistSeparator} />
-                        {lessons.map((lesson, index) => (
-                            <div key={index} className={styles.lessonItem}>
-                                <Link to={`/curso/${id}/${lesson.title}`}>
-                                    {lesson.completed ? '✔️' : '⚪️'} {lessonsData[lesson.title]?.title || lesson.title.replace(/-/g, ' ').toUpperCase()}
-                                </Link>
-                                <div className={styles.durationBox}>{lesson.duration}m</div>
-                            </div>
-                        ))}
+                    <div className={styles.descriptionContainer}>
+                        <h2 className={styles.descriptionLabel}>Descrição</h2>
+                        {lessonData.description}
                     </div>
                 </div>
             </div>
+
             <div className={styles.textContainer}>
                 <h1 className={styles.title}>{lessonData.title}</h1>
                 <p className={styles.description}>
                     {lessonData.description}
                 </p>
 
-                <button
-                    className={styles.completeButton}
-                    onClick={handleCompleteLesson}
-                >
-                    Concluir Aula
-                </button>
+                {/* Verifique se o título da lição não começa com 'bem-vindo' antes de renderizar o botão */}
+                {!isWelcomeLesson && (
+                    <button
+                        className={styles.completeButton}
+                        onClick={handleCompleteLesson}
+                    >
+                        Concluir Aula
+                    </button>
+                )}
 
                 {/* Mensagem informando sobre o status do quiz */}
                 {progress < 100 ? (
