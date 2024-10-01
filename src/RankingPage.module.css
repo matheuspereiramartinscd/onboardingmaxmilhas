@@ -110,7 +110,8 @@
     /* Alinhamento à esquerda */
     justify-content: center;
     overflow: hidden;
-    /* Para evitar que o texto saia do card */
+    margin-top: -5px
+        /* Para evitar que o texto saia do card */
 }
 
 .userName {
@@ -158,7 +159,7 @@
 
 .medalIcon2 {
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 29px;
     margin-right: 38px;
     line-height: 1;
     /* Ajusta a altura da linha para evitar desalinhamento */
@@ -174,6 +175,15 @@
         max-width: 1000px;
         padding: 2rem;
         width: 90%;
+    }
+
+    .userInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Alinha o nome e os pontos à esquerda */
+        justify-content: center;
+        margin-top: -10px;
     }
 }
 
@@ -195,7 +205,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 15px;
+        margin-right: -15px;
+
         /* Espaço entre a imagem e as informações do usuário */
     }
 
@@ -217,6 +228,13 @@
         align-items: flex-start;
         /* Alinha o nome e os pontos à esquerda */
         justify-content: center;
+        margin-top: -3px;
+    }
+
+
+
+    .userName {
+        font-size: 14px;
     }
 
     .pointsContainer {
@@ -224,6 +242,16 @@
         align-items: center;
         justify-content: flex-start;
         margin-top: 5px;
+
+    }
+
+    .pointsLabel {
+        font-size: 10px;
+    }
+
+    .points {
+        font-size: 10px;
+        margin-left: -2px
     }
 
     .medalIcon2 {
@@ -256,20 +284,28 @@
     .userPhoto {
         width: 60px;
         height: 60px;
+
     }
 
     .medalIcon {
         width: 50px;
         height: 50px;
-        margin-right: 10px;
+        margin-right: 0px;
+        margin-left: -16px;
     }
+
+
 
     .userInfo {
         display: flex;
+
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        margin-right: -1000px;
     }
+
+
 
     .pointsContainer {
         display: flex;
@@ -281,8 +317,8 @@
     .medalIcon2 {
         font-size: 18px;
         /* Ajuste adicional para telas pequenas */
-        margin-right: -4px;
-        margin-left: -9px;
+        margin-right: -100px;
+        margin-left: -90px;
     }
 
     .pageTitle {
@@ -296,7 +332,16 @@
     .medalIcon2Container {
 
         margin-right: 32px;
-        margin-left: 22px;
+        margin-left: 4px;
+    }
+
+    .coinsIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .imageContainer {
+        margin-right: -25px;
     }
 
 }
