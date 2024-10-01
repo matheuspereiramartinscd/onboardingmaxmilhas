@@ -2,6 +2,7 @@ import styles from './Header.module.css';
 import React, { useEffect, useState } from 'react';
 import Navigation from './Navigation';
 import logo from './assets/logo.png';
+import gear from './assets/gear.png'; // Importe a logo para os placeholders
 import maxmilhasLogo from './assets/maxmilhas-logo.png';
 import coin_icon from './assets/coin_icon.png'; // Certifique-se de que esta imagem possa ser colorida
 import { Link } from 'react-router-dom';
@@ -88,7 +89,7 @@ const Header = () => {
                     </>
                 ) : (
                     <div className={styles.placeholder}>
-                        <img src={logo} alt="Placeholder" className={styles.userPhoto} />
+                        <img src={gear} alt="Placeholder" className={styles.userPhoto} />
                         <div className={styles.userDetails}>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <span className={styles.username}>Carregando, um momento...</span>

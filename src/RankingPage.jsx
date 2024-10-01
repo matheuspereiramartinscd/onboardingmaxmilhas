@@ -4,6 +4,7 @@ import { FaMedal } from 'react-icons/fa'; // Usando o ícone de medalha
 import axios from 'axios';
 import coin_icon from './assets/coin_icon.png'; // Importando o ícone de moedas
 import logo from './assets/logo.png'; // Importe a logo para os placeholders
+import gear from './assets/gear.png'; // Importe a logo para os placeholders
 
 // URLs das medalhas
 const medalUrls = [
