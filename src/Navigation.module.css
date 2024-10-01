@@ -184,6 +184,10 @@
         display: none;
     }
 
+    .navigation {
+        margin-right: 5px;
+    }
+
     .icon {
         display: none;
     }
