@@ -23,11 +23,12 @@
     border: none;
     border-top: 1px solid white;
     margin: 0;
+    margin-bottom: 2px;
 }
 
 .resultsContainer {
     background-color: #ffffff;
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     padding: 40px;
     border-radius: 30px 30px 0px 0px;
@@ -62,6 +63,7 @@
     margin: 10px 0;
     /* Margin for spacing */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+
     /* Light shadow for depth */
 }
 
@@ -102,8 +104,9 @@
 
 .option {
     display: flex;
-    align-items: center;
+    align-items: left;
     margin-bottom: 10px;
+    margin-top: 16px;
     font-size: 17px;
     width: 100%;
     justify-content: flex-start;
@@ -179,9 +182,11 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 870px) {
     .newTitle {
-        font-size: 28px;
+        font-size: 32px;
+        margin-top: 2px;
+        margin-bottom: 14px;
     }
 
     .resultsContainer {
@@ -192,6 +197,10 @@
     .scoreBox {
         max-width: 100%;
         font-size: 20px;
+    }
+
+    .separator {
+        margin-bottom: 21px;
     }
 
     .scoreText,
@@ -210,20 +219,42 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 490px) {
     .newTitle {
-        font-size: 32px;
+        font-size: 24px;
+        margin-bottom: 9px;
     }
 
     .resultsContainer {
         padding: 30px;
+        margin-top: 47px;
     }
 
     .scoreBox {
         max-width: 90%;
     }
 
-    .questTitle {
+    .percentageText {
+        font-size: 20px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+
+    .scorePoints {
+        font-size: 20px;
+    }
+
+    .scoreText {
         font-size: 24px;
+    }
+
+    .questTitle {
+        font-size: 16px;
+    }
+
+    .separator {
+        margin-bottom: 5px;
     }
 }

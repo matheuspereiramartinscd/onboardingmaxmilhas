@@ -607,6 +607,7 @@ const getRandomQuestions = (questions, limit = 10) => {
 };
 
 const QuizQuestionsPage = () => {
+
     const { courseId } = useParams();
     const navigate = useNavigate();
     const course = courses.find(c => c.id === courseId);
@@ -650,6 +651,7 @@ const QuizQuestionsPage = () => {
                 questions: questionsToShow,
             },
         });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     const getLetter = (index) => {
         return String.fromCharCode(65 + index); // 65 é o código ASCII para 'A'
