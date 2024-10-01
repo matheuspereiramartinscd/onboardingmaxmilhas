@@ -41,14 +41,6 @@ const Navigation = () => {
                         <span className={styles.text}>Ranking</span>
                     </Link>
                 </li>
-                {/* 
-<li className={styles.navItem}>
-    <Link to="http://localhost/phpBB3/" className={styles.navLink}>
-        <span className={styles.icon}><img src={forumIcon} alt="Fórum de dúvidas" /></span>
-        <span className={styles.text}>Fórum</span>
-    </Link>
-</li> 
-*/}
                 <li className={styles.navItem}>
                     <Link to="/faq" className={styles.navLink}>
                         <span className={styles.icon}><img src={faqIcon} alt="FAQ" /></span>
@@ -73,9 +65,6 @@ const Navigation = () => {
                     <li className={styles.navItem}>
                         <Link to="/ranking" className={styles.navLink}>Ranking</Link>
                     </li>
-                    {/*  <li className={styles.navItem}>
-                        <Link to="http://localhost/phpBB3/" className={styles.navLink}>Fórum</Link>
-                        */}
                     <li className={styles.navItem}>
                         <Link to="/faq" className={styles.navLink}>FAQ</Link>
                     </li>

@@ -2,17 +2,16 @@ import styles from './Header.module.css';
 import React, { useEffect, useState } from 'react';
 import Navigation from './Navigation';
 import logo from './assets/logo.png';
-import gear from './assets/gear.png'; // Importe a logo para os placeholders
+import gear from './assets/gear.png'; // Placeholder image
 import maxmilhasLogo from './assets/maxmilhas-logo.png';
-import coin_icon from './assets/coin_icon.png'; // Certifique-se de que esta imagem possa ser colorida
+import coin_icon from './assets/coin_icon.png';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpinner } from '@fortawesome/free-solid-svg-icons'; // Certifique-se de ter o ícone do carregador
 
 const Header = () => {
     const [userData, setUserData] = useState(null);
+    const [loading, setLoading] = useState(true); // Loading state
 
-    // Defina a URL da API
+    // Define the API URL
     const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
     const fetchUserData = async (storedUserEmail) => {
@@ -42,6 +41,8 @@ const Header = () => {
             }
         } catch (error) {
             console.error('Erro ao buscar dados do usuário:', error);
+        } finally {
+            setLoading(false); // Set loading to false after fetching data
         }
     };
 
@@ -67,9 +68,10 @@ const Header = () => {
                 <img src={logo} alt="Logo" className={styles.logo} />
                 <img src={maxmilhasLogo} alt="Maxmilhas logo" className={styles.newLogo} />
             </div>
-            <Navigation />
-            <div className={styles.userInfo}>
-                {userData ? (
+            {/* Render Navigation only if user data is loaded */}
+            {userData && !loading && <Navigation />}
+            <div className={styles.userInfo} style={{ visibility: loading ? 'hidden' : 'visible' }}>
+                {userData && (
                     <>
                         <img
                             src={`${apiUrl}/${userData.photo}`}
@@ -87,20 +89,6 @@ const Header = () => {
                             </div>
                         </div>
                     </>
-                ) : (
-                    <div className={styles.placeholder}>
-                        <img src={gear} alt="Placeholder" className={styles.userPhoto} />
-                        <div className={styles.userDetails}>
-                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <span className={styles.username}>Carregando, um momento...</span>
-                                <Link to="#" className={styles.editButton}>Editar</Link>
-                            </div>
-                            <div className={styles.pointsContainer}>
-                                <FontAwesomeIcon icon={faSpinner} spin className={styles.loadingIcon} style={{ width: '16px', height: '16px' }} /> {/* Smaller spinner icon */}
-                                <span className={styles.points}>0 pts</span> {/* Displaying 0 points while loading */}
-                            </div>
-                        </div>
-                    </div>
                 )}
             </div>
         </header>
