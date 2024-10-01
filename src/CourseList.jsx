@@ -51,12 +51,12 @@ const courses = [
         ],
     },
     {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        id: 'Preujuizos',
+        imageUrl: require('./assets/card-prejuizos.jpg'),
+        title: "Prejuizos",
+        description: "O impacto de erros e prejuizos no setor de emissoes",
         lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
+            { title: 'bem-vindo-curso-prejuizos', completed: false }
         ],
     },
     {
