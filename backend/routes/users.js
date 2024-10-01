@@ -7,10 +7,10 @@ const router = express.Router();
 // Configuração do multer para armazenamento de arquivos
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, 'uploads/');
+        cb(null, 'uploads/'); // Pasta onde os arquivos serão salvos
     },
     filename: (req, file, cb) => {
-        cb(null, Date.now() + path.extname(file.originalname));
+        cb(null, Date.now() + path.extname(file.originalname)); // Nome do arquivo
     }
 });
 
@@ -48,9 +48,9 @@ router.post('/', upload.single('photo'), async (req, res) => {
             name,
             email,
             password,
-            photo: req.file ? req.file.path : 'uploads/user_photo.png',
-            score: 0,
-            courses: [
+            photo: req.file ? req.file.path : 'uploads/user_photo.png', // Se uma foto não foi enviada, usa a imagem padrão
+            score: 0, // Pontuação inicial
+            courses: [ // Adicionando cursos iniciais
                 { course: 'cockpit', progress: 0, lessons: [] },
                 { course: 'milhas', progress: 0, lessons: [] },
                 { course: 'historia', progress: 0, lessons: [] },
@@ -61,73 +61,89 @@ router.post('/', upload.single('photo'), async (req, res) => {
         });
 
         await newUser.save();
-        res.status(201).json(newUser);
+        res.status(201).json(newUser); // Retorna o usuário criado
     } catch (error) {
         res.status(500).json({ message: 'Erro ao criar usuário', error: error.message });
     }
 });
 
 // Rota para atualizar um usuário
-router.put('/:userId', upload.single('photo'), async (req, res) => {
-    const { userId } = req.params;
-    const { name } = req.body;
-
+router.put('/update/:id', upload.single('photo'), async (req, res) => {
     try {
-        const user = await User.findById(userId);
-        if (!user) {
-            return res.status(404).json({ message: 'Usuário não encontrado' });
+        const { id } = req.params;
+        const { name, email } = req.body;
+        const user = await User.findById(id);
+
+        if (req.file) {
+            // Atualiza a foto do usuário com o caminho do arquivo local
+            user.photo = req.file.path; // Armazena o caminho da foto local
         }
 
+        // Atualiza outros campos do usuário
         user.name = name || user.name;
-        if (req.file) {
-            user.photo = req.file.path;
-        }
+        user.email = email || user.email;
 
         await user.save();
-        res.status(200).json(user);
+        res.status(200).json({ message: 'Usuário atualizado com sucesso!', user });
     } catch (error) {
-        res.status(500).json({ message: 'Erro ao atualizar usuário', error: error.message });
+        res.status(500).json({ message: 'Erro ao atualizar o usuário', error });
     }
 });
 
 // Rota para atualizar a pontuação do usuário
 router.put('/:id/score', async (req, res) => {
-    const { id } = req.params;
-    const scoreUpdate = Number(req.body.score);
+    console.log('Incoming Request Body:', req.body); // Log the entire request body
 
+    const { id } = req.params;
+    const scoreUpdate = Number(req.body.score); // Use 'score' from the request body
+
+    // Validate score
     if (isNaN(scoreUpdate)) {
+        console.log('Invalid score:', req.body.score); // Log the invalid score
         return res.status(400).json({ message: 'Pontuação deve ser um número' });
     }
 
     try {
         const user = await User.findById(id);
         if (!user) {
+            console.log('User not found:', id); // Log if user is not found
             return res.status(404).json({ message: 'Usuário não encontrado' });
         }
 
-        user.score += scoreUpdate;
+        // Update score
+        user.score += scoreUpdate; // Update the user's score
         await user.save();
+
+        console.log('Updated Score:', user.score); // Log the updated score
         res.status(200).json({ score: user.score });
     } catch (error) {
+        console.error('Error updating score:', error); // Log any error that occurs
         res.status(500).json({ message: 'Erro ao atualizar a pontuação', error: error.message });
     }
 });
 
 // Rota para buscar progresso de um curso específico do usuário
 router.get('/:userId/progress/:course', async (req, res) => {
+    console.log('Params:', req.params);  // Log incoming parameters
+
     try {
         const user = await User.findById(req.params.userId);
         if (!user) {
+            console.log('User not found');
             return res.status(404).json({ error: 'Usuário não encontrado' });
         }
 
+        console.log('User found:', user);  // Log the found user
+
         const courseProgress = user.courses.find(c => c.course === req.params.course);
         if (!courseProgress) {
+            console.log('Course progress not found for course:', req.params.course);
             return res.status(404).json({ error: 'Progresso do curso não encontrado' });
         }
 
         res.json(courseProgress);
     } catch (error) {
+        console.error('Error fetching course progress:', error);
         res.status(500).json({ error: 'Erro interno do servidor' });
     }
 });
@@ -159,6 +175,7 @@ router.put('/:userId/progress/:course', async (req, res) => {
     }
 });
 
+// Endpoint para deletar um curso do usuário
 router.delete('/users/delete-course/:id', async (req, res) => {
     try {
         const { id } = req.params;
@@ -170,5 +187,6 @@ router.delete('/users/delete-course/:id', async (req, res) => {
 });
 
 // Endpoint para deletar uma lição de um curso
+// Implementar a lógica aqui, se necessário
 
-module.exports = router;
+module.exports = router; 

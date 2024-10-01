@@ -20,9 +20,13 @@
     /* Margem à direita para espaçamento */
 }
 
-
 .quizMessage {
-    font-size: 40px;
+    text-align: center;
+    /* Centraliza o texto */
+    color: #999;
+    /* Tom cinza */
+    font-size: 16px;
+    /* Tamanho da fonte */
 }
 
 .quizAvailable {
@@ -32,6 +36,26 @@
     /* Adjust font size as needed */
     color: green;
     /* You can change the color */
+}
+
+.progressMessage {
+    text-align: center !important;
+    /* Centraliza o texto */
+    color: #999 !important;
+    /* Tom cinza */
+    font-size: 16px !important;
+    margin-top: 20px;
+    /* Tamanho da fonte */
+}
+
+.quizUnlockedMessage {
+    text-align: center !important;
+    /* Centraliza o texto */
+    color: #28a745 !important;
+    /* Cor verde para a mensagem de sucesso */
+    font-size: 16px !important;
+    margin-top: 20px;
+    /* Tamanho da fonte */
 }
 
 .videoContainer iframe {
@@ -73,6 +97,8 @@
     /* Centraliza horizontalmente */
 }
 
+
+
 .progressPanel2 {
     display: flex;
     /* Centraliza horizontalmente */
@@ -83,12 +109,10 @@
     font-weight: bold;
     text-align: center;
     color: #333;
-
 }
 
 /* Nova barra de progresso */
 .progressBar {
-
     background-color: #4fb835;
     /* Cor de fundo da barra de progresso (contorno) */
     border-radius: 7px;
@@ -103,7 +127,6 @@
 }
 
 .progressBarInner {
-
     background-color: #28a745;
     /* Cor verde da parte preenchida da barra */
     height: 100%;
@@ -116,8 +139,6 @@
     margin-top: 5px;
     /* Espaçamento acima da porcentagem */
     color: #333;
-
-
     /* Sombra para destaque */
 }
 
@@ -195,6 +216,8 @@
     margin-right: auto;
     min-height: calc(100vh - 160px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Adiciona a posição relativa */
 }
 
 .textContainer p {
@@ -202,11 +225,14 @@
     text-align: justify;
     line-height: 1.7;
     color: #333;
+    flex: 1;
+    /* Permite que o parágrafo ocupe o espaço disponível */
 }
 
+/* Botão na parte inferior da caixa de texto */
 .completeButton {
-    display: block;
-    margin: 30px auto 0;
+    margin: 20px auto 0;
+    /* Centraliza o botão */
     padding: 10px 40px;
     background-color: #28a745;
     color: white;
@@ -339,116 +365,30 @@ a:hover {
         align-items: center;
     }
 
-    .description {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #444;
-        padding: 50px;
-    }
-
-    .contentParagraph {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .image {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .lessonTitle {
-        text-align: center;
-        /* Título centralizado */
-        font-size: 32px;
-        margin: 0 0 15px;
-        /* Ajuste a margem para centralização */
-        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
-            0px 8px 13px rgba(0, 0, 0, 0.1),
-            0px 18px 23px rgba(0, 0, 0, 0.1);
-        color: #ffffff;
-    }
-
-    .infoContainer {
-        width: 90%;
-        margin: 20px 0;
-        padding: 10px;
-        order: -1;
-    }
-
     .videoContainer {
-        width: 100%;
-        margin: 0;
-    }
-
-    .videoContainer iframe {
         width: 90%;
-        height: 500px;
-    }
-
-    .textContainer {
-        width: 90%;
-        margin-top: 20px;
-    }
-}
-
-/* Telas menores que 750px */
-@media (max-width: 750px) {
-    .contentContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .description {
-        font-size: 14px;
-        line-height: 1.5;
-        color: #444;
-        padding: 20px;
-    }
-
-    .contentParagraph {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .image {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .lessonTitle {
-        text-align: center;
-        /* Título centralizado */
-        font-size: 28px;
-        margin: 0 0 10px;
-        /* Ajuste a margem para centralização */
-        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
-            0px 8px 13px rgba(0, 0, 0, 0.1),
-            0px 18px 23px rgba(0, 0, 0, 0.1);
-        color: #ffffff;
-    }
-
-    .infoContainer {
-        width: 90%;
-        margin: 20px 0;
-        padding: 10px;
-        order: -1;
-    }
-
-    .videoContainer {
-        width: 100%;
         margin: 0;
     }
 
     .videoContainer iframe {
         width: 90%;
         height: 400px;
-        /* Ajuste a altura para dispositivos móveis */
+        /* Ajuste a altura conforme necessário */
+    }
+
+    .infoContainer {
+        width: 90%;
+        margin: 20px 0;
+        padding: 10px;
     }
 
     .textContainer {
         width: 90%;
         margin-top: 20px;
+    }
+
+    .textContainer p {
+        font-size: 14px;
+        /* Reduz o tamanho da fonte para dispositivos móveis */
     }
 }

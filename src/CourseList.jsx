@@ -1,72 +1,142 @@
 import styles from './CourseList.module.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import CourseCard from './CourseCard';
 
-// Definindo os cursos sem as lições inicialmente
+// Definindo os cursos com suas respectivas lições
 const courses = [
     {
         id: 'cockpit',
         imageUrl: require('./assets/card-cockpit.jpg'),
         title: "Cockpit",
         description: "O cockpit é um sistema web especializado na emissão de passagens aéreas.",
+        lessons: [
+            { title: 'bem-vindo-curso-cockpit', completed: false },
+        ],
     },
     {
         id: 'milhas',
         imageUrl: require('./assets/card-milhas.jpg'),
         title: "Milhas",
         description: "O curso de Milhas oferece uma introdução ao universo das milhas aéreas.",
+        lessons: [
+            { title: 'bem-vindo-curso-milhas', completed: false }
+        ],
     },
     {
         id: 'historia',
         imageUrl: require('./assets/card-historia.jpg'),
         title: "História da Empresa e Cultura",
         description: "O curso oferece uma visão detalhada da trajetória da Maxmilhas.",
+        lessons: [
+            { title: 'bem-vindo-curso-historia', completed: false }
+        ],
     },
     {
         id: 'ofertantes',
         imageUrl: require('./assets/card-ofertantes.jpg'),
         title: "Ofertantes",
         description: "O curso aborda o papel crucial dos ofertantes no ecossistema da Maxmilhas.",
+        lessons: [
+            { title: 'bem-vindo-curso-ofertantes', completed: false }
+        ],
     },
     {
         id: 'tour_virtual',
         imageUrl: require('./assets/card-tour.jpg'),
         title: "Tour Virtual da Empresa",
         description: "O curso oferece uma experiência imersiva e interativa.",
+        lessons: [
+            { title: 'bem-vindo-curso-tour', completed: false }
+        ],
     },
     {
         id: 'nocao',
         imageUrl: require('./assets/card-informatica.jpg'),
         title: "Noções de Informática",
         description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
     },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+    {
+        id: 'nocao',
+        imageUrl: require('./assets/card-informatica.jpg'),
+        title: "Noções de Informática",
+        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        lessons: [
+            { title: 'bem-vindo-curso-nocao', completed: false }
+        ],
+    },
+
 ];
+
+// Criando uma nova variável com os títulos dos cursos
+const courseTitles = courses.map(course => course.title);
+
+// Exportar ambas as variáveis
+export { courses, courseTitles };
 
 const CourseList = () => {
     const navigate = useNavigate();
-    const [loading, setLoading] = useState(false); // Para controle de loading
 
-    const handleStartCourse = async (id) => {
-        setLoading(true); // Inicia o loading
+    const handleStartCourse = (id) => {
+        // Encontrar o curso correspondente
+        const course = courses.find(course => course.id === id);
+        if (course) {
+            // Encontrar a primeira lição disponível
+            const availableLesson = course.lessons[0]; // Pega a primeira lição, se existir
 
-        try {
-            const response = await fetch(`http://localhost:5000/api/cursos/${id}/lições`); // URL da sua API
-            if (!response.ok) {
-                throw new Error("Erro ao buscar lições");
-            }
-            const lessons = await response.json(); // Supondo que a resposta seja um array de lições
-
-            if (lessons.length > 0) {
-                navigate(`/curso/${id}/${lessons[0].title}`); // Navega para a primeira lição
+            if (availableLesson) {
+                navigate(`/curso/${id}/${availableLesson.title}`); // Navegar para a primeira lição disponível
             } else {
-                alert("Este curso está em construção. Por favor, volte mais tarde.");
+                alert("Não há lições disponíveis para este curso.");
             }
-        } catch (error) {
-            console.error("Erro ao carregar as lições:", error);
-            alert("Não foi possível carregar as lições do curso. Tente novamente mais tarde.");
-        } finally {
-            setLoading(false); // Finaliza o loading
         }
     };
 
@@ -80,11 +150,10 @@ const CourseList = () => {
                         imageUrl={course.imageUrl}
                         title={course.title}
                         description={course.description}
-                        onStartCourse={() => handleStartCourse(course.id)} // Chama a função para iniciar o curso
+                        onStartCourse={() => handleStartCourse(course.id)} // Chamar a função para iniciar o curso
                     />
                 ))}
             </div>
-            {loading && <p>Carregando...</p>} {/* Exibe uma mensagem de carregamento */}
         </section>
     );
 };

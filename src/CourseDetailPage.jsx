@@ -1,6 +1,6 @@
 import styles from './CourseDetailPage.module.css';
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import Header from './Header';
 import screenImage from './assets/screen.jpg';
@@ -12,10 +12,10 @@ const coursesData = {
     'historia': 'História da Empresa e Cultura',
     'ofertantes': 'Ofertantes',
     'tour_virtual': 'Tour Virtual da Empresa',
-    'nocao': 'Noções de Informática'
+    'nocao': 'Noções de Informática',
+
 };
 
-// Exemplo de lições predefinidas
 const lessonsData = {
     'bem-vindo-curso-cockpit': {
         title: 'Bem-vindo ao curso de Cockpit!',
@@ -77,15 +77,34 @@ const lessonsData = {
             </div>
         )
     },
+    'Prejuizos': {
+        title: 'Prejuizos em emissoes',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        description: (
+            <div>
+                <p className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+            </div>
+        )
+    },
+    'Milhas': {
+        title: 'Milhas',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        description: (
+            <div>
+                <p className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+            </div>
+        )
+    },
 };
-
-const defaultLessons = [];
 
 const CourseDetailPage = () => {
     const { id, lesson } = useParams();
     const navigate = useNavigate();
+    const location = useLocation();
     const [progress, setProgress] = useState(0);
-    const [lessons, setLessons] = useState(defaultLessons);
+    const [lessons, setLessons] = useState([]);
     const [lessonData, setLessonData] = useState({});
 
     useEffect(() => {
@@ -97,11 +116,15 @@ const CourseDetailPage = () => {
                     }
                 });
                 const { progress, lessons } = response.data;
+
+                if (lessons && lessons.length > 0) {
+                    setLessons(lessons);
+                }
+
                 setProgress(progress);
-                setLessons(lessons.length > 0 ? lessons : defaultLessons);
             } catch (error) {
                 console.error('Erro ao buscar progresso do usuário:', error);
-                setLessons(defaultLessons);
+                setLessons([]);
             }
         };
 
@@ -125,10 +148,9 @@ const CourseDetailPage = () => {
             return;
         }
 
-        // Verifique se a aula já foi completada
         if (lessons[currentIndex].completed) {
             console.log('Esta aula já foi concluída.');
-            return; // Saia se a aula já estiver completa
+            return;
         }
 
         const updatedLessons = lessons.map((l, index) =>
@@ -139,19 +161,16 @@ const CourseDetailPage = () => {
         const progressIncrement = 100 / lessons.length;
 
         try {
-            // Obtenha o progresso e o score atuais do usuário
-            const { data: { progress: currentProgress, score: currentScore } } = await axios.get(`${process.env.REACT_APP_API_URL}/api/users/${localStorage.getItem('userId')}/progress/${id}`, {
+            const { data: { progress: currentProgress } } = await axios.get(`${process.env.REACT_APP_API_URL}/api/users/${localStorage.getItem('userId')}/progress/${id}`, {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` }
             });
 
-            // Adicione 50 pontos ao score usando o endpoint apropriado
             await axios.put(`${process.env.REACT_APP_API_URL}/api/users/add-points/${localStorage.getItem('userId')}`, {
                 points: 50
             }, {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` }
             });
 
-            // Calcule o novo progresso
             const newProgress = Math.min(currentProgress + progressIncrement, 100);
             localStorage.setItem('userProgress', JSON.stringify({ ...JSON.parse(localStorage.getItem('userProgress')) || {}, [id]: newProgress }));
 
@@ -179,7 +198,7 @@ const CourseDetailPage = () => {
     };
 
     const handleResetProgress = async () => {
-        const resetLessons = defaultLessons.map(lesson => ({ ...lesson, completed: false }));
+        const resetLessons = lessons.map(lesson => ({ ...lesson, completed: false }));
         setLessons(resetLessons);
         setProgress(0);
 
@@ -199,8 +218,8 @@ const CourseDetailPage = () => {
 
     const pageTitle = coursesData[id] || 'Curso desconhecido';
 
-    // Lógica para verificar se a lição atual é uma "bem-vindo"
-    const isWelcomeLesson = lesson.startsWith('bem-vindo');
+    // Verifica se a rota atual contém "bem-vindo" após o caminho "/curso/"
+    const isWelcomeRoute = location.pathname.match(/\/curso\/[^/]*\/bem-vindo/);
 
     return (
         <div className={styles.courseDetail}>
@@ -221,25 +240,35 @@ const CourseDetailPage = () => {
                 <div className={styles.infoContainer}>
                     <div className={styles.progressPanel}>
                         <h2 className={styles.progressLabel}>Progresso do curso</h2>
-                        <progress value={progress} max={100} />
-                        <p>{Math.round(progress)}%</p>
+                        <div className={styles.progressBarContainer}>
+                            <div className={styles.progressBar} style={{ width: `${progress}%` }}></div>
+                        </div>
+                        <div className={styles.progressPercentage}>{Math.round(progress)}% concluído</div>
                         <button className={styles.resetButton} onClick={handleResetProgress}>Reiniciar Progresso</button>
                     </div>
-                    <div className={styles.descriptionContainer}>
-                        <h2 className={styles.descriptionLabel}>Descrição</h2>
-                        {lessonData.description}
+
+                    <div className={styles.checklist}>
+                        <h2>Aulas</h2>
+                        <hr className={styles.checklistSeparator} />
+                        {lessons.map((lesson) => (
+                            <div key={lesson.title} className={styles.lessonItem}>
+                                <Link to={`/curso/${id}/${lesson.title}`}>
+                                    {lesson.completed ? '✔️' : '⚪️'} {lessonsData[lesson.title]?.title || lesson.title.replace(/-/g, ' ').toUpperCase()}
+                                </Link>
+                                <div className={styles.durationBox}>{lesson.duration}m</div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
-
             <div className={styles.textContainer}>
                 <h1 className={styles.title}>{lessonData.title}</h1>
                 <p className={styles.description}>
                     {lessonData.description}
                 </p>
 
-                {/* Verifique se o título da lição não começa com 'bem-vindo' antes de renderizar o botão */}
-                {!isWelcomeLesson && (
+                {/* Renderiza o botão apenas se a rota não contiver "bem-vindo" */}
+                {!isWelcomeRoute && (
                     <button
                         className={styles.completeButton}
                         onClick={handleCompleteLesson}
@@ -249,29 +278,17 @@ const CourseDetailPage = () => {
                 )}
 
                 {/* Mensagem informando sobre o status do quiz */}
-                {progress < 100 ? (
-                    <p style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        marginTop: '20px',
-                        fontSize: '16px',
-                        color: 'grey'
-                    }}>
-                        Complete o curso para acessar o quiz. Progresso atual: {Math.round(progress)}%.
-                    </p>
-                ) : (
-                    <p style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        marginTop: '20px',
-                        fontSize: '16px',
-                        color: 'green'
-                    }}>
-                        Parabéns! Você completou o curso. O quiz foi desbloqueado!
-                    </p>
-                )}
+                <div className={styles.progressContainer}>
+                    {progress < 100 ? (
+                        <p className={styles.progressMessage}>
+                            Complete o curso para acessar o quiz. Progresso atual: {Math.round(progress)}%.
+                        </p>
+                    ) : (
+                        <p className={styles.quizUnlockedMessage}>
+                            Parabéns! Você completou o curso. O quiz foi desbloqueado!
+                        </p>
+                    )}
+                </div>
             </div>
         </div>
     );
