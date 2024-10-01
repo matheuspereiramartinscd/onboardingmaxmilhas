@@ -89,6 +89,34 @@ app.put('/api/users/update-course-lessons', async (req, res) => {
     }
 });
 
+app.put('/api/users/:id/update-course-lessons', async (req, res) => {
+    const { id } = req.params; // ID do usuário
+    const { courseName, newLesson } = req.body; // O nome do curso e a nova lição a ser adicionada
+
+    if (!courseName || !newLesson || !newLesson.title) {
+        return res.status(400).json({ message: 'Nome do curso e nova lição (com título) são necessários' });
+    }
+
+    try {
+        // Atualiza as lições do curso para o usuário especificado
+        const result = await User.updateOne(
+            { _id: id, 'courses.course': courseName }, // Busca o usuário pelo ID e curso
+            { $addToSet: { 'courses.$.lessons': newLesson } } // Adiciona a nova lição
+        );
+
+        // Verifica se alguma atualização foi feita
+        if (result.modifiedCount > 0) {
+            res.status(200).json({ message: `Lição '${newLesson.title}' adicionada ao curso '${courseName}' para o usuário.` });
+        } else {
+            res.status(404).json({ message: `Usuário não encontrado ou curso '${courseName}' não encontrado para atualização.` });
+        }
+    } catch (error) {
+        console.error('Erro ao atualizar lições do curso para o usuário:', error);
+        res.status(500).json({ message: 'Erro ao atualizar lições do curso', error: error.message });
+    }
+});
+
+
 // Start the server
 async function startServer() {
     await connectToDatabase();
