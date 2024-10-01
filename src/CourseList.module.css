@@ -1,0 +1,195 @@
+.courseList {
+    display: flex;
+    flex-direction: column;
+    /* Organiza o título e os cards em uma coluna */
+    width: 100%;
+    max-width: 1326px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.emissionsTitle {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 32px;
+    font-weight: bold;
+    display: none;
+    color: hsl(0, 0%, 100%);
+
+}
+
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* Ajuste o espaçamento entre os cards */
+    justify-content: center;
+    width: 100%;
+}
+
+.emissionsTitle {
+    margin-bottom: 20px;
+    margin-right: 500px;
+    /* Adiciona espaço entre o título e os cards */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 32px;
+    display: none;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+/* Media queries */
+@media (max-width: 1314px) {
+    .courseCard {
+        width: calc(45% - 40px);
+        /* 2 cards por linha */
+    }
+
+    .courseList {
+        display: flex;
+        flex-direction: column;
+        /* Organiza o título e os cards em uma coluna */
+        align-items: center;
+        /* Centraliza o conteúdo */
+        width: 100%;
+        max-width: 1326px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .emissionsTitle {
+        margin-bottom: 20px;
+        margin-right: 0px;
+        /* Adiciona espaço entre o título e os cards */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 32px;
+
+        visibility: hidden;
+        font-weight: bold;
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* Ajuste o espaçamento entre os cards */
+        justify-content: center;
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 825px) {
+    .courseCard {
+        width: calc(45% - 40px);
+        /* 2 cards por linha */
+    }
+
+    .courseList {
+        display: flex;
+        flex-direction: column;
+        /* Organiza o título e os cards em uma coluna */
+        align-items: center;
+        /* Centraliza o conteúdo */
+        width: 100%;
+        max-width: 1326px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .emissionsTitle {
+        margin-bottom: 20px;
+        /* Adiciona espaço entre o título e os cards */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 32px;
+        display: none;
+        font-weight: bold;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* Ajuste o espaçamento entre os cards */
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .courseCard {
+        width: 100%;
+        /* 1 card por linha */
+    }
+
+    .emissionsTitle {
+        margin-bottom: 20px;
+        /* Adiciona espaço entre o título e os cards */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 32px;
+        display: none;
+        font-weight: bold;
+        color: hsl(0, 0%, 100%);
+    }
+}
+
+/* 3 cards por linha */
+
+
+
+@media (max-width: 1314px) {
+    .courseCard {
+        width: calc(45% - 40px);
+        /* 2 cards por linha */
+    }
+
+    .courseList {
+        display: flex;
+        flex-direction: column;
+        /* Organiza o título e os cards em uma coluna */
+        align-items: center;
+        /* Centraliza o conteúdo */
+        width: 100%;
+        max-width: 1326px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .emissionsTitle {
+        margin-bottom: 20px;
+        /* Adiciona espaço entre o título e os cards */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 32px;
+        display: none;
+        font-weight: bold;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* Ajuste o espaçamento entre os cards */
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .courseCard {
+        width: 100%;
+        /* 1 card por linha */
+    }
+}

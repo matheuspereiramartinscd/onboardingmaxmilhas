@@ -1,0 +1,44 @@
+Sistema Web de Onboarding para Novos Colaboradores da MaxMilhas
+
+O objetivo deste sistema é facilitar o treinamento e a integração de novos colaboradores à MaxMilhas, promovendo um ambiente de aprendizado interativo e envolvente. O sistema será gamificado, oferecendo pontos aos usuários conforme progridem nos cursos, com a aplicação de testes de conhecimento ao final de cada curso. Após a conclusão de cada curso, um certificado simbólico será gerado para o usuário.
+
+Funcionalidades Principais
+Inscrição e Progresso nos Cursos:
+
+Os colaboradores poderão se inscrever em diversos cursos relacionados à empresa e ao processo de emissão.
+Acompanhamento do progresso do usuário em cada curso.
+Gamificação:
+
+Sistema de pontuação baseado no progresso nos cursos.
+Ranking dos melhores usuários, destacando os colaboradores com maior pontuação.
+Teste de Conhecimento (Quiz):
+
+Ao final de cada curso, será aplicado um teste de conhecimento para avaliar a compreensão do conteúdo.
+Geração de certificados simbólicos para os usuários que concluírem com sucesso os cursos.
+Chatbot com Atendente Virtual:
+
+Chatbot interativo para fornecer informações específicas com base em opções selecionadas pelos usuários.
+FAQ e Fórum:
+
+Página com as dúvidas mais frequentes para consulta rápida.
+Fórum onde os usuários podem discutir dúvidas e interagir entre si.
+Login Corporativo:
+
+Acesso ao sistema utilizando o e-mail corporativo da MaxMilhas.
+Cursos Disponíveis
+Cockpit
+Milhas e Termos Técnicos
+Site das Cias Aéreas
+Slack
+Fluxo de Trabalho (Meta, Daily, Alinhamentos, etc.)
+Erros Mais Comuns e Soluções
+História da Empresa e Cultura
+Prejuízos e Seus Impactos
+Ofertantes e Seus Tipos
+Processo de Emissão (Automática e Manual)
+Clientes e Atendimento (Tipos de Pax, Zendesk, Fraude)
+Tour Virtual da Empresa
+Links e Sites Úteis
+Apresentações de Colaboradores (Liderança, TI, etc.)
+Noções de Informática (Navegadores, VPNs, Softwares Utilizados, Links Úteis, Sites, etc.)
+

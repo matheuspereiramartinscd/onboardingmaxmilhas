@@ -1,0 +1,254 @@
+/* RankingPage.module.css */
+
+/* Estilo principal da página */
+.rankingPage {
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pageTitle {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin: 91px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: -80px 0 80px;
+    margin-bottom: 52px;
+}
+
+.pageTitle2 {
+    color: #62b448;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.rankingContainer {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.collaboratorCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.collaboratorCard:nth-child(odd) {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.collaboratorCard:nth-child(even) {
+    background-color: #8ee66c;
+    color: #333;
+}
+
+.userName,
+.points {
+    color: inherit;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.medalIcon {
+    width: 82px;
+    height: 82px;
+    margin-right: 10px;
+}
+
+.trophyIcon {
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.userPhoto {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -1px;
+}
+
+.userName {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.pointsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.points {
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.pointsLabel {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.coinsIcon {
+    color: #ffbb00;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.medalIcon2 {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 38px
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 870px) {
+    .collaboratorCard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .userInfo {
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .imageContainer {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .userPhoto {
+        margin-right: 0;
+        margin-left: 0;
+        width: 70px;
+        height: 70px;
+    }
+
+    .medalIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pointsContainer {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .coinsIcon {
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .points {
+        font-size: 16px;
+    }
+
+    .pointsLabel {
+        font-size: 12px;
+    }
+
+    .medalIcon2 {
+        font-size: 25px;
+        margin-left: 22px;
+        margin-right: 27.5px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .collaboratorCard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .userInfo {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imageContainer {
+        justify-content: center;
+    }
+
+    .userPhoto {
+        margin-right: 0;
+        margin-left: 0;
+        width: 60px;
+        height: 60px;
+    }
+
+    .medalIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .coinsIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .points {
+        font-size: 14px;
+    }
+
+    .pointsLabel {
+        font-size: 12px;
+    }
+
+    .medalIcon2 {
+        font-size: 25px;
+        margin-left: 22px;
+        margin-right: 27.5px;
+
+    }
+}

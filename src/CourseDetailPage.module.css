@@ -1,0 +1,454 @@
+.courseDetail {
+    padding: 0;
+    margin-top: 60px;
+    max-width: 100%;
+    position: relative;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: flex-start;
+    /* Alinha os itens no topo */
+}
+
+.videoContainer {
+    width: 60%;
+    /* Ajuste a largura conforme necessário */
+    margin: 0 280px 20px 50px;
+    /* Margem à direita para espaçamento */
+}
+
+
+.quizMessage {
+    font-size: 40px;
+}
+
+.quizAvailable {
+    text-align: center;
+    /* Center text */
+    font-size: 180px;
+    /* Adjust font size as needed */
+    color: green;
+    /* You can change the color */
+}
+
+.videoContainer iframe {
+    margin-left: 10px;
+    width: 1400px;
+    /* Ajusta para 100% para ser responsivo */
+    border-radius: 15px;
+    height: 700px;
+    /* Ajuste a altura se necessário */
+}
+
+.infoContainer {
+    position: relative;
+    width: 30%;
+    /* Ajuste a largura conforme necessário */
+    height: auto;
+    /* Permitir que a altura ajuste automaticamente */
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 52px;
+    margin-left: 10px;
+    margin-right: 21px;
+    /* Ajuste a margem para alinhamento adequado */
+}
+
+.progressPanel {
+    margin-top: 20px;
+    width: 100%;
+    /* Ajuste a largura da caixa de progresso */
+    text-align: center;
+    /* Centraliza o texto */
+    margin-left: auto;
+    /* Centraliza horizontalmente */
+    margin-right: auto;
+    /* Centraliza horizontalmente */
+}
+
+.progressPanel2 {
+    display: flex;
+    /* Centraliza horizontalmente */
+}
+
+.progressLabel {
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+
+}
+
+/* Nova barra de progresso */
+.progressBar {
+
+    background-color: #4fb835;
+    /* Cor de fundo da barra de progresso (contorno) */
+    border-radius: 7px;
+    height: 15px;
+    width: 100%;
+    /* Mantém a largura total da barra de progresso */
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    /* Contorno da barra de progresso */
+}
+
+.progressBarInner {
+
+    background-color: #28a745;
+    /* Cor verde da parte preenchida da barra */
+    height: 100%;
+    transition: width 0.5s;
+    /* Animação para o preenchimento */
+}
+
+.progressPercentage {
+    font-weight: bold;
+    margin-top: 5px;
+    /* Espaçamento acima da porcentagem */
+    color: #333;
+
+
+    /* Sombra para destaque */
+}
+
+.checklist {
+    margin: auto;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.lessonItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.courseTitle {
+    margin: 90px 0 15px 0;
+    text-align: center;
+    font-size: 34px;
+    color: hsl(0, 0%, 100%);
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid #d9d9d9;
+    margin: 0px 0 20px 0;
+    width: 100%;
+}
+
+.durationBox {
+    background-color: #e9ecef;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.resetButton {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: rgb(253, 253, 253);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.resetButton:hover {
+    background-color: #218838;
+    /* Mudança de cor ao passar o mouse */
+}
+
+.checklistSeparator {
+    border: none;
+    border-top: 2px solid #d9d9d9;
+    margin: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 30px 30px 0px 0px;
+    padding: 15px;
+    margin-top: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100vh - 160px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textContainer p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+    color: #333;
+}
+
+.completeButton {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.completeButton:hover {
+    background-color: #218838;
+    /* Mudança de cor ao passar o mouse */
+}
+
+.title {
+    font-size: 28px;
+    text-align: center;
+    padding: 30px;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    padding: 50px;
+}
+
+.contentParagraph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.lessonTitle {
+    text-align: left;
+    /* Título centralizado */
+    font-size: 32px;
+    margin: 0 0 15px;
+    margin-left: 20px;
+    /* Ajuste a margem para centralização */
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* Remove underline e mantém a cor padrão */
+}
+
+a:hover {
+    color: #28a745;
+    /* Garante que o hover não altere a cor */
+}
+
+/* A partir de 1100px ou menos, a caixa de progresso sobe para cima do vídeo */
+@media (max-width: 1900px) {
+    .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #444;
+    }
+
+    .contentParagraph {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .lessonTitle {
+        text-align: center;
+        /* Título centralizado */
+        font-size: 32px;
+        margin: 0 0 15px;
+        /* Ajuste a margem para centralização */
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.1),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+        color: #ffffff;
+    }
+
+    .infoContainer {
+        width: 90%;
+        margin: 20px 0;
+        padding: 10px;
+        order: -1;
+    }
+
+    .videoContainer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .videoContainer iframe {
+        width: 90%;
+        height: 700px;
+    }
+
+    .textContainer {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+/* Ajustes adicionais para telas menores, como tablets e celulares */
+@media (max-width: 1400px) {
+    .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #444;
+        padding: 50px;
+    }
+
+    .contentParagraph {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .lessonTitle {
+        text-align: center;
+        /* Título centralizado */
+        font-size: 32px;
+        margin: 0 0 15px;
+        /* Ajuste a margem para centralização */
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.1),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+        color: #ffffff;
+    }
+
+    .infoContainer {
+        width: 90%;
+        margin: 20px 0;
+        padding: 10px;
+        order: -1;
+    }
+
+    .videoContainer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .videoContainer iframe {
+        width: 90%;
+        height: 500px;
+    }
+
+    .textContainer {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+/* Telas menores que 750px */
+@media (max-width: 750px) {
+    .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #444;
+        padding: 20px;
+    }
+
+    .contentParagraph {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .lessonTitle {
+        text-align: center;
+        /* Título centralizado */
+        font-size: 28px;
+        margin: 0 0 10px;
+        /* Ajuste a margem para centralização */
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.1),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+        color: #ffffff;
+    }
+
+    .infoContainer {
+        width: 90%;
+        margin: 20px 0;
+        padding: 10px;
+        order: -1;
+    }
+
+    .videoContainer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .videoContainer iframe {
+        width: 90%;
+        height: 400px;
+        /* Ajuste a altura para dispositivos móveis */
+    }
+
+    .textContainer {
+        width: 90%;
+        margin-top: 20px;
+    }
+}

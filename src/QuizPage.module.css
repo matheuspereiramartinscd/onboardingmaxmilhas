@@ -1,0 +1,105 @@
+.quizPage {
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pageTitle {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+
+    margin-top: 91px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pageTitle2 {
+
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 0 0 2rem;
+    margin-bottom: 52px;
+}
+
+.quizContainer {
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    padding: 2rem;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* 1 card por linha por padrão */
+    gap: 1.5rem;
+    /* Espaçamento entre os cards */
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 870px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        /* Mantém 1 card por linha em telas pequenas */
+    }
+
+    .pageTitle {
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+
+        margin-top: 91px;
+        margin-bottom: 11px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .pageTitle2 {
+        color: #000000;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .separator {
+        width: 100%;
+        border: none;
+        border-top: 1px solid #fff;
+        margin: 0 0 2rem;
+        margin-bottom: 47px;
+    }
+}
+
+@media (min-width: 550px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        /* Mantém 1 card por linha em telas maiores */
+    }
+}
+
+@media (min-width: 800px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        /* Mantém 1 card por linha em telas ainda maiores */
+    }
+}

@@ -1,0 +1,181 @@
+.quizCard {
+    display: flex;
+    align-items: flex-start;
+    /* Alinha o conteúdo ao topo */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.courseImage {
+    width: 150px;
+    /* Tamanho padrão da imagem */
+    height: 150px;
+    /* Tamanho padrão da imagem */
+    object-fit: cover;
+    /* Mantém a proporção da imagem */
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.disabledButton {
+    background-color: #ccc;
+    /* Cor diferente para o botão desabilitado */
+    color: #666;
+    /* Cor do texto */
+    border: none;
+    /* Remove bordas */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    padding: 10px 15px;
+    /* Padding */
+    cursor: not-allowed;
+    /* Cursor que indica que o botão está desabilitado */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    width: 300px;
+    /* Largura fixa do botão */
+    height: 40px;
+    /* Altura fixa para o botão */
+    margin-top: 10px;
+    /* Espaço acima do botão */
+    align-self: flex-start;
+    /* Alinha o botão à esquerda */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.disabledButton:hover {
+    background-color: #bbb;
+    /* Cor ao passar o mouse */
+}
+
+.courseContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Alinha o conteúdo ao topo */
+    height: 100%;
+    text-align: left;
+    flex: 1;
+    /* Faz o conteúdo ocupar todo o espaço disponível */
+}
+
+.cardHeader {
+    display: flex;
+    /* Alinha a imagem e o título na mesma linha */
+    align-items: center;
+    /* Centraliza verticalmente a imagem e o título */
+}
+
+.cardTitle {
+    display: none;
+    margin: 0;
+    font-size: 24px;
+    text-align: left;
+    margin: 0 0 10px 0;
+    /* Remove a margem superior */
+}
+
+.cardDescription {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    /* Remove a margem para melhor alinhamento */
+    font-size: 16px;
+    /* Tamanho padrão */
+    color: #666;
+    overflow-wrap: break-word;
+    /* Quebra de palavras longas */
+    white-space: pre-wrap;
+    /* Mantém quebras de linha e espaços em branco */
+}
+
+.startButton {
+    padding: 12px;
+    /* Padding fixo */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    /* Largura fixa do botão */
+    height: 40px;
+    /* Altura fixa para o botão */
+    margin-top: 10px;
+    /* Espaço acima do botão */
+    align-self: flex-start;
+    /* Alinha o botão à esquerda */
+}
+
+.startButton:hover {
+    background-color: #218838;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 596px) {
+    .courseImage {
+        width: 100px;
+        /* Reduz o tamanho da imagem em telas menores */
+        height: 100px;
+        /* Reduz a altura da imagem em telas menores */
+    }
+
+    .courseContent {
+        margin-top: 10px;
+        /* Adiciona margem ao conteúdo do card */
+    }
+
+    .cardDescription {
+        font-size: 14px;
+        /* Reduz o tamanho da fonte da descrição */
+        margin-top: 5px;
+        /* Eleva a descrição do card */
+        margin-bottom: 10px;
+        /* Espaço abaixo da descrição */
+    }
+
+    .disabledButton {
+        background-color: #ccc;
+        /* Cor diferente para o botão desabilitado */
+        color: #666;
+        /* Cor do texto */
+        border: none;
+        /* Remove bordas */
+        border-radius: 5px;
+        /* Bordas arredondadas */
+        padding: 10px 15px;
+        /* Padding */
+        cursor: not-allowed;
+        /* Cursor que indica que o botão está desabilitado */
+        font-size: 8px;
+        /* Tamanho da fonte */
+        width: 100px;
+        /* Largura fixa do botão */
+        height: 40px;
+        /* Altura fixa para o botão */
+        margin-top: 10px;
+        /* Espaço acima do botão */
+        align-self: flex-start;
+        /* Alinha o botão à esquerda */
+        text-align: center;
+        /* Centraliza o texto */
+    }
+
+    .disabledButton:hover {
+        background-color: #bbb;
+        /* Cor ao passar o mouse */
+    }
+
+    .startButton {
+        width: 150px;
+        /* Largura fixa do botão em telas menores */
+        height: 40px;
+        /* Altura fixa para o botão */
+    }
+}

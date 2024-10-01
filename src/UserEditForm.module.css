@@ -1,0 +1,106 @@
+.editFormPage {
+    margin-top: 91px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.titleContainer {
+    text-align: center;
+    background-color: transparent;
+}
+
+.newTitle {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 11px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.editForm {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 60px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    flex-grow: 1;
+}
+
+.formGroup {
+    margin-bottom: 25px;
+}
+
+.label {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.userCurrentPhoto {
+    margin-top: 50px;
+    max-width: 400px;
+    /* Limitar a largura máxima */
+    max-height: 400px;
+    /* Limitar a altura máxima */
+    width: auto;
+    /* Largura automática para manter a proporção */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    object-fit: cover;
+    /* Para cobrir o espaço sem distorcer a imagem */
+}
+
+/* Media Query para telas menores */
+@media (max-width: 600px) {
+    .userCurrentPhoto {
+        max-width: 350px;
+        /* Limitar a largura máxima para telas pequenas */
+        width: 100%;
+        /* A largura se ajusta a 100% do contêiner */
+        height: auto;
+        /* Manter a proporção da imagem */
+    }
+
+    .newTitle {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 11px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submitButton {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.submitButton:hover {
+    background-color: #008FBF;
+}

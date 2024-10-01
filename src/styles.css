@@ -1,0 +1,27 @@
+/* styles.css */
+.google-login-button {
+    border: none !important;
+    /* Remove a borda */
+    background: none !important;
+    /* Remove o fundo */
+    color: #3c4043 !important;
+    /* Define a cor do texto */
+    font-weight: bold !important;
+    /* Aplica fonte bold */
+    cursor: pointer;
+    /* Cursor de ponteiro */
+    height: 40px;
+    /* Altura do botão */
+    width: 100%;
+    /* Ocupa toda a largura */
+    padding: 0 12px;
+    /* Padding */
+    font-family: "Google Sans", Arial, sans-serif;
+    /* Fonte */
+    font-size: 14px;
+    /* Tamanho da fonte */
+    letter-spacing: 0.25px;
+    /* Espaçamento entre letras */
+    outline: none;
+    /* Remove o contorno */
+}

@@ -1,0 +1,229 @@
+/* Estilos da página */
+.resultsPage {
+    margin-top: 91px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+    text-align: center;
+    background-color: transparent;
+}
+
+.newTitle {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 11px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+    margin: 0;
+}
+
+.resultsContainer {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.scoreBox {
+    background-color: #cce5ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.scoreText {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    /* Reduced margin for better spacing */
+}
+
+.percentageText {
+    font-size: 32px;
+    /* Adjust size for prominence */
+    font-weight: bold;
+    /* Bold for emphasis */
+    margin: 10px 0;
+    /* Margin for spacing */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* Light shadow for depth */
+}
+
+.success {
+    color: green;
+    /* Green for success */
+}
+
+.failure {
+    color: red;
+    /* Red for failure */
+}
+
+.scorePoints {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0;
+    /* Increased margin for better spacing */
+}
+
+.questionBlock {
+    margin-bottom: 40px;
+}
+
+.questTitle {
+    font-weight: bold;
+    font-size: 26px;
+    color: rgba(75, 65, 65, 0.973);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.optionText {
+    margin-left: 5px;
+}
+
+.optionLetter {
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.correctIcon,
+.incorrectIcon {
+    width: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.correctIcon {
+    color: green;
+}
+
+.incorrectIcon {
+    color: red;
+}
+
+.correct {
+    background-color: rgba(182, 255, 186, 0.493);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.incorrect {
+    background-color: rgba(250, 204, 201, 0.76);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.retakeButton {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    /* Spacing around the text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    margin-top: 20px;
+    /* Space above the button */
+}
+
+.retakeButton:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.message {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .newTitle {
+        font-size: 28px;
+    }
+
+    .resultsContainer {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .scoreBox {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .scoreText,
+    .percentageText,
+    /* Ensure percentage text scales */
+    .scorePoints {
+        font-size: 24px;
+    }
+
+    .questTitle {
+        font-size: 20px;
+    }
+
+    .option {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .newTitle {
+        font-size: 32px;
+    }
+
+    .resultsContainer {
+        padding: 30px;
+    }
+
+    .scoreBox {
+        max-width: 90%;
+    }
+
+    .questTitle {
+        font-size: 24px;
+    }
+}

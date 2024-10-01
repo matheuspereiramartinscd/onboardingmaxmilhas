@@ -1,0 +1,205 @@
+.navigation {
+    border-radius: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: auto;
+    padding: 4px 32px;
+    justify-content: center;
+    /* Centraliza o conteúdo do Navigation */
+}
+
+.icon img {
+    width: 24px;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 4px;
+    width: 25px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.change {
+    background-color: green;
+    /* Change color to green when active */
+    transform: rotate(45deg);
+}
+
+.change:nth-child(2) {
+    opacity: 0;
+}
+
+.change:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    /* Centraliza os itens dentro da navList */
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    align-self: stretch;
+    position: relative;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 14px;
+    color: var(--sds-color-text-brand-on-brand-secondary);
+    text-decoration: none;
+}
+
+.navLink:hover,
+.navLink:focus {
+    background-color: #e3e3e3;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.text {
+    display: inline;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    /* Centraliza a lista dropdown */
+    transform: translateX(-50%);
+    /* Ajusta a posição para centralizar corretamente */
+    background-color: #fff;
+    z-index: 5;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    /* Adjust to make dropdown touch the hamburger */
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10;
+    /* Higher z-index to appear above other elements */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    /* Remove margin to touch hamburger */
+    padding: 0;
+    /* Remove padding */
+    list-style: none;
+    /* Remove bullets from the dropdown items */
+}
+
+.dropdown .navItem {
+    width: 100%;
+    /* Make the nav item take full width */
+}
+
+.dropdown .navLink {
+    padding: 10px 15px;
+    /* Add padding for better spacing */
+    text-align: left;
+    color: #333;
+    /* Set text color */
+}
+
+.dropdown .navLink:hover,
+.dropdown .navLink:focus {
+    background-color: #e3e3e3;
+    /* Highlight on hover */
+}
+
+/* Quando a largura for 1100px ou menos */
+@media (max-width: 1300px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navList {
+        display: flex;
+    }
+
+    .icon {
+        display: inline;
+    }
+
+    .icon img {
+        width: 24px;
+        height: auto;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .active {
+        flex-direction: column;
+    }
+
+    .icon img {
+        width: 24px;
+        height: auto;
+    }
+}
+
+/* Quando a largura for menor que 900px */
+@media (max-width: 980px) {
+    .hamburger {
+        display: flex;
+
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .active {
+        flex-direction: column;
+    }
+}
+
+/* Mantém o texto na largura original */
+@media (min-width: 1300px) {
+    .icon {
+        display: inline;
+    }
+
+    .text {
+        display: inline;
+    }
+}

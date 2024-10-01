@@ -1,0 +1,146 @@
+.coursePage {
+    background-color: #82b0d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 121px;
+    overflow: hidden;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1131px;
+    padding-top: 27px;
+}
+
+.banner {
+    aspect-ratio: 2.81;
+    object-fit: contain;
+    object-position: center;
+    width: 284px;
+    max-width: 100%;
+    margin-top: -70px;
+}
+
+.courseHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0 32px;
+}
+
+.backButton {
+    border-radius: 30px;
+    background-color: #fff;
+    color: #1e1e1e;
+    padding: 8px 40px;
+    font: 400 20px/1.4 Inter, sans-serif;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.pageTitle {
+    color: #fff;
+    letter-spacing: -1px;
+    font: var(--sds-typography-heading-font-weight) 50px/1.2 var(--sds-typography-heading-font-family);
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 23px 0;
+}
+
+.courseCategories {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 59px;
+    margin-bottom: 40px;
+}
+
+.categoryTitle {
+    color: #f3f3f3;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: -0.96px;
+    font: 600 48px/1.2 Inter, sans-serif;
+}
+
+.categorySubtitle {
+    color: #fff;
+    font: 400 90px/0.4 Roboto, -apple-system, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .coursePage {
+        padding-bottom: 100px;
+    }
+
+    .backButton {
+        padding: 8px 20px;
+    }
+
+    .pageTitle {
+        font-size: 40px;
+    }
+
+    .courseCategories {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    .categoryTitle {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .categorySubtitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .backButton {
+        padding: 8px 15px;
+    }
+
+    .pageTitle {
+        font-size: 30px;
+        text-align: center;
+        /* Centraliza o título */
+    }
+
+    .courseCategories {
+        width: 100%;
+        align-items: center;
+        /* Centraliza as categorias */
+    }
+
+    .categoryTitle {
+        font-size: 30px;
+        text-align: center;
+        /* Centraliza o título da categoria */
+    }
+
+    .categorySubtitle {
+        font-size: 30px;
+        text-align: center;
+        /* Centraliza a legenda da categoria */
+    }
+
+    .banner {
+        width: 100%;
+        /* Ajusta a largura da imagem no banner */
+        height: auto;
+        /* Mantém a proporção */
+        margin-top: 0;
+        /* Remove a margem superior */
+    }
+}

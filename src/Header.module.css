@@ -1,0 +1,175 @@
+/* Header.module.css */
+.header {
+
+    background-color: #98da82;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: -25px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.editButton {
+    margin-left: 10px;
+    padding: 2px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.editButton:hover {
+    background-color: #45a049;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-left: 0;
+}
+
+.newLogo {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.userPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pointsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.points {
+    text-align: center;
+    font-weight: 550;
+    color: #000000a9;
+}
+
+.coinIcon {
+    width: 20px;
+    /* Ensure consistency with both instances */
+    height: 20px;
+    /* Ensure consistency with both instances */
+    margin-right: 5px;
+    /* Space between icon and points text */
+}
+
+/* Placeholder styles */
+.placeholder {
+    display: flex;
+    align-items: center;
+}
+
+.placeholder img {
+    width: 50px;
+    /* Tamanho fixo para o espaço reservado */
+    height: 50px;
+    /* Tamanho fixo para o espaço reservado */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.loadingIcon {
+    width: 50px;
+    /* mesmo tamanho da imagem do usuário */
+    height: 50px;
+    /* mesmo tamanho da imagem do usuário */
+    border-radius: 50%;
+    /* se você quiser um efeito de círculo */
+    margin-right: 5px;
+    /* para manter a consistência */
+}
+
+/* Media Queries */
+@media (max-width: 1363px) {
+    .newLogo {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .username {
+        font-size: 16px;
+    }
+
+    .newLogo {
+        display: none;
+    }
+
+    .points {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .username {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .newLogo {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .points {
+        font-size: 12px;
+    }
+
+    .editButton {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+}

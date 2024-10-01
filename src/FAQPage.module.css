@@ -1,0 +1,111 @@
+.resultsPage {
+    margin-top: 91px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+    text-align: center;
+    background-color: transparent;
+}
+
+.newTitle {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 11px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pageTitle2 {
+    color: #62b448;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+    margin: 0;
+}
+
+.resultsContainer {
+    background-color: #ffffff;
+    width: 90%;
+    /* Alterado para 90% da largura */
+    max-width: 1000px;
+    /* Definindo um max-width */
+    padding-left: 62px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 52px;
+    flex-grow: 1;
+}
+
+.questionBlock {
+    margin-bottom: 40px;
+}
+
+.questTitle {
+    font-weight: bold;
+    font-size: 26px;
+    color: rgba(75, 65, 65, 0.973);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Alinha as opções à esquerda */
+}
+
+/* Ajuste a opção de texto */
+.optionText {
+    margin-left: 5px;
+    /* Espaçamento à esquerda */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 600px) {
+    .newTitle {
+        font-size: 24px;
+        /* Tamanho do título em telas menores */
+    }
+
+    .questTitle {
+        font-size: 20px;
+        /* Tamanho da pergunta em telas menores */
+    }
+
+    .optionText {
+        font-size: 16px;
+        /* Tamanho do texto da resposta em telas menores */
+    }
+}
+
+@media (max-width: 400px) {
+    .newTitle {
+        font-size: 24px;
+        /* Tamanho ainda menor em telas pequenas */
+    }
+
+    .questTitle {
+        font-size: 18px;
+        /* Tamanho da pergunta em telas pequenas */
+    }
+
+    .optionText {
+        font-size: 14px;
+        /* Tamanho do texto da resposta em telas pequenas */
+    }
+}
