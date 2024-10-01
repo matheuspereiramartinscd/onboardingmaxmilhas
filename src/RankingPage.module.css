@@ -142,6 +142,19 @@
     margin-right: 38px
 }
 
+@media (max-width: 1100px) {
+    .rankingContainer {
+        background-color: #fff;
+        border-radius: 30px 30px 0 0;
+        box-shadow: 0 2px 5px #0000001a;
+        flex-grow: 1;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 2rem;
+        width: 90%;
+    }
+}
+
 /* Responsividade para telas menores */
 @media (max-width: 870px) {
     .collaboratorCard {
@@ -201,6 +214,18 @@
         margin-right: 27.5px;
 
     }
+
+    .rankingContainer {
+        background-color: #fff;
+        border-radius: 30px 30px 0 0;
+        box-shadow: 0 2px 5px #0000001a;
+        flex-grow: 1;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 2rem;
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -218,6 +243,25 @@
 
     .imageContainer {
         justify-content: center;
+    }
+
+    .pageTitle {
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        margin: 91px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .rankingContainer {
+        background-color: #fff;
+        border-radius: 30px 30px 0 0;
+        box-shadow: 0 2px 5px #0000001a;
+        flex-grow: 1;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 2rem;
+        width: 90%;
     }
 
     .userPhoto {
@@ -244,6 +288,8 @@
     .pointsLabel {
         font-size: 12px;
     }
+
+
 
     .medalIcon2 {
         font-size: 25px;

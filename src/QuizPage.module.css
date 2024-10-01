@@ -11,8 +11,8 @@
     font-size: 2rem;
     text-align: center;
 
-    margin-top: 91px;
-    margin-bottom: 16px;
+    margin-top: 92.5px;
+    margin-bottom: 15px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -33,6 +33,7 @@
     border-top: 1px solid #fff;
     margin: 0 0 2rem;
     margin-bottom: 52px;
+    margin-top: -1px;
 }
 
 .quizContainer {
@@ -44,6 +45,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     flex-grow: 1;
+    margin-top: 0px;
 }
 
 .cardContainer {
@@ -54,6 +56,15 @@
     /* Espaçamento entre os cards */
 }
 
+
+@media (max-width: 490px) {
+
+    .pageTitle {
+        font-size: 24px;
+    }
+}
+
+
 /* Media Queries para responsividade */
 @media (max-width: 870px) {
     .cardContainer {
@@ -61,15 +72,7 @@
         /* Mantém 1 card por linha em telas pequenas */
     }
 
-    .pageTitle {
-        color: #fff;
-        font-size: 1.5rem;
-        text-align: center;
 
-        margin-top: 91px;
-        margin-bottom: 11px;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    }
 
     .pageTitle2 {
         color: #000000;
@@ -86,20 +89,7 @@
         border: none;
         border-top: 1px solid #fff;
         margin: 0 0 2rem;
-        margin-bottom: 47px;
-    }
-}
-
-@media (min-width: 550px) {
-    .cardContainer {
-        grid-template-columns: 1fr;
-        /* Mantém 1 card por linha em telas maiores */
-    }
-}
-
-@media (min-width: 800px) {
-    .cardContainer {
-        grid-template-columns: 1fr;
-        /* Mantém 1 card por linha em telas ainda maiores */
+        margin-top: -1px;
+        margin-bottom: 52px;
     }
 }

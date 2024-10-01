@@ -72,7 +72,7 @@ const RankingPage = () => {
                                             <FaMedal className={`${styles.icon} ${styles.medalIcon2}`} style={{ color: 'silver' }} />
                                         </div>
                                     )}
-                                    <img src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/${user.photo}`} alt={user.name} className={styles.userPhoto} />
+                                    <img src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/${user.photo}`} alt={user.name} className={styles.userPhoto} onError={(e) => { e.target.src = '/assets/user_photo.png'; }} />
                                 </div>
                                 <div className={styles.userInfo}>
                                     <span className={styles.userName}>{user.name}</span>

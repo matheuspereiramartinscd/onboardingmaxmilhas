@@ -76,7 +76,7 @@
 }
 
 /* Media Queries para responsividade */
-@media (max-width: 600px) {
+@media (max-width: 489px) {
     .newTitle {
         font-size: 24px;
         /* Tamanho do título em telas menores */

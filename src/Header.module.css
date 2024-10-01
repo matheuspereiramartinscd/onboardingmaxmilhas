@@ -130,9 +130,7 @@
 
 /* Media Queries */
 @media (max-width: 1363px) {
-    .newLogo {
-        display: none;
-    }
+    .newLogo {}
 }
 
 @media (max-width: 800px) {
@@ -140,13 +138,21 @@
         font-size: 16px;
     }
 
-    .newLogo {
-        display: none;
-    }
+    .newLogo {}
 
     .points {
         font-size: 14px;
     }
+}
+
+@media (max-width: 800px) {
+
+
+    .newLogo {
+        display: none;
+    }
+
+
 }
 
 @media (max-width: 600px) {
