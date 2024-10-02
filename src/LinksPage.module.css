@@ -84,7 +84,7 @@
 /* Media Queries para responsividade */
 @media (min-width: 600px) {
     .linkBlock {
-        flex-direction: row;
+
         /* Alinha em linha em telas maiores */
         align-items: center;
     }
