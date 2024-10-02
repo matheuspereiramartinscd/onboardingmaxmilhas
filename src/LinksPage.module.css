@@ -47,6 +47,7 @@
     flex-direction: column;
     /* Altera para coluna em telas menores */
     margin-bottom: 25px;
+    align-items: center;
 }
 
 .linkText {
@@ -83,11 +84,7 @@
 
 /* Media Queries para responsividade */
 @media (min-width: 600px) {
-    .linkBlock {
 
-        /* Alinha em linha em telas maiores */
-
-    }
 
     .linkText {
         margin-right: 25px;
