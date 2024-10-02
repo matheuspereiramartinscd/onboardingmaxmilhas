@@ -54,8 +54,10 @@
     justify-content: flex-start;
     margin-bottom: 30px;
     padding: 20px;
+    height: 172px;
     border: 1px solid #e0e0e0;
-    border-radius: 40px;
+    box-shadow: 0 2px 5px #0000001a;
+    border-radius: 10px;
     transition: background-color 0.3s;
     overflow: hidden;
     /* Para evitar que o texto saia do card */
@@ -271,6 +273,7 @@
         justify-content: flex-start;
         text-align: left;
         padding: 20px;
+        height: 151px;
         gap: 10px;
     }
 
