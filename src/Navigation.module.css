@@ -184,9 +184,8 @@
         display: none;
     }
 
-    .navigation {
-        margin-right: 5px;
-    }
+    .navigation {}
+
 
     .icon {
         display: none;

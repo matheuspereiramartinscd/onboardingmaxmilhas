@@ -162,9 +162,7 @@
         text-overflow: ellipsis;
     }
 
-    .newLogo {
-        display: none;
-    }
+    .newLogo {}
 
     .logo {
         display: none;
