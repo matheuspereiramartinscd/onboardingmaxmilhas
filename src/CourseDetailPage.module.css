@@ -185,11 +185,11 @@
     border-color: #28a745;
     color: rgb(253, 253, 253);
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
-    color: #333;
+
 }
 
 .resetButton:hover {
