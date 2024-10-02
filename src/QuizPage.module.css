@@ -25,6 +25,7 @@
     font-weight: bold;
     margin-left: 15px;
     margin-top: 5px;
+    display: none;
 }
 
 .separator {
@@ -88,6 +89,7 @@
         font-weight: bold;
         margin-left: 15px;
         margin-top: 5px;
+        display: none;
     }
 
     .separator {

@@ -3,25 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Auth0Provider } from '@auth0/auth0-react';
-
-const domain = "dev-m0fojk14aa306qzr.us.auth0.com";
-const clientId = "Q47briuhiIBWYgysACmlbZppKp33cYtV";
-const audience = "https://seu-backend-api";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Auth0Provider
-      domain={domain}
-      clientId={clientId}
-      authorizationParams={{
-        redirect_uri: window.location.origin,
-        audience: audience,
-      }}
-    >
-      <App />
-    </Auth0Provider>
+    <App />
   </React.StrictMode>
 );
 

@@ -27,7 +27,8 @@
     /* Mudança da cor para branco */
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 17px;
+    margin-top: -1px;
 
     position: relative;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -47,8 +48,11 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: -5px;
+    display: none;
 
 }
+
+
 
 .questionCard {
     background-color: #f9f9f9;
@@ -130,6 +134,7 @@
     .pageTitle {
         font-size: 24px;
         margin-top: 19px;
+        display: none;
     }
 
     .questionCard {
@@ -165,6 +170,7 @@
     .pageTitle {
         margin-top: 35px;
         font-size: 24px;
+        display: none;
     }
 
     .questionCard {
