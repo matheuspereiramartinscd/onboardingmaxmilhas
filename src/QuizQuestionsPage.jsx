@@ -688,10 +688,12 @@ const QuizQuestionsPage = () => {
                             </div>
                         </div>
                     ))}
-                    <button type="submit" className={styles.submitButton}>Enviar Respostas</button>
+                    <div className={styles.containerbutton}>
+                        <button type="submit" className={styles.submitButton}>Enviar Respostas</button>
+                    </div>
                 </form>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

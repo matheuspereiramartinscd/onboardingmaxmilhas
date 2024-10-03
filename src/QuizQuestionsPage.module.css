@@ -80,6 +80,12 @@
 
 }
 
+.containerbutton {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+}
+
 .option {
     margin-top: 16px;
     margin-bottom: 2px;
