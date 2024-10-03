@@ -43,64 +43,36 @@ router.get('/:userId', async (req, res) => {
 router.post('/', upload.single('photo'), async (req, res) => {
     const { name, email, password } = req.body;
 
-    try {
-        const newUser = new User({
-            name,
-            email,
-            password,
-            photo: req.file ? req.file.path : 'uploads/user_photo.png', // Se uma foto não foi enviada, usa a imagem padrão
-            score: 100, // Pontuação inicial
-            courses: [
-                {
-                    "course": "cockpit",
-                    "progress": 0,
-                    "lessons": [
-                        {
-                            "title": "Prejuizos",
-                            "completed": false,
-                            "_id": "66fbbe611fdb0065786c005f"
-                        },
-                        {
-                            "title": "Milhas",
-                            "completed": false,
-                            "_id": "66fbbe661fdb0065786c0087"
-                        }
-                    ]
-                },
-                {
-                    "course": "milhas",
-                    "progress": 0,
-                    "lessons": []
-                },
-                {
-                    "course": "historia",
-                    "progress": 0,
-                    "lessons": []
-                },
-                {
-                    "course": "nocao",
-                    "progress": 0,
-                    "lessons": []
-                },
-                {
-                    "course": "ofertantes",
-                    "progress": 0,
-                    "lessons": []
-                },
-                {
-                    "course": "tour_virtual",
-                    "progress": 0,
-                    "lessons": []
-                }
-            ]
-        });
+    const newUser = new User({
+        name,
+        email,
+        password,
+        photo: req.file ? req.file.path : 'uploads/user_photo.png',
+        score: 0,
+        courses: [
+            {
+                course: "cockpit",
+                progress: 0,
+                lessons: [
+                    { title: "Prejuizos", completed: false },
+                    { title: "Milhas", completed: false }
+                ]
+            },
+            // Adicione outros cursos aqui...
+        ]
+    });
 
+    console.log("Courses before save:", newUser.courses);
+
+    try {
         await newUser.save();
-        res.status(201).json(newUser); // Retorna o usuário criado
+        res.status(201).json(newUser);
     } catch (error) {
+        console.error('Error saving user:', error);
         res.status(500).json({ message: 'Erro ao criar usuário', error: error.message });
     }
 });
+
 
 // Rota para atualizar um usuário
 router.put('/update/:id', upload.single('photo'), async (req, res) => {
