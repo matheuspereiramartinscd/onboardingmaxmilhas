@@ -57,12 +57,12 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {
                             "title": "Prejuizos",
-                            "completed": false,
+                            "completed": false
 
                         },
                         {
                             "title": "Milhas",
-                            "completed": false,
+                            "completed": false
 
                         }
                     ]

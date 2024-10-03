@@ -220,20 +220,36 @@ app.delete('/api/users/delete-lesson/:courseName/:lessonTitle', async (req, res)
     }
 });
 
-app.post('/api/users/add-lesson/:courseName', async (req, res) => {
-    const { courseName } = req.params;
-    const { lessonTitle, lessonContent } = req.body; // Supondo que você tenha um conteúdo da lição para adicionar.
+app.post('/api/users/:userId/add-lesson/:courseName', async (req, res) => {
+    const { userId, courseName } = req.params;
+    const { lessonTitle } = req.body;
+
+    // Validação do corpo da requisição
+    if (!lessonTitle) {
+        return res.status(400).send({ message: 'Título da lição é obrigatório.' });
+    }
 
     try {
-        await User.updateMany(
-            { 'courses.course': courseName },
-            { $push: { 'courses.$.lessons': { title: lessonTitle, content: lessonContent } } }
+        const result = await User.updateOne(
+            { _id: userId, 'courses.course': courseName }, // Busca o usuário pelo ID e pelo curso
+            {
+                $push: {
+                    'courses.$.lessons': { title: lessonTitle, completed: false } // Adiciona a lição ao curso do usuário
+                }
+            }
         );
-        res.status(200).send({ message: `Lição "${lessonTitle}" adicionada ao curso "${courseName}" de todos os usuários.` });
+
+        // Verifica se a atualização foi bem-sucedida
+        if (result.nModified === 0) {
+            return res.status(404).send({ message: 'Usuário ou curso não encontrado.' });
+        }
+
+        res.status(200).send({ message: `Lição "${lessonTitle}" adicionada ao curso "${courseName}" do usuário.` });
     } catch (error) {
         res.status(500).send({ message: 'Erro ao adicionar lição.', error });
     }
 });
+
 
 
 // Add multer to handle file uploads
