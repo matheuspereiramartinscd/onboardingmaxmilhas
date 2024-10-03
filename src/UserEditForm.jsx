@@ -101,7 +101,7 @@ const UserEditForm = ({ onUpdate }) => {
                     />
                     {initialPhoto && !photo && (
                         <img
-                            src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}${initialPhoto}`}
+                            src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/${initialPhoto}`}
                             alt="Imagem inicial do usuário"
                             className={styles.imagePreview}
                         />
