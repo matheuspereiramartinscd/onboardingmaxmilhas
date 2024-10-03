@@ -38,6 +38,8 @@ async function connectToDatabase() {
     }
 }
 
+
+
 // Route for adding a new course to all users
 app.put('/api/users/add-course', async (req, res) => {
     const { courseName } = req.body; // O nome do novo curso a ser adicionado
@@ -61,6 +63,36 @@ app.put('/api/users/add-course', async (req, res) => {
     }
 });
 
+app.post('/api/users/replicate-courses/:userId', async (req, res) => {
+    const { userId } = req.params; // ID do usuário de origem para replicar os cursos
+
+    try {
+        // Buscar o usuário que será usado como base para replicar cursos e lições
+        const sourceUser = await User.findById(userId);
+
+        if (!sourceUser) {
+            return res.status(404).json({ message: 'Usuário de origem não encontrado.' });
+        }
+
+        const sourceCourses = sourceUser.courses; // Cursos e lições a serem replicados
+
+        // Atualiza todos os usuários, exceto o de origem, para replicar os cursos e lições
+        const result = await User.updateMany(
+            { _id: { $ne: userId } }, // Exclui o usuário de origem da replicação
+            {
+                $set: { courses: sourceCourses }, // Define os cursos como os do usuário de origem
+                $pull: { courses: { $nin: sourceCourses.map(course => ({ course: course.course })) } } // Remove cursos que não estão no array de cursos do usuário de origem
+            }
+        );
+
+        res.status(200).json({
+            message: `Cursos e lições replicados de ${sourceUser.name} para ${result.modifiedCount} usuários com sucesso.`
+        });
+    } catch (error) {
+        console.error('Erro ao replicar cursos e lições:', error);
+        res.status(500).json({ message: 'Erro ao replicar cursos e lições', error: error.message });
+    }
+});
 // Route for updating lessons of an existing course for all users
 app.put('/api/users/update-course-lessons', async (req, res) => {
     const { courseName, newLesson } = req.body; // O nome do curso e a nova lição a ser adicionada
