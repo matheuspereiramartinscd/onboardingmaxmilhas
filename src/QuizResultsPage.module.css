@@ -219,7 +219,7 @@
     }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 500px) {
     .newTitle {
         font-size: 24px;
         margin-bottom: 9px;
