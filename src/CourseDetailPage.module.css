@@ -350,6 +350,7 @@ a:hover {
     .videoContainer {
         width: 100%;
         margin: 0;
+        text-align: center;
     }
 
     .videoContainer iframe {
@@ -373,11 +374,13 @@ a:hover {
     .videoContainer {
         width: 100%;
         margin: 0;
+        text-align: center;
     }
 
     .videoContainer iframe {
         width: 90%;
         height: 400px;
+
         /* Ajuste a altura conforme necessário */
     }
 
