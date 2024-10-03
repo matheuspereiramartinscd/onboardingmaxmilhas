@@ -276,8 +276,10 @@
 .image {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .lessonTitle {

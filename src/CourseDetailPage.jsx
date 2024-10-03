@@ -5,6 +5,8 @@ import axios from 'axios';
 import Header from './Header';
 import screenImage from './assets/screen.jpg';
 import screenImage2 from './assets/screenImage2.jpg';
+import screenImage3 from './assets/screenImage3.jpg';
+import screenImage4 from './assets/screenImage4.jpg';
 
 const coursesData = {
     'cockpit': 'Cockpit',
@@ -19,11 +21,23 @@ const coursesData = {
 const lessonsData = {
     'bem-vindo-curso-cockpit': {
         title: 'Bem-vindo ao curso de Cockpit!',
-        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        videoUrl: 'https://www.youtube.com/embed/9HqJlhF4mDs',
         description: (
             <div>
-                <p className={styles.contentParagraph}>Bem-vindo ao nosso sistema de gerenciamento de milhas!</p>
+                <h2 className={styles.contentParagraph}>Bem-vindo ao nosso sistema de gerenciamento de milhas!</h2>
+                <p className={styles.contentParagraph}>Bem-vindo ao Curso de Cockpit! Neste treinamento, você aprenderá a dominar um sistema administrativo avançado, amplamente utilizado para o gerenciamento e a execução de transações de bilhetes aéreos. Ao longo do curso, você será guiado passo a passo nas funcionalidades que envolvem as principais companhias aéreas do Brasil, como Latam, Gol e Azul, desde a escolha de ofertantes até a substituição de cartões de crédito nas operações.
+
+                    Nosso objetivo é capacitar você a operar o cockpit com eficiência, garantindo que seja possível realizar transações seguras e rápidas. Vamos explorar como iniciar reservas, gerenciar alterações e lidar com os processos mais críticos na venda e modificação de passagens aéreas. Além disso, você terá a oportunidade de aprender como personalizar e otimizar suas preferências, como a escolha de métodos de pagamento.
+
+                    Este curso é ideal para profissionais que buscam expandir suas habilidades no setor de aviação ou qualquer pessoa interessada em compreender como funcionam os bastidores das transações aéreas no ambiente corporativo. Ao final do curso, você estará apto a utilizar o cockpit de forma segura e estratégica, proporcionando uma experiência diferenciada tanto para empresas quanto para clientes.
+
+                    Preparado para decolar nessa jornada de conhecimento?</p>
                 <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+                <p className={styles.contentParagraph}> Ao final do Curso de Cockpit, você terá a oportunidade de reforçar seu aprendizado participando de um quiz exclusivo. Esse questionário foi desenvolvido para revisar os principais conceitos abordados durante o treinamento, garantindo que você tenha assimilado todas as informações essenciais sobre o sistema de transações de bilhetes aéreos.
+
+                    O quiz será disponibilizado após a conclusão das aulas, cobrindo tópicos como o gerenciamento de transações nas companhias Latam, Gol e Azul, troca de cartões de crédito e a escolha de ofertantes. Ele também servirá como uma ferramenta de autoavaliação, permitindo que você teste seus conhecimentos de forma prática e interativa.
+
+                    Ao concluir o quiz com sucesso, você estará ainda mais preparado para utilizar o cockpit com confiança no ambiente de trabalho.</p>
             </div>
         )
     },
@@ -79,21 +93,25 @@ const lessonsData = {
     },
     'Prejuizos': {
         title: 'Prejuizos em emissoes',
-        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        videoUrl: 'https://www.youtube.com/embed/AKA6HIa1TMQ',
         description: (
             <div>
-                <p className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+                <h2 className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</h2>
+                <p className={styles.contentParagraph}>Para evitar erros no sistema Cockpit, utilizado para emissão de bilhetes aéreos, é importante seguir algumas boas práticas. Primeiramente, tenha atenção redobrada durante o processo de emissão, conferindo cada detalhe, como o nome do passageiro, destino, data e horário do voo. Revisar os dados inseridos antes de finalizar a emissão é essencial para evitar problemas. Além disso, é importante garantir que o sistema esteja atualizado e funcionando corretamente, pois erros técnicos podem causar falhas. Outro ponto é treinar adequadamente os usuários do sistema, assegurando que todos saibam como utilizá-lo corretamente. Evi</p>
+                <img src={screenImage3} alt="Descrição da Imagem" className={styles.image} />
             </div>
         )
     },
     'Milhas': {
         title: 'Milhas',
-        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        videoUrl: 'https://www.youtube.com/embed/lElrd62isec&list=PLTDgOUcX23hbmAATluQUP3aZwSXQa01GJ&index=2',
         description: (
             <div>
-                <p className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+                <h2 className={styles.contentParagraph}>O que são as milhas?</h2>
+                <img src={screenImage4} alt="Descrição da Imagem" className={styles.image} />
+                <p className={styles.contentParagraph}>Milhas aéreas são um tipo de recompensa oferecida por companhias aéreas para passageiros que participam de programas de fidelidade. Cada vez que uma pessoa viaja com uma companhia aérea participante ou utiliza serviços parceiros, como hotéis e cartões de crédito específicos, ela acumula milhas. Essas milhas podem ser trocadas por passagens aéreas, upgrades de classe, descontos em serviços e outros benefícios.
+
+                    O sistema funciona como um incentivo para que os clientes continuem viajando com a mesma companhia aérea ou utilizem seus parceiros. O número de milhas acumuladas varia de acordo com a distância voada, a tarifa paga ou o tipo de serviço usado. Algumas companhias também permitem que as milhas sejam transferidas ou compradas, oferecendo maior flexibilidade aos clientes.</p>
             </div>
         )
     },
