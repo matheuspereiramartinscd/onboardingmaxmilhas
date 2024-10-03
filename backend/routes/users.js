@@ -49,7 +49,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
             email,
             password,
             photo: req.file ? req.file.path : 'uploads/user_photo.png', // Se uma foto não foi enviada, usa a imagem padrão
-            score: 0, // Pontuação inicial
+            score: 100, // Pontuação inicial
             courses: [
                 {
                     "course": "cockpit",
