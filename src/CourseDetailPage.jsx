@@ -104,7 +104,7 @@ const lessonsData = {
     },
     'Milhas': {
         title: 'Milhas',
-        videoUrl: 'https://www.youtube.com/embed/Sidewd3ceag&list=PLTDgOUcX23hbmAATluQUP3aZwSXQa01GJ&index=7',
+        videoUrl: 'https://www.youtube.com/embed/8G_QpZ7uSRA',
         description: (
             <div>
                 <h2 className={styles.contentParagraph}>O que são as milhas?</h2>
