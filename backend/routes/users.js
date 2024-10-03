@@ -50,13 +50,48 @@ router.post('/', upload.single('photo'), async (req, res) => {
             password,
             photo: req.file ? req.file.path : 'uploads/user_photo.png', // Se uma foto não foi enviada, usa a imagem padrão
             score: 0, // Pontuação inicial
-            courses: [ // Adicionando cursos iniciais
-                { course: 'cockpit', progress: 0, lessons: [] },
-                { course: 'milhas', progress: 0, lessons: [] },
-                { course: 'historia', progress: 0, lessons: [] },
-                { course: 'nocao', progress: 0, lessons: [] },
-                { course: 'ofertantes', progress: 0, lessons: [] },
-                { course: 'tour_virtual', progress: 0, lessons: [] }
+            courses: [
+                {
+                    "course": "cockpit",
+                    "progress": 0,
+                    "lessons": [
+                        {
+                            "title": "Prejuizos",
+                            "completed": false,
+                            "_id": "66fbbe611fdb0065786c005f"
+                        },
+                        {
+                            "title": "Milhas",
+                            "completed": false,
+                            "_id": "66fbbe661fdb0065786c0087"
+                        }
+                    ]
+                },
+                {
+                    "course": "milhas",
+                    "progress": 0,
+                    "lessons": []
+                },
+                {
+                    "course": "historia",
+                    "progress": 0,
+                    "lessons": []
+                },
+                {
+                    "course": "nocao",
+                    "progress": 0,
+                    "lessons": []
+                },
+                {
+                    "course": "ofertantes",
+                    "progress": 0,
+                    "lessons": []
+                },
+                {
+                    "course": "tour_virtual",
+                    "progress": 0,
+                    "lessons": []
+                }
             ]
         });
 
