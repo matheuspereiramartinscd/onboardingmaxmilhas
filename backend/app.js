@@ -63,6 +63,8 @@ app.put('/api/users/add-course', async (req, res) => {
     }
 });
 
+// Route to replicate courses and lessons from one user to all others
+// Route to replicate courses and lessons from one user to all others
 app.post('/api/users/replicate-courses/:userId', async (req, res) => {
     const { userId } = req.params; // ID do usuário de origem para replicar os cursos
 
@@ -77,49 +79,26 @@ app.post('/api/users/replicate-courses/:userId', async (req, res) => {
         const sourceCourses = sourceUser.courses; // Cursos e lições a serem replicados
 
         // Atualiza todos os usuários, exceto o de origem, para replicar os cursos e lições
-        const result = await User.updateMany(
+        const resultSet = await User.updateMany(
             { _id: { $ne: userId } }, // Exclui o usuário de origem da replicação
-            {
-                $set: { courses: sourceCourses }, // Define os cursos como os do usuário de origem
-                $pull: { courses: { $nin: sourceCourses.map(course => ({ course: course.course })) } } // Remove cursos que não estão no array de cursos do usuário de origem
-            }
+            { $set: { courses: sourceCourses } } // Define os cursos como os do usuário de origem
+        );
+
+        // Remove cursos adicionais de todos os outros usuários
+        await User.updateMany(
+            { _id: { $ne: userId } },
+            { $pull: { courses: { course: { $nin: sourceCourses.map(course => course.course) } } } }
         );
 
         res.status(200).json({
-            message: `Cursos e lições replicados de ${sourceUser.name} para ${result.modifiedCount} usuários com sucesso.`
+            message: `Cursos e lições replicados de ${sourceUser.name} para ${resultSet.modifiedCount} usuários com sucesso.`
         });
     } catch (error) {
         console.error('Erro ao replicar cursos e lições:', error);
         res.status(500).json({ message: 'Erro ao replicar cursos e lições', error: error.message });
     }
 });
-// Route for updating lessons of an existing course for all users
-app.put('/api/users/update-course-lessons', async (req, res) => {
-    const { courseName, newLesson } = req.body; // O nome do curso e a nova lição a ser adicionada
 
-    if (!courseName || !newLesson || !newLesson.title) {
-        return res.status(400).json({ message: 'Nome do curso e nova lição (com título) são necessários' });
-    }
-
-    try {
-        // Atualiza as lições do curso em todos os usuários
-        const result = await User.updateMany(
-            { 'courses.course': courseName }, // Busca os usuários que têm o curso
-            { $addToSet: { 'courses.$[elem].lessons': newLesson } }, // Adiciona a nova lição
-            { arrayFilters: [{ 'elem.course': courseName }] } // Aplica o filtro ao array de cursos
-        );
-
-        // Verifica se alguma atualização foi feita
-        if (result.modifiedCount > 0) {
-            res.status(200).json({ message: `Lição '${newLesson.title}' adicionada ao curso '${courseName}' em todos os usuários.` });
-        } else {
-            res.status(404).json({ message: `Nenhum usuário encontrado com o curso '${courseName}' para atualizar.` });
-        }
-    } catch (error) {
-        console.error('Erro ao atualizar lições do curso:', error);
-        res.status(500).json({ message: 'Erro ao atualizar lições do curso', error: error.message });
-    }
-});
 
 // Start the server
 async function startServer() {
