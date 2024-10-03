@@ -64,7 +64,6 @@ app.put('/api/users/add-course', async (req, res) => {
 });
 
 // Route to replicate courses and lessons from one user to all others
-// Route to replicate courses and lessons from one user to all others
 app.post('/api/users/replicate-courses/:userId', async (req, res) => {
     const { userId } = req.params; // ID do usuário de origem para replicar os cursos
 
@@ -220,6 +219,22 @@ app.delete('/api/users/delete-lesson/:courseName/:lessonTitle', async (req, res)
         res.status(500).send({ message: 'Erro ao deletar lição.', error });
     }
 });
+
+app.post('/api/users/add-lesson/:courseName', async (req, res) => {
+    const { courseName } = req.params;
+    const { lessonTitle, lessonContent } = req.body; // Supondo que você tenha um conteúdo da lição para adicionar.
+
+    try {
+        await User.updateMany(
+            { 'courses.course': courseName },
+            { $push: { 'courses.$.lessons': { title: lessonTitle, content: lessonContent } } }
+        );
+        res.status(200).send({ message: `Lição "${lessonTitle}" adicionada ao curso "${courseName}" de todos os usuários.` });
+    } catch (error) {
+        res.status(500).send({ message: 'Erro ao adicionar lição.', error });
+    }
+});
+
 
 // Add multer to handle file uploads
 
