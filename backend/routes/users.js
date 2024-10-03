@@ -55,16 +55,6 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "course": "cockpit",
                     "progress": 0,
                     "lessons": [
-                        {
-                            "title": "Prejuizos",
-                            "completed": false
-
-                        },
-                        {
-                            "title": "Milhas",
-                            "completed": false
-
-                        }
                     ]
                 },
                 {
