@@ -1,5 +1,5 @@
 .loginPage {
-    background-color: #82b0d9;
+
     min-height: 100vh;
     /* Garante que a página ocupe pelo menos a altura total da tela */
     display: flex;
@@ -45,6 +45,7 @@
 
 .rightColumn {
     display: flex;
+
     flex-direction: column;
     line-height: normal;
     width: 45%;
@@ -73,7 +74,7 @@
 
 .welcomeTitle {
     color: #fff;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 110px;
     line-height: 1.2;
     letter-spacing: -2.2px;
@@ -122,7 +123,7 @@
 
 .loginTitle {
     color: #fff;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     letter-spacing: -0.9px;
     text-align: center;
     margin-top: 230px;

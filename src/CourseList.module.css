@@ -10,7 +10,7 @@
 
 .emissionsTitle {
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 32px;
     font-weight: bold;
     display: none;
@@ -32,7 +32,7 @@
     margin-bottom: 20px;
     margin-right: 500px;
     /* Adiciona espaço entre o título e os cards */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 32px;
     display: none;
     font-weight: bold;
@@ -97,7 +97,7 @@
         margin-bottom: 20px;
         margin-right: 0px;
         /* Adiciona espaço entre o título e os cards */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         font-size: 32px;
 
         visibility: hidden;
@@ -142,7 +142,7 @@
     .emissionsTitle {
         margin-bottom: 20px;
         /* Adiciona espaço entre o título e os cards */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         font-size: 32px;
         display: none;
         font-weight: bold;
@@ -168,7 +168,7 @@
     .emissionsTitle {
         margin-bottom: 20px;
         /* Adiciona espaço entre o título e os cards */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         font-size: 32px;
         display: none;
         font-weight: bold;
@@ -201,7 +201,7 @@
     .emissionsTitle {
         margin-bottom: 20px;
         /* Adiciona espaço entre o título e os cards */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         font-size: 32px;
         display: none;
         font-weight: bold;

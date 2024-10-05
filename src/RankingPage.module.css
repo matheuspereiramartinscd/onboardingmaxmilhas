@@ -14,13 +14,13 @@
     font-size: 36px;
     text-align: center;
     margin: 91px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .separator {
     width: 100%;
     border: none;
-    border-top: 1px solid #fff;
+    /*border-top: 1px solid white;*/
     margin: -80px 0 80px;
     margin-bottom: 52px;
 }
@@ -329,7 +329,7 @@
         font-size: 24px;
         text-align: center;
         margin: 91px;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 
     .medalIcon2Container {

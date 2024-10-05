@@ -15,6 +15,11 @@ const coursesData = {
     'ofertantes': 'Ofertantes',
     'tour_virtual': 'Tour Virtual da Empresa',
     'nocao': 'Noções de Informática',
+    'emissoes': 'Emissões',
+    'emissoeslatam': 'Emissões na LATAM',
+    'emissoesgol': 'Emissões na Gol',
+    'emissoesazul': 'Emissões na Azul',
+    'ferramentas': 'Ferramentas Auxiliares',
 
 };
 
@@ -115,7 +120,21 @@ const lessonsData = {
             </div>
         )
     },
+    'Milhas': {
+        title: 'Milhas',
+        videoUrl: 'https://www.youtube.com/embed/8G_QpZ7uSRA',
+        description: (
+            <div>
+                <h2 className={styles.contentParagraph}>O que são as milhas?</h2>
+                <img src={screenImage4} alt="Descrição da Imagem" className={styles.image} />
+                <p className={styles.contentParagraph}>Milhas aéreas são um tipo de recompensa oferecida por companhias aéreas para passageiros que participam de programas de fidelidade. Cada vez que uma pessoa viaja com uma companhia aérea participante ou utiliza serviços parceiros, como hotéis e cartões de crédito específicos, ela acumula milhas. Essas milhas podem ser trocadas por passagens aéreas, upgrades de classe, descontos em serviços e outros benefícios.
+
+                    O sistema funciona como um incentivo para que os clientes continuem viajando com a mesma companhia aérea ou utilizem seus parceiros. O número de milhas acumuladas varia de acordo com a distância voada, a tarifa paga ou o tipo de serviço usado. Algumas companhias também permitem que as milhas sejam transferidas ou compradas, oferecendo maior flexibilidade aos clientes.</p>
+            </div>
+        )
+    },
 };
+
 
 const CourseDetailPage = () => {
     const { id, lesson } = useParams();
