@@ -15,6 +15,24 @@ const courses = [
         ],
     },
     {
+        id: 'ofertantes',
+        imageUrl: require('./assets/card-ofertantes.jpg'),
+        title: "Ofertantes",
+        description: "O curso aborda o papel crucial dos ofertantes no ecossistema da Maxmilhas.",
+        lessons: [
+            { title: 'bem-vindo-curso-ofertantes', completed: false }
+        ],
+    },
+    {
+        id: 'emissoes',
+        imageUrl: require('./assets/card-emissoes.jpg'),
+        title: "Emissões",
+        description: "O curso oferece uma base essencial para a compreensão e aplicação dos processos de emissão de bilhetes",
+        lessons: [
+            { title: 'bem-vindo-curso-emissoes', completed: false }
+        ],
+    },
+    {
         id: 'milhas',
         imageUrl: require('./assets/card-milhas.jpg'),
         title: "Milhas",
@@ -23,6 +41,7 @@ const courses = [
             { title: 'bem-vindo-curso-milhas', completed: false }
         ],
     },
+
     {
         id: 'historia',
         imageUrl: require('./assets/card-historia.jpg'),
@@ -30,15 +49,6 @@ const courses = [
         description: "O curso oferece uma visão detalhada da trajetória da Maxmilhas.",
         lessons: [
             { title: 'bem-vindo-curso-historia', completed: false }
-        ],
-    },
-    {
-        id: 'ofertantes',
-        imageUrl: require('./assets/card-ofertantes.jpg'),
-        title: "Ofertantes",
-        description: "O curso aborda o papel crucial dos ofertantes no ecossistema da Maxmilhas.",
-        lessons: [
-            { title: 'bem-vindo-curso-ofertantes', completed: false }
         ],
     },
     {
@@ -50,6 +60,7 @@ const courses = [
             { title: 'bem-vindo-curso-tour', completed: false }
         ],
     },
+
     {
         id: 'Preujuizos',
         imageUrl: require('./assets/card-prejuizos.jpg'),
@@ -59,49 +70,41 @@ const courses = [
             { title: 'bem-vindo-curso-prejuizos', completed: false }
         ],
     },
+
     {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        id: 'emissoeslatam',
+        imageUrl: require('./assets/card-emissoeslatam.jpg'),
+        title: "Emissões na LATAM",
+        description: "O curso oferece uma base essencial para a compreensão e aplicação dos processos de emissão de bilhetes na companhia LATAM",
         lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
+            { title: 'bem-vindo-curso-emissoeslatam', completed: false }
         ],
     },
     {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        id: 'emissoesgol',
+        imageUrl: require('./assets/card-emissoesgol.jpg'),
+        title: "Emissões na Gol",
+        description: "O curso oferece uma base essencial para a compreensão e aplicação dos processos de emissão de bilhetes na companhia Gol",
         lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
+            { title: 'bem-vindo-curso-emissoesgol', completed: false }
         ],
     },
     {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        id: 'emissoesazul',
+        imageUrl: require('./assets/card-emissoesazul.jpg'),
+        title: "Emissões na Azul",
+        description: "O curso oferece uma base essencial para a compreensão e aplicação dos processos de emissão de bilhetes na companhia Azul",
         lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
+            { title: 'bem-vindo-curso-emissoesazul', completed: false }
         ],
     },
     {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
+        id: 'ferramentas',
+        imageUrl: require('./assets/card-ferramentas.jpg'),
+        title: "Ferramentas Auxiliares",
+        description: "O curso oferece uma base essencial para o uso eficiente de ferramentas auxiliares de comunicação e colaboração",
         lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
-        ],
-    },
-    {
-        id: 'nocao',
-        imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
-        description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
-        lessons: [
-            { title: 'bem-vindo-curso-nocao', completed: false }
+            { title: 'bem-vindo-curso-ferramentas', completed: false }
         ],
     },
     {
