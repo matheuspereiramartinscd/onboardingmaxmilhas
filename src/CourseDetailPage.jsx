@@ -15,6 +15,7 @@ const coursesData = {
     'ofertantes': 'Ofertantes',
     'tour_virtual': 'Tour Virtual da Empresa',
     'nocao': 'Noções de Informática',
+    'prejuizos': 'Prejuizos',
     'emissoes': 'Emissões',
     'emissoeslatam': 'Emissões na LATAM',
     'emissoesgol': 'Emissões na Gol',

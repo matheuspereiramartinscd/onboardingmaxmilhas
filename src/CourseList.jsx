@@ -62,7 +62,7 @@ const courses = [
     },
 
     {
-        id: 'Preujuizos',
+        id: 'prejuizos',
         imageUrl: require('./assets/card-prejuizos.jpg'),
         title: "Prejuizos",
         description: "O impacto de erros e prejuizos no setor de emissoes",
