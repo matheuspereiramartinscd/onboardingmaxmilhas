@@ -55,9 +55,9 @@
 }
 
 .questTitle {
-    font-weight: bold;
+    font-weight: 550;
     font-size: 18px;
-    color: rgba(75, 65, 65, 0.973);
+    color: black;
     text-align: left;
     margin-bottom: 10px;
     margin-left: 5px;

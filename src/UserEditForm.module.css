@@ -95,11 +95,11 @@
 }
 
 .submitButton {
-    background-color: #00BFFF;
-    color: white;
+    background-color: #98da82;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 18px;
     margin-bottom: 20px;

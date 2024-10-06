@@ -56,8 +56,7 @@
     margin-bottom: 30px;
     padding: 20px;
     height: 172px;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0 2px 5px #0000001a;
+
     border-radius: 10px;
     transition: background-color 0.3s;
     overflow: hidden;
@@ -65,22 +64,23 @@
 }
 
 .collaboratorCard:nth-child(odd) {
-    background-color: #f9f9f9;
+    background-color: #e7e9e738;
     color: #333;
 }
 
 .collaboratorCard:nth-child(even) {
+    background-color: #e7e9e738;
 
     color: #333;
 }
 
-.userName,
+
 .points {
     color: inherit;
 }
 
 .userName {
-    color: #1e2a3b;
+    color: black;
 }
 
 .imageContainer {
