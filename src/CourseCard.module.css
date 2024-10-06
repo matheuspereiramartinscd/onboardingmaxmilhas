@@ -69,8 +69,6 @@
 }
 
 .startButton:hover {
-    background-color: #0f1a2a;
-
-    color: #98da82;
+    border: 1px solid #0f1a2a;
 
 }

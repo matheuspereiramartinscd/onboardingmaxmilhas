@@ -56,7 +56,7 @@
 
 
 .questionCard {
-    background-color: #f9f9f9;
+
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -109,15 +109,15 @@
 .submitButton {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: green;
-    color: white;
+    background-color: #98da82;
+    color: #0f1a2a;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .submitButton:hover {
-    background-color: darkgreen;
+    border: 1px solid #0f1a2a;
 }
 
 /* Responsividade */

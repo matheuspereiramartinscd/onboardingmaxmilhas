@@ -40,7 +40,7 @@
 }
 
 .scoreBox {
-    background-color: #cce5ff;
+    background-color: #f6f8fc;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -152,9 +152,8 @@
 }
 
 .retakeButton {
-    background-color: #4CAF50;
-    /* Green background */
-    color: white;
+    background-color: #98da82;
+    color: #0f1a2a;
     /* White text */
     padding: 10px 20px;
     /* Spacing around the text */
@@ -171,7 +170,7 @@
 }
 
 .retakeButton:hover {
-    background-color: #45a049;
+    border: 1px solid #0f1a2a;
     /* Darker green on hover */
 }
 

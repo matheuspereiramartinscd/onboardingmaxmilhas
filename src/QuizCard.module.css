@@ -98,8 +98,8 @@
 .startButton {
     padding: 12px;
     /* Padding fixo */
-    background-color: #28a745;
-    color: white;
+    background-color: #98da82;
+    color: #0f1a2a;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -115,7 +115,8 @@
 }
 
 .startButton:hover {
-    background-color: #218838;
+    border: 1px solid #0f1a2a;
+
 }
 
 /* Media Queries para responsividade */

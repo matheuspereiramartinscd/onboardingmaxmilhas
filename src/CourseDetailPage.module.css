@@ -115,7 +115,7 @@
 
 /* Nova barra de progresso */
 .progressBar {
-    background-color: #4fb835;
+    background-color: #98da82;
     /* Cor de fundo da barra de progresso (contorno) */
     border-radius: 7px;
     height: 15px;
@@ -194,9 +194,8 @@
 }
 
 .resetButton:hover {
-    background-color: #0f1a2a;
-    color: #98da82
-        /* Mudança de cor ao passar o mouse */
+    border: 1px solid #0f1a2a;
+    /* Mudança de cor ao passar o mouse */
 }
 
 .checklistSeparator {
@@ -226,7 +225,8 @@
 }
 
 .textContainer p {
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     text-align: justify;
     line-height: 1.7;
     color: #333;
@@ -239,8 +239,8 @@
     margin: 250px auto 0;
     /* Centraliza o botão */
     padding: 10px 40px;
-    background-color: #28a745;
-    color: white;
+    background-color: #98da82;
+    color: #0f1a2a;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -249,7 +249,7 @@
 }
 
 .completeButton:hover {
-    background-color: #218838;
+    border: 1px solid #0f1a2a;
     /* Mudança de cor ao passar o mouse */
 }
 
@@ -301,7 +301,7 @@ a {
 }
 
 a:hover {
-    color: #28a745;
+    color: #98da82;
     /* Garante que o hover não altere a cor */
 }
 
