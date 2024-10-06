@@ -137,6 +137,45 @@ app.get('/user/:email', async (req, res) => {
     }
 });
 
+app.put('/api/users/:userId/add-course', async (req, res) => {
+    const { userId } = req.params; // ID do usuário
+    const { courseName } = req.body; // Nome do novo curso
+
+    if (!courseName) {
+        return res.status(400).json({ message: 'Nome do curso é necessário' });
+    }
+
+    try {
+        // Encontra o usuário pelo ID
+        const user = await User.findById(userId);
+
+        if (!user) {
+            return res.status(404).json({ message: 'Usuário não encontrado' });
+        }
+
+        // Verifica se o curso já existe
+        const existingCourse = user.courses.find(course => course.course === courseName);
+        if (existingCourse) {
+            return res.status(400).json({ message: 'O curso já existe para este usuário.' });
+        }
+
+        // Adiciona o novo curso ao array de cursos
+        user.courses.push({
+            course: courseName,
+            progress: 0,
+            lessons: []
+        });
+
+        // Salva o usuário com o novo curso adicionado
+        await user.save();
+
+        res.status(200).json({ message: `Curso '${courseName}' adicionado ao usuário com sucesso.`, user });
+    } catch (error) {
+        console.error('Erro ao adicionar curso ao usuário:', error);
+        res.status(500).json({ message: 'Erro ao adicionar curso', error: error.message });
+    }
+});
+
 // Deletar um curso pelo nome do curso
 app.delete('/api/users/delete-course/:courseName', async (req, res) => {
     const { courseName } = req.params;
