@@ -1,328 +1,91 @@
 .loginPage {
-
-    min-height: 100vh;
-    /* Garante que a página ocupe pelo menos a altura total da tela */
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-
-    /* Remove a rolagem desnecessária */
+    height: 100vh;
+    background-color: #97da82;
+    /* Cor de fundo */
 }
 
-.container {
+.loginBox {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    /* Bordas mais arredondadas */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
     display: flex;
-    gap: 0;
-    padding: 0;
-    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
     width: 100%;
-    height: 935px;
+    min-height: 500px;
+    /* Altura mínima */
+    transition: transform 0.2s ease;
+    /* Transição suave para o efeito lateral */
 }
 
-.leftColumn {
-    display: flex;
-
-    line-height: normal;
-    width: 58%;
-    margin-left: 0;
-    flex: 1;
+.loginBox:hover {
+    transform: translateX(2px);
+    /* Move ligeiramente para a direita ao passar o mouse */
 }
 
-.leftContent {
-    background-color: #98da82;
-    /* Parte verde */
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    font-family: Inter, sans-serif;
+.mainTitle {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #0f1a2a;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.logoImage {
+    width: 115px;
+    /* Tamanho da imagem */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.subTitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #27364b;
+    font-family: 'Arial', sans-serif;
     font-weight: 600;
-    width: calc(100% - 40px);
-    padding: 0 20px 509px 0;
-    /* Ajuste se necessário */
-    border: none;
-    /* Remove bordas */
 }
 
-.rightColumn {
-    display: flex;
-
-    flex-direction: column;
-    line-height: normal;
-    width: 45%;
-    margin-left: 0;
-    margin-bottom: 60px;
-}
-
-.logo {
-    object-position: left;
-    width: 300px;
-    max-width: 100%;
-    margin-left: 0;
-    /* Remove o espaço à esquerda */
-}
-
-.welcomeContainer {
-    align-self: center;
-    display: flex;
-    width: 619px;
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin: 130px 0 0 13px;
-    /* Reduza a margem superior */
-}
-
-.welcomeTitle {
-    color: #fff;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    font-size: 110px;
-    line-height: 1.2;
-    letter-spacing: -2.2px;
-    align-self: stretch;
-}
-
-.welcomeSubtitle {
-    color: rgba(255, 255, 255, 0.69);
-    font-size: 55px;
-    line-height: 66px;
-    letter-spacing: -1.1px;
+.loginText {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #64748b;
     text-align: center;
-    margin-top: 60px;
-}
-
-.decorativeImage {
-    aspect-ratio: 4.39;
-    object-fit: contain;
-    object-position: center;
-    width: 356px;
-    margin-top: 80px;
-    max-width: 100%;
-    margin-left: 0;
-    /* Para tocar a lateral */
-    margin-right: 0;
-    /* Para tocar a lateral */
-}
-
-
-.loginContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 60px;
-    /* Alinha os itens no centro */
-}
-
-.loginLogo {
-    object-position: right;
-    width: 300px;
-    align-self: flex-end;
-    max-width: 100%;
-    margin: 0px;
-    /* Ajuste se necessário */
-}
-
-.loginTitle {
-    color: #fff;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    letter-spacing: -0.9px;
-    text-align: center;
-    margin-top: 230px;
-    /* Ajuste a margem para aproximar a frase do botão */
-    margin-bottom: 130px;
-    /* Ajuste a margem para aproximar a frase do botão */
-    font: 700 45px/54px Inter, -apple-system, Roboto, Helvetica, sans-serif;
-}
-
-.loginForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Alinha o botão Google no centro */
-    margin: 0;
-
-    /* Remova a margem esquerda */
+    font-family: 'Arial', sans-serif;
 }
 
 .googleButton {
-    margin-left: 20px;
-    border-radius: 7px;
-    background-color: #fff;
+    background: linear-gradient(90deg, #4285F4, #357ae8);
+    /* Gradiente */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
     display: flex;
-    width: 500px;
-    /* Ajustar para ocupar toda a largura */
     align-items: center;
-    gap: 13px;
-    padding: 10px;
-    font-size: 20px;
-    /* Reduzir de 30px para 20px */
-    color: #828282;
-    font-weight: 700;
     justify-content: center;
-    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s ease;
+    /* Transição suave para o botão */
+}
+
+.googleButton:hover {
+    transform: translateX(2px);
+    /* Move ligeiramente para a direita ao passar o mouse */
+    background: linear-gradient(90deg, #357ae8, #4285F4);
+    /* Muda o fundo no hover */
 }
 
 .googleLogo {
-    object-position: center;
-    width: 60px;
-    border-radius: 10px;
-    align-self: stretch;
-    margin: auto 0;
-}
-
-.googleButtonText {
-    align-self: stretch;
-    margin: auto 0;
-}
-
-.orDivider {
-    color: #fff;
-    font-weight: 800;
-    margin-top: 36px;
-}
-
-.formFields {
-    display: flex;
-    margin-top: 36px;
-    width: 100%;
-    flex-direction: column;
-}
-
-.formField {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    /* Adiciona espaço entre os campos */
-}
-
-.formLabel {
-    color: #fff;
-    font-weight: 600;
-    margin-bottom: 8px;
-    /* Espaço abaixo do rótulo */
-}
-
-.formInput {
-    align-self: stretch;
-    border-radius: 5px;
-    background-color: #fff;
-    width: 100%;
-    gap: 13px;
-    color: rgba(20, 17, 17, 0.6);
-    font-weight: 400;
-    padding: 13px 10px;
-    border: 1px solid #ded2d9;
-}
-
-.loginButton {
-    align-self: stretch;
-    border-radius: 7px;
-    background-color: #fff;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #828282;
-    font-weight: 700;
-}
-
-/* Media Queries */
-@media (max-width: 991px) {
-    .container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .leftColumn {
-        width: 100%;
-        /* Certifique-se de que a largura seja 100% no responsivo */
-    }
-
-    .rightColumn {
-        width: 100%;
-        background-image: none;
-        /* Certifique-se de que a largura seja 100% no responsivo */
-    }
-
-
-    .leftContent,
-    .loginContainer {
-        max-width: 100%;
-        /* Max largura total */
-    }
-
-    .welcomeContainer {
-        margin-top: 20px;
-        /* Ajuste a margem superior */
-    }
-
-    .welcomeTitle {
-        max-width: 100%;
-        font-size: 40px;
-        /* Tamanho do texto */
-    }
-
-    .welcomeSubtitle {
-        margin-top: 40px;
-        /* Ajusta a margem superior */
-        font-size: 40px;
-        /* Tamanho do texto */
-        line-height: 53px;
-        /* Altura da linha */
-    }
-
-    .loginLogo {
-        display: none;
-        /* Esconde a logo preta quando a tela é pequena */
-    }
-
-    .loginTitle {
-        max-width: 100%;
-        margin-top: 40px;
-        /* Ajusta a margem superior */
-        font-size: 40px;
-        /* Tamanho do texto */
-        line-height: 53px;
-        /* Altura da linha */
-    }
-
-    .decorativeImage {
-        margin-top: 40px;
-        /* Ajusta a margem superior */
-        width: 80%;
-        /* Responsivo */
-    }
-
-    .googleButton {
-        width: 100%;
-        /* Responsivo */
-        font-size: 16px;
-        margin-top: -55px;
-        /* Tamanho do texto */
-    }
-
-    .formInput {
-        padding: 10px;
-        /* Ajusta o padding */
-    }
-
-    .loginButton {
-        font-size: 16px;
-        /* Tamanho do texto */
-    }
-
-    .leftContent {
-        background-color: #98da82;
-        /* Parte verde */
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        font-family: Inter, sans-serif;
-        font-weight: 600;
-        width: calc(100% - 40px);
-        padding: 0 20px 90px 0;
-        /* Ajuste se necessário */
-        border: none;
-        /* Remove bordas */
-    }
+    margin-right: 10px;
 }

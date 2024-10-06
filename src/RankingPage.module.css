@@ -78,6 +78,8 @@
     color: inherit;
 }
 
+.userName {}
+
 .imageContainer {
     display: flex;
     align-items: center;
