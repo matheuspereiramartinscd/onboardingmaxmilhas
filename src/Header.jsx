@@ -7,11 +7,13 @@ import maxmilhasLogo from './assets/maxmilhas-logo.png';
 import coin_icon from './assets/coin_icon.png';
 import { Link } from 'react-router-dom';
 
+import { useNavigate } from 'react-router-dom'; // Importar o hook de navegação
+
 const Header = () => {
     const [userData, setUserData] = useState(null);
-    const [loading, setLoading] = useState(true); // Loading state
+    const [loading, setLoading] = useState(true);
+    const navigate = useNavigate(); // Hook para navegação
 
-    // Define the API URL
     const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
     const fetchUserData = async (storedUserEmail) => {
@@ -42,7 +44,7 @@ const Header = () => {
         } catch (error) {
             console.error('Erro ao buscar dados do usuário:', error);
         } finally {
-            setLoading(false); // Set loading to false after fetching data
+            setLoading(false);
         }
     };
 
@@ -62,14 +64,21 @@ const Header = () => {
         return () => clearInterval(interval);
     }, []);
 
+    // Função para fazer logout
+    const handleLogout = () => {
+        localStorage.clear(); // Limpar todos os dados do localStorage
+        navigate('/login'); // Redirecionar para a página de login
+    };
+
     return (
         <header className={styles.header}>
             <div className={styles.logoContainer}>
                 <img src={logo} alt="Logo" className={styles.logo} />
                 <img src={maxmilhasLogo} alt="Maxmilhas logo" className={styles.newLogo} />
             </div>
-            {/* Render Navigation only if user data is loaded */}
+
             {userData && !loading && <Navigation />}
+
             <div className={styles.userInfo} style={{ visibility: loading ? 'hidden' : 'visible' }}>
                 {userData && (
                     <>
@@ -82,12 +91,21 @@ const Header = () => {
                         <div className={styles.userDetails}>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <span className={styles.username}>{userData.name || 'Nome Indisponível'}</span>
-                                <Link to={`/edit-user/${userData.id}`} className={styles.editButton}>Editar</Link>
+
                             </div>
                             <div className={styles.pointsContainer}>
                                 <img src={coin_icon} alt="Coin icon" className={styles.coinIcon} />
                                 <span className={styles.points}>{userData.points} pts</span>
                             </div>
+                        </div>
+
+                        {/* Botão de Logout */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', }}>
+                            <Link to={`/edit-user/${userData.id}`} className={styles.editButton}>Editar</Link>
+                            {/* Botão de Logout */}
+                            <button onClick={handleLogout} className={styles.editButton} style={{ marginTop: '8px', }}>
+                                Logout
+                            </button>
                         </div>
                     </>
                 )}

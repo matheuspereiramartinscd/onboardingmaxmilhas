@@ -7,9 +7,11 @@
     /* Cor de fundo */
 }
 
+
+
 .loginBox {
     background-color: #fff;
-    padding: 40px 30px;
+    padding: 0px 30px;
     border-radius: 15px;
     /* Bordas mais arredondadas */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -19,7 +21,7 @@
     align-items: center;
     max-width: 400px;
     width: 100%;
-    min-height: 500px;
+    height: 400px;
     /* Altura mínima */
     transition: transform 0.2s ease;
     /* Transição suave para o efeito lateral */
@@ -32,30 +34,32 @@
 
 .mainTitle {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
+    margin-top: 30px;
     color: #0f1a2a;
     font-family: 'Arial', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .logoImage {
-    width: 115px;
+    width: 80px;
     /* Tamanho da imagem */
     height: auto;
-    margin-bottom: 10px;
+
 }
 
 .subTitle {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: #27364b;
     font-family: 'Arial', sans-serif;
     font-weight: 600;
 }
 
 .loginText {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 60%;
     color: #64748b;
     text-align: center;
     font-family: 'Arial', sans-serif;
