@@ -54,6 +54,41 @@ const courses = [
         description: "Questões sobre noções básicas de informática.",
         title2: "Noções de Informática",
     },
+    {
+        id: 7,
+        imageUrl: require('./assets/card-emissoes.jpg'),
+        title: "Emissoes",
+        description: "Questões sobre noções básicas de Emissões.",
+        title2: "Emissões",
+    },
+    {
+        id: 8,
+        imageUrl: require('./assets/card-emissoeslatam2.jpg'),
+        title: "Emissoeslatam",
+        description: "Questões sobre noções básicas de Emissões LATAM.",
+        title2: "Emissões LATAM",
+    },
+    {
+        id: 9,
+        imageUrl: require('./assets/card-emissoesgol2.jpg'),
+        title: "Emissoesgol",
+        description: "Questões sobre noções básicas de Emissões Gol.",
+        title2: "Emissões na Gol",
+    },
+    {
+        id: 10,
+        imageUrl: require('./assets/card-emissoesazul2.jpg'),
+        title: "Emissoesazul",
+        description: "Questões sobre noções básicas de Emissões Azul.",
+        title2: "Emissões Azul",
+    },
+    {
+        id: 11,
+        imageUrl: require('./assets/card-ferramentas.jpg'),
+        title: "Ferramentas",
+        description: "Questões sobre noções básicas de Ferramentas Auxiliares.",
+        title2: "Ferramentas Auxiliares",
+    },
 ];
 
 const QuizPage = () => {

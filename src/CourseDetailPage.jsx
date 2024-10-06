@@ -96,40 +96,63 @@ const lessonsData = {
             </div>
         )
     },
-    'Prejuizos': {
-        title: 'Prejuizos em emissoes',
-        videoUrl: 'https://www.youtube.com/embed/AKA6HIa1TMQ',
+    'bem-vindo-curso-emissoes': {
+        title: 'Bem-vindo ao curso de Emissões',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
         description: (
             <div>
-                <h2 className={styles.contentParagraph}>Prejuizo em emissoes - como evitar</h2>
-                <p className={styles.contentParagraph}>Para evitar erros no sistema Cockpit, utilizado para emissão de bilhetes aéreos, é importante seguir algumas boas práticas. Primeiramente, tenha atenção redobrada durante o processo de emissão, conferindo cada detalhe, como o nome do passageiro, destino, data e horário do voo. Revisar os dados inseridos antes de finalizar a emissão é essencial para evitar problemas. Além disso, é importante garantir que o sistema esteja atualizado e funcionando corretamente, pois erros técnicos podem causar falhas. Outro ponto é treinar adequadamente os usuários do sistema, assegurando que todos saibam como utilizá-lo corretamente. Evi</p>
-                <img src={screenImage3} alt="Descrição da Imagem" className={styles.image} />
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de emissões</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
             </div>
         )
     },
-    'Milhas': {
-        title: 'Milhas',
-        videoUrl: 'https://www.youtube.com/embed/8G_QpZ7uSRA',
+    'bem-vindo-curso-emissoeslatam': {
+        title: 'Bem-vindo ao curso de emissões LATAM',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
         description: (
             <div>
-                <h2 className={styles.contentParagraph}>O que são as milhas?</h2>
-                <img src={screenImage4} alt="Descrição da Imagem" className={styles.image} />
-                <p className={styles.contentParagraph}>Milhas aéreas são um tipo de recompensa oferecida por companhias aéreas para passageiros que participam de programas de fidelidade. Cada vez que uma pessoa viaja com uma companhia aérea participante ou utiliza serviços parceiros, como hotéis e cartões de crédito específicos, ela acumula milhas. Essas milhas podem ser trocadas por passagens aéreas, upgrades de classe, descontos em serviços e outros benefícios.
-
-                    O sistema funciona como um incentivo para que os clientes continuem viajando com a mesma companhia aérea ou utilizem seus parceiros. O número de milhas acumuladas varia de acordo com a distância voada, a tarifa paga ou o tipo de serviço usado. Algumas companhias também permitem que as milhas sejam transferidas ou compradas, oferecendo maior flexibilidade aos clientes.</p>
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de emissões LATAM</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
             </div>
         )
     },
-    'Milhas': {
-        title: 'Milhas',
-        videoUrl: 'https://www.youtube.com/embed/8G_QpZ7uSRA',
+    'bem-vindo-curso-emissoesgol': {
+        title: 'Bem-vindo ao curso de emissões Gol',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
         description: (
             <div>
-                <h2 className={styles.contentParagraph}>O que são as milhas?</h2>
-                <img src={screenImage4} alt="Descrição da Imagem" className={styles.image} />
-                <p className={styles.contentParagraph}>Milhas aéreas são um tipo de recompensa oferecida por companhias aéreas para passageiros que participam de programas de fidelidade. Cada vez que uma pessoa viaja com uma companhia aérea participante ou utiliza serviços parceiros, como hotéis e cartões de crédito específicos, ela acumula milhas. Essas milhas podem ser trocadas por passagens aéreas, upgrades de classe, descontos em serviços e outros benefícios.
-
-                    O sistema funciona como um incentivo para que os clientes continuem viajando com a mesma companhia aérea ou utilizem seus parceiros. O número de milhas acumuladas varia de acordo com a distância voada, a tarifa paga ou o tipo de serviço usado. Algumas companhias também permitem que as milhas sejam transferidas ou compradas, oferecendo maior flexibilidade aos clientes.</p>
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de emissões Gol</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+            </div>
+        )
+    },
+    'bem-vindo-curso-emissoesazul': {
+        title: 'Bem-vindo ao curso de emissões Azul',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        description: (
+            <div>
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de emissões Azul</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+            </div>
+        )
+    },
+    'bem-vindo-curso-ferramentas': {
+        title: 'Bem-vindo ao curso de Ferramentas Auxiliares',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        description: (
+            <div>
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de ferramentas auxiliares</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
+            </div>
+        )
+    },
+    'bem-vindo-curso-prejuizos': {
+        title: 'Bem-vindo ao curso de Prejuizos',
+        videoUrl: 'https://www.youtube.com/embed/2mRlUWNIPzo',
+        description: (
+            <div>
+                <p className={styles.contentParagraph}>Bem-vindo ao curso de Prejuizos</p>
+                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
             </div>
         )
     },
