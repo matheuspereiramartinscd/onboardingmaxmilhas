@@ -11,7 +11,7 @@
     min-height: 450px;
     /* Altura mínima dos cards */
     padding: 20px;
-
+    border: 1px solid #a5aebc;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     transition: transform 0.2s;

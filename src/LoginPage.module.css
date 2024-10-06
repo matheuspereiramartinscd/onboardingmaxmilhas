@@ -21,6 +21,7 @@
     align-items: center;
     max-width: 400px;
     width: 100%;
+    border: 1px solid #a5aebc;
     height: 400px;
     /* Altura mínima */
     transition: transform 0.2s ease;

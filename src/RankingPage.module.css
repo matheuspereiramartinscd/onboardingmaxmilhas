@@ -10,11 +10,11 @@
 }
 
 .pageTitle {
-    color: #fff;
+    color: #1e2a3b;
     font-size: 36px;
     text-align: center;
     margin: 91px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .separator {
@@ -44,6 +44,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     flex-grow: 1;
+    border: 1px solid #a5aebc;
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +79,9 @@
     color: inherit;
 }
 
-.userName {}
+.userName {
+    color: #1e2a3b;
+}
 
 .imageContainer {
     display: flex;
@@ -327,11 +330,11 @@
     }
 
     .pageTitle {
-        color: #fff;
+        color: #1e2a3b;
         font-size: 24px;
         text-align: center;
         margin: 91px;
-        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
     }
 
     .medalIcon2Container {

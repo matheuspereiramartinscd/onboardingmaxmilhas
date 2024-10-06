@@ -12,10 +12,10 @@
 }
 
 .newTitle {
-    color: white;
+    color: #1e2a3b;
     font-size: 36px;
     margin-bottom: 11px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .separator {
@@ -36,6 +36,7 @@
     margin: auto;
     margin-top: 2px;
     text-align: center;
+    border: 1px solid #a5aebc;
     flex-grow: 1;
 }
 
@@ -78,10 +79,10 @@
     }
 
     .newTitle {
-        color: white;
+        color: #1e2a3b;
         font-size: 36px;
         margin-bottom: 11px;
-        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
     }
 }
 

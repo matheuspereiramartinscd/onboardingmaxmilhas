@@ -7,13 +7,13 @@
 }
 
 .pageTitle {
-    color: #fff;
+    color: #1e2a3b;
     font-size: 2rem;
     text-align: center;
 
     margin-top: 92.5px;
     margin-bottom: 15px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .pageTitle2 {
@@ -47,6 +47,7 @@
     margin: 0 auto;
     flex-grow: 1;
     margin-top: 0px;
+    border: 1px solid #a5aebc;
 }
 
 .cardContainer {
@@ -61,13 +62,13 @@
 @media (max-width: 500px) {
 
     .pageTitle {
-        color: #fff;
+        color: #1e2a3b;
         font-size: 24px;
         text-align: center;
 
         margin-top: 91px;
         margin-bottom: 12px;
-        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
     }
 }
 
