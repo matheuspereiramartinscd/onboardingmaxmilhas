@@ -72,19 +72,20 @@
 .infoContainer {
     position: relative;
     width: 30%;
-    /* Ajuste a largura conforme necessário */
     height: auto;
-    /* Permitir que a altura ajuste automaticamente */
     background: linear-gradient(135deg, #ffffff, #f0f0f0);
     border: 1px solid #a5aebc;
     border-radius: 15px;
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 52px;
+    margin-top: 46px;
     margin-left: 10px;
     margin-right: 21px;
-    /* Ajuste a margem para alinhamento adequado */
+    max-height: 500px;
+    /* Define a altura máxima */
+    overflow-y: auto;
+    /* Adiciona a barra de rolagem vertical se necessário */
 }
 
 .progressPanel {
@@ -152,10 +153,12 @@
 
 .lessonItem {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+    color: #27364b;
     margin: 10px 0;
-    text-transform: capitalize;
+
 }
 
 .courseTitle {
@@ -178,6 +181,7 @@
     border-radius: 4px;
     padding: 5px 10px;
     font-weight: bold;
+    display: none;
 }
 
 .resetButton {
@@ -296,8 +300,9 @@
 }
 
 a {
-    font-size: 12px;
-    text-transform: capitalize;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     text-decoration: none;
     color: inherit;
     /* Remove underline e mantém a cor padrão */

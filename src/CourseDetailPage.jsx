@@ -136,6 +136,10 @@ const lessonsData = {
 };
 
 
+const capitalizeFirstLetter = (text) => {
+    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+};
+
 const CourseDetailPage = () => {
     const { id, lesson } = useParams();
     const navigate = useNavigate();
@@ -255,7 +259,6 @@ const CourseDetailPage = () => {
 
     const pageTitle = coursesData[id] || 'Curso desconhecido';
 
-    // Verifica se a rota atual contém "bem-vindo" após o caminho "/curso/"
     const isWelcomeRoute = location.pathname.match(/\/curso\/[^/]*\/bem-vindo/);
 
     return (
@@ -290,7 +293,7 @@ const CourseDetailPage = () => {
                         {lessons.map((lesson) => (
                             <div key={lesson.title} className={styles.lessonItem}>
                                 <Link to={`/curso/${id}/${lesson.title}`}>
-                                    {lesson.completed ? '✔️' : '⚪️'} {lessonsData[lesson.title]?.title || lesson.title.replace(/-/g, ' ').toUpperCase()}
+                                    {lesson.completed ? '✔️' : '⚪️'} {capitalizeFirstLetter(lessonsData[lesson.title]?.title || lesson.title.replace(/-/g, ' ').toUpperCase())}
                                 </Link>
                                 <div className={styles.durationBox}>{lesson.duration}m</div>
                             </div>
@@ -304,7 +307,6 @@ const CourseDetailPage = () => {
                     {lessonData.description}
                 </p>
 
-                {/* Renderiza o botão apenas se a rota não contiver "bem-vindo" */}
                 {!isWelcomeRoute && (
                     <button
                         className={styles.completeButton}
@@ -314,7 +316,6 @@ const CourseDetailPage = () => {
                     </button>
                 )}
 
-                {/* Mensagem informando sobre o status do quiz */}
                 <div className={styles.progressContainer}>
                     {progress < 100 ? (
                         <p className={styles.progressMessage}>
