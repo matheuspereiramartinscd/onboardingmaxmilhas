@@ -595,6 +595,192 @@ const courses = [
             },
         ]
     },
+    {
+        id: 'prejuizos',
+        title: "Prejuízos",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    },
+    {
+        id: 'emissoes',
+        title: "Emissões",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    },
+    {
+        id: 'emissoeslatam',
+        title: "Emissoes LATAM",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    },
+    {
+        id: 'emissoesgol',
+        title: "Emissoes Gol",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    },
+    {
+        id: 'emissoesazul',
+        title: "Emissoes Azul",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    },
+    {
+        id: 'ferramentas',
+        title: "Ferramentas Auxiliares",
+        questions: [
+            {
+                question: "Qual é o principal componente de um computador?",
+                options: ["Teclado", "Monitor", "Processador", "Mouse"],
+                correctAnswer: "Processador"
+            },
+            {
+                question: "O que é um sistema operacional?",
+                options: ["Software que controla o hardware", "Um tipo de hardware", "Um programa de jogos", "Um aplicativo de edição de texto"],
+                correctAnswer: "Software que controla o hardware"
+            },
+            {
+                question: "Qual é a função do teclado?",
+                options: ["Imprimir documentos", "Inserir dados", "Armazenar arquivos", "Conectar à internet"],
+                correctAnswer: "Inserir dados"
+            },
+            {
+                question: "O que é a internet?",
+                options: ["Uma rede de computadores", "Um programa de computador", "Um jogo online", "Uma aplicação de software"],
+                correctAnswer: "Uma rede de computadores"
+            },
+            {
+                question: "Qual é a finalidade de um antivírus?",
+                options: ["Proteger contra vírus", "Aumentar a velocidade do computador", "Fazer backup de arquivos", "Desinstalar programas"],
+                correctAnswer: "Proteger contra vírus"
+            },
+        ]
+    }
 ];
 
 const getRandomQuestions = (questions, limit = 10) => {
