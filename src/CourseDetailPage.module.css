@@ -296,6 +296,8 @@
 }
 
 a {
+    font-size: 12px;
+    text-transform: capitalize;
     text-decoration: none;
     color: inherit;
     /* Remove underline e mantém a cor padrão */
