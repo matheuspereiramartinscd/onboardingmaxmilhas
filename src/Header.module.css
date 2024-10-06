@@ -87,10 +87,11 @@
 .pointsContainer {
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .points {
+    font-size: 15px;
     text-align: center;
 
     color: #000000a9;

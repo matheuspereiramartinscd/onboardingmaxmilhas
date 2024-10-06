@@ -181,10 +181,10 @@
 
 .resetButton {
     margin-top: 30px;
-    padding: 10px 20px;
-    background-color: #28a745;
-    border-color: #28a745;
-    color: rgb(253, 253, 253);
+    padding: 10px 10px;
+    background-color: #98da82;
+
+    color: #0f1a2a;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -194,8 +194,9 @@
 }
 
 .resetButton:hover {
-    background-color: #218838;
-    /* Mudança de cor ao passar o mouse */
+    background-color: #0f1a2a;
+    color: #98da82
+        /* Mudança de cor ao passar o mouse */
 }
 
 .checklistSeparator {

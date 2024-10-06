@@ -55,8 +55,11 @@
 .startButton {
     align-self: stretch;
     border-radius: 8px;
-    background-color: #007bff;
-    color: #fff;
+
+    background-color: #98da82;
+    color: #0f1a2a;
+    font-weight: bold;
+
     padding: 10px;
     font-size: 14px;
     border: none;
@@ -66,5 +69,8 @@
 }
 
 .startButton:hover {
-    background-color: #0056b3;
+    background-color: #0f1a2a;
+
+    color: #98da82;
+
 }
