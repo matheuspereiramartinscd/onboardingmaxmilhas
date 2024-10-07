@@ -94,3 +94,12 @@
 .googleLogo {
     margin-right: 10px;
 }
+
+@media (max-width: 500px) {
+
+    .loginBox {
+
+        width: 90%;
+
+    }
+}
