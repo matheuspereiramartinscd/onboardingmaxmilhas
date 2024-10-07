@@ -6,13 +6,27 @@ const GoogleLoginButton = () => {
     const handleLogin = async (credentialResponse) => {
         try {
             const { credential } = credentialResponse;
-            localStorage.setItem('token', credential);
             const userObject = JSON.parse(atob(credential.split('.')[1]));
             const userEmail = userObject.email;
+
+            // Verificar se o email é permitido
+            const allowedEmails = [
+                'matheuspereiramartins1993@gmail.com',
+                'mpm392161code@gmail.com',
+                'matheuspereiramartinscd@gmail.com'
+            ];
+            const isMaxmilhasEmail = userEmail.endsWith('@maxmilhas.com.br') || allowedEmails.includes(userEmail);
+
+            if (!isMaxmilhasEmail) {
+                alert('Apenas emails do domínio @maxmilhas.com.br são permitidos.');
+                return;
+            }
+
+            // Armazenar token e continuar com o login
+            localStorage.setItem('token', credential);
             localStorage.setItem('userEmail', userEmail);
 
             const apiUrl = `${process.env.REACT_APP_API_URL}/api/users`;
-
             const userCheckResponse = await fetch(`${apiUrl}/user/${userEmail}`);
 
             if (userCheckResponse.ok) {

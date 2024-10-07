@@ -282,7 +282,7 @@
 .image {
     display: block;
     margin: auto;
-    max-width: 65%;
+    max-width: 100%;
     height: auto;
     margin-top: 100px;
     margin-bottom: 100px;

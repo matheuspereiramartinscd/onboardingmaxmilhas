@@ -7,6 +7,7 @@ import screenImage from './assets/screen.jpg';
 import screenImage2 from './assets/screenImage2.jpg';
 import screenImage3 from './assets/screenImage3.jpg';
 import screenImage4 from './assets/screenImage4.jpg';
+import cockpit01 from './assets/Cursos/Cockpit/cockpit01.jpg';
 
 const coursesData = {
     'cockpit': 'Cockpit',
@@ -30,22 +31,31 @@ const lessonsData = {
         videoUrl: 'https://www.youtube.com/embed/9HqJlhF4mDs',
         description: (
             <div>
-                <h2 className={styles.contentParagraph}>Bem-vindo ao nosso sistema de gerenciamento de milhas!</h2>
-                <p className={styles.contentParagraph}>Bem-vindo ao Curso de Cockpit! Neste treinamento, você aprenderá a dominar um sistema administrativo avançado, amplamente utilizado para o gerenciamento e a execução de transações de bilhetes aéreos. Ao longo do curso, você será guiado passo a passo nas funcionalidades que envolvem as principais companhias aéreas do Brasil, como Latam, Gol e Azul, desde a escolha de ofertantes até a substituição de cartões de crédito nas operações.
+                <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>Bem-vindo ao Curso de Cockpit da Maxmilhas!</h1>
+<p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao sistema Cockpit da Maxmilhas, uma plataforma inovadora que transforma a maneira como as passagens aéreas são emitidas e gerenciadas. O Cockpit é uma ferramenta administrativa essencial que conecta ofertantes de milhas e clientes, facilitando todo o processo de emissão de bilhetes aéreos.</p>
 
-                    Nosso objetivo é capacitar você a operar o cockpit com eficiência, garantindo que seja possível realizar transações seguras e rápidas. Vamos explorar como iniciar reservas, gerenciar alterações e lidar com os processos mais críticos na venda e modificação de passagens aéreas. Além disso, você terá a oportunidade de aprender como personalizar e otimizar suas preferências, como a escolha de métodos de pagamento.
+<p style={{ marginTop:'40px', marginBottom:'40px' }}>Durante este curso, você terá a oportunidade de delves nas funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
 
-                    Este curso é ideal para profissionais que buscam expandir suas habilidades no setor de aviação ou qualquer pessoa interessada em compreender como funcionam os bastidores das transações aéreas no ambiente corporativo. Ao final do curso, você estará apto a utilizar o cockpit de forma segura e estratégica, proporcionando uma experiência diferenciada tanto para empresas quanto para clientes.
+<h2 style={{ marginTop:'40px', marginBottom:'40px' }}>O que Esperar do Curso</h2>
+<p>Ao longo das aulas, vamos abordar tópicos fundamentais, incluindo:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '80px', marginTop:'40px', marginBottom:'40px' }}>
+    <li><strong>Introdução ao Sistema Cockpit:</strong> Compreenderemos a interface do sistema, suas principais funcionalidades e como acessá-lo corretamente.</li>
+    <li><strong>Emissão de Passagens:</strong> Aprenderemos o processo completo de emissão de passagens aéreas, desde a criação de transações até a finalização com o envio do e-ticket ao cliente.</li>
+    <li><strong>Gerenciamento de Ofertas e Cancelamentos:</strong> Discutiremos como aprovar ofertas de venda de milhas, bem como os procedimentos necessários para cancelar passagens quando necessário.</li>
+    <li><strong>Busca e Análise de Ofertantes:</strong> Veremos como encontrar ofertantes disponíveis e analisar suas propostas, sempre visando a melhor viabilidade e lucro para as transações.</li>
+    <li><strong>Verificação de Passagens Emitidas:</strong> Entenderemos como checar as passagens já emitidas pelo sistema e acompanhar o status das transações.</li>
+</ul>
 
-                    Preparado para decolar nessa jornada de conhecimento?</p>
-                <img src={screenImage2} alt="Descrição da Imagem" className={styles.image} />
-                <p className={styles.contentParagraph}> Ao final do Curso de Cockpit, você terá a oportunidade de reforçar seu aprendizado participando de um quiz exclusivo. Esse questionário foi desenvolvido para revisar os principais conceitos abordados durante o treinamento, garantindo que você tenha assimilado todas as informações essenciais sobre o sistema de transações de bilhetes aéreos.
 
-                    O quiz será disponibilizado após a conclusão das aulas, cobrindo tópicos como o gerenciamento de transações nas companhias Latam, Gol e Azul, troca de cartões de crédito e a escolha de ofertantes. Ele também servirá como uma ferramenta de autoavaliação, permitindo que você teste seus conhecimentos de forma prática e interativa.
+    <h2>Cockpit</h2>
+    <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpit01} alt="Imagem do Sistema Cockpit 1"></img>
 
-                    Ao concluir o quiz com sucesso, você estará ainda mais preparado para utilizar o cockpit com confiança no ambiente de trabalho.</p>
-            </div>
-        )
+<p style={{ marginTop:'40px', marginBottom:'40px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
+
+<p style={{ marginTop:'40px', marginBottom:'40px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
+    </div>
+    )
+        
     },
     'bem-vindo-curso-milhas': {
         title: 'Bem-vindo ao curso de Milhas',
