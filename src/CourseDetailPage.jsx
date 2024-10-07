@@ -8,6 +8,7 @@ import screenImage2 from './assets/screenImage2.jpg';
 import screenImage3 from './assets/screenImage3.jpg';
 import screenImage4 from './assets/screenImage4.jpg';
 import cockpit01 from './assets/Cursos/Cockpit/cockpit01.jpg';
+import cockpit02 from './assets/Cursos/Cockpit/cockpit02.jpg';
 
 const coursesData = {
     'cockpit': 'Cockpit',
@@ -34,9 +35,9 @@ const lessonsData = {
                 <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>Bem-vindo ao Curso de Cockpit da Maxmilhas!</h1>
 <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao sistema Cockpit da Maxmilhas, uma plataforma inovadora que transforma a maneira como as passagens aéreas são emitidas e gerenciadas. O Cockpit é uma ferramenta administrativa essencial que conecta ofertantes de milhas e clientes, facilitando todo o processo de emissão de bilhetes aéreos.</p>
 
-<p style={{ marginTop:'40px', marginBottom:'40px' }}>Durante este curso, você terá a oportunidade de delves nas funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
+<p style={{ marginTop:'40px', marginBottom:'40px' }}>Durante este curso, você terá a oportunidade sobre as funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
 
-<h2 style={{ marginTop:'40px', marginBottom:'40px' }}>O que Esperar do Curso</h2>
+<h2 style={{ marginTop:'40px', marginBottom:'40px' }}>O que esperar do curso</h2>
 <p>Ao longo das aulas, vamos abordar tópicos fundamentais, incluindo:</p>
 <ul style={{ listStyleType: 'disc', marginLeft: '80px', marginTop:'40px', marginBottom:'40px' }}>
     <li><strong>Introdução ao Sistema Cockpit:</strong> Compreenderemos a interface do sistema, suas principais funcionalidades e como acessá-lo corretamente.</li>
@@ -48,9 +49,9 @@ const lessonsData = {
 
 
     <h2>Cockpit</h2>
-    <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpit01} alt="Imagem do Sistema Cockpit 1"></img>
-
-<p style={{ marginTop:'40px', marginBottom:'40px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
+    <img style={{ marginTop:'10px', marginBottom:'40px' }} className={styles.image} src={cockpit01} alt="Imagem do Sistema Cockpit 1"></img>
+    <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpit02} alt="Imagem do Sistema Cockpit 1"></img>       
+<p style={{ marginTop:'10px', marginBottom:'40px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
 
 <p style={{ marginTop:'40px', marginBottom:'40px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
     </div>
