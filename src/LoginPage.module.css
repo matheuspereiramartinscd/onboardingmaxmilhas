@@ -22,7 +22,7 @@
     max-width: 400px;
     width: 100%;
     border: 1px solid #a5aebc;
-    height: 400px;
+    height: 385px;
     /* Altura mínima */
     transition: transform 0.2s ease;
     /* Transição suave para o efeito lateral */
@@ -35,7 +35,7 @@
 
 .mainTitle {
     font-size: 36px;
-    margin-bottom: 35px;
+    margin-bottom: 31px;
     margin-top: 30px;
     color: #0f1a2a;
     font-family: 'Arial', sans-serif;
@@ -58,8 +58,8 @@
 }
 
 .loginText {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
     width: 60%;
     color: #64748b;
     text-align: center;
