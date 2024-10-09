@@ -19,7 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    max-width:370px;
+    margin-top:-200px;
     width: 100%;
     border: 1px solid #a5aebc;
     height: 385px;
