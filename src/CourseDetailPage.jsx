@@ -36,7 +36,7 @@ const lessonsData = {
         videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
         description: (
                         <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>O que é o Cockpit? </h1>
+                            <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>Olá! </h1>
                             <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao sistema Cockpit da Maxmilhas, uma plataforma inovadora que transforma a maneira como as passagens aéreas são emitidas e gerenciadas. O Cockpit é uma ferramenta administrativa essencial que conecta ofertantes de milhas e clientes, facilitando todo o processo de emissão de bilhetes aéreos.</p>
 
                             <p style={{ marginTop:'40px', marginBottom:'40px' }}>Durante este curso, você terá a oportunidade sobre as funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
@@ -87,7 +87,7 @@ const lessonsData = {
                             </p>
                             <img style={{ marginTop:'10px', marginBottom:'40px' }} className={styles.image} src={cockpittelalogin} alt="Imagem do Sistema Cockpit 1"></img>
                             <h2>Tela inicial:</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>NNa tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
+                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
                             </p>
                             <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpittelainicial} alt="Imagem do Sistema Cockpit 1"></img>       
                      
