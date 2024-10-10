@@ -6,7 +6,7 @@ import CourseCard from './CourseCard';
 // Definindo os cursos com suas respectivas lições
 const courses = [
     {
-        id: 'cockpit',
+        id: 'cockpitsystem',
         imageUrl: require('./assets/card-cockpit.jpg'),
         title: "Cockpit",
         description: "O cockpit é um sistema web especializado na emissão de passagens aéreas.",

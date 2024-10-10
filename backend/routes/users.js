@@ -52,7 +52,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
             score: 0, // Pontuação inicial
             courses: [
                 {
-                    "course": "cockpitaba",
+                    "course": "cockpitsystem",
                     "progress": 0,
                     "lessons": [
                         {"title": "Cockpit", "completed": false},
