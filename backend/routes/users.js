@@ -71,7 +71,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "course": "milhas",
                     "progress": 0,
                     "lessons": [
-                        {"title": "O que são milhas aéreas", "completed": false},
+                        {"title": "Milhas", "completed": false},
                         {"title": "Regulamentação da venda de milhas", "completed": false},
                         {"title": "Precificação das milhas", "completed": false},
                         {"title": "Como acumular milhas", "completed": false},
@@ -114,7 +114,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "course": "ofertantes",
                     "progress": 0,
                     "lessons": [
-                        {"title": "O que são os ofertantes", "completed": false},
+                        {"title": "Ofertantes", "completed": false},
                         {"title": "Buscando ofertantes pelo milhas", "completed": false},
                         {"title": "Saldo, razão, média e quantidade de CPFs", "completed": false},
                         {"title": "Milhas da venda, valor ofertante e valor unitário", "completed": false},

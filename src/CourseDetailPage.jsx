@@ -247,8 +247,9 @@ const lessonsData = {
 };
 
 
-const capitalizeFirstLetter = (text) => {
-    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+const capitalizeFirstLetter = (string) => {
+    if (!string) return '';
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 };
 
 const CourseDetailPage = () => {
@@ -372,13 +373,18 @@ const CourseDetailPage = () => {
 
     const isWelcomeRoute = location.pathname.match(/\/curso\/[^/]*\/bem-vindo/);
 
+    // Função para encontrar a primeira lição disponível
+    const getFirstAvailableLesson = () => {
+        return lessons.find(l => !l.completed)?.title;
+    };
+
     return (
         <div className={styles.courseDetail}>
             <h2 className={styles.courseTitle}>{pageTitle}</h2>
             <hr className={styles.separator} />
             <div className={styles.contentContainer}>
                 <div className={styles.videoContainer}>
-                    <h2 className={styles.lessonTitle}>{lessonData.title}</h2>
+                    <h2 className={styles.lessonTitle}>{capitalizeFirstLetter(lessonData.title)}</h2>
                     {lessonData.videoUrl && (
                         <iframe
                             src={lessonData.videoUrl}
@@ -413,7 +419,7 @@ const CourseDetailPage = () => {
                 </div>
             </div>
             <div className={styles.textContainer}>
-                <h1 className={styles.title}>{lessonData.title}</h1>
+                <h1 className={styles.title}>{capitalizeFirstLetter(lessonData.title)}</h1>
                 <p className={styles.description}>
                     {lessonData.description}
                 </p>
@@ -424,6 +430,21 @@ const CourseDetailPage = () => {
                         onClick={handleCompleteLesson}
                     >
                         Concluir Aula
+                    </button>
+                )}
+
+                {isWelcomeRoute && (
+                    <button
+                        className={styles.completeButton}
+                        onClick={() => {
+                            const firstAvailableLesson = getFirstAvailableLesson();
+                            if (firstAvailableLesson) {
+                                navigate(`/curso/${id}/${firstAvailableLesson}`);
+                                window.scrollTo(0, 0);
+                            }
+                        }}
+                    >
+                        Iniciar Curso
                     </button>
                 )}
 
