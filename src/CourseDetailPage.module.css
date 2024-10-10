@@ -361,6 +361,7 @@ a:hover {
     }
 
     .videoContainer iframe {
+        margin-left: 0px;
         width: 90%;
         height: 700px;
     }
@@ -385,8 +386,9 @@ a:hover {
     }
 
     .videoContainer iframe {
+        margin-left: 0px;
         width: 90%;
-        height: 400px;
+        height: 500px;
 
         /* Ajuste a altura conforme necessário */
     }
