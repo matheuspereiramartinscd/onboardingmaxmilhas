@@ -15,7 +15,7 @@ const courses = [
     {
         id: 1,
         imageUrl: require('./assets/card-cockpit.jpg'),
-        title: "Cockpit",
+        title: "Cockpitaba",
         description: "Questões objetivas sobre o cockpit.",
         title2: "Cockpit",
     },

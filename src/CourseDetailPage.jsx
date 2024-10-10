@@ -15,7 +15,7 @@ import cockpiticones from './assets/Cursos/Cockpit/cockpiticones.png';
 
 
 const coursesData = {
-    'cockpit': 'Cockpit',
+    'cockpitaba': 'Cockpit',
     'milhas': 'Milhas',
     'historia': 'História da Empresa e Cultura',
     'ofertantes': 'Ofertantes',
