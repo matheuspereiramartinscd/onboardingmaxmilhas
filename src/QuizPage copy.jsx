@@ -1,7 +1,6 @@
 import styles from './QuizPage.module.css';
 import React, { useState, useEffect } from 'react';
 import QuizCard from './QuizCard';
-import axios from 'axios';
 
 // Função para remover acentos e normalizar o título (apenas para controle interno)
 const normalizeTitle = (title) => {
@@ -96,27 +95,17 @@ const QuizPage = () => {
     const [progress, setProgress] = useState({}); // Armazenar progresso de cada curso
 
     useEffect(() => {
-        const fetchUserProgress = async () => {
-            try {
-                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/users/${localStorage.getItem('userId')}/progress`, {
-                    headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` }
-                });
-                const userData = response.data;
+        // Recupera o progresso de cada curso do localStorage e normaliza as chaves
+        const storedProgress = JSON.parse(localStorage.getItem('userProgress')) || {};
 
-                // Mapeia os cursos do banco para um objeto com a chave normalizada
-                const normalizedProgress = userData.courses.reduce((acc, course) => {
-                    const normalizedKey = normalizeTitle(course.course);
-                    acc[normalizedKey] = course.progress;
-                    return acc;
-                }, {});
+        // Criar um objeto de progresso com as chaves normalizadas
+        const normalizedProgress = Object.keys(storedProgress).reduce((acc, key) => {
+            const normalizedKey = normalizeTitle(key); // Normaliza as chaves do localStorage
+            acc[normalizedKey] = storedProgress[key];
+            return acc;
+        }, {});
 
-                setProgress(normalizedProgress); // Define o progresso a partir do banco de dados
-            } catch (error) {
-                console.error("Erro ao buscar o progresso do usuário:", error);
-            }
-        };
-
-        fetchUserProgress();
+        setProgress(normalizedProgress); // Define o progresso normalizado
     }, []);
 
     // Função para verificar se o quiz está bloqueado
@@ -127,25 +116,6 @@ const QuizPage = () => {
     // Função para rolar para o topo da página
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    // Função para reiniciar o progresso de um curso
-    const resetProgress = async (id, resetLessons) => {
-        localStorage.setItem('userProgress', JSON.stringify({ 
-            ...JSON.parse(localStorage.getItem('userProgress')) || {}, 
-            [id]: 0 
-        }));
-
-        try {
-            await axios.put(`${process.env.REACT_APP_API_URL}/api/users/${localStorage.getItem('userId')}/progress/${id}`, {
-                progress: 0,
-                lessons: resetLessons
-            }, {
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` }
-            });
-        } catch (error) {
-            console.error('Erro ao reiniciar progresso:', error);
-        }
     };
 
     return (

@@ -166,23 +166,6 @@ app.put('/api/users/:userId/add-course', async (req, res) => {
             lessons: []
         });
 
-        app.get('/api/users/:userId/progress', async (req, res) => {
-            const { userId } = req.params;
-        
-            try {
-                const user = await User.findById(userId);
-        
-                if (!user) {
-                    return res.status(404).json({ message: 'Usuário não encontrado' });
-                }
-        
-                res.status(200).json({ courses: user.courses }); // Retorna os cursos e o progresso do usuário
-            } catch (error) {
-                console.error('Erro ao buscar o progresso do usuário:', error);
-                res.status(500).json({ message: 'Erro ao buscar o progresso do usuário' });
-            }
-        });
-
         // Salva o usuário com o novo curso adicionado
         await user.save();
 
