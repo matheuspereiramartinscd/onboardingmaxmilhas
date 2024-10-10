@@ -55,32 +55,203 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "course": "cockpit",
                     "progress": 0,
                     "lessons": [
+                        {"title": "Cockpit", "completed": false},
+                        {"title": "Menu lateral", "completed": false},
+                        {"title": "Menu lateral - Cockpit", "completed": false},
+                        {"title": "Menu lateral - Milhas", "completed": false},
+                        {"title": "Detalhes da oferta", "completed": false},
+                        {"title": "Abas do Cockpit", "completed": false},
+                        {"title": "Opções de pesquisa de transações", "completed": false},
+                        {"title": "Transações", "completed": false},
+                        {"title": "Transação completa", "completed": false},
+                        {"title": "Comentários", "completed": false}
                     ]
                 },
                 {
                     "course": "milhas",
                     "progress": 0,
-                    "lessons": []
+                    "lessons": [
+                        {"title": "O que são milhas aéreas", "completed": false},
+                        {"title": "Regulamentação da venda de milhas", "completed": false},
+                        {"title": "Precificação das milhas", "completed": false},
+                        {"title": "Como acumular milhas", "completed": false},
+                        {"title": "Como utilizar milhas", "completed": false},
+                        {"title": "Principais programas de fidelidade", "completed": false},
+                        {"title": "Validade das milhas", "completed": false}
+                    ]
                 },
                 {
                     "course": "historia",
                     "progress": 0,
-                    "lessons": []
+                    "lessons": [
+                        {"title": "História da fundação da empresa", "completed": false},
+                        {"title": "Principais marcos e conquistas", "completed": false},
+                        {"title": "Cultura organizacional", "completed": false},
+                        {"title": "Valores e missão da empresa", "completed": false},
+                        {"title": "Como a empresa se posiciona no mercado", "completed": false},
+                        {"title": "Estrutura hierárquica e equipes", "completed": false},
+                        {"title": "Políticas de inclusão e diversidade", "completed": false}
+                    ]
                 },
                 {
                     "course": "nocao",
                     "progress": 0,
-                    "lessons": []
+                    "lessons": [
+                        {"title": "Navegadores de internet", "completed": false},
+                        {"title": "Extensões de navegador", "completed": false},
+                        {"title": "Navegação Anônima", "completed": false},
+                        {"title": "Cookies", "completed": false},
+                        {"title": "Uso de VPNs", "completed": false},
+                        {"title": "Simuladores Android", "completed": false},
+                        {"title": "CCleaner e manutenção do sistema", "completed": false},
+                        {"title": "Ferramentas de captura de tela", "completed": false},
+                        {"title": "Google Sheets e planilhas do Excel", "completed": false},
+                        {"title": "Criando Senhas Seguras", "completed": false},
+                        {"title": "Autenticação de Dois Fatores (2FA)", "completed": false}
+                    ]
                 },
                 {
                     "course": "ofertantes",
                     "progress": 0,
-                    "lessons": []
+                    "lessons": [
+                        {"title": "O que são os ofertantes", "completed": false},
+                        {"title": "Buscando ofertantes pelo milhas", "completed": false},
+                        {"title": "Saldo, razão, média e quantidade de CPFs", "completed": false},
+                        {"title": "Milhas da venda, valor ofertante e valor unitário", "completed": false},
+                        {"title": "Valor da compra, valor pago e taxa de embarque", "completed": false},
+                        {"title": "Categoria de ofertantes - Smiles", "completed": false},
+                        {"title": "Categoria de ofertantes - Azul", "completed": false},
+                        {"title": "Categoria de ofertantes - Latam", "completed": false},
+                        {"title": "Beneficiários no cadastro tudo azul", "completed": false},
+                        {"title": "Validação de ofertas", "completed": false},
+                        {"title": "Ofertantes de revenda", "completed": false},
+                        {"title": "Ofertantes liminares", "completed": false},
+                        {"title": "Ofertantes PJ", "completed": false}
+                    ]
                 },
                 {
                     "course": "tour_virtual",
                     "progress": 0,
-                    "lessons": []
+                    "lessons": [
+                        {"title": "Localização da sede", "completed": false},
+                        {"title": "Área de recepção e atendimento", "completed": false},
+                        {"title": "Área de refeição e descanso", "completed": false},
+                        {"title": "Cozinha", "completed": false},
+                        {"title": "Deck", "completed": false},
+                        {"title": "Fumo dromo", "completed": false},
+                        {"title": "Sala de operações", "completed": false},
+                        {"title": "Localização dos times", "completed": false},
+                        {"title": "Área de TI e suporte", "completed": false}
+                    ]
+                },
+                {
+                    "course": "emissoes",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Lógica de negócio", "completed": false},
+                        {"title": "Iniciando transações", "completed": false},
+                        {"title": "Calculadora de prejuízos", "completed": false},
+                        {"title": "Troca de ofertantes", "completed": false},
+                        {"title": "Alterando quantidade de milhas", "completed": false},
+                        {"title": "Alterando dados dos passageiros", "completed": false},
+                        {"title": "Cartões de crédito", "completed": false},
+                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Emissões semiautomáticas", "completed": false},
+                        {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Inserindo etickets", "completed": false},
+                        {"title": "Cancelando transações", "completed": false},
+                        {"title": "Checagem", "completed": false},
+                        {"title": "FNC 15", "completed": false},
+                        {"title": "Bagagens", "completed": false},
+                        {"title": "Voos nacionais e internacionais", "completed": false}
+                    ]
+                },
+                {
+                    "course": "emissoeslatam",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Iniciando transações na LATAM", "completed": false},
+                        {"title": "Categoria de ofertantes", "completed": false},
+                        {"title": "Comentários", "completed": false},
+                        {"title": "Motivos de troca de ofertante", "completed": false},
+                        {"title": "Cancelamento e reembolso", "completed": false},
+                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
+                        {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Acessando a conta do ofertante com a Bifrost", "completed": false},
+                        {"title": "Erros de login", "completed": false},
+                        {"title": "Erros de pagamento", "completed": false},
+                        {"title": "Verificando extrato", "completed": false},
+                        {"title": "Latam wallet e tripcase", "completed": false},
+                        {"title": "Transações 24 horas", "completed": false},
+                        {"title": "Voos internacionais", "completed": false},
+                        {"title": "Bagagem", "completed": false}
+                    ]
+                },
+                {
+                    "course": "emissoesgol",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Iniciando transações na Gol", "completed": false},
+                        {"title": "Categoria de ofertantes", "completed": false},
+                        {"title": "Comentários", "completed": false},
+                        {"title": "Motivos de troca de ofertante", "completed": false},
+                        {"title": "Cancelamento e reembolso", "completed": false},
+                        {"title": "Site da Gol", "completed": false},
+                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
+                        {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Simulador Android", "completed": false},
+                        {"title": "Código para pagamento", "completed": false},
+                        {"title": "Bagagem", "completed": false},
+                        {"title": "Cancelando reservas", "completed": false}
+                    ]
+                },
+                {
+                    "course": "emissoesazul",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Iniciando transações na Azul", "completed": false},
+                        {"title": "Categoria de ofertantes", "completed": false},
+                        {"title": "Comentários", "completed": false},
+                        {"title": "Motivos de troca de ofertante", "completed": false},
+                        {"title": "Site da Azul", "completed": false},
+                        {"title": "Cancelamento e reembolso", "completed": false},
+                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
+                        {"title": "Beneficiários", "completed": false},
+                        {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Consultando reservas", "completed": false},
+                        {"title": "Bagagem", "completed": false},
+                        {"title": "Cancelando reservas", "completed": false}
+                    ]
+                },
+                {
+                    "course": "prejuizos",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Impactos dos prejuízos", "completed": false},
+                        {"title": "Tipos mais comuns de prejuízos", "completed": false},
+                        {"title": "Emissões duplicadas", "completed": false},
+                        {"title": "Emissões na conta errada", "completed": false},
+                        {"title": "Transação cancelada e localizador ativo", "completed": false},
+                        {"title": "Aumento sem tratativa ou com tratativa indevida", "completed": false},
+                        {"title": "Dicas para evitar prejuízos", "completed": false}
+                    ]
+                },
+                {
+                    "course": "ferramentas",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Ponto online", "completed": false},
+                        {"title": "Qulture.rocks", "completed": false},
+                        {"title": "Convenia", "completed": false},
+                        {"title": "Metabase", "completed": false},
+                        {"title": "Receita Federal", "completed": false},
+                        {"title": "Tripcase", "completed": false},
+                        {"title": "Zendesk", "completed": false},
+                        {"title": "Slack", "completed": false}
+                    ]
                 }
             ]
         });
