@@ -52,7 +52,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
             score: 0, // Pontuação inicial
             courses: [
                 {
-                    "course": "test",
+                    "course": "Cockpit",
                     "progress": 0,
                     "lessons": [
                         {"title": "Cockpit", "completed": false},
@@ -85,6 +85,19 @@ router.post('/', upload.single('photo'), async (req, res) => {
                 },
                 {
                     "course": "milhas",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "O que são milhas aéreas", "completed": false},
+                        {"title": "Regulamentação da venda de milhas", "completed": false},
+                        {"title": "Precificação das milhas", "completed": false},
+                        {"title": "Como acumular milhas", "completed": false},
+                        {"title": "Como utilizar milhas", "completed": false},
+                        {"title": "Principais programas de fidelidade", "completed": false},
+                        {"title": "Validade das milhas", "completed": false}
+                    ]
+                },
+                {
+                    "course": "cockpit",
                     "progress": 0,
                     "lessons": [
                         {"title": "O que são milhas aéreas", "completed": false},
