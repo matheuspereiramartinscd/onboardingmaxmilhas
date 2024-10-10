@@ -52,6 +52,22 @@ router.post('/', upload.single('photo'), async (req, res) => {
             score: 0, // Pontuação inicial
             courses: [
                 {
+                    "course": "test",
+                    "progress": 0,
+                    "lessons": [
+                        {"title": "Cockpit", "completed": false},
+                        {"title": "Menu lateral", "completed": false},
+                        {"title": "Menu lateral - Cockpit", "completed": false},
+                        {"title": "Menu lateral - Milhas", "completed": false},
+                        {"title": "Detalhes da oferta", "completed": false},
+                        {"title": "Abas do Cockpit", "completed": false},
+                        {"title": "Opções de pesquisa de transações", "completed": false},
+                        {"title": "Transações", "completed": false},
+                        {"title": "Transação completa", "completed": false},
+                        {"title": "Comentários", "completed": false}
+                    ]
+                },
+                {
                     "course": "cockpit",
                     "progress": 0,
                     "lessons": [
