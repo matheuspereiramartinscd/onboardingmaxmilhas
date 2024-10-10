@@ -122,6 +122,15 @@
     margin-right: 10px;
 }
 
+.loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e2a3b; /* Cor do texto */
+    font-weight: 500; /* Negrito */
+    font-size:18px; /* Tamanho da fonte, opcional */
+}
+
 .loadingIcon {
     width: 50px;
     /* mesmo tamanho da imagem do usuário */

@@ -16,15 +16,15 @@ const QuizResultsPage = () => {
     useEffect(() => {
         // Calcular pontos com base na porcentagem
         if (percentage === 100) {
-            setPoints(15000);
+            setPoints(2000);
         } else if (percentage >= 90) {
-            setPoints(9000);
+            setPoints(1600);
         } else if (percentage >= 70) {
-            setPoints(7000);
+            setPoints(1400);
         } else if (percentage >= 60) {
-            setPoints(6000);
+            setPoints(1200);
         } else if (percentage >= 50) {
-            setPoints(5000);
+            setPoints(1000);
         } else {
             setPoints(0);
         }
