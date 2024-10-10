@@ -47,8 +47,8 @@ const RankingPage = () => {
                     Array.from({ length: 6 }).map((_, index) => (
                         <div key={index} className={styles.collaboratorCard}>
                             <div className={styles.imageContainer}>
-                                <img src={gear} alt="Placeholder" className={styles.userPhoto} />
-                                <span className={styles.loadingText}>Carregando....</span>
+                            <span className={styles.loadingText}>Carregando.... &nbsp;&nbsp;</span>
+                                <span className={styles.loadingText}>Carregando....&nbsp;&nbsp;</span>
                             </div>
                             <div className={styles.userInfo}>
                                 <span className={styles.userName}>Carregando...</span>
