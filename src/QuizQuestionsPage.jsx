@@ -7,7 +7,7 @@ import Header from './Header';
 
 const courses = [
     {
-        id: 'cockpit',
+        id: 'cockpitsystem',
         title: "Cockpit",
         questions: [
             { question: "Qual é o principal propósito de um cockpit?", options: ["Controlar a aeronave", "Servir comida", "Armazenar bagagem", "Fornecer acomodação"], correctAnswer: "Controlar a aeronave" },
