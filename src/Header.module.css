@@ -20,17 +20,21 @@
     margin-left: 10px;
     margin-bottom: 5px;
     padding: 2px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #0f1a2a;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center; /* Alinha o conteúdo horizontalmente */
     font-size: 12px;
     width: 44px;
     text-align: center;
 }
+
+
 
 .editButton:hover {
     color: #98da82;
@@ -95,7 +99,7 @@
     font-size: 15px;
     text-align: center;
 
-    color: #000000a9;
+    color: #0f1a2a;
 }
 
 .coinIcon {

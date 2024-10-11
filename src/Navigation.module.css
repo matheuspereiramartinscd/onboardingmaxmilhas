@@ -6,6 +6,7 @@
     align-items: center;
     position: relative;
     z-index: 5;
+    font-weight: 500;
     color: #0f1a2a;
     margin: 0;
     max-width: 1200px;
@@ -112,7 +113,7 @@
 
 .navLink:hover,
 .navLink:focus {
-    background-color: #e3e3e3;
+    background-color: #f6f8fc;
 }
 
 .icon {
