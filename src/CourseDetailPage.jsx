@@ -70,15 +70,15 @@ const lessonsData = {
                                 <li><strong>Emitir Bilhetes Aéreos:</strong> Gerar passagens aéreas com base nas milhas disponibilizadas pelos ofertantes, facilitando o processo de compra para os clientes.</li>
                                 <li><strong>Gerenciar Transações:</strong> Acompanhar e gerenciar todas as transações de emissão, desde a compra até a entrega do e-ticket ao cliente.
                                 </li>
-                                <li><strong>Selecionar Ofertantes:</strong>Escolher entre diferentes vendedores de milhas, analisando a viabilidade e o lucro de cada transação para otimizar as ofertas.</li>
+                                <li><strong>Selecionar Ofertantes:</strong> Escolher entre diferentes vendedores de milhas, analisando a viabilidade e o lucro de cada transação para otimizar as ofertas.</li>
                                 <li><strong>Realizar Cancelamentos:</strong> Efetuar o cancelamento de passagens já emitidas, caso necessário.</li>
-                                <li><strong>Buscar Ofertantes Disponíveis:</strong>Encontrar ofertantes com milhas disponíveis para as emissões, permitindo uma operação mais ágil.
+                                <li><strong>Buscar Ofertantes Disponíveis:</strong> Encontrar ofertantes com milhas disponíveis para as emissões, permitindo uma operação mais ágil.
                                 </li>
-                                <li><strong>Verificar Passagens Emitidas:</strong>Checar o status e os detalhes das passagens já emitidas pelo sistema, garantindo um controle eficaz.
+                                <li><strong>Verificar Passagens Emitidas:</strong> Checar o status e os detalhes das passagens já emitidas pelo sistema, garantindo um controle eficaz.
                                 </li>
-                                <li><strong>Acessar Múltiplas Companhias Aéreas:</strong>Emitir passagens para diversas companhias aéreas, incluindo Latam, Gol, Azul, TAP, OTA e outras, ampliando as opções para os clientes.
+                                <li><strong>Acessar Múltiplas Companhias Aéreas:</strong> Emitir passagens para diversas companhias aéreas, incluindo Latam, Gol, Azul, TAP, OTA e outras, ampliando as opções para os clientes.
                                 </li>
-                                <li><strong>Login Seguro:</strong>Acessar o sistema de forma segura utilizando e-mail corporativo, garantindo que apenas colaboradores autorizados possam gerenciar as operações.
+                                <li><strong>Login Seguro:</strong> Acessar o sistema de forma segura utilizando e-mail corporativo, garantindo que apenas colaboradores autorizados possam gerenciar as operações.
                                 </li>
                             </ul>
 
@@ -100,7 +100,7 @@ const lessonsData = {
         description: (
                         <div>
                             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
-                                <p>No painel esquerdo do Cockpit, é possível encontrar um menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.
+                                <p>No painel esquerdo do Cockpit, é possível encontrar o menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.
                             </p>
                             <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cockpitmenulateral} alt="Imagem do Sistema Cockpit 1"></img>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>As opções disponíveis incluem:</p>
