@@ -132,6 +132,16 @@
     .loginBox {
 
         margin-top:0px;
+        margin-bottom:10px;
+
+    }
+}
+
+@media (max-height: 500px) {
+
+    .loginBox {
+
+    
         margin-bottom:0px;
 
     }
