@@ -36,14 +36,14 @@ const lessonsData = {
         videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
         description: (
                         <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>Olá! </h1>
+                            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
                             <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao sistema Cockpit da Maxmilhas, uma plataforma inovadora que transforma a maneira como as passagens aéreas são emitidas e gerenciadas. O Cockpit é uma ferramenta administrativa essencial que conecta ofertantes de milhas e clientes, facilitando todo o processo de emissão de bilhetes aéreos.</p>
 
-                            <p style={{ marginTop:'40px', marginBottom:'40px' }}>Durante este curso, você terá a oportunidade sobre as funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
+                            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Durante este curso, você terá a oportunidade sobre as funcionalidades e nos recursos que o Cockpit oferece. O objetivo é garantir que você tenha um entendimento claro de como navegar pelo sistema e aproveitar ao máximo suas capacidades. Exploraremos desde a compra de passagens, passando pela gestão de transações, até o uso eficiente das milhas disponíveis.</p>
 
-                            <h2 style={{ marginTop:'40px', marginBottom:'40px' }}>O que esperar do curso</h2>
+                            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>O que esperar do curso</h2>
                             <p>Ao longo das aulas, vamos abordar tópicos fundamentais, incluindo:</p>
-                            <ul style={{ listStyleType: 'disc', marginLeft: '80px', marginTop:'40px', marginBottom:'40px' }}>
+                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                                 <li><strong>Introdução ao Sistema Cockpit:</strong> Compreenderemos a interface do sistema, suas principais funcionalidades e como acessá-lo corretamente.</li>
                                 <li><strong>Emissão de Passagens:</strong> Aprenderemos o processo completo de emissão de passagens aéreas, desde a criação de transações até a finalização com o envio do e-ticket ao cliente.</li>
                                 <li><strong>Cancelamentos:</strong> Discutiremos os procedimentos necessários para cancelar passagens quando necessário.</li>
@@ -51,10 +51,10 @@ const lessonsData = {
                             </ul>
 
 
-                            <img style={{ marginTop:'10px', marginBottom:'40px' }} className={styles.image} src={bemvindocockpit} alt="Imagem do Sistema Cockpit 1"></img> 
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
+                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={bemvindocockpit} alt="Imagem do Sistema Cockpit 1"></img> 
+                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
 
-                            <p style={{ marginTop:'40px', marginBottom:'40px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
+                            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
                         </div>
                      )
                 },
@@ -63,10 +63,10 @@ const lessonsData = {
         videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
         description: (
                         <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>O que é o Cockpit? </h1>
+                            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>O que é o Cockpit? </h1>
                             <p>O Cockpit é um sistema administrativo utilizado pela Maxmilhas para realizar a emissão de bilhetes aéreos utilizando milhas vendidas pelos ofertantes para compradores e clientes da Maxmilhas. Neste sistema, é possível:
                             </p>
-                            <ul style={{ listStyleType: 'disc', marginLeft: '80px', marginTop:'40px', marginBottom:'40px' }}>
+                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'40px', marginBottom:'30px' }}>
                                 <li><strong>Emitir Bilhetes Aéreos:</strong> Gerar passagens aéreas com base nas milhas disponibilizadas pelos ofertantes, facilitando o processo de compra para os clientes.</li>
                                 <li><strong>Gerenciar Transações:</strong> Acompanhar e gerenciar todas as transações de emissão, desde a compra até a entrega do e-ticket ao cliente.
                                 </li>
@@ -83,13 +83,13 @@ const lessonsData = {
                             </ul>
 
                             <h2>Tela de Login:</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>Na tela de login é necessário utilizar e-mail corporativo das maxmilhas para acessar o sistema, garantindo que apenas colaboradores autorizados possam gerenciar as transações e processos de emissão de passagens.
+                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela de login é necessário utilizar e-mail corporativo das maxmilhas para acessar o sistema, garantindo que apenas colaboradores autorizados possam gerenciar as transações e processos de emissão de passagens.
                             </p>
-                            <img style={{ marginTop:'10px', marginBottom:'40px' }} className={styles.image} src={cockpittelalogin} alt="Imagem do Sistema Cockpit 1"></img>
+                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cockpittelalogin} alt="Imagem do Sistema Cockpit 1"></img>
                             <h2>Tela inicial:</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
+                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
                             </p>
-                            <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpittelainicial} alt="Imagem do Sistema Cockpit 1"></img>       
+                            <img style={{ marginTop:'30px', marginBottom:'30px' }} className={styles.image} src={cockpittelainicial} alt="Imagem do Sistema Cockpit 1"></img>       
                      
                         </div>
                      )
@@ -99,12 +99,12 @@ const lessonsData = {
         videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
         description: (
                         <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'40px' }}>Menu lateral</h1>
+                            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
                                 <p>No painel esquerdo do Cockpit, é possível encontrar um menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.
                             </p>
-                            <img style={{ marginTop:'10px', marginBottom:'40px' }} className={styles.image} src={cockpitmenulateral} alt="Imagem do Sistema Cockpit 1"></img>
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>As opções disponíveis incluem:</p>
-                            <ul style={{ listStyleType: 'disc', marginLeft: '80px', marginTop:'40px', marginBottom:'40px', }}>
+                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cockpitmenulateral} alt="Imagem do Sistema Cockpit 1"></img>
+                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>As opções disponíveis incluem:</p>
+                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px', }}>
                              
                                 <li><strong>Cockpit:</strong> Acesso à tela principal do sistema, onde são gerenciadas as atividades.</li>
                                 <li><strong>Inserção de Crédito:</strong> Função para adicionar créditos ao sistema, possibilitando a realização de transações.</li>
@@ -125,9 +125,9 @@ const lessonsData = {
                             </p>
                             
                             <h2>Icones</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'40px' }}>Acima do menu lateral existem 4 icones que são referentes à pagina inicial do cockpit, clientes, milhas e busca de transações por código.
+                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Acima do menu lateral existem 4 icones que são referentes à pagina inicial do cockpit, clientes, milhas e busca de transações por código.
                             </p>
-                            <img style={{ marginTop:'40px', marginBottom:'40px' }} className={styles.image} src={cockpiticones} alt="Imagem do Sistema Cockpit 1"></img>       
+                            <img style={{ marginTop:'30px', marginBottom:'30px' }} className={styles.image} src={cockpiticones} alt="Imagem do Sistema Cockpit 1"></img>       
                      
                         </div>
                      )
