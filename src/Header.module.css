@@ -175,11 +175,108 @@
 
 }
 
+
+
+@media (max-width: 799px) {
+
+
+    .editButton{
+        margin-left:75px;
+    }
+
+
+}
+
+@media (max-width: 645px) {
+    
+
+    .editButton{
+        margin-left:10px;
+    }
+
+   
+}
+
 @media (max-width: 600px) {
     .username {
+
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .editButton{
+        margin-left:30px;
+    }
+
+    .newLogo {}
+
+    .logo {
+        display: none;
+    }
+
+    .points {
+        font-size: 12px;
+    }
+
+    .editButton {
+        margin-top: -1px;
+        font-size: 10px;
+
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .username {
+
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .editButton{
+        margin-left:40px;
+    }
+
+    .newLogo {}
+
+    .logo {
+        display: none;
+    }
+
+    .points {
+        font-size: 12px;
+    }
+
+    .editButton {
+        margin-top: -1px;
+        font-size: 10px;
+
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .editButton{
+        margin-left:10px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .username {
+
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .editButton{
+        margin-left:10px;
     }
 
     .newLogo {}
