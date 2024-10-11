@@ -217,7 +217,7 @@
     background-color: #ffffff;
 
     border-radius: 30px 30px 0px 0px;
-    padding: 15px;
+    padding: 0px;
     margin-top: 40px;
     width: 60%;
     margin-left: auto;
@@ -241,7 +241,7 @@
 
 /* Botão na parte inferior da caixa de texto */
 .completeButton {
-    margin: 250px auto 0;
+    margin: 125px auto 0;
     /* Centraliza o botão */
     padding: 10px 40px;
     background-color: #98da82;
