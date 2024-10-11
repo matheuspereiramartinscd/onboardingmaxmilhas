@@ -13,10 +13,8 @@
 .loginBox {
     background-color: rgba(255, 255, 255, 1);
     padding: 0px 30px;
-    border-radius: 11px;
-    /* Bordas mais arredondadas */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    /* Sombra leve */
+    border-radius: 11px; /* Bordas mais arredondadas */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,20 +22,39 @@
     background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center center; /* Centraliza a imagem no fundo */
-    max-width:370px;
-    margin-top:-140px;
+    max-width: 370px;
+    
+    margin-top: -140px;
     width: 100%;
     border: 1px solid #a5aebc;
-    height: 380px;
-    /* Altura mínima */
-    transition: transform 0.2s ease;
-    /* Transição suave para o efeito lateral */
+    height: 380px; /* Altura mínima */
+    
+    opacity: 0; /* Começa invisível */
+    transition: transform 0.2s ease, opacity 0.5s ease; /* Transição suave para o efeito de deslizamento e opacidade */
+    
+    /* Adicione a animação */
+    animation: slideInFromLeft 0.5s ease forwards; /* Aplica a animação ao carregar */
 }
 
+/* Define a animação de deslizamento a partir da esquerda */
+@keyframes slideInFromLeft {
+    from {
+       /* Começa fora da tela à esquerda */
+        opacity: 0; /* Começa invisível */
+    }
+    to {
+        /* Termina na posição original */
+        opacity: 1; /* Torna-se visível */
+    }
+    
+}
+
+/* Efeito de hover */
 .loginBox:hover {
     transform: translateX(2px);
-    /* Move ligeiramente para a direita ao passar o mouse */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); /* Aumenta a sombra ao passar o mouse */
 }
+
 
 .mainTitle {
     font-size: 34px;

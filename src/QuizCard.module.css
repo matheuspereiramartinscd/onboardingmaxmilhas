@@ -2,9 +2,10 @@
     display: flex;
     align-items: flex-start;
     /* Alinha o conteúdo ao topo */
-
+    border: solid 1px;
+    border-color:#7b899c48 ;
     border-radius: 5px;
-    border: 1px solid rgb(231, 231, 231);
+    
     padding: 10px;
     margin-bottom: 20px;
 
@@ -60,6 +61,7 @@
     justify-content: flex-start;
     /* Alinha o conteúdo ao topo */
     height: 100%;
+    margin-top:8px;
     text-align: left;
     flex: 1;
     /* Faz o conteúdo ocupar todo o espaço disponível */
