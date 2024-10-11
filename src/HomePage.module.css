@@ -1,5 +1,8 @@
 .homePage {
     padding-top: 70px;
+
+     /* Garante que a imagem cubra todo o botão */
+
     /* Adicionado para dar espaço ao header fixo */
 }
 
@@ -21,6 +24,7 @@
 }
 
 body {
+
     background-color: #f6f8fc;
     margin: 0;
     padding: 0;

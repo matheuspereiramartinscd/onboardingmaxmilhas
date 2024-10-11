@@ -64,14 +64,10 @@
 }
 
 .collaboratorCard:nth-child(odd) {
-    background-color: #e7e9e738;
-    color: #333;
+
 }
 
 .collaboratorCard:nth-child(even) {
-    background-color: #e7e9e738;
-
-    color: #333;
 }
 
 
