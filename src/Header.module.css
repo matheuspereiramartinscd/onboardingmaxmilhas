@@ -226,6 +226,15 @@
     }
 }
 
+@media (max-width: 575px) {
+
+
+    .editButton{
+        margin-left:65px;
+    }
+
+
+}
 
 
 @media (max-width: 500px) {
