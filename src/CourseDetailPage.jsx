@@ -1133,23 +1133,24 @@ const lessonsData = {
     title: 'Transação completa',
     videoUrl: 'https://www.youtube.com/embed/{video_id}',
     description: (
-        <div>
-            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Transação completa</h1>
+   <div>
+            <h3>Transação completa</h3>
             <p>Clicando no botão de Transação completa, é possível acessar uma página com informações detalhadas sobre a transação.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit52} alt="Imagem da transação completa"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit52} alt="Imagem da página de transação completa" />
+
             <p>Esta página centraliza todas as informações e ações relevantes relacionadas à transação de venda e emissão de passagens com milhas.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit53} alt="Imagem adicional da transação completa"></img>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit54} alt="Imagem adicional da transação completa"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit53} alt="Imagem centralizando informações da transação" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit54} alt="Imagem adicional da página de transação" />
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Abaixo estão os dados e botões disponíveis:</h2>
+            <h3>Abaixo estão os dados e botões disponíveis:</h3>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>1. Dados gerais da transação</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit55} alt="Dados gerais da transação"></img>
+            <h4>1. Dados gerais da transação</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit55} alt="Imagem dos dados gerais da transação" />
             <p>Número da transação: Identificador único da transação para fácil rastreamento e referência.</p>
             <p>Dados do comprador: Informações completas sobre o comprador da passagem (nome, CPF, telefone, e-mail, etc.).</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>2. Dados Financeiros</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit56} alt="Dados financeiros da transação"></img>
+            <h4>2. Dados Financeiros</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit56} alt="Imagem dos dados financeiros" />
             <p>Taxa de embarque: Valor da taxa de embarque associada ao voo.</p>
             <p>Taxa de bagagem: Valores pagos a mais por bagagem despachada.</p>
             <p>Taxa de serviço: Taxas aplicadas pelos serviços prestados na transação.</p>
@@ -1157,8 +1158,8 @@ const lessonsData = {
             <p>Descontos: Aplicação de descontos, se houver, na transação.</p>
             <p>Valor pago: Valor final que foi pago pelo comprador.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>3. Dados do vendedor e da oferta:</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit57} alt="Dados do vendedor e da oferta"></img>
+            <h4>3. Dados do vendedor e da oferta:</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit57} alt="Imagem dos dados do vendedor e da oferta" />
             <p>Login: Login do ofertante.</p>
             <p>Telefone: Telefone do ofertante.</p>
             <p>Tipo de oferta: Classificação da oferta (ex: convencional, revenda, etc.).</p>
@@ -1168,8 +1169,8 @@ const lessonsData = {
             <p>Valor unitário: Preço por milheiro cobrado na transação.</p>
             <p>Metadata: Informações adicionais sobre a oferta de milhas e o vendedor.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>4. Botões de ações</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit58} alt="Botões de ações"></img>
+            <h4>4. Botões de ações</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit58} alt="Imagem dos botões de ações" />
             <p>Botão de lançar cobrança: Permite lançar cobranças adicionais ou corrigir valores referentes à transação.</p>
             <p>Botão de cancelar transação: Cancela completamente a transação atual.</p>
             <p>Botão de opções: Exibe opções como busca de código de verificação por e-mail ou SMS.</p>
@@ -1177,15 +1178,15 @@ const lessonsData = {
             <p>Botão de alterar milhas: Modifica a quantidade de milhas a serem utilizadas na transação.</p>
             <p>Botão de detalhes da oferta: Mostra informações completas sobre a oferta de milhas utilizada.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>5. Dados do voo</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit59} alt="Dados do voo"></img>
+            <h4>5. Dados do voo</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit59} alt="Imagem dos dados do voo" />
             <p>Dados do voo e milhas para checagem: Exibe os dados do voo (companhia, número do voo, origem, destino, etc.) e milhas associadas para conferência.</p>
             <p>Botão de editar dados do voo: Permite modificar os detalhes do voo, como horários e datas, se necessário.</p>
             <p>Botão de desabilitar checagem automática: Desativa a checagem automática de milhas e voo, oferecendo um processo manual.</p>
             <p>Botão de logs de cancelamento automático: Exibe o histórico de cancelamentos automáticos da transação, caso existam.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6. Dados detalhados do voo</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit60} alt="Dados detalhados do voo"></img>
+            <h4>6. Dados detalhados do voo</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit60} alt="Imagem dos dados detalhados do voo" />
             <p>Companhia aérea: Nome da companhia aérea responsável pelo voo.</p>
             <p>Número do voo: Identificação única do voo.</p>
             <p>Aeroporto de saída: Nome do aeroporto de onde o voo parte.</p>
@@ -1194,16 +1195,15 @@ const lessonsData = {
             <p>Aeroporto de chegada: Nome do aeroporto de destino do voo.</p>
             <p>Hora da chegada: Horário programado para a chegada do voo.</p>
             <p>Alteração involuntária: Indicação se houve alguma alteração involuntária na programação do voo.</p>
-            <p>Botão de editar Informações do voo: Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
+
+            <h4>Botões de ações relacionadas ao voo</h4>
+            <p>Botão de editar informações do voo: Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit61} alt="Imagem do botão de editar informações do voo" />
             <p>Botão de buscar voo: Busca voos alternativos ou atualiza o voo da transação.</p>
             <p>Botão de cancelar voo: Cancela o voo associado à transação.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6.1 Botão de editar dados do voo</h3>
-            <p>Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit61} alt="Botão de editar dados do voo"></img>
-
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>7. Dados do passageiro</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit62} alt="Dados do passageiro"></img>
+            <h4>7. Dados do passageiro</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit62} alt="Imagem dos dados do passageiro" />
             <p>Tratamento: (Sr./Sra.) – Forma de tratamento do passageiro.</p>
             <p>Primeiro nome: Nome do passageiro.</p>
             <p>Segundo nome: Nome do meio ou sobrenome do passageiro.</p>
@@ -1218,17 +1218,17 @@ const lessonsData = {
             <p>Telefone: Número de telefone de contato do passageiro.</p>
             <p>Botão de consumir CPF: Consome o CPF do passageiro registrado para emitir a passagem.</p>
             <p>Botão de editar informações dos passageiros: Permite a alteração de dados dos passageiros (nome, documento, etc.).</p>
-            <p>Botão de adicionar passageiros: Permite a inclusão de novos passageiros à transação.</p>
-            <p>Botão de excluir passageiros: Permite a remoção de passageiros da transação.</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>8. Resumo da transação</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit63} alt="Resumo da transação"></img>
-            <p>Resumo de todas as informações essenciais sobre a transação, incluindo dados financeiros, detalhes do voo e informações do passageiro.</p>
+            <h4>7.1 Botão de editar informações dos passageiros</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit63} alt="Imagem do botão de editar informações dos passageiros" />
+            <p>Permite a alteração de dados dos passageiros (nome, documento, etc.).</p>
 
-            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>9. Logs da transação</h3>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit64} alt="Logs da transação"></img>
-            <p>Exibição de logs detalhados sobre todas as ações realizadas na transação, incluindo histórico de edições, cancelamentos e confirmações.</p>
-            <p>Esse log é essencial para auditoria e verificação de possíveis inconsistências ou problemas durante o processo.</p>
+            <h4>8. Informações de Pagamento e criação da transação</h4>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit64} alt="Imagem das informações de pagamento" />
+            <p>Exibição dos dados de pagamento, incluindo método de pagamento e status da transação.</p>
+            <p>Botão de criar nova transação: Permite iniciar uma nova transação a partir desta página.</p>
+            <p>Botão de detalhes do pagamento: Exibe informações detalhadas sobre a forma de pagamento escolhida.</p>
+            <p>Botão de cancelar pagamento: Cancela a forma de pagamento atual e retorna ao estado anterior.</p>
         </div>
     ),
 },
