@@ -58,6 +58,35 @@ const lessonsData = {
                         </div>
                      )
                 },
+'bem-vindo-curso-emissoes': {
+    title: 'Bem-vindo ao Curso de Emissões!',
+    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs', // Adicione a URL do vídeo se houver
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao processo de emissões da Maxmilhas, onde você aprenderá como gerenciar e realizar a emissão de passagens aéreas de forma prática e eficiente. Este curso foi desenvolvido para equipá-lo com o conhecimento necessário para operar todas as etapas de uma emissão, desde a verificação de voos até o cancelamento de bilhetes quando necessário.</p>
+
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>O processo de emissões é essencial para garantir que os clientes obtenham as passagens aéreas com base nas milhas ofertadas, e você será treinado para dominar todas as ferramentas envolvidas nesse fluxo de trabalho.</p>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>O que esperar do curso</h2>
+            <p>Durante este curso, abordaremos os seguintes tópicos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Introdução às Emissões:</strong> Entenderemos o que envolve o processo de emissão, desde a análise dos dados até a conclusão da transação.</li>
+                <li><strong>Emissão Manual:</strong> Exploraremos o procedimento de emissões manuais, quando necessário, garantindo que você saiba como proceder caso o sistema não conclua automaticamente.</li>
+                <li><strong>Cancelamento de E-tickets:</strong> Aprenderemos como cancelar um bilhete de maneira adequada e os motivos pelos quais o cancelamento pode ser necessário, como erros de emissão, voo indisponível ou solicitação do passageiro.</li>
+                <li><strong>Adição de Bagagem:</strong> Você saberá como adicionar bagagens extras em uma transação diretamente no site da companhia aérea e como informar o valor da bagagem no sistema.</li>
+                <li><strong>Validade das Milhas:</strong> Discutiremos como verificar e gerenciar a validade das milhas de um cliente, evitando que milhas expiradas afetem as emissões.</li>
+                <li><strong>Ferramentas de Suporte:</strong> Veremos como utilizar os recursos auxiliares, como o Cockpit, para otimizar suas operações e garantir uma melhor experiência para o cliente.</li>
+            </ul>
+
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={'./assets/Cursos/Cockpit/cursocockpit00.jpg'} alt="Imagem do Curso de Emissões"></img>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso foi desenhado para ser prático e envolvente, com exercícios e exemplos reais que o ajudarão a fixar o conteúdo. Ao final, você estará preparado para lidar com todas as etapas do processo de emissão, seja para resolver problemas de voo, ajustar milhas ou cancelar transações quando necessário.</p>
+
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Estamos animados para compartilhar esse conhecimento com você e ajudá-lo a se tornar um especialista no processo de emissões da Maxmilhas. Prepare-se para uma experiência de aprendizado rica e dinâmica!</p>
+        </div>
+    )
+},
+
     'Cockpit': {
         title: 'Cockpit',
         videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
