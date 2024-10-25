@@ -724,7 +724,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="" />
 
             <p style={{ marginTop: '30px', marginBottom: '30px' }}>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li>Selecionar todos (todas as companhias)</li>
                 <li>Azul</li>
                 <li>Gol</li>
@@ -793,7 +793,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de oferta</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Tipos de oferta" />
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li><strong>Venda convencional:</strong> Ofertas de milhas tradicionais.</li>
                 <li><strong>Venda rápida:</strong> Ofertas destinadas a transações rápidas.</li>
                 <li><strong>Revenda:</strong> Ofertantes de revenda.</li>
@@ -803,7 +803,7 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de dois fatores)</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit14} alt="Estratégia 2FA (Autenticação de dois fatores)" />
 
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li><strong>Selecionar todos:</strong> Visualizar ofertantes independentemente da estratégia de verificação.</li>
                 <li><strong>WhatsApp:</strong> Código 2FA via WhatsApp.</li>
                 <li><strong>Chipeira:</strong> Código 2FA redirecionado para um telefone Maxmilhas e obtido através do e-mail da Chipeira.</li>
@@ -814,7 +814,7 @@ f
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit111} alt="Tela de busca" />
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>As informações retornadas incluem:</h3>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li><strong>Nome:</strong> Nome do ofertante.</li>
                 <li><strong>Tipo de milhas:</strong> Classificação das milhas.</li>
                 <li><strong>Data de validade:</strong> Quando as milhas expiram.</li>
@@ -963,7 +963,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Pesquisa por transação ou order</h2>
             <p>No Cockpit, uma das opções de pesquisa disponíveis permite ao analista buscar informações por meio de Transação ou Order. Essas duas opções são essenciais para a identificação e gerenciamento de transações no sistema.</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li><strong>Transação:</strong> Refere-se ao ID único da transação gerada no Cockpit, vinculada ao processo de emissão de bilhetes.</li>
                 <li><strong>Order:</strong> Representa o número do pedido, gerado no sistema da Maxmilhas, que está associado à compra de passagens aéreas.</li>
             </ul>
@@ -978,7 +978,7 @@ f
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit37} alt="Imagem dos meios de pagamento disponíveis"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Opções disponíveis incluem</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px', paddingLeft: '20px' }}>
                 <li><strong>Depósito:</strong> Pagamento realizado por meio de uma transferência bancária.</li>
                 <li><strong>Cartão de crédito:</strong> Pagamento feito por cartão de crédito para a aquisição das passagens aéreas.</li>
                 <li><strong>SafetyPay:</strong> Um método de pagamento online que permite aos clientes realizarem pagamentos diretamente através de seus bancos.</li>
@@ -997,7 +997,7 @@ f
             <p>A opção Recompra no Cockpit permite ao analista selecionar transações que foram canceladas e posteriormente compradas novamente pelos clientes.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit40} alt="Imagem da opção Recompra"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ordenar Por</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ordenar por</h2>
             <p>A opção Ordenar Por no Cockpit oferece um filtro que permite ao analista escolher como deseja organizar as transações exibidas.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit41} alt="Imagem da opção Ordenar Por"></img>
 
@@ -1457,7 +1457,583 @@ f
 
 
 /* Curso Emissões */
+'Lógica de negócio': {
+    title: 'Lógica de negócio',
+    videoUrl: 'https://www.youtube.com/embed/jJ_fHX0ImvI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Lógica de negócio</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoes00} alt="Imagem da lógica de negócio"></img>
 
+            <p>A lógica de transações da Maxmilhas envolve uma série de etapas estruturadas para garantir que a compra e a emissão de passagens aéreas sejam realizadas de forma eficiente e segura. Abaixo estão os principais passos do processo:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Compra de passagem no site</h2>
+            <p>O cliente seleciona a passagem aérea desejada e realiza a compra diretamente no site da Maxmilhas, utilizando dinheiro.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Análise do pagamento</h2>
+            <p>Após a compra, o pagamento passa por uma análise de segurança e validação. Esse processo pode levar até 12 horas para ser concluído. Durante esse período, a equipe da Maxmilhas verifica a legitimidade do pagamento.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Criação da transação no cockpit</h2>
+            <p>Uma vez que o pagamento é aprovado, a transação é automaticamente criada no sistema Cockpit, a plataforma administrativa da Maxmilhas. O Cockpit conecta ofertantes de milhas e realiza a gestão da emissão de passagens.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Emissão com milhas ofertadas</h2>
+            <p>Utilizando as milhas ofertadas pelos vendedores no sistema, a Maxmilhas efetua a emissão das passagens aéreas, garantindo que o cliente obtenha a passagem com o melhor custo-benefício.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Envio do localizador ao cliente</h2>
+            <p>Após a emissão da passagem, o cliente recebe o código localizador da sua reserva em até 24 horas. Esse localizador permite que o cliente acompanhe e gerencie a sua viagem diretamente com a companhia aérea.</p>
+
+            <p>Essa sequência de etapas é fundamental para garantir que a compra e emissão de passagens com milhas sejam feitas de maneira ágil e segura, proporcionando uma boa experiência para o cliente.</p>
+        </div>
+    ),
+},
+'Iniciando transações': {
+    title: 'Iniciando transações',
+    videoUrl: 'https://www.youtube.com/embed/ByCL79OseMI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Iniciando transações</h1>
+            <p>Para dar início ao processo de emissão de passagens aéreas utilizando o sistema Cockpit da Maxmilhas, é necessário seguir os seguintes passos:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Efetuar login</h2>
+            <p>Acesse o sistema Cockpit utilizando suas credenciais de login.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit01} alt="Imagem de login no Cockpit"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Menu lateral</h2>
+            <p>No painel lateral, navegue até a opção Cockpit.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit05} alt="Imagem do menu lateral"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Selecionar "completo"</h2>
+            <p>Dentro da opção Cockpit, selecione a aba completa para ter acesso às funcionalidades completas de emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Escolher uma aba para emissões</h2>
+            <p>Escolha a aba correspondente onde deseja realizar as emissões (como a aba específica para cada companhia aérea ou categoria de emissão).</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit31} alt="Imagem da aba de emissões"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Filtrar transações</h2>
+            <p>Aplique as opções de filtragem de acordo com as transações que você deseja processar, como filtragem por companhia aérea, número de passageiros ou outros critérios disponíveis.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit32} alt="Imagem da filtragem de transações"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Iniciar emissões</h2>
+            <p>Após aplicar os filtros, clique no botão Iniciar emissão para começar a processar as transações selecionadas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit82} alt="Imagem do botão de iniciar emissões"></img>
+        </div>
+    ),
+},
+'Tipos de comentários': {
+    title: 'Tipos de comentários',
+    videoUrl: 'https://www.youtube.com/embed/hWdRnW3AMp8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Tipos de comentários</h1>
+            <p>As transações na Maxmilhas incluem um campo de comentários que registra informações importantes sobre cada emissão. Esses comentários são gerados automaticamente pelos logs da emissão ou podem ser inseridos manualmente pelos analistas. Abaixo estão alguns dos principais tipos de comentários que você pode encontrar:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit51} alt="Imagem dos tipos de comentários"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Comentários e explicações</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Emissão automática ou nome do analista:</strong> Indica que a transação foi processada automaticamente pelo sistema ou por um analista específico.</li>
+                <li><strong>Erro indefinido ao aceitar termos de pagamento:</strong> Refere-se a uma falha inesperada ao tentar aceitar os termos de pagamento.</li>
+                <li><strong>Troca de ofertante manual:</strong> Houve uma alteração manual no ofertante devido a uma necessidade específica.</li>
+                <li><strong>Erro: usuário e/ou senha inválidos:</strong> As credenciais fornecidas para login não foram aceitas.</li>
+                <li><strong>Erro ao preencher dados dos passageiros:</strong> Problema na inserção das informações dos passageiros durante a emissão.</li>
+                <li><strong>Problema ao localizar voo:</strong> A tentativa de localizar o voo falhou.</li>
+                <li><strong>Oferta inválida ou inexistente:</strong> A oferta relacionada à transação não é válida ou não está disponível.</li>
+                <li><strong>Erro ao validar detalhes da ordem:</strong> Falha na verificação dos detalhes da transação.</li>
+                <li><strong>Passo de pagamento: verificar LOC:</strong> Alerta que a transação avançou além da etapa de pagamento. <span style="color: red;">Atenção!</span> <em>É necessário verificar o extrato do ofertante para verificar se a passagem foi emitida para evitar duplicidade.</em></li>
+                <li><strong>Cancelado pelo timeout:</strong> Transação cancelada devido a um tempo limite excedido. <span style="color: red;">Atenção!</span> <em>É necessário verificar o extrato do ofertante para verificar se a passagem foi emitida para evitar duplicidade.</em></li>
+                <li><strong>Inconsistência na quantidade de milhas:</strong> A quantidade de milhas atribuída não corresponde à expectativa.</li>
+                <li><strong>Erro ao enviar mensagem para API:</strong> Erro técnico ao tentar se comunicar com a API de emissão.</li>
+                <li><strong>Timeout ao tentar login:</strong> Falha ao fazer login na conta devido a um tempo limite excedido.</li>
+                <li><strong>Erro ao pular etapa de bagagem:</strong> Erro inesperado ao tentar avançar na etapa de bagagem.</li>
+                <li><strong>Voo de ida não encontrado:</strong> A busca pelo voo de ida não teve sucesso.</li>
+                <li><strong>Milhas insuficientes:</strong> Saldo de milhas não é suficiente para completar a transação.</li>
+                <li><strong>Passageiro sem CPF:</strong> Um dos passageiros não possui um CPF válido para a emissão.</li>
+                <li><strong>Erro ao cadastrar beneficiário:</strong> Houve um problema ao registrar as informações do beneficiário. <span style="color: red;">Atenção!</span> <em>É necessário verificar se o passageiro foi registrado na lista de beneficiários para evitar queima de CPFs.</em></li>
+                <li><strong>Taxa de embarque maior que permitida:</strong> A taxa de embarque...</li>
+            </ul>
+        </div>
+    ),
+},
+'Verificando quantidade de milhas e voo disponível': {
+    title: 'Verificando quantidade de milhas e voo disponível',
+    videoUrl: 'https://www.youtube.com/embed/Jj2BJ0zaY74',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Verificando quantidade de milhas e voo disponível</h1>
+            <p>Após iniciar uma transação no sistema Cockpit, o próximo passo é garantir que os dados estejam alinhados com a realidade da companhia aérea. Para isso, é necessário verificar se o voo e a quantidade de milhas estão corretos.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da companhia aérea</h2>
+            <p>Acesse o site da companhia aérea escolhida para a emissão da passagem.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam00} alt="Imagem do site da companhia aérea"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Buscar pelo voo</h2>
+            <p>Procure o voo exato que foi inserido no Cockpit, verificando:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data do voo:</strong> Confirme se a data está correta e se o voo ainda está disponível para emissão.</li>
+                <li><strong>Horário do voo:</strong> Verifique se o horário de partida e chegada corresponde ao informado.</li>
+                <li><strong>Número do voo:</strong> Confirme o número do voo para garantir que se trata do voo correto.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit83} alt="Imagem da busca pelo voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam01} alt="Imagem da busca pelo voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam02} alt="Imagem da busca pelo voo"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Verificar milhas</h2>
+            <p>Certifique-se de que a quantidade de milhas exigida para a emissão no site da companhia aérea está de acordo com o valor indicado no Cockpit. Caso tenha ocorrido um aumento de milhas, será necessário ajustar a transação ou buscar alternativas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Imagem da verificação de milhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam03} alt="Imagem da verificação de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Verificar a tarifa</h2>
+            <p>Além das milhas, é importante garantir que a tarifa selecionada está correta. Verifique se a tarifa correspondente no site da companhia (Light, Executive, etc.) é a mesma que está registrada no Cockpit. Qualquer divergência na tarifa também deve ser ajustada para evitar problemas na emissão.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento para aumento de milhas</h2>
+            <p>Caso você identifique um aumento na quantidade de milhas exigida para o voo de ida e volta, siga as etapas abaixo para atualizar as informações no Cockpit:</p>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Verificar a quantidade de milhas</h3>
+            <p>Acesse o site da companhia aérea e procure pelo voo de ida e volta. Certifique-se de verificar a quantidade de milhas exigida para a emissão do bilhete. Compare com o valor que foi inicialmente registrado no Cockpit.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam04} alt="Imagem da verificação da quantidade de milhas"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Atualizar as milhas no Cockpit</h3>
+            <p>Se houver um aumento na quantidade de milhas, retorne ao Cockpit. Localize a transação correspondente e edite a quantidade de milhas para refletir o novo valor exigido pela companhia aérea. Certifique-se de que todas as informações estão corretas antes de salvar as alterações.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam05} alt="Imagem da atualização das milhas no Cockpit"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Resumo do processo</h2>
+            <p>O fluxo da verificação da quantidade de milhas e voo disponível é estruturado para garantir clareza e eficiência. As informações exibidas e as etapas para verificar os dados asseguram que a emissão da passagem ocorra de maneira eficaz e segura.</p>
+        </div>
+    ),
+},
+'Cadastrando passageiros': {
+    title: 'Cadastrando passageiros',
+    videoUrl: 'https://www.youtube.com/embed/8fOnyjC0AOE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiros</h1>
+            <p>Ao acessar o site da companhia aérea para cadastrar os passageiros, siga as orientações abaixo para garantir que todas as informações sejam inseridas corretamente, de acordo com os dados disponíveis no Cockpit:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Informações do passageiro</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit62} alt="Imagem das informações do passageiro" />
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Nome:</strong> Insira o primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Para voos nacionais, utilize o último sobrenome do passageiro. Para voos internacionais, insira o nome completo.</li>
+                <li><strong>Sufixo:</strong> Se aplicável, adicione o sufixo do passageiro (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Preencha com o CPF do passageiro. Este dado é essencial para identificação nas companhias aéreas. (Atenção! Na cia LATAM, utilize o CPF do ofertante de milhas para poder prosseguir para a página de pagamento).</li>
+                <li><strong>RG:</strong> Insira o número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Para passageiros estrangeiros ou em voos internacionais, forneça o número do passaporte.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Inclua a data de expiração do passaporte, garantindo que ele esteja válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam04} alt="Imagem das informações adicionais" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Informações adicionais</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data de nascimento:</strong> Insira a data de nascimento do passageiro, conforme registrado no Cockpit.</li>
+                <li><strong>E-mail:</strong> Utilize o email do ofertante de milhas. Esse contato é importante para enviar confirmações e informações sobre a passagem.</li>
+                <li><strong>Telefone:</strong> Insira o telefone do ofertante de milhas, que será utilizado para eventuais comunicações ou notificações.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Revisão e confirmação</h2>
+            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros.</p>
+            <p>A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
+        </div>
+    ),
+},
+'Página de pagamento': {
+    title: 'Página de pagamento',
+    videoUrl: 'https://www.youtube.com/embed/tp6y3krVXSw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Página de pagamento</h1>
+            <p>Ao acessar a página de pagamento para finalizar a compra da passagem, siga estas etapas para garantir que o processo seja realizado corretamente:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Conferir dados do voo e da compra</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam05} alt="Imagem da conferência de dados do voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam06} alt="Imagem da conferência da compra"></img>
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Taxa de embarque:</strong> Verifique se a taxa de embarque exibida está correta. Esse valor é fundamental, pois influencia o limite do cartão de crédito virtual que será gerado.</li>
+                <li><strong>Pontos:</strong> Confira a quantidade de milhas (pontos) que será utilizada para a compra da passagem.</li>
+                <li><strong>Data do voo:</strong> Confirme que a data do voo está correta e corresponde ao que foi escolhido durante a pesquisa.</li>
+                <li><strong>Horário:</strong> Verifique o horário de partida e chegada para garantir que está tudo conforme esperado.</li>
+                <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos da viagem (ida e volta) para assegurar que não há discrepâncias.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionar cartão de crédito</h2>
+            <p>Após verificar todas as informações, clique no botão para adicionar cartão de crédito.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam07} alt="Imagem da adição do cartão de crédito"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Gerar cartão de crédito virtual</h2>
+            <p>Voltar ao Cockpit: Navegue de volta até o Cockpit no cartão da transação correspondente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit86} alt="Imagem do Cockpit"></img>
+
+            <p>Clique no ícone de gerar cartão de crédito. Isso gerará um cartão de crédito virtual que será utilizado para o pagamento da passagem.</p>
+            <p><strong>Limite do cartão:</strong> Lembre-se que o limite do cartão de crédito virtual é baseado na taxa de embarque, por isso é importante que esse valor esteja correto.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Preencher dados do cartão</h2>
+            <p>Preencha os dados solicitados do cartão de crédito virtual gerado, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Número do cartão</li>
+                <li>Data de validade</li>
+                <li>Código de segurança (CVV)</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
+            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
+
+            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+        </div>
+    ),
+},
+'E tickets': {
+    title: 'E-tickets',
+    videoUrl: 'https://www.youtube.com/embed/U5PpiyU2qjc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>E-tickets</h1>
+            <p>Após finalizar o pagamento da passagem, um e-ticket será gerado automaticamente. O e-ticket contém todas as informações necessárias sobre o voo e serve como comprovante da compra. Siga os passos abaixo para garantir que tudo esteja devidamente registrado:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Gerar o e-ticket</h2>
+            <p>Após a confirmação do pagamento, o sistema gerará um e-ticket com os detalhes do voo, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Número do voo</li>
+                <li>Data e hora da partida</li>
+                <li>Dados do passageiro</li>
+                <li>Taxas e informações de bagagem</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam08} alt="Imagem do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam09} alt="Imagem dos dados do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Capturar o e-ticket</h2>
+            <p>Utilize uma ferramenta de captura de tela (como Captura e Esboço, Lightshot, ou outra de sua preferência) para salvar uma cópia do e-ticket.</p>
+            <p>Dica: Para capturar a tela, você pode usar teclas de atalho como Print Screen ou ferramentas específicas para captura que permitem selecionar apenas a parte da tela desejada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Voltar ao Cockpit</h2>
+            <p>Retorne ao sistema Cockpit no cartão da transação correspondente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Inserir e-ticket</h2>
+            <p>Clique no botão Inserir e-ticket para dar continuidade ao processo de registro do e-ticket.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam87} alt="Imagem da tela de inserção do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Preencher Informações necessárias</h2>
+            <p>Digite as seguintes informações na tela de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Número do e-ticket: Insira o número gerado do e-ticket que você capturou.</li>
+                <li>Login do programa de fidelidade: Forneça o login que você utilizou para a emissão da passagem.</li>
+                <li>Número da compra para a companhia aérea: Insira o número de compra associado ao e-ticket (se aplicável).</li>
+                <li>Valor da bagagem paga na companhia aérea: Informe o valor que foi pago por qualquer bagagem adicional.</li>
+                <li>Cartão de crédito utilizado: Se solicitado, forneça os dados do cartão de crédito que foi utilizado para a compra.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam88} alt="Imagem da tela de preenchimento das informações do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Fazer upload do e-ticket</h2>
+            <p>Faça o upload da captura de tela do e-ticket que você salvou anteriormente. Este passo é importante para garantir que a transação e a emissão estejam devidamente documentadas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Mensagens de sucesso e erro</h2>
+            <p>Após a inserção do e-ticket, o sistema verificará as informações e fornecerá uma mensagem de retorno:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Mensagem de sucesso:</strong> Se todos os dados estiverem corretos, aparecerá a mensagem: "Sucesso: e-ticket inserido com sucesso."</li>
+                <li><strong>Mensagem de erro na checagem automática:</strong> Se houver algum erro na validação automática, a mensagem será: "Erro: dados inválidos.".</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam89} alt="Imagem da mensagem de sucesso do e-ticket"></img>
+
+            <p>Esta funcionalidade oferece um fluxo claro para garantir que tudo esteja devidamente registrado e que a transação esteja completa.</p>
+        </div>
+    ),
+},
+'Emissões automáticas': {
+    title: 'Emissões automáticas',
+    videoUrl: 'https://www.youtube.com/embed/CgYw48GkkaM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões automáticas</h1>
+            <p>As emissões automáticas facilitam o processo de emissão de passagens, permitindo que a transação seja realizada de forma rápida e eficiente. No entanto, é fundamental seguir algumas orientações para garantir que tudo ocorra sem problemas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Iniciar emissões automáticas</h2>
+            <p>Para iniciar o processo de emissão automática, clique no botão Emitir automaticamente. Este passo aciona o sistema para emitir as passagens de maneira automática, utilizando as informações previamente inseridas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit90} alt="Imagem para iniciar emissões automáticas" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Verificação do log de emissão</h2>
+            <p>Importante: Antes de iniciar a emissão automática, verifique o log de emissão automática e comentários. Essa verificação é essencial para identificar se a transação já foi emitida ou se ocorreu um erro de pagamento.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit91} alt="Imagem do log de emissão" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit92} alt="Imagem adicional do log de emissão" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit51} alt="Imagem de erros no log de emissão" />
+
+            <p>Evite duplicidade: Nunca envie uma transação na emissão automática que já esteja em processo de emissão. O sistema pode gerar passagens duplicadas, resultando em complicações na gestão das reservas.</p>
+            <p>Erro após pagamento: Atenção! Caso a transação apresente logs ou comentários de erro após pagamento, é necessário acessar a conta do ofertante de milhas e verificar se o bilhete foi emitido ou não. Após realizar a verificação, copie e cole o extrato do ofertante nos comentários da transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Quantidade de milhas e ofertantes</h2>
+            <p>Após verificar os logs e comentários, escolha um ofertante de acordo com o saldo, número de passageiros, média e razão definidos para a transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Monitoramento do status da transação</h2>
+            <p>Após iniciar a emissão automática, monitore o status da transação. Isso pode ser feito acessando a aba de status no Cockpit, onde você poderá ver:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Se a emissão foi bem-sucedida.</li>
+                <li>Se houve alguma falha ou erro durante o processo.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Mensagens de confirmação</h2>
+            <p>Após a emissão automática, aguarde as mensagens de confirmação que indicam o sucesso ou falha do processo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Sucesso:</strong> Uma mensagem indicando que a emissão foi concluída com êxito.</li>
+                <li><strong>Erro:</strong> Caso haja falhas, o sistema fornecerá uma mensagem detalhando o problema, permitindo que você tome as ações corretivas necessárias.</li>
+            </ul>
+
+            <p>Esse procedimento assegura que o processo de emissão automática seja realizado de maneira eficiente, minimizando o risco de erros e duplicidades nas transações.</p>
+        </div>
+    ),
+},
+'Emissões semiautomáticas': {
+    title: 'Emissões semi-automáticas',
+    videoUrl: 'https://www.youtube.com/embed/XVJyZSMHCIc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões semi-automáticas</h1>
+            <p>As emissões semi-automáticas oferecem uma maneira prática de gerenciar o processo de emissão de passagens, combinando automação com supervisão humana. A seguir, você encontrará os passos detalhados e as opções disponíveis na extensão para facilitar a emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Iniciar a transação no cockpit</h2>
+            <p>Acesse o sistema Cockpit e inicie a transação desejada, garantindo que todas as informações necessárias estejam corretas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Inserir código da transação na extensão</h2>
+            <p>Utilize a extensão do navegador específica para emissões semi-automáticas, que pode ser instalada através do seguinte link: Assistente de Navegação.</p>
+            <p>Insira o código da transação do Cockpit na extensão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit93} alt="Imagem da inserção do código na extensão"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Abertura do site da companhia aérea</h2>
+            <p>Após inserir o código, a extensão abrirá automaticamente o site da companhia aérea selecionada e começará a preencher os dados da transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Verificação dos dados</h2>
+            <p>Importante: Revise cuidadosamente todas as informações preenchidas pela extensão. Confirme se os dados estão corretos antes de prosseguir.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Opções da extensão</h2>
+            <p>A extensão possui várias funcionalidades que facilitam o processo de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Emissão:</strong> Inicia o processo de emissão com os dados fornecidos.</li>
+                <li><strong>Pagamento:</strong> Permite que você efetue o pagamento da passagem, digitando o código da compra.</li>
+                <li><strong>Histórico:</strong> Acesso ao histórico de transações, permitindo que você revise emissões anteriores.</li>
+                <li><strong>Transação manual (Criar):</strong> Permite a criação de uma nova transação manualmente, caso necessário.</li>
+                <li><strong>Checagem:</strong> Verifica as informações relacionadas à transação, garantindo que tudo esteja em ordem.</li>
+                <li><strong>Chipeira smiles:</strong> Utilizada para obter o código de verificação para pagamento smiles.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Finalização e captura do e-ticket</h2>
+            <p>Após o pagamento, a companhia aérea gerará um e-ticket. Use uma ferramenta de captura de tela para salvar uma cópia do e-ticket como comprovante.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Conclusão</h2>
+            <p>Após capturar o e-ticket, retorne ao Cockpit para atualizar o status da transação e comunicar a confirmação da emissão aos passageiros.</p>
+        </div>
+    ),
+},
+
+'Erro após pagamento': {
+    title: 'Erro após pagamento',
+    videoUrl: 'https://www.youtube.com/embed/CltMW0m8Hsw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Erro após pagamento</h1>
+            <p>A aba de erro após pagamento é uma aba importante para gerenciar transações que não foram concluídas corretamente durante o processo de emissão automática. Esta seção permite que você identifique e resolva problemas que podem ocorrer, garantindo que as passagens sejam emitidas corretamente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit94} alt="Imagem da aba de erro após pagamento"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Identificação de transações com erro</h2>
+            <p>Na aba de erro, você encontrará uma lista de transações que tiveram problemas durante o pagamento na emissão automática.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Acesso à conta do ofertante</h2>
+            <p>Para cada transação com erro, acesse a conta do ofertante associada à transação. Isso é importante para verificar o status da emissão da passagem.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Verificação da emissão da passagem</h2>
+            <p>Verifique se a passagem foi efetivamente emitida. Em alguns casos, mesmo que o pagamento tenha falhado, o bilhete pode ter sido gerado. Certifique-se de que a passagem não esteja emitida antes de prosseguir.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Documentação do erro</h2>
+            <p>Após verificar o status da passagem, copie e cole o extrato da conta do ofertante nos comentários da transação. Isso fornece um registro claro do que ocorreu durante o processo de pagamento.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Emissão manual da passagem</h2>
+            <p>Se a passagem não tiver sido emitida, prossiga com a emissão da passagem de forma manual. Certifique-se de seguir todos os procedimentos necessários para garantir que a transação seja concluída corretamente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
+            <p>A aba de erro após pagamento é essencial para assegurar que todas as transações sejam devidamente monitoradas e que eventuais problemas sejam rapidamente resolvidos. Este processo ajuda a manter a confiança dos clientes e a eficiência do sistema de emissão.</p>
+        </div>
+    ),
+},
+'Erro/aumento': {
+    title: 'Erro/aumento',
+    videoUrl: 'https://www.youtube.com/embed/-At_cLorYyw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Erro/aumento</h1>
+            <p>A aba Erro/Aumento é uma funcionalidade importante para gerenciar transações que enfrentam problemas, principalmente relacionadas à Gol. Esta seção permite que você monitore transações que estão aguardando a resolução de aumentos de milhas ou erros no site.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit95} alt="Imagem da aba Erro/Aumento"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Identificação de transações com erro ou aumento</h2>
+            <p>Nesta aba, você encontrará uma lista de transações que tiveram aumento de milhas ou algum erro no site. É fundamental ficar atento a essas transações para garantir que sejam tratadas de maneira adequada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Monitoramento do status</h2>
+            <p>As transações listadas nesta aba ficam aguardando por um período de 1 a 2 horas. Durante esse tempo, você deve monitorar o status do voo para verificar se ele volta a ficar disponível ou se as milhas diminuem em caso de aumento.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Ação necessária</h2>
+            <p>Após o período de espera, avalie o resultado:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Se o voo voltar a ficar disponível: Continue o processo de emissão normalmente.</li>
+                <li>Se houver um aumento de milhas: Efetue o cancelamento da transação.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
+            <p>A aba Erro/Aumento é essencial para garantir a eficácia na gestão de transações que enfrentam dificuldades, especialmente no caso de aumentos de milhas. O monitoramento cuidadoso dessas transações ajudará a evitar perdas e a otimizar o processo de emissão.</p>
+        </div>
+    ),
+},
+'Bagagem': {
+    title: 'Página de bagagem',
+    videoUrl: 'https://www.youtube.com/embed/-mEn4IfUu-4',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Página de bagagem</h1>
+            <p>Na página de bagagem, você encontrará uma lista de transações da Gol que foram finalizadas e, agora, requerem a adição de bagagens. É fundamental garantir que todos os detalhes estejam corretos para evitar problemas na hora do embarque.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit96} alt="Imagem da página de bagagem"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acesso ao site da Gol</h2>
+            <p>Para adicionar as bagagens às suas transações, você precisará acessar o site da Gol. Utilize o seguinte link: Voe Gol - Minhas Viagens.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Processando as adições de bagagem</h2>
+            <p>No site, você deverá:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Localizar a sua viagem utilizando as informações pertinentes.</li>
+                <li>Após encontrar a sua viagem, siga as instruções para adicionar a quantidade de bagagens desejada.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Importância da adição de bagagens</h2>
+            <p>A adição correta de bagagens é essencial para garantir que o cliente tenha uma experiência tranquila no aeroporto. A página de bagagem é uma etapa importante na finalização das suas transações com a Gol. Certifique-se de realizar esse processo corretamente para garantir que todas as suas necessidades de viagem sejam atendidas.</p>
+        </div>
+    ),
+},
+'Checagem': {
+    title: 'Aba de checagem',
+    videoUrl: 'https://www.youtube.com/embed/bkYs5oNC5dU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Aba de checagem</h1>
+            <p>A aba de checagem é onde você encontrará transações que ficaram pendentes devido a erros na verificação automática. Essa aba é importante para garantir que todas as informações estejam corretas antes da emissão final do bilhete.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit97} alt="Imagem da aba de checagem"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Verificação das informações</h2>
+            <p>Ao acessar a aba, você deve:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Verificar se as informações do print da tela inseridas estão corretas. Isso inclui:</li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
+                    <li><strong>Nome do passageiro (PAX):</strong> Verifique o nome do passageiro.</li>
+                    <li><strong>Dados do voo:</strong> Confira a data, hora e número do voo.</li>
+                    <li><strong>Dados de pagamento:</strong> Revise as informações do cartão e valores.</li>
+                </ul>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Aprovação manual</h2>
+            <p>Após a verificação, você pode:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Confirmar manualmente a transação, anotando o motivo da aprovação.</li>
+                <li>Ou enviar novamente para a checagem automática se preferir que o sistema realize a verificação.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit98} alt="Imagem de confirmação manual"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Acesso ao extrato do ofertante</h2>
+            <p>Se a tela de confirmação não foi inserida:</p>
+            <p>É necessário acessar o extrato do ofertante para verificar o bilhete e os dados na conta dele.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Tratamento de dados incorretos</h2>
+            <p>Se os dados estiverem errados:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Cancelar o bilhete incorreto e reemitir a transação.</li>
+                <li>Se não houver como reemitir, a transação deve ser cancelada.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Formulário FNC15</h2>
+            <p>Caso a transação tenha sido paga através do Pagar.me, o formulário FNC15 deve ser preenchido para dar seguimento ao processo de cancelamento.</p>
+
+            <p>A aba de checagem é um passo importante para garantir que as informações estejam corretas e que a transação seja finalizada com sucesso. Realize as verificações necessárias e siga os procedimentos para garantir uma experiência de emissão de bilhetes sem problemas.</p>
+        </div>
+    ),
+},
+'Suspeita de fraude': {
+    title: 'Suspeita de fraude',
+    videoUrl: 'https://www.youtube.com/embed/rxWNBBs597g',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Suspeita de fraude</h1>
+            <p>As transações marcadas como suspeitas de fraude devem ser verificadas cuidadosamente antes de prosseguir com a emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit98} alt="Imagem de suspeita de fraude"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Método de pagamento</h2>
+            <p>Payme ou Pagar.me: Se o método de pagamento for um desses, pode prosseguir com a emissão sem verificações adicionais.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit99} alt="Imagem do método de pagamento"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cartão de crédito</h2>
+            <p>Se o pagamento foi feito com cartão de crédito, siga os passos abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Verifique o perfil do Cliente:</strong> Abra o perfil do cliente e revise as observações salvas. Essas observações conterão orientações específicas e o motivo pelo qual o cliente está com o status de suspeita de fraude. Exemplo de anotação: “Atenção: não emitir para esse cliente, pois ele não quitou o débito.”</li>
+                <li><strong>Zendesk:</strong> Busque no Zendesk usando o código da compra (e não pelo e-mail do cliente). Procure por e-mails com o título "Contestação de Pagamento XXXXXXX - MaxMilhas". A marcação deve ser realizada usando o código da compra com CBK.</li>
+                <li><strong>E-mail encontrado:</strong> Se encontrar esse e-mail e a conta continuar marcada como suspeita, significa que o cliente não regularizou o débito. NÃO EMITIR a passagem nesse caso.</li>
+                <li><strong>E-mail não encontrado:</strong> Se não houver e-mail relacionado à compra contestada, você pode proceder com a emissão, mas deve notificar o grupo de prevenção.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Marcação como suspeito</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Alertas específicos:</strong> Se a transação estiver marcada como suspeita com alertas "Recuperação" ou "Ostensiva MM", não deve ser emitida e deve-se notificar o grupo de prevenção imediatamente.</li>
+                <li><strong>Marcação por ofertas:</strong> Caso a marcação tenha ocorrido devido a ofertas, as observações indicarão algo como: “[REVENDA] Cobrança - Não emitir ou liberar ofertas antes da quitação do débito.” Nesse caso, também não deve prosseguir com a emissão.</li>
+            </ul>
+
+            <p>Essas diretrizes são essenciais para evitar problemas e garantir a segurança das transações.</p>
+        </div>
+    ),
+},
+'Fnc 15': {
+    title: 'Estorno de transações incorretas',
+    videoUrl: 'https://www.youtube.com/embed/pu3o-Ku-NQE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estorno de transações incorretas</h1>
+            <p>Quando uma transação é emitida incorretamente, seja por dados errados, voo incorreto ou quantidade de milhas superior à receita mínima, é necessário tomar medidas corretivas para evitar prejuízos. Um dos principais procedimentos é cancelar o localizador na companhia aérea e emitir a passagem novamente, usando o mesmo ofertante.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Situações que exigem ação</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados incorretos ou voo incorreto</h3>
+            <p>Se a transação foi feita com dados do passageiro incorretos ou o voo escolhido foi errado, o procedimento padrão é cancelar o localizador na companhia aérea e refazer a emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit1} alt="Dados incorretos ou voo incorreto"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Quantidade de milhas acima da receita mínima</h3>
+            <p>Quando a quantidade de milhas utilizada excede a receita mínima, também será necessário cancelar o localizador e refazer a emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit2} alt="Quantidade de milhas acima da receita mínima"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Ofertante sem milhas ou CPF para emissão</h3>
+            <p>Caso o ofertante não tenha milhas suficientes ou CPF disponível para nova emissão, será necessário buscar outra solução, como abrir um FNC15.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit3} alt="Ofertante sem milhas ou CPF para emissão"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Aumento de milhas ou voo indisponível</h3>
+            <p>Se houver aumento nas milhas necessárias para a emissão ou o voo se tornar indisponível, também será preciso cancelar o localizador e refazer a emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit4} alt="Aumento de milhas ou voo indisponível"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estorno via FNC 15</h2>
+            <p>Quando o método de pagamento utilizado foi Pay.mee ou Pagar.me e a reemissão não for possível, será necessário solicitar um estorno por meio do FNC 15.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit5} alt="Estorno via FNC 15"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento para abrir o FNC 15</h2>
+            <p>Acessar o Zendesk da MaxMilhas:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Entre na plataforma Zendesk da MaxMilhas para iniciar o processo de estorno.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit6} alt="Acessar o Zendesk da MaxMilhas"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Criar um novo ticket</h3>
+            <p>Abra um novo ticket de solicitação, seguindo o procedimento padrão de criação de chamados.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit7} alt="Criar um novo ticket"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Preencher o Formulário FNC 15</h3>
+            <p>Preencha o formulário FNC 15 de acordo com o tutorial disponível neste slide. Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit8} alt="Preencher o Formulário FNC 15"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Documentação do FNC 15</h2>
+            <p>Após a criação do ticket, copie e cole o número do ticket nas observações da transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit9} alt="Documentação do FNC 15"></img>
+
+            <p>O processo FNC 15 é uma ferramenta importante para garantir a resolução de erros em transações que não podem ser corrigidas com emissão imediata. Ao seguir os procedimentos adequados, você assegura a gestão eficiente dos erros e protege tanto a empresa quanto o cliente de prejuízos.</p>
+        </div>
+    ),
+},
 
 
 
