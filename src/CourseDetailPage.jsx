@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import Header from './Header';
-
+import cursocockpit00 from './assets/Cursos/Cockpit/cursocockpit00.jpg'; // Importe a logo para os placeholders
 
 
 const coursesData = {
@@ -43,7 +43,7 @@ const lessonsData = {
                             </ul>
 
 
-                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='./assets/Cursos/Cockpit/cursocockpit00.jpg' alt="Imagem do sistema Cockpit"></img>
+                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit00} alt="Imagem do sistema Cockpit"></img>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
 
                             <p style={{ marginTop:'30px', marginBottom:'30px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
@@ -70,8 +70,7 @@ const lessonsData = {
                 <li><strong>Validade das milhas:</strong> Discutiremos como verificar e gerenciar a validade das milhas de um cliente, evitando que milhas expiradas afetem as emissões.</li>
                 <li><strong>Ferramentas de suporte:</strong> Veremos como utilizar os recursos auxiliares, como Cockpit, para otimizar suas operações e garantir uma melhor experiência para o cliente.</li>
             </ul>
-
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='./assets/Cursos/Cockpit/cursocockpit00.jpg' alt="Imagem do sistema Cockpit"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit00} alt="Imagem do sistema Cockpit"></img>
 
             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso foi desenhado para ser prático e envolvente, com exercícios e exemplos reais que o ajudarão a fixar o conteúdo.</p>
 
@@ -362,6 +361,8 @@ const lessonsData = {
         </div>
     )
 },
+
+
 
 
     'Cockpit': {
