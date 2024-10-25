@@ -720,10 +720,10 @@ const lessonsData = {
                 <li><strong>Companhia aérea:</strong> Seleção da companhia aérea com a qual o ofertante trabalha.</li>
             </ul>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="" />
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de companhia aérea</h1>
+            <h2 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de companhia aérea</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="" />
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</h2>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Selecionar todos (todas as companhias)</li>
                 <li>Azul</li>
