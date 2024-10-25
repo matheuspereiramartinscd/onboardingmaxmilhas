@@ -80,7 +80,7 @@ const lessonsData = {
         </div>
     )
 },
-'bem-vindo-curso-emissoes-azul': {
+'bem-vindo-curso-emissoesazul': {
     title: 'Bem-vindo ao curso de emissões da Azul!',
     videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
     description: (
