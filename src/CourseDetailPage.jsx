@@ -776,9 +776,9 @@ const lessonsData = {
                 <li>E-mail</li>
                 <li>Telefone</li>
             </ul>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Opções avançadas</h1>
+            <h2 style={{ marginTop: '10px', marginBottom: '30px' }}>Opções avançadas</h2>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</h2>
+            <p>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</p>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Campos de busca avançada:</h3>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
