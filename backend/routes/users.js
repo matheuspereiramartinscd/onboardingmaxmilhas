@@ -57,8 +57,8 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Cockpit", "completed": false},
                         {"title": "Menu lateral", "completed": false},
-                        {"title": "Menu lateral - Cockpit", "completed": false},
-                        {"title": "Menu lateral - Milhas", "completed": false},
+                        {"title": "Menu lateral cockpit", "completed": false},
+                        {"title": "Menu lateral milhas", "completed": false},
                         {"title": "Ofertantes", "completed": false},
                         {"title": "Abas do Cockpit", "completed": false},
                         {"title": "Opções de pesquisa de transações", "completed": false},
