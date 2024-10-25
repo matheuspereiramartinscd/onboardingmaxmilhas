@@ -650,7 +650,7 @@ const lessonsData = {
         <div>
             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
             <p>No painel esquerdo do Cockpit, é possível encontrar um menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='cursocockpit03.jpg' alt="Imagem do menu lateral do Cockpit"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit03} alt="Imagem do menu lateral do Cockpit"></img>
 
             <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>As opções disponíveis incluem:</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
@@ -707,6 +707,769 @@ const lessonsData = {
         </div>
     )
 },
+'Menu lateral milhas': {
+    title: 'Menu lateral - Milhas',
+    videoUrl: 'https://www.youtube.com/embed/KPMhTI-ehSU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Menu lateral - Milhas</h1>
+            <p>No menu lateral, a opção Milhas dá acesso à tela de busca de ofertantes. Nesta tela, o analista pode realizar uma busca detalhada dos ofertantes cadastrados na base de dados, utilizando filtros como:</p>
+            <ul>
+                <li><strong>Login:</strong> Busca pelo login do ofertante.</li>
+                <li><strong>Status:</strong> Filtragem pelo status atual do ofertante (ativo, inativo, etc.).</li>
+                <li><strong>Companhia aérea:</strong> Seleção da companhia aérea com a qual o ofertante trabalha.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Caixa de seleção de companhia aérea" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Selecionar todos (todas as companhias)</li>
+                <li>Azul</li>
+                <li>Gol</li>
+                <li>Latam</li>
+                <li>Air Canada</li>
+                <li>Air France</li>
+                <li>British Airways</li>
+                <li>Copa Airlines</li>
+                <li>Delta Air Lines</li>
+                <li>Emirates</li>
+                <li>Etihad</li>
+                <li>Iberia</li>
+                <li>KLM</li>
+                <li>Latam (Chile)</li>
+                <li>LifeMiles</li>
+                <li>Qatar Airways</li>
+                <li>Singapore Airlines</li>
+                <li>TAP</li>
+                <li>United Airlines</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Caixa de seleção de status" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As opções mais utilizadas no contexto de Emissões incluem:</h2>
+            <ul>
+                <li><strong>Ativo - liberado:</strong> Ofertantes prontos para serem usados em transações.</li>
+                <li><strong>Bloqueado - Não atende celular:</strong> Ofertantes bloqueados por falta de contato.</li>
+                <li><strong>Em análise - Aguardando análise antifraude:</strong> Ofertas que aguardam verificação de segurança antes de serem usadas.</li>
+                <li><strong>Em venda - a emitir:</strong> Ofertantes que já estão em uso para a compra de passagens.</li>
+                <li><strong>Inativo - CPF divergente:</strong> Ofertantes desativados devido a divergências no CPF.</li>
+                <li><strong>Inativo - Conta bloqueada:</strong> Contas desativadas por bloqueios.</li>
+                <li><strong>Inativo - Fraude:</strong> Ofertantes inativos por suspeita de fraude.</li>
+                <li><strong>Inativo - Limite de emissões atingido:</strong> Contas suspensas por atingirem o limite de emissões.</li>
+                <li><strong>Inativo - Oferta excluída:</strong> Ofertas removidas.</li>
+                <li><strong>Inativo - Removido pelo usuário:</strong> Ofertantes desativados por escolha do próprio usuário.</li>
+                <li><strong>Inativo - Reprovado:</strong> Ofertas que falharam na análise.</li>
+                <li><strong>Pendente - Divergência na oferta paga:</strong> Ofertas pendentes por problemas de pagamento.</li>
+                <li><strong>Pendente - Em tratativa:</strong> Ofertas em processo de resolução.</li>
+                <li><strong>Pendente - Senha incorreta:</strong> Ofertantes pendentes por falhas de login.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="Caixa de seleção de login" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>A busca por ofertantes pode ser feita pelos seguintes critérios:</h2>
+            <ul>
+                <li>Login</li>
+                <li>Nome</li>
+                <li>CPF</li>
+                <li>E-mail</li>
+                <li>Telefone</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit11} alt="Opções avançadas" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit12} alt="Campos de busca avançada" />
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Campos de busca avançada:</h3>
+            <ul>
+                <li><strong>Saldo:</strong> Filtrar ofertantes com base no saldo de milhas disponível.</li>
+                <li><strong>CPF:</strong> Busca por CPF para localizar ofertantes específicos.</li>
+                <li><strong>Razão:</strong> Buscar ofertantes que possuem a razão (milhas/cpf) indicada.</li>
+                <li><strong>Média:</strong> Busca pela média definida pelo ofertante na venda de milhas.</li>
+                <li><strong>Tipo de oferta:</strong> Definir o tipo de transação que o ofertante está realizando.</li>
+                <li><strong>Estratégia 2FA:</strong> Escolher o tipo de verificação em duas etapas para obter os códigos de verificação de segurança.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Tipos de oferta" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de oferta</h2>
+            <ul>
+                <li><strong>Venda convencional:</strong> Ofertas de milhas tradicionais.</li>
+                <li><strong>Venda rápida:</strong> Ofertas destinadas a transações rápidas.</li>
+                <li><strong>Revenda:</strong> Ofertantes de revenda.</li>
+                <li><strong>Pagamento antecipado:</strong> Ofertas que exigem pagamento antecipado.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit14} alt="Estratégia 2FA (Autenticação de dois fatores)" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de dois fatores)</h2>
+            <ul>
+                <li><strong>Selecionar todos:</strong> Visualizar ofertantes independentemente da estratégia de verificação.</li>
+                <li><strong>WhatsApp:</strong> Código 2FA via WhatsApp.</li>
+                <li><strong>Chipeira:</strong> Código 2FA redirecionado para um telefone Maxmilhas e obtido através do e-mail da Chipeira.</li>
+                <li><strong>E-mail:</strong> Código 2FA redirecionado para um e-mail Maxmilhas.</li>
+            </ul>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tela de busca</h2>
+            <p>Ao realizar a busca de um ofertante no sistema Cockpit, é exibida uma tela com as principais informações da oferta, permitindo que o analista visualize rapidamente os detalhes essenciais para tomar decisões sobre as transações.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit111} alt="Tela de busca" />
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>As informações retornadas incluem:</h3>
+            <ul>
+                <li><strong>Nome:</strong> Nome do ofertante.</li>
+                <li><strong>Tipo de milhas:</strong> Classificação das milhas.</li>
+                <li><strong>Data de validade:</strong> Quando as milhas expiram.</li>
+                <li><strong>CPF:</strong> Número do CPF do ofertante.</li>
+                <li><strong>Login:</strong> Identificação do ofertante.</li>
+                <li><strong>Status:</strong> Status atual da oferta.</li>
+            </ul>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Resultados da busca</h2>
+            <p>Os resultados da busca podem ser visualizados em formato de tabela, onde o analista pode selecionar as ofertas que deseja trabalhar, facilitando o acesso às informações necessárias para realizar as emissões de passagens.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit112} alt="Resultados da busca" />
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h3>
+            <p>A tela de busca de ofertantes no sistema Cockpit é uma ferramenta essencial para a análise e escolha de ofertas de milhas, permitindo que o analista utilize filtros e visualizações detalhadas para otimizar suas transações.</p>
+        </div>
+    ),
+},
+'Ofertantes': {
+    title: 'Ofertantes',
+    videoUrl: 'https://www.youtube.com/embed/iihjdr2ZGFk',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ofertantes</h1>
+            <p>Ao clicar no login do ofertante, o usuário é redirecionado para uma página que contém os detalhes da oferta. Nesta página, são apresentadas informações abrangentes sobre a oferta específica, permitindo que o analista tenha uma visão clara e completa.</p>
+            
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit15} alt="Imagem da oferta" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit16} alt="Detalhes da oferta" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nesta tela é possível verificar:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Código da transação:</strong> Código referente à oferta.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit17} alt="Código da transação" />
+                <li><strong>Última observação:</strong> Último motivo para troca de ofertante ou movimentação da oferta.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit18} alt="Última observação" />
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Oferta</h2>
+            <p>Nesta seção, a tela exibe os dados do vendedor e das milhas vendidas, fornecendo informações essenciais para análise e tomada de decisão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit19} alt="Dados da oferta" />
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Os dados disponíveis incluem:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Cia:</strong> Companhia aérea associada à oferta de milhas.</li>
+                <li><strong>Saldo:</strong> Quantidade de milhas atualmente disponíveis para transações.</li>
+                <li><strong>Prazo de pagamento:</strong> Tempo estabelecido para que o pagamento seja concluído após a realização da transação.</li>
+                <li><strong>Razão:</strong> Motivo ou justificativa para a oferta, que pode incluir detalhes sobre condições especiais.</li>
+                <li><strong>CPFs:</strong> Lista de CPFs relacionados à oferta, indicando os usuários que podem utilizar as milhas.</li>
+                <li><strong>Próximas milhas a expirar:</strong> Informações sobre milhas que estão prestes a expirar, ajudando na gestão do estoque de milhas.</li>
+                <li><strong>Tele cadastrado:</strong> Número de telefone cadastrado do ofertante, que pode ser utilizado para contato.</li>
+                <li><strong>Categoria:</strong> Classificação da oferta (por exemplo, venda convencional, venda rápida).</li>
+                <li><strong>Preço do milheiro:</strong> Valor por milheiro, informando quanto custam as milhas vendidas.</li>
+                <li><strong>Múltiplas vendas:</strong> Indicação se a oferta permite múltiplas transações ou vendas de milhas.</li>
+                <li><strong>Média:</strong> Média de uso ou desempenho das milhas vendidas, que pode ajudar a identificar padrões de utilização.</li>
+                <li><strong>Estratégia 2 fatores:</strong> Método de autenticação em duas etapas que pode ser utilizado para verificar transações, aumentando a segurança das operações.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados do vendedor</h2>
+            <p>Nesta seção, são exibidos os dados do vendedor que oferece as milhas, proporcionando informações essenciais para contato e identificação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Dados do vendedor" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Login:</strong> Identificação única do vendedor no sistema.</li>
+                <li><strong>Nome:</strong> Nome completo do vendedor, facilitando a identificação.</li>
+                <li><strong>CPF:</strong> Cadastro de Pessoa Física, utilizado para fins de identificação e conformidade.</li>
+                <li><strong>E-mail:</strong> Endereço de e-mail do vendedor, que pode ser usado para comunicação.</li>
+                <li><strong>Telefone:</strong> Número de telefone cadastrado, permitindo contato direto para quaisquer questões relacionadas à oferta ou transação.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Editar oferta</h2>
+            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit21} alt="Tela de edição da oferta" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit22} alt="Formulário de edição da oferta" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados de acesso</h2>
+            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar, é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit23} alt="Dados de acesso do ofertante" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit24} alt="Motivo de acesso do ofertante" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Linha do tempo da oferta</h2>
+            <p>Nesta seção, é apresentada a evolução da oferta desde sua criação, permitindo que os analistas acompanhem o desempenho e as mudanças ao longo do tempo. As informações geralmente incluem:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit25} alt="Linha do tempo da oferta" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Vendas</h2>
+            <p>Nesta tela, é possível visualizar as últimas transações que foram concluídas utilizando a oferta selecionada. As informações são apresentadas em uma tabela detalhada, que inclui os seguintes dados:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit26} alt="Tabela de vendas" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>ID da transação:</strong> Identificação única da transação realizada.</li>
+                <li><strong>Milhas:</strong> Quantidade de milhas utilizadas na emissão da passagem.</li>
+                <li><strong>Pax:</strong> Número de passageiros associados à transação.</li>
+                <li><strong>Valor cliente:</strong> Valor pago pelo cliente ao ofertante.</li>
+                <li><strong>Tx Maxmilhas:</strong> Taxa de serviço cobrada pela Maxmilhas pela intermediação da transação.</li>
+                <li><strong>Tx embarque:</strong> Valor da taxa de embarque paga para a emissão do bilhete.</li>
+                <li><strong>Voo:</strong> Código do voo relacionado à transação.</li>
+                <li><strong>Status:</strong> Situação da compra efetuada pelo cliente no momento da consulta.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Histórico de alterações</h2>
+            <p>Esta seção detalha as mudanças feitas na oferta ao longo do tempo, permitindo que os analistas verifiquem e compreendam o histórico de modificações. As informações são organizadas cronologicamente e incluem:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit27} alt="Histórico de alterações da oferta" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data:</strong> Data e hora em que a alteração foi realizada.</li>
+                <li><strong>Ação:</strong> Tipo de mudança que foi efetuada na oferta.</li>
+                <li><strong>Usuário:</strong> Nome do analista que realizou a alteração.</li>
+                <li><strong>Detalhes:</strong> Descrição do que foi alterado na oferta.</li>
+            </ul>
+        </div>
+    ),
+},
+
+'Abas do cockpit': {
+    title: 'Abas do Cockpit',
+    videoUrl: 'https://www.youtube.com/embed/M6nzXBC7-Jw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Abas do Cockpit</h1>
+            <p>Ao acessar a tela principal do Cockpit por meio do menu lateral, selecionando a opção Cockpit - Completo, o usuário encontrará várias abas que organizam e facilitam a gestão das transações e emissões de bilhetes aéreos.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit31} alt="Abas do Cockpit" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As abas disponíveis são:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Emitir Gol:</strong> Aba dedicada para realizar emissões de bilhetes na companhia aérea Gol.</li>
+                <li><strong>Emitir Latam:</strong> Para emissões de bilhetes na companhia aérea Latam.</li>
+                <li><strong>Emitir Azul:</strong> Para emissões de bilhetes na companhia aérea Azul.</li>
+                <li><strong>Emitir (Outras Cias):</strong> Utilizada para emissões em outras companhias aéreas que não sejam Gol, Latam ou Azul.</li>
+                <li><strong>Emitir - Erro após pagamento:</strong> Aba para tratar transações que apresentaram erros após o pagamento ser realizado.</li>
+                <li><strong>Emitir - Erro/Aumento:</strong> Para lidar com transações que enfrentaram erros ou aumentos de preço durante o processo de emissão.</li>
+                <li><strong>Checagem:</strong> Aba onde o analista pode verificar e revisar as transações emitidas, conferindo os detalhes e status dos bilhetes.</li>
+                <li><strong>Fila:</strong> Exibe as transações que estão aguardando para serem processadas ou que estão na fila para emissão.</li>
+                <li><strong>Pendências - OTA:</strong> Para gerenciar pendências relacionadas a transações feitas por agências de viagens online (OTA).</li>
+                <li><strong>Bagagem:</strong> Aba dedicada ao gerenciamento de informações e cobranças relacionadas à bagagem dos passageiros.</li>
+                <li><strong>Em Análise:</strong> Transações que estão sendo analisadas, aguardando aprovação ou verificações.</li>
+                <li><strong>Emitir clonadas:</strong> Para gerenciar a emissão de transações clonadas ou duplicadas.</li>
+                <li><strong>Emitir - cliente parceiro:</strong> Aba destinada a emissões realizadas para clientes parceiros da Maxmilhas.</li>
+                <li><strong>A Remarcar:</strong> Exibe as transações que precisam ser remarcadas por algum motivo.</li>
+                <li><strong>Emitir transações irmãs:</strong> Para gerenciar a emissão de transações vinculadas ou relacionadas a outras transações, conhecidas como "transações irmãs".</li>
+            </ul>
+        </div>
+    )
+},
+'Opções de pesquisa de transações': {
+    title: 'Opções de pesquisa de transações',
+    videoUrl: 'https://www.youtube.com/embed/nuan0J8DdqA',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Opções de pesquisa de transações</h1>
+            <p>Ao selecionar uma aba no Cockpit, o sistema apresenta várias opções para pesquisa e filtragem de transações, permitindo que o analista encontre e gerencie as transações de maneira eficiente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit32} alt="Imagem das opções de pesquisa de transações"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Filtrar</h2>
+            <p>Para dar início à pesquisa, o analista deve clicar no botão Filtrar. Essa ação ativa o sistema para processar as opções de filtro selecionadas anteriormente, retornando uma lista de transações que atendem aos critérios estabelecidos.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit33} alt="Imagem do botão Filtrar"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Pesquisa por transação ou order</h2>
+            <p>No Cockpit, uma das opções de pesquisa disponíveis permite ao analista buscar informações por meio de Transação ou Order. Essas duas opções são essenciais para a identificação e gerenciamento de transações no sistema.</p>
+            <ul>
+                <li><strong>Transação:</strong> Refere-se ao ID único da transação gerada no Cockpit, vinculada ao processo de emissão de bilhetes.</li>
+                <li><strong>Order:</strong> Representa o número do pedido, gerado no sistema da Maxmilhas, que está associado à compra de passagens aéreas.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit34} alt="Imagem do campo de pesquisa por transação ou order"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Campo "Valor máximo de milhas"</h2>
+            <p>Após realizar a busca de transações no Cockpit, o campo de "Valor máximo de milhas" permite ao analista filtrar as transações com base no limite máximo de milhas utilizado. Essa funcionalidade é útil para identificar transações que se enquadram dentro de um valor de milhas específico, facilitando o gerenciamento e priorização de emissões.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit36} alt="Imagem do campo Valor máximo de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Meio de pagamento</h2>
+            <p>No Cockpit, ao realizar uma transação, o analista tem a opção de escolher entre diferentes meios de pagamento, oferecendo flexibilidade e conveniência para completar as emissões.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit37} alt="Imagem dos meios de pagamento disponíveis"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Opções disponíveis incluem</h2>
+            <ul>
+                <li><strong>Depósito:</strong> Pagamento realizado por meio de uma transferência bancária.</li>
+                <li><strong>Cartão de crédito:</strong> Pagamento feito por cartão de crédito para a aquisição das passagens aéreas.</li>
+                <li><strong>SafetyPay:</strong> Um método de pagamento online que permite aos clientes realizarem pagamentos diretamente através de seus bancos.</li>
+                <li><strong>Paymee:</strong> Uma plataforma de pagamento digital que oferece soluções de pagamento online.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Opção “Dias”</h2>
+            <p>No Cockpit, a funcionalidade de opção “dias” permite ao analista filtrar transações com base na data dos voos programados.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit38} alt="Imagem do campo Dias"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Emitindo</h2>
+            <p>A opção Emitindo no Cockpit permite ao analista buscar transações que já estão em processo de emissão ou que não estão sendo emitidas na aba correspondente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit39} alt="Imagem da opção Emitindo"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Recompra</h2>
+            <p>A opção Recompra no Cockpit permite ao analista selecionar transações que foram canceladas e posteriormente compradas novamente pelos clientes.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit40} alt="Imagem da opção Recompra"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ordenar Por</h2>
+            <p>A opção Ordenar Por no Cockpit oferece um filtro que permite ao analista escolher como deseja organizar as transações exibidas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit41} alt="Imagem da opção Ordenar Por"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Internacional</h2>
+            <p>A opção Internacional no Cockpit permite ao analista filtrar voos que são classificados como internacionais.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit42} alt="Imagem da opção Internacional"></img>
+        </div>
+    )
+},
+'Transações': {
+    title: 'Transações',
+    videoUrl: 'https://www.youtube.com/embed/z7-aWtNvaLc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Transações</h1>
+            <p>Ao realizar a pesquisa no Cockpit, o sistema retorna uma série de cartões de transações que contêm informações detalhadas sobre cada transação, facilitando o acompanhamento e a gestão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit43} alt="Imagem dos cartões de transações"></img>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cada cartão apresenta os seguintes dados:</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit44} alt="Imagem detalhando os dados do card de transação"></img>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Informações do card de transação</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Voo de ida ou volta:</strong> Indica se a transação é referente ao voo de ida ou volta.</li>
+                <li><strong>Número da transação:</strong> Identificação única da transação, essencial para rastreamento e referência.</li>
+                <li><strong>Quantidade de horas na aba:</strong> Mostra quanto tempo a transação está na aba atual, ajudando a monitorar prazos e ações necessárias.</li>
+                <li><strong>Número de comentários:</strong> Indica quantos comentários foram feitos na transação, permitindo um acompanhamento mais detalhado.</li>
+                <li><strong>Classe de voo:</strong> Informação sobre a categoria do voo, como econômica, executiva, etc.</li>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados do comprador:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Login:</strong> Identificação do comprador.</li>
+                <li><strong>Nome:</strong> Nome completo do comprador.</li>
+                <li><strong>Telefone:</strong> Número de contato.</li>
+                <li><strong>Email:</strong> Endereço de e-mail.</li>
+                <li><strong>Botão para visualizar dados do comprador:</strong> Permite acesso rápido às informações detalhadas do comprador.</li>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados do vendedor:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Login:</strong> Identificação do vendedor.</li>
+                <li><strong>Telefone:</strong> Número de contato do vendedor.</li>
+                <li><strong>Nome:</strong> Nome do vendedor.</li>
+                <li><strong>Cia:</strong> Companhia aérea associada à transação.</li>
+                <li><strong>Quantidade de milhas da transação:</strong> Total de milhas utilizadas.</li>
+                <li><strong>Preço do milheiro:</strong> Valor cobrado por milheiro entre parênteses.</li>
+                <li><strong>Logo da companhia:</strong> Exibe o logotipo da companhia aérea para identificação visual.</li>
+                <li><strong>Data e hora do voo:</strong> Informações sobre quando o voo está agendado para ocorrer.</li>
+                <li><strong>E-ticket:</strong> Mostra se o bilhete aéreo foi gerado ou está pendente de emissão.</li>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados da transação:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data do Voo:</strong> Data em que o voo está programado.</li>
+                <li><strong>Gateway:</strong> Método de pagamento utilizado (por exemplo, Paymee).</li>
+                <li><strong>Status:</strong> Indica o estado da transação, como capturado, pendente, etc.</li>
+                <li><strong>Valor pago pelo cliente:</strong> Quantia que o cliente pagou pela transação.</li>
+                <li><strong>MaxPay código:</strong> Código associado à transação de pagamento.</li>
+                <li><strong>Order:</strong> Número do pedido.</li>
+                <li><strong>Botão de Iniciar Emissão:</strong> Inicia o processo de emissão do bilhete aéreo.</li>
+                <li><strong>Botão para enviar para a aba de Erro/Aumento:</strong> Direciona a transação para a aba de erro ou aumento devido a milhas.</li>
+                <li><strong>Botão para enviar para a aba de Erro/Aumento por erro:</strong> Redireciona a transação para análise de erro.</li>
+                <li><strong>Caixa com último log ou comentário da transação:</strong> Exibe o mais recente log ou comentário relacionado à transação.</li>
+                <li><strong>Caixa com último monitoramento do voo:</strong> Mostra informações do último monitoramento do voo na companhia, incluindo:</li>
+                <ul>
+                    <li><strong>Tarifa do voo:</strong> Custo atual do voo.</li>
+                    <li><strong>Valor em milhas:</strong> Quantidade de milhas requeridas para o voo.</li>
+                    <li><strong>Valor em OTA:</strong> Valor em milhas através de OTA.</li>
+                    <li><strong>Hora e data do último monitoramento:</strong> Registro do último acompanhamento feito.</li>
+                </ul>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Informações detalhadas no card</h3>
+            <p>Clicando na seta localizada na parte inferior de um cartão de transação, o sistema exibe informações adicionais, essenciais para a gestão detalhada da operação. Essas informações oferecem uma visão mais completa tanto sobre o comprador quanto sobre o vendedor (ofertante), além de outras funcionalidades úteis para o processo de emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit45} alt="Imagem detalhando informações do card"></img>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>As informações detalhadas incluem:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>CPF do comprador:</strong> Exibe o CPF do cliente que adquiriu a passagem, facilitando a verificação da identidade e a correção de possíveis problemas.</li>
+                <li><strong>Telefone do ofertante:</strong> Mostra o número de telefone do vendedor de milhas, útil para o contato direto em caso de dúvidas ou problemas.</li>
+                <li><strong>Email do ofertante:</strong> Apresenta o endereço de e-mail do vendedor de milhas, outra forma de contato para questões operacionais ou administrativas.</li>
+                <li><strong>Número de fidelidade:</strong> Exibe o número do programa de fidelidade associado ao ofertante ou comprador, essencial para a emissão das passagens com milhas.</li>
+                <li><strong>Senha multiplus:</strong> Informação da senha utilizada no sistema Multiplus, necessária para acessar as contas de milhas dos ofertantes e concluir a emissão.</li>
+                <li><strong>Senha fidelidade:</strong> Adiciona a senha do programa de fidelidade associada ao perfil do ofertante ou comprador, necessária para acessar a conta de milhas e concluir a transação.</li>
+                <li><strong>Telefone na companhia:</strong> Número de telefone associado ao perfil de fidelidade do ofertante ou cliente na companhia aérea.</li>
+                <li><strong>Email na companhia:</strong> Endereço de e-mail associado ao perfil de fidelidade na companhia aérea.</li>
+                <li><strong>Botão para gerar cartão de crédito:</strong> Permite gerar um cartão de crédito virtual utilizado no pagamento da taxa de embarque da transação.</li>
+                <li><strong>Botão para inserir e-ticket:</strong> Disponibiliza um campo para inserir manualmente o e-ticket gerado, necessário para o controle da emissão.</li>
+                <li><strong>Botão para buscar códigos de verificação para pagamento na cia Gol:</strong> Facilita a obtenção dos códigos de verificação necessários para o pagamento das taxas na companhia aérea Gol.</li>
+                <li><strong>Informações sobre a companhia aérea:</strong> Exibe dados detalhados sobre a companhia com a qual o voo será realizado, como:
+                    <ul>
+                        <li><strong>Nome da companhia:</strong> Nome completo da companhia aérea.</li>
+                        <li><strong>Valor total do voo:</strong> Custo total do voo para o cliente.</li>
+                        <li><strong>Data de compra:</strong> Dia em que a passagem foi adquirida.</li>
+                        <li><strong>Data de vencimento:</strong> Data limite para pagamento da taxa de embarque.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    ),
+},
+'Transação completa': {
+    title: 'Transação completa',
+    videoUrl: 'https://www.youtube.com/embed/{video_id}',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Transação completa</h1>
+            <p>Clicando no botão de Transação completa, é possível acessar uma página com informações detalhadas sobre a transação.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit52} alt="Imagem da transação completa"></img>
+            <p>Esta página centraliza todas as informações e ações relevantes relacionadas à transação de venda e emissão de passagens com milhas.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit53} alt="Imagem adicional da transação completa"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit54} alt="Imagem adicional da transação completa"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Abaixo estão os dados e botões disponíveis:</h2>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>1. Dados gerais da transação</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit55} alt="Dados gerais da transação"></img>
+            <p>Número da transação: Identificador único da transação para fácil rastreamento e referência.</p>
+            <p>Dados do comprador: Informações completas sobre o comprador da passagem (nome, CPF, telefone, e-mail, etc.).</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>2. Dados Financeiros</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit56} alt="Dados financeiros da transação"></img>
+            <p>Taxa de embarque: Valor da taxa de embarque associada ao voo.</p>
+            <p>Taxa de bagagem: Valores pagos a mais por bagagem despachada.</p>
+            <p>Taxa de serviço: Taxas aplicadas pelos serviços prestados na transação.</p>
+            <p>Valor da compra: Valor total da transação.</p>
+            <p>Descontos: Aplicação de descontos, se houver, na transação.</p>
+            <p>Valor pago: Valor final que foi pago pelo comprador.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>3. Dados do vendedor e da oferta:</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit57} alt="Dados do vendedor e da oferta"></img>
+            <p>Login: Login do ofertante.</p>
+            <p>Telefone: Telefone do ofertante.</p>
+            <p>Tipo de oferta: Classificação da oferta (ex: convencional, revenda, etc.).</p>
+            <p>Milhas da venda: Número de milhas utilizadas na transação.</p>
+            <p>Valor do ofertante: Valor total proposto pelo ofertante.</p>
+            <p>Saldo disponível: Quantidade de milhas ainda disponíveis na conta do vendedor.</p>
+            <p>Valor unitário: Preço por milheiro cobrado na transação.</p>
+            <p>Metadata: Informações adicionais sobre a oferta de milhas e o vendedor.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>4. Botões de ações</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit58} alt="Botões de ações"></img>
+            <p>Botão de lançar cobrança: Permite lançar cobranças adicionais ou corrigir valores referentes à transação.</p>
+            <p>Botão de cancelar transação: Cancela completamente a transação atual.</p>
+            <p>Botão de opções: Exibe opções como busca de código de verificação por e-mail ou SMS.</p>
+            <p>Botão de trocar vendedor: Facilita a troca do vendedor de milhas, caso necessário, por problemas como saldo ou conta bloqueada.</p>
+            <p>Botão de alterar milhas: Modifica a quantidade de milhas a serem utilizadas na transação.</p>
+            <p>Botão de detalhes da oferta: Mostra informações completas sobre a oferta de milhas utilizada.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>5. Dados do voo</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit59} alt="Dados do voo"></img>
+            <p>Dados do voo e milhas para checagem: Exibe os dados do voo (companhia, número do voo, origem, destino, etc.) e milhas associadas para conferência.</p>
+            <p>Botão de editar dados do voo: Permite modificar os detalhes do voo, como horários e datas, se necessário.</p>
+            <p>Botão de desabilitar checagem automática: Desativa a checagem automática de milhas e voo, oferecendo um processo manual.</p>
+            <p>Botão de logs de cancelamento automático: Exibe o histórico de cancelamentos automáticos da transação, caso existam.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6. Dados detalhados do voo</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit60} alt="Dados detalhados do voo"></img>
+            <p>Companhia aérea: Nome da companhia aérea responsável pelo voo.</p>
+            <p>Número do voo: Identificação única do voo.</p>
+            <p>Aeroporto de saída: Nome do aeroporto de onde o voo parte.</p>
+            <p>Data da partida: Data programada para a partida do voo.</p>
+            <p>Hora da partida: Horário programado para a partida do voo.</p>
+            <p>Aeroporto de chegada: Nome do aeroporto de destino do voo.</p>
+            <p>Hora da chegada: Horário programado para a chegada do voo.</p>
+            <p>Alteração involuntária: Indicação se houve alguma alteração involuntária na programação do voo.</p>
+            <p>Botão de editar Informações do voo: Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
+            <p>Botão de buscar voo: Busca voos alternativos ou atualiza o voo da transação.</p>
+            <p>Botão de cancelar voo: Cancela o voo associado à transação.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6.1 Botão de editar dados do voo</h3>
+            <p>Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit61} alt="Botão de editar dados do voo"></img>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>7. Dados do passageiro</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit62} alt="Dados do passageiro"></img>
+            <p>Tratamento: (Sr./Sra.) – Forma de tratamento do passageiro.</p>
+            <p>Primeiro nome: Nome do passageiro.</p>
+            <p>Segundo nome: Nome do meio ou sobrenome do passageiro.</p>
+            <p>Sufixo: Sufixo do nome (ex: Jr., Sr., etc.).</p>
+            <p>CPF: Cadastro de Pessoa Física do passageiro.</p>
+            <p>RG: Registro Geral do passageiro.</p>
+            <p>Passaporte: Número do passaporte do passageiro.</p>
+            <p>Data de expiração: Data de validade do passaporte.</p>
+            <p>País emissor: País que emitiu o passaporte.</p>
+            <p>Nacionalidade: Nacionalidade do passageiro.</p>
+            <p>Data de nascimento: Data de nascimento do passageiro.</p>
+            <p>Telefone: Número de telefone de contato do passageiro.</p>
+            <p>Botão de consumir CPF: Consome o CPF do passageiro registrado para emitir a passagem.</p>
+            <p>Botão de editar informações dos passageiros: Permite a alteração de dados dos passageiros (nome, documento, etc.).</p>
+            <p>Botão de adicionar passageiros: Permite a inclusão de novos passageiros à transação.</p>
+            <p>Botão de excluir passageiros: Permite a remoção de passageiros da transação.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>8. Resumo da transação</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit63} alt="Resumo da transação"></img>
+            <p>Resumo de todas as informações essenciais sobre a transação, incluindo dados financeiros, detalhes do voo e informações do passageiro.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>9. Logs da transação</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit64} alt="Logs da transação"></img>
+            <p>Exibição de logs detalhados sobre todas as ações realizadas na transação, incluindo histórico de edições, cancelamentos e confirmações.</p>
+            <p>Esse log é essencial para auditoria e verificação de possíveis inconsistências ou problemas durante o processo.</p>
+        </div>
+    ),
+},
+'Cancelamento de transações': {
+    title: 'Cancelamento de transações',
+    videoUrl: 'https://www.youtube.com/embed/qKuSJXLAUdI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cancelamento de transações</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit65} alt="Botão para cancelar transação"></img>
+            <p>Este botão permite ao usuário cancelar uma transação, apresentando informações sobre o vendedor de milhas, motivos de cancelamento e opções de estorno.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As opções disponíveis são:</h2>
+            <ol style={{ listStyleType: 'decimal', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Informações do vendedor de milhas:</strong> Email do vendedor: Exibe o e-mail do vendedor de milhas associado à transação, facilitando o contato e a verificação de informações.</li>
+                <li><strong>Motivo do cancelamento:</strong> O usuário deve selecionar um motivo de cancelamento a partir das seguintes opções:
+                    <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                        <li>Voo indisponível na CIA</li>
+                        <li>Voo indisponível em um dos trechos</li>
+                        <li>Transação com mais de 1 dia na aba</li>
+                        <li>Transação abaixo da receita mínima</li>
+                        <li>Suspeita de fraude</li>
+                        <li>Sem depósito no prazo</li>
+                        <li>Re-emissão</li>
+                        <li>Problema de pagamento da taxa de embarque</li>
+                        <li>OTA - Trecho da irmã com aumento de milhas</li>
+                        <li>OTA - Erro</li>
+                        <li>OTA - Cartão não autorizado</li>
+                        <li>OTA - Alteração de preço / Re-tarifado</li>
+                        <li>Falta de ofertante</li>
+                        <li>Erro no site da CIA</li>
+                        <li>Erro no site - Tarja amarela (CIA amarela)</li>
+                        <li>Erro forbidden</li>
+                        <li>Dupla autenticação Latam</li>
+                        <li>Desistência pelo cliente</li>
+                        <li>Desistência - remarcação</li>
+                        <li>Desistência - Cancelamento 24h</li>
+                        <li>Coronavírus</li>
+                        <li>Crédito na CIA</li>
+                        <li>Conversão de transação OTA em milhas</li>
+                        <li>Bloqueio na conta Latam</li>
+                        <li>Aumento de milhas - Após erro senha de resgate</li>
+                        <li>Aumento de milhas - Identificação do log</li>
+                        <li>Aumento de milhas - Ao tentar emitir</li>
+                        <li>Atingindo limite de tentativas por protocolo</li>
+                    </ul>
+                </li>
+                <li><strong>Perguntas adicionais:</strong>
+                    <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit67} alt="Perguntas adicionais sobre o cancelamento"></img>
+                    <ul style={{ listStyleType: 'none', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                        <li>Retornar o saldo de milhas? Opções: Sim ou Não</li>
+                        <li>E-ticket foi cancelado na CIA? Opções: Sim ou Não</li>
+                        <li>O estorno será realizado? Opções: Sim ou Não</li>
+                        <li>Tipo de estorno:
+                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                                <li>Convertido para créditos através do Zendesk</li>
+                                <li>Estornar para cartão/conta do Comprador</li>
+                                <li>Solicitar estorno diretamente no Pagar.me</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ações associadas:</h2>
+            <p>Confirmar cancelamento: Após selecionar o motivo, responder às perguntas e revisar as informações, o usuário pode clicar neste botão para confirmar o cancelamento da transação.</p>
+            <p>Essa funcionalidade abrangente permite gerenciar o cancelamento de transações de forma eficaz, incluindo a gestão do retorno de milhas e a escolha do método de estorno, garantindo que o processo seja claro e transparente para todas as partes envolvidas.</p>
+        </div>
+    ),
+},
+'Troca de ofertante': {
+    title: 'Troca de ofertante',
+    videoUrl: 'https://www.youtube.com/embed/8fOnyjC0AOE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Troca de ofertante</h1>
+            <p>Este botão abre uma página dedicada à troca do ofertante, apresentando informações relevantes sobre a transação atual e opções para selecionar um novo vendedor de milhas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit68} alt="Imagem da troca de ofertante"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Dados do voo</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit69} alt="Imagem dos dados do voo"></img>
+
+            <p>Nesta seção, são exibidos os detalhes da transação atual:</p>
+            <ul>
+                <li><strong>Transação:</strong> Identificação única da transação.</li>
+                <li><strong>CIA Aérea:</strong> Nome da companhia aérea associada ao voo.</li>
+                <li><strong>Valor da compra:</strong> Valor total da compra realizada.</li>
+                <li><strong>Quantidade de milhas:</strong> Total de milhas utilizadas na transação.</li>
+                <li><strong>Quantidade de passageiros (Pax):</strong> Número de passageiros associados à transação.</li>
+                <li><strong>Razão:</strong> Razão do voo definida por milhas / CPFs.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit70} alt="Imagem da seção de detalhes da transação"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Ofertante Atual</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit71} alt="Imagem do ofertante atual"></img>
+
+            <p>Exibe informações sobre o vendedor de milhas atual:</p>
+            <ul>
+                <li><strong>Login:</strong> Identificação do ofertante atual.</li>
+                <li><strong>Saldo:</strong> Saldo de milhas disponíveis do ofertante.</li>
+                <li><strong>Razão:</strong> Razão do ofertante definida por milhas / CPFs.</li>
+                <li><strong>Valor:</strong> Valor do milheiro.</li>
+                <li><strong>Retornar saldo:</strong> Opção para retornar o saldo de milhas ao ofertante atual.</li>
+                <li><strong>Motivo para troca de ofertante:</strong> Campo para descrever o motivo da troca.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Novo ofertante</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit72} alt="Imagem do novo ofertante"></img>
+
+            <p>Nesta seção, o usuário pode buscar por um novo vendedor de milhas:</p>
+            <ul>
+                <li><strong>Buscar por login:</strong> Campo para inserir o login do novo ofertante desejado.</li>
+                <li><strong>Ofertante selecionado:</strong> Exibe as informações do novo ofertante escolhido.</li>
+                <li><strong>Enviar e-mail:</strong> Botão para enviar um e-mail ao novo ofertante sobre a troca.</li>
+                <li><strong>Saldo:</strong> Saldo de milhas disponíveis do novo ofertante.</li>
+                <li><strong>Razão:</strong> Razão do ofertante definida por milhas / CPFs.</li>
+                <li><strong>Valor:</strong> Valor das milhas no novo ofertante.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Tabela: Selecionar novo ofertante</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit73} alt="Imagem da tabela de novos ofertantes"></img>
+
+            <p>Uma tabela interativa onde o usuário pode visualizar e selecionar novos ofertantes:</p>
+            <ul>
+                <li><strong>Caixa de seleção de ofertante:</strong> Permite ao usuário selecionar um ofertante para a troca.</li>
+                <li><strong>Login:</strong> Identificação do novo ofertante.</li>
+                <li><strong>Tipo:</strong> Tipo de vendedor (ex: individual, empresa).</li>
+                <li><strong>Categoria:</strong> Categoria do ofertante (ex: experiente, novo).</li>
+                <li><strong>Saldo atual:</strong> Saldo de milhas disponível para o novo ofertante.</li>
+                <li><strong>Razão:</strong> Justificativa para a escolha do novo ofertante.</li>
+                <li><strong>CPFs disponíveis:</strong> Quantidade de CPFs que o ofertante pode utilizar.</li>
+                <li><strong>Telefone:</strong> Número de telefone do novo ofertante para contato.</li>
+                <li><strong>Valor do milheiro:</strong> Preço por milha do novo ofertante.</li>
+                <li><strong>Valor total:</strong> Valor total calculado para a transação com o novo ofertante.</li>
+                <li><strong>Vendas no dia:</strong> Número de vendas realizadas pelo novo ofertante no dia atual.</li>
+                <li><strong>Contador com ofertantes elegíveis:</strong> Mostra o número total de ofertantes elegíveis para a troca.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Botão de trocar vendedor</h2>
+            <p>Realizar troca de vendedor: Botão que, ao ser clicado, confirma a troca do ofertante e finaliza o processo.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Funcionalidade de acesso a ofertas detalhadas</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit74} alt="Imagem da funcionalidade de acesso a ofertas detalhadas"></img>
+
+            <p>Clicar no nome do ofertante:</p>
+            <p>O usuário pode clicar no nome do ofertante segurando a tecla Ctrl. Isso abrirá uma nova página com as ofertas detalhadas do ofertante selecionado. A página de ofertas detalhadas incluirá informações como:</p>
+            <ul>
+                <li>Descrição das ofertas disponíveis.</li>
+                <li>Condições de uso das milhas.</li>
+                <li>Informações adicionais relevantes ao ofertante.</li>
+            </ul>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit75} alt="Imagem da funcionalidade de ofertas detalhadas"></img>
+
+            <p>Esta funcionalidade oferece um fluxo claro para trocar de vendedor, garantindo que todas as informações relevantes estejam disponíveis para facilitar a decisão do usuário e assegurar uma troca eficiente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Motivos para troca de ofertante</h2>
+            <p>A troca de ofertante deve ser feita com atenção, pois um motivo incorreto pode invalidar ofertas e impedir que o saldo de milhas seja utilizado.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit76} alt="Imagem dos motivos para troca de ofertante"></img>
+
+            <h3>Abaixo estão os motivos disponíveis para a troca de ofertante:</h3>
+            <ul>
+                <li><strong>Senha incorreta:</strong> A senha do ofertante atual está incorreta, impossibilitando a emissão da passagem.</li>
+                <li><strong>Saldo insuficiente:</strong> O ofertante atual não possui saldo de milhas suficiente para a transação desejada.</li>
+                <li><strong>Sem beneficiários (CPFs) disponíveis:</strong> Não há CPFs disponíveis para serem utilizados na transação.</li>
+                <li><strong>Conta bloqueada:</strong> O sistema informa que a conta do ofertante atual está bloqueada, impedindo a emissão. Atenção! Essa opção bloqueia o ofertante e envia para reanálise.</li>
+                <li><strong>Não atende o telefone/WhatsApp:</strong> O ofertante atual não responde às tentativas de contato, dificultando a comunicação. Atenção! Essa opção bloqueia o ofertante e envia para reanálise.</li>
+                <li><strong>Outros:</strong> Motivo específico que não se encaixa nas opções acima.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Resumo do processo</h2>
+            <p>O fluxo da troca de ofertante é estruturado para garantir clareza e eficiência. As informações exibidas e a possibilidade de acessar ofertas detalhadas oferecem ao usuário suporte em sua decisão, assegurando que a troca de ofertante ocorra de maneira eficaz e segura.</p>
+        </div>
+    ),
+},
+'Opções': {
+    title: 'Opções',
+    videoUrl: 'https://www.youtube.com/embed/eSv3nr0fAGc',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Opções</h1>
+            <p>Essa tela fornece uma interface com várias opções de autoatendimento e serviços relacionados à transação, permitindo ao usuário acessar rapidamente funcionalidades essenciais.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit77} alt="Imagem das opções"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>1. Opções de autoatendimento:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Gerar URL para o cliente:</strong> Gera um link personalizado para o cliente acessar detalhes da transação, realizar pagamentos ou visualizar informações específicas sobre sua compra.</li>
+            </ul>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>2. Categoria de cancelamento:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Cancelar milhas:</strong> Fornece a opção de cancelar a utilização das milhas na transação, seja por erro ou solicitação do cliente, e possibilita estornar as milhas para o vendedor.</li>
+            </ul>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>3. Informações de pagamento:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Dados de pagamento:</strong> Exibe as informações detalhadas sobre os pagamentos realizados, como método de pagamento, data, valor pago e status do pagamento.</li>
+                <li><strong>Visualizar recibo:</strong> Permite ao usuário visualizar e baixar o recibo da transação, facilitando o controle financeiro e a conferência de valores.</li>
+            </ul>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>4. Códigos para emissão:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Buscar código Gol:</strong> Facilita a busca de códigos de verificação necessários para a emissão de passagens na companhia aérea Gol, permitindo completar o processo de forma ágil e automatizada.</li>
+            </ul>
+
+            <p>Essa tela de opções concentra ações rápidas e úteis, permitindo tanto o gerenciamento de cancelamentos e pagamentos quanto o suporte para a emissão de passagens, proporcionando uma experiência prática e eficiente.</p>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Tela de busca de código Gol</h2>
+            <p>Esta tela permite ao usuário inserir os dados necessários para receber o código de verificação exigido pela companhia aérea Gol para concluir o pagamento da transação.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit78} alt="Imagem da tela de busca de código Gol"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Campos de inserção:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Digite o e-mail do ofertante:</strong> Campo para inserir o e-mail que receberá o código de verificação da Gol.</li>
+                <li><strong>Telefone da chipeira:</strong> Alternativamente, o usuário pode inserir o número de telefone associado a uma chipeira (dispositivo utilizado para receber mensagens SMS), para receber o código de verificação por SMS.</li>
+            </ul>
+
+            <p>Essa tela oferece uma maneira eficiente de gerenciar e obter os códigos de verificação da Gol, necessários para concluir o pagamento de passagens emitidas com milhas.</p>
+        </div>
+    )
+},
+'Alterar milhas': {
+    title: 'Alterar milhas',
+    videoUrl: 'https://www.youtube.com/embed/CVRql66YW9o',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Alterar milhas</h1>
+            <p>Este botão proporciona ao usuário a capacidade de modificar a quantidade de milhas associadas ao voo de ida e volta da transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit79} alt="Imagem da tela de alteração de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Elementos da página de alteração de milhas:</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Voo de ida:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Campo para inserir quantidade de milhas:</strong> Permite ao usuário inserir a nova quantidade de milhas para o voo de ida.</li>
+                <li><strong>Visualização atual:</strong> Exibe a quantidade atual de milhas para o voo de ida, permitindo que o usuário compare.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Voo de volta:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Campo para inserir quantidade de milhas:</strong> Permite ao usuário inserir a nova quantidade de milhas para o voo de volta.</li>
+                <li><strong>Visualização atual:</strong> Exibe a quantidade atual de milhas para o voo de volta, ajudando na comparação.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Botão de confirmar alteração:</h3>
+            <p>Um botão para confirmar as alterações realizadas nas quantidades de milhas. Ao clicar, o sistema atualiza as informações da transação com os novos valores.</p>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Botão de cancelar:</h3>
+            <p>Um botão que permite ao usuário cancelar a operação e retornar à página anterior sem fazer alterações.</p>
+        </div>
+    )
+},
+'Calculadora de prejuízos': {
+    title: 'Calculadora de prejuízos',
+    videoUrl: 'https://www.youtube.com/embed/IBZ-O-HPxtw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Calculadora de prejuízos</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit80} alt="Imagem da calculadora de prejuízos"></img>
+            <p>Ao clicar no ícone da calculadora de prejuízos, uma janela é exibida com a ferramenta de cálculo. Essa calculadora permite avaliar o prejuízo potencial em uma transação específica, considerando o valor atual das milhas na companhia aérea. Para utilizar a calculadora, é necessário que a emissão já tenha sido iniciada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit81} alt="Imagem da funcionalidade da calculadora de prejuízos"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades da calculadora:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Número da transação:</strong> Um campo para inserir o número da transação em questão.</li>
+                <li><strong>Valor de milhas atuais na companhia:</strong> Campo para inserir o valor atualizado das milhas na companhia aérea.</li>
+                <li><strong>Botão de calcular:</strong> Após inserir os dados, o botão de "Calcular" processa as informações e exibe o prejuízo estimado.</li>
+            </ul>
+
+            <p>Essa ferramenta é essencial para monitorar as transações e garantir que os ofertantes e a Maxmilhas evitem prejuízos significativos durante o processo de emissão de bilhetes aéreos.</p>
+        </div>
+    )
+},
+
+
+
+
+
 
 
 
