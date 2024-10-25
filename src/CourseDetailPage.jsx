@@ -3,15 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import Header from './Header';
-import screenImage from './assets/screen.jpg';
-import screenImage2 from './assets/screenImage2.jpg';
-import screenImage3 from './assets/screenImage3.jpg';
-import screenImage4 from './assets/screenImage4.jpg';
-import cockpittelalogin from './assets/Cursos/Cockpit/cockpittelalogin.jpg';
-import cockpittelainicial from './assets/Cursos/Cockpit/cockpittelainicial.jpg';
-import cockpitmenulateral from './assets/Cursos/Cockpit/cockpitmenulateral.png';
-import bemvindocockpit from './assets/Cursos/Cockpit/bemvindocockpit.jpg';
-import cockpiticones from './assets/Cursos/Cockpit/cockpiticones.png';
+
 
 
 const coursesData = {
@@ -51,7 +43,7 @@ const lessonsData = {
                             </ul>
 
 
-                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={bemvindocockpit} alt="Imagem do Sistema Cockpit 1"></img> 
+                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='./assets/Cursos/Cockpit/cursocockpit00.jpg' alt="Imagem do sistema Cockpit"></img>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
 
                             <p style={{ marginTop:'30px', marginBottom:'30px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
@@ -89,6 +81,36 @@ const lessonsData = {
         </div>
     )
 },
+'bem-vindo-curso-emissoes-azul': {
+    title: 'Bem-vindo ao curso de emissões da Azul!',
+    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao processo de emissões de passagens da Azul. Aqui, você aprenderá a utilizar de forma eficiente as ferramentas e sistemas necessários para gerenciar todo o processo de emissão, garantindo que os clientes recebam suas passagens utilizando milhas de forma segura e ágil.</p>
+
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>O programa de fidelidade da Azul é um dos mais dinâmicos do mercado, e durante este curso você adquirirá conhecimentos sobre como realizar emissões, gerenciar beneficiários, conferir milhas e solucionar eventuais problemas de emissão.</p>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>O que esperar do curso</h2>
+            <p>Ao longo deste curso, exploraremos os seguintes tópicos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Introdução ao programa de fidelidade da Azul:</strong> Entenda como funciona o sistema de milhas da Azul, desde a acumulação até a emissão de passagens para diferentes níveis de clientes (básico, topázio, safira e diamante).</li>
+                <li><strong>Processo de emissão:</strong> Vamos te guiar no passo a passo para realizar emissões de passagens da Azul, desde a consulta de disponibilidade de voos até a finalização do e-ticket.</li>
+                <li><strong>Gerenciamento de beneficiários:</strong> Você aprenderá como cadastrar e gerenciar os beneficiários do cliente no programa de fidelidade, levando em conta as recentes mudanças de limite e prazo de carência.</li>
+                <li><strong>Cancelamento de e-tickets:</strong> Exploraremos as razões para o cancelamento de um e-ticket, como erros de emissão ou solicitações de clientes, e o processo para realizar o cancelamento diretamente no site da Azul.</li>
+                <li><strong>Validade de milhas e extrato:</strong> Descubra como verificar a validade das milhas dos clientes e consultar o extrato de pontos no sistema da Azul para evitar problemas durante o processo de emissão.</li>
+                <li><strong>Adição de bagagem:</strong> Aprenda como adicionar bagagens extras durante o processo de emissão e como garantir que o pagamento e os detalhes sejam devidamente registrados.</li>
+            </ul>
+
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='./assets/Cursos/Cockpit/cursocockpit00.jpg' alt="Imagem do sistema Cockpit"></img>
+
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso foi elaborado para ser prático, com exercícios reais que o ajudarão a consolidar seu aprendizado. Ao final, você estará preparado para lidar com todos os aspectos das emissões da Azul, oferecendo aos clientes um atendimento de excelência e garantindo que suas passagens sejam emitidas de maneira eficiente e sem complicações.</p>
+
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Estamos entusiasmados em começar essa jornada com você e esperamos que, ao final, você se torne um especialista em emissões no programa de fidelidade da Azul!</p>
+        </div>
+    )
+},
+
 
 
     'Cockpit': {
@@ -118,11 +140,11 @@ const lessonsData = {
                             <h2>Tela de Login:</h2>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela de login é necessário utilizar e-mail corporativo das maxmilhas para acessar o sistema, garantindo que apenas colaboradores autorizados possam gerenciar as transações e processos de emissão de passagens.
                             </p>
-                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cockpittelalogin} alt="Imagem do Sistema Cockpit 1"></img>
+                
                             <h2>Tela inicial:</h2>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
                             </p>
-                            <img style={{ marginTop:'30px', marginBottom:'30px' }} className={styles.image} src={cockpittelainicial} alt="Imagem do Sistema Cockpit 1"></img>       
+                 
                      
                         </div>
                      )
@@ -135,7 +157,7 @@ const lessonsData = {
                             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
                                 <p>No painel esquerdo do Cockpit, é possível encontrar o menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.
                             </p>
-                            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cockpitmenulateral} alt="Imagem do Sistema Cockpit 1"></img>
+
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>As opções disponíveis incluem:</p>
                             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px', }}>
                              
@@ -160,7 +182,7 @@ const lessonsData = {
                             <h2>Icones</h2>
                             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Acima do menu lateral existem 4 icones que são referentes à pagina inicial do cockpit, clientes, milhas e busca de transações por código.
                             </p>
-                            <img style={{ marginTop:'30px', marginBottom:'30px' }} className={styles.image} src={cockpiticones} alt="Imagem do Sistema Cockpit 1"></img>       
+               
                      
                         </div>
                      )
