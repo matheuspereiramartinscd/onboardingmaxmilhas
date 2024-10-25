@@ -254,6 +254,7 @@ import cursoprejuizos04 from './assets/Cursos/Prejuizos/cursoprejuizos04.jpg';
 import cursoprejuizos05 from './assets/Cursos/Prejuizos/cursoprejuizos05.jpg';
 import cursoprejuizos06 from './assets/Cursos/Prejuizos/cursoprejuizos06.jpg';
 import cursotour00 from './assets/Cursos/Tour_virtual/cursotour00.jpg';
+import cursoemissoes00 from './assets/Cursos/Emissoes/cursoemissoes00.jpg';
 
 
 
@@ -1711,7 +1712,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Inserir e-ticket</h2>
             <p>Clique no botão Inserir e-ticket para dar continuidade ao processo de registro do e-ticket.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam87} alt="Imagem da tela de inserção do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit87} alt="Imagem da tela de inserção do e-ticket"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Preencher Informações necessárias</h2>
             <p>Digite as seguintes informações na tela de emissão:</p>
@@ -1722,7 +1723,7 @@ f
                 <li>Valor da bagagem paga na companhia aérea: Informe o valor que foi pago por qualquer bagagem adicional.</li>
                 <li>Cartão de crédito utilizado: Se solicitado, forneça os dados do cartão de crédito que foi utilizado para a compra.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam88} alt="Imagem da tela de preenchimento das informações do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit88} alt="Imagem da tela de preenchimento das informações do e-ticket"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Fazer upload do e-ticket</h2>
             <p>Faça o upload da captura de tela do e-ticket que você salvou anteriormente. Este passo é importante para garantir que a transação e a emissão estejam devidamente documentadas.</p>
@@ -1733,7 +1734,7 @@ f
                 <li><strong>Mensagem de sucesso:</strong> Se todos os dados estiverem corretos, aparecerá a mensagem: "Sucesso: e-ticket inserido com sucesso."</li>
                 <li><strong>Mensagem de erro na checagem automática:</strong> Se houver algum erro na validação automática, a mensagem será: "Erro: dados inválidos.".</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam89} alt="Imagem da mensagem de sucesso do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit89} alt="Imagem da mensagem de sucesso do e-ticket"></img>
 
             <p>Esta funcionalidade oferece um fluxo claro para garantir que tudo esteja devidamente registrado e que a transação esteja completa.</p>
         </div>
@@ -1993,42 +1994,42 @@ f
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados incorretos ou voo incorreto</h3>
             <p>Se a transação foi feita com dados do passageiro incorretos ou o voo escolhido foi errado, o procedimento padrão é cancelar o localizador na companhia aérea e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit1} alt="Dados incorretos ou voo incorreto"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit01} alt="Dados incorretos ou voo incorreto"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Quantidade de milhas acima da receita mínima</h3>
             <p>Quando a quantidade de milhas utilizada excede a receita mínima, também será necessário cancelar o localizador e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit2} alt="Quantidade de milhas acima da receita mínima"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit02} alt="Quantidade de milhas acima da receita mínima"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Ofertante sem milhas ou CPF para emissão</h3>
             <p>Caso o ofertante não tenha milhas suficientes ou CPF disponível para nova emissão, será necessário buscar outra solução, como abrir um FNC15.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit3} alt="Ofertante sem milhas ou CPF para emissão"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit03} alt="Ofertante sem milhas ou CPF para emissão"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Aumento de milhas ou voo indisponível</h3>
             <p>Se houver aumento nas milhas necessárias para a emissão ou o voo se tornar indisponível, também será preciso cancelar o localizador e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit4} alt="Aumento de milhas ou voo indisponível"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit04} alt="Aumento de milhas ou voo indisponível"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estorno via FNC 15</h2>
             <p>Quando o método de pagamento utilizado foi Pay.mee ou Pagar.me e a reemissão não for possível, será necessário solicitar um estorno por meio do FNC 15.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit5} alt="Estorno via FNC 15"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit05} alt="Estorno via FNC 15"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento para abrir o FNC 15</h2>
             <p>Acessar o Zendesk da MaxMilhas:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Entre na plataforma Zendesk da MaxMilhas para iniciar o processo de estorno.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit6} alt="Acessar o Zendesk da MaxMilhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit06} alt="Acessar o Zendesk da MaxMilhas"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Criar um novo ticket</h3>
             <p>Abra um novo ticket de solicitação, seguindo o procedimento padrão de criação de chamados.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit7} alt="Criar um novo ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit07} alt="Criar um novo ticket"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Preencher o Formulário FNC 15</h3>
             <p>Preencha o formulário FNC 15 de acordo com o tutorial disponível neste slide. Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit8} alt="Preencher o Formulário FNC 15"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Preencher o Formulário FNC 15"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Documentação do FNC 15</h2>
             <p>Após a criação do ticket, copie e cole o número do ticket nas observações da transação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit9} alt="Documentação do FNC 15"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Documentação do FNC 15"></img>
 
             <p>O processo FNC 15 é uma ferramenta importante para garantir a resolução de erros em transações que não podem ser corrigidas com emissão imediata. Ao seguir os procedimentos adequados, você assegura a gestão eficiente dos erros e protege tanto a empresa quanto o cliente de prejuízos.</p>
         </div>
