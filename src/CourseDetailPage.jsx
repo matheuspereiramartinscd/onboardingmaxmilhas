@@ -719,7 +719,9 @@ const lessonsData = {
                 <li><strong>Status:</strong> Filtragem pelo status atual do ofertante (ativo, inativo, etc.).</li>
                 <li><strong>Companhia aérea:</strong> Seleção da companhia aérea com a qual o ofertante trabalha.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Caixa de seleção de companhia aérea" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="" />
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de companhia aérea</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
@@ -743,7 +745,8 @@ const lessonsData = {
                 <li>TAP</li>
                 <li>United Airlines</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Caixa de seleção de status" />
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de status</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As opções mais utilizadas no contexto de Emissões incluem:</h2>
             <ul>
@@ -762,7 +765,8 @@ const lessonsData = {
                 <li><strong>Pendente - Em tratativa:</strong> Ofertas em processo de resolução.</li>
                 <li><strong>Pendente - Senha incorreta:</strong> Ofertantes pendentes por falhas de login.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="Caixa de seleção de login" />
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de login</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit11} alt="" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>A busca por ofertantes pode ser feita pelos seguintes critérios:</h2>
             <ul>
@@ -772,10 +776,9 @@ const lessonsData = {
                 <li>E-mail</li>
                 <li>Telefone</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit11} alt="Opções avançadas" />
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Opções avançadas</h1>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</h2>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit12} alt="Campos de busca avançada" />
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Campos de busca avançada:</h3>
             <ul>
@@ -786,18 +789,20 @@ const lessonsData = {
                 <li><strong>Tipo de oferta:</strong> Definir o tipo de transação que o ofertante está realizando.</li>
                 <li><strong>Estratégia 2FA:</strong> Escolher o tipo de verificação em duas etapas para obter os códigos de verificação de segurança.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Tipos de oferta" />
+            
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de oferta</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Tipos de oferta" />
             <ul>
                 <li><strong>Venda convencional:</strong> Ofertas de milhas tradicionais.</li>
                 <li><strong>Venda rápida:</strong> Ofertas destinadas a transações rápidas.</li>
                 <li><strong>Revenda:</strong> Ofertantes de revenda.</li>
                 <li><strong>Pagamento antecipado:</strong> Ofertas que exigem pagamento antecipado.</li>
             </ul>
+    
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de dois fatores)</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit14} alt="Estratégia 2FA (Autenticação de dois fatores)" />
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de dois fatores)</h2>
             <ul>
                 <li><strong>Selecionar todos:</strong> Visualizar ofertantes independentemente da estratégia de verificação.</li>
                 <li><strong>WhatsApp:</strong> Código 2FA via WhatsApp.</li>
@@ -816,13 +821,19 @@ const lessonsData = {
                 <li><strong>CPF:</strong> Número do CPF do ofertante.</li>
                 <li><strong>Login:</strong> Identificação do ofertante.</li>
                 <li><strong>Status:</strong> Status atual da oferta.</li>
+                <li><strong>Cia:</strong> Companhia aérea à qual a oferta está vinculada.</li>
+                <li><strong>Categoria:</strong> Categoria do ofertante (ex: Latam, Gold, Platinum, etc.).</li>
+                <li><strong>Saldo:</strong> Quantidade de milhas disponíveis para a transação.</li>
+                <li><strong>Preço:</strong> Valor por milheiro.</li>
+                <li><strong>Pagamento:</strong> Método ou status do pagamento associado à oferta.</li>
+                <li><strong>Tipo:</strong> Cliente, Maxmilhas, Importação de ofertas, etc.</li>
+                <li><strong>Qtd CPF:</strong> Quantidade de CPFs permitidos ou envolvidos na oferta.</li>
+                <li><strong>Razão:</strong> Razão da oferta obtida pela equação: Milhas / CPF.</li>
+                <li><strong>Média:</strong> Média definida pelo ofertante na venda de milhas.</li>
+                <li><strong>Alterado:</strong> Data ou hora da última alteração na oferta.</li>
+                <li><strong>Última venda:</strong> Data da última transação realizada por esse ofertante.</li>
             </ul>
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Resultados da busca</h2>
-            <p>Os resultados da busca podem ser visualizados em formato de tabela, onde o analista pode selecionar as ofertas que deseja trabalhar, facilitando o acesso às informações necessárias para realizar as emissões de passagens.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit112} alt="Resultados da busca" />
 
-            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h3>
-            <p>A tela de busca de ofertantes no sistema Cockpit é uma ferramenta essencial para a análise e escolha de ofertas de milhas, permitindo que o analista utilize filtros e visualizações detalhadas para otimizar suas transações.</p>
         </div>
     ),
 },
@@ -1467,6 +1478,7 @@ const lessonsData = {
 },
 
 
+/* Curso Emissões */
 
 
 
