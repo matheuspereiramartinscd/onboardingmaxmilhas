@@ -714,7 +714,7 @@ const lessonsData = {
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Menu lateral - Milhas</h1>
             <p>No menu lateral, a opção Milhas dá acesso à tela de busca de ofertantes. Nesta tela, o analista pode realizar uma busca detalhada dos ofertantes cadastrados na base de dados, utilizando filtros como:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Login:</strong> Busca pelo login do ofertante.</li>
                 <li><strong>Status:</strong> Filtragem pelo status atual do ofertante (ativo, inativo, etc.).</li>
                 <li><strong>Companhia aérea:</strong> Seleção da companhia aérea com a qual o ofertante trabalha.</li>
@@ -749,7 +749,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As opções mais utilizadas no contexto de Emissões incluem:</h2>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Ativo - liberado:</strong> Ofertantes prontos para serem usados em transações.</li>
                 <li><strong>Bloqueado - Não atende celular:</strong> Ofertantes bloqueados por falta de contato.</li>
                 <li><strong>Em análise - Aguardando análise antifraude:</strong> Ofertas que aguardam verificação de segurança antes de serem usadas.</li>
@@ -769,7 +769,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit11} alt="" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>A busca por ofertantes pode ser feita pelos seguintes critérios:</h2>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li>Login</li>
                 <li>Nome</li>
                 <li>CPF</li>
@@ -781,7 +781,7 @@ const lessonsData = {
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Campos de busca avançada:</h3>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Saldo:</strong> Filtrar ofertantes com base no saldo de milhas disponível.</li>
                 <li><strong>CPF:</strong> Busca por CPF para localizar ofertantes específicos.</li>
                 <li><strong>Razão:</strong> Buscar ofertantes que possuem a razão (milhas/cpf) indicada.</li>
@@ -793,7 +793,7 @@ const lessonsData = {
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de oferta</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Tipos de oferta" />
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Venda convencional:</strong> Ofertas de milhas tradicionais.</li>
                 <li><strong>Venda rápida:</strong> Ofertas destinadas a transações rápidas.</li>
                 <li><strong>Revenda:</strong> Ofertantes de revenda.</li>
@@ -803,7 +803,7 @@ const lessonsData = {
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de dois fatores)</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit14} alt="Estratégia 2FA (Autenticação de dois fatores)" />
 
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Selecionar todos:</strong> Visualizar ofertantes independentemente da estratégia de verificação.</li>
                 <li><strong>WhatsApp:</strong> Código 2FA via WhatsApp.</li>
                 <li><strong>Chipeira:</strong> Código 2FA redirecionado para um telefone Maxmilhas e obtido através do e-mail da Chipeira.</li>
@@ -814,7 +814,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit111} alt="Tela de busca" />
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>As informações retornadas incluem:</h3>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Nome:</strong> Nome do ofertante.</li>
                 <li><strong>Tipo de milhas:</strong> Classificação das milhas.</li>
                 <li><strong>Data de validade:</strong> Quando as milhas expiram.</li>
@@ -963,7 +963,7 @@ const lessonsData = {
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Pesquisa por transação ou order</h2>
             <p>No Cockpit, uma das opções de pesquisa disponíveis permite ao analista buscar informações por meio de Transação ou Order. Essas duas opções são essenciais para a identificação e gerenciamento de transações no sistema.</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Transação:</strong> Refere-se ao ID único da transação gerada no Cockpit, vinculada ao processo de emissão de bilhetes.</li>
                 <li><strong>Order:</strong> Representa o número do pedido, gerado no sistema da Maxmilhas, que está associado à compra de passagens aéreas.</li>
             </ul>
@@ -978,7 +978,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit37} alt="Imagem dos meios de pagamento disponíveis"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Opções disponíveis incluem</h2>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Depósito:</strong> Pagamento realizado por meio de uma transferência bancária.</li>
                 <li><strong>Cartão de crédito:</strong> Pagamento feito por cartão de crédito para a aquisição das passagens aéreas.</li>
                 <li><strong>SafetyPay:</strong> Um método de pagamento online que permite aos clientes realizarem pagamentos diretamente através de seus bancos.</li>
@@ -1059,7 +1059,7 @@ const lessonsData = {
                 <li><strong>Botão para enviar para a aba de Erro/Aumento por erro:</strong> Redireciona a transação para análise de erro.</li>
                 <li><strong>Caixa com último log ou comentário da transação:</strong> Exibe o mais recente log ou comentário relacionado à transação.</li>
                 <li><strong>Caixa com último monitoramento do voo:</strong> Mostra informações do último monitoramento do voo na companhia, incluindo:</li>
-                <ul>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                     <li><strong>Tarifa do voo:</strong> Custo atual do voo.</li>
                     <li><strong>Valor em milhas:</strong> Quantidade de milhas requeridas para o voo.</li>
                     <li><strong>Valor em OTA:</strong> Valor em milhas através de OTA.</li>
@@ -1083,7 +1083,7 @@ const lessonsData = {
                 <li><strong>Botão para inserir e-ticket:</strong> Disponibiliza um campo para inserir manualmente o e-ticket gerado, necessário para o controle da emissão.</li>
                 <li><strong>Botão para buscar códigos de verificação para pagamento na cia Gol:</strong> Facilita a obtenção dos códigos de verificação necessários para o pagamento das taxas na companhia aérea Gol.</li>
                 <li><strong>Informações sobre a companhia aérea:</strong> Exibe dados detalhados sobre a companhia com a qual o voo será realizado, como:
-                    <ul>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                         <li><strong>Nome da companhia:</strong> Nome completo da companhia aérea.</li>
                         <li><strong>Valor total do voo:</strong> Custo total do voo para o cliente.</li>
                         <li><strong>Data de compra:</strong> Dia em que a passagem foi adquirida.</li>
