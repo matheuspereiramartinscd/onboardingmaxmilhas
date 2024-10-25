@@ -745,9 +745,9 @@ const lessonsData = {
                 <li>TAP</li>
                 <li>United Airlines</li>
             </ul>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de status</h1>
+            <h2 style={{ marginTop: '10px', marginBottom: '30px' }}>Caixa de seleção de status</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="" />
-
+f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>As opções mais utilizadas no contexto de Emissões incluem:</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Ativo - liberado:</strong> Ofertantes prontos para serem usados em transações.</li>
@@ -1342,7 +1342,7 @@ const lessonsData = {
             <p>A troca de ofertante deve ser feita com atenção, pois um motivo incorreto pode invalidar ofertas e impedir que o saldo de milhas seja utilizado.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit76} alt="Imagem dos motivos para troca de ofertante"></img>
 
-            <h3>Abaixo estão os motivos disponíveis para a troca de ofertante:</h3>
+            <h2>Abaixo estão os motivos disponíveis para a troca de ofertante:</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Senha incorreta:</strong> A senha do ofertante atual está incorreta, impossibilitando a emissão da passagem.</li>
                 <li><strong>Saldo insuficiente:</strong> O ofertante atual não possui saldo de milhas suficiente para a transação desejada.</li>

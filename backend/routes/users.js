@@ -60,7 +60,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Menu lateral cockpit", "completed": false},
                         {"title": "Menu lateral milhas", "completed": false},
                         {"title": "Ofertantes", "completed": false},
-                        {"title": "Abas do Cockpit", "completed": false},
+                        {"title": "Abas do cockpit", "completed": false},
                         {"title": "Opções de pesquisa de transações", "completed": false},
                         {"title": "Transações", "completed": false},
                         {"title": "Transação completa", "completed": false},
