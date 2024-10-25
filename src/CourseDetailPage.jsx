@@ -919,7 +919,7 @@ f
 },
 
 'Abas do cockpit': {
-    title: 'Abas do Cockpit',
+    title: 'Abas do cockpit',
     videoUrl: 'https://www.youtube.com/embed/M6nzXBC7-Jw',
     description: (
         <div>
