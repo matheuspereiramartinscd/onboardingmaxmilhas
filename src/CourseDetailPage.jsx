@@ -678,7 +678,7 @@ const lessonsData = {
         </div>
     )
 }, 
-'Menu lateral cockpit': {
+'Menu lateral - Cockpit': {
     title: 'Menu lateral - Cockpit',
     videoUrl: 'https://www.youtube.com/embed/ygmC4k9JXQA',
     description: (
@@ -707,7 +707,7 @@ const lessonsData = {
         </div>
     )
 },
-'Menu lateral milhas': {
+'Menu lateral - Milhas': {
     title: 'Menu lateral - Milhas',
     videoUrl: 'https://www.youtube.com/embed/KPMhTI-ehSU',
     description: (
@@ -928,7 +928,7 @@ const lessonsData = {
     ),
 },
 
-'Abas do cockpit': {
+'Abas do Cockpit': {
     title: 'Abas do Cockpit',
     videoUrl: 'https://www.youtube.com/embed/M6nzXBC7-Jw',
     description: (
