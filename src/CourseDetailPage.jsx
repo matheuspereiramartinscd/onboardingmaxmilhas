@@ -585,7 +585,7 @@ const lessonsData = {
     )
 },
 
-'bem-vindo-curso-tour-virtual': {
+'bem-vindo-curso-tour': {
     title: 'Bem-vindo ao curso - tour virtual!',
     description: (
         <div>
@@ -613,83 +613,105 @@ const lessonsData = {
     )
 },
 
+/*Curso Cockpit */
+'Cockpit': {
+    title: 'O que é o Cockpit?',
+    videoUrl: 'https://www.youtube.com/embed/yVtaIBcQs-k',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>O que é o Cockpit?</h1>
+            <p>O Cockpit é um sistema administrativo utilizado pela Maxmilhas para realizar a emissão de bilhetes aéreos utilizando milhas vendidas pelos ofertantes para compradores e clientes da Maxmilhas. Neste sistema, é possível:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Emitir bilhetes aéreos:</strong> Gerar passagens aéreas com base nas milhas disponibilizadas pelos ofertantes, facilitando o processo de compra para os clientes.</li>
+                <li><strong>Gerenciar transações:</strong> Acompanhar e gerenciar todas as transações de emissão, desde a compra até a entrega do e-ticket ao cliente.</li>
+                <li><strong>Selecionar ofertantes:</strong> Escolher entre diferentes vendedores de milhas, analisando a viabilidade e o lucro de cada transação para otimizar as ofertas.</li>
+                <li><strong>Realizar cancelamentos:</strong> Efetuar o cancelamento de passagens já emitidas, caso necessário.</li>
+                <li><strong>Buscar ofertantes disponíveis:</strong> Encontrar ofertantes com milhas disponíveis para as emissões, permitindo uma operação mais ágil.</li>
+                <li><strong>Verificar passagens emitidas:</strong> Checar o status e os detalhes das passagens já emitidas pelo sistema, garantindo um controle eficaz.</li>
+                <li><strong>Acessar múltiplas companhias aéreas:</strong> Emitir passagens para diversas companhias aéreas, incluindo Latam, Gol, Azul, TAP, OTA e outras, ampliando as opções para os clientes.</li>
+                <li><strong>Login seguro:</strong> Acessar o sistema de forma segura utilizando e-mail corporativo, garantindo que apenas colaboradores autorizados possam gerenciar as operações.</li>
+            </ul>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Tela de login:</h2>
+            <p>Na tela de login é necessário utilizar o e-mail corporativo da Maxmilhas para acessar o sistema, garantindo que apenas colaboradores autorizados possam gerenciar as transações e processos de emissão de passagens.</p>
+            
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit01} alt="Imagem do sistema Cockpit"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Tela inicial:</h2>
+            <p>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit02} alt="Imagem do sistema Cockpit"></img>
+        </div>
+    )
+},
+'Menu lateral': {
+    title: 'Menu lateral',
+    videoUrl: 'https://www.youtube.com/embed/8IsxHg1z7h8',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
+            <p>No painel esquerdo do Cockpit, é possível encontrar um menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='cursocockpit03.jpg' alt="Imagem do menu lateral do Cockpit"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>As opções disponíveis incluem:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Cockpit:</strong> Acesso à tela principal do sistema, onde são gerenciadas as atividades.</li>
+                <li><strong>Inserção de crédito:</strong> Função para adicionar créditos ao sistema, possibilitando a realização de transações.</li>
+                <li><strong>Cadastros:</strong> Área para gerenciar cadastros de clientes, ofertantes e outros dados relevantes.</li>
+                <li><strong>Clientes:</strong> Visualização e gerenciamento das informações dos clientes da Maxmilhas.</li>
+                <li><strong>Milhas:</strong> Consulta e gestão das milhas disponíveis e suas respectivas transações.</li>
+                <li><strong>Criar transação:</strong> Iniciar o processo de emissão de passagens aéreas.</li>
+                <li><strong>E-mail marketing:</strong> Gerenciar campanhas de e-mail marketing direcionadas aos clientes.</li>
+                <li><strong>Cupom:</strong> Gerenciar cupons de desconto e promoções disponíveis.</li>
+                <li><strong>Status dos voos:</strong> Acompanhar o status atual dos voos das companhias aéreas.</li>
+                <li><strong>Relatórios:</strong> Acesso a relatórios detalhados sobre transações e atividades do sistema.</li>
+                <li><strong>Indicadores:</strong> Visualização de indicadores de desempenho e métricas relevantes.</li>
+                <li><strong>Cartões de crédito:</strong> Gerenciar os cartões de crédito utilizados para as transações.</li>
+                <li><strong>Ofertantes:</strong> Consultar e gerenciar os ofertantes disponíveis para as transações.</li>
+                <li><strong>Cancelamentos:</strong> Efetuar cancelamentos de passagens emitidas quando necessário.</li>
+            </ul>
+
+            <p>Para realizar emissões no sistema Cockpit, as opções utilizadas serão apenas Cockpit e Milhas. As demais são utilizadas em outros setores ou para controle interno.</p>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Ícones:</h2>
+            <p>Acima do menu lateral existem 4 ícones que são referentes à página inicial do Cockpit, clientes, milhas e busca de transações por código.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit04} alt="Imagem dos ícones do Cockpit"></img>
+        </div>
+    )
+}, 
+'Menu lateral cockpit': {
+    title: 'Menu lateral - Cockpit',
+    videoUrl: 'https://www.youtube.com/embed/ygmC4k9JXQA',
+    description: (
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral - Cockpit</h1>
+            <p>No menu lateral, a opção Cockpit dá acesso à tela principal do sistema onde é possível iniciar transações, realizar emissões e checagens de bilhetes aéreos.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit05} alt="Imagem do menu lateral Cockpit"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>As opções disponíveis incluem:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Emissões:</strong> Esta é a tela principal do sistema, onde estão localizadas as abas das diferentes companhias aéreas. Aqui, o analista pode iniciar as transações para emitir passagens aéreas.</li>
+                <li><strong>Controle:</strong> Nesta aba, é possível realizar checagens das passagens emitidas e acompanhar as transações que estão em análise, facilitando o monitoramento do processo de emissão.</li>
+                <li><strong>Completo:</strong> Tela do sistema completa com as abas de Emissões e Controle. Para realizar emissões utilizaremos o painel Cockpit - Completo.</li>
+            </ul>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit06} alt="Imagem do painel Cockpit Completo"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Indicadores no Cockpit</h2>
+            <p>No sistema Cockpit da Maxmilhas, os indicadores desempenham um papel importante para o acompanhamento das transações em andamento. Eles fornecem uma visão rápida e clara do status das emissões e da quantidade de passageiros envolvidos.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit07} alt="Imagem dos indicadores no Cockpit"></img>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>Número em vermelho:</h3>
+            <p>Este indicador exibe a quantidade de transações que estão ativas no sistema. Ele permite que os administradores monitorem o volume de transações e identifiquem possíveis gargalos ou pendências no processo de emissão.</p>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>Número em verde:</h3>
+            <p>O número em verde mostra a quantidade de passageiros associados às transações em andamento. Esse indicador é essencial para que a equipe saiba quantas pessoas estão envolvidas nas reservas e tenha uma noção precisa do impacto dessas transações.</p>
+        </div>
+    )
+},
 
 
 
-    'Cockpit': {
-        title: 'Cockpit',
-        videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
-        description: (
-                        <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>O que é o Cockpit? </h1>
-                            <p>O Cockpit é um sistema administrativo utilizado pela Maxmilhas para realizar a emissão de bilhetes aéreos utilizando milhas vendidas pelos ofertantes para compradores e clientes da Maxmilhas. Neste sistema, é possível:
-                            </p>
-                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'40px', marginBottom:'30px' }}>
-                                <li><strong>Emitir Bilhetes Aéreos:</strong> Gerar passagens aéreas com base nas milhas disponibilizadas pelos ofertantes, facilitando o processo de compra para os clientes.</li>
-                                <li><strong>Gerenciar Transações:</strong> Acompanhar e gerenciar todas as transações de emissão, desde a compra até a entrega do e-ticket ao cliente.
-                                </li>
-                                <li><strong>Selecionar Ofertantes:</strong> Escolher entre diferentes vendedores de milhas, analisando a viabilidade e o lucro de cada transação para otimizar as ofertas.</li>
-                                <li><strong>Realizar Cancelamentos:</strong> Efetuar o cancelamento de passagens já emitidas, caso necessário.</li>
-                                <li><strong>Buscar Ofertantes Disponíveis:</strong> Encontrar ofertantes com milhas disponíveis para as emissões, permitindo uma operação mais ágil.
-                                </li>
-                                <li><strong>Verificar Passagens Emitidas:</strong> Checar o status e os detalhes das passagens já emitidas pelo sistema, garantindo um controle eficaz.
-                                </li>
-                                <li><strong>Acessar Múltiplas Companhias Aéreas:</strong> Emitir passagens para diversas companhias aéreas, incluindo Latam, Gol, Azul, TAP, OTA e outras, ampliando as opções para os clientes.
-                                </li>
-                                <li><strong>Login Seguro:</strong> Acessar o sistema de forma segura utilizando e-mail corporativo, garantindo que apenas colaboradores autorizados possam gerenciar as operações.
-                                </li>
-                            </ul>
 
-                            <h2>Tela de Login:</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela de login é necessário utilizar e-mail corporativo das maxmilhas para acessar o sistema, garantindo que apenas colaboradores autorizados possam gerenciar as transações e processos de emissão de passagens.
-                            </p>
-                
-                            <h2>Tela inicial:</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Na tela inicial do sistema Cockpit, o colaborador tem acesso a um menu lateral com diversas opções, como Cockpit, Inserção de crédito, Cadastros, Clientes, Milhas, entre outras. Esse menu permite a navegação entre as principais funcionalidades do sistema. As informações e funcionalidades correspondentes a cada item selecionado no menu são exibidas no painel à direita.
-                            </p>
-                 
-                     
-                        </div>
-                     )
-                },
-    'Menu lateral': {
-        title: 'Menu lateral',
-        videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
-        description: (
-                        <div>
-                            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Menu lateral</h1>
-                                <p>No painel esquerdo do Cockpit, é possível encontrar o menu lateral que apresenta diversas opções, facilitando a navegação pelo sistema.
-                            </p>
 
-                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>As opções disponíveis incluem:</p>
-                            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px', }}>
-                             
-                                <li><strong>Cockpit:</strong> Acesso à tela principal do sistema, onde são gerenciadas as atividades.</li>
-                                <li><strong>Inserção de Crédito:</strong> Função para adicionar créditos ao sistema, possibilitando a realização de transações.</li>
-                                <li><strong>Cadastros:</strong> Área para gerenciar cadastros de clientes, ofertantes e outros dados relevantes.</li>
-                                <li><strong>Clientes:</strong> Visualização e gerenciamento das informações dos clientes da Maxmilhas.</li>
-                                <li><strong>Milhas:</strong> Consulta e gestão das milhas disponíveis e suas respectivas transações.</li>
-                                <li><strong>Criar Transação:</strong> Iniciar o processo de emissão de passagens aéreas.</li>
-                                <li><strong>E-mail Marketing:</strong> Gerenciar campanhas de e-mail marketing direcionadas aos clientes.</li>
-                                <li><strong>Cupom:</strong> Gerenciar cupons de desconto e promoções disponíveis.</li>
-                                <li><strong>Status dos Voos:</strong> Acompanhar o status atual dos voos das companhias aéreas.</li>
-                                <li><strong>Relatórios:</strong> Acesso a relatórios detalhados sobre transações e atividades do sistema.</li>
-                                <li><strong>Indicadores:</strong> Visualização de indicadores de desempenho e métricas relevantes.</li>
-                                <li><strong>Cartões de Crédito:</strong> Gerenciar os cartões de crédito utilizados para as transações.</li>
-                                <li><strong>Ofertantes:</strong> Consultar e gerenciar os ofertantes disponíveis para as transações.</li>
-                                <li><strong>Cancelamentos:</strong> Efetuar cancelamentos de passagens emitidas quando necessário.</li>
-                            </ul>
-                            <p style={{ marginTop:'10px', marginBottom:'20px' }}>Para realizar emissões no sistema Cockpit, as opções utilizadas serão apenas Cockpit e Milhas. As demais são utilizadas em outros setores ou para controle interno.
-                            </p>
-                            
-                            <h2>Icones</h2>
-                            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Acima do menu lateral existem 4 icones que são referentes à pagina inicial do cockpit, clientes, milhas e busca de transações por código.
-                            </p>
-               
-                     
-                        </div>
-                     )
-                },            
 
 };
 
