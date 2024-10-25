@@ -842,26 +842,31 @@ const lessonsData = {
     videoUrl: 'https://www.youtube.com/embed/iihjdr2ZGFk',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ofertantes</h1>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Ofertantes</h1>
             <p>Ao clicar no login do ofertante, o usuário é redirecionado para uma página que contém os detalhes da oferta. Nesta página, são apresentadas informações abrangentes sobre a oferta específica, permitindo que o analista tenha uma visão clara e completa.</p>
-            
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit15} alt="Imagem da oferta" />
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit16} alt="Detalhes da oferta" />
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nesta tela é possível verificar:</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit15} alt="Imagem da tela de detalhes da oferta"></img>
+
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit16} alt="Imagem da oferta específica"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Nesta tela é possível verificar:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Código da transação:</strong> Código referente à oferta.</li>
-                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit17} alt="Código da transação" />
-                <li><strong>Última observação:</strong> Último motivo para troca de ofertante ou movimentação da oferta.</li>
-                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit18} alt="Última observação" />
             </ul>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit17} alt="Imagem do código da transação"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Oferta</h2>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Última observação:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Último motivo para troca de ofertante ou movimentação da oferta.</strong></li>
+            </ul>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit18} alt="Imagem da última observação"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Oferta</h2>
             <p>Nesta seção, a tela exibe os dados do vendedor e das milhas vendidas, fornecendo informações essenciais para análise e tomada de decisão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit19} alt="Dados da oferta" />
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit19} alt="Imagem da seção de oferta"></img>
 
-            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Os dados disponíveis incluem:</h3>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Os dados disponíveis incluem:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Cia:</strong> Companhia aérea associada à oferta de milhas.</li>
                 <li><strong>Saldo:</strong> Quantidade de milhas atualmente disponíveis para transações.</li>
                 <li><strong>Prazo de pagamento:</strong> Tempo estabelecido para que o pagamento seja concluído após a realização da transação.</li>
@@ -876,10 +881,12 @@ const lessonsData = {
                 <li><strong>Estratégia 2 fatores:</strong> Método de autenticação em duas etapas que pode ser utilizado para verificar transações, aumentando a segurança das operações.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados do vendedor</h2>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Dados do vendedor</h2>
             <p>Nesta seção, são exibidos os dados do vendedor que oferece as milhas, proporcionando informações essenciais para contato e identificação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Dados do vendedor" />
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit20} alt="Imagem dos dados do vendedor"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Os dados disponíveis incluem:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Login:</strong> Identificação única do vendedor no sistema.</li>
                 <li><strong>Nome:</strong> Nome completo do vendedor, facilitando a identificação.</li>
                 <li><strong>CPF:</strong> Cadastro de Pessoa Física, utilizado para fins de identificação e conformidade.</li>
@@ -887,46 +894,64 @@ const lessonsData = {
                 <li><strong>Telefone:</strong> Número de telefone cadastrado, permitindo contato direto para quaisquer questões relacionadas à oferta ou transação.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Editar oferta</h2>
-            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit21} alt="Tela de edição da oferta" />
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit22} alt="Formulário de edição da oferta" />
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Editar oferta</h2>
+            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas. Ao clicar no botão, o usuário é levado a um formulário onde pode modificar os seguintes detalhes:</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit21} alt="Imagem da edição da oferta"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit22} alt="Imagem do formulário de edição"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados de acesso</h2>
-            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar, é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit23} alt="Dados de acesso do ofertante" />
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit24} alt="Motivo de acesso do ofertante" />
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Dados de acesso</h2>
+            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit23} alt="Imagem dos dados de acesso"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit24} alt="Imagem do motivo de acesso"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Linha do tempo da oferta</h2>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Linha do tempo da oferta</h2>
             <p>Nesta seção, é apresentada a evolução da oferta desde sua criação, permitindo que os analistas acompanhem o desempenho e as mudanças ao longo do tempo. As informações geralmente incluem:</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit25} alt="Linha do tempo da oferta" />
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit25} alt="Imagem da linha do tempo da oferta"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Vendas</h2>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Vendas</h2>
             <p>Nesta tela, é possível visualizar as últimas transações que foram concluídas utilizando a oferta selecionada. As informações são apresentadas em uma tabela detalhada, que inclui os seguintes dados:</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit26} alt="Tabela de vendas" />
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit26} alt="Imagem das vendas realizadas"></img>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>ID da transação:</strong> Identificação única da transação realizada.</li>
                 <li><strong>Milhas:</strong> Quantidade de milhas utilizadas na emissão da passagem.</li>
                 <li><strong>Pax:</strong> Número de passageiros associados à transação.</li>
                 <li><strong>Valor cliente:</strong> Valor pago pelo cliente ao ofertante.</li>
                 <li><strong>Tx Maxmilhas:</strong> Taxa de serviço cobrada pela Maxmilhas pela intermediação da transação.</li>
-                <li><strong>Tx embarque:</strong> Valor da taxa de embarque paga para a emissão do bilhete.</li>
-                <li><strong>Voo:</strong> Código do voo relacionado à transação.</li>
-                <li><strong>Status:</strong> Situação da compra efetuada pelo cliente no momento da consulta.</li>
+                <li><strong>Status:</strong> Situação atual da transação (concluída, pendente, cancelada).</li>
+                <li><strong>Data:</strong> Data em que a transação foi realizada.</li>
             </ul>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Observações </h2>
+            <p>Neste campo, é possível inserir comentários relacionados às transações. Os analistas podem utilizar essa funcionalidade para registrar observações relevantes, feedback ou informações adicionais sobre cada transação, como:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Detalhes sobre situações específicas que ocorreram durante a emissão.</li>
+                <li>Comentários sobre a performance do ofertante.</li>
+                <li>Notas sobre o atendimento ao cliente ou questões que precisam de acompanhamento.</li>
+                <li>Sugestões para melhorias no processo de emissão.</li>
+            </ul>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit29} alt="Imagem das vendas realizadas"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Histórico de alterações</h2>
-            <p>Esta seção detalha as mudanças feitas na oferta ao longo do tempo, permitindo que os analistas verifiquem e compreendam o histórico de modificações. As informações são organizadas cronologicamente e incluem:</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit27} alt="Histórico de alterações da oferta" />
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
-                <li><strong>Data:</strong> Data e hora em que a alteração foi realizada.</li>
-                <li><strong>Ação:</strong> Tipo de mudança que foi efetuada na oferta.</li>
-                <li><strong>Usuário:</strong> Nome do analista que realizou a alteração.</li>
-                <li><strong>Detalhes:</strong> Descrição do que foi alterado na oferta.</li>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Observações salvas</h2>
+            <p>Nesta seção, são exibidas as observações que foram feitas anteriormente relacionadas às transações. Aqui, os analistas podem visualizar comentários registrados, permitindo um acompanhamento detalhado das interações e decisões tomadas durante o processo de emissão.
+            </p>
+            <p>As observações salvas servem para:
+            </p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <li><strong>Consultar Informações anteriores:</strong> Permitem que a equipe revise comentários feitos em transações passadas, ajudando na continuidade do atendimento ao cliente e no gerenciamento de processos.</li>
+                <li><strong>Facilitar a comunicação:</strong> Aumentam a transparência entre os membros da equipe, garantindo que todos estejam cientes de qualquer informação relevante ou feedback recebido.
+                </li>
+                <li><strong>Analisar tendências:</strong>Podem ser utilizadas para identificar padrões ou problemas recorrentes nas transações, contribuindo para melhorias nos processos e serviços oferecidos.</li>
             </ul>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit30} alt="Imagem das vendas realizadas"></img>
+
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Documentos </h2>
+            <p>Na seção de Documentos, é possível obter informações sobre os gestores da oferta, especialmente quando há mais de um gestor envolvido ou quando se trata de uma conta familiar. Esta funcionalidade permite uma melhor gestão e acompanhamento das responsabilidades relacionadas à oferta.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit27} alt="Imagem das vendas realizadas"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit28} alt="Imagem das vendas realizadas"></img>
         </div>
-    ),
+    )
+    
 },
+
 
 'Abas do Cockpit': {
     title: 'Abas do Cockpit',
