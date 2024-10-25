@@ -914,16 +914,6 @@ const lessonsData = {
                 <li><strong>Voo:</strong> Código do voo relacionado à transação.</li>
                 <li><strong>Status:</strong> Situação da compra efetuada pelo cliente no momento da consulta.</li>
             </ul>
-
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Histórico de alterações</h2>
-            <p>Esta seção detalha as mudanças feitas na oferta ao longo do tempo, permitindo que os analistas verifiquem e compreendam o histórico de modificações. As informações são organizadas cronologicamente e incluem:</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit27} alt="Histórico de alterações da oferta" />
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
-                <li><strong>Data:</strong> Data e hora em que a alteração foi realizada.</li>
-                <li><strong>Ação:</strong> Tipo de mudança que foi efetuada na oferta.</li>
-                <li><strong>Usuário:</strong> Nome do analista que realizou a alteração.</li>
-                <li><strong>Detalhes:</strong> Descrição do que foi alterado na oferta.</li>
-            </ul>
         </div>
     ),
 },
@@ -1247,10 +1237,7 @@ const lessonsData = {
                 <li><strong>Perguntas adicionais:</strong>
                     <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit67} alt="Perguntas adicionais sobre o cancelamento"></img>
                     <ul style={{ listStyleType: 'none', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
-                        <li>Retornar o saldo de milhas? Opções: Sim ou Não</li>
-                        <li>E-ticket foi cancelado na CIA? Opções: Sim ou Não</li>
-                        <li>O estorno será realizado? Opções: Sim ou Não</li>
-                        <li>Tipo de estorno:
+                        <li><strong>Tipo de estorno:</strong>
                             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
                                 <li>Convertido para créditos através do Zendesk</li>
                                 <li>Estornar para cartão/conta do Comprador</li>
@@ -1262,8 +1249,7 @@ const lessonsData = {
             </ol>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Ações associadas:</h2>
-            <p>Confirmar cancelamento: Após selecionar o motivo, responder às perguntas e revisar as informações, o usuário pode clicar neste botão para confirmar o cancelamento da transação.</p>
-            <p>Essa funcionalidade abrangente permite gerenciar o cancelamento de transações de forma eficaz, incluindo a gestão do retorno de milhas e a escolha do método de estorno, garantindo que o processo seja claro e transparente para todas as partes envolvidas.</p>
+            <p>Confirmar cancelamento: Após selecionar o motivo, responder às perguntas e revisar as informações, o usuário pode clicar neste botão para confirmar o cancelamento da transação.  Essa funcionalidade abrangente permite gerenciar o cancelamento de transações de forma eficaz, incluindo a gestão do retorno de milhas e a escolha do método de estorno, garantindo que o processo seja claro e transparente para todas as partes envolvidas.</p>
         </div>
     ),
 },
@@ -1280,7 +1266,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit69} alt="Imagem dos dados do voo"></img>
 
             <p>Nesta seção, são exibidos os detalhes da transação atual:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Transação:</strong> Identificação única da transação.</li>
                 <li><strong>CIA Aérea:</strong> Nome da companhia aérea associada ao voo.</li>
                 <li><strong>Valor da compra:</strong> Valor total da compra realizada.</li>
@@ -1294,7 +1280,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit71} alt="Imagem do ofertante atual"></img>
 
             <p>Exibe informações sobre o vendedor de milhas atual:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Login:</strong> Identificação do ofertante atual.</li>
                 <li><strong>Saldo:</strong> Saldo de milhas disponíveis do ofertante.</li>
                 <li><strong>Razão:</strong> Razão do ofertante definida por milhas / CPFs.</li>
@@ -1307,7 +1293,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit72} alt="Imagem do novo ofertante"></img>
 
             <p>Nesta seção, o usuário pode buscar por um novo vendedor de milhas:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Buscar por login:</strong> Campo para inserir o login do novo ofertante desejado.</li>
                 <li><strong>Ofertante selecionado:</strong> Exibe as informações do novo ofertante escolhido.</li>
                 <li><strong>Enviar e-mail:</strong> Botão para enviar um e-mail ao novo ofertante sobre a troca.</li>
@@ -1319,8 +1305,7 @@ const lessonsData = {
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Tabela: Selecionar novo ofertante</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit73} alt="Imagem da tabela de novos ofertantes"></img>
 
-            <p>Uma tabela interativa onde o usuário pode visualizar e selecionar novos ofertantes:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Caixa de seleção de ofertante:</strong> Permite ao usuário selecionar um ofertante para a troca.</li>
                 <li><strong>Login:</strong> Identificação do novo ofertante.</li>
                 <li><strong>Tipo:</strong> Tipo de vendedor (ex: individual, empresa).</li>
@@ -1343,7 +1328,7 @@ const lessonsData = {
 
             <p>Clicar no nome do ofertante:</p>
             <p>O usuário pode clicar no nome do ofertante segurando a tecla Ctrl. Isso abrirá uma nova página com as ofertas detalhadas do ofertante selecionado. A página de ofertas detalhadas incluirá informações como:</p>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li>Descrição das ofertas disponíveis.</li>
                 <li>Condições de uso das milhas.</li>
                 <li>Informações adicionais relevantes ao ofertante.</li>
@@ -1358,7 +1343,7 @@ const lessonsData = {
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit76} alt="Imagem dos motivos para troca de ofertante"></img>
 
             <h3>Abaixo estão os motivos disponíveis para a troca de ofertante:</h3>
-            <ul>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Senha incorreta:</strong> A senha do ofertante atual está incorreta, impossibilitando a emissão da passagem.</li>
                 <li><strong>Saldo insuficiente:</strong> O ofertante atual não possui saldo de milhas suficiente para a transação desejada.</li>
                 <li><strong>Sem beneficiários (CPFs) disponíveis:</strong> Não há CPFs disponíveis para serem utilizados na transação.</li>
