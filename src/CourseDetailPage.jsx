@@ -678,8 +678,8 @@ const lessonsData = {
         </div>
     )
 }, 
-'Menu lateral - Cockpit': {
-    title: 'Menu lateral - Cockpit',
+'Menu lateral cockpit': {
+    title: 'Menu lateral cockpit',
     videoUrl: 'https://www.youtube.com/embed/ygmC4k9JXQA',
     description: (
         <div>
@@ -707,8 +707,8 @@ const lessonsData = {
         </div>
     )
 },
-'Menu lateral - Milhas': {
-    title: 'Menu lateral - Milhas',
+'Menu lateral milhas': {
+    title: 'Menu lateral milhas',
     videoUrl: 'https://www.youtube.com/embed/KPMhTI-ehSU',
     description: (
         <div>
@@ -842,31 +842,26 @@ const lessonsData = {
     videoUrl: 'https://www.youtube.com/embed/iihjdr2ZGFk',
     description: (
         <div>
-            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Ofertantes</h1>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ofertantes</h1>
             <p>Ao clicar no login do ofertante, o usuário é redirecionado para uma página que contém os detalhes da oferta. Nesta página, são apresentadas informações abrangentes sobre a oferta específica, permitindo que o analista tenha uma visão clara e completa.</p>
+            
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit15} alt="Imagem da oferta" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit16} alt="Detalhes da oferta" />
 
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit15} alt="Imagem da tela de detalhes da oferta"></img>
-
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit16} alt="Imagem da oferta específica"></img>
-
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Nesta tela é possível verificar:</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Nesta tela é possível verificar:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Código da transação:</strong> Código referente à oferta.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit17} alt="Código da transação" />
+                <li><strong>Última observação:</strong> Último motivo para troca de ofertante ou movimentação da oferta.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit18} alt="Última observação" />
             </ul>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit17} alt="Imagem do código da transação"></img>
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Última observação:</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Último motivo para troca de ofertante ou movimentação da oferta.</strong></li>
-            </ul>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit18} alt="Imagem da última observação"></img>
-
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Oferta</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Oferta</h2>
             <p>Nesta seção, a tela exibe os dados do vendedor e das milhas vendidas, fornecendo informações essenciais para análise e tomada de decisão.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit19} alt="Imagem da seção de oferta"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit19} alt="Dados da oferta" />
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Os dados disponíveis incluem:</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Os dados disponíveis incluem:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Cia:</strong> Companhia aérea associada à oferta de milhas.</li>
                 <li><strong>Saldo:</strong> Quantidade de milhas atualmente disponíveis para transações.</li>
                 <li><strong>Prazo de pagamento:</strong> Tempo estabelecido para que o pagamento seja concluído após a realização da transação.</li>
@@ -881,12 +876,10 @@ const lessonsData = {
                 <li><strong>Estratégia 2 fatores:</strong> Método de autenticação em duas etapas que pode ser utilizado para verificar transações, aumentando a segurança das operações.</li>
             </ul>
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Dados do vendedor</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados do vendedor</h2>
             <p>Nesta seção, são exibidos os dados do vendedor que oferece as milhas, proporcionando informações essenciais para contato e identificação.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit20} alt="Imagem dos dados do vendedor"></img>
-
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Os dados disponíveis incluem:</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Dados do vendedor" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Login:</strong> Identificação única do vendedor no sistema.</li>
                 <li><strong>Nome:</strong> Nome completo do vendedor, facilitando a identificação.</li>
                 <li><strong>CPF:</strong> Cadastro de Pessoa Física, utilizado para fins de identificação e conformidade.</li>
@@ -894,66 +887,48 @@ const lessonsData = {
                 <li><strong>Telefone:</strong> Número de telefone cadastrado, permitindo contato direto para quaisquer questões relacionadas à oferta ou transação.</li>
             </ul>
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Editar oferta</h2>
-            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas. Ao clicar no botão, o usuário é levado a um formulário onde pode modificar os seguintes detalhes:</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit21} alt="Imagem da edição da oferta"></img>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit22} alt="Imagem do formulário de edição"></img>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Editar oferta</h2>
+            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit21} alt="Tela de edição da oferta" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit22} alt="Formulário de edição da oferta" />
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Dados de acesso</h2>
-            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit23} alt="Imagem dos dados de acesso"></img>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit24} alt="Imagem do motivo de acesso"></img>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados de acesso</h2>
+            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar, é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit23} alt="Dados de acesso do ofertante" />
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit24} alt="Motivo de acesso do ofertante" />
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Linha do tempo da oferta</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Linha do tempo da oferta</h2>
             <p>Nesta seção, é apresentada a evolução da oferta desde sua criação, permitindo que os analistas acompanhem o desempenho e as mudanças ao longo do tempo. As informações geralmente incluem:</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit25} alt="Imagem da linha do tempo da oferta"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit25} alt="Linha do tempo da oferta" />
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Vendas</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Vendas</h2>
             <p>Nesta tela, é possível visualizar as últimas transações que foram concluídas utilizando a oferta selecionada. As informações são apresentadas em uma tabela detalhada, que inclui os seguintes dados:</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit26} alt="Imagem das vendas realizadas"></img>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit26} alt="Tabela de vendas" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>ID da transação:</strong> Identificação única da transação realizada.</li>
                 <li><strong>Milhas:</strong> Quantidade de milhas utilizadas na emissão da passagem.</li>
                 <li><strong>Pax:</strong> Número de passageiros associados à transação.</li>
                 <li><strong>Valor cliente:</strong> Valor pago pelo cliente ao ofertante.</li>
                 <li><strong>Tx Maxmilhas:</strong> Taxa de serviço cobrada pela Maxmilhas pela intermediação da transação.</li>
-                <li><strong>Status:</strong> Situação atual da transação (concluída, pendente, cancelada).</li>
-                <li><strong>Data:</strong> Data em que a transação foi realizada.</li>
+                <li><strong>Tx embarque:</strong> Valor da taxa de embarque paga para a emissão do bilhete.</li>
+                <li><strong>Voo:</strong> Código do voo relacionado à transação.</li>
+                <li><strong>Status:</strong> Situação da compra efetuada pelo cliente no momento da consulta.</li>
             </ul>
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Observações </h2>
-            <p>Neste campo, é possível inserir comentários relacionados às transações. Os analistas podem utilizar essa funcionalidade para registrar observações relevantes, feedback ou informações adicionais sobre cada transação, como:</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li>Detalhes sobre situações específicas que ocorreram durante a emissão.</li>
-                <li>Comentários sobre a performance do ofertante.</li>
-                <li>Notas sobre o atendimento ao cliente ou questões que precisam de acompanhamento.</li>
-                <li>Sugestões para melhorias no processo de emissão.</li>
-            </ul>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit29} alt="Imagem das vendas realizadas"></img>
 
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Observações salvas</h2>
-            <p>Nesta seção, são exibidas as observações que foram feitas anteriormente relacionadas às transações. Aqui, os analistas podem visualizar comentários registrados, permitindo um acompanhamento detalhado das interações e decisões tomadas durante o processo de emissão.
-            </p>
-            <p>As observações salvas servem para:
-            </p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-            <li><strong>Consultar Informações anteriores:</strong> Permitem que a equipe revise comentários feitos em transações passadas, ajudando na continuidade do atendimento ao cliente e no gerenciamento de processos.</li>
-                <li><strong>Facilitar a comunicação:</strong> Aumentam a transparência entre os membros da equipe, garantindo que todos estejam cientes de qualquer informação relevante ou feedback recebido.
-                </li>
-                <li><strong>Analisar tendências:</strong>Podem ser utilizadas para identificar padrões ou problemas recorrentes nas transações, contribuindo para melhorias nos processos e serviços oferecidos.</li>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Histórico de alterações</h2>
+            <p>Esta seção detalha as mudanças feitas na oferta ao longo do tempo, permitindo que os analistas verifiquem e compreendam o histórico de modificações. As informações são organizadas cronologicamente e incluem:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit27} alt="Histórico de alterações da oferta" />
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data:</strong> Data e hora em que a alteração foi realizada.</li>
+                <li><strong>Ação:</strong> Tipo de mudança que foi efetuada na oferta.</li>
+                <li><strong>Usuário:</strong> Nome do analista que realizou a alteração.</li>
+                <li><strong>Detalhes:</strong> Descrição do que foi alterado na oferta.</li>
             </ul>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit30} alt="Imagem das vendas realizadas"></img>
-
-            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Documentos </h2>
-            <p>Na seção de Documentos, é possível obter informações sobre os gestores da oferta, especialmente quando há mais de um gestor envolvido ou quando se trata de uma conta familiar. Esta funcionalidade permite uma melhor gestão e acompanhamento das responsabilidades relacionadas à oferta.</p>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit27} alt="Imagem das vendas realizadas"></img>
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit28} alt="Imagem das vendas realizadas"></img>
         </div>
-    )
-    
+    ),
 },
 
-
-'Abas do Cockpit': {
+'Abas do cockpit': {
     title: 'Abas do Cockpit',
     videoUrl: 'https://www.youtube.com/embed/M6nzXBC7-Jw',
     description: (
@@ -1133,24 +1108,23 @@ const lessonsData = {
     title: 'Transação completa',
     videoUrl: 'https://www.youtube.com/embed/{video_id}',
     description: (
-   <div>
-            <h3>Transação completa</h3>
+        <div>
+            <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Transação completa</h1>
             <p>Clicando no botão de Transação completa, é possível acessar uma página com informações detalhadas sobre a transação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit52} alt="Imagem da página de transação completa" />
-
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit52} alt="Imagem da transação completa"></img>
             <p>Esta página centraliza todas as informações e ações relevantes relacionadas à transação de venda e emissão de passagens com milhas.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit53} alt="Imagem centralizando informações da transação" />
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit54} alt="Imagem adicional da página de transação" />
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit53} alt="Imagem adicional da transação completa"></img>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit54} alt="Imagem adicional da transação completa"></img>
 
-            <h3>Abaixo estão os dados e botões disponíveis:</h3>
+            <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>Abaixo estão os dados e botões disponíveis:</h2>
 
-            <h4>1. Dados gerais da transação</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit55} alt="Imagem dos dados gerais da transação" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>1. Dados gerais da transação</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit55} alt="Dados gerais da transação"></img>
             <p>Número da transação: Identificador único da transação para fácil rastreamento e referência.</p>
             <p>Dados do comprador: Informações completas sobre o comprador da passagem (nome, CPF, telefone, e-mail, etc.).</p>
 
-            <h4>2. Dados Financeiros</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit56} alt="Imagem dos dados financeiros" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>2. Dados Financeiros</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit56} alt="Dados financeiros da transação"></img>
             <p>Taxa de embarque: Valor da taxa de embarque associada ao voo.</p>
             <p>Taxa de bagagem: Valores pagos a mais por bagagem despachada.</p>
             <p>Taxa de serviço: Taxas aplicadas pelos serviços prestados na transação.</p>
@@ -1158,8 +1132,8 @@ const lessonsData = {
             <p>Descontos: Aplicação de descontos, se houver, na transação.</p>
             <p>Valor pago: Valor final que foi pago pelo comprador.</p>
 
-            <h4>3. Dados do vendedor e da oferta:</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit57} alt="Imagem dos dados do vendedor e da oferta" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>3. Dados do vendedor e da oferta:</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit57} alt="Dados do vendedor e da oferta"></img>
             <p>Login: Login do ofertante.</p>
             <p>Telefone: Telefone do ofertante.</p>
             <p>Tipo de oferta: Classificação da oferta (ex: convencional, revenda, etc.).</p>
@@ -1169,8 +1143,8 @@ const lessonsData = {
             <p>Valor unitário: Preço por milheiro cobrado na transação.</p>
             <p>Metadata: Informações adicionais sobre a oferta de milhas e o vendedor.</p>
 
-            <h4>4. Botões de ações</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit58} alt="Imagem dos botões de ações" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>4. Botões de ações</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit58} alt="Botões de ações"></img>
             <p>Botão de lançar cobrança: Permite lançar cobranças adicionais ou corrigir valores referentes à transação.</p>
             <p>Botão de cancelar transação: Cancela completamente a transação atual.</p>
             <p>Botão de opções: Exibe opções como busca de código de verificação por e-mail ou SMS.</p>
@@ -1178,15 +1152,15 @@ const lessonsData = {
             <p>Botão de alterar milhas: Modifica a quantidade de milhas a serem utilizadas na transação.</p>
             <p>Botão de detalhes da oferta: Mostra informações completas sobre a oferta de milhas utilizada.</p>
 
-            <h4>5. Dados do voo</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit59} alt="Imagem dos dados do voo" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>5. Dados do voo</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit59} alt="Dados do voo"></img>
             <p>Dados do voo e milhas para checagem: Exibe os dados do voo (companhia, número do voo, origem, destino, etc.) e milhas associadas para conferência.</p>
             <p>Botão de editar dados do voo: Permite modificar os detalhes do voo, como horários e datas, se necessário.</p>
             <p>Botão de desabilitar checagem automática: Desativa a checagem automática de milhas e voo, oferecendo um processo manual.</p>
             <p>Botão de logs de cancelamento automático: Exibe o histórico de cancelamentos automáticos da transação, caso existam.</p>
 
-            <h4>6. Dados detalhados do voo</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit60} alt="Imagem dos dados detalhados do voo" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6. Dados detalhados do voo</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit60} alt="Dados detalhados do voo"></img>
             <p>Companhia aérea: Nome da companhia aérea responsável pelo voo.</p>
             <p>Número do voo: Identificação única do voo.</p>
             <p>Aeroporto de saída: Nome do aeroporto de onde o voo parte.</p>
@@ -1195,15 +1169,16 @@ const lessonsData = {
             <p>Aeroporto de chegada: Nome do aeroporto de destino do voo.</p>
             <p>Hora da chegada: Horário programado para a chegada do voo.</p>
             <p>Alteração involuntária: Indicação se houve alguma alteração involuntária na programação do voo.</p>
-
-            <h4>Botões de ações relacionadas ao voo</h4>
-            <p>Botão de editar informações do voo: Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit61} alt="Imagem do botão de editar informações do voo" />
+            <p>Botão de editar Informações do voo: Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
             <p>Botão de buscar voo: Busca voos alternativos ou atualiza o voo da transação.</p>
             <p>Botão de cancelar voo: Cancela o voo associado à transação.</p>
 
-            <h4>7. Dados do passageiro</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit62} alt="Imagem dos dados do passageiro" />
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>6.1 Botão de editar dados do voo</h3>
+            <p>Altera informações detalhadas sobre o voo, como assento, classe, entre outros.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit61} alt="Botão de editar dados do voo"></img>
+
+            <h3 style={{ marginTop:'30px', marginBottom:'30px' }}>7. Dados do passageiro</h3>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={cursocockpit62} alt="Dados do passageiro"></img>
             <p>Tratamento: (Sr./Sra.) – Forma de tratamento do passageiro.</p>
             <p>Primeiro nome: Nome do passageiro.</p>
             <p>Segundo nome: Nome do meio ou sobrenome do passageiro.</p>
@@ -1218,17 +1193,10 @@ const lessonsData = {
             <p>Telefone: Número de telefone de contato do passageiro.</p>
             <p>Botão de consumir CPF: Consome o CPF do passageiro registrado para emitir a passagem.</p>
             <p>Botão de editar informações dos passageiros: Permite a alteração de dados dos passageiros (nome, documento, etc.).</p>
+            <p>Botão de adicionar passageiros: Permite a inclusão de novos passageiros à transação.</p>
+            <p>Botão de excluir passageiros: Permite a remoção de passageiros da transação.</p>
 
-            <h4>7.1 Botão de editar informações dos passageiros</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit63} alt="Imagem do botão de editar informações dos passageiros" />
-            <p>Permite a alteração de dados dos passageiros (nome, documento, etc.).</p>
 
-            <h4>8. Informações de Pagamento e criação da transação</h4>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit64} alt="Imagem das informações de pagamento" />
-            <p>Exibição dos dados de pagamento, incluindo método de pagamento e status da transação.</p>
-            <p>Botão de criar nova transação: Permite iniciar uma nova transação a partir desta página.</p>
-            <p>Botão de detalhes do pagamento: Exibe informações detalhadas sobre a forma de pagamento escolhida.</p>
-            <p>Botão de cancelar pagamento: Cancela a forma de pagamento atual e retorna ao estado anterior.</p>
         </div>
     ),
 },
