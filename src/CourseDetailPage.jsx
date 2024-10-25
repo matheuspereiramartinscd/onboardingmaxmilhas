@@ -44,10 +44,10 @@ const lessonsData = {
                             <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>O que esperar do curso</h2>
                             <p>Ao longo das aulas, vamos abordar tópicos fundamentais, incluindo:</p>
                             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                                <li><strong>Introdução ao Sistema Cockpit:</strong> Compreenderemos a interface do sistema, suas principais funcionalidades e como acessá-lo corretamente.</li>
-                                <li><strong>Emissão de Passagens:</strong> Aprenderemos o processo completo de emissão de passagens aéreas, desde a criação de transações até a finalização com o envio do e-ticket ao cliente.</li>
+                                <li><strong>Introdução ao aistema Cockpit:</strong> Compreenderemos a interface do sistema, suas principais funcionalidades e como acessá-lo corretamente.</li>
+                                <li><strong>Emissão de passagens:</strong> Aprenderemos o processo completo de emissão de passagens aéreas, desde a criação de transações até a finalização com o envio do e-ticket ao cliente.</li>
                                 <li><strong>Cancelamentos:</strong> Discutiremos os procedimentos necessários para cancelar passagens quando necessário.</li>
-                                <li><strong>Busca e Análise de Ofertantes:</strong> Veremos como encontrar ofertantes disponíveis e analisar suas propostas, sempre visando a melhor viabilidade e lucro para as transações.</li>
+                                <li><strong>Busca e snálise de ofertantes:</strong> Veremos como encontrar ofertantes disponíveis e analisar suas propostas, sempre visando a melhor viabilidade e lucro para as transações.</li>
                             </ul>
 
 
@@ -59,33 +59,37 @@ const lessonsData = {
                      )
                 },
 'bem-vindo-curso-emissoes': {
-    title: 'Bem-vindo ao Curso de Emissões!',
-    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs', // Adicione a URL do vídeo se houver
+    title: 'Bem-vindo ao curso de emissões!',
+    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
     description: (
         <div>
             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
-            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao processo de emissões da Maxmilhas, onde você aprenderá como gerenciar e realizar a emissão de passagens aéreas de forma prática e eficiente. Este curso foi desenvolvido para equipá-lo com o conhecimento necessário para operar todas as etapas de uma emissão, desde a verificação de voos até o cancelamento de bilhetes quando necessário.</p>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao processo de emissões da Maxmilhas, onde você aprenderá como gerenciar e realizar a emissão de passagens aéreas de forma prática e eficiente.</p>
 
-            <p style={{ marginTop:'30px', marginBottom:'30px' }}>O processo de emissões é essencial para garantir que os clientes obtenham as passagens aéreas com base nas milhas ofertadas, e você será treinado para dominar todas as ferramentas envolvidas nesse fluxo de trabalho.</p>
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Este curso foi desenvolvido para equipá-lo com o conhecimento necessário para operar todas as etapas de uma emissão, desde a verificação de voos até o cancelamento de bilhetes quando necessário.</p>
 
             <h2 style={{ marginTop:'30px', marginBottom:'30px' }}>O que esperar do curso</h2>
             <p>Durante este curso, abordaremos os seguintes tópicos:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Introdução às Emissões:</strong> Entenderemos o que envolve o processo de emissão, desde a análise dos dados até a conclusão da transação.</li>
-                <li><strong>Emissão Manual:</strong> Exploraremos o procedimento de emissões manuais, quando necessário, garantindo que você saiba como proceder caso o sistema não conclua automaticamente.</li>
-                <li><strong>Cancelamento de E-tickets:</strong> Aprenderemos como cancelar um bilhete de maneira adequada e os motivos pelos quais o cancelamento pode ser necessário, como erros de emissão, voo indisponível ou solicitação do passageiro.</li>
-                <li><strong>Adição de Bagagem:</strong> Você saberá como adicionar bagagens extras em uma transação diretamente no site da companhia aérea e como informar o valor da bagagem no sistema.</li>
-                <li><strong>Validade das Milhas:</strong> Discutiremos como verificar e gerenciar a validade das milhas de um cliente, evitando que milhas expiradas afetem as emissões.</li>
-                <li><strong>Ferramentas de Suporte:</strong> Veremos como utilizar os recursos auxiliares, como o Cockpit, para otimizar suas operações e garantir uma melhor experiência para o cliente.</li>
+                <li><strong>Introdução às emissões:</strong> Entenderemos o que envolve o processo de emissão, desde a análise dos dados até a conclusão da transação.</li>
+                <li><strong>Emissão manual:</strong> Exploraremos o procedimento de emissões manuais, quando necessário, garantindo que você saiba como proceder caso o sistema não conclua automaticamente.</li>
+                <li><strong>Cancelamento de e-tickets:</strong> Aprenderemos como cancelar um bilhete de maneira adequada e os motivos pelos quais o cancelamento pode ser necessário, como erros de emissão, voo indisponível ou solicitação do passageiro.</li>
+                <li><strong>Adição de bagagem:</strong> Você saberá como adicionar bagagens extras em uma transação diretamente no site da companhia aérea e como informar o valor da bagagem no sistema.</li>
+                <li><strong>Validade das milhas:</strong> Discutiremos como verificar e gerenciar a validade das milhas de um cliente, evitando que milhas expiradas afetem as emissões.</li>
+                <li><strong>Ferramentas de suporte:</strong> Veremos como utilizar os recursos auxiliares, como Cockpit, para otimizar suas operações e garantir uma melhor experiência para o cliente.</li>
             </ul>
 
-            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src={'./assets/Cursos/Cockpit/cursocockpit00.jpg'} alt="Imagem do Curso de Emissões"></img>
-            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso foi desenhado para ser prático e envolvente, com exercícios e exemplos reais que o ajudarão a fixar o conteúdo. Ao final, você estará preparado para lidar com todas as etapas do processo de emissão, seja para resolver problemas de voo, ajustar milhas ou cancelar transações quando necessário.</p>
+            <img style={{ marginTop:'10px', marginBottom:'30px' }} className={styles.image} src='./assets/Cursos/Cockpit/cursocockpit00.jpg' alt="Imagem do sistema Cockpit"></img>
+
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Este curso foi desenhado para ser prático e envolvente, com exercícios e exemplos reais que o ajudarão a fixar o conteúdo.</p>
+
+            <p style={{ marginTop:'30px', marginBottom:'30px' }}>Ao final, você estará preparado para lidar com todas as etapas do processo de emissão, seja para resolver problemas de voo, ajustar milhas ou cancelar transações quando necessário.</p>
 
             <p style={{ marginTop:'30px', marginBottom:'30px' }}>Estamos animados para compartilhar esse conhecimento com você e ajudá-lo a se tornar um especialista no processo de emissões da Maxmilhas. Prepare-se para uma experiência de aprendizado rica e dinâmica!</p>
         </div>
     )
 },
+
 
     'Cockpit': {
         title: 'Cockpit',
