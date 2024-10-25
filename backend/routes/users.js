@@ -59,12 +59,16 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Menu lateral", "completed": false},
                         {"title": "Menu lateral - Cockpit", "completed": false},
                         {"title": "Menu lateral - Milhas", "completed": false},
-                        {"title": "Detalhes da oferta", "completed": false},
+                        {"title": "Ofertantes", "completed": false},
                         {"title": "Abas do Cockpit", "completed": false},
                         {"title": "Opções de pesquisa de transações", "completed": false},
                         {"title": "Transações", "completed": false},
                         {"title": "Transação completa", "completed": false},
-                        {"title": "Comentários", "completed": false}
+                        {"title": "Cancelamento de transações", "completed": false},
+                        {"title": "Troca de ofertante", "completed": false},
+                        {"title": "Opções", "completed": false},
+                        {"title": "Alterar milhas", "completed": false},
+                        {"title": "Calculadora de prejuízos", "completed": false}
                     ]
                 },
                 {
@@ -90,7 +94,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Valores e missão da empresa", "completed": false},
                         {"title": "Como a empresa se posiciona no mercado", "completed": false},
                         {"title": "Estrutura hierárquica e equipes", "completed": false},
-                        {"title": "Políticas de inclusão e diversidade", "completed": false}
+                        {"title": "Guia da marca", "completed": false}
                     ]
                 },
                 {
@@ -99,15 +103,14 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Navegadores de internet", "completed": false},
                         {"title": "Extensões de navegador", "completed": false},
-                        {"title": "Navegação Anônima", "completed": false},
                         {"title": "Cookies", "completed": false},
-                        {"title": "Uso de VPNs", "completed": false},
-                        {"title": "Simuladores Android", "completed": false},
-                        {"title": "CCleaner e manutenção do sistema", "completed": false},
+                        {"title": "Conectividade e redes", "completed": false},
+                        {"title": "VPNs", "completed": false},
+                        {"title": "Ferramentas de escritório", "completed": false},
                         {"title": "Ferramentas de captura de tela", "completed": false},
-                        {"title": "Google Sheets e planilhas do Excel", "completed": false},
-                        {"title": "Criando Senhas Seguras", "completed": false},
-                        {"title": "Autenticação de Dois Fatores (2FA)", "completed": false}
+                        {"title": "Manuntenção no sistema (CCleaner)", "completed": false},
+                        {"title": "Segurança da informação", "completed": false},
+                        {"title": "Simuladores Android", "completed": false},
                     ]
                 },
                 {
@@ -116,17 +119,14 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Ofertantes", "completed": false},
                         {"title": "Buscando ofertantes pelo milhas", "completed": false},
-                        {"title": "Saldo, razão, média e quantidade de CPFs", "completed": false},
-                        {"title": "Milhas da venda, valor ofertante e valor unitário", "completed": false},
-                        {"title": "Valor da compra, valor pago e taxa de embarque", "completed": false},
-                        {"title": "Categoria de ofertantes - Smiles", "completed": false},
-                        {"title": "Categoria de ofertantes - Azul", "completed": false},
-                        {"title": "Categoria de ofertantes - Latam", "completed": false},
-                        {"title": "Beneficiários no cadastro tudo azul", "completed": false},
+                        {"title": "Oferta detalhada", "completed": false},
+                        {"title": "Programa de fidelidade Smiles", "completed": false},
+                        {"title": "Programa de fidelidade TudoAzul", "completed": false},
+                        {"title": "Programa de fidelidade LATAM Pass", "completed": false},
+                        {"title": "Beneficiários no cadastro TudoAzul", "completed": false},
                         {"title": "Validação de ofertas", "completed": false},
-                        {"title": "Ofertantes de revenda", "completed": false},
-                        {"title": "Ofertantes liminares", "completed": false},
-                        {"title": "Ofertantes PJ", "completed": false}
+                        {"title": "Tipos de ofertantes", "completed": false},
+
                     ]
                 },
                 {
@@ -150,107 +150,112 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Lógica de negócio", "completed": false},
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Calculadora de prejuízos", "completed": false},
-                        {"title": "Troca de ofertantes", "completed": false},
-                        {"title": "Alterando quantidade de milhas", "completed": false},
-                        {"title": "Alterando dados dos passageiros", "completed": false},
-                        {"title": "Cartões de crédito", "completed": false},
-                        {"title": "Emissões manuais", "completed": false},
-                        {"title": "Emissões semiautomáticas", "completed": false},
+                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Verificando quantidade de milhas e voo disponível", "completed": false},
+                        {"title": "Cadastrando passageiros", "completed": false},
+                        {"title": "Página de pagamento", "completed": false},
+                        {"title": "E-tickets", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
-                        {"title": "Inserindo etickets", "completed": false},
-                        {"title": "Cancelando transações", "completed": false},
+                        {"title": "Emissões semiautomáticas", "completed": false},
+                        {"title": "Erro após pagamento", "completed": false},
+                        {"title": "Erro/Aumento", "completed": false},
+                        {"title": "Bagagem", "completed": false},
                         {"title": "Checagem", "completed": false},
-                        {"title": "FNC 15", "completed": false},
-                        {"title": "Bagagens", "completed": false},
-                        {"title": "Voos nacionais e internacionais", "completed": false}
+                        {"title": "Suspeita de fraude", "completed": false},
+                        {"title": "Fnc 15", "completed": false},
                     ]
                 },
                 {
                     "course": "emissoeslatam",
                     "progress": 0,
                     "lessons": [
-                        {"title": "Iniciando transações na LATAM", "completed": false},
+                        {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Comentários", "completed": false},
-                        {"title": "Motivos de troca de ofertante", "completed": false},
-                        {"title": "Cancelamento e reembolso", "completed": false},
-                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
+                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Acessando a conta do ofertante com a bifrost ", "completed": false},
+                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
+                        {"title": "Erro na busca de voo", "completed": false},
+                        {"title": "Motivos para troca de ofertante", "completed": false},
+                        {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões semiautomáticas", "completed": false},
                         {"title": "Emissões manuais", "completed": false},
-                        {"title": "Acessando a conta do ofertante com a Bifrost", "completed": false},
-                        {"title": "Erros de login", "completed": false},
+                        {"title": "Cadastrando passageiros", "completed": false},
+                        {"title": "Bagagem", "completed": false},
+                        {"title": "Página de pagamento", "completed": false},
                         {"title": "Erros de pagamento", "completed": false},
-                        {"title": "Verificando extrato", "completed": false},
-                        {"title": "Latam wallet e tripcase", "completed": false},
-                        {"title": "Transações 24 horas", "completed": false},
-                        {"title": "Voos internacionais", "completed": false},
-                        {"title": "Bagagem", "completed": false}
+                        {"title": "E-tickets", "completed": false},
+                        {"title": "Cancelando localizador na companhia", "completed": false},
+                        {"title": "Conferindo extrato", "completed": false}
                     ]
                 },
                 {
                     "course": "emissoesgol",
                     "progress": 0,
                     "lessons": [
-                        {"title": "Iniciando transações na Gol", "completed": false},
+                        {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Comentários", "completed": false},
-                        {"title": "Motivos de troca de ofertante", "completed": false},
-                        {"title": "Cancelamento e reembolso", "completed": false},
-                        {"title": "Site da Gol", "completed": false},
-                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
-                        {"title": "Emissões automáticas", "completed": false},
-                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
                         {"title": "Simulador Android", "completed": false},
-                        {"title": "Código para pagamento", "completed": false},
-                        {"title": "Bagagem", "completed": false},
-                        {"title": "Cancelando reservas", "completed": false}
+                        {"title": "Motivos para troca de ofertante", "completed": false},
+                        {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
+                        {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões semiautomáticas", "completed": false},
+                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Cadastrando passageiros", "completed": false},
+                        {"title": "Página de pagamento", "completed": false},
+                        {"title": "E-tickets", "completed": false},
+                        {"title": "Cancelando localizador na companhia", "completed": false},
+                        {"title": "Conferindo extrato", "completed": false}
                     ]
                 },
                 {
                     "course": "emissoesazul",
                     "progress": 0,
                     "lessons": [
-                        {"title": "Iniciando transações na Azul", "completed": false},
+                        {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Comentários", "completed": false},
-                        {"title": "Motivos de troca de ofertante", "completed": false},
-                        {"title": "Site da Azul", "completed": false},
-                        {"title": "Cancelamento e reembolso", "completed": false},
-                        {"title": "Tratativa em aumento de milhas e voo indisponível", "completed": false},
-                        {"title": "Beneficiários", "completed": false},
+                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
+                        {"title": "Motivos para troca de ofertante", "completed": false},
+                        {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
+                        {"title": "Emissões semiautomáticas", "completed": false},
                         {"title": "Emissões manuais", "completed": false},
-                        {"title": "Consultando reservas", "completed": false},
+                        {"title": "Verificando beneficiários cadastrados", "completed": false},
+                        {"title": "Cadastrando passageiros", "completed": false},
                         {"title": "Bagagem", "completed": false},
-                        {"title": "Cancelando reservas", "completed": false}
+                        {"title": "Página de pagamento", "completed": false},
+                        {"title": "E-tickets", "completed": false},
+                        {"title": "Cancelando localizador na companhia", "completed": false},
+                        {"title": "Conferindo extrato", "completed": false}
                     ]
                 },
                 {
                     "course": "prejuizos",
                     "progress": 0,
                     "lessons": [
-                        {"title": "Impactos dos prejuízos", "completed": false},
+                        {"title": "Prejuízos", "completed": false},
                         {"title": "Tipos mais comuns de prejuízos", "completed": false},
                         {"title": "Emissões duplicadas", "completed": false},
                         {"title": "Emissões na conta errada", "completed": false},
-                        {"title": "Transação cancelada e localizador ativo", "completed": false},
+                        {"title": "Transação cancelada e LOC ativo", "completed": false},
                         {"title": "Aumento sem tratativa ou com tratativa indevida", "completed": false},
-                        {"title": "Dicas para evitar prejuízos", "completed": false}
                     ]
                 },
                 {
                     "course": "ferramentas",
                     "progress": 0,
                     "lessons": [
-                        {"title": "Ponto online", "completed": false},
-                        {"title": "Qulture.rocks", "completed": false},
-                        {"title": "Convenia", "completed": false},
+                        {"title": "Slack", "completed": false},
                         {"title": "Metabase", "completed": false},
-                        {"title": "Receita Federal", "completed": false},
-                        {"title": "Tripcase", "completed": false},
+                        {"title": "Convenia", "completed": false},
+                        {"title": "Qulture.rocks", "completed": false},
+                        {"title": "iFractal Ponto online", "completed": false},
+                        {"title": "Receita federal", "completed": false},
+                        {"title": "TripCase", "completed": false},
                         {"title": "Zendesk", "completed": false},
-                        {"title": "Slack", "completed": false}
                     ]
                 }
             ]

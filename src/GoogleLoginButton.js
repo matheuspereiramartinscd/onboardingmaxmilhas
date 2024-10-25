@@ -13,7 +13,8 @@ const GoogleLoginButton = () => {
             const allowedEmails = [
                 'matheuspereiramartins1993@gmail.com',
                 'mpm392161code@gmail.com',
-                'matheuspereiramartinscd@gmail.com'
+                'matheuspereiramartinscd@gmail.com',
+                'mpm392161backup@gmail.com'
             ];
             const isMaxmilhasEmail = userEmail.endsWith('@maxmilhas.com.br') || allowedEmails.includes(userEmail);
 
