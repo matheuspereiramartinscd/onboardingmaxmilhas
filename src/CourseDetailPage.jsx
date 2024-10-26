@@ -4949,29 +4949,29 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Slack</h1>
             <p>O Slack é uma plataforma de comunicação colaborativa projetada para facilitar a interação entre equipes. Ele combina chat em tempo real, troca de arquivos e integração com outras ferramentas, proporcionando um ambiente de trabalho mais conectado e produtivo.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast00} alt="Imagem do Slack"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas00} alt="Imagem do Slack"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. principais funcionalidades</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Canais</h3>
             <p>O Slack permite a criação de canais públicos e privados para diferentes projetos, equipes ou tópicos, facilitando a organização das conversas.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast01} alt="Imagem dos canais no Slack"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas01} alt="Imagem dos canais no Slack"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Mensagens diretas</h3>
             <p>Os usuários podem enviar mensagens diretas para colegas de trabalho, permitindo comunicação mais pessoal e rápida.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast02} alt="Imagem das mensagens diretas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas02} alt="Imagem das mensagens diretas"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Integrações</h3>
             <p>O Slack se integra com diversas ferramentas e aplicativos, como Google Drive, Trello, Asana, entre outros, permitindo centralizar informações e melhorar o fluxo de trabalho.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast03} alt="Imagem das integrações"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas03} alt="Imagem das integrações"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Compartilhamento de arquivos</h3>
             <p>Os usuários podem compartilhar documentos, imagens e outros arquivos diretamente nas conversas, facilitando a colaboração.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast04} alt="Imagem do compartilhamento de arquivos"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas04} alt="Imagem do compartilhamento de arquivos"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Busca avançada</h3>
             <p>A funcionalidade de busca permite que os usuários encontrem mensagens, arquivos e informações relevantes rapidamente.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast05} alt="Imagem da busca avançada"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas05} alt="Imagem da busca avançada"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. benefícios do uso do Slack</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
@@ -5014,7 +5014,7 @@ f
                 <li><strong>Acessar o Slack Web:</strong> Abra o navegador e vá para https://slack.com/intl/pt-br/workspace-signin.</li>
                 <li><strong>Acessar o workspace:</strong> Insira o URL do workspace: maxmilhas.slack.com e faça login.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast06} alt="Imagem do Slack Web"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas06} alt="Imagem do Slack Web"></img>
 
             <p>O Slack é uma ferramenta poderosa para transformar a comunicação e a colaboração dentro da equipe. Com o uso eficaz de suas funcionalidades, as equipes podem se tornar mais produtivas e conectadas.</p>
         </div>
@@ -5033,7 +5033,7 @@ f
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li>Abrir seu navegador.</li>
                 <li>Digite o endereço do Metabase da MaxMilhas.</li>
-                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast08} alt="Imagem de acesso ao Metabase"></img>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas08} alt="Imagem de acesso ao Metabase"></img>
                 <li>Faça login com seu e-mail corporativo (@maxmilhas.com.br).</li>
             </ul>
 
@@ -5042,9 +5042,9 @@ f
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li>Navegue até a seção de relatórios: No menu lateral, procure a opção chamada Coleção [OP] Operadores - Indicadores Individuais.</li>
                 <li>Selecione o relatório desejado: Escolha o relatório chamado [LGPD] Emissão por Atendente - Pesquisado por Login.</li>
-                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast10} alt="Imagem da seleção do relatório"></img>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas10} alt="Imagem da seleção do relatório"></img>
                 <li>Filtre os dados: Utilize filtros para personalizar a visualização, como período de tempo ou status das emissões.</li>
-                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast11} alt="Imagem de filtragem dos dados"></img>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas11} alt="Imagem de filtragem dos dados"></img>
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Relatórios importantes no Metabase</h2>
@@ -5080,7 +5080,7 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao convenia</h1>
             <p>O convenia é uma plataforma que oferece soluções de gestão de recursos humanos, facilitando o controle de diversos processos relacionados a funcionários e colaboradores. Com a utilização do convenia, as empresas podem otimizar a administração de folha de pagamento, benefícios e gestão de férias, proporcionando uma experiência mais fluida tanto para os gestores quanto para os colaboradores.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast12} alt="Imagem do Convenia"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas12} alt="Imagem do Convenia"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
@@ -5106,7 +5106,7 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao Qulture.Rocks</h1>
             <p>O Qulture.Rocks é uma plataforma de gestão de desempenho que visa transformar a cultura organizacional das empresas, promovendo um ambiente de feedback contínuo, desenvolvimento de competências e engajamento dos colaboradores. Com um foco em resultados, a ferramenta permite que as empresas alinhem objetivos e melhorem a performance de suas equipes.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast13} alt="Imagem da plataforma Qulture.Rocks"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas13} alt="Imagem da plataforma Qulture.Rocks"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
@@ -5148,7 +5148,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
             <p>Acesso ao iFractal ponto online: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoFerramentas14} alt="Imagem do acesso ao iFractal ponto online"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas14} alt="Imagem do acesso ao iFractal ponto online"></img>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
             <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências.</p>
@@ -5167,7 +5167,7 @@ f
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao site</h2>
             <p>URL: Acesse o site da Receita Federal através do seguinte link: Receita Federal - Consulta CPF.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferamentast15} alt="Imagem da Receita Federal"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas15} alt="Imagem da Receita Federal"></img>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para a consulta</h2>
             
@@ -5208,16 +5208,16 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Criando uma viagem:</h2>
             <p>Acesse o site do TripCase e crie uma nova viagem.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast16} alt="Imagem do TripCase - Criando uma nova viagem"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas16} alt="Imagem do TripCase - Criando uma nova viagem"></img>
 
             <p>Clique em criar nova viagem</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast17} alt="Imagem do TripCase - Clique em criar nova viagem"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas17} alt="Imagem do TripCase - Clique em criar nova viagem"></img>
 
             <p>Utilize o código do localizador para o nome da viagem</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast18} alt="Imagem do TripCase - Utilizando o código do localizador"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas18} alt="Imagem do TripCase - Utilizando o código do localizador"></img>
 
             <p>Clique em vincular uma reserva</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast19} alt="Imagem do TripCase - Clique em vincular uma reserva"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas19} alt="Imagem do TripCase - Clique em vincular uma reserva"></img>
 
             <p>Digite o sobrenome do passageiro cadastrado na transação e o código do localizador.</p>
 
@@ -5243,7 +5243,7 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Zendesk</h1>
             <p>O Zendesk é uma solução de software que oferece ferramentas para gerenciar o atendimento ao cliente, centralizando as interações em um único lugar. Ele é amplamente utilizado por empresas para melhorar a experiência do cliente e otimizar processos de suporte.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast20} alt="Imagem do Zendesk"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas20} alt="Imagem do Zendesk"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades do Zendesk</h2>
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Central de atendimento</h3>
