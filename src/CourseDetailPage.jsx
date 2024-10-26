@@ -1520,8 +1520,8 @@ f
         </div>
     ),
 },
-'Comentários': {
-    title: 'Comentários',
+'Observações': {
+    title: 'Observações',
     videoUrl: 'https://www.youtube.com/embed/hWdRnW3AMp8',
     description: (
         <div>
