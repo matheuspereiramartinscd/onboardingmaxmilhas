@@ -2425,8 +2425,8 @@ f
         </div>
     ),
 },
-'E-tickets': {
-    title: 'E-tickets',
+'E-tickets latam': {
+    title: 'E-tickets latam',
     videoUrl: 'https://www.youtube.com/embed/wDAhyYDJibI',
     description: (
         <div>
