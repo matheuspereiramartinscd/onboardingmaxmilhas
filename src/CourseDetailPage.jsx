@@ -2361,8 +2361,8 @@ f
             <p>Ao acessar a página de pagamento para finalizar a compra da passagem, siga estas etapas para garantir que o processo seja realizado corretamente:</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Conferir dados do voo e da compra</h2>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao05} alt="Imagem dos dados do voo e da compra"></img>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao06} alt="Imagem da conferência dos dados do voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam05} alt="Imagem dos dados do voo e da compra"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam06} alt="Imagem da conferência dos dados do voo"></img>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Taxa de embarque:</strong> Verifique se a taxa de embarque exibida está correta. Esse valor é fundamental, pois influencia o limite do cartão de crédito virtual que será gerado.</li>
                 <li><strong>Pontos:</strong> Confira a quantidade de milhas (pontos) que será utilizada para a compra da passagem.</li>
@@ -2373,7 +2373,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionar cartão de crédito</h2>
             <p>Após verificar todas as informações, clique no botão para adicionar cartão de crédito.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao07} alt="Imagem da adição do cartão de crédito"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam07} alt="Imagem da adição do cartão de crédito"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Gerar cartão de crédito virtual</h2>
             <p>Voltar ao Cockpit: Navegue de volta até o Cockpit no cartão da transação correspondente.</p>
