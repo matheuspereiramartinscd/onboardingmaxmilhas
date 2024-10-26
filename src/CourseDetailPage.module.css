@@ -303,7 +303,7 @@
 
 a {
     font-family: inherit; /* Herda a fonte do elemento pai */
-    font-size: 10px; /* Herda o tamanho de fonte do elemento pai */
+    font-size: 14px; /* Herda o tamanho de fonte do elemento pai */
     color: black;
     text-decoration: none;
     font-weight: normal; /* Ajuste o peso da fonte para coincidir com o padrão */
