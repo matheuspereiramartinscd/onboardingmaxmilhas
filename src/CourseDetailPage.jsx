@@ -5284,7 +5284,590 @@ f
         </div>
     ),
 },
+/*Noções de informá<tica>*/
+'Navegadores de internet': {
+    title: 'Navegadores de internet',
+    videoUrl: 'https://www.youtube.com/embed/9Q_QAAKkJog',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Navegadores de internet</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica00} alt="Imagem de navegadores de internet"></img>
+            <p>Um navegador de internet, ou browser, é um software que permite acessar sites na web. Ele é a ferramenta que utilizamos para acessar sistemas, como o Metabase e Slack, além de realizar pesquisas, enviar e-mails, entre outras atividades online.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais navegadores utilizados:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Google Chrome:</strong> O navegador mais popular, conhecido por sua velocidade e integração com a conta do Google.</li>
+                <li><strong>Mozilla Firefox:</strong> Focado em privacidade e segurança, possui uma vasta biblioteca de extensões.</li>
+                <li><strong>Microsoft Edge:</strong> O navegador padrão do Windows, integrado com os serviços Microsoft.</li>
+                <li><strong>Opera GX:</strong> Opera GX é uma versão do navegador Opera feita para jogadores, desenvolvida pela empresa Opera Software AS.</li>
+                <li><strong>Brave:</strong> Brave é um navegador web livre e de código aberto desenvolvido pela Brave Software, Inc.</li>
+                <li><strong>Vivaldi:</strong> O Vivaldi é um navegador gratuito desenvolvido pela Vivaldi Technologies.</li>
+            </ul>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades básicas:</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Barra de Endereços (URL):</h3>
+            <p>A barra onde se insere o endereço do site que você deseja acessar. Exemplo: Para acessar o site da MaxMilhas, digite www.maxmilhas.com.br na barra de endereços e pressione "Enter".</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Guia de Navegação (Tabs):</h3>
+            <p>Abrir múltiplas páginas ao mesmo tempo em diferentes guias.</p>
+            <p>Atalhos: Ctrl + T para abrir uma nova guia, Ctrl + W para fechar a guia atual.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Histórico de navegação:</h3>
+            <p>Ver a lista de sites visitados nos últimos dias ou semanas. No Chrome: Acesse o histórico com o atalho Ctrl + H.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Favoritos:</h3>
+            <p>Salvar páginas importantes para acessar rapidamente depois. No Chrome: Clique na estrela à direita da barra de endereços para adicionar aos favoritos.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Navegação anônima/privada:</h3>
+            <p>Permite navegar sem que o navegador armazene histórico ou cookies da sessão. Atalho no Chrome: Ctrl + Shift + N.</p>
 
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Segurança e privacidade:</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Certificados SSL:</h3>
+            <p>Sempre prefira acessar sites que começam com https://. Isso garante que o site é seguro e suas informações estão protegidas por criptografia. Verifique o ícone de cadeado na barra de endereços.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Senhas seguras:</h3>
+            <p>Não salve senhas de sites críticos (bancos, e-mails) diretamente no navegador. Use senhas fortes e ative a autenticação de dois fatores sempre que possível.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Bloqueadores de anúncios e extensões de segurança:</h3>
+            <p>Utilize extensões como Adblock para evitar anúncios invasivos e HTTPS Everywhere para garantir uma navegação mais segura.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Cookies e cache:</h3>
+            <p>Cookies são pequenos arquivos que os sites armazenam no seu computador para lembrar preferências. Limpe os cookies e o cache periodicamente para liberar espaço e evitar problemas de privacidade. Atalho no Chrome: Ctrl + Shift + Delete para limpar dados de navegação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Boas práticas:</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Atualizações do navegador:</h3>
+            <p>Mantenha o navegador sempre atualizado para garantir o máximo de segurança e acesso às funcionalidades mais recentes.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Extensões e plugins:</h3>
+            <p>Instale apenas extensões de fontes confiáveis para evitar vulnerabilidades de segurança.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Uso de VPNs:</h3>
+            <p>Para acessos corporativos, como o Metabase e outros sistemas internos, o uso de VPNs é necessário para garantir uma conexão segura e privada. A VPN permite que você acesse recursos da empresa como se estivesse fisicamente no escritório.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Exercício prático:</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Abrir e navegar em um site:</h3>
+            <p>Acesse o site da MaxMilhas (www.maxmilhas.com.br), navegue pelas diferentes seções e adicione o site aos seus favoritos.</p>
+            
+            <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Limpeza de cookies e cache:</h3>
+            <p>Limpe os cookies e o cache do seu navegador, seguindo as orientações acima.</p>
+
+            <p>O uso adequado de navegadores é essencial para a eficiência no trabalho, principalmente em ambientes corporativos como o da MaxMilhas, onde várias ferramentas são acessadas pela web. Lembrando que, ao seguir boas práticas de segurança, você também protege seus dados e informações da empresa.</p>
+        </div>
+    ),
+},
+'Extensões de navegador': {
+    title: 'Extensões de navegador',
+    videoUrl: 'https://www.youtube.com/embed/Wuev9f3NNwI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Extensões de navegador</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica01} alt="Extensões de navegador"></img>
+            <p>Extensões são pequenos programas que podem ser instalados no navegador para adicionar novas funcionalidades. Elas permitem personalizar e melhorar a experiência de navegação, como bloqueio de anúncios, integração com ferramentas de trabalho (ex. Slack) e aumento de produtividade.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como instalar extensões pela loja oficial</h2>
+            <p>Cada navegador possui sua própria loja de extensões:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Google Chrome: Chrome Web Store.</li>
+                <li>Mozilla Firefox: Firefox Add-ons.</li>
+                <li>Microsoft Edge: Microsoft Edge Add-ons.</li>
+                <li>Safari: Safari Extensions.</li>
+            </ul>
+            <p>Passo a passo para instalar extensões pela loja:</p>
+            <ol style={{ marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Abra o navegador e vá até a loja de extensões correspondente.</li>
+                <li>No Chrome, por exemplo, digite <strong>https://chrome.google.com/webstore</strong> na barra de endereços.</li>
+                <li>Use a barra de pesquisa da loja para buscar a extensão desejada.</li>
+                <li>Clique na extensão e depois no botão “Adicionar ao Chrome” (ou equivalente no seu navegador).</li>
+                <li>Confirme a instalação. A extensão será adicionada ao navegador e o ícone dela aparecerá ao lado da barra de endereços.</li>
+            </ol>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como instalar extensões manualmente (modo desenvolvedor)</h2>
+            <p>Extensões fora da loja oficial podem ser instaladas manualmente, especialmente no modo desenvolvedor. Isso é útil para testar extensões personalizadas ou instalar aquelas que não estão disponíveis na loja oficial.</p>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalando extensões manualmente no Google Chrome:</h3>
+            <ol style={{ marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Baixe o arquivo .zip ou .crx da extensão que deseja instalar e extraia o conteúdo (se estiver zipado).</li>
+                <li>Abra o Chrome e, na barra de endereços, digite <strong>chrome://extensions/</strong>.</li>
+                <li>Habilite o modo desenvolvedor no canto superior direito da página.</li>
+                <li>Clique em carregar sem compactação e selecione a pasta onde estão os arquivos extraídos da extensão.</li>
+                <li>A extensão será instalada e aparecerá como qualquer outra instalada pela loja.</li>
+            </ol>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como instalar extensões fora da loja (modo desenvolvedor)</h2>
+            <p>Em alguns casos, você pode instalar extensões que não estão disponíveis na loja oficial. Isso é feito em modo desenvolvedor. Este método deve ser usado com cautela, pois extensões não verificadas podem representar riscos de segurança.</p>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para instalar no Google Chrome:</h3>
+            <ol style={{ marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Habilite o modo desenvolvedor seguindo os passos anteriores (vá até chrome://extensions/ e ative o modo).</li>
+                <li>Faça o download da extensão desejada (geralmente em formato .crx).</li>
+                <li>Arraste o arquivo .crx diretamente para a página de extensões do Chrome.</li>
+                <li>Confirme a instalação. A extensão será ativada e estará pronta para uso.</li>
+            </ol>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica02} alt="Instalação manual de extensões"></img>
+            <p>Observação: Este método pode não estar disponível em todos os navegadores, ou pode ser necessário desativar proteções de segurança.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Habilitar extensões na navegação privada</h2>
+            <p>Por padrão, muitas extensões não funcionam quando você está navegando no modo anônimo/privado, para garantir a privacidade do usuário. No entanto, é possível habilitar extensões específicas para funcionar também no modo privado.</p>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Como habilitar extensões na navegação privada no Google Chrome:</h3>
+            <ol style={{ marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Abra o navegador e vá até a página de extensões (chrome://extensions/).</li>
+                <li>Encontre a extensão que deseja permitir no modo anônimo.</li>
+                <li>Clique no botão detalhes da extensão.</li>
+                <li>Ative a opção permitir em modo anônimo.</li>
+            </ol>
+            <p>Agora, a extensão funcionará também quando você estiver no modo de navegação privada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dicas de boas práticas com extensões</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Verifique a origem da extensão:</strong> Baixe extensões apenas de fontes confiáveis, principalmente se estiver instalado fora da loja oficial.</li>
+                <li><strong>Atualize regularmente:</strong> Certifique-se de que as extensões estão sempre atualizadas para a versão mais recente, a fim de evitar vulnerabilidades de segurança.</li>
+                <li><strong>Cuidado com permissões:</strong> Algumas extensões pedem permissões excessivas. Verifique sempre o que a extensão está solicitando antes de instalá-la.</li>
+                <li><strong>Desinstale extensões desnecessárias:</strong> Muitas extensões podem deixar o navegador mais lento. Se uma extensão não for mais necessária, desinstale-a.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Exercício prático:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Instalar uma extensão pela loja: Acesse a Chrome Web Store e instale uma extensão de bloqueio de anúncios, como o Adblock.</li>
+                <li>Instalar uma extensão no modo desenvolvedor: Encontre uma extensão fora da loja, habilite o modo desenvolvedor e instale-a manualmente.</li>
+                <li>Habilitar extensão no modo privado: Ative o modo de navegação anônima e habilite uma extensão que possa ser usada nesse modo.</li>
+            </ul>
+
+            <p>As extensões são ferramentas poderosas para personalizar e otimizar a experiência de navegação. Com a capacidade de instalar extensões tanto pela loja oficial quanto manualmente, além de habilitá-las para uso na navegação privada, você pode garantir que seu navegador esteja preparado para maximizar sua produtividade.</p>
+        </div>
+    ),
+},
+'Cookies': {
+    title: 'Cookies',
+    videoUrl: 'https://www.youtube.com/embed/r6v2QSU_l9I',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>O que são cookies?</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica03} alt="Imagem sobre cookies" />
+
+            <p>
+                Cookies são pequenos arquivos de texto armazenados no seu navegador pelo site que você visita. Eles são usados para lembrar de informações importantes, como as preferências de idioma, login automático e outros dados que ajudam a personalizar a sua experiência de navegação.
+            </p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Para que servem os cookies?</h2>
+            <p>Cookies têm diversas finalidades, e os principais tipos são:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Cookies necessários:</strong> São essenciais para o funcionamento básico do site. Sem esses cookies, algumas funcionalidades do site não funcionam corretamente, como o carrinho de compras ou o login.</li>
+                <li><strong>Cookies de preferências:</strong> Guardam informações sobre suas preferências, como o idioma ou o layout desejado, para tornar sua experiência mais personalizada.</li>
+                <li><strong>Cookies de desempenho:</strong> Coletam dados anônimos sobre como os usuários interagem com o site, ajudando os desenvolvedores a melhorar o desempenho e a funcionalidade.</li>
+                <li><strong>Cookies de publicidade:</strong> São usados para exibir anúncios personalizados, com base no comportamento de navegação e interesses do usuário.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cookies de sessão vs. cookies persistentes:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Cookies de sessão:</strong> São temporárias e desaparecem quando você fecha o navegador.</li>
+                <li><strong>Cookies persistentes:</strong> Permanecem no seu navegador até que expirem ou sejam excluídos manualmente.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como os cookies funcionam?</h2>
+            <p>
+                Quando você visita um site, ele pode enviar cookies para o seu navegador, que armazena essas informações. Cada vez que você retorna ao site, o navegador envia os cookies de volta, permitindo que o site o reconheça e ofereça uma experiência mais personalizada. Por exemplo:
+            </p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Se você fizer login em um site e marcar "Lembrar-me", o site usará um cookie para manter você logado nas próximas visitas.</li>
+                <li>Se você adicionar itens a um carrinho de compras e sair do site, um cookie pode lembrar o que você colocou no carrinho para que os itens ainda estejam lá quando você voltar.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Privacidade e cookies</h2>
+            <p>
+                Os cookies são úteis, mas também podem levantar preocupações sobre a privacidade. Muitos sites utilizam cookies de terceiros (cookies criados por domínios diferentes daquele que você está visitando) para rastrear suas atividades em vários sites, criando um perfil detalhado dos seus hábitos de navegação.
+            </p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como gerenciar cookies no navegador</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Google Chrome</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Ver e apagar cookies:</strong> No navegador, clique nos três pontinhos no canto superior direito. Selecione configurações e role até privacidade e segurança. Clique em Cookies e outros dados do site. Aqui, você pode ver, bloquear ou apagar cookies de sites específicos.</li>
+                <li><strong>Bloquear todos os cookies:</strong> Acesse as mesmas configurações mencionadas acima. Selecione a opção bloquear todos os cookies para evitar que qualquer site armazene cookies no seu navegador.</li>
+                <li><strong>Limitar cookies de terceiros:</strong> Se você deseja apenas bloquear cookies de publicidade ou rastreamento, selecione a opção Bloquear cookies de terceiros.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Mozilla Firefox</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Ver e apagar cookies:</strong> No menu do Firefox, clique em configurações. Vá até privacidade e segurança e, na seção Cookies e dados do site, clique em gerenciar dados para ver e excluir cookies.</li>
+                <li><strong>Bloquear cookies:</strong> Nas mesmas configurações, selecione a opção bloquear cookies e dados de sites e personalize o nível de bloqueio desejado.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Microsoft Edge</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Ver e apagar cookies:</strong> No Edge, vá até Configurações &gt Cookies e permissões de site &gt Gerenciar e excluir cookies e dados do site. Aqui, você pode escolher limpar cookies ou bloquear alguns tipos de cookies.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Safari</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Ver e apagar cookies:</strong> No Safari, vá até Preferências &gt Privacidade &gt Gerenciar dados do site para ver e remover cookies.</li>
+                <li><strong>Bloquear cookies:</strong> No mesmo menu, marque a opção Bloquear todos os cookies para impedir que qualquer site armazene cookies.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dicas de segurança ao gerenciar cookies</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Verifique a origem dos cookies: Evite aceitar cookies de sites desconhecidos ou de terceiros que você não confia.</li>
+                <li>Limpe cookies regularmente: Ao limpar cookies periodicamente, você impede que sites rastreiem seu comportamento de navegação a longo prazo.</li>
+                <li>Use navegadores com proteção avançada: Muitos navegadores modernos oferecem funcionalidades de proteção contra rastreamento de cookies, o que pode ser útil para melhorar sua privacidade.</li>
+                <li>Utilize o modo de navegação privada: Navegadores oferecem o modo privado ou anônimo, que não armazena cookies após o término da sessão.</li>
+            </ul>
+
+            <p>
+                Cookies são fundamentais para o funcionamento e personalização da experiência em muitos sites, mas devem ser gerenciados com cuidado para proteger sua privacidade. Saber como visualizar, apagar e bloquear cookies, conforme necessário, é uma prática essencial para manter um ambiente de navegação seguro e eficiente.
+            </p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Exercício prático</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Verifique e limpe os cookies do seu navegador: Acesse as configurações de cookies do seu navegador e veja quais sites estão armazenando cookies. Limpe aqueles que não são mais necessários.</li>
+                <li>Bloqueie cookies de terceiros: Habilite a opção de bloquear cookies de terceiros no seu navegador.</li>
+                <li>Ative o modo privado: Realize uma navegação em modo privado e observe que nenhum cookie será salvo após fechar o navegador.</li>
+            </ul>
+        </div>
+    ),
+},
+'Conectividade e redes': {
+        title: 'Conectividade e redes',
+        videoUrl: 'https://www.youtube.com/embed/kZU47PSNMIA',
+        description: (
+            <div>
+                <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Conectividade e redes</h1>
+                <p>A conectividade refere-se à capacidade de dispositivos se conectarem entre si ou à internet, permitindo a troca de dados. Essa comunicação pode ocorrer de várias formas, seja por conexões físicas (cabo) ou sem fio (Wi-Fi).</p>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica04} alt="Imagem de conectividade e redes"></img>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de redes</h2>
+                <p>As redes de computadores são classificadas de acordo com o tamanho, a cobertura geográfica e os tipos de conexão. Aqui estão os principais tipos de redes:</p>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li><strong>LAN (Local Area Network):</strong> Rede local que conecta dispositivos em uma área limitada, como um escritório ou prédio. É usada principalmente para compartilhar recursos como impressoras e arquivos.</li>
+                    <li><strong>WAN (Wide Area Network):</strong> Rede de longa distância que conecta dispositivos em diferentes localidades geográficas. A internet é o exemplo mais conhecido de uma WAN.</li>
+                    <li><strong>WLAN (Wireless Local Area Network):</strong> Versão sem fio de uma LAN, que utiliza a tecnologia Wi-Fi para conectar dispositivos sem a necessidade de cabos.</li>
+                    <li><strong>VPN (Virtual Private Network):</strong> Rede privada virtual que permite uma conexão segura e criptografada a outra rede pela internet. É usada principalmente por empresas para permitir que colaboradores se conectem remotamente aos sistemas internos da empresa com segurança.</li>
+                </ul>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Componentes de uma rede</h2>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li><strong>Roteador:</strong> Dispositivo que encaminha os dados entre a rede local e a internet. O roteador também é responsável por distribuir o sinal de Wi-Fi.</li>
+                    <li><strong>Switch:</strong> Equipamento que conecta diferentes dispositivos em uma rede LAN, permitindo que eles troquem informações diretamente.</li>
+                    <li><strong>Modem:</strong> Converte o sinal da internet recebido pela operadora de telefonia em um formato utilizável pelo roteador.</li>
+                    <li><strong>Cabo Ethernet:</strong> Fio que conecta dispositivos à rede, proporcionando uma conexão mais estável e rápida do que o Wi-Fi.</li>
+                    <li><strong>Servidor:</strong> Computador ou sistema que fornece serviços para outros computadores, como armazenamento de arquivos, sites ou aplicativos.</li>
+                </ul>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como funciona a conexão com a internet?</h2>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li><strong>ISP (Internet Service Provider):</strong> A empresa que fornece o serviço de internet. Ela é responsável por conectar a rede interna da empresa ou residência à internet global.</li>
+                    <li><strong>IP (Internet Protocol):</strong> Endereço numérico atribuído a cada dispositivo conectado à internet. Ele funciona como uma identidade única que permite a comunicação entre os dispositivos.</li>
+                    <li><strong>DNS (Domain Name System):</strong> Traduz os nomes de domínio (ex: www.exemplo.com) para endereços IP, facilitando o acesso a sites sem precisar lembrar o número do IP.</li>
+                </ul>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>VPNs e conexões corporativas</h2>
+                <p>VPN (Virtual Private Network) é uma ferramenta essencial para conectividade segura em ambientes corporativos, especialmente para trabalho remoto. Ela permite que você acesse a rede da empresa de qualquer lugar do mundo como se estivesse fisicamente presente na sede da empresa.</p>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li><strong>Segurança:</strong> A VPN criptografa os dados transmitidos, garantindo que a comunicação seja privada e segura, protegendo as informações da empresa de hackers e espiões.</li>
+                    <li><strong>Acesso remoto:</strong> Com a VPN, é possível acessar servidores, sistemas internos e outros recursos da empresa de forma segura, mesmo fora do escritório.</li>
+                </ul>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Segurança em redes</h2>
+                <p>Ao se conectar a uma rede, principalmente em ambientes corporativos, é fundamental adotar medidas de segurança para evitar riscos. Algumas práticas incluem:</p>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li>Usar VPN em redes públicas: Evite acessar dados sensíveis em redes Wi-Fi públicas sem o uso de VPN. Essas redes são mais vulneráveis a ataques cibernéticos.</li>
+                    <li>Autenticação em duas etapas: Além de uma senha forte, use a autenticação em duas etapas para garantir uma camada extra de segurança.</li>
+                    <li>Firewalls: Mantenha o firewall ativado para filtrar tráfego suspeito e proteger a rede contra acessos não autorizados.</li>
+                    <li>Antivírus atualizado: Instale e mantenha um antivírus atualizado para detectar e remover possíveis ameaças.</li>
+                </ul>
+
+                <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conectividade na prática</h2>
+                <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                    <li><strong>Configuração de Wi-Fi:</strong> No ambiente de trabalho, o Wi-Fi permite mobilidade, mas é importante se certificar de que a rede é segura, exigindo senha de acesso e criptografia WPA3.</li>
+                    <li><strong>Verificação de conexão:</strong> Se a conexão estiver lenta, verifique o status do roteador e dos cabos Ethernet. Em caso de falha, o problema pode estar com o provedor de internet (ISP).</li>
+                    <li><strong>Acesso remoto via VPN:</strong> Ao trabalhar remotamente, conecte-se à VPN da empresa antes de acessar servidores ou sistemas corporativos. Isso garante que seus dados estão seguros e dentro do ambiente da empresa.</li>
+                </ul>
+
+                <p>Conectividade e redes são a espinha dorsal da comunicação digital. Compreender os tipos de rede e os dispositivos que as compõem, além de como utilizar ferramentas como VPNs para manter a segurança, é fundamental para o funcionamento eficiente de um ambiente corporativo.</p>
+            </div>
+        ),
+    },
+'VPNs': {
+    title: 'VPNs',
+    videoUrl: 'https://www.youtube.com/embed/8lZkluH6lE0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>O que é VPN?</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica04} alt="Imagem sobre o que é VPN"></img>
+            <p>VPN (Virtual Private Network) é uma tecnologia que cria uma conexão segura e criptografada entre o seu dispositivo e uma rede, geralmente a internet, permitindo que você navegue ou acesse recursos de forma privada. É amplamente utilizada em ambientes corporativos para conectar funcionários de maneira segura à rede interna da empresa, especialmente durante o trabalho remoto.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Para que serve a VPN?</h2>
+            <p><strong>Segurança:</strong> A VPN protege os dados transmitidos entre o usuário e a rede, impedindo que terceiros interceptem a comunicação. Isso é especialmente importante ao acessar redes públicas, como Wi-Fi em aeroportos ou cafés.</p>
+            <p><strong>Privacidade:</strong> Ao mascarar seu endereço IP, uma VPN esconde a sua localização e atividade na internet, fornecendo mais privacidade online.</p>
+            <p><strong>Acesso remoto:</strong> Com a VPN, você pode acessar a rede interna da empresa, sistemas e documentos como se estivesse fisicamente no escritório, mesmo trabalhando de casa ou em qualquer outro lugar.</p>
+            <p><strong>Acesso a conteúdo restrito:</strong> A VPN também é usada para contornar restrições geográficas, permitindo que você acesse conteúdos bloqueados ou sites que só podem ser acessados em determinadas regiões.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como funciona a VPN?</h2>
+            <p>A VPN funciona criando um "túnel" seguro entre seu dispositivo (computador, smartphone, tablet) e o servidor da VPN, através da internet. Todos os dados enviados e recebidos passam por esse túnel criptografado, o que torna muito difícil para hackers ou qualquer pessoa interceptar as informações.</p>
+            <p><strong>Criptografia:</strong> Os dados são criptografados na origem, ou seja, antes de saírem do seu dispositivo. Isso significa que, mesmo que alguém intercepte as informações, não conseguirá lê-las.</p>
+            <p><strong>Endereço IP virtual:</strong> A VPN atribui um novo endereço IP ao seu dispositivo, o que ajuda a ocultar sua identidade e localização reais.</p>
+            <p><strong>Servidor VPN:</strong> Os dados passam por um servidor VPN, que pode estar localizado em outro país ou dentro da empresa, antes de alcançar a internet ou o destino final.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de VPNs</h2>
+            <p><strong>VPN de acesso remoto:</strong> Esse tipo de VPN é usado principalmente por funcionários que precisam acessar a rede da empresa fora do escritório. A VPN permite que eles se conectem à rede interna com segurança, como se estivessem na própria empresa.</p>
+            <p><strong>VPN de site a site:</strong> Geralmente usada por empresas que possuem vários escritórios em diferentes locais. Ela cria uma conexão segura entre as redes locais de dois ou mais escritórios, permitindo o compartilhamento seguro de dados.</p>
+            <p><strong>VPN pessoal:</strong> Utilizada por indivíduos para proteger suas atividades online, evitando o rastreamento e acessando conteúdos bloqueados.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Vantagens da VPN</h2>
+            <p><strong>Segurança adicional:</strong> Protege a troca de dados, mesmo em redes públicas.</p>
+            <p><strong>Acesso remoto seguro:</strong> Colaboradores podem trabalhar de qualquer lugar, mantendo a segurança dos dados da empresa.</p>
+            <p><strong>Proteção de informações sensíveis:</strong> Dados corporativos críticos ficam protegidos por criptografia.</p>
+            <p><strong>Anônima sua conexão:</strong> Oculta sua identidade ao navegar, evitando rastreamento de atividades online.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cuidados ao usar VPNs</h2>
+            <p><strong>Conexões públicas:</strong> Sempre use a VPN ao se conectar em redes Wi-Fi públicas para garantir que seus dados não sejam interceptados.</p>
+            <p><strong>Política de senhas:</strong> Use senhas seguras para acessar a VPN e atualize-as regularmente.</p>
+            <p><strong>Desempenho:</strong> A conexão via VPN pode ser um pouco mais lenta, já que os dados precisam passar pelo servidor VPN antes de chegar ao destino. Certifique-se de que a sua conexão de internet seja estável para evitar quedas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>VPNs e segurança corporativa</h2>
+            <p>Ao usar a VPN no ambiente de trabalho, você se conecta a recursos corporativos como bancos de dados, sistemas internos e servidores de arquivos. Essa conexão é protegida, o que impede a exposição de informações sensíveis.</p>
+            <p><strong>Autenticação em dois fatores:</strong> Muitas empresas exigem que, além de uma senha, você utilize um segundo fator de autenticação, como um código enviado ao celular, para acessar a VPN.</p>
+            <p><strong>Firewall e antivírus:</strong> Mesmo usando uma VPN, é importante manter um firewall ativo e um antivírus atualizado, pois a VPN protege a conexão, mas não elimina riscos de malwares locais.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Na MaxMilhas</h2>
+            <p>Na MaxMilhas, as VPNs Bifrost e AVG Secure VPN desempenham um papel importante para garantir a continuidade das emissões de passagens, especialmente em sites de companhias aéreas como Latam, Gol e Azul. Essas ferramentas são utilizadas para superar bloqueios e evitar problemas durante o processo de emissão, como erros de pagamento ou de busca de voo.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>AVG Secure VPN</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica05} alt="Imagem da AVG Secure VPN"></img>
+            <p>Ela é usada para acessar sites de companhias aéreas que podem bloquear acessos diretos ou limitar certas funcionalidades dependendo da localização geográfica.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Bifrost</h2>
+            <p>A Bifrost é especificamente utilizada para efetuar logins no site da Latam através de sessões salvas. O processo inclui os seguintes passos:</p>
+            <p>Iniciar o aplicativo da Bifrost e digitar o CPF do ofertante.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam10} alt="Imagem do início do aplicativo Bifrost"></img>
+            <p>Conectar-se a um IP associado à sessão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam11} alt="Imagem da conexão ao IP associado"></img>
+            <p>Abrir a extensão Bifrost no navegador, inserir o CPF do ofertante na extensão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam12} alt="Imagem da extensão Bifrost"></img>
+            <p>A extensão fará o login automático no site da Latam utilizando a sessão salva previamente, permitindo a continuidade da emissão sem interrupções.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam13} alt="Imagem da continuidade da emissão"></img>
+            <p>Esse procedimento é fundamental para garantir a eficiência nas operações, especialmente quando os sites impõem restrições.</p>
+            <p>A VPN é uma ferramenta indispensável para garantir a segurança e privacidade no acesso à internet, principalmente no ambiente corporativo. Saber como usar a VPN corretamente é essencial para proteger os dados da empresa, garantindo o acesso seguro a redes e recursos internos de qualquer lugar.</p>
+        </div>
+    ),
+},
+'Ferramentas de escritório': {
+    title: 'Ferramentas de escritório',
+    videoUrl: 'https://www.youtube.com/embed/-UTucUC8UJw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ferramentas de escritório</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica06} alt="Imagem de ferramentas de escritório"></img>
+            
+            <p>No ambiente corporativo da MaxMilhas, várias ferramentas de escritório são utilizadas diariamente para otimizar a produtividade, colaboração e comunicação. Entre as mais comuns, destacam-se ferramentas da Google e outros utilitários que facilitam o trabalho. Nesta aula, exploraremos as principais funcionalidades e como elas são utilizadas.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Google Docs</h2>
+            <p>Ferramenta de edição de texto online, utilizada para criar e compartilhar documentos de forma colaborativa.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Edição simultânea: Vários colaboradores podem trabalhar no mesmo documento ao mesmo tempo.</li>
+                <li>Comentários e sugestões: Permite adicionar comentários e sugerir edições sem alterar o texto original.</li>
+                <li>Histórico de versões: Visualize e recupere versões anteriores do documento.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Google Sheets</h2>
+            <p>Planilha online utilizada para gerenciar dados, fazer cálculos e criar gráficos.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Fórmulas e funções: Utilize funções como SOMA, MÉDIA, PROCV para automatizar cálculos.</li>
+                <li>Compartilhamento e colaboração em tempo real: Trabalhe simultaneamente com colegas na mesma planilha.</li>
+                <li>Gráficos dinâmicos: Crie gráficos para visualização rápida e clara de dados complexos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Google Slides</h2>
+            <p>Ferramenta para criação de apresentações.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Criação de slides personalizados: Adicione textos, imagens e gráficos de forma dinâmica.</li>
+                <li>Temas e modelos prontos: Escolha entre várias opções de design pré-prontas.</li>
+                <li>Apresentação remota: Compartilhe sua tela e apresente slides durante videoconferências no Google Meet.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Slack</h2>
+            <p>Ferramenta de comunicação corporativa.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Canais de comunicação: Organize as conversas por equipes ou projetos específicos (#geral, #atendimento).</li>
+                <li>Mensagens diretas e grupos: Envie mensagens privadas ou crie grupos de discussão.</li>
+                <li>Status personalizável: Defina seu status como disponível, ausente ou em reunião e adicione ícones.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Google Meet</h2>
+            <p>Ferramenta de videoconferência integrada com o Google Workspace.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Reuniões em vídeo: Faça chamadas de vídeo com até 100 participantes.</li>
+                <li>Compartilhamento de tela: Mostre sua tela para apresentar documentos ou planilhas durante reuniões.</li>
+                <li>Integração com o calendário: Agende reuniões diretamente pelo Google Calendar e receba lembretes.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Gmail</h2>
+            <p>Ferramenta de e-mail corporativo.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Organização por etiquetas: Categorize suas mensagens com etiquetas para facilitar a busca.</li>
+                <li>Filtros e regras automáticas: Configure filtros para classificar automaticamente e-mails recebidos.</li>
+                <li>Integração com Google Workspace: Sincronize com o Google Drive, Google Calendar e outras ferramentas Google.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Snipping Tool</h2>
+            <p>Ferramenta nativa do Windows para capturas de tela.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Captura seletiva: Selecione uma parte específica da tela para capturar.</li>
+                <li>Edição simples: Faça marcações básicas diretamente na captura.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>8. Lightshot</h2>
+            <p>Ferramenta de captura de tela mais avançada.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Captura personalizáveis: Selecione uma área específica da tela para capturar e editar.</li>
+                <li>Anotações: Adicione textos, setas e destaques na própria imagem capturada.</li>
+                <li>Armazenamento em nuvem: Carregue e compartilhe a captura rapidamente por meio de links.</li>
+            </ul>
+
+            <p>Essas ferramentas são essenciais para o bom funcionamento das operações na MaxMilhas. Elas permitem uma comunicação eficaz, colaboração em tempo real e maior organização das tarefas diárias. Familiarizar-se com cada uma delas ajuda a otimizar o trabalho e a garantir que todos estejam alinhados com os processos internos.</p>
+        </div>
+    ),
+},
+'Ferramentas de captura de tela': {
+    title: 'Ferramentas de captura de tela',
+    videoUrl: 'https://www.youtube.com/embed/NFdBDpowgKc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ferramentas de captura de tela</h1>
+            <p>As ferramentas de captura de tela são amplamente utilizadas no ambiente de trabalho para registrar informações visuais que facilitam a comunicação e a documentação de processos. No contexto da MaxMilhas, essas ferramentas são essenciais, especialmente para capturar e-tickets e outras informações relacionadas ao sistema, como detalhes de transações, comprovantes de emissão e mensagens de erro.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais ferramentas de captura de tela utilizadas</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Snipping Tool (Ferramenta de Captura do Windows):</strong> Ferramenta nativa do Windows, permite capturar uma parte específica da tela ou a tela inteira, e editar ou salvar rapidamente a captura.</li>
+                <li><strong>Lightshot:</strong> Um aplicativo de captura de tela que permite selecionar qualquer área da tela e capturar em dois cliques. Ele também oferece opções para editar e compartilhar imediatamente.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como utilizar as ferramentas</h2>
+            <p>Captura de e-tickets: Utilize essas ferramentas para capturar os e-tickets gerados após as emissões de passagens e armazená-los corretamente, garantindo a documentação e verificação de dados.</p>
+            <p>Captura de erros do sistema: Ao ocorrer um erro ou falha durante o processo de emissão ou consulta, você pode capturar a tela com a mensagem de erro e enviá-la para suporte ou incluir no relatório de análise.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Etapas para captura</h2>
+            <ol style={{ listStyleType: 'decimal', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Abrir a ferramenta de captura escolhida (Snipping Tool ou Lightshot).</li>
+                <li>Selecionar a área específica da tela que deseja capturar (como e-tickets ou mensagens de erro).</li>
+                <li>Editar ou adicionar anotações, se necessário.</li>
+                <li>Salvar a captura de tela no local desejado ou compartilhe diretamente com os responsáveis.</li>
+            </ol>
+
+            <p>Essas ferramentas são essenciais para garantir que informações importantes sejam capturadas com precisão e rapidez, facilitando a comunicação interna e a solução de problemas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalando as ferramentas</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Instalar o Snipping Tool (Ferramenta de Captura do Windows)</h3>
+            <p>O Snipping Tool é nativo no Windows e já vem pré-instalado. No entanto, se você não o encontrar ou estiver usando uma versão mais antiga do Windows, pode seguir os seguintes passos para garantir que a ferramenta esteja ativa:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Windows 10/11:</strong> O Snipping Tool foi substituído pelo aplicativo Ferramenta de Captura e Esboço. Para usá-lo, basta pressionar Windows + Shift + S e a ferramenta será aberta automaticamente.</li>
+                <li><strong>Windows 7/8/8.1:</strong> Vá até a Barra de pesquisa do Windows (ou pressione Windows + S). Digite "Ferramenta de Captura" ou "Snipping Tool" e ela aparecerá nos resultados de pesquisa. Se ela não estiver instalada, pode ser necessário ativá-la: Vá em Painel de Controle &gt Programas &gt Ativar ou desativar recursos do Windows. Marque a opção "Ferramenta de Captura" (ou "Snipping Tool") e clique em OK.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Instalar o Lightshot</h3>
+            <p>O Lightshot é uma ferramenta de captura de tela leve e popular. Veja como instalá-lo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Acessar o site de download:</strong> Visite o site oficial do Lightshot: <a href="https://app.prntscr.com">https://app.prntscr.com</a>.</li>
+                <li><strong>Baixar o instalador:</strong> Clique no botão Download for Windows (ou Download for Mac, se estiver usando um Mac). Aguarde o download ser concluído.</li>
+                <li><strong>Executar o instalador:</strong> Depois que o download terminar, localize o arquivo lightshot_setup.exe no seu computador e clique duas vezes para executar o instalador.</li>
+                <li><strong>Seguir as instruções:</strong> Siga as instruções na tela para instalar o Lightshot. Quando a instalação estiver concluída, o Lightshot será executado automaticamente e aparecerá na barra de tarefas, no canto inferior direito da tela.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica07} alt="Imagem do Lightshot"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Como usar as ferramentas após a instalação</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Snipping Tool/Ferramenta de Captura:</strong> Após a instalação, basta usar o atalho Windows + Shift + S para capturar rapidamente qualquer parte da tela.</li>
+                <li><strong>Lightshot:</strong> Assim que o Lightshot estiver instalado, pressione a tecla PrtScn (ou o atalho configurado) para capturar e editar a tela diretamente.</li>
+            </ul>
+            <p>Ambas as ferramentas são essenciais para quem precisa de eficiência na captura de informações em sistemas como o de emissão de bilhetes ou na documentação de processos de trabalho.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como configurar atalhos para ferramentas de captura de tela</h2>
+            <p>Utilizar atalhos pode facilitar bastante o processo de captura de tela, tornando-o mais rápido e eficiente. Aqui está como configurar e usar atalhos para as principais ferramentas de captura de tela mencionadas:</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Snipping Tool (Ferramenta de Captura do Windows)</h3>
+            <p>No Windows 10 e 11, o Snipping Tool agora faz parte do aplicativo Ferramenta de Captura e Esboço (Snip & Sketch). Para capturar a tela rapidamente, você pode usar o atalho de teclado:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Atalho padrão:</strong> Windows + Shift + S</li>
+            </ul>
+            <p>Esse atalho abre uma pequena barra de ferramentas na parte superior da tela, permitindo escolher entre:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Capturar toda a tela</li>
+                <li>Capturar uma janela específica</li>
+                <li>Capturar uma área retangular</li>
+                <li>Capturar uma área desenhada à mão livre</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Lightshot</h3>
+            <p>O Lightshot já vem com um atalho padrão configurado:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Atalho padrão:</strong> PrtScn (ou Print Screen)</li>
+            </ul>
+            <p>Este atalho permite que você capture rapidamente uma área da tela selecionada. Se desejar alterar o atalho, siga os passos abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acesse o menu de configurações do Lightshot, clicando com o botão direito do mouse no ícone do programa na barra de tarefas.</li>
+                <li>Selecione "Settings" (Configurações).</li>
+                <li>Na aba "Hotkeys" (Atalhos), você pode redefinir os atalhos de captura de tela de acordo com sua preferência.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dicas de uso</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Pratique o uso dos atalhos para se familiarizar com a velocidade e eficiência das ferramentas.</li>
+                <li>Ao capturar e-tickets, sempre verifique se todas as informações estão visíveis antes de salvar.</li>
+                <li>Utilize a função de edição das ferramentas para adicionar anotações ou destacar informações importantes.</li>
+            </ul>
+        </div>
+    )
+},
+'Manutenção do sistema utilizando CCleaner': {
+    title: 'Manutenção do sistema e uso do CCleaner',
+    videoUrl: 'https://www.youtube.com/embed/uecWRJT43ao',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Manutenção do sistema e uso do CCleaner</h1>
+            <p>Manter o sistema limpo e otimizado é essencial para garantir o bom desempenho do computador, especialmente em ambientes corporativos, onde a eficiência e a rapidez são fundamentais. Ferramentas como o CCleaner ajudam a remover arquivos temporários, corrigir erros no registro e melhorar o desempenho geral da máquina.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica08} alt="Imagem sobre manutenção do sistema"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que é manutenção de sistema?</h2>
+            <p>A manutenção do sistema envolve práticas para garantir que o computador continue funcionando de forma rápida e sem problemas. Entre os principais aspectos de manutenção estão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Limpeza de arquivos temporários: São arquivos que ocupam espaço desnecessário no disco rígido.</li>
+                <li>Gerenciamento de aplicativos iniciados automaticamente: Muitos programas são configurados para iniciar com o sistema, o que pode afetar o desempenho.</li>
+                <li>Verificação de erros no registro: O registro do Windows pode acumular entradas desnecessárias ou corrompidas, que podem retardar o desempenho.</li>
+                <li>Atualização de software: Manter os programas atualizados ajuda a prevenir vulnerabilidades de segurança e melhora a compatibilidade com o sistema operacional.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. CCleaner: o que é e como funciona?</h2>
+            <p>O CCleaner é uma ferramenta popular para realizar a manutenção do sistema. Ele permite que você limpe arquivos desnecessários, otimize o desempenho e gerencie o registro do Windows.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalação do CCleaner</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acesse o site oficial: Vá até o site oficial: <a href="https://www.ccleaner.com">www.ccleaner.com</a>.</li>
+                <li>Baixe a versão gratuita: Clique no botão Download e escolha a versão gratuita (Free).</li>
+                <li>Execute o instalador: Após o download, localize o arquivo de instalação e clique duas vezes nele. Siga as instruções na tela para concluir a instalação.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Funções principais do CCleaner</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Limpeza de arquivos:</strong> Abra o CCleaner e vá até a aba limpeza personalizada. Selecione os tipos de arquivos que deseja limpar (navegadores, cache, arquivos temporários de sistema). Clique em analisar e, em seguida, em executar limpeza para remover os arquivos desnecessários.</li>
+                <li><strong>Correção do registro:</strong> Vá até a aba Registro. Clique em procurar erros para analisar o registro do Windows. Após a análise, clique em corrigir erros selecionados. O CCleaner perguntará se deseja fazer um backup do registro – é recomendado que você faça isso antes de corrigir.</li>
+                <li><strong>Gerenciamento de Inicialização:</strong> Na aba Ferramentas, selecione Inicialização. Desative ou remova programas que iniciam automaticamente com o Windows e que não são necessários.</li>
+                <li><strong>Desinstalar programas:</strong> No mesmo menu Ferramentas, você pode acessar a opção Desinstalar para remover programas que não estão sendo utilizados, liberando espaço e melhorando o desempenho.</li>
+                <li><strong>Monitoramento de navegadores:</strong> O CCleaner permite também a limpeza de cookies e cache de navegadores como Chrome, Firefox e Edge, ajudando a liberar memória e a manter a privacidade.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dicas para uso eficiente do CCleaner</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Frequência:</strong> É recomendado realizar uma limpeza com o CCleaner ao menos uma vez por semana, dependendo da intensidade de uso do computador.</li>
+                <li><strong>Backup de registro:</strong> Sempre faça o backup do registro antes de corrigir erros, garantindo que você possa restaurá-lo em caso de qualquer problema.</li>
+                <li><strong>Cuidados:</strong> Evite a limpeza de cookies essenciais ou senhas salvas, caso você dependa dessas funções no dia a dia.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Outras dicas de manutenção</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Desfragmentação do disco:</strong> Para computadores com HDs, a desfragmentação pode ajudar a melhorar o desempenho. Isso reorganiza os arquivos para que o sistema possa acessá-los mais rapidamente.</li>
+                <li><strong>Atualizações:</strong> Certifique-se de que o sistema operacional e os drivers estejam sempre atualizados.</li>
+                <li><strong>Verificações de malware:</strong> Use programas antivírus e anti-malware para garantir que seu sistema esteja protegido de ameaças.</li>
+            </ul>
+
+            <p>A manutenção regular do sistema, com a ajuda de ferramentas como o CCleaner, pode prevenir problemas e garantir que seu computador esteja sempre funcionando no máximo desempenho. A prática regular de limpeza, atualização e gerenciamento de programas é essencial para manter um ambiente de trabalho eficiente.</p>
+        </div>
+    ),
+},
 
 
 };
