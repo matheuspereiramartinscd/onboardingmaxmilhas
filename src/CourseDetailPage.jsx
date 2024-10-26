@@ -5154,13 +5154,11 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
-            <p>Acesso ao iFractal ponto online: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
+            <p>Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas14} alt="Imagem do acesso ao iFractal ponto online"></img>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
-            <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências.</p>
-
-            <p>O iFractal Ponto Online é uma ferramenta importante para a gestão eficaz do ponto na MaxMilhas. Ao utilizar essa plataforma, a empresa consegue otimizar o controle de jornada de trabalho, garantindo maior eficiência nas operações e melhor acompanhamento da frequência dos colaboradores.</p>
+            <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências. O iFractal Ponto Online é uma ferramenta importante para a gestão eficaz do ponto na MaxMilhas. Ao utilizar essa plataforma, a empresa consegue otimizar o controle de jornada de trabalho, garantindo maior eficiência nas operações e melhor acompanhamento da frequência dos colaboradores.</p>
         </div>
     ),
 },
@@ -5217,11 +5215,17 @@ f
             <p>O TripCase é uma ferramenta útil que permite aos viajantes organizar e gerenciar todas as informações relacionadas às suas viagens em um único lugar. Uma das suas principais funcionalidades é a capacidade de buscar e acessar e-tickets quando a companhia aérea não fornece o localizador.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Utilização do TripCase em casos especiais</h2>
-            <p>Quando usar:</p>
             <p>O TripCase é especialmente útil em situações em que a companhia aérea não gera um localizador da passagem.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Criando uma viagem:</h2>
-            <p>Acesse o site do TripCase e crie uma nova viagem.</p>
+            <p>Acesse o site do <a
+      href="https://www.tripcase.com/web2/trips"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      TripCase (https://www.tripcase.com/web2/trips)
+    </a>e crie uma nova viagem.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas16} alt="Imagem do TripCase - Criando uma nova viagem"></img>
 
             <p>Clique em criar nova viagem</p>
@@ -5279,9 +5283,11 @@ f
             <p>O Zendesk pode ser integrado a outras ferramentas e plataformas, facilitando a gestão de informações e a comunicação com os clientes.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Benefícios do uso do Zendesk</h2>
-            <p>Melhoria na experiência do cliente: Proporciona um atendimento mais ágil e eficaz, aumentando a satisfação do cliente.</p>
-            <p>Eficiência operacional: Centraliza as informações e facilita a comunicação entre equipes, otimizando o tempo dos agentes.</p>
-            <p>Acesso a dados: Os relatórios e análises permitem que as empresas tomem decisões baseadas em dados concretos sobre o desempenho do atendimento.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+    <li><strong>Melhoria na experiência do cliente</strong>: Proporciona um atendimento mais ágil e eficaz, aumentando a satisfação do cliente.</li>
+    <li><strong>Eficiência operacional</strong>: Centraliza as informações e facilita a comunicação entre equipes, otimizando o tempo dos agentes.</li>
+    <li><strong>Acesso a dados</strong>: Os relatórios e análises permitem que as empresas tomem decisões baseadas em dados concretos sobre o desempenho do atendimento.</li>
+</ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessando o Zendesk</h2>
             <p>O Zendesk pode ser acessado através do link <a
@@ -5290,11 +5296,8 @@ f
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
-      maxmilhas.zendesk.com
-    </a> </p>
-            <p>Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login</p>
-
-            <p>O Zendesk é uma ferramenta poderosa para empresas que buscam aprimorar seu atendimento ao cliente. Com suas diversas funcionalidades, permite que as equipes de suporte gerenciem solicitações de maneira eficaz, contribuindo para uma experiência mais positiva para os clientes.</p>
+      maxmilhas.zendesk.com.
+    </a> Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login. O Zendesk é uma ferramenta poderosa para empresas que buscam aprimorar seu atendimento ao cliente. Com suas diversas funcionalidades, permite que as equipes de suporte gerenciem solicitações de maneira eficaz, contribuindo para uma experiência mais positiva para os clientes.</p>
         </div>
     ),
 },
