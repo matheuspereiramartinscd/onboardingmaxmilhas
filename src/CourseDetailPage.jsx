@@ -4484,6 +4484,463 @@ f
         </div>
     ),
 },
+/*Milhas*/
+'Milhas': {
+    title: 'Milhas',
+    videoUrl: 'https://www.youtube.com/embed/VXriDqshKWc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas00} alt="O que são milhas aéreas?"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que são milhas aéreas?</h2>
+            <p>Milhas aéreas são pontos acumulados em programas de fidelidade de companhias aéreas, que podem ser trocados por passagens aéreas, upgrades de classe, produtos, ou serviços oferecidos pelas companhias parceiras. Cada vez que um cliente voa com uma companhia aérea ou realiza compras em estabelecimentos parceiros, ele acumula milhas que podem ser utilizadas para reduzir custos em futuras viagens.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acumulação de milhas</h2>
+            <p>As milhas são normalmente acumuladas com base na distância voada, no valor do bilhete adquirido, ou em promoções específicas do programa de fidelidade. Além de voos, as milhas podem ser acumuladas em:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Compras em lojas parceiras</li>
+                <li>Cartões de crédito que oferecem programas de recompensas</li>
+                <li>Aluguel de carros</li>
+                <li>Hospedagens em hotéis</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Troca de milhas</h2>
+            <p>As milhas acumuladas podem ser trocadas por diversos benefícios, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Passagens aéreas: Utilizando milhas para cobrir o custo total ou parcial de um bilhete.</li>
+                <li>Upgrades: Melhoria de classe na passagem adquirida (por exemplo, de econômica para executiva).</li>
+                <li>Produtos e serviços: Utilização das milhas em lojas parceiras ou para pagar serviços, como aluguel de carros ou hospedagens.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Validade das milhas</h2>
+            <p>As milhas geralmente têm uma validade definida, podendo expirar após um certo período de inatividade ou se não forem utilizadas. É importante que os viajantes estejam cientes das regras do programa de fidelidade em que estão inscritos para maximizar a utilização das milhas acumuladas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância das milhas aéreas</h2>
+            <p>Acumular milhas aéreas é uma estratégia eficaz para os viajantes frequentes que desejam reduzir os custos de suas viagens, obter benefícios adicionais e aproveitar ofertas exclusivas que as companhias aéreas e seus parceiros oferecem.</p>
+        </div>
+    ),
+},
+'Regulamentação da venda de milhas': {
+    title: 'Regulamentação da venda de milhas',
+    videoUrl: 'https://www.youtube.com/embed/VIhcOjCTbd4',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Regulamentação da venda de milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas01} alt="Imagem da regulamentação da venda de milhas"></img>
+            
+            <p>A venda de milhas aéreas é uma prática comum no setor de viagens, mas envolve diversas considerações legais e regulatórias. A regulamentação é importante para proteger os direitos dos consumidores, garantir a transparência nas transações e assegurar a integridade dos programas de fidelidade.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Aspectos legais</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Programas de fidelidade:</strong> A maioria das companhias aéreas possui políticas específicas que proíbem ou restringem a venda de milhas. Isso significa que, antes de vender ou comprar milhas, é essencial entender as regras do programa de fidelidade em questão.</li>
+                <li><strong>Legislação do consumidor:</strong> No Brasil, a venda de milhas deve estar em conformidade com o Código de Defesa do Consumidor. Isso inclui a necessidade de informar claramente as condições de venda, os direitos dos consumidores, e garantir a segurança nas transações.</li>
+                <li><strong>Impostos e taxas:</strong> A venda de milhas pode estar sujeita a impostos, dependendo da legislação vigente. É importante que tanto os vendedores quanto os compradores estejam cientes de suas obrigações fiscais.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Marketplace de milhas</h2>
+            <p>Com o crescimento do mercado de milhas, diversas plataformas e empresas têm surgido para facilitar a compra e venda de milhas. Essas plataformas geralmente operam como intermediárias, conectando ofertantes de milhas com compradores. Algumas considerações sobre essas plataformas incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Segurança das transações:</strong> As plataformas devem garantir a segurança das informações e dos pagamentos dos usuários.</li>
+                <li><strong>Transparência:</strong> As informações sobre taxas, condições de venda, e as políticas de cancelamento devem ser claramente apresentadas.</li>
+                <li><strong>Verificação de identidade:</strong> Para prevenir fraudes, muitas plataformas exigem que os usuários verifiquem suas identidades antes de realizar transações.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Considerações éticas</h2>
+            <p>A venda de milhas também levanta questões éticas, especialmente em relação à transparência das práticas comerciais e ao impacto sobre os programas de fidelidade. Empresas e consumidores devem considerar o efeito que a revenda de milhas pode ter sobre o valor e a sustentabilidade desses programas.</p>
+        </div>
+    ),
+},
+'Precificação das milhas': {
+    title: 'Precificação das milhas',
+    videoUrl: 'https://www.youtube.com/embed/QSc1O0iBOxY',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Precificação das milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas02} alt="Imagem da precificação das milhas" />
+
+            <p>A precificação das milhas aéreas é um fator essencial que influencia o mercado de compra e venda de milhas. Compreender como as milhas são precificadas ajuda tanto os consumidores quanto os vendedores a tomar decisões informadas. Vários fatores determinam o valor das milhas, e esta seção aborda os principais aspectos dessa dinâmica.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Fatores que influenciam a precificação</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Demanda e oferta:</strong> Assim como qualquer outro ativo, o valor das milhas é afetado pela lei da oferta e da demanda. Quando a demanda por milhas aumenta, seu preço tende a subir. Da mesma forma, se muitas milhas estão disponíveis no mercado, os preços podem cair.</li>
+                <li><strong>Tipo de companhia aérea:</strong> Companhias aéreas diferentes têm estruturas de preços variadas para suas milhas. Algumas companhias, como as de low-cost, podem ter milhas que valem menos em comparação com as tradicionais. As políticas de fidelidade de cada companhia influenciam diretamente o valor das milhas.</li>
+                <li><strong>Validade das milhas:</strong> As milhas têm um prazo de validade, e isso pode impactar seu preço. Milhas que estão prestes a expirar podem ser vendidas a preços mais baixos, enquanto milhas com validade mais longa podem ter um valor maior.</li>
+                <li><strong>Uso das milhas:</strong> O tipo de passagem que pode ser adquirida com as milhas também influencia seu valor. Por exemplo, milhas que podem ser usadas para voos em classe executiva ou para destinos populares tendem a ter um valor mais alto.</li>
+                <li><strong>Promoções e ofertas:</strong> Muitas companhias aéreas realizam promoções e campanhas que podem aumentar ou diminuir o valor das milhas. É comum que as companhias ofereçam promoções para compra de milhas em determinados períodos, o que pode impactar o preço.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cálculo do preço das milhas</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Preço de mercado:</strong> O preço das milhas pode ser consultado em plataformas de revenda de milhas, onde o valor médio por milha é apresentado. Os usuários podem comparar preços e escolher a melhor opção para comprar ou vender.</li>
+                <li><strong>Custo por milheiro:</strong> Uma forma comum de calcular o valor das milhas é considerar o custo por milheiro (CPM), que representa o preço pago a cada 1.000 pontos utilizados.</li>
+                <li><strong>Ajustes de preço:</strong> É importante que os vendedores considerem os custos de transação e taxas ao definir o preço das milhas. Isso garante que a venda ainda seja lucrativa após a dedução de despesas.</li>
+            </ul>
+        </div>
+    ),
+},
+'Como acumular milhas': {
+    title: 'Como acumular milhas',
+    videoUrl: 'https://www.youtube.com/embed/1LMN0pbS2Lk',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Como acumular milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas03} alt="Imagem sobre acumular milhas" />
+
+            <p>Acumular milhas é uma maneira inteligente de obter benefícios em viagens, como passagens aéreas gratuitas, upgrades e até mesmo produtos e serviços de parceiros. As milhas aéreas fazem parte de programas de fidelidade oferecidos por companhias aéreas, e o acúmulo pode ser feito de diversas maneiras, desde viagens frequentes até o uso de cartões de crédito e compras em parceiros comerciais. Esta seção aborda as formas mais comuns e eficazes de acumular milhas.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Viajando com companhias aéreas parceiras</h2>
+            <p>A maneira mais tradicional de acumular milhas é voando com a companhia aérea com a qual você tem um programa de fidelidade. A quantidade de milhas acumuladas varia de acordo com a distância percorrida e a classe da tarifa escolhida (econômica, executiva, primeira classe).</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Distância do voo:</strong> Quanto maior a distância, mais milhas você acumula. Voos internacionais tendem a acumular mais milhas do que voos domésticos.</li>
+                <li><strong>Tipo de tarifa:</strong> Tarifa de classe executiva ou primeira classe geralmente acumula mais milhas do que as tarifas econômicas.</li>
+                <li><strong>Programas de aliança:</strong> Algumas companhias fazem parte de alianças globais, como Star Alliance, SkyTeam e Oneworld. Isso significa que você pode acumular milhas voando com várias companhias aéreas dentro da mesma aliança, aumentando as opções de rotas e parceiros.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Utilizando cartões de crédito com programas de recompensa</h2>
+            <p>Os cartões de crédito são uma das formas mais eficazes de acumular milhas sem precisar viajar. Diversos bancos oferecem cartões vinculados a programas de milhagem, onde cada real, dólar ou euro gasto com o cartão pode ser convertido em pontos ou milhas.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Acúmulo por gasto:</strong> Dependendo do cartão, você pode ganhar 1, 2 ou até mais pontos por dólar gasto.</li>
+                <li><strong>Bônus de adesão:</strong> Muitos cartões oferecem bônus de milhas na adesão, podendo variar de 10.000 a 100.000 milhas, dependendo da categoria do cartão e dos gastos exigidos nos primeiros meses.</li>
+                <li><strong>Gastos estratégicos:</strong> Compras em categorias específicas, como viagens, restaurantes e supermercados, muitas vezes geram mais milhas por dólar gasto.</li>
+                <li><strong>Conversão de pontos:</strong> Muitos cartões permitem converter pontos de programas de recompensa em milhas de várias companhias aéreas. Fique atento às promoções de transferência de pontos, onde você pode receber até 100% de bônus nas milhas transferidas.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Compras em parceiros de programas de fidelidade</h2>
+            <p>Os programas de fidelidade das companhias aéreas possuem parcerias com diversas empresas, permitindo que você acumule milhas em suas compras cotidianas. Isso inclui desde compras online até reservas de hotéis, aluguel de carros e assinatura de serviços.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Shopping online:</strong> Muitas companhias aéreas possuem plataformas de e-commerce onde você pode ganhar milhas ao comprar em lojas parceiras.</li>
+                <li><strong>Reservas de hotéis e aluguel de carros:</strong> Ao reservar hotéis e alugar carros por meio dos parceiros dos programas de milhas, você acumula milhas extras. Plataformas como Booking.com, Hoteis.com e locadoras de veículos oferecem essa possibilidade.</li>
+                <li><strong>Delivery e outros serviços:</strong> Atualmente, há programas de fidelidade que oferecem acúmulo de milhas em serviços como delivery de comida, assinaturas de serviços de streaming e até postos de gasolina.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Promoções de aceleração de acúmulo de milhas</h2>
+            <p>Ficar atento às promoções oferecidas pelas companhias aéreas e bancos pode ser uma ótima forma de acumular milhas rapidamente. Algumas promoções oferecem bonificações ao comprar milhas diretamente ou ao transferir pontos do cartão de crédito.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Bônus por transferência de pontos:</strong> Muitas companhias aéreas fazem promoções periódicas de transferência de pontos de cartão de crédito para milhas, oferecendo bônus que variam de 20% a 100% sobre o valor transferido.</li>
+                <li><strong>Compra de milhas:</strong> Algumas companhias oferecem a possibilidade de comprar milhas com desconto ou em condições especiais. Durante as promoções, essa pode ser uma maneira vantajosa de acumular milhas rapidamente.</li>
+                <li><strong>Clubes de milhas:</strong> Diversos programas de fidelidade oferecem clubes de assinaturas mensais onde, pagando um valor fixo, o cliente recebe uma quantidade de milhas todo mês, além de bônus em promoções e benefícios exclusivos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Transferência de milhas de programas parceiros</h2>
+            <p>Além dos cartões de crédito, existem outros programas de fidelidade, como clubes de compras, lojas online e programas de hotéis, que permitem a transferência de pontos para programas de milhagem. A estratégia de acúmulo pode ser combinada com esses outros programas para otimizar o ganho de milhas.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Programas de hotéis:</strong> Programas de fidelidade de redes hoteleiras, como Hilton Honors e Marriott Bonvoy, permitem a conversão de pontos acumulados em milhas de companhias aéreas.</li>
+                <li><strong>Clubes de benefícios:</strong> Programas como Dotz, Livelo e outros, permitem que você converta pontos acumulados em milhas aéreas de diversas companhias.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Desafios e segmentos de status</h2>
+            <p>Alguns programas de fidelidade oferecem "desafios de status" que permitem que você acumule mais milhas ao atingir determinados objetivos, como realizar um número de voos ou gastar uma quantia específica em viagens dentro de um período determinado.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Segmentos de status:</strong> Além de milhas, você pode acumular segmentos ou pontos qualificáveis para subir de status dentro do programa de fidelidade. Quanto maior o status, mais benefícios você recebe, como bônus de milhas em voos, check-in prioritário e acesso a salas VIP.</li>
+            </ul>
+
+            <p>Acumular milhas vai além de apenas voar frequentemente. Com uma estratégia bem planejada, é possível maximizar o acúmulo de milhas usando cartões de crédito, aproveitando promoções e comprando em parceiros de programas de fidelidade. Quanto mais informado você estiver sobre as diferentes formas de acumular milhas, maiores serão suas chances de aproveitar as melhores oportunidades e benefícios.</p>
+        </div>
+    ),
+},
+'Principais programas de fidelidade': {
+    title: 'Principais programas de fidelidade',
+    videoUrl: 'https://www.youtube.com/embed/G0uWnq8zPJo',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Principais programas de fidelidade</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas04} alt="Programas de fidelidade"></img>
+            <p>Existem diversos programas de fidelidade ao redor do mundo, cada um com suas particularidades e vantagens. A escolha do programa ideal depende do seu perfil de consumo, destinos frequentes e companhias aéreas que você costuma utilizar. Abaixo, destacamos alguns dos principais programas de fidelidade, tanto nacionais quanto internacionais, para ajudá-lo a entender melhor as opções disponíveis.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Smiles (GOL Linhas Aéreas)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes01} alt="Smiles"></img>
+            <p>O Smiles é o programa de fidelidade da GOL Linhas Aéreas, uma das maiores companhias aéreas do Brasil. Ele oferece a possibilidade de acumular milhas não apenas em voos da GOL, mas também em voos das companhias aéreas parceiras internacionais, como Air France, KLM, Qatar Airways e Delta Airlines. Além disso, o Smiles possui um clube de assinaturas que oferece benefícios exclusivos, como acúmulo mensal de milhas e promoções com bônus de transferências de pontos.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> Smiles possui parcerias com hotéis, locadoras de veículos, e-commerces e cartões de crédito.</li>
+                <li><strong>Club Smiles:</strong> Oferece diferentes níveis de planos, com bônus de milhas, além de promoções e vantagens exclusivas para assinantes.</li>
+                <li><strong>Categorias de fidelidade:</strong> Smiles tem categorias que vão de Smiles a Diamante, com benefícios como despacho de bagagem gratuito, acesso a salas VIP e prioridade no embarque.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. LATAM Pass (LATAM Airlines)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes02} alt="LATAM Pass"></img>
+            <p>O LATAM Pass é o programa de fidelidade da LATAM Airlines, que surgiu da fusão entre as companhias LAN e TAM. Ele é amplamente utilizado por viajantes frequentes na América Latina e oferece acúmulo de pontos em voos da LATAM e de companhias aéreas parceiras da aliança oneworld, como British Airways, American Airlines e Iberia.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> Além de voos, você pode acumular pontos LATAM Pass em compras, reservas de hotéis e uso de cartões de crédito parceiros.</li>
+                <li><strong>Categorias:</strong> O programa possui categorias que vão de Gold a Black Signature, com benefícios que incluem prioridade no check-in, acesso a salas VIP, upgrades de cabine e bagagem adicional gratuita.</li>
+                <li><strong>Promoções:</strong> Frequentemente oferece promoções de transferências de pontos de cartões de crédito com bônus que podem chegar a 100%.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. TudoAzul (Azul Linhas Aéreas)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes00} alt="TudoAzul"></img>
+            <p>O TudoAzul é o programa de fidelidade da Azul Linhas Aéreas, uma das companhias que mais cresce no Brasil. Ele permite o acúmulo de pontos em voos nacionais e internacionais da Azul, bem como de parceiros, além de diversas promoções exclusivas para seus clientes.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> TudoAzul tem parceria com uma grande variedade de bancos e empresas, incluindo lojas online e hotéis.</li>
+                <li><strong>Club TudoAzul:</strong> Um clube de milhas que oferece acúmulo regular de pontos e promoções exclusivas para assinantes.</li>
+                <li><strong>Categorias:</strong> TudoAzul oferece categorias de fidelidade que vão de TudoAzul a Diamante, com benefícios que incluem embarque prioritário, upgrade de cabine e assentos preferenciais.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Miles&Go (TAP Air Portugal)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas05} alt="Miles&Go"></img>
+            <p>O Miles&Go é o programa de fidelidade da TAP Air Portugal, e é uma ótima opção para quem viaja com frequência entre o Brasil e a Europa. Por ser parte da Star Alliance, você pode acumular milhas voando com diversas companhias aéreas ao redor do mundo, como Lufthansa, United Airlines e Turkish Airlines.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> Além dos voos com a TAP e companhias da Star Alliance, o Miles&Go oferece acúmulo de milhas em locadoras de veículos, hotéis e cartões de crédito parceiros.</li>
+                <li><strong>Club TAP Miles&Go:</strong> Oferece um acúmulo mensal de milhas e vantagens exclusivas para assinantes.</li>
+                <li><strong>Categorias:</strong> As categorias vão de Silver e Gold, com benefícios como embarque prioritário, acesso a lounges, franquia de bagagem extra e upgrades.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. AAdvantage (American Airlines)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas06} alt="AAdvantage"></img>
+            <p>O AAdvantage é o programa de fidelidade da American Airlines, uma das maiores companhias aéreas do mundo e membro da aliança oneworld. Ele oferece uma ampla gama de maneiras de acumular milhas, desde voos até compras em parceiros, aluguel de carros, reservas de hotéis e uso de cartões de crédito.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> Voando com companhias aéreas parceiras da oneworld e acumulando em empresas de diversos setores, como hotéis, cartões de crédito e aluguel de carros.</li>
+                <li><strong>Categorias:</strong> AAdvantage tem categorias de status que oferecem benefícios como acesso a lounges, upgrades gratuitos, bagagem extra e embarque prioritário.</li>
+                <li><strong>Promoções:</strong> Muitas vezes oferece oportunidades para compra de milhas com bônus ou para ganhar milhas em dobro em voos específicos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Executive Club (British Airways)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas07} alt="Executive Club"></img>
+            <p>O Executive Club é o programa de fidelidade da British Airways, também parte da aliança oneworld. Seus pontos, chamados de "Avios", podem ser acumulados e usados em voos com a British Airways e suas parceiras da oneworld, além de parceiros como Iberia e American Airlines.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Parcerias:</strong> Acúmulo de Avios ao voar com companhias da oneworld e diversos parceiros em outros setores, como hotéis e aluguel de carros.</li>
+                <li><strong>Categorias:</strong> O programa possui categorias que vão de Blue a Gold e Platinum, oferecendo benefícios como embarque prioritário, franquia de bagagem adicional e upgrades.</li>
+                <li><strong>Promoções:</strong> Frequentemente, oferece promoções para compra de Avios com bônus e oportunidades para ganhar Avios em voos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Considerações Finais</h2>
+            <p>Na hora de escolher um programa de fidelidade, é importante considerar seu padrão de viagem, as companhias aéreas que você utiliza com mais frequência, e quais benefícios são mais relevantes para você. Pesquise e compare as opções disponíveis, e não hesite em se inscrever em mais de um programa para maximizar suas vantagens. Cada milha acumulada pode ser um passo a mais em direção à sua próxima viagem!</p>
+        </div>
+    )
+},
+'Validade das milhas': {
+    title: 'Validade das milhas',
+    videoUrl: 'https://www.youtube.com/embed/8fOnyjC0AOE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Validade das milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomilhas08} alt="Imagem da validade das milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que é a validade das milhas?</h2>
+            <p>As milhas acumuladas em programas de fidelidade possuem um prazo de validade definido. Este prazo varia de acordo com o programa de cada companhia aérea e o nível de fidelidade do cliente. Quando as milhas atingem o fim do seu prazo, elas expiram e não podem mais ser utilizadas para a emissão de passagens ou outros serviços.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Como funciona a validade das milhas?</h2>
+            <p>A validade das milhas depende de alguns fatores:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Programa de fidelidade:</strong> Cada programa define suas próprias regras de validade. Por exemplo, alguns programas podem permitir que as milhas expirem em 24 ou 36 meses.</li>
+                <li><strong>Nível de fidelidade:</strong> Clientes em níveis mais altos de programas de fidelidade podem ter prazos de validade mais longos ou até mesmo não ter a expiração de milhas enquanto mantiverem esse status.</li>
+                <li><strong>Movimentações na conta:</strong> Em alguns programas, realizar novas emissões ou acumular mais milhas pode estender o prazo de validade das milhas existentes.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Exemplo de validade em programas de fidelidade</h2>
+            <p><strong>Latam Pass:</strong> As milhas acumuladas no Latam Pass possuem validade de até 24 meses, dependendo do tipo de conta e nível do cliente.</p>
+            <p><strong>Azul TudoAzul:</strong> No programa TudoAzul, as milhas geralmente têm validade de 24 meses, mas o cliente Diamante pode ter prazos maiores ou extensões de validade conforme o nível de fidelidade.</p>
+            <p><strong>Smiles (Gol):</strong> No Smiles, as milhas têm validade de 3 anos para os clientes nos níveis mais básicos, enquanto clientes com status Smiles Ouro ou Diamante podem ter prazos maiores.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Como acompanhar a validade das milhas?</h2>
+            <p>O acompanhamento da validade das milhas pode ser feito diretamente pelo site ou aplicativo do programa de fidelidade. Basta acessar sua conta e verificar o extrato de milhas, onde constarão as informações sobre validade.</p>
+            <p><strong>Notificações e e-mails:</strong> Muitas companhias aéreas enviam notificações por e-mail ou no aplicativo avisando quando suas milhas estão próximas de expirar.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Estratégias para não perder milhas por vencimento</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Utilização regular:</strong> Sempre que possível, utilize suas milhas antes do vencimento para evitar perder o saldo acumulado. Acompanhe regularmente o extrato de milhas para saber quando elas irão expirar.</li>
+                <li><strong>Renovação de milhas:</strong> Alguns programas oferecem a opção de renovação ou extensão da validade mediante o pagamento de uma taxa. Verifique as políticas de renovação no site do programa de fidelidade.</li>
+                <li><strong>Transferência para outros serviços:</strong> Em alguns casos, pode ser interessante transferir suas milhas para parceiros do programa, como hotéis, aluguel de carros ou serviços de streaming, antes que expirem.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Conclusão</h2>
+            <p>Entender a validade das milhas e gerenciar suas informações é essencial para tirar o máximo proveito dos programas de fidelidade. Ao acompanhar de perto o extrato e utilizar as estratégias corretas, você pode garantir que suas milhas sejam utilizadas de forma eficaz, evitando perdas por vencimento.</p>
+        </div>
+    ),
+},
+/* Prejuizos */
+'Prejuízos': {
+    title: 'Prejuízos',
+    videoUrl: 'https://www.youtube.com/embed/Lq8E-Ck_mlE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Prejuízos</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos00} alt="Imagem de prejuízos"></img>
+            <p>Prejuízos referem-se à perda financeira que uma empresa ou indivíduo sofre em decorrência de operações, investimentos ou eventos que resultam em perdas de ativos ou receitas.</p>
+            <p>Os prejuízos podem ter impactos significativos na saúde financeira e operacional de uma empresa. Esses impactos incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Redução do lucro:</strong> Prejuízos diretos reduzem os lucros da empresa, afetando sua capacidade de re-investir e crescer.</li>
+                <li><strong>Fluxo de caixa comprometido:</strong> Perdas financeiras podem comprometer o fluxo de caixa, dificultando o pagamento de contas e salários.</li>
+                <li><strong>Reputação e confiança do mercado:</strong> Prejuízos recorrentes podem afetar a percepção da empresa no mercado, levando à perda de clientes e à diminuição da confiança dos investidores.</li>
+                <li><strong>Dificuldades de financiamento:</strong> Empresas com histórico de prejuízos podem enfrentar dificuldades para obter empréstimos ou financiamentos, pois os credores podem considerar o risco elevado.</li>
+                <li><strong>Impacto na cultura organizacional:</strong> A persistência de prejuízos pode afetar a moral da equipe, levando a um ambiente de trabalho menos motivador e produtivo.</li>
+                <li><strong>Aumento de custos:</strong> Para recuperar-se de prejuízos, as empresas podem incorrer em custos adicionais com reestruturações ou novas estratégias, o que pode perpetuar o ciclo de perdas.</li>
+            </ul>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Impacto dos prejuízos</h2>
+            <p>No período de janeiro de 2022 até 28 de março de 2022, a empresa enfrentou um cenário financeiro que merece atenção e análise detalhada. Durante esses meses, um prejuízo total de R$119 mil foi registrado. Este valor é significativo, mas é importante ressaltar que, paralelamente, houve R$190 mil em prejuízos evitados, o que indica um esforço ativo da empresa em minimizar perdas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos01} alt="Imagem de causadores dos prejuízos"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Causadores dos prejuízos</h2>
+            <p>Os principais fatores que contribuíram para os prejuízos gerados incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Emissão na conta errada:</strong> Quando uma passagem é emitida na conta de um cliente diferente, gerando confusão e a necessidade de correção.</li>
+                <li><strong>Transação cancelada e localizador ativo:</strong> Emissões canceladas que ainda mantêm um localizador ativo, resultando em complicações no processo de reserva e faturamento.</li>
+                <li><strong>Aumento sem tratativa ou com tratativa indevida:</strong> Aumento nas milhas de forma inadequada, que pode impactar a satisfação do cliente e a contabilidade da empresa.</li>
+                <li><strong>Emissão duplicada:</strong> Quando uma passagem é emitida mais de uma vez para o mesmo cliente, resultando em custos adicionais.</li>
+            </ul>
+            <p>Estas causas representam 86% do total de prejuízos, conforme a análise de Pareto, o que indica que focar nessas áreas pode ser fundamental para reduzir os custos.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Erros no processo de emissão</h2>
+            <p>No mesmo período, foram contabilizados 256 erros relacionados ao processo de emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos02} alt="Imagem de erros no processo de emissão"></img>
+            
+            <p>Os motivos mais frequentes para esses erros incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Emissão duplicada</strong></li>
+                <li><strong>Emissão na conta errada</strong></li>
+                <li><strong>Transação cancelada e localizador ativo</strong></li>
+                <li><strong>Aumento sem tratativa ou com tratativa indevida</strong></li>
+            </ul>
+            <p>Esses quatro motivos são responsáveis por 92% do total de erros registrados, reforçando a necessidade de revisão e aprimoramento nos processos de emissão.</p>
+        </div>
+    ),
+},
+'Tipos comuns de prejuízos': {
+    title: 'Tipos comuns de prejuízos',
+    videoUrl: 'https://www.youtube.com/embed/6--ZiF3BEto',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Tipos comuns de prejuízos</h1>
+            <p>Identificar e entender os tipos de prejuízos comuns é fundamental para reduzir perdas financeiras e melhorar a experiência dos clientes.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes03} alt="Imagem de tipos comuns de prejuízos"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Emissão duplicada</h2>
+            <p>Esse tipo de prejuízo ocorre quando uma passagem é emitida mais de uma vez para o mesmo voo, resultando em uma duplicidade de cobrança e impacto financeiro negativo para a empresa. Implementar processos de verificação é essencial para evitar essa situação, que pode gerar frustração para o cliente e perda de recursos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Emissão na conta errada</h2>
+            <p>A emissão de passagens na conta de um cliente incorreto pode causar confusão e complicações na gestão de milhas e pagamentos. Esse erro pode resultar em reembolsos, transferências de milhas e insatisfação do cliente, impactando a reputação da empresa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Transação cancelada com localizador ativo</h2>
+            <p>Quando uma transação é cancelada, mas o localizador do voo permanece ativo, a empresa enfrenta prejuízos, pois o cliente pode tentar usar um serviço que já não está disponível. Isso pode gerar custos adicionais, como taxas de cancelamento e necessidade de reemissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Aumento de milhas sem tratativa ou tratativa indevida</h2>
+            <p>Esse tipo de prejuízo ocorre quando há aumento de milhas sem tratativa adequada, como a validação do motivo para tal aumento. Tratativas inadequadas podem levar a erros na conta de milhas, resultando em frustração e reclamações dos clientes.</p>
+
+            <p>A identificação e análise desses tipos de prejuízos são essenciais para a saúde financeira da empresa. Implementar medidas preventivas e treinamento adequado para os colaboradores ajuda a minimizar esses problemas e melhorar a experiência do cliente.</p>
+        </div>
+    ),
+},
+'Emissões duplicadas': {
+    title: 'Emissões duplicadas',
+    videoUrl: 'https://www.youtube.com/embed/KPlt3ZamRoc',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões duplicadas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos04} alt="Imagem de emissão duplicada"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que ocorre?</h2>
+            <p>A emissão duplicada acontece quando uma mesma transação é emitida mais de uma vez. Isso pode ocorrer tanto na conta do mesmo ofertante quanto em contas diferentes. Esse tipo de erro pode gerar confusão e complicações no processo de reserva e faturamento, afetando negativamente tanto a experiência do cliente quanto as finanças da empresa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Por que ocorre?</h2>
+            <p>A principal causa da emissão duplicada é a falta de verificação por parte do analista. Isso pode ocorrer devido a:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Falta de checagem no log automático e no extrato do ofertante para confirmar se a transação já foi emitida.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como tratar?</h2>
+            <p>Para resolver o problema da emissão duplicada, é importante seguir estes passos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Verificar a possibilidade de cancelamento junto à companhia aérea, buscando uma solução sem custo, especialmente para o localizador que não esteja na transação.</li>
+                <li>Caso o cancelamento implique custos, deve-se avaliar se é viável manter o cancelamento ou optar por pagar ao ofertante.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Próximos passos</h2>
+            <p>Para evitar que a emissão duplicada ocorra novamente, é importante implementar as seguintes ações no fluxo do processo de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Inserir a checagem do extrato do ofertante antes de tentar emitir uma nova transação, especialmente em casos de erro na tela de pagamento, emissões manuais ou quando identificado no log automático.</li>
+                <li>Treinar os analistas para que realizem essa verificação rigorosamente, ajudando a minimizar os erros e melhorar a eficiência do processo de emissão.</li>
+            </ul>
+
+            <p>A emissão duplicada não é apenas um erro administrativo, mas um problema que pode ter consequências financeiras significativas. Implementar práticas de verificação mais robustas e treinar a equipe para seguir essas diretrizes ajudará a reduzir a incidência desse problema, melhorando a operação da empresa e a satisfação do cliente.</p>
+
+            <p>A identificação e análise desses tipos comuns de prejuízos são essenciais para a saúde financeira da empresa. Implementar medidas preventivas e treinamento adequado para os colaboradores pode ajudar a minimizar esses problemas e melhorar a experiência do cliente.</p>
+        </div>
+    ),
+},
+'Emissões na conta errada': {
+    title: 'Emissões na conta errada',
+    videoUrl: 'https://www.youtube.com/embed/q5OEvUHZcj8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões na conta errada</h1>
+            <p>As emissões na conta errada acontecem quando, durante uma emissão manual ou semi-automática, um login que não corresponde à transação é utilizado. Isso resulta na emissão da passagem na conta de um ofertante incorreto, o que pode causar confusão e complicações no gerenciamento das reservas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos05} alt="Imagem ilustrativa de emissões na conta errada"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que ocorre?</h2>
+            <p>As emissões na conta errada acontecem quando o login utilizado para a emissão não corresponde ao ofertante correto, resultando na emissão em uma conta errada e trazendo complicações para o gerenciamento da reserva.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Por que ocorre?</h2>
+            <p>Esse erro pode acontecer devido à falta de atenção do analista, que, às vezes, não verifica com precisão o ofertante correto antes de concluir a transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Como tratar?</h2>
+            <p>Caso uma emissão na conta errada seja identificada, siga os passos abaixo para resolver o problema:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Criar uma nova transação com os mesmos dados da transação que foi emitida erroneamente, ajustando para o ofertante correto.</li>
+                <li>Cancelar o pagamento e a transação anterior para evitar problemas de faturamento e gestão de passagens.</li>
+                <li>Se o pagamento já foi realizado, essa situação pode resultar em prejuízo para a empresa, exigindo uma avaliação cuidadosa.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Próximos passos</h2>
+            <p>Para prevenir a ocorrência de emissões na conta errada, implemente as seguintes ações:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Inserir no fluxo de emissão uma checagem do ofertante da transação em relação ao ofertante logado no programa de fidelidade antes de cada emissão.</li>
+                <li>Treinar todos os analistas no novo fluxo para garantir que estejam cientes da importância dessa verificação, reduzindo a margem de erro e aumentando a eficiência.</li>
+            </ul>
+
+            <p>As emissões na conta errada podem impactar significativamente as operações da empresa e a satisfação do cliente. Procedimentos rigorosos de verificação e treinamento contínuo da equipe são essenciais para minimizar esses erros e assegurar um processo de emissão mais eficaz e preciso.</p>
+        </div>
+    ),
+},
+'Transação cancelada e localizador ativo': {
+    title: 'Transação cancelada e localizador ativo',
+    videoUrl: 'https://www.youtube.com/embed/drF7h_HQ9k0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Transação cancelada e localizador ativo</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos06} alt="Imagem da transação cancelada e localizador ativo"></img>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que ocorre?</h2>
+            <p>Quando uma transação é emitida e, em seguida, cancelada internamente sem a devida verificação sobre a ocorrência da emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Por que ocorre?</h2>
+            <p>Isso se deve à falta de verificação por parte do analista no log da automática e no extrato do ofertante para confirmar se a transação já foi emitida.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como tratar?</h2>
+            <p><strong>Correção em até 24h:</strong> Entrar em contato com a companhia aérea para solicitar o cancelamento sem custo ou entrar em contato com o comprador para reverter a situação.</p>
+            <p><strong>Correção após 24h:</strong> Verificar a possibilidade de cancelamento na companhia aérea, seja sem custo ou com custo. Caso haja custo, avaliar se é viável manter o cancelamento ou se é mais adequado pagar ao ofertante.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Próximos passos</h2>
+            <p>Inserir no fluxo do processo de emissão a checagem do extrato do ofertante antes de efetuar o cancelamento da transação, especialmente em casos com erro na tela de pagamento, em emissões manuais ou quando informado pelo log da automática.</p>
+        </div>
+    ),
+},
+'Aumento sem tratativa ou com tratativa indevida': {
+    title: 'Aumento sem tratativa ou com tratativa indevida',
+    videoUrl: 'https://www.youtube.com/embed/hlEd4EbLhrg',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Aumento sem tratativa ou com tratativa indevida</h1>
+            <p>Este erro ocorre quando há um aumento de milhas na transação e a emissão é realizada sem que a quantidade de milhas seja alterada na tela da transação no sistema administrativo.</p>
+            
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoprejuizos06} alt="Imagem do aumento sem tratativa ou com tratativa indevida"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que ocorre?</h2>
+            <p>Esse erro acontece quando a quantidade de milhas na transação aumenta, mas a emissão é feita sem atualizar a quantidade de milhas na tela da transação no sistema administrativo.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Por que ocorre?</h2>
+            <p>A principal causa deste erro é a falta de verificação da quantidade de milhas no momento da emissão. Também pode haver a ausência de correção da quantidade de milhas usadas na tela da transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Como tratar?</h2>
+            <p>Corrija a quantidade de milhas na tela da transação do sistema administrativo para refletir a quantidade correta que será usada na emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Próximos passos</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Checagem da quantidade de milhas:</strong> Adicione ao processo de emissão uma etapa para verificar a quantidade de milhas antes de concluir a emissão.</li>
+                <li><strong>Rotina de alteração definida:</strong> Estabeleça uma rotina clara para atualizar a quantidade de milhas na tela da transação, especialmente quando houver aumento de milhas e a emissão for continuada.</li>
+                <li><strong>Treinamento da equipe:</strong> Ofereça treinamentos regulares para a equipe, garantindo que todos entendam a importância de verificar e corrigir a quantidade de milhas antes de finalizar qualquer transação.</li>
+            </ul>
+        </div>
+    ),
+},
 
 
 
