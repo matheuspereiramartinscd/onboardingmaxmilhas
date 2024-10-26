@@ -3586,8 +3586,8 @@ f
     ),
 },
 /*História*/
-'História da Fundação': {
-    title: 'História da fundação',
+'História da fundação da empresa': {
+    title: 'História da fundação da empresa',
     videoUrl: 'https://www.youtube.com/embed/aWD85TlryOU',
     description: (
         <div>
