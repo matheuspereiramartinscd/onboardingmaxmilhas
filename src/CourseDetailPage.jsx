@@ -1520,8 +1520,8 @@ f
         </div>
     ),
 },
-'Tipos de comentários': {
-    title: 'Tipos de comentários',
+'Comentários': {
+    title: 'Comentários',
     videoUrl: 'https://www.youtube.com/embed/hWdRnW3AMp8',
     description: (
         <div>
@@ -2046,8 +2046,547 @@ f
         </div>
     ),
 },
+/* Curso Emissões Latam */
 
+'Categoria de ofertantes latam': {
+    title: 'Programa de fidelidade LATAM Pass',
+    videoUrl: 'https://www.youtube.com/embed/wHHDGOumxaQ',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Programa de fidelidade LATAM Pass</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes02} alt="Imagem do programa LATAM Pass"></img>
+            <p>O Latam Pass é o programa de fidelidade da LATAM Airlines, uma das principais companhias aéreas da América Latina. Criado para premiar os clientes que viajam com a LATAM e suas companhias aéreas parceiras, o programa oferece diversas maneiras de acumular pontos e usufruir de benefícios exclusivos. Vamos explorar as principais características e vantagens do Latam Pass.</p>
 
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de pontos</h2>
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>1.1 Como funciona</h3>
+            <p>Os membros do Latam Pass acumulam pontos ao voar com a LATAM e suas companhias aéreas parceiras, além de realizar compras em estabelecimentos parceiros. Os pontos acumulados podem ser utilizados para a compra de passagens aéreas, upgrades de classe e outros benefícios.</p>
+
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>1.2 Tipos de pontos</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Pontos qualificáveis:</strong> Acumulados através de voos, que ajudam na progressão de categoria dentro do programa.</li>
+                <li><strong>Pontos de bônus:</strong> Concedidos em promoções, parcerias e ofertas especiais, permitindo um acúmulo mais rápido.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>2.1 Categorias de membros</h3>
+            <p>O programa Latam Pass possui diferentes níveis de fidelidade, que proporcionam benefícios crescentes conforme o cliente acumula mais pontos e realiza mais voos. As categorias incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Latam Pass:</strong> O nível básico, onde os membros começam a acumular pontos e têm acesso a promoções.</li>
+                <li><strong>Gold:</strong> Oferece benefícios adicionais, como pontos de bônus e prioridade no check-in. Atenção! * Os ofertantes da categoria Gold têm mais chances de sucesso no pagamento de transações de voos internacionais e 24 horas *</li>
+                <li><strong>Platinum:</strong> Inclui maiores vantagens, como acesso a salas VIP, maior acúmulo de pontos e check-in prioritário. Atenção! * Os ofertantes da categoria Platinum têm mais chances de sucesso no pagamento de transações de voos internacionais e 24 horas *</li>
+                <li><strong>Diamante:</strong> O nível mais alto, com benefícios exclusivos, como acesso a salas VIP e milhas adicionais para voos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de pontos</h2>
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>3.1 Como resgatar</h3>
+            <p>Os membros do Latam Pass podem resgatar seus pontos de várias maneiras, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de pontos por passagens em voos da LATAM e de companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de pontos para atualizar a classe do voo.</li>
+                <li><strong>Produtos e serviços:</strong> Troca de pontos por produtos em lojas parceiras e serviços exclusivos.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>3.2 Promoções de resgate</h3>
+            <p>O Latam Pass frequentemente realiza promoções que permitem aos membros resgatar passagens por um número reduzido de pontos, tornando as viagens ainda mais acessíveis.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Parcerias</h2>
+            <h3 style={{ marginTop: '10px', marginBottom: '30px' }}>4.1 Parceiros de acúmulo</h3>
+            <p>O programa Latam Pass possui parcerias com diversas empresas, permitindo que os membros acumulem pontos em compras e serviços, aumentando ainda mais as oportunidades de ganho.</p>
+        </div>
+    ),
+},
+'Acessando a conta do ofertante com a bifrost': {
+    title: 'Acessando a conta do ofertante com a bifrost',
+    videoUrl: 'https://www.youtube.com/embed/iFL2juaMFoY',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Acessando a conta do ofertante com a bifrost</h1>
+            <p>A Bifrost é especificamente utilizada para efetuar logins no site da Latam através de sessões salvas. O processo inclui os seguintes passos:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Iniciar o aplicativo</h2>
+            <p>Iniciar o aplicativo da Bifrost e digitar o CPF do ofertante.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam10} alt="Iniciar o aplicativo Bifrost"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Conectar-se ao IP</h2>
+            <p>Conectar-se ao IP do ofertante de milhas associado à transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam11} alt="Conectar-se ao IP do ofertante"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Abrir a extensão</h2>
+            <p>Abrir a extensão Bifrost no navegador, inserir o CPF do ofertante na extensão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam12} alt="Abrir a extensão Bifrost"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Login automático</h2>
+            <p>A extensão fará o login automático no site da Latam utilizando a sessão salva previamente, permitindo a continuidade da emissão sem interrupções.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam13} alt="Login automático no site da Latam"></img>
+
+            <p>Esse procedimento é fundamental para garantir a eficiência nas operações, especialmente quando os sites impõem restrições.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Criando sessões se não existirem</h2>
+            <p>Caso não haja uma sessão salva, siga os passos abaixo para criar uma nova sessão:</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Inserir o CPF do ofertante</h3>
+            <p>Na Bifrost, insira o CPF do ofertante. Se não houver sessão salva, aparecerá uma mensagem indicando que o "ofertante não possui sessão salva".</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam14} alt="Inserir o CPF do ofertante"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Login manual</h3>
+            <p>Vá ao site da Latam e faça o login manualmente utilizando o login e senha do ofertante.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam15} alt="Login manual no site da Latam"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Salvar a sessão</h3>
+            <p>Após efetuar o login, volte para a Bifrost e clique na opção de salvar sessão. Isso permitirá que você utilize essa sessão em futuras emissões.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Deslogando corretamente do ofertante</h2>
+            <p>Para deslogar corretamente do ofertante e garantir que a sessão esteja encerrada:</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Logout na extensão</h3>
+            <p>Vá até a extensão do navegador da Bifrost e clique em Logout.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam12} alt="Logout na extensão Bifrost"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Logout no aplicativo</h3>
+            <p>Após deslogar na extensão, clique em logout e, em seguida, no botão de desligar no aplicativo Bifrost.</p>
+
+            <p>A VPN é uma ferramenta indispensável para garantir a segurança e privacidade no acesso à internet, principalmente no ambiente corporativo. Saber como usar a VPN corretamente é essencial para proteger os dados da empresa, garantindo o acesso seguro a redes e recursos internos de qualquer lugar.</p>
+        </div>
+    ),
+},
+'Erro na busca de voo': {
+    title: 'Erro na busca de voo',
+    videoUrl: 'https://www.youtube.com/embed/N9Kclbm9oKw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Erro na busca de voo</h1>
+            <p>Um dos problemas que pode ocorrer ao pesquisar voos no site da Latam é o erro que indica que "a busca demorou demais". Esse erro pode ser frustrante, mas existem algumas soluções práticas para resolver essa situação e garantir que você consiga realizar a pesquisa de forma eficiente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Causas do erro</h2>
+            <p>Esse erro geralmente ocorre devido a instabilidades na conexão ou problemas temporários no site. Contudo, existem algumas estratégias que você pode adotar para contornar essa situação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Soluções</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Pesquisar em dinheiro primeiro</h3>
+            <p>Uma abordagem inicial é pesquisar o voo utilizando o valor em dinheiro. Siga os passos abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acesse o site da Latam e busque a opção de pesquisa de voos.</li>
+                <li>Insira as informações do voo (origem, destino, datas, etc.) e marque a pesquisa em dinheiro.</li>
+                <li>Realize a busca e, assim que os resultados aparecerem, prossiga para a próxima etapa.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam18} alt="Imagem da pesquisa em dinheiro"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Duplicar a aba e marcar a pesquisa por pontos</h3>
+            <p>Depois de realizar a pesquisa em dinheiro, siga esses passos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Duplique a aba do navegador onde você está realizando a pesquisa.</li>
+                <li>Na nova aba, altere a opção para pesquisa por pontos (milhas).</li>
+                <li>Realize a busca novamente. Isso pode ajudar a contornar o erro e permitir que você veja os resultados desejados.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam19} alt="Imagem da duplicação da aba"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Utilizar o 4G do celular</h3>
+            <p>Caso as opções acima não funcionem, você pode tentar o seguinte:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Desconecte-se do Wi-Fi e ative o roteador com o 4G do seu celular.</li>
+                <li>Acesse o site da Latam pelo navegador e realize a pesquisa de voo.</li>
+                <li>Encontrando o voo desejado, você pode voltar a se conectar ao Wi-Fi para finalizar a emissão.</li>
+            </ul>
+
+            <p>Essas soluções são eficazes para resolver o erro de busca de voo no site da Latam. Tentar diferentes abordagens, como pesquisar em dinheiro primeiro ou usar o 4G, pode ajudar a evitar frustrações e garantir que você consiga emitir suas passagens sem problemas.</p>
+        </div>
+    ),
+},
+'Cancelamento por aumento ou voo indisponível': {
+    title: 'Cancelamento por aumento ou voo indisponível',
+    videoUrl: 'https://www.youtube.com/embed/nfO9rhOVr1E',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cancelamento por aumento ou voo indisponível</h1>
+            <p>Se, após a verificação, você constatar que o voo está indisponível ou houve aumento de milhas, é necessário realizar o cancelamento da transação seguindo os passos abaixo:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Remover o ofertante</h2>
+            <p>Utilize o botão de trocar ofertante para remover o ofertante atual da transação. Isso é importante para evitar problemas futuros na emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit46} alt="Imagem da remoção do ofertante"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Atualizar a página</h2>
+            <p>Após remover o ofertante, atualize a página do Cockpit para garantir que todas as alterações sejam refletidas corretamente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Iniciar o cancelamento</h2>
+            <p>Clique no botão cancelar para iniciar o processo de cancelamento da transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit65} alt="Imagem do botão de cancelamento"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Escolher o motivo do cancelamento</h2>
+            <p>Ao solicitar o cancelamento, selecione o motivo "Voo Indisponível" ou “Aumento de milhas” na lista de opções disponíveis.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit66} alt="Imagem da seleção do motivo do cancelamento"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Confirmar o cancelamento</h2>
+            <p>Siga as instruções na tela para confirmar o cancelamento e certifique-se de que todas as etapas foram concluídas corretamente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Motivo do cancelamento</h2>
+            <p>O usuário deve selecionar um motivo de cancelamento a partir das seguintes opções:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Voo indisponível na CIA:</strong> O voo não está disponível na companhia aérea.</li>
+                <li><strong>Voo indisponível em um dos trechos:</strong> Um dos trechos do voo solicitado não está disponível.</li>
+                <li><strong>Transação com mais de 1 dia na aba:</strong> A transação está na aba há mais de um dia e não foi finalizada.</li>
+                <li><strong>Transação abaixo da receita mínima:</strong> O valor da transação não atinge a receita mínima esperada.</li>
+                <li><strong>Suspeita de fraude:</strong> A transação levanta suspeitas de fraude, necessitando de cancelamento.</li>
+                <li><strong>Sem depósito no prazo:</strong> O depósito não foi realizado dentro do prazo estipulado.</li>
+                <li><strong>Re-emissão:</strong> A transação está sendo cancelada para uma re-emissão posterior.</li>
+                <li><strong>Problema de pagamento da taxa de embarque:</strong> Houve um erro relacionado ao pagamento da taxa de embarque.</li>
+                <li><strong>OTA - Trecho da irmã com aumento de milhas:</strong> A OTA está reportando um aumento nas milhas para um trecho específico.</li>
+                <li><strong>OTA - Erro:</strong> Um erro geral ocorreu com a OTA durante o processo.</li>
+                <li><strong>OTA - Cartão não autorizado:</strong> O pagamento foi negado devido a um cartão não autorizado.</li>
+                <li><strong>OTA - Alteração de preço / Re-tarifado:</strong> O preço da passagem foi alterado ou retarifado.</li>
+                <li><strong>Falta de ofertante:</strong> Não há ofertante disponível para prosseguir com a transação.</li>
+                <li><strong>Erro no site da CIA:</strong> Ocorreu um erro no site da companhia aérea.</li>
+                <li><strong>Erro no site - Tarja amarela (CIA amarela):</strong> Um erro específico no... (completar conforme necessário)</li>
+            </ul>
+        </div>
+    ),
+},
+'Emissões manuais latam': {
+    title: 'Emissões manuais latam',
+    videoUrl: 'https://www.youtube.com/embed/pTJiqCFyPCI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões manuais</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes03} alt="Imagem da emissão manual"></img>
+            <p>A emissão manual é o processo de compra de passagens aéreas onde os dados são inseridos manualmente no sistema, ao contrário das emissões automáticas, que são realizadas de forma automatizada.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância</h2>
+            <p>Seguir os procedimentos corretos durante a emissão manual é importante para evitar erros que possam resultar em problemas na viagem, como a falta de informações ou dados incorretos.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificação de milhas e disponibilidade de voo</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e verifique a quantidade de milhas disponíveis para o ofertante.</li>
+                <li>Confirme a disponibilidade do voo desejado.</li>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Importante</h3>
+            <p>Atualize a quantidade de milhas antes de prosseguir para garantir que a transação possa ser realizada sem contratempos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Seleção do ofertante</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e localize a lista de ofertantes.</li>
+                <li>Selecione o ofertante que deseja utilizar para a transação.</li>
+            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Relevância</h3>
+            <p>Verifique se o ofertante está logado corretamente para evitar erros no cadastro do passageiro.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cadastro do passageiro no site da companhia aérea</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Informações a serem inseridas:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Nome:</strong> Primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Último sobrenome para voos nacionais ou nome completo para voos internacionais.</li>
+                <li><strong>Sufixo:</strong> Adicione o sufixo se aplicável (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Essencial para identificação nas companhias aéreas.</li>
+                <li><strong>Nota:</strong> Na LATAM, utilize o CPF do ofertante para prosseguir para a página de pagamento.</li>
+                <li><strong>RG:</strong> Número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Número do passaporte para passageiros estrangeiros.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Verifique se está válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Página de pagamento</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Conferir dados do voo e da compra:</li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                    <li>Taxa de embarque: Verifique se está correta.</li>
+                    <li>Pontos: Confirme a quantidade de milhas a serem utilizadas.</li>
+                    <li>Data do voo: Assegure que está correta.</li>
+                    <li>Horário: Verifique horários de partida e chegada.</li>
+                    <li>Voo de ida e volta: Revise os detalhes de ambos os trechos.</li>
+                </ul>
+                <li>Adicionar cartão de crédito:</li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                    <li>Clique no botão para adicionar cartão de crédito.</li>
+                    <li>Gerar cartão de crédito virtual:</li>
+                    <li>Volte ao Cockpit e clique no ícone de gerar cartão de crédito.</li>
+                    <li>Lembre-se que o limite do cartão é baseado na taxa de embarque.</li>
+                    <li>Preencher dados do cartão:</li>
+                    <li>Preencha as informações solicitadas do cartão de crédito virtual gerado.</li>
+                </ul>
+                <li>Efetuar o pagamento:</li>
+                <p>Clique no botão para efetuar o pagamento e aguarde a confirmação da transação.</p>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>E-tickets</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Processo de geração:</h3>
+            <p>Após a confirmação do pagamento, um e-ticket será gerado automaticamente.</p>
+        </div>
+    ),
+},
+'Cadastrando passageiros latam': {
+    title: 'Cadastrando passageiro no site da companhia aérea',
+    videoUrl: 'https://www.youtube.com/embed/Csh0GSrtVgk',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiro no site da companhia aérea</h1>
+            <p>Ao acessar o site da companhia aérea para cadastrar os passageiros, siga as orientações abaixo para garantir que todas as informações sejam inseridas corretamente, de acordo com os dados disponíveis no Cockpit:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Informações do passageiro</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit50} alt="Imagem das informações do passageiro" />
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Nome:</strong> Insira o primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Para voos nacionais, utilize o último sobrenome do passageiro. Para voos internacionais, insira o nome completo.</li>
+                <li><strong>Sufixo:</strong> Se aplicável, adicione o sufixo do passageiro (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Preencha com o CPF do passageiro. Este dado é essencial para identificação nas companhias aéreas. (Atenção! Na cia LATAM, utilize o CPF do ofertante de milhas para poder prosseguir para a página de pagamento)</li>
+                <li><strong>RG:</strong> Insira o número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Para passageiros estrangeiros ou em voos internacionais, forneça o número do passaporte.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Inclua a data de expiração do passaporte, garantindo que ele esteja válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam04} alt="Imagem das informações adicionais" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Informações adicionais</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data de nascimento:</strong> Insira a data de nascimento do passageiro, conforme registrado no Cockpit.</li>
+                <li><strong>E-mail:</strong> Utilize o email do ofertante de milhas. Esse contato é importante para enviar confirmações e informações sobre a passagem.</li>
+                <li><strong>Telefone:</strong> Insira o telefone do ofertante de milhas, que será utilizado para eventuais comunicações ou notificações.</li>
+                <li><strong>Voo internacional:</strong> Atenção! Em voos internacionais, é necessário utilizar o nome completo do passageiro, incluindo sobrenomes e sufixos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Revisão e confirmação</h2>
+            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros.</p>
+            <p>A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
+        </div>
+    ),
+},
+'Página de pagamento latam': {
+    title: 'Página de pagamento',
+    videoUrl: 'https://www.youtube.com/embed/E0PVolTHQRM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Página de pagamento</h1>
+            <p>Ao acessar a página de pagamento para finalizar a compra da passagem, siga estas etapas para garantir que o processo seja realizado corretamente:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Conferir dados do voo e da compra</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao05} alt="Imagem dos dados do voo e da compra"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao06} alt="Imagem da conferência dos dados do voo"></img>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Taxa de embarque:</strong> Verifique se a taxa de embarque exibida está correta. Esse valor é fundamental, pois influencia o limite do cartão de crédito virtual que será gerado.</li>
+                <li><strong>Pontos:</strong> Confira a quantidade de milhas (pontos) que será utilizada para a compra da passagem.</li>
+                <li><strong>Data do voo:</strong> Confirme que a data do voo está correta e corresponde ao que foi escolhido durante a pesquisa.</li>
+                <li><strong>Horário:</strong> Verifique o horário de partida e chegada para garantir que está tudo conforme esperado.</li>
+                <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos da viagem (ida e volta) para assegurar que não há discrepâncias.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionar cartão de crédito</h2>
+            <p>Após verificar todas as informações, clique no botão para adicionar cartão de crédito.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursomissao07} alt="Imagem da adição do cartão de crédito"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Gerar cartão de crédito virtual</h2>
+            <p>Voltar ao Cockpit: Navegue de volta até o Cockpit no cartão da transação correspondente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit86} alt="Imagem do Cockpit para gerar cartão de crédito virtual"></img>
+            <p>Gerar cartão de crédito: Clique no ícone de cartão de crédito. Isso gerará um cartão de crédito virtual que será utilizado para o pagamento da passagem.</p>
+            <p>Limite do cartão: Lembre-se que o limite do cartão de crédito virtual é baseado na taxa de embarque, por isso é importante que esse valor esteja correto.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Preencher dados do cartão</h2>
+            <p>Preencha os dados solicitados do cartão de crédito virtual gerado, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Número do cartão</li>
+                <li>Data de validade</li>
+                <li>Código de segurança (CVV)</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
+            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
+            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+        </div>
+    ),
+},
+'Erros de pagamento': {
+    title: 'Erros de pagamento',
+    videoUrl: 'https://www.youtube.com/embed/2DGvnOf7uBE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Erros de pagamento</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Imagem sobre erros de pagamento"></img>
+            <p>Durante o processo de emissão de passagens na cia LATAM, podem ocorrer erros no pagamento. Esses erros podem ser causados por diferentes fatores, como dados incorretos ou falhas no sistema. Para garantir que a transação seja concluída com sucesso, é essencial seguir algumas etapas de solução de problemas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Possíveis soluções para erros de pagamento</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar a taxa de embarque</h3>
+            <p>Um erro comum ocorre quando a taxa de embarque não está correta. Verifique o valor exibido na página de pagamento e compare-o com o valor esperado. Se a taxa estiver incorreta, corrija o valor e gere um novo cartão de crédito virtual para realizar o pagamento novamente.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Utilizar os dados do comprador da passagem</h3>
+            <p>Outra opção é utilizar os dados do comprador da passagem ao invés do vendedor de milhas para efetuar o pagamento com o cartão virtual. Neste caso, use apenas o número do cartão, o código de segurança (CVV) e a validade do cartão original.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Limpar o histórico do navegador</h3>
+            <p>Erros no pagamento podem ocorrer devido a cookies e cache armazenados no navegador. Limpar o histórico do navegador pode ajudar a resolver esse problema. Em seguida, reinicie o navegador.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Reiniciar a Bifrost</h3>
+            <p>Caso o erro persista, tente reiniciar o aplicativo Bifrost. Às vezes, um novo login ou reconexão ao IP do ofertante de milhas pode solucionar o problema.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Ofertantes Gold, Platinum e Black para voos internacionais ou de 24h</h3>
+            <p>Para emissões de voos internacionais ou de voos com prazo de emissão em 24h, é necessário utilizar ofertantes com status Gold, Platinum ou Black. Isso ajuda a garantir que as milhas e o pagamento sejam aceitos sem complicações.</p>
+
+            <p>Seguindo esses passos, você poderá resolver a maioria dos erros de pagamento que surgem durante a emissão de passagens. Certifique-se de sempre revisar os dados e utilizar as opções adequadas de pagamento para evitar falhas na transação.</p>
+        </div>
+    ),
+},
+'E-tickets': {
+    title: 'E-tickets',
+    videoUrl: 'https://www.youtube.com/embed/wDAhyYDJibI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>E-tickets</h1>
+            <p>Após finalizar o pagamento da passagem, um e-ticket será gerado automaticamente. O e-ticket contém todas as informações necessárias sobre o voo e serve como comprovante da compra. Siga os passos abaixo para garantir que tudo esteja devidamente registrado:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Gerar o e-ticket</h2>
+            <p>Após a confirmação do pagamento, o sistema gerará um e-ticket com os detalhes do voo, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Número do voo</li>
+                <li>Data e hora da partida</li>
+                <li>Dados do passageiro</li>
+                <li>Taxas e informações de bagagem</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Imagem da geração do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Capturar o e-ticket</h2>
+            <p>Utilize uma ferramenta de captura de tela (como Captura e Esboço, Lightshot, ou outra de sua preferência) para salvar uma cópia do e-ticket.</p>
+            <p>Dica: Para capturar a tela, você pode usar teclas de atalho como Print Screen ou ferramentas específicas para captura que permitem selecionar apenas a parte da tela desejada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Imagem da captura do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Voltar ao Cockpit</h2>
+            <p>Retorne ao sistema Cockpit no cartão da transação correspondente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Inserir e-ticket</h2>
+            <p>Clique no botão Inserir e-ticket para dar continuidade ao processo de registro do e-ticket.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit87} alt="Imagem do botão Inserir e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Preencher informações necessárias</h2>
+            <p>Digite as seguintes informações na tela de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Número do e-ticket: Insira o número gerado do e-ticket que você capturou.</li>
+                <li>Login do programa de fidelidade: Forneça o login que você utilizou para a emissão da passagem.</li>
+                <li>Número da compra para a companhia aérea: Insira o número de compra associado ao e-ticket (se aplicável).</li>
+                <li>Valor da bagagem paga na companhia aérea: Informe o valor que foi pago por qualquer bagagem adicional.</li>
+                <li>Cartão de crédito utilizado: Se solicitado, forneça os dados do cartão de crédito que foi utilizado para a compra.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit88} alt="Imagem do preenchimento de informações do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Fazer upload do e-ticket</h2>
+            <p>Faça o upload da captura de tela do e-ticket que você salvou anteriormente. Este passo é importante para garantir que a transação e a emissão estejam devidamente documentadas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Mensagens de sucesso e erro</h2>
+            <p>Após a inserção do e-ticket, o sistema verificará as informações e fornecerá uma mensagem de retorno:</p>
+            <p><strong>Mensagem de sucesso:</strong> Se todos os dados estiverem corretos, aparecerá a mensagem: "Sucesso: e-ticket inserido com sucesso."</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit89} alt="Imagem da mensagem de sucesso na inserção do e-ticket"></img>
+
+            <p><strong>Mensagem de erro na checagem automática:</strong> Se houver algum erro na validação automática, a mensagem será: "Erro na checagem: verifique os dados inseridos."</p>
+
+            <p>Este processo assegura que o e-ticket seja corretamente gerado e registrado, garantindo que todas as informações necessárias estejam disponíveis para referência futura.</p>
+        </div>
+    ),
+},
+'Cancelando localizador na companhia latam': {
+    title: 'Cancelamento de e-tickets',
+    videoUrl: 'https://www.youtube.com/embed/QbZ4f06YAso',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cancelamento de e-tickets</h1>
+            <p>O cancelamento de e-tickets é uma etapa importante que pode ser necessária devido a diversos motivos, como erros na emissão do bilhete ou solicitações dos passageiros. Nesta aula, abordaremos os passos específicos para cancelar e-tickets nas companhias aéreas, com foco na Azul.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Quando cancelar um e-ticket?</h2>
+            <p>O cancelamento do e-ticket é necessário nas seguintes situações:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Erros na emissão do bilhete:</strong>
+                    <ul>
+                        <li>Dados incorretos (nome, CPF, etc.)</li>
+                        <li>Voo incorreto</li>
+                        <li>Quantidade de milhas acima do permitido</li>
+                    </ul>
+                </li>
+                <li><strong>Solicitações do passageiro:</strong>
+                    <ul>
+                        <li>Passageiro requisitou o cancelamento</li>
+                        <li>Bilhete emitido em duplicidade</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para cancelar um e-ticket na LATAM</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da LATAM</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam00} alt="Imagem do site da LATAM"></img>
+            <p>Entre no site oficial da LATAM.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Localizar a viagem</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam21} alt="Imagem da seção 'Minhas Viagens'"></img>
+            <p>Vá até a seção "Minhas Viagens". Utilize o atalho Ctrl + F para facilitar a busca pelo destino ou pela data do voo.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Verificar notificações</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam22} alt="Imagem das notificações"></img>
+            <p>Se preferir, você pode acessar a seção de notificações e procurar pela notificação com o valor de milhas correspondente à viagem.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Acessar detalhes da viagem</h3>
+            <p>Clique na viagem desejada para acessar a página de detalhes.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Iniciar o processo de cancelamento</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam23} alt="Imagem da opção de devolução de passagens"></img>
+            <p>Selecione a opção "Devolução de Passagens". Clique em "Continuar".</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Verificar valores</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam24} alt="Imagem do valor das milhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Imagem do Cockpit"></img>
+            <p>Confira o valor das milhas e a taxa de embarque a ser reembolsada. Compare esse valor com o que está no Cockpit.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Confirmar cancelamento</h3>
+            <p>Prossiga com o cancelamento.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>8. Registrar mensagem de reembolso</h3>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
+
+            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
+        </div>
+    ),
+},
+'Conferindo extrato': {
+    title: 'Conferindo extrato',
+    videoUrl: 'https://www.youtube.com/embed/2M4qegJ3wq8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Conferindo extrato</h1>
+            <p>Uma etapa importante no processo de emissão e gerenciamento de passagens é a conferência do extrato de milhas. Isso garante que as milhas utilizadas estejam corretas e que os valores estejam de acordo com a transação realizada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para conferir o extrato</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferindo o extrato de milhas na LATAM</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar o site da LATAM:</h3>
+            <p>Entre no site oficial da LATAM.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam00} alt="Imagem do site da LATAM"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar "Minha Conta":</h3>
+            <p>Faça login e clique em "Minha Conta" no menu principal.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam25} alt="Imagem da seção Minha Conta"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar detalhes da conta:</h3>
+            <p>Dentro da área de usuário, clique em "Detalhes da Conta" para visualizar o extrato.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam26} alt="Imagem dos detalhes da conta"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferir o extrato:</h3>
+            <p>Verifique o extrato de milhas para confirmar os valores utilizados e acumulados, certificando-se de que tudo está correto com a transação realizada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam27} alt="Imagem do extrato de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferindo o extrato da LATAM Wallet</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar o site da LATAM:</h3>
+            <p>Entre no site oficial da LATAM.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam00} alt="Imagem do site da LATAM"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar a LATAM Wallet:</h3>
+            <p>No menu, selecione "Minha Wallet".</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam28} alt="Imagem da LATAM Wallet"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar o extrato:</h3>
+            <p>Dentro da LATAM Wallet, clique em "Ver extrato" para conferir os créditos e débitos realizados.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam29} alt="Imagem do extrato da LATAM Wallet"></img>
+
+            <p>Manter a conferência regular do extrato de milhas e da LATAM Wallet é essencial para garantir o controle preciso das transações. Isso evita divergências e permite uma gestão eficiente do saldo, garantindo que as milhas e créditos estejam sempre de acordo com as emissões realizadas.</p>
+        </div>
+    ),
+},
 
 
 

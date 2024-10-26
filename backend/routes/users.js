@@ -172,7 +172,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes latam", "completed": false},
                         {"title": "Comentários", "completed": false},
-                        {"title": "Acessando a conta do ofertante com a bifrost ", "completed": false},
+                        {"title": "Acessando a conta do ofertante com a bifrost", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível latam", "completed": false},
                         {"title": "Erro na busca de voo", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
