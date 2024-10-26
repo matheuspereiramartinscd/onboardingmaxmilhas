@@ -1684,7 +1684,7 @@ f
         </div>
     ),
 },
-'E tickets': {
+'E-tickets': {
     title: 'E-tickets',
     videoUrl: 'https://www.youtube.com/embed/U5PpiyU2qjc',
     description: (
