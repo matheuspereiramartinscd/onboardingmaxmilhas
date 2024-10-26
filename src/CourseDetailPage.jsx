@@ -5868,6 +5868,109 @@ f
         </div>
     ),
 },
+'Segurança da informação': {
+    title: 'Segurança da informação',
+    videoUrl: 'https://www.youtube.com/embed/9ITzUjaiuL8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Segurança da informação</h1>
+            <p>A segurança da informação refere-se ao conjunto de práticas e medidas adotadas para proteger dados e informações contra acessos não autorizados, alterações, destruições e roubos. No ambiente corporativo, como na MaxMilhas, garantir a integridade, confidencialidade e disponibilidade das informações é importante para proteger a empresa, seus clientes e seus colaboradores.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica09} alt="Imagem sobre segurança da informação" />
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Princípios da segurança da informação</h2>
+            <p>Existem três pilares fundamentais da segurança da informação, conhecidos como o triângulo CID:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Confidencialidade:</strong> Garantir que apenas pessoas autorizadas possam acessar informações sensíveis. Isso protege dados de serem visualizados ou manipulados por indivíduos não autorizados.</li>
+                <li><strong>Integridade:</strong> Assegura que as informações sejam confiáveis e não tenham sido alteradas de forma indevida ou acidental. A integridade dos dados é essencial para a tomada de decisões baseada em informações corretas.</li>
+                <li><strong>Disponibilidade:</strong> Assegura que as informações estejam disponíveis sempre que necessário para quem tiver autorização, evitando que dados sejam inacessíveis em momentos críticos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Boas práticas de segurança da informação</h2>
+            <p><strong>Senhas fortes:</strong> Utilize senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. Evite usar informações pessoais, como data de nascimento ou nome de familiares. Troque suas senhas periodicamente e não reutilize a mesma senha em diferentes sistemas. Use autenticação de dois fatores (2FA) sempre que possível. Isso adiciona uma camada extra de segurança além da senha.</p>
+            
+            <p><strong>Proteção de dispositivos:</strong> Mantenha seu computador, smartphone e outros dispositivos protegidos por senhas e bloqueios de tela. Evite deixar seu dispositivo sem supervisão em locais públicos ou de fácil acesso. Certifique-se de que seu sistema operacional e aplicativos estejam atualizados com os patches de segurança mais recentes.</p>
+            
+            <p><strong>Navegação segura:</strong> Sempre verifique se o site acessado é seguro, observando o ícone de cadeado e o prefixo HTTPS. Evite acessar sites suspeitos ou clicar em links desconhecidos, especialmente em e-mails e mensagens de remetentes desconhecidos. Cuidado com downloads de fontes não confiáveis, que podem conter malware ou vírus.</p>
+            
+            <p><strong>Uso de VPNs:</strong> Em ambientes corporativos, utilize VPNs (Virtual Private Networks) para acessar redes e sistemas internos de forma segura, especialmente ao trabalhar remotamente. Na MaxMilhas, o uso de VPNs como a Bifrost e AVG Secure VPN é comum para contornar bloqueios de sites de companhias aéreas e garantir a segurança da conexão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Identificando ameaças comuns</h2>
+            <p><strong>Phishing:</strong> Ataques de phishing são tentativas de enganar o usuário para que forneça dados pessoais, senhas ou informações sensíveis. Geralmente ocorrem por meio de e-mails falsos, mensagens de texto ou sites fraudulentos que se passam por instituições legítimas. Para evitar phishing, nunca clique em links ou forneça informações confidenciais sem verificar a autenticidade do remetente.</p>
+            
+            <p><strong>Malware:</strong> Malware é um software malicioso projetado para danificar ou acessar sistemas sem autorização. Isso inclui vírus, trojans e spyware. Utilize um software antivírus confiável e mantenha-o sempre atualizado. Além disso, evite instalar programas de fontes desconhecidas.</p>
+            
+            <p><strong>Ataques de engenharia social:</strong> A engenharia social envolve manipular as pessoas para que divulguem informações confidenciais. Isso pode incluir telefonemas ou interações físicas nas quais um atacante finge ser alguém confiável. Sempre verifique a identidade de quem solicita informações e nunca forneça dados sensíveis sem ter certeza da legitimidade do pedido.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Segurança no uso de e-mails corporativos</h2>
+            <p><strong>Cuidados com anexos:</strong> Não abra anexos desconhecidos ou inesperados, mesmo que o remetente pareça confiável. Sempre verifique a origem do e-mail antes de abrir qualquer arquivo.</p>
+            
+            <p><strong>Política de e-mails:</strong> Evite enviar informações confidenciais por e-mail sem criptografia, e siga as políticas da empresa para o envio e recebimento de dados sensíveis. Desconfie de solicitações urgentes ou inusitadas que exigem o envio de informações pessoais ou senhas por e-mail.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Conformidade e legislação</h2>
+            <p><strong>LGPD (Lei Geral de Proteção de Dados Pessoais):</strong> A LGPD regulamenta como as empresas devem coletar, armazenar e tratar dados pessoais no Brasil. É essencial que todas as práticas de segurança da informação estejam alinhadas com os requisitos dessa lei. Garantir o cumprimento da LGPD na MaxMilhas envolve proteção adequada dos dados de clientes e colaboradores, tanto em sistemas internos quanto externos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Ferramentas de segurança utilizadas na MaxMilhas</h2>
+            <p><strong>Slack:</strong> Comunicação interna segura, com a possibilidade de configurar níveis de permissões para cada canal.</p>
+            <p><strong>Metabase:</strong> Ferramenta para análise de dados, onde o controle de acesso garante que informações sensíveis estejam protegidas.</p>
+            <p><strong>VPNs (Bifrost e AVG Secure VPN):</strong> Para garantir segurança nas conexões ao acessar redes externas.</p>
+            <p><strong>Zendesk:</strong> Suporte ao cliente que protege os dados dos usuários de forma segura e eficiente.</p>
+
+            <p>A segurança da informação é um dos pilares mais importantes para o funcionamento eficiente e seguro de uma empresa. Seguindo as melhores práticas de proteção de dados e conscientizando todos os colaboradores sobre os riscos e procedimentos adequados, a MaxMilhas pode garantir a integridade, a confidencialidade e a disponibilidade das suas informações.</p>
+        </div>
+    ),
+},
+'Simuladores Android': {
+    title: 'Simuladores Android',
+    videoUrl: 'https://www.youtube.com/embed/UFNxwxg8xns',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Simuladores Android</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica10} alt="Imagem de simuladores Android"></img>
+            <p>Simuladores Android são ferramentas que emulam o ambiente de um dispositivo Android em um computador, permitindo o teste de aplicativos, navegação em sites e simulação de interações, sem a necessidade de um smartphone físico. Na MaxMilhas, os simuladores são amplamente utilizados para auxiliar em processos como emissão de passagens e conferência de dados.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que é um simulador Android?</h2>
+            <p>Um simulador Android é um software que cria uma versão virtual de um dispositivo Android, permitindo que você use todas as funcionalidades do sistema operacional diretamente no seu computador. Ele é comumente usado por desenvolvedores de aplicativos para testar seus aplicativos em diferentes dispositivos e versões do Android.</p>
+            <p>Na MaxMilhas, os simuladores são utilizados para:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Testar processos de navegação em sites de companhias aéreas.</li>
+                <li>Verificar o funcionamento de sistemas que exigem simulação móvel.</li>
+                <li>Conferir informações e realizar operações sem depender de um dispositivo físico.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Principais simuladores utilizados</h2>
+            <p>Na MaxMilhas, utilizamos os seguintes simuladores Android:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>LDPlayer 9:</strong> O LDPlayer 9 é um emulador leve e de alto desempenho que permite jogar e utilizar aplicativos Android no PC. É conhecido por sua facilidade de uso e pela capacidade de rodar aplicativos de forma fluida.</li>
+                <li><strong>BlueStacks:</strong> O BlueStacks é uma ferramenta popular entre usuários que desejam emular jogos ou aplicativos Android no PC. Ele permite rodar qualquer aplicativo Android diretamente no Windows ou macOS e é fácil de usar.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Como instalar um simulador Android</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalação do LDPlayer 9</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Baixe o LDPlayer 9 do site oficial (ldplayer.net).</li>
+                <li>Após a instalação, abra o LDPlayer e configure a conta do Google para acessar a Google Play Store.</li>
+                <li>Agora você pode baixar e instalar aplicativos diretamente pelo LDPlayer.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalação do BlueStacks</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Baixe o BlueStacks no site oficial (bluestacks.com).</li>
+                <li>Siga o processo de instalação, que é simples e direto.</li>
+                <li>Após instalado, você pode acessar a Google Play Store ou importar APKs para rodar no simulador.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Usos dos simuladores Android na MaxMilhas</h2>
+            <p>Na MaxMilhas, os simuladores Android são usados para:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Testar navegação em sites de companhias aéreas: Permitem simular o acesso via dispositivo móvel e realizar emissões de passagens.</li>
+                <li>Testar aplicativos internos que precisam ser usados em um ambiente Android.</li>
+                <li>Conferir e validar informações que são exibidas em versões móveis de sites e aplicativos.</li>
+            </ul>
+
+            <p>Os simuladores Android, como LDPlayer 9 e BlueStacks, são ferramentas valiosas na MaxMilhas para facilitar e aprimorar os processos de emissão e suporte, garantindo uma experiência de usuário mais completa e eficiente.</p>
+        </div>
+    ),
+},
 
 
 };
