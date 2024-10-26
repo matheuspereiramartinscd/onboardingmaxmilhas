@@ -4941,6 +4941,342 @@ f
         </div>
     ),
 },
+/*Ferramentas auxiliares*/
+'Slack': {
+    title: 'Slack',
+    videoUrl: 'https://www.youtube.com/embed/YLS9RKCLF6Y',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Slack</h1>
+            <p>O Slack é uma plataforma de comunicação colaborativa projetada para facilitar a interação entre equipes. Ele combina chat em tempo real, troca de arquivos e integração com outras ferramentas, proporcionando um ambiente de trabalho mais conectado e produtivo.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast00} alt="Imagem do Slack"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. principais funcionalidades</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Canais</h3>
+            <p>O Slack permite a criação de canais públicos e privados para diferentes projetos, equipes ou tópicos, facilitando a organização das conversas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast01} alt="Imagem dos canais no Slack"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Mensagens diretas</h3>
+            <p>Os usuários podem enviar mensagens diretas para colegas de trabalho, permitindo comunicação mais pessoal e rápida.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast02} alt="Imagem das mensagens diretas"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Integrações</h3>
+            <p>O Slack se integra com diversas ferramentas e aplicativos, como Google Drive, Trello, Asana, entre outros, permitindo centralizar informações e melhorar o fluxo de trabalho.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast03} alt="Imagem das integrações"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Compartilhamento de arquivos</h3>
+            <p>Os usuários podem compartilhar documentos, imagens e outros arquivos diretamente nas conversas, facilitando a colaboração.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast04} alt="Imagem do compartilhamento de arquivos"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Busca avançada</h3>
+            <p>A funcionalidade de busca permite que os usuários encontrem mensagens, arquivos e informações relevantes rapidamente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast05} alt="Imagem da busca avançada"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. benefícios do uso do Slack</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Comunicação rápida e eficiente:</strong> O Slack proporciona uma forma de comunicação em tempo real, reduzindo a necessidade de e-mails e reuniões.</li>
+                <li><strong>Aumento da colaboração:</strong> Com canais dedicados e integração com outras ferramentas, o Slack facilita a colaboração entre equipes e departamentos.</li>
+                <li><strong>Flexibilidade e acessibilidade:</strong> O Slack pode ser acessado em dispositivos móveis e desktops, permitindo que os colaboradores se mantenham conectados, independentemente de sua localização.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. alterando o status</h2>
+            <p>O Slack permite que você altere seu status para informar aos colegas de trabalho sua disponibilidade. Para alterar o status:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Acessar seu perfil:</strong> No canto superior direito da tela, clique na sua foto de perfil ou nas iniciais do seu nome.</li>
+                <li><strong>Selecionar "alterar status":</strong> Clique em "alterar status" no menu suspenso.</li>
+                <li><strong>Escolher um status:</strong> Escolha um status pré-definido ou defina um status personalizado.</li>
+                <li><strong>Definir duração (opcional):</strong> Escolha uma duração para o status, como "para 30 minutos" ou "para o resto do dia".</li>
+                <li><strong>Salvar:</strong> Clique em "salvar" para aplicar o novo status.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. indicadores de status</h2>
+            <p>Após a alteração do status, um ícone correspondente aparecerá ao lado do seu nome:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Verde:</strong> Disponível</li>
+                <li><strong>Amarelo:</strong> Ausente</li>
+                <li><strong>Vermelho:</strong> Não perturbe</li>
+                <li><strong>Cinza:</strong> Offline ou sem status definido</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. chamando a atenção de alguém</h2>
+            <p>Para chamar a atenção de um colega em uma conversa, use o símbolo "@" para mencionar.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. instalação do slack</h2>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Slack desktop</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Para Windows:</strong> Acesse o site oficial do Slack (slack.com/downloads), baixe e instale o Slack, depois faça login com seu e-mail da Maxmilhas.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Slack Web</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Acessar o Slack Web:</strong> Abra o navegador e vá para https://slack.com/intl/pt-br/workspace-signin.</li>
+                <li><strong>Acessar o workspace:</strong> Insira o URL do workspace: maxmilhas.slack.com e faça login.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast06} alt="Imagem do Slack Web"></img>
+
+            <p>O Slack é uma ferramenta poderosa para transformar a comunicação e a colaboração dentro da equipe. Com o uso eficaz de suas funcionalidades, as equipes podem se tornar mais produtivas e conectadas.</p>
+        </div>
+    ),
+},
+'Metabase': {
+    title: 'Metabase',
+    videoUrl: 'https://www.youtube.com/embed/cJK4QLT6g7I',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>O que é o Metabase?</h1>
+            <p>O Metabase é uma ferramenta de Business Intelligence (BI) que permite a visualização e análise de dados de forma intuitiva. Na MaxMilhas, essa ferramenta é utilizada para monitorar e gerar relatórios sobre as emissões realizadas, ajudando a equipe a tomar decisões informadas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao Metabase</h2>
+            <p>Para acessar o Metabase, siga os passos abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Abrir seu navegador.</li>
+                <li>Digite o endereço do Metabase da MaxMilhas.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast08} alt="Imagem de acesso ao Metabase"></img>
+                <li>Faça login com seu e-mail corporativo (@maxmilhas.com.br).</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificando suas emissões</h2>
+            <p>Uma vez dentro do Metabase, você pode verificar suas emissões através de relatórios e painéis de controle. Aqui estão os passos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Navegue até a seção de relatórios: No menu lateral, procure a opção chamada Coleção [OP] Operadores - Indicadores Individuais.</li>
+                <li>Selecione o relatório desejado: Escolha o relatório chamado [LGPD] Emissão por Atendente - Pesquisado por Login.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast10} alt="Imagem da seleção do relatório"></img>
+                <li>Filtre os dados: Utilize filtros para personalizar a visualização, como período de tempo ou status das emissões.</li>
+                <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast11} alt="Imagem de filtragem dos dados"></img>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Relatórios importantes no Metabase</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Coleção [OP] Operadores - Indicadores Individuais</h3>
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>[LGPD] [Analítico] - Emissões por operador</h4>
+            <p>Este relatório apresenta uma tabela detalhada com informações sobre as transações realizadas por cada operador. Os dados incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Número da transação: Identificador único de cada emissão.</li>
+                <li>Data: Data em que a transação foi realizada.</li>
+                <li>Operador: Nome do operador responsável pela emissão.</li>
+                <li>Emitido/Estornado: Indica se a transação foi emitida ou estornada.</li>
+                <li>Tipo de emissão: Classificação como manual ou automática.</li>
+                <li>Link da emissão: URL para acessar a transação emitida no Cockpit.</li>
+                <li>Companhia aérea: Nome da companhia responsável pela emissão da passagem.</li>
+            </ul>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>[LGPD][Analítico] Estorno por operadores</h4>
+            <p>Este relatório mostra uma tabela com as transações que foram estornadas, permitindo acompanhar as operações de cancelamento realizadas por cada operador.</p>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>[LGPD] Emissão por atendente - Pesquisado por Login</h4>
+            <p>Este relatório fornece uma tabela que mostra o total de emissões realizadas em um intervalo de tempo específico.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Coleção [GERAL] Cockpit</h3>
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>Transações em emissão por login</h4>
+            <p>Este relatório exibe as transações que estão sendo emitidas por um login específico, permitindo monitorar as transações iniciadas pelo analista.</p>
+        </div>
+    ),
+},
+'Convenia': {
+    title: 'Convenia',
+    videoUrl: 'https://www.youtube.com/embed/ms0ZpgzXTwk',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao convenia</h1>
+            <p>O convenia é uma plataforma que oferece soluções de gestão de recursos humanos, facilitando o controle de diversos processos relacionados a funcionários e colaboradores. Com a utilização do convenia, as empresas podem otimizar a administração de folha de pagamento, benefícios e gestão de férias, proporcionando uma experiência mais fluida tanto para os gestores quanto para os colaboradores.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast12} alt="Imagem do Convenia"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Controle de folha de pagamento:</strong> O convenia permite a gestão completa da folha de pagamento, com cálculos automáticos e relatórios detalhados, facilitando o processo de pagamento e evitando erros.</li>
+                <li><strong>Gestão de benefícios:</strong> A plataforma oferece a possibilidade de gerenciar benefícios como vale-alimentação, vale-refeição e outros, garantindo que todos os colaboradores tenham acesso às informações necessárias sobre seus benefícios.</li>
+                <li><strong>Gestão de férias:</strong> O convenia facilita o controle das férias dos colaboradores, permitindo que tanto gestores quanto funcionários possam visualizar e planejar suas férias de maneira prática.</li>
+                <li><strong>Portal do colaborador:</strong> Através do portal, os colaboradores podem acessar informações sobre sua folha de pagamento, benefícios e solicitar férias, tudo de forma simples e intuitiva.</li>
+                <li><strong>Relatórios e análises:</strong> A plataforma oferece uma variedade de relatórios que ajudam os gestores a tomar decisões mais informadas sobre a gestão de pessoas.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
+            <p><strong>Acesso ao convenia:</strong> Os colaboradores e gestores podem acessar a plataforma por meio do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa através do link <a href="https://login.convenia.com.br/" target="_blank" rel="noopener noreferrer">https://login.convenia.com.br/</a>.</p>
+            <p><strong>Navegação:</strong> A interface é amigável, permitindo que usuários facilmente encontrem informações relacionadas a seus dados e processos de trabalho.</p>
+
+            <p>O convenia é uma ferramenta essencial para a gestão eficiente de recursos humanos, promovendo uma melhor organização e gestão de pessoas dentro da empresa. Ao utilizar o convenia, a MaxMilhas reforça seu compromisso com a transparência e a eficiência nas relações de trabalho.</p>
+        </div>
+    ),
+},
+'Qulture.rocks': {
+    title: 'Introdução ao Qulture.rocks',
+    videoUrl: 'https://www.youtube.com/embed/ms0ZpgzXTwk',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao Qulture.Rocks</h1>
+            <p>O Qulture.Rocks é uma plataforma de gestão de desempenho que visa transformar a cultura organizacional das empresas, promovendo um ambiente de feedback contínuo, desenvolvimento de competências e engajamento dos colaboradores. Com um foco em resultados, a ferramenta permite que as empresas alinhem objetivos e melhorem a performance de suas equipes.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast13} alt="Imagem da plataforma Qulture.Rocks"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Gestão de desempenho:</strong> Permite que as empresas definam metas individuais e coletivas, acompanhem o progresso e realizem avaliações de desempenho de maneira ágil e eficiente.</li>
+                <li><strong>Feedback contínuo:</strong> Facilita a troca de feedback entre colaboradores e gestores, promovendo uma cultura de comunicação aberta e transparente. Os colaboradores podem solicitar e dar feedback a qualquer momento, ajudando no desenvolvimento contínuo.</li>
+                <li><strong>Reconhecimento e recompensa:</strong> A plataforma possibilita o reconhecimento de conquistas e esforços dos colaboradores, contribuindo para um ambiente de trabalho mais motivador e engajado.</li>
+                <li><strong>Cultura e valores:</strong> O Qulture.Rocks ajuda a alinhar a cultura organizacional e os valores da empresa com as práticas diárias dos colaboradores, assegurando que todos estejam trabalhando em direção aos mesmos objetivos.</li>
+                <li><strong>Relatórios e análises:</strong> A ferramenta oferece relatórios detalhados sobre o desempenho individual e coletivo, ajudando os gestores a tomar decisões informadas sobre o desenvolvimento de suas equipes.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
+            <p>Acesso ao Qulture.Rocks: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
+            <p>Link de acesso: <a href="https://app.qulture.rocks/users/sign_in">https://app.qulture.rocks/users/sign_in</a></p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
+            <p>A interface é intuitiva, permitindo que os usuários acessem rapidamente as funcionalidades de feedback, metas e avaliações.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
+            <p>O Qulture.Rocks é uma ferramenta essencial para promover uma cultura de alto desempenho e engajamento dentro da MaxMilhas. Ao implementar essa plataforma, a empresa se compromete a fortalecer a comunicação interna, o desenvolvimento contínuo e o alinhamento de objetivos, resultando em uma equipe mais motivada e produtiva.</p>
+        </div>
+    ),
+},
+'ifractal ponto online': {
+    title: 'iFractal ponto online',
+    videoUrl: 'https://www.youtube.com/embed/mKiM0PMwzRw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao iFractal ponto online</h1>
+            <p>O iFractal Ponto Online é uma plataforma de gestão de ponto e controle de jornada de trabalho, desenvolvida para facilitar a administração da frequência dos colaboradores de forma simples e eficiente. A ferramenta é especialmente útil para empresas que buscam otimizar processos relacionados ao registro de horas trabalhadas, folgas e absenteísmo.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Registro de ponto:</strong> Permite que os colaboradores registrem suas entradas e saídas de maneira fácil, seja por meio do aplicativo móvel ou da versão web.</li>
+                <li><strong>Controle de jornada:</strong> Os gestores podem acompanhar a jornada de trabalho dos colaboradores, monitorando horas extras, faltas e atrasos em tempo real.</li>
+                <li><strong>Relatórios:</strong> A plataforma oferece relatórios detalhados sobre a frequência dos colaboradores, permitindo que a gestão analise dados de desempenho, absenteísmo e horas trabalhadas de forma eficiente.</li>
+                <li><strong>Integração com folha de pagamento:</strong> O iFractal pode ser integrado a sistemas de folha de pagamento, facilitando o cálculo de salários e evitando erros na apuração de horas trabalhadas.</li>
+                <li><strong>Gestão de ausências e férias:</strong> Os colaboradores podem solicitar folgas, férias e licenças diretamente pela plataforma, permitindo que os gestores aprovem ou rejeitem essas solicitações com facilidade.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
+            <p>Acesso ao iFractal ponto online: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoFerramentas14} alt="Imagem do acesso ao iFractal ponto online"></img>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
+            <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências.</p>
+
+            <p>O iFractal Ponto Online é uma ferramenta importante para a gestão eficaz do ponto na MaxMilhas. Ao utilizar essa plataforma, a empresa consegue otimizar o controle de jornada de trabalho, garantindo maior eficiência nas operações e melhor acompanhamento da frequência dos colaboradores.</p>
+        </div>
+    ),
+},
+'Receita federal': {
+    title: 'Receita Federal',
+    videoUrl: 'https://www.youtube.com/embed/JVUOuz8b97E',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Receita Federal</h1>
+            <p>Esta aula tem como objetivo ensinar como realizar a consulta de dados do passageiro utilizando o site da Receita Federal. Essa prática é essencial para verificar informações como nome completo e data de nascimento, garantindo a precisão dos dados durante o processo de emissão de passagens aéreas.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao site</h2>
+            <p>URL: Acesse o site da Receita Federal através do seguinte link: Receita Federal - Consulta CPF.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferamentast15} alt="Imagem da Receita Federal"></img>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para a consulta</h2>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Preenchimento dos dados</h3>
+            <p>No site, você encontrará campos para inserir o CPF e a data de nascimento do passageiro. Insira os dados conforme solicitado.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Validação e confirmação</h3>
+            <p>Após preencher as informações, clique no botão de consultar. O sistema valida os dados e retornará as informações do passageiro.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Informações retornadas</h3>
+            <p>Você verá detalhes como:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Nome completo</li>
+                <li>Data de nascimento</li>
+                <li>Situação cadastral do CPF (regular ou irregular)</li>
+            </ul>
+            <p>Utilize essas informações para verificar a exatidão dos dados do passageiro antes de realizar a emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da consulta</h2>
+            <p>Precisão nas emissões: Garantir que os dados estejam corretos evita problemas durante a emissão da passagem e possíveis complicações na hora do embarque.</p>
+            <p>Prevenção de erros: Consultar as informações do CPF pode evitar emissões em contas erradas e outros erros comuns que podem resultar em prejuízos para a empresa.</p>
+
+            <p>Realizar a consulta de dados do passageiro na Receita Federal é uma prática recomendada que ajuda a manter a qualidade das emissões e a satisfação dos clientes. Siga sempre este procedimento antes de iniciar o processo de emissão.</p>
+        </div>
+    ),
+},
+'TripCase': {
+    title: 'TripCase',
+    videoUrl: 'https://www.youtube.com/embed/qEmIeEcyu44',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>O que é o TripCase?</h1>
+            <p>O TripCase é uma ferramenta útil que permite aos viajantes organizar e gerenciar todas as informações relacionadas às suas viagens em um único lugar. Uma das suas principais funcionalidades é a capacidade de buscar e acessar e-tickets quando a companhia aérea não fornece o localizador.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Utilização do TripCase em casos especiais</h2>
+            <p>Quando usar:</p>
+            <p>O TripCase é especialmente útil em situações em que a companhia aérea não gera um localizador da passagem.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Criando uma viagem:</h2>
+            <p>Acesse o site do TripCase e crie uma nova viagem.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast16} alt="Imagem do TripCase - Criando uma nova viagem"></img>
+
+            <p>Clique em criar nova viagem</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast17} alt="Imagem do TripCase - Clique em criar nova viagem"></img>
+
+            <p>Utilize o código do localizador para o nome da viagem</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast18} alt="Imagem do TripCase - Utilizando o código do localizador"></img>
+
+            <p>Clique em vincular uma reserva</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast19} alt="Imagem do TripCase - Clique em vincular uma reserva"></img>
+
+            <p>Digite o sobrenome do passageiro cadastrado na transação e o código do localizador.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Buscando a viagem:</h2>
+            <p>Após inserir os dados, o TripCase busca automaticamente as informações da viagem e exibe o e-ticket associado a essa reserva.</p>
+            <p>O e-ticket pode ser visualizado, salvo ou compartilhado conforme necessário.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades adicionais do TripCase</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Organização:</strong> Permite consolidar todos os detalhes da viagem em um só lugar.</li>
+                <li><strong>Notificações:</strong> Recebe alertas sobre mudanças de status de voos, atrasos e cancelamentos.</li>
+                <li><strong>Acesso rápido:</strong> Os usuários podem acessar rapidamente o e-ticket e as informações da viagem, mesmo sem conexão à internet.</li>
+            </ul>
+
+            <p>O TripCase se torna uma ferramenta essencial para viajantes que enfrentam situações onde o localizador da passagem não é disponibilizado. Ao permitir que os usuários busquem e visualizem seus e-tickets de maneira rápida e fácil, o aplicativo contribui para uma experiência de viagem mais tranquila e organizada.</p>
+        </div>
+    ),
+},
+'Zendesk': {
+    title: 'Zendesk',
+    videoUrl: 'https://www.youtube.com/embed/qEmIeEcyu44',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Zendesk</h1>
+            <p>O Zendesk é uma solução de software que oferece ferramentas para gerenciar o atendimento ao cliente, centralizando as interações em um único lugar. Ele é amplamente utilizado por empresas para melhorar a experiência do cliente e otimizar processos de suporte.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentast20} alt="Imagem do Zendesk"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais funcionalidades do Zendesk</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Central de atendimento</h3>
+            <p>O Zendesk permite que as empresas tenham uma central de atendimento onde podem receber, organizar e responder a solicitações dos clientes.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Tickets</h3>
+            <p>Quando um cliente entra em contato, uma solicitação é convertida em um "ticket", que pode ser rastreado e gerenciado até a resolução.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Base de conhecimento</h3>
+            <p>O Zendesk oferece a possibilidade de criar uma base de conhecimento, onde os clientes podem encontrar respostas para perguntas frequentes e resolver problemas de forma autônoma.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Chat ao vivo</h3>
+            <p>A plataforma também conta com uma funcionalidade de chat ao vivo, permitindo que os agentes se comuniquem com os clientes em tempo real.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Relatórios e análises</h3>
+            <p>O Zendesk oferece ferramentas de análise que ajudam as empresas a monitorar o desempenho do atendimento, identificando áreas para melhoria.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Integrações</h3>
+            <p>O Zendesk pode ser integrado a outras ferramentas e plataformas, facilitando a gestão de informações e a comunicação com os clientes.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Benefícios do uso do Zendesk</h2>
+            <p>Melhoria na experiência do cliente: Proporciona um atendimento mais ágil e eficaz, aumentando a satisfação do cliente.</p>
+            <p>Eficiência operacional: Centraliza as informações e facilita a comunicação entre equipes, otimizando o tempo dos agentes.</p>
+            <p>Acesso a dados: Os relatórios e análises permitem que as empresas tomem decisões baseadas em dados concretos sobre o desempenho do atendimento.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessando o Zendesk</h2>
+            <p>O Zendesk pode ser acessado através do link <a href="https://maxmilhas.zendesk.com/agent/dashboard">maxmilhas.zendesk.com</a></p>
+            <p>Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login</p>
+
+            <p>O Zendesk é uma ferramenta poderosa para empresas que buscam aprimorar seu atendimento ao cliente. Com suas diversas funcionalidades, permite que as equipes de suporte gerenciem solicitações de maneira eficaz, contribuindo para uma experiência mais positiva para os clientes.</p>
+        </div>
+    ),
+},
 
 
 
