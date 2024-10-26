@@ -150,7 +150,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Lógica de negócio", "completed": false},
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Comentários", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível", "completed": false},
                         {"title": "Cadastrando passageiros", "completed": false},
                         {"title": "Página de pagamento", "completed": false},
@@ -170,23 +170,23 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "progress": 0,
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Tipos de comentários", "completed": false},
+                        {"title": "Categoria de ofertantes latam", "completed": false},
+                        {"title": "Comentários", "completed": false},
                         {"title": "Acessando a conta do ofertante com a bifrost ", "completed": false},
-                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
+                        {"title": "Verificando quantidade de milhas e voo disponível latam", "completed": false},
                         {"title": "Erro na busca de voo", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
                         {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
                         {"title": "Emissões semiautomáticas", "completed": false},
-                        {"title": "Emissões manuais", "completed": false},
-                        {"title": "Cadastrando passageiros", "completed": false},
+                        {"title": "Emissões manuais latam", "completed": false},
+                        {"title": "Cadastrando passageiros latam", "completed": false},
                         {"title": "Bagagem", "completed": false},
-                        {"title": "Página de pagamento", "completed": false},
-                        {"title": "Erros de pagamento", "completed": false},
-                        {"title": "E-tickets", "completed": false},
-                        {"title": "Cancelando localizador na companhia", "completed": false},
-                        {"title": "Conferindo extrato", "completed": false}
+                        {"title": "Página de pagamento latam", "completed": false},
+                        {"title": "Erros de pagamento latam ", "completed": false},
+                        {"title": "E-tickets latam", "completed": false},
+                        {"title": "Cancelando localizador na companhia latam", "completed": false},
+                        {"title": "Conferindo extrato latam", "completed": false}
                     ]
                 },
                 {
@@ -195,19 +195,19 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Tipos de comentários", "completed": false},
-                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
+                        {"title": "Comentários", "completed": false},
+                        {"title": "Verificando quantidade de milhas e voo disponível gol", "completed": false},
                         {"title": "Simulador Android", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
                         {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
                         {"title": "Emissões semiautomáticas", "completed": false},
-                        {"title": "Emissões manuais", "completed": false},
-                        {"title": "Cadastrando passageiros", "completed": false},
-                        {"title": "Página de pagamento", "completed": false},
-                        {"title": "E-tickets", "completed": false},
-                        {"title": "Cancelando localizador na companhia", "completed": false},
-                        {"title": "Conferindo extrato", "completed": false}
+                        {"title": "Emissões manuais gol", "completed": false},
+                        {"title": "Cadastrando passageiros gol", "completed": false},
+                        {"title": "Página de pagamento gol", "completed": false},
+                        {"title": "E-tickets gol", "completed": false},
+                        {"title": "Cancelando localizador na companhia gol", "completed": false},
+                        {"title": "Conferindo extrato gol", "completed": false}
                     ]
                 },
                 {
@@ -216,20 +216,20 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes", "completed": false},
-                        {"title": "Tipos de comentários", "completed": false},
-                        {"title": "Verificando informações sobre o voo e milhas", "completed": false},
+                        {"title": "Comentários", "completed": false},
+                        {"title": "Verificando quantidade de milhas e voo disponível azul", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
                         {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
                         {"title": "Emissões automáticas", "completed": false},
                         {"title": "Emissões semiautomáticas", "completed": false},
-                        {"title": "Emissões manuais", "completed": false},
+                        {"title": "Emissões manuais azul", "completed": false},
                         {"title": "Verificando beneficiários cadastrados", "completed": false},
-                        {"title": "Cadastrando passageiros", "completed": false},
+                        {"title": "Cadastrando passageiros azul", "completed": false},
                         {"title": "Bagagem", "completed": false},
-                        {"title": "Página de pagamento", "completed": false},
-                        {"title": "E-tickets", "completed": false},
-                        {"title": "Cancelando localizador na companhia", "completed": false},
-                        {"title": "Conferindo extrato", "completed": false}
+                        {"title": "Página de pagamento azul", "completed": false},
+                        {"title": "E-tickets azul", "completed": false},
+                        {"title": "Cancelando localizador na companhia azul", "completed": false},
+                        {"title": "Conferindo extrato azul", "completed": false}
                     ]
                 },
                 {
