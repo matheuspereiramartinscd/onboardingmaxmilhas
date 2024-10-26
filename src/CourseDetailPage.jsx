@@ -1928,8 +1928,8 @@ f
         </div>
     ),
 },
-'Bagagem Gol': {
-    title: 'Página de bagagem',
+'Bagagem gol': {
+    title: 'Bagagem Gol',
     videoUrl: 'https://www.youtube.com/embed/-mEn4IfUu-4',
     description: (
         <div>
@@ -2978,51 +2978,138 @@ f
         </div>
     ),
 },
-'Bagagem': {
-    title: 'Bagagem',
-    videoUrl: 'https://www.youtube.com/embed/qv61UCNndpA',
+'Página de pagamento azul': {
+    title: 'Página de pagamento Azul',
+    videoUrl: 'https://www.youtube.com/embed/HWJwlQHS63s',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bagagem</h1>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Página de pagamento</h1>
+            <p>Ao acessar a página de pagamento para finalizar a compra da passagem, siga estas etapas para garantir que o processo seja realizado corretamente:</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Verificação de bagagens no cockpit</h2>
-            <p>Antes de adicionar bagagens para uma transação, é necessário verificar as informações de bagagem no Cockpit. Siga o passo a passo abaixo:</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Conferir dados do voo e da compra</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Taxa de embarque:</strong> Verifique se a taxa de embarque exibida está correta. Esse valor é fundamental, pois influencia o limite do cartão de crédito virtual que será gerado.</li>
+                <li><strong>Pontos:</strong> Confira a quantidade de milhas (pontos) que será utilizada para a compra da passagem.</li>
+                <li><strong>Data do voo:</strong> Confirme que a data do voo está correta e corresponde ao que foi escolhido durante a pesquisa.</li>
+                <li><strong>Horário:</strong> Verifique o horário de partida e chegada para garantir que está tudo conforme esperado.</li>
+                <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos da viagem (ida e volta) para assegurar que não há discrepâncias.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionar cartão de crédito</h2>
+            <p>Após verificar todas as informações, clique no botão para adicionar cartão de crédito.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Gerar cartão de crédito virtual</h2>
+            <p>Voltar ao Cockpit: Navegue de volta até o Cockpit no cartão da transação correspondente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit86} alt="Imagem do Cockpit"></img>
+            <p>Gerar cartão de crédito: Clique no ícone de gerar cartão de crédito. Isso gerará um cartão de crédito virtual que será utilizado para o pagamento da passagem.</p>
+            <p>Limite do cartão: Lembre-se que o limite do cartão de crédito virtual é baseado na taxa de embarque, por isso é crucial que esse valor esteja correto.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Preencher dados do cartão</h2>
+            <p>Preencha os dados solicitados do cartão de crédito virtual gerado, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Número do cartão</li>
+                <li>Data de validade</li>
+                <li>Código de segurança (CVV)</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
+            <p>Após preencher todas as informações do cartão, clique no botão para Efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
+
+            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+        </div>
+    ),
+},
+'E-tickets azul': {
+    title: 'E-tickets',
+    videoUrl: 'https://www.youtube.com/embed/cM7WAXobzJ8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>E-tickets</h1>
+            <p>Após finalizar o pagamento da passagem, um e-ticket será gerado automaticamente. O e-ticket contém todas as informações necessárias sobre o voo e serve como comprovante da compra. Siga os passos abaixo para garantir que tudo esteja devidamente registrado:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Gerar o e-ticket</h2>
+            <p>Após a confirmação do pagamento, o sistema gerará um e-ticket com os detalhes do voo, incluindo:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Acessar a transação:</strong> No Cockpit, localize a transação desejada.</li>
-                <li><strong>Verificar Informações:</strong>
-                    <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
-                        <li>Opção 1: No cartão da transação, clique na caixa de informações do voo para visualizar os passageiros e quantas bagagens cada um possui.</li>
-                        <li>Opção 2: Caso precise de mais detalhes, acesse a transação completa e verifique as informações referentes à bagagem.</li>
+                <li>Número do voo</li>
+                <li>Data e hora da partida</li>
+                <li>Dados do passageiro</li>
+                <li>Taxas e informações de bagagem</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Capturar o e-ticket</h2>
+            <p>Utilize uma ferramenta de captura de tela (como Captura e Esboço, Lightshot, ou outra de sua preferência) para salvar uma cópia do e-ticket.</p>
+            <p>Dica: Para capturar a tela, você pode usar teclas de atalho como Print Screen ou ferramentas específicas para captura que permitem selecionar apenas a parte da tela desejada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Voltar ao Cockpit</h2>
+            <p>Retorne ao sistema Cockpit no cartão da transação correspondente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Inserir e-ticket</h2>
+            <p>Clique no botão Inserir e-ticket para dar continuidade ao processo de registro do e-ticket.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit87} alt="Imagem do botão Inserir e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Preencher informações necessárias</h2>
+            <p>Digite as seguintes informações na tela de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Número do e-Ticket:</strong> Insira o número gerado do e-ticket que você capturou.</li>
+                <li><strong>Login do programa de fidelidade:</strong> Forneça o login que você utilizou para a emissão da passagem.</li>
+                <li><strong>Número da compra para a companhia aérea:</strong> Insira o número de compra associado ao e-ticket (se aplicável).</li>
+                <li><strong>Valor da bagagem paga na companhia aérea:</strong> Informe o valor que foi pago por qualquer bagagem adicional.</li>
+                <li><strong>Cartão de crédito utilizado:</strong> Se solicitado, forneça os dados do cartão de crédito que foi utilizado para a compra.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit88} alt="Imagem do preenchimento de informações do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Fazer upload do e-ticket</h2>
+            <p>Faça o upload da captura de tela do e-ticket que você salvou anteriormente. Este passo é crucial para garantir que a transação e a emissão estejam devidamente documentadas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Mensagens de sucesso e erro</h2>
+            <p>Após a inserção do e-ticket, o sistema verificará as informações e fornecerá uma mensagem de retorno:</p>
+            <p><strong>Mensagem de sucesso:</strong> Se todos os dados estiverem corretos, aparecerá uma confirmação de que o e-ticket foi registrado com sucesso.</p>
+        </div>
+    ),
+},
+'Cancelando localizador na companhia azul': {
+    title: 'Cancelando localizador na companhia Azul',
+    videoUrl: 'https://www.youtube.com/embed/5GHnL4JGY2M',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cancelando localizador na companhia Azul</h1>
+            <p>O cancelamento de e-tickets é uma etapa importante que pode ser necessária devido a diversos motivos, como erros na emissão do bilhete ou solicitações dos passageiros. Nesta aula, abordaremos os passos específicos para cancelar e-tickets nas companhias aéreas, com foco na Azul.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Quando cancelar um e-ticket?</h2>
+            <p>O cancelamento do e-ticket é necessário nas seguintes situações:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Erros na emissão do bilhete:</strong>
+                    <ul>
+                        <li>Dados incorretos (nome, CPF, etc.)</li>
+                        <li>Voo incorreto</li>
+                        <li>Quantidade de milhas acima do permitido</li>
+                    </ul>
+                </li>
+                <li><strong>Solicitações do passageiro:</strong>
+                    <ul>
+                        <li>Passageiro requisitou o cancelamento</li>
+                        <li>Bilhete emitido em duplicidade</li>
                     </ul>
                 </li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit104} alt="Imagem da verificação de bagagens no cockpit"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Adicionando bagagens no site da companhia aérea durante a compra</h2>
-            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com suas credenciais ou as credenciais do cliente.</li>
-                <li><strong>Cadastro de passageiros:</strong> Faça o cadastro dos passageiros de acordo com as informações obtidas no cockpit.</li>
-                <li><strong>Adição de bagagens:</strong> Adicione as bagagens adquiridas por cada passageiro.</li>
-            </ul>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para cancelar um e-ticket na Azul</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar o site da Azul</h3>
+            <p>Entre no site oficial da Azul.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul00} alt="Imagem do site da Azul"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Adicionando bagagens no site da companhia aérea após a compra</h2>
-            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com as credenciais do cliente.</li>
-                <li><strong>Localize a viagem correta:</strong> Utilize as informações do voo para identificar a reserva no sistema da companhia aérea.</li>
-                <li><strong>Adição de bagagens:</strong> Selecione a opção de adicionar bagagens extras conforme a necessidade do passageiro. Verifique a quantidade de bagagens permitidas e os valores cobrados.</li>
-            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Iniciar o atendimento no Chat</h3>
+            <p>Clique no ícone do Chat. Siga as instruções e escolha a opção de cancelamento.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul04} alt="Imagem do chat da Azul"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul05} alt="Imagem das instruções no chat"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Informando o valor pago pela bagagem</h2>
-            <p>Depois de realizar a adição de bagagens no site da companhia aérea, é importante registrar o valor pago:</p>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li><strong>Registro do valor no cockpit:</strong> Insira no campo correspondente ao valor de bagagem na transação do Cockpit.</li>
-                <li><strong>Comentário na transação:</strong> Faça um comentário na transação informando o valor pago e qualquer detalhe relevante sobre a adição das bagagens.</li>
-            </ul>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Confirmar cancelamento</h3>
+            <p>Prossiga com o cancelamento.</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
-            <p>A adição de bagagens envolve a verificação no Cockpit e o registro adequado no site da companhia aérea. Siga todos os passos para garantir que as informações estejam corretas e atualizadas.</p>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Registrar mensagem de reembolso</h3>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
+
+            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
         </div>
     ),
 },
