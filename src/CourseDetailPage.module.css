@@ -304,7 +304,6 @@
 a {
     font-family: inherit; /* Herda a fonte do elemento pai */
     font-size: inherit; /* Herda o tamanho de fonte do elemento pai */
-    color: #336e21; /* Personalize a cor conforme necessário */
     text-decoration: none;
     font-weight: normal; /* Ajuste o peso da fonte para coincidir com o padrão */
   }
@@ -312,6 +311,11 @@ a {
 a:hover {
     color: #98da82;
     /* Garante que o hover não altere a cor */
+}
+
+.custom-link{
+    text-decoration:underline;
+    color: lightskyblue;
 }
 
 /* A partir de 1100px ou menos, a caixa de progresso sobe para cima do vídeo */
