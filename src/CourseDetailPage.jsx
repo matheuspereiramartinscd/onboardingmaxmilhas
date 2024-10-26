@@ -2441,7 +2441,7 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Erros de pagamento</h1>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Imagem sobre erros de pagamento"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam20} alt="Imagem sobre erros de pagamento"></img>
             <p>Durante o processo de emissão de passagens na cia LATAM, podem ocorrer erros no pagamento. Esses erros podem ser causados por diferentes fatores, como dados incorretos ou falhas no sistema. Para garantir que a transação seja concluída com sucesso, é essencial seguir algumas etapas de solução de problemas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Possíveis soluções para erros de pagamento</h2>
@@ -2481,12 +2481,12 @@ f
                 <li>Dados do passageiro</li>
                 <li>Taxas e informações de bagagem</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Imagem da geração do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam08} alt="Imagem da geração do e-ticket"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Capturar o e-ticket</h2>
             <p>Utilize uma ferramenta de captura de tela (como Captura e Esboço, Lightshot, ou outra de sua preferência) para salvar uma cópia do e-ticket.</p>
             <p>Dica: Para capturar a tela, você pode usar teclas de atalho como Print Screen ou ferramentas específicas para captura que permitem selecionar apenas a parte da tela desejada.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Imagem da captura do e-ticket"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam09} alt="Imagem da captura do e-ticket"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Voltar ao Cockpit</h2>
             <p>Retorne ao sistema Cockpit no cartão da transação correspondente.</p>
