@@ -1356,14 +1356,14 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
             <p>Para consultar os motivos corretos para realizar a troca de ofertante você pode acessar este <a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.custom-link}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       material
     </a>  (<a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.custom-link}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
@@ -2096,14 +2096,14 @@ f
             <p>
                 Preencha o formulário FNC 15 de acordo com o tutorial disponível neste    <a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.custom-link}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       material
     </a>  (<a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.custom-link}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
@@ -3689,6 +3689,181 @@ f
             <p>Esses quatro verbos refletem a essência da MaxMilhas, guiando suas ações e reforçando sua missão de transformar o mercado de passagens aéreas.</p>
         </div>
     ),
+},
+'Como a empresa se posiciona no mercado': {
+    title: 'Como a empresa se posiciona no mercado',
+    videoUrl: 'https://www.youtube.com/embed/aJT8j6HSdFw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Posicionamento da MaxMilhas no mercado</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria04} alt="Imagem do posicionamento da MaxMilhas no mercado"></img>
+
+            <p>A MaxMilhas se destaca no mercado de passagens aéreas por meio de uma proposta inovadora e acessível, que visa democratizar o acesso a viagens. O posicionamento da empresa pode ser resumido em alguns pontos-chave:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Modelo de negócio único</h2>
+            <p>A MaxMilhas opera como uma plataforma que conecta pessoas que desejam vender suas milhas com aquelas que desejam comprar passagens aéreas. Esse modelo permite que a empresa ofereça tarifas mais competitivas em comparação com as praticadas pelas companhias aéreas tradicionais.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessibilidade e inclusão</h2>
+            <p>A missão da empresa é tornar as viagens mais acessíveis, permitindo que mais pessoas realizem o sonho de viajar. Isso se reflete em preços justos e na oferta de opções que atendem a diferentes perfis de consumidores.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tecnologia e inovação</h2>
+            <p>A MaxMilhas investe continuamente em tecnologia para aprimorar a experiência do usuário, facilitando a pesquisa e a compra de passagens. A plataforma é projetada para ser intuitiva e eficiente, oferecendo informações claras e relevantes aos clientes.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Experiência do cliente</h2>
+            <p>A empresa se preocupa em proporcionar uma experiência positiva aos seus usuários. O atendimento ao cliente é um dos pilares do negócio, sendo reconhecido pela qualidade e pela personalização. Isso se reflete em prêmios e certificações que atestam a excelência no relacionamento com o consumidor.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cultura de inovação</h2>
+            <p>A MaxMilhas promove uma cultura organizacional que valoriza a inovação e a criatividade. A empresa está sempre em busca de novas soluções e serviços que possam enriquecer a experiência de viagem, como ofertas exclusivas e parcerias estratégicas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Reconhecimento no mercado</h2>
+            <p>Com o passar dos anos, a MaxMilhas consolidou sua posição como uma das principais plataformas de venda de passagens aéreas do Brasil. O reconhecimento em premiações e a presença em rankings de destaque refletem sua credibilidade e relevância no setor.</p>
+
+            <p>Em resumo, a MaxMilhas se posiciona como uma empresa inovadora e acessível no mercado de passagens aéreas, comprometida com a democratização das viagens e a satisfação do cliente.</p>
+        </div>
+    ),
+},
+'Estrutura hierárquica e equipes': {
+    title: 'Estrutura hierárquica e equipes da MaxMilhas',
+    videoUrl: 'https://www.youtube.com/embed/cXZ10wKdJC8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estrutura hierárquica e equipes da MaxMilhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={require('./assets/Cursos/Historia/cursohistoria05.jpg')} alt="Imagem da estrutura hierárquica"></img>
+
+            <p>A estrutura hierárquica da MaxMilhas é projetada para promover a colaboração, a inovação e a agilidade nas operações. Com uma equipe diversificada e multidisciplinar, a empresa está organizada em diferentes camadas, cada uma com responsabilidades claras e bem definidas. Abaixo estão os principais níveis da estrutura organizacional:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Alta direção</h2>
+            <p>A alta direção é composta pelos fundadores e executivos seniores, responsáveis pela definição da estratégia global da empresa, pela visão a longo prazo e pela tomada de decisões críticas que afetam o futuro da MaxMilhas. Este grupo lidera a cultura organizacional e garante que os valores e a missão sejam incorporados em todas as operações.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Gerências</h2>
+            <p>As gerências são responsáveis pela supervisão de áreas específicas, como marketing, operações, tecnologia, finanças e atendimento ao cliente. Cada gerente lidera uma equipe e é responsável pela implementação de estratégias que atendam aos objetivos da empresa, garantindo eficiência e eficácia em suas respectivas áreas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipes de operações</h2>
+            <p>As equipes de operações são fundamentais para o funcionamento diário da MaxMilhas. Elas lidam com a emissão de passagens, a gestão de milhas, o relacionamento com companhias aéreas e a resolução de problemas dos clientes. Essas equipes são formadas por profissionais que trabalham em conjunto para garantir que cada transação seja processada com precisão e agilidade.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de atendimento ao cliente</h2>
+            <p>A equipe de atendimento ao cliente é o ponto de contato entre a empresa e os clientes. Com uma abordagem centrada no cliente, essa equipe se dedica a resolver dúvidas, fornecer suporte e garantir que cada cliente tenha uma experiência positiva ao interagir com a MaxMilhas. Eles são treinados para lidar com uma variedade de situações e garantir a satisfação do cliente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de marketing</h2>
+            <p>A equipe de marketing é responsável por promover a marca MaxMilhas e suas ofertas. Eles desenvolvem campanhas publicitárias, gerenciam as redes sociais e trabalham na criação de conteúdos que informem e atraiam potenciais clientes. O objetivo é aumentar a visibilidade da empresa e expandir sua base de clientes.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de tecnologia</h2>
+            <p>A equipe de tecnologia é encarregada de desenvolver e manter a plataforma da MaxMilhas. Eles garantem que o sistema funcione de maneira eficiente e segura, implementando novas funcionalidades e atualizações para melhorar a experiência do usuário.</p>
+        </div>
+    ),
+},
+'Guia da marca': {
+    title: 'Guia da marca',
+    videoUrl: 'https://www.youtube.com/embed/OzHry0QsouM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Guia da marca</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria06} alt="Imagem do guia da marca"></img>
+            <p>Nesta aula, iremos explorar os principais aspectos do guia de marca da Maxmilhas, que inclui desde a estratégia até a identidade verbal e visual. O foco é entender como esses elementos contribuem para construir uma comunicação coerente e eficaz para a marca, de forma a gerar conexão com o público.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que você vai encontrar aqui:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Estratégia</li>
+                <li>Cérebro de Branding</li>
+                <li>Posicionamento</li>
+                <li>Tagline</li>
+                <li>Brand Persona</li>
+                <li>Manifesto</li>
+                <li>Quem Somos</li>
+                <li>Identidade Verbal</li>
+                <li>Regra de tom de voz</li>
+                <li>Diretrizes de tom de voz</li>
+                <li>Regras de linguagem</li>
+                <li>Dicionário</li>
+                <li>Emojis</li>
+                <li>Identidade Visual</li>
+                <li>Logo</li>
+                <li>Cores</li>
+                <li>Tipografia</li>
+                <li>Grafismos</li>
+                <li>Ilustrações</li>
+                <li>Fotografia</li>
+                <li>Aplicações</li>
+                <li>Boas práticas no uso de elementos verbais e visuais.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia de marca</h2>
+            <p>A estratégia de marca da Maxmilhas é guiada por um conceito chamado Cérebro de Branding, que organiza as diretrizes da empresa em duas vertentes:</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Cérebro de branding da MaxMilhas</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria07} alt="Imagem do cérebro de branding"></img>
+            <p>O conceito de "Cérebro de Branding" é uma ferramenta que centraliza toda a estratégia da marca MaxMilhas, abrangendo tanto a personalidade quanto os objetivos do nosso negócio. Dividimos o cérebro em dois lados: o racional (esquerdo), que se relaciona com o negócio, e o emocional (direito), que representa a nossa marca. O sucesso do branding está no equilíbrio entre esses dois lados.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Cérebro de branding</h3>
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1. Visão do negócio</h4>
+            <p>Objetivo: Ser a principal travel tech brasileira.</p>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2. Propósito da marca</h4>
+            <p>Missão: Fazer com que as pessoas viajem mais, pois viajar transforma vidas.</p>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1.3. Promessa do negócio</h4>
+            <p>Compromisso: Oferecer uma forma inteligente para você viajar mais e aproveitar a vida ao máximo.</p>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1.4. Essência da marca</h4>
+            <p>Essência: Temos a manhã para inovar na pesquisa e compra de viagens.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Princípios do negócio</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria08} alt="Imagem dos princípios do negócio"></img>
+            <p>Os princípios que regem o nosso negócio são fundamentais para a construção da nossa identidade e para a maneira como nos relacionamos com nossos clientes e colaboradores:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Amar: Nos importamos como se a viagem fosse nossa.</li>
+                <li>Aproximar: Conectamos todas as pessoas e todos os destinos.</li>
+                <li>Arriscar: Temos iniciativa e criamos inovação.</li>
+                <li>Acelerar: Temos pressa para evoluir.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Personalidade da marca</h2>
+            <p>A personalidade da MaxMilhas reflete quem somos e como nos expressamos no mercado. Nossos traços de personalidade incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Sabe a manha: Expertise em oferecer soluções inteligentes.</li>
+                <li>Inconformada: Sempre buscando inovação e melhorias.</li>
+                <li>Dedicada: Comprometimento com a experiência do cliente.</li>
+                <li>Te entende: Empatia e conexão com as necessidades dos viajantes.</li>
+                <li>Plural e diversa: Valorização da diversidade em todas as suas formas.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Posicionamento</h2>
+            <p>O posicionamento da Maxmilhas é voltado para três personas principais:</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Turista</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria09} alt="Imagem do turista"></img>
+            <p>Valoriza experiências relaxantes e busca praticidade na organização de viagens.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Viajante frequente</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria10} alt="Imagem do viajante frequente"></img>
+            <p>Procura preços acessíveis e viagens rápidas, integrando isso à sua rotina.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Viajante a trabalho</h3>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria11} alt="Imagem do viajante a trabalho"></img>
+            <p>Prioriza praticidade e conveniência na compra de passagens e organização de viagens.</p>
+
+            <p>A marca se diferencia por ser uma plataforma inteligente que oferece a melhor experiência de compra de viagens, com uma navegação intuitiva, preços competitivos e serviços complementares, como dicas e comparações de preços.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Manifesto da marca</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria12} alt="Imagem do manifesto da marca"></img>
+            <p>O manifesto da MaxMilhas expressa a missão da empresa de fazer com que as pessoas viajem mais, conectando-se não apenas com destinos, mas consigo mesmas e com o mundo ao seu redor. Viajar é viver ao máximo, e a MaxMilhas busca proporcionar essas experiências ao tornar a organização de viagens mais acessível e prazerosa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Brand persona</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria13} alt="Imagem da brand persona"></img>
+            <p>A Brand Persona da MaxMilhas é como uma pessoa especialista em viagens, que sabe as melhores dicas e truques para encontrar passagens e roteiros de forma inteligente. É alguém que ajuda no planejamento das viagens e compartilha conhecimento, sempre buscando proporcionar as melhores experiências para quem deseja viajar.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Identidade verbal</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria14} alt="Imagem da identidade verbal"></img>
+            <p>A identidade verbal é a forma como nos comunicamos e nos expressamos com o nosso público. Nela, destacamos a importância do tom de voz e das diretrizes que devem ser seguidas na construção de uma comunicação clara, amigável e eficaz, refletindo a essência da Maxmilhas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Identidade visual</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria15} alt="Imagem da identidade visual"></img>
+            <p>A identidade visual é o que representa a Maxmilhas visualmente. Aqui, são abordados aspectos como logotipo, paleta de cores, tipografia e outras diretrizes visuais que devem ser seguidas para garantir uma comunicação visual coesa e impactante.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Boas práticas no uso de elementos verbais e visuais</h2>
+            <p>Para garantir que nossa comunicação seja sempre eficaz, algumas boas práticas devem ser seguidas, como a consistência no uso de cores e tipografias, o cuidado com a linguagem utilizada e a atenção às imagens que representam a marca. Cada elemento deve estar alinhado à identidade da Maxmilhas, garantindo que a marca seja reconhecida e respeitada.</p>
+        </div>
+    )
 },
 
 
