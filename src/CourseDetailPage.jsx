@@ -5813,7 +5813,7 @@ f
         </div>
     )
 },
-'Manutenção do sistema utilizando CCleaner': {
+'Manutenção no sistema utilizando CCleaner': {
     title: 'Manutenção do sistema e uso do CCleaner',
     videoUrl: 'https://www.youtube.com/embed/uecWRJT43ao',
     description: (
