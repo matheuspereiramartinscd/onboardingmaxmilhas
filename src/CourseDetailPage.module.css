@@ -304,8 +304,8 @@
 a {
     font-family: inherit; /* Herda a fonte do elemento pai */
     font-size: inherit; /* Herda o tamanho de fonte do elemento pai */
-    color: #007bff; /* Personalize a cor conforme necessário */
-
+    color: #336e21; /* Personalize a cor conforme necessário */
+    text-decoration: none;
     font-weight: normal; /* Ajuste o peso da fonte para coincidir com o padrão */
   }
   
