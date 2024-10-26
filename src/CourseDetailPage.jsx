@@ -4794,7 +4794,7 @@ f
         </div>
     ),
 },
-'Tipos comuns de prejuízos': {
+'Tipos mais comuns de prejuízos': {
     title: 'Tipos comuns de prejuízos',
     videoUrl: 'https://www.youtube.com/embed/6--ZiF3BEto',
     description: (
@@ -4890,7 +4890,7 @@ f
         </div>
     ),
 },
-'Transação cancelada e localizador ativo': {
+'Transação cancelada e LOC ativo': {
     title: 'Transação cancelada e localizador ativo',
     videoUrl: 'https://www.youtube.com/embed/drF7h_HQ9k0',
     description: (
