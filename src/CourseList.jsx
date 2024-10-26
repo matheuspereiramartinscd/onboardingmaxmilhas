@@ -45,7 +45,7 @@ const courses = [
     {
         id: 'historia',
         imageUrl: require('./assets/card-historia.jpg'),
-        title: "História da Empresa e Cultura",
+        title: "História da empresa e cultura",
         description: "O curso oferece uma visão detalhada da trajetória da Maxmilhas.",
         lessons: [
             { title: 'bem-vindo-curso-historia', completed: false }
@@ -54,7 +54,7 @@ const courses = [
     {
         id: 'tour_virtual',
         imageUrl: require('./assets/card-tour.jpg'),
-        title: "Tour Virtual da Empresa",
+        title: "Tour virtual da empresa",
         description: "O curso oferece uma experiência imersiva e interativa.",
         lessons: [
             { title: 'bem-vindo-curso-tour', completed: false }
@@ -83,7 +83,7 @@ const courses = [
     {
         id: 'emissoesgol',
         imageUrl: require('./assets/card-emissoesgol.jpg'),
-        title: "Emissões na Gol",
+        title: "Emissões na GOL",
         description: "O curso oferece uma base essencial para a compreensão e aplicação dos processos de emissão de bilhetes na companhia Gol",
         lessons: [
             { title: 'bem-vindo-curso-emissoesgol', completed: false }
@@ -101,7 +101,7 @@ const courses = [
     {
         id: 'ferramentas',
         imageUrl: require('./assets/card-ferramentas.jpg'),
-        title: "Ferramentas Auxiliares",
+        title: "Ferramentas auxiliares",
         description: "O curso oferece uma base essencial para o uso eficiente de ferramentas auxiliares de comunicação e colaboração",
         lessons: [
             { title: 'bem-vindo-curso-ferramentas', completed: false }
@@ -110,7 +110,7 @@ const courses = [
     {
         id: 'nocao',
         imageUrl: require('./assets/card-informatica.jpg'),
-        title: "Noções de Informática",
+        title: "Noções de informática",
         description: "O curso oferece uma base essencial para o uso eficiente de computadores.",
         lessons: [
             { title: 'bem-vindo-curso-nocao', completed: false }
