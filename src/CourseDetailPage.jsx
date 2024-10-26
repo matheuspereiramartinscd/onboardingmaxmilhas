@@ -277,7 +277,7 @@ const coursesData = {
 const lessonsData = {
     'bem-vindo-curso-cockpit': {
         title: 'Bem-vindo ao curso de Cockpit!',
-        videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
+        videoUrl: 'https://www.youtube.com/embed/GZttGIhxYt4',
         description: (
                         <div>
                             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
@@ -304,7 +304,7 @@ const lessonsData = {
                 },
 'bem-vindo-curso-emissoes': {
     title: 'Bem-vindo ao curso de emissões!',
-    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
+    videoUrl: 'https://www.youtube.com/embed/0qWCBnQgIMw',
     description: (
         <div>
             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Olá! </h1>
@@ -334,7 +334,7 @@ const lessonsData = {
 },
 'bem-vindo-curso-emissoesazul': {
     title: 'Bem-vindo ao curso de emissões da Azul!',
-    videoUrl: 'https://www.youtube.com/embed/5pvnt5PhiWs',
+    videoUrl: 'https://www.youtube.com/embed/E4dGYh3g0nU',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Olá!</h1>
@@ -364,6 +364,7 @@ const lessonsData = {
 
 'bem-vindo-curso-emissoesgol': {
     title: 'Bem-vindo ao curso de emissões da GOL!',
+    videoUrl: 'https://www.youtube.com/embed/d6eIAoxsCm0',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao curso - Emissões da GOL</h1>
@@ -389,8 +390,9 @@ const lessonsData = {
     )
 },
 
-'bem-vindo-curso-emissoes-latam': {
+'bem-vindo-curso-emissoeslatam': {
     title: 'Bem-vindo ao curso de emissões da LATAM!',
+    videoUrl: 'https://www.youtube.com/embed/CPwhQpqaFBA',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Olá!</h1>
@@ -419,8 +421,9 @@ const lessonsData = {
     )
 },
 
-'bem-vindo-curso-ferramentas-auxiliares': {
+'bem-vindo-curso-ferramentas': {
     title: 'Bem-vindo ao curso de ferramentas auxiliares!',
+    videoUrl: 'https://www.youtube.com/embed/GCikbC_PPSY',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - Ferramentas Auxiliares</h1>
@@ -449,6 +452,7 @@ const lessonsData = {
 
 'bem-vindo-curso-historia': {
     title: 'Bem-vindo ao curso de história da empresa e cultura!',
+    videoUrl: 'https://www.youtube.com/embed/nVzPkJ0KSN4',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - História da Empresa e Cultura</h1>
@@ -477,6 +481,7 @@ const lessonsData = {
 
 'bem-vindo-curso-milhas': {
     title: 'Bem-vindo ao curso de milhas!',
+    videoUrl: 'https://www.youtube.com/embed/mi1vw8Jgmcw',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - Milhas</h1>
@@ -505,6 +510,7 @@ const lessonsData = {
 
 'bem-vindo-curso-nocao': {
     title: 'Bem-vindo ao curso de noções de informática!',
+    videoUrl: 'https://www.youtube.com/embed/hOPo9XCghzw',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - Noções de informática</h1>
@@ -534,6 +540,7 @@ const lessonsData = {
 
 'bem-vindo-curso-ofertantes': {
     title: 'Bem-vindo ao curso - ofertantes!',
+    videoUrl: 'https://www.youtube.com/embed/VY6nzcg-f0A',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao curso - ofertantes</h1>
@@ -561,6 +568,7 @@ const lessonsData = {
 
 'bem-vindo-curso-prejuizos': {
     title: 'Bem-vindo ao curso - prejuízos!',
+    videoUrl: 'https://www.youtube.com/embed/CGPAK47gUP4',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao curso - prejuízos</h1>
@@ -588,6 +596,7 @@ const lessonsData = {
 
 'bem-vindo-curso-tour': {
     title: 'Bem-vindo ao curso - tour virtual!',
+    videoUrl: 'https://www.youtube.com/embed/GCikbC_PPSY',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao curso - tour virtual</h1>
