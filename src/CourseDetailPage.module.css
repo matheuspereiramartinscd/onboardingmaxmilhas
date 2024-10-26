@@ -31,11 +31,7 @@
     /* Tamanho da fonte */
 }
 
-.custom-link {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-  }
+
 
 .quizAvailable {
     text-align: center;
@@ -306,14 +302,13 @@
 }
 
 a {
-    font-size: 13px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-decoration: none;
-    color: inherit;
-    /* Remove underline e mantém a cor padrão */
-}
+    font-family: inherit; /* Herda a fonte do elemento pai */
+    font-size: inherit; /* Herda o tamanho de fonte do elemento pai */
+    color: #007bff; /* Personalize a cor conforme necessário */
 
+    font-weight: normal; /* Ajuste o peso da fonte para coincidir com o padrão */
+  }
+  
 a:hover {
     color: #98da82;
     /* Garante que o hover não altere a cor */
