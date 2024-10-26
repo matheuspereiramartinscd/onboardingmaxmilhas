@@ -183,7 +183,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Cadastrando passageiros latam", "completed": false},
                         {"title": "Adicionando bagagem", "completed": false},
                         {"title": "Página de pagamento latam", "completed": false},
-                        {"title": "Erros de pagamento latam ", "completed": false},
+                        {"title": "Erros de pagamento latam", "completed": false},
                         {"title": "E-tickets latam", "completed": false},
                         {"title": "Cancelando localizador na companhia latam", "completed": false},
                         {"title": "Conferindo extrato latam", "completed": false}
@@ -225,7 +225,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Emissões manuais azul", "completed": false},
                         {"title": "Verificando beneficiários cadastrados", "completed": false},
                         {"title": "Cadastrando passageiros azul", "completed": false},
-                        {"title": "Bagagem", "completed": false},
+                        {"title": "Adicionando bagagem", "completed": false},
                         {"title": "Página de pagamento azul", "completed": false},
                         {"title": "E-tickets azul", "completed": false},
                         {"title": "Cancelando localizador na companhia azul", "completed": false},

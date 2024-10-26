@@ -2395,8 +2395,8 @@ f
         </div>
     ),
 },
-'Erros de pagamento': {
-    title: 'Erros de pagamento',
+'Erros de pagamento latam': {
+    title: 'Erros de pagamento latam',
     videoUrl: 'https://www.youtube.com/embed/2DGvnOf7uBE',
     description: (
         <div>
