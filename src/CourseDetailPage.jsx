@@ -3865,6 +3865,628 @@ f
         </div>
     )
 },
+/*Ofertantes*/
+'Ofertantes': {
+    title: 'Ofertantes',
+    videoUrl: 'https://www.youtube.com/embed/_tBdOQIulWQ',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ofertantes de milhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes04} alt="Imagem dos ofertantes de milhas"></img>
+            <p>Os ofertantes de milhas são indivíduos ou entidades que possuem milhas acumuladas em programas de fidelidade e as disponibilizam para venda no mercado. Esses ofertantes podem variar desde pessoas físicas, que acumularam milhas por meio de viagens e compras, até empresas que operam como revendedores de milhas. A oferta de milhas se tornou uma prática comum, pois permite que essas milhas sejam convertidas em passagens aéreas, proporcionando uma oportunidade para os viajantes que desejam adquirir bilhetes com custos reduzidos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Como funcionam os ofertantes de milhas?</h2>
+            <p>Os ofertantes de milhas geralmente vendem suas milhas por um preço que é inferior ao valor da passagem aérea. Essa diferença de preço é o que torna a compra de passagens por meio de milhas uma opção atraente para muitos viajantes. A transação acontece através de plataformas como a Maxmilhas, onde os compradores podem buscar e encontrar ofertas de milhas disponíveis, comparar preços e condições, e efetuar a compra de passagens aéreas de forma simples e eficaz.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>A importância dos ofertantes para a Maxmilhas</h2>
+            <h3>1. Conexão entre vendedores e compradores</h3>
+            <p>Os ofertantes desempenham um papel vital no ecossistema da Maxmilhas, pois são eles que abastecem a plataforma com milhas disponíveis. Sem ofertantes, a Maxmilhas não teria acesso a um inventário diversificado de milhas para oferecer aos seus clientes. Isso garante que os viajantes tenham opções variadas e competitivas, aumentando a atratividade da plataforma.</p>
+
+            <h3>2. Facilitação de transações</h3>
+            <p>A presença de ofertantes de milhas facilita as transações no mercado de passagens aéreas. Ao vender suas milhas, os ofertantes permitem que outros viajantes adquiram passagens a um custo inferior, promovendo um ciclo de compra que beneficia todos os envolvidos. A Maxmilhas atua como intermediária, garantindo que as transações sejam seguras e eficientes.</p>
+
+            <h3>3. Competitividade no mercado</h3>
+            <p>Os ofertantes de milhas contribuem para a competitividade do mercado de passagens aéreas. A disponibilidade de milhas de diferentes ofertantes proporciona uma comparação de preços que beneficia os consumidores. Isso força os ofertantes a serem mais transparentes sobre seus preços e condições, promovendo uma maior eficiência e melhorando a experiência do cliente.</p>
+
+            <h3>4. Diversificação das ofertas</h3>
+            <p>A Maxmilhas não depende apenas de um único tipo de ofertante. A presença de ofertantes de diferentes categorias (como ofertantes convencionais, de revenda, PJ e liminares) proporciona uma ampla gama de opções para os clientes. Essa diversificação é importante para atender diferentes perfis de viajantes, desde os que buscam passagens econômicas até aqueles que desejam maximizar suas milhas.</p>
+
+            <h3>5. Maximização de milhas e oportunidades</h3>
+            <p>Os ofertantes de milhas permitem que os viajantes utilizem suas milhas de forma mais eficaz. Ao comprar milhas de ofertantes, os clientes podem maximizar suas oportunidades de viagem, adquirindo passagens que, de outra forma, poderiam estar fora de seu alcance financeiro. Isso não apenas melhora a experiência de viagem, mas também aumenta a fidelização dos clientes com a Maxmilhas.</p>
+
+            <h3>6. Contribuição para o crescimento da Maxmilhas</h3>
+            <p>O sucesso da Maxmilhas está diretamente relacionado ao volume de transações realizadas na plataforma, que, por sua vez, é impulsionado pela quantidade e qualidade das ofertas de milhas disponíveis. A atração de novos ofertantes e a manutenção de uma boa relação com os já existentes são fundamentais para o crescimento contínuo da Maxmilhas no mercado.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Considerações finais</h2>
+            <p>Os ofertantes de milhas são essenciais para o funcionamento e o sucesso da Maxmilhas. Eles não apenas fornecem milhas que possibilitam a emissão de passagens aéreas, mas também enriquecem a plataforma com uma variedade de opções que beneficiam os consumidores. Através da colaboração entre a Maxmilhas e os ofertantes, é possível criar um ambiente de negócios que promova a satisfação do cliente e a sustentabilidade do mercado de passagens aéreas.</p>
+            <p>A compreensão do papel dos ofertantes de milhas é, portanto, fundamental para qualquer pessoa que deseje entender a dinâmica do mercado de viagens e as oportunidades que ele oferece.</p>
+        </div>
+    ),
+},
+'Buscando ofertantes pelo milhas': {
+    title: 'Buscando ofertantes pelo milhas',
+    videoUrl: 'https://www.youtube.com/embed/tMxpr1uK6OE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Buscando ofertantes pelo milhas</h1>
+            <p>No menu lateral, a opção Milhas dá acesso à tela de busca de ofertantes. Nesta tela, o analista pode realizar uma busca detalhada dos ofertantes cadastrados na base de dados, utilizando filtros como:</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Login</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit105} alt="Imagem da caixa de seleção de companhia aérea"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Caixa de seleção de companhia aérea</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Imagem da caixa de seleção de companhia aérea"></img>
+            <p>Nela, é possível visualizar ofertantes de diversas companhias, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Selecionar todos (todas as companhias)</li>
+                <li>Azul</li>
+                <li>Gol</li>
+                <li>Latam</li>
+                <li>Air Canada</li>
+                <li>Air France</li>
+                <li>British Airways</li>
+                <li>Copa Airlines</li>
+                <li>Delta Air Lines</li>
+                <li>Emirates</li>
+                <li>Etihad</li>
+                <li>Iberia</li>
+                <li>KLM</li>
+                <li>Latam (Chile)</li>
+                <li>LifeMiles</li>
+                <li>Qatar Airways</li>
+                <li>Singapore Airlines</li>
+                <li>TAP</li>
+                <li>United Airlines</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Caixa de seleção de status</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit10} alt="Imagem da caixa de seleção de status"></img>
+            <p>As opções mais utilizadas no contexto de Emissões incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Ativo - Liberado: Ofertantes prontos para serem usados em transações.</li>
+                <li>Bloqueado - Não atende celular: Ofertantes bloqueados por falta de contato.</li>
+                <li>Em análise - Aguardando Análise Antifraude: Ofertas que aguardam verificação de segurança antes de serem usadas.</li>
+                <li>Em venda - A emitir: Ofertantes que já estão em uso para a compra de passagens.</li>
+                <li>Inativo - CPF Divergente: Ofertantes desativados devido a divergências no CPF.</li>
+                <li>Inativo - Conta bloqueada: Contas desativadas por bloqueios.</li>
+                <li>Inativo - Fraude: Ofertantes inativos por suspeita de fraude.</li>
+                <li>Inativo - Limite de emissões atingido: Contas suspensas por atingirem o limite de emissões.</li>
+                <li>Inativo - Oferta excluída: Ofertas removidas.</li>
+                <li>Inativo - Removido pelo usuário: Ofertantes desativados por escolha do próprio usuário.</li>
+                <li>Inativo - Reprovado: Ofertas que falharam na análise.</li>
+                <li>Pendente - Divergência na oferta paga: Ofertas pendentes por problemas de pagamento.</li>
+                <li>Pendente - Em tratativa: Ofertas em processo de resolução.</li>
+                <li>Pendente - Senha incorreta: Ofertantes pendentes por falhas de login.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Caixa de seleção de login</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit11} alt="Imagem da caixa de seleção de login"></img>
+            <p>A busca por ofertantes pode ser feita pelos seguintes critérios:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Login</li>
+                <li>Nome</li>
+                <li>CPF</li>
+                <li>E-mail</li>
+                <li>Telefone</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Opções avançadas</h2>
+            <p>Ao clicar na opção Avançado na tela de busca de ofertantes, o sistema Cockpit oferece filtros adicionais para uma pesquisa mais detalhada, permitindo ao analista refinar ainda mais sua busca de ofertantes com base em critérios específicos.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit12} alt="Imagem da tela de busca avançada"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Campos de busca avançada</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Saldo: Filtrar ofertantes com base no saldo de milhas disponível.</li>
+                <li>CPF: Busca por CPF para localizar ofertantes específicos.</li>
+                <li>Razão: Buscar ofertantes que possuem a razão (milhas/cpf) indicada.</li>
+                <li>Média: Busca pela média definida pelo ofertante na venda de milhas.</li>
+                <li>Tipo de Oferta: Definir o tipo de transação que o ofertante está realizando.</li>
+                <li>Estratégia 2FA: Escolher o tipo de verificação em duas etapas para obter os códigos de verificação de segurança.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tipos de oferta</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit13} alt="Imagem dos tipos de oferta"></img>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Venda convencional: Ofertas de milhas tradicionais.</li>
+                <li>Venda rápida: Ofertas destinadas a transações rápidas.</li>
+                <li>Revenda: Ofertantes de revenda.</li>
+                <li>Pagamento antecipado: Ofertas que exigem pagamento antecipado.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia 2FA (Autenticação de Dois Fatores)</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit14} alt="Imagem da estratégia 2FA"></img>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Selecionar todos: Visualizar ofertantes independentemente da estratégia de verificação.</li>
+                <li>WhatsApp: Código 2FA via WhatsApp.</li>
+                <li>Chipeira: Código 2FA redirecionado para um telefone Maxmilhas e obtido através do e-mail da Chipeira.</li>
+                <li>E-mail: Código 2FA redirecionado para um e-mail Maxmilhas.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tela de busca</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit106} alt="Imagem da tela de busca de ofertantes"></img>
+            <p>Ao realizar a busca de um ofertante no sistema Cockpit, é exibida uma tela com as principais informações da oferta, permitindo que o analista visualize rapidamente os detalhes da transação, como:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Nome do ofertante</li>
+                <li>Saldo de milhas</li>
+                <li>Tipo de oferta</li>
+                <li>Data de criação da oferta</li>
+                <li>Status da oferta</li>
+                <li>Tipo de verificação 2FA</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Concluindo a busca</h2>
+            <p>Após aplicar todos os filtros necessários, o analista deve clicar no botão 'Buscar' para que o sistema exiba a lista de ofertantes que atendem aos critérios especificados. A partir daí, é possível realizar transações com os ofertantes que se encaixam nas necessidades do cliente.</p>
+        </div>
+    ),
+},
+
+'Oferta detalhada': {
+    title: 'Oferta detalhada',
+    videoUrl: 'https://www.youtube.com/embed/qnwbE7Qq7d0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Oferta detalhada</h1>
+            <p>Ao clicar no login do ofertante, o usuário é redirecionado para uma página que contém os detalhes da oferta. Nesta página, são apresentadas informações abrangentes sobre a oferta específica, permitindo que o analista tenha uma visão clara e completa.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit105} alt="Imagem da oferta"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Dados da transação</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit107} alt="Código da transação"></img>
+            <p>Nesta tela é possível verificar:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Código da transação: Código referente à oferta.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit108} alt="Última observação"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Oferta</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit109} alt="Dados do vendedor e das milhas"></img>
+            <p>Nesta seção, a tela exibe os dados do vendedor e das milhas vendidas, fornecendo informações essenciais para análise e tomada de decisão.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Cia: Companhia aérea associada à oferta de milhas.</li>
+                <li>Saldo: Quantidade de milhas atualmente disponíveis para transações.</li>
+                <li>Prazo de pagamento: Tempo estabelecido para que o pagamento seja concluído após a realização da transação.</li>
+                <li>Razão: Motivo ou justificativa para a oferta, que pode incluir detalhes sobre condições especiais.</li>
+                <li>CPFs: Lista de CPFs relacionados à oferta, indicando os usuários que podem utilizar as milhas.</li>
+                <li>Próximas milhas a expirar: Informações sobre milhas que estão prestes a expirar, ajudando na gestão do estoque de milhas.</li>
+                <li>Tele cadastrado: Número de telefone cadastrado do ofertante, que pode ser utilizado para contato.</li>
+                <li>Categoria: Classificação da oferta (por exemplo, venda convencional, venda rápida).</li>
+                <li>Preço do milheiro: Valor por milheiro, informando quanto custam as milhas vendidas.</li>
+                <li>Múltiplas vendas: Indicação se a oferta permite múltiplas transações ou vendas de milhas.</li>
+                <li>Média: Média de uso ou desempenho das milhas vendidas, que pode ajudar a identificar padrões de utilização.</li>
+                <li>Estratégia 2 fatores: Método de autenticação em duas etapas que pode ser utilizado para verificar transações, aumentando a segurança das operações.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Dados do vendedor</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit20} alt="Dados do vendedor"></img>
+            <p>Os dados disponíveis incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Login: Identificação única do vendedor no sistema.</li>
+                <li>Nome: Nome completo do vendedor, facilitando a identificação.</li>
+                <li>CPF: Cadastro de Pessoa Física, utilizado para fins de identificação e conformidade.</li>
+                <li>E-mail: Endereço de e-mail do vendedor, que pode ser usado para comunicação.</li>
+                <li>Telefone: Número de telefone cadastrado, permitindo contato direto para quaisquer questões relacionadas à oferta ou transação.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Editar oferta</h2>
+            <p>Na tela de ofertas, os usuários têm a opção de editar as informações de uma oferta existente ao clicar no botão Editar. Essa funcionalidade permite que os analistas atualizem dados relevantes para garantir que as informações estejam sempre precisas e atualizadas. Ao clicar no botão, o usuário é levado a um formulário onde pode modificar os seguintes detalhes:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit21} alt="Editar oferta"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit22} alt="Formulário de edição de oferta"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Dados de acesso</h2>
+            <p>Em dados de acesso é possível obter os dados do ofertante como login e senha na companhia aérea. Para visualizar é necessário utilizar a senha de acesso cadastrada no site da Maxmilhas e o motivo do acesso no campo observação:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit23} alt="Dados de acesso"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit24} alt="Informações de acesso"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Linha do tempo da oferta</h2>
+            <p>Nesta seção, é apresentada a evolução da oferta desde sua criação, permitindo que os analistas acompanhem o desempenho e as mudanças ao longo do tempo. As informações geralmente incluem:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit25} alt="Linha do tempo da oferta"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Vendas</h2>
+            <p>Nesta tela, é possível visualizar as últimas transações que foram concluídas utilizando a oferta selecionada. As informações são apresentadas em uma tabela detalhada, que inclui os seguintes dados:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit26} alt="Tabela de vendas"></img>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>ID da transação: Identificação única da transação realizada.</li>
+                <li>Milhas: Quantidade de milhas utilizadas na emissão da passagem.</li>
+                <li>Pax: Número de passageiros associados à transação.</li>
+                <li>Valor cliente: Valor pago pelo cliente ao ofertante.</li>
+                <li>Tx Maxmilhas: Taxa de serviço cobrada pela Maxmilhas pela intermediação da transação.</li>
+                <li>Tx embarque: Valor da taxa de embarque paga para a emissão do bilhete.</li>
+                <li>Voo: Código do voo relacionado à transação.</li>
+                <li>Status: Situação da compra efetuada pelo cliente no site da Maxmilhas, após passar pela verificação de risco e fraude.</li>
+                <li>E-ticket: Bilhete aéreo emitido para a transação, que será enviado ao cliente.</li>
+                <li>Data do voo: Data programada para a viagem.</li>
+                <li>Criado: Data de criação da transação no sistema.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>8. Documentos</h2>
+            <p>Na seção de Documentos, é possível obter informações sobre os gestores da oferta, especialmente quando há mais de um gestor envolvido ou quando se trata de uma conta familiar. Esta funcionalidade permite uma melhor gestão e acompanhamento das responsabilidades relacionadas à oferta.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit27} alt="Documentos da oferta"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit28} alt="Documentos da oferta"></img>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>9. Observações</h2>
+            <p>Neste campo, é possível inserir comentários relacionados às transações. Os analistas podem utilizar essa funcionalidade para registrar observações relevantes, feedback ou informações adicionais sobre cada transação, como:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Detalhes sobre situações específicas que ocorreram durante a emissão.</li>
+                <li>Comentários sobre a performance do ofertante.</li>
+                <li>Notas sobre o atendimento ao cliente ou questões que precisam de acompanhamento.</li>
+                <li>Sugestões para melhorias no processo de emissão.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit29} alt="Documentos da oferta"></img>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>10. Observações salvas</h2>
+            <p>Nesta seção, são exibidas as observações que foram feitas anteriormente relacionadas às transações. Aqui, os analistas podem visualizar comentários registrados, permitindo um acompanhamento detalhado das interações e decisões tomadas durante o processo de emissão.</p>
+            <p>As observações salvas servem para:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Consultar Informações Anteriores: Permitem que a equipe revise comentários feitos em transações passadas, ajudando na continuidade do atendimento ao cliente e no gerenciamento de processos.</li>
+                <li>Facilitar a Comunicação: Aumentam a transparência entre os membros da equipe, garantindo que todos estejam cientes de qualquer informação relevante ou feedback recebido.</li>
+                <li>Analisar Tendências: Podem ser utilizadas para identificar padrões ou problemas recorrentes nas transações, contribuindo para melhorias nos processos e serviços oferecidos.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit30} alt="Documentos da oferta"></img>
+        </div>
+    ),
+},
+'Média e razão': {
+    title: 'Média e razão',
+    videoUrl: 'https://www.youtube.com/embed/V2DcyEZy93E',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Saldo de milhas</h1>
+            <p>O saldo de milhas representa a quantidade total de milhas disponíveis na conta de um ofertante em um programa de fidelidade. Esse saldo é fundamental para a realização de transações, pois determina o quanto o ofertante pode oferecer no mercado. Um saldo saudável de milhas é importante para garantir que o ofertante tenha a flexibilidade necessária para atender a demanda de compra por parte dos clientes.</p>
+            <p><strong>Importância do saldo de milhas:</strong></p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Disponibilidade para vendas: Um saldo elevado de milhas permite que o ofertante faça mais vendas, aumentando sua lucratividade.</li>
+                <li>Atratividade para compradores: Ofertantes com saldos significativos têm maior chance de atrair compradores, pois podem oferecer passagens com maior quantidade de milhas.</li>
+                <li>Planejamento de viagens: O saldo também permite ao ofertante planejar viagens pessoais, equilibrando a venda de milhas com suas necessidades de uso.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit69} alt="Imagem do saldo de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que é razão?</h2>
+            <p>A razão é um cálculo que obtém a quantidade de milhas oferecidas pelo número de CPFs disponíveis para emissão. É uma métrica importante que ajuda a entender a capacidade de um ofertante de atender a demanda por passagens aéreas. Para calcular a razão, basta dividir a quantidade total de milhas oferecidas pelo número de CPFs disponíveis.</p>
+            <p><strong>Importância da razão:</strong></p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Avaliação de Oportunidade: A razão ajuda a identificar se as milhas estão sendo oferecidas em quantidades adequadas para atender a demanda do mercado.</li>
+                <li>Estratégia de Venda: Um entendimento claro da razão permite que os ofertantes ajustem suas ofertas de milhas para maximizar suas vendas e manter um saldo adequado para uso pessoal.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que é média?</h2>
+            <p>A média é definida pelo ofertante como a quantidade de milhas que ele planeja vender por CPF. Essa métrica é importante porque ajuda a manter um equilíbrio entre as milhas vendidas e as milhas que o ofertante deseja guardar para uso pessoal.</p>
+            <p><strong>Exemplo de Média:</strong></p>
+            <p>Se o ofertante decidiu que, das 300.000 milhas, ele irá reservar milhas para viagens pessoais e pretende vender apenas 30.000 milhas por CPF, isso resulta em uma média de:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Total de CPFs: 10</li>
+                <li>Média por Passagem: 30.000 milhas</li>
+            </ul>
+            <p><strong>Importância da média:</strong></p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Planejamento de Vendas: A média determina quantas milhas estão disponíveis para venda sem comprometer as viagens pessoais do ofertante.</li>
+                <li>Sustentabilidade das Ofertas: Manter a média adequada é essencial para garantir que o ofertante não se comprometa excessivamente, permitindo que ele utilize suas milhas quando necessário.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Quantidade de CPFs para cada ofertante</h2>
+            <p>A quantidade de CPFs disponível para cada ofertante é um fator determinante na capacidade de vendas de milhas. Ter um número maior de CPFs significa uma maior capacidade de atender à demanda, já que cada CPF pode potencialmente utilizar as milhas para uma passagem diferente.</p>
+            <p><strong>Considerações Importantes:</strong></p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Diversidade de beneficiários: Ter múltiplos CPFs permite que o ofertante atenda a diferentes passageiros, diversificando sua base de clientes.</li>
+                <li>Impacto na oferta: Se um ofertante tiver muitos CPFs, poderá oferecer mais milhas em uma única transação, aumentando suas chances de venda.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificando dados da oferta</h2>
+            <p>Na página de troca de ofertantes e na busca de ofertantes pelo Milhas é possível encontrar as informações referentes ao saldo, razão, média e quantidade de CPFs disponíveis para emissão.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit69} alt="Imagem da verificação de dados da oferta"></img>
+        </div>
+    ),
+},
+'Programa de fidelidade smiles': {
+    title: 'Programa de fidelidade Smiles',
+    videoUrl: 'https://www.youtube.com/embed/_aQKLZ4uRN0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Programa de fidelidade Smiles</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes01} alt="Imagem do programa de fidelidade Smiles"></img>
+            <p>O Smiles é um dos principais programas de fidelidade do Brasil, vinculado à Gol Linhas Aéreas. Este programa permite que os clientes acumulem milhas ao realizar viagens e compras, que podem ser trocadas por passagens aéreas, produtos e serviços. A seguir, exploraremos as principais características e benefícios do programa Smiles.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de milhas</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1 Como funciona</h3>
+            <p>Os membros do programa acumulam milhas ao realizar voos com a Gol e companhias aéreas parceiras, além de compras em estabelecimentos parceiros. As milhas acumuladas podem ser utilizadas para a compra de passagens, upgrades de classe, diárias em hotéis, locação de veículos e muito mais.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2 Tipos de milhas</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Milhas bônus:</strong> Acumuladas em promoções específicas ou por meio de ações de marketing.</li>
+                <li><strong>Milhas regulares:</strong> Obtidas por meio de voos e compras em parceiros.</li>
+                <li><strong>Milhas de categoria:</strong> Acumuladas de acordo com o nível de fidelidade do cliente dentro do programa (Smiles, Prata, Ouro e Diamante).</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1 Categorias de membros</h3>
+            <p>O programa Smiles possui diferentes níveis de fidelidade, que oferecem benefícios exclusivos conforme o cliente acumula mais milhas e realiza mais voos. As categorias são:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Smiles:</strong> Nível básico, com acesso às promoções e ofertas do programa.</li>
+                <li><strong>Prata:</strong> Oferece vantagens adicionais, como milhas bônus em voos e acesso prioritário em filas de embarque.</li>
+                <li><strong>Ouro:</strong> Proporciona benefícios como check-in e embarque prioritário, além de um maior acúmulo de milhas.</li>
+                <li><strong>Diamante:</strong> O nível mais alto, com benefícios exclusivos, como acesso a salas VIP e milhas adicionais para voos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de milhas</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1 Como resgatar</h3>
+            <p>Os membros podem resgatar suas milhas de várias maneiras, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de milhas por passagens em voos da Gol e companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de milhas para atualizar a classe do voo.</li>
+                <li><strong>Produtos e serviços:</strong> Troca de milhas por itens em lojas parceiras, como eletrônicos, roupas e experiências.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.2 Promoções de resgate</h3>
+            <p>O Smiles frequentemente oferece promoções que permitem aos membros resgatar passagens aéreas por um número reduzido de milhas, tornando as viagens ainda mais acessíveis.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Parcerias</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4.1 Parceiros de acúmulo</h3>
+            <p>O programa Smiles conta com uma ampla rede de parceiros, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Companhias aéreas:</strong> Além da Gol, o programa é vinculado a companhias como Delta, Air France e KLM.</li>
+                <li><strong>Estabelecimentos comerciais:</strong> Supermercados, lojas de eletrônicos e até serviços de streaming oferecem milhas aos seus clientes.</li>
+                <li><strong>Hotéis e locadoras:</strong> Parcerias com redes de hotéis e locadoras de veículos permitem o acúmulo de milhas em cada estadia ou locação.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Benefícios adicionais</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.1 Promoções e ofertas</h3>
+            <p>O Smiles frequentemente lança promoções que permitem aos membros acumular ou resgatar milhas de forma mais vantajosa. Acompanhar as ofertas é uma ótima maneira de maximizar os benefícios do programa.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.2 Programa Smiles & Money</h3>
+            <p>Os membros têm a opção de utilizar uma combinação de milhas e dinheiro para a compra de passagens aéreas, oferecendo maior flexibilidade na hora de resgatar.</p>
+        </div>
+    ),
+},
+'Programa de fidelidade tudoazul': {
+    title: 'TudoAzul',
+    videoUrl: 'https://www.youtube.com/embed/e-iI1MYfue8',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>TudoAzul</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes00} alt="Imagem do programa TudoAzul"></img>
+            <p>O TudoAzul é o programa de fidelidade da Azul linhas aéreas, uma das maiores companhias aéreas do Brasil. Esse programa permite que os clientes acumulem pontos em suas viagens e compras com parceiros, podendo utilizá-los para adquirir passagens aéreas, upgrades, e outros produtos e serviços. A seguir, vamos explorar as principais características e benefícios do TudoAzul.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de pontos</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1 Como funciona</h3>
+            <p>Os membros do TudoAzul acumulam pontos ao viajarem com a Azul ou ao fazerem compras em estabelecimentos parceiros. Os pontos acumulados podem ser utilizados para diversos tipos de resgates, como passagens aéreas, diárias de hotéis e aluguel de veículos.</p>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2 Tipos de pontos</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Pontos qualificáveis:</strong> São aqueles acumulados por meio de voos realizados. Eles ajudam o cliente a subir de categoria dentro do programa de fidelidade.</li>
+                <li><strong>Pontos de bônus:</strong> Obtidos em promoções e campanhas especiais, permitindo o acúmulo mais rápido de pontos.</li>
+            </ul>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1 Categorias de membros</h3>
+            <p>O TudoAzul possui diferentes níveis de fidelidade, que oferecem benefícios crescentes conforme o cliente acumula mais pontos e viaja com a Azul. As categorias são:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>TudoAzul:</strong> O nível básico do programa, que oferece aos membros acesso a promoções e possibilidade de acúmulo de pontos.</li>
+                <li><strong>Prata:</strong> Oferece benefícios adicionais, como pontos bônus em voos e prioridade em filas de embarque.</li>
+                <li><strong>Ouro:</strong> Proporciona vantagens como check-in e embarque prioritário, além de acúmulo maior de pontos.</li>
+                <li><strong>Diamante:</strong> O nível mais alto, com benefícios exclusivos como acesso a salas VIP, mais pontos em voos e assistência personalizada.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de pontos</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1 Como resgatar</h3>
+            <p>Os membros podem resgatar seus pontos de diversas formas, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de pontos por passagens nos voos da Azul ou em companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de pontos para subir de classe em voos.</li>
+                <li><strong>Produtos e experiências:</strong> Troca de pontos por itens em lojas parceiras ou por experiências exclusivas, como eventos e estadias em hotéis.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.2 Promoções de resgate</h3>
+            <p>O TudoAzul oferece regularmente promoções que permitem aos membros resgatar passagens aéreas com menos pontos, facilitando o acesso a voos e outros serviços com custos reduzidos.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Parcerias</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4.1 Parceiros de acúmulo</h3>
+            <p>O TudoAzul possui uma ampla rede de parceiros que oferecem oportunidades de acúmulo de pontos. Estes parceiros incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Companhias aéreas:</strong> Além da Azul, o programa está associado a companhias internacionais como TAP Air Portugal e United Airlines, permitindo o acúmulo de pontos em voos ao redor do mundo.</li>
+                <li><strong>Estabelecimentos comerciais:</strong> Supermercados, lojas de eletrônicos e outros comércios onde os clientes podem acumular pontos ao realizar compras.</li>
+                <li><strong>Hotéis e locadoras de veículos:</strong> Redes de hotéis e locadoras parceiras permitem o acúmulo de pontos durante estadias e aluguéis de veículos.</li>
+            </ul>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Benefícios adicionais</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.1 Promoções e ofertas</h3>
+            <p>O TudoAzul frequentemente lança promoções que permitem aos membros acumular e resgatar pontos de maneira mais vantajosa. Manter-se informado sobre as promoções é essencial para maximizar os benefícios do programa.</p>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.2 TudoAzul & Money</h3>
+            <p>Os membros têm a opção de utilizar uma combinação de pontos e dinheiro para a compra de passagens aéreas. Essa flexibilidade oferece maior conveniência e facilidade na hora de planejar viagens.</p>
+            
+            <p>O TudoAzul é um excelente programa de fidelidade para viajantes frequentes e clientes da Azul, permitindo o acúmulo de pontos que podem ser utilizados de diversas maneiras. Com categorias de fidelidade progressivas e parcerias robustas, os participantes podem tirar proveito de benefícios crescentes. Se você é um viajante regular, participar do TudoAzul pode transformar suas viagens em experiências ainda mais vantajosas e acessíveis.</p>
+        </div>
+    ),
+},
+'Programa de fidelidade Latam Pass': {
+    title: 'Programa de fidelidade Latam Pass',
+    videoUrl: 'https://www.youtube.com/embed/a6Sc2aqwzK0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Programa de fidelidade Latam Pass</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes02} alt="Imagem do programa Latam Pass"></img>
+            <p>O Latam Pass é o programa de fidelidade da LATAM Airlines, uma das principais companhias aéreas da América Latina. Criado para premiar os clientes que viajam com a LATAM e suas companhias aéreas parceiras, o programa oferece diversas maneiras de acumular pontos e usufruir de benefícios exclusivos. Vamos explorar as principais características e vantagens do Latam Pass.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de pontos</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1 Como funciona</h3>
+            <p>Os membros do Latam Pass acumulam pontos ao voar com a LATAM e suas companhias aéreas parceiras, além de realizar compras em estabelecimentos parceiros. Os pontos acumulados podem ser utilizados para a compra de passagens aéreas, upgrades de classe e outros benefícios.</p>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2 Tipos de pontos</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Pontos qualificáveis:</strong> Acumulados através de voos, que ajudam na progressão de categoria dentro do programa.</li>
+                <li><strong>Pontos de bônus:</strong> Concedidos em promoções, parcerias e ofertas especiais, permitindo um acúmulo mais rápido.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1 Categorias de membros</h3>
+            <p>O programa Latam Pass possui diferentes níveis de fidelidade, que proporcionam benefícios crescentes conforme o cliente acumula mais pontos e realiza mais voos. As categorias incluem:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Latam Pass:</strong> O nível básico, onde os membros começam a acumular pontos e têm acesso a promoções.</li>
+                <li><strong>Gold:</strong> Oferece benefícios adicionais, como pontos de bônus e prioridade no check-in.</li>
+                <li><strong>Platinum:</strong> Inclui maiores vantagens, como acesso a salas VIP, maior acúmulo de pontos e check-in prioritário.</li>
+                <li><strong>Black:</strong> O nível mais alto, com benefícios exclusivos, como assistência personalizada e maior acúmulo de pontos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de pontos</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1 Como resgatar</h3>
+            <p>Os membros do Latam Pass podem resgatar seus pontos de várias maneiras, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de pontos por passagens em voos da LATAM e de companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de pontos para atualizar a classe do voo.</li>
+                <li><strong>Produtos e serviços:</strong> Troca de pontos por produtos em lojas parceiras e serviços exclusivos.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.2 Promoções de resgate</h3>
+            <p>O Latam Pass frequentemente realiza promoções que permitem aos membros resgatar passagens por um número reduzido de pontos, tornando as viagens ainda mais acessíveis.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Parcerias</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4.1 Parceiros de Acúmulo</h3>
+            <p>O Latam Pass conta com uma ampla rede de parceiros, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Companhias aéreas:</strong> Além da LATAM, o programa se relaciona com várias companhias internacionais, permitindo acumular pontos em voos ao redor do mundo.</li>
+                <li><strong>Estabelecimentos comerciais:</strong> Supermercados, lojas de eletrônicos e outros comércios oferecem pontos em compras realizadas.</li>
+                <li><strong>Hotéis e locadoras de veículos:</strong> Parcerias com redes de hotéis e locadoras permitem acumular pontos em cada estadia ou locação.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Benefícios adicionais</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.1 Promoções e ofertas</h3>
+            <p>Os membros do Latam Pass têm acesso a promoções periódicas que permitem acumular ou resgatar pontos de forma mais vantajosa. Manter-se atualizado sobre essas ofertas é fundamental para maximizar os benefícios.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.2 Flexibilidade de resgate</h3>
+            <p>Os membros podem optar por usar uma combinação de pontos e dinheiro para a compra de passagens, oferecendo maior flexibilidade nas transações.</p>
+            
+            <p>O programa de fidelidade Latam Pass oferece uma excelente oportunidade para os viajantes acumularem pontos e trocá-los por diversos benefícios, transformando suas experiências de viagem em algo ainda mais gratificante. Conhecer as diferentes categorias, formas de acúmulo e resgate é essencial para aproveitar ao máximo o Latam Pass. Se você voa com frequência pela LATAM, tornar-se um membro do Latam Pass pode trazer inúmeras vantagens e enriquecer suas viagens.</p>
+        </div>
+    ),
+},
+'Beneficiários no cadastro TudoAzul': {
+    title: 'Beneficiários no cadastro TudoAzul',
+    videoUrl: 'https://www.youtube.com/embed/8pGVWEG-CuM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Beneficiários no cadastro TudoAzul</h1>
+            <p>O programa de fidelidade Tudo Azul, da companhia aérea Azul, permite que seus membros acumulem e utilizem pontos para a compra de passagens aéreas e outros benefícios. Um dos recursos interessantes do programa é a possibilidade de cadastrar beneficiários, o que amplia a utilização das milhas acumuladas e oferece mais flexibilidade para os membros.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que são beneficiários?</h2>
+            <p>Beneficiários são pessoas que podem ser indicadas pelos membros do programa Tudo Azul para utilizarem seus pontos em voos e serviços oferecidos pela Azul. Isso significa que, mesmo que o titular não viaje, ele pode compartilhar suas milhas com amigos ou familiares, tornando o programa mais vantajoso e acessível.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Cadastro de beneficiários</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1 Como cadastrar</h3>
+            <p>Para adicionar beneficiários ao seu cadastro Tudo Azul, o membro deve seguir os seguintes passos:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acessar a conta TudoAzul: O membro deve entrar em sua conta no site ou aplicativo da Azul.</li>
+                <li>Ir até a seção de beneficiários: Localizar a área dedicada ao cadastro de beneficiários.</li>
+                <li>Inserir os dados do beneficiário: Preencher as informações solicitadas, como nome completo, CPF, data de nascimento e relação com o titular.</li>
+                <li>Confirmar o cadastro: Após preencher os dados, o membro deve revisar as informações e confirmar o cadastro.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul08} alt="Imagem do cadastro de beneficiários"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.2 Limites e regras</h3>
+            <p>O programa pode ter um limite no número de beneficiários que podem ser cadastrados. É importante que os beneficiários tenham CPF válido e estejam dentro das regras estabelecidas pelo programa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Vantagens de cadastrar beneficiários</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1 Compartilhamento de milhas</h3>
+            <p>Os beneficiários podem utilizar as milhas acumuladas pelo titular para comprar passagens aéreas, permitindo que o titular não perca milhas por falta de uso.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.2 Flexibilidade</h3>
+            <p>O membro pode escolher quem irá utilizar suas milhas, facilitando a programação de viagens em família ou entre amigos.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.3 Experiências de viagem melhoradas</h3>
+            <p>Com a possibilidade de cadastrar beneficiários, o titular pode proporcionar experiências de viagem a pessoas queridas, ajudando a criar memórias e fortalecer laços.</p>
+        </div>
+    ),
+},
+'Validação de ofertas': {
+    title: 'Validação de ofertas',
+    videoUrl: 'https://www.youtube.com/embed/4QW5CibizDU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Validação de ofertas</h1>
+            <p>A validação automática é realizada por um sistema que utiliza algoritmos para verificar a autenticidade e a conformidade das ofertas. O processo envolve uma série de etapas que garantem a análise eficiente de cada transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta1} alt="Imagem da validação de ofertas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais verificações realizadas</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Fraude</h3>
+            <p>O sistema analisa padrões de comportamento e dados que possam indicar tentativas de fraude, garantindo que apenas ofertas legítimas sejam aprovadas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta2} alt="Imagem da verificação de fraude"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Bloqueio de conta</h3>
+            <p>Verifica se a conta do ofertante está bloqueada ou inativa, impedindo que ofertas de contas não confiáveis sejam consideradas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta3} alt="Imagem do bloqueio de conta"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Senha incorreta</h3>
+            <p>Confirma se as senhas inseridas durante o processo de emissão estão corretas, evitando erros que possam comprometer a transação.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta4} alt="Imagem da senha incorreta"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Saldo divergente</h3>
+            <p>Avalia se o saldo de milhas informado condiz com o saldo real disponível na conta do ofertante.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta5} alt="Imagem do saldo divergente"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados incorretos</h3>
+            <p>Checa se as informações fornecidas (como dados do voo, CPF, etc.) estão corretas e em conformidade com as exigências do programa.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta6} alt="Imagem dos dados incorretos"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Validação manual de ofertas</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Papel da validação manual</h3>
+            <p>Além da validação automática, a Maxmilhas permite que pessoas autorizadas realizem a aprovação manual das ofertas. Essa etapa é fundamental para transações que possam ser mais complexas ou que apresentem alguma irregularidade que a análise automática não consiga resolver.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta7} alt="Imagem da validação manual"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Processo de aprovação manual</h3>
+            <p>Os colaboradores autorizados revisam as ofertas com atenção, considerando fatores que o sistema automático pode não capturar, como a intenção do ofertante e a confiabilidade histórica.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta8} alt="Imagem do processo de aprovação manual"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da validação de ofertas</h2>
+            <p>A validação eficaz de ofertas é essencial para:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Proteger os usuários:</strong> Garantir que apenas transações seguras e legítimas sejam realizadas, evitando fraudes e prejuízos.</li>
+                <li><strong>Manter a integridade do mercado:</strong> Um sistema de validação robusto ajuda a manter a confiança entre todos os usuários da plataforma, promovendo um ambiente seguro para negociação de milhas.</li>
+                <li><strong>Facilitar transações:</strong> Através da validação rápida e eficiente, os usuários podem concluir suas transações com mais agilidade, melhorando a experiência geral na plataforma.</li>
+            </ul>
+        </div>
+    ),
+},
+'Tipos de ofertantes': {
+    title: 'Tipos de ofertantes',
+    videoUrl: 'https://www.youtube.com/embed/m7EAi2cC9GE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Tipos de ofertantes</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes05} alt="Imagem dos tipos de ofertantes"></img>
+            <p>Na Maxmilhas, os ofertantes são classificados em diferentes categorias, cada uma com suas características e particularidades. Essa segmentação é importante para facilitar a identificação de ofertas e otimizar o processo de compra de milhas. A seguir, estão as principais categorias de ofertantes:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Ofertantes convencionais</h2>
+            <p>Os ofertantes convencionais são aqueles que vendem milhas adquiridas de forma regular, geralmente acumuladas por meio de programas de fidelidade. Esses ofertantes têm um histórico de transações e oferecem suas milhas a preços competitivos. São conhecidos por suas práticas de negócios transparentes e pela confiabilidade em suas operações.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Milhas acumuladas de forma legítima.</li>
+                <li>Oferta de milhas a preços de mercado.</li>
+                <li>Transações geralmente rápidas e seguras.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Ofertantes de revenda</h2>
+            <p>Os ofertantes de revenda são aqueles que atuam como intermediários, comprando milhas de outros ofertantes para revender aos clientes. Eles costumam ter um portfólio variado de milhas, adquiridas de diferentes fontes. Esses ofertantes podem oferecer uma ampla gama de opções, mas é importante que os compradores verifiquem a reputação deles antes de efetuar a compra.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Atuam como intermediários.</li>
+                <li>Ampla variedade de milhas de diferentes ofertantes.</li>
+                <li>Podem ter preços mais elevados devido à margem de revenda.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Ofertantes parceiros</h2>
+            <p>Os ofertantes parceiros são empresas ou indivíduos que têm acordos comerciais com a Maxmilhas. Esses ofertantes podem oferecer milhas em condições especiais, promovendo vantagens exclusivas para os clientes. Essa categoria pode incluir companhias aéreas, agências de viagens e outras entidades que colaboram com a Maxmilhas para fornecer ofertas atraentes.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acordos comerciais com a Maxmilhas.</li>
+                <li>Condições especiais e exclusivas para os clientes.</li>
+                <li>Ofertas frequentemente mais vantajosas.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Ofertantes liminares</h2>
+            <p>Os ofertantes liminares são aqueles que conseguiram uma liminar judicial que os permite emitir milhas além das restrições de CPF impostas pelos programas de fidelidade. Essa categoria se destaca por atuar em situações excepcionais, onde a emissão de milhas poderia ser limitada devido a políticas de uso dos programas de fidelidade. Com essa autorização judicial, esses ofertantes têm mais liberdade para operar e oferecer suas milhas.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Emissão de milhas sem as restrições de CPF impostas pelos programas de fidelidade.</li>
+                <li>Operam em situações excepcionais, frequentemente ligadas a decisões judiciais.</li>
+                <li>Podem estar sob supervisão para garantir a conformidade com as normas e regulamentos.</li>
+            </ul>
+        </div>
+    ),
+},
 
 
 

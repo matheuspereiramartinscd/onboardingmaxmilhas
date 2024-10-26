@@ -120,6 +120,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Ofertantes", "completed": false},
                         {"title": "Buscando ofertantes pelo milhas", "completed": false},
                         {"title": "Oferta detalhada", "completed": false},
+                        {"title": "Média e razão", "completed": false},
                         {"title": "Programa de fidelidade Smiles", "completed": false},
                         {"title": "Programa de fidelidade TudoAzul", "completed": false},
                         {"title": "Programa de fidelidade LATAM Pass", "completed": false},
