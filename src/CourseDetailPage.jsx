@@ -5173,7 +5173,14 @@ f
             <p>Esta aula tem como objetivo ensinar como realizar a consulta de dados do passageiro utilizando o site da Receita Federal. Essa prática é essencial para verificar informações como nome completo e data de nascimento, garantindo a precisão dos dados durante o processo de emissão de passagens aéreas.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao site</h2>
-            <p>URL: Acesse o site da Receita Federal através do seguinte link: Receita Federal - Consulta CPF.</p>
+            <p>URL: Acesse o site da Receita Federal através do seguinte link: <a
+      href="https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      Receita Federal - Consulta CPF
+    </a></p>.
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas15} alt="Imagem da Receita Federal"></img>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para a consulta</h2>
