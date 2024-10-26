@@ -1353,8 +1353,8 @@ f
                 <li><strong>Outros:</strong> Motivo específico que não se encaixa nas opções acima.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Resumo do processo</h2>
-            <p>O fluxo da troca de ofertante é estruturado para garantir clareza e eficiência. As informações exibidas e a possibilidade de acessar ofertas detalhadas oferecem ao usuário suporte em sua decisão, assegurando que a troca de ofertante ocorra de maneira eficaz e segura.</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
+            <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
         </div>
     ),
 },
@@ -2699,8 +2699,8 @@ f
                 <li><strong>Sem beneficiários suficientes:</strong> Ofertante não possui CPFs suficientes para esta transação específica. <em>Envio para análise manual.</em></li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da escolha correta</h2>
-            <p>Escolher o motivo correto para a troca de ofertante é essencial, pois isso impacta diretamente a validade da oferta e o uso do saldo de milhas.</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
+            <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
         </div>
     ),
 },
