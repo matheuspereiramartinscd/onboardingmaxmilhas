@@ -1522,38 +1522,76 @@ f
 },
 'Observações': {
     title: 'Observações',
-    videoUrl: 'https://www.youtube.com/embed/hWdRnW3AMp8',
+    videoUrl: 'https://www.youtube.com/embed/s4ksA7LTy-A',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Tipos de comentários</h1>
             <p>As transações na Maxmilhas incluem um campo de comentários que registra informações importantes sobre cada emissão. Esses comentários são gerados automaticamente pelos logs da emissão ou podem ser inseridos manualmente pelos analistas. Abaixo estão alguns dos principais tipos de comentários que você pode encontrar:</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit51} alt="Imagem dos tipos de comentários"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit51} alt="Imagem de exemplos de comentários de emissão"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Comentários e explicações</h2>
-            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
-                <li><strong>Emissão automática ou nome do analista:</strong> Indica que a transação foi processada automaticamente pelo sistema ou por um analista específico.</li>
-                <li><strong>Erro indefinido ao aceitar termos de pagamento:</strong> Refere-se a uma falha inesperada ao tentar aceitar os termos de pagamento.</li>
-                <li><strong>Troca de ofertante manual:</strong> Houve uma alteração manual no ofertante devido a uma necessidade específica.</li>
-                <li><strong>Erro: usuário e/ou senha inválidos:</strong> As credenciais fornecidas para login não foram aceitas.</li>
-                <li><strong>Erro ao preencher dados dos passageiros:</strong> Problema na inserção das informações dos passageiros durante a emissão.</li>
-                <li><strong>Problema ao localizar voo:</strong> A tentativa de localizar o voo falhou.</li>
-                <li><strong>Oferta inválida ou inexistente:</strong> A oferta relacionada à transação não é válida ou não está disponível.</li>
-                <li><strong>Erro ao validar detalhes da ordem:</strong> Falha na verificação dos detalhes da transação.</li>
-                <li><strong>Passo de pagamento: verificar LOC:</strong> Alerta que a transação avançou além da etapa de pagamento. <span style="color: red;">Atenção!</span> <em>É necessário verificar o extrato do ofertante para verificar se a passagem foi emitida para evitar duplicidade.</em></li>
-                <li><strong>Cancelado pelo timeout:</strong> Transação cancelada devido a um tempo limite excedido. <span style="color: red;">Atenção!</span> <em>É necessário verificar o extrato do ofertante para verificar se a passagem foi emitida para evitar duplicidade.</em></li>
-                <li><strong>Inconsistência na quantidade de milhas:</strong> A quantidade de milhas atribuída não corresponde à expectativa.</li>
-                <li><strong>Erro ao enviar mensagem para API:</strong> Erro técnico ao tentar se comunicar com a API de emissão.</li>
-                <li><strong>Timeout ao tentar login:</strong> Falha ao fazer login na conta devido a um tempo limite excedido.</li>
-                <li><strong>Erro ao pular etapa de bagagem:</strong> Erro inesperado ao tentar avançar na etapa de bagagem.</li>
-                <li><strong>Voo de ida não encontrado:</strong> A busca pelo voo de ida não teve sucesso.</li>
-                <li><strong>Milhas insuficientes:</strong> Saldo de milhas não é suficiente para completar a transação.</li>
-                <li><strong>Passageiro sem CPF:</strong> Um dos passageiros não possui um CPF válido para a emissão.</li>
-                <li><strong>Erro ao cadastrar beneficiário:</strong> Houve um problema ao registrar as informações do beneficiário. <span style="color: red;">Atenção!</span> <em>É necessário verificar se o passageiro foi registrado na lista de beneficiários para evitar queima de CPFs.</em></li>
-                <li><strong>Taxa de embarque maior que permitida:</strong> A taxa de embarque...</li>
-            </ul>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Emissão automática ou nome do analista</h2>
+            <p>Indica que a transação foi processada automaticamente pelo sistema ou por um analista específico.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Erro indefinido ao aceitar termos de pagamento</h2>
+            <p>Refere-se a uma falha inesperada ao tentar aceitar os termos de pagamento.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Troca de ofertante manual</h2>
+            <p>Houve uma alteração manual no ofertante devido a uma necessidade específica.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Erro: usuário e/ou senha inválidos</h2>
+            <p>As credenciais fornecidas para login não foram aceitas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Erro ao preencher dados dos passageiros</h2>
+            <p>Problema na inserção das informações dos passageiros durante a emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Problema ao localizar voo</h2>
+            <p>A tentativa de localizar o voo falhou.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Oferta inválida ou inexistente</h2>
+            <p>A oferta relacionada à transação não é válida ou não está disponível.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>8. Erro ao validar detalhes da ordem</h2>
+            <p>Falha na verificação dos detalhes da transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>9. Passo de pagamento: verificar LOC</h2>
+            <p>Alerta que a transação avançou além da etapa de pagamento.</p>
+            <p><strong>Atenção:</strong> é necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>10. Cancelado pelo timeout</h2>
+            <p>Transação cancelada devido a um tempo limite excedido.</p>
+            <p><strong>Atenção:</strong> é necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>11. Inconsistência na quantidade de milhas</h2>
+            <p>A quantidade de milhas atribuída não corresponde à expectativa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>12. Erro ao enviar mensagem para API</h2>
+            <p>Erro técnico ao tentar se comunicar com a API de emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>13. Timeout ao tentar login</h2>
+            <p>Falha ao fazer login na conta devido a um tempo limite excedido.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>14. Erro ao pular etapa de bagagem</h2>
+            <p>Erro inesperado ao tentar avançar na etapa de bagagem.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>15. Voo de ida não encontrado</h2>
+            <p>A busca pelo voo de ida não teve sucesso.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>16. Milhas insuficientes</h2>
+            <p>Saldo de milhas não é suficiente para completar a transação.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>17. Passageiro sem CPF</h2>
+            <p>Um dos passageiros não possui um CPF válido para a emissão.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>18. Erro ao cadastrar beneficiário</h2>
+            <p>Houve um problema ao registrar as informações do beneficiário.</p>
+            <p><strong>Atenção:</strong> é necessário verificar se o passageiro foi registrado na lista de beneficiários para evitar queima de CPFs.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>19. Taxa de embarque maior</h2>
+            <p>Taxa de embarque superior ao valor previsto na transação.</p>
         </div>
     ),
 },
+
 'Verificando quantidade de milhas e voo disponível': {
     title: 'Verificando quantidade de milhas e voo disponível',
     videoUrl: 'https://www.youtube.com/embed/Jj2BJ0zaY74',
@@ -2542,8 +2580,8 @@ f
         </div>
     ),
 },
-'Conferindo extrato': {
-    title: 'Conferindo extrato',
+'Conferindo extrato latam': {
+    title: 'Conferindo extrato latam',
     videoUrl: 'https://www.youtube.com/embed/2M4qegJ3wq8',
     description: (
         <div>
