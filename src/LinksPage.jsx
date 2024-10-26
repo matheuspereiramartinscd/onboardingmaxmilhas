@@ -6,116 +6,52 @@ const LinksPage = () => {
     // Lista de links úteis
     const links = [
         {
-            title: "Google",
-            url: "https://www.google.com",
-            description: "O motor de busca mais popular do mundo."
+            title: "Cockpit",
+            url: "https://admin.maxmilhas.com.br/admin",
+            description: "Sistema de gestão para operações da MaxMilhas."
         },
         {
-            title: "MDN Web Docs",
-            url: "https://developer.mozilla.org",
-            description: "Documentação abrangente sobre desenvolvimento web."
+            title: "Slack",
+            url: "https://slack.com/intl/pt-br/workspace-signin",
+            description: "Plataforma de comunicação e colaboração em equipe."
         },
         {
-            title: "W3Schools",
-            url: "https://www.w3schools.com/",
-            description: "Tutoriais sobre desenvolvimento web."
+            title: "Zendesk",
+            url: "https://maxmilhas.zendesk.com/agent/dashboard",
+            description: "Ferramenta de suporte ao cliente da MaxMilhas."
         },
         {
-            title: "CSS Tricks",
-            url: "https://css-tricks.com/",
-            description: "Dicas e truques sobre CSS."
+            title: "Qulture.Rocks",
+            url: "https://app.qulture.rocks/users/sign_in#/company/178/one-page/contracts/809862",
+            description: "Plataforma de gestão de desempenho e cultura organizacional."
         },
         {
-            title: "Stack Overflow",
-            url: "https://stackoverflow.com/",
-            description: "Comunidade para perguntas e respostas sobre programação."
+            title: "Convenia",
+            url: "https://colaborador.convenia.com.br/meus-holerites",
+            description: "Portal para acesso a holerites e informações trabalhistas."
         },
         {
-            title: "GitHub",
-            url: "https://github.com/",
-            description: "Plataforma para hospedagem de código-fonte."
+            title: "Metabase",
+            url: "https://bi.maxmilhas.com.br/",
+            description: "Ferramenta de análise de dados e relatórios."
         },
         {
-            title: "FreeCodeCamp",
-            url: "https://www.freecodecamp.org/",
-            description: "Cursos gratuitos de programação."
+            title: "Receita Federal",
+            url: "https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp",
+            description: "Consulta de situação cadastral de CPF na Receita Federal."
         },
         {
-            title: "Frontend Mentor",
-            url: "https://www.frontendmentor.io/",
-            description: "Desafios de design para desenvolvedores front-end."
+            title: "Tripcase",
+            url: "https://www.tripcase.com/web2/trips",
+            description: "Aplicativo para gerenciamento de viagens."
         },
         {
-            title: "DevDocs",
-            url: "https://devdocs.io/",
-            description: "Documentação para desenvolvedores."
-        },
-        {
-            title: "Codecademy",
-            url: "https://www.codecademy.com/",
-            description: "Cursos interativos de programação."
-        },
-        {
-            title: "Udacity",
-            url: "https://www.udacity.com/",
-            description: "Cursos online e nanodegrees."
-        },
-        {
-            title: "Coursera",
-            url: "https://www.coursera.org/",
-            description: "Cursos online de universidades renomadas."
-        },
-        {
-            title: "LinkedIn Learning",
-            url: "https://www.linkedin.com/learning/",
-            description: "Cursos de habilidades profissionais."
-        },
-        {
-            title: "YouTube",
-            url: "https://www.youtube.com/",
-            description: "Plataforma de vídeos."
-        },
-        {
-            title: "CSS Zen Garden",
-            url: "http://www.csszengarden.com/",
-            description: "Exemplos de CSS para inspiração."
-        },
-        {
-            title: "React Router",
-            url: "https://reactrouter.com/",
-            description: "Gerenciamento de rotas para aplicações React."
-        },
-        {
-            title: "Frontend Checklist",
-            url: "https://frontendchecklist.io/",
-            description: "Lista de verificação para desenvolvedores front-end."
-        },
-        {
-            title: "Lighthouse",
-            url: "https://developers.google.com/web/tools/lighthouse",
-            description: "Ferramenta para melhorar a qualidade de páginas web."
-        },
-        {
-            title: "Web.dev",
-            url: "https://web.dev/",
-            description: "Recursos e ferramentas para desenvolvedores web."
-        },
-        {
-            title: "A11y Project",
-            url: "https://www.a11yproject.com/",
-            description: "Recursos para acessibilidade na web."
-        },
-        {
-            title: "Dev.to",
-            url: "https://dev.to/",
-            description: "Comunidade de desenvolvedores."
-        },
-        {
-            title: "CSS Battle",
-            url: "https://cssbattle.dev/",
-            description: "Desafios de CSS divertidos."
+            title: "Bagagem GOL",
+            url: "https://b2c.voegol.com.br/minhas-viagens/encontrar-viagem",
+            description: "Consulta sobre informações de bagagem da GOL."
         },
     ];
+    
 
     return (
         <div className={styles.resultsPage}>
