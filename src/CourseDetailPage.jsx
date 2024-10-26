@@ -2671,7 +2671,7 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Motivos para troca de ofertante</h1>
             <p>A troca de ofertante deve ser feita com atenção, pois um motivo incorreto pode invalidar ofertas e impedir que o saldo de milhas seja utilizado.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit95} alt="Imagem sobre os motivos para troca de ofertante"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit76} alt="Imagem sobre os motivos para troca de ofertante"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Motivos disponíveis para troca de ofertante</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
