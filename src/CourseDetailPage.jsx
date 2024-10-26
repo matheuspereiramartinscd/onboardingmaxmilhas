@@ -2943,8 +2943,8 @@ f
         </div>
     ),
 },
-'Cadastrando passageiro azul': {
-    title: 'Cadastrando passageiro azul',
+'Cadastrando passageiros azul': {
+    title: 'Cadastrando passageiros azul',
     videoUrl: 'https://www.youtube.com/embed/b-ejqswdLYA',
     description: (
         <div>
