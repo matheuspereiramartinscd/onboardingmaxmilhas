@@ -5129,7 +5129,7 @@ f
         </div>
     ),
 },
-'ifractal ponto online': {
+'iFractal Ponto online': {
     title: 'iFractal ponto online',
     videoUrl: 'https://www.youtube.com/embed/mKiM0PMwzRw',
     description: (
@@ -5270,7 +5270,14 @@ f
             <p>Acesso a dados: Os relatórios e análises permitem que as empresas tomem decisões baseadas em dados concretos sobre o desempenho do atendimento.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessando o Zendesk</h2>
-            <p>O Zendesk pode ser acessado através do link <a href="https://maxmilhas.zendesk.com/agent/dashboard">maxmilhas.zendesk.com</a></p>
+            <p>O Zendesk pode ser acessado através do link <a
+      href="https://maxmilhas.zendesk.com/agent/dashboard"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      maxmilhas.zendesk.com
+    </a> </p>
             <p>Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login</p>
 
             <p>O Zendesk é uma ferramenta poderosa para empresas que buscam aprimorar seu atendimento ao cliente. Com suas diversas funcionalidades, permite que as equipes de suporte gerenciem solicitações de maneira eficaz, contribuindo para uma experiência mais positiva para os clientes.</p>
