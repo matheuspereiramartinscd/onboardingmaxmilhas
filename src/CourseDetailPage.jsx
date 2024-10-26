@@ -2049,7 +2049,7 @@ f
 /* Curso Emissões Latam */
 
 'Categoria de ofertantes latam': {
-    title: 'Programa de fidelidade LATAM Pass',
+    title: 'Categoria de ofertantes latam',
     videoUrl: 'https://www.youtube.com/embed/wHHDGOumxaQ',
     description: (
         <div>
@@ -2588,6 +2588,122 @@ f
     ),
 },
 
+'Verificando quantidade de milhas e voo disponível latam': {
+    title: 'Verificando informações sobre o voo e milhas',
+    videoUrl: 'https://www.youtube.com/embed/vr5h_ywqEvw',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Verificando informações sobre o voo e milhas</h1>
+            <p>Após iniciar uma transação no sistema Cockpit, o próximo passo é garantir que os dados estejam alinhados com a realidade da companhia aérea. Para isso, é necessário verificar se o voo e a quantidade de milhas estão corretos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar o site da companhia aérea</h2>
+            <p>Acesse o site da companhia aérea escolhida para a emissão da passagem e faça o login na conta do ofertante com os dados disponibilizados no Cockpit.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam16} alt="Imagem de login no site da companhia aérea"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Buscar pelo voo</h2>
+            <p>Procure o voo exato que foi inserido no Cockpit, verificando:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data do voo:</strong> Confirme se a data está correta e se o voo ainda está disponível para emissão.</li>
+                <li><strong>Horário do voo:</strong> Verifique se o horário de partida e chegada corresponde ao informado.</li>
+                <li><strong>Número do voo:</strong> Confirme o número do voo para garantir que se trata do voo correto.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam17} alt="Imagem de verificação dos dados do voo"></img>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam01} alt="Imagem adicional de verificação do voo"></img>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam02} alt="Imagem da seção de confirmação do voo no site da companhia"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar milhas</h2>
+            <p>Certifique-se de que a quantidade de milhas exigida para a emissão no site da companhia aérea está de acordo com o valor indicado no Cockpit. Caso tenha ocorrido um aumento de milhas, será necessário ajustar a transação ou buscar alternativas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Imagem de verificação de milhas"></img>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoeslatam03} alt="Imagem adicional de verificação de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar a tarifa</h2>
+            <p>Além das milhas, é importante garantir que a tarifa selecionada está correta. Verifique se a tarifa correspondente no site da companhia (light, executive, etc.) é a mesma que está registrada no Cockpit. Qualquer divergência na tarifa também deve ser ajustada para evitar problemas na emissão.</p>
+        </div>
+    ),
+},
+'Motivos para troca de ofertante': {
+    title: 'Motivos para troca de ofertante',
+    videoUrl: 'https://www.youtube.com/embed/A3FSvUAv26Y',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Motivos para troca de ofertante</h1>
+            <p>A troca de ofertante deve ser feita com atenção, pois um motivo incorreto pode invalidar ofertas e impedir que o saldo de milhas seja utilizado.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit95} alt="Imagem sobre os motivos para troca de ofertante"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Motivos disponíveis para troca de ofertante</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Senha incorreta:</strong> A senha do ofertante atual está incorreta, impossibilitando a emissão da passagem.</li>
+                <li><strong>Saldo insuficiente:</strong> O ofertante atual não possui saldo de milhas suficiente para a transação desejada.</li>
+                <li><strong>Sem beneficiários (CPFs) disponíveis:</strong> Aplicado quando a oferta não possui CPFs disponíveis, resultando na exclusão da oferta.</li>
+                <li><strong>Conta bloqueada:</strong> O sistema informa que a conta do ofertante atual está bloqueada. <em>LATAM: Status “Inativo - forbidden”; gol e azul: Oferta excluída e não retorna para emissão.</em></li>
+                <li><strong>Não atende o telefone/WhatsApp:</strong> Utilizado na gol quando o código 2fa não é recebido. <em>Encaminhado para análise pelo time de ofertas.</em></li>
+                <li><strong>Erro de pagamento:</strong> Houve um erro de pagamento que impede a continuidade da transação.</li>
+                <li><strong>Problema ao localizar voo:</strong> Dificuldades em localizar o voo desejado pelo ofertante atual.</li>
+                <li><strong>Problema na taxa de embarque:</strong> Dificuldades com o pagamento da taxa de embarque.</li>
+                <li><strong>Redução/aumento de milhas:</strong> Mudanças no valor das milhas que impactam a transação.</li>
+                <li><strong>Ofertante gerando prejuízo:</strong> O ofertante atual está gerando prejuízos, tornando a transação inviável.</li>
+                <li><strong>Troca para emissão sequenciada:</strong> A troca é necessária para permitir uma emissão sequenciada.</li>
+                <li><strong>Cadastro pendente na companhia aérea:</strong> O ofertante possui um cadastro pendente na companhia aérea.</li>
+                <li><strong>Transação abaixo da receita mínima:</strong> A transação não atinge a receita mínima necessária.</li>
+                <li><strong>Sem beneficiários suficientes:</strong> Ofertante não possui CPFs suficientes para esta transação específica. <em>Envio para análise manual.</em></li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da escolha correta</h2>
+            <p>Escolher o motivo correto para a troca de ofertante é essencial, pois isso impacta diretamente a validade da oferta e o uso do saldo de milhas.</p>
+        </div>
+    ),
+},
+'Adicionando bagagem': {
+    title: 'Adicionando bagagem',
+    videoUrl: 'https://www.youtube.com/embed/2BfFaHMkI4Q',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bagagem</h1>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Verificação de bagagens no cockpit</h2>
+            <p>Antes de adicionar bagagens para uma transação, é necessário verificar as informações de bagagem no Cockpit. Siga o passo a passo abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Acessar a transação:</strong> No Cockpit, localize a transação desejada.</li>
+                <li><strong>Verificar informações:</strong></li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '40px', marginTop: '10px', marginBottom: '30px' }}>
+                    <li><strong>Opção 1:</strong> No cartão da transação, clique na caixa de informações do voo para visualizar os passageiros e quantas bagagens cada um possui.</li>
+                    <li><strong>Opção 2:</strong> Caso precise de mais detalhes, acesse a transação completa e verifique as informações referentes à bagagem.</li>
+                </ul>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit103} alt="Verificação de bagagens no cockpit"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit104} alt="Detalhes de bagagens no cockpit"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionando bagagens no site da companhia aérea durante a compra</h2>
+            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com suas credenciais ou as credenciais do cliente.</li>
+                <li><strong>Cadastro de passageiros:</strong> Faça o cadastro dos passageiros de acordo com as informações obtidas no Cockpit.</li>
+                <li><strong>Adição de bagagens:</strong> Na companhia LATAM é necessário retornar à página de bagagens (loja) após cadastrar os passageiros para adicionar as bagagens.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Adicionando bagagens no site da companhia aérea após a compra</h2>
+            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com as credenciais do cliente.</li>
+                <li><strong>Localize a viagem correta:</strong> Utilize as informações do voo para identificar a reserva no sistema da companhia aérea.</li>
+                <li><strong>Adição de bagagens:</strong> Selecione a opção de adicionar bagagens extras conforme a necessidade do passageiro. Verifique a quantidade de bagagens permitidas e os valores cobrados.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Informando o valor pago pela bagagem</h2>
+            <p>Depois de realizar a adição de bagagens no site da companhia aérea, é importante registrar o valor pago:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Registro do valor no Cockpit:</strong> Insira no campo correspondente ao valor de bagagem na transação do Cockpit.</li>
+                <li><strong>Comentário na transação:</strong> Faça um comentário na transação informando o valor pago e qualquer detalhe relevante sobre a adição das bagagens.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
+            <p>A adição de bagagens envolve a verificação no Cockpit, o uso do e-ticket no site da companhia aérea e o registro correto do valor pago no sistema. Seguindo esses passos, você garante que todas as informações estejam corretamente documentadas para o cliente e para a empresa.</p>
+        </div>
+    ),
+},
 
 
 

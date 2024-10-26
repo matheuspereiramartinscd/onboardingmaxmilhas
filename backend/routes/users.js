@@ -181,7 +181,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Emissões semiautomáticas", "completed": false},
                         {"title": "Emissões manuais latam", "completed": false},
                         {"title": "Cadastrando passageiros latam", "completed": false},
-                        {"title": "Bagagem", "completed": false},
+                        {"title": "Adicionando bagagem", "completed": false},
                         {"title": "Página de pagamento latam", "completed": false},
                         {"title": "Erros de pagamento latam ", "completed": false},
                         {"title": "E-tickets latam", "completed": false},
