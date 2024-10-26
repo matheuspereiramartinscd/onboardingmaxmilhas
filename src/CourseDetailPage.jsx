@@ -1354,7 +1354,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
-            <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
+            <p>Para consultar os motivos corretos para realizar a troca de ofertante você pode acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
         </div>
     ),
 },
@@ -1928,7 +1928,7 @@ f
         </div>
     ),
 },
-'Bagagem': {
+'Bagagem Gol': {
     title: 'Página de bagagem',
     videoUrl: 'https://www.youtube.com/embed/-mEn4IfUu-4',
     description: (
@@ -2749,6 +2749,280 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
             <p>A adição de bagagens envolve a verificação no Cockpit, o uso do e-ticket no site da companhia aérea e o registro correto do valor pago no sistema. Seguindo esses passos, você garante que todas as informações estejam corretamente documentadas para o cliente e para a empresa.</p>
+        </div>
+    ),
+},
+/*Cursos emissões Azul */
+'Categoria de ofertantes azul': {
+    title: 'Categoria de ofertantes azul',
+    videoUrl: 'https://www.youtube.com/embed/LrG55yeHTRM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Programa de fidelidade TudoAzul</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes00} alt="Programa de fidelidade TudoAzul"></img>
+            <p>O TudoAzul é o programa de fidelidade da Azul Linhas Aéreas, uma das maiores companhias aéreas do Brasil. Esse programa permite que os clientes acumulem pontos em suas viagens e compras com parceiros, podendo utilizá-los para adquirir passagens aéreas, upgrades e outros produtos e serviços. A seguir, vamos explorar as principais características e benefícios do TudoAzul.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de pontos</h2>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1 Como funciona</h3>
+            <p>Os membros do TudoAzul acumulam pontos ao viajarem com a Azul ou ao fazerem compras em estabelecimentos parceiros. Os pontos acumulados podem ser utilizados para diversos tipos de resgates, como passagens aéreas, diárias de hotéis e aluguel de veículos.</p>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2 Tipos de pontos</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Pontos qualificáveis:</strong> São aqueles acumulados por meio de voos realizados. Eles ajudam o cliente a subir de categoria dentro do programa de fidelidade.</li>
+                <li><strong>Pontos de bônus:</strong> Obtidos em promoções e campanhas especiais, permitindo o acúmulo mais rápido de pontos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1 Categorias de membros</h3>
+            <p>O TudoAzul possui diferentes níveis de fidelidade, que oferecem benefícios crescentes conforme o cliente acumula mais pontos e viaja com a Azul. As categorias são:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>TudoAzul:</strong> O nível básico do programa, que oferece aos membros acesso a promoções e possibilidade de acúmulo de pontos.</li>
+                <li><strong>Prata:</strong> Oferece benefícios adicionais, como pontos bônus em voos e prioridade em filas de embarque.</li>
+                <li><strong>Ouro:</strong> Proporciona vantagens como check-in e embarque prioritário, além de acúmulo maior de pontos.</li>
+                <li><strong>Diamante:</strong> O nível mais alto, com benefícios exclusivos como acesso a salas VIP, mais pontos em voos e assistência personalizada.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de pontos</h2>
+            
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1 Como resgatar</h3>
+            <p>Os membros podem resgatar seus pontos de diversas formas, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de pontos por passagens nos voos da Azul ou em companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de pontos para subir de classe em voos.</li>
+                <li><strong>Produtos e experiências:</strong> Troca de pontos por itens em lojas parceiras ou por experiências exclusivas.</li>
+            </ul>
+
+            {/* Continue com o restante do conteúdo, seguindo o mesmo padrão */}
+        </div>
+    ),
+},
+'Verificando quantidade de milhas e voo disponível azul': {
+    title: 'Verificando informações sobre o voo e milhas',
+    videoUrl: 'https://www.youtube.com/embed/8aUtHu-06IU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Verificando informações sobre o voo e milhas</h1>
+            <p>Após iniciar uma transação no sistema Cockpit, o próximo passo é garantir que os dados estejam alinhados com a realidade da companhia aérea. Para isso, é necessário verificar se o voo e a quantidade de milhas estão corretos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da companhia aérea</h2>
+            <p>Acesse o site da companhia aérea escolhida para a emissão da passagem e faça o login na conta do ofertante com os dados disponibilizados no Cockpit.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul00} alt="Acessando o site da companhia aérea"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Buscar pelo voo</h2>
+            <p>Procure o voo exato que foi inserido no Cockpit, verificando:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data do voo:</strong> Confirme se a data está correta e se o voo ainda está disponível para emissão.</li>
+                <li><strong>Horário do voo:</strong> Verifique se o horário de partida e chegada corresponde ao informado.</li>
+                <li><strong>Número do voo:</strong> Confirme o número do voo para garantir que se trata do voo correto.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit100} alt="Buscando pelo voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul01} alt="Verificando dados do voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul02} alt="Detalhes do voo"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Verificar milhas</h2>
+            <p>Certifique-se de que a quantidade de milhas exigida para a emissão no site da companhia aérea está de acordo com o valor indicado no Cockpit. Caso tenha ocorrido um aumento de milhas, será necessário ajustar a transação ou buscar alternativas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Verificando milhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul03} alt="Verificando milhas disponíveis"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Verificar a tarifa</h2>
+            <p>Além das milhas, é importante garantir que a tarifa selecionada está correta. Verifique se a tarifa correspondente no site da companhia (Light, Executive, etc.) é a mesma que está registrada no Cockpit. Qualquer divergência na tarifa também deve ser ajustada para evitar problemas na emissão.</p>
+        </div>
+    ),
+},
+'Emissões manuais azul': {
+    title: 'Emissões manuais azul',
+    videoUrl: 'https://www.youtube.com/embed/am4tah7Ap7M',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões manuais</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes00} alt="Imagem sobre emissões manuais" />
+
+            <p>A emissão manual é o processo de compra de passagens aéreas onde os dados são inseridos manualmente no sistema, ao contrário das emissões automáticas, que são realizadas de forma automatizada.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância</h2>
+            <p>Seguir os procedimentos corretos durante a emissão manual é crucial para evitar erros que possam resultar em problemas na viagem, como a falta de informações ou dados incorretos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificação de milhas e disponibilidade de voo</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e verifique a quantidade de milhas disponível para o ofertante.</li>
+                <li>Confirme a disponibilidade do voo desejado.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Importante</h3>
+            <p>Atualize a quantidade de milhas antes de prosseguir para garantir que a transação possa ser realizada sem contratempos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Seleção do ofertante</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Procedimento:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e localize a lista de ofertantes.</li>
+                <li>Selecione o ofertante que deseja utilizar para a transação.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Relevância</h3>
+            <p>Verifique se o ofertante está logado corretamente para evitar erros no cadastro do passageiro.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cadastro do passageiro no site da companhia aérea</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Informações a serem inseridas:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Nome:</strong> Primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Último sobrenome para voos nacionais ou nome completo para voos internacionais.</li>
+                <li><strong>Sufixo:</strong> Adicione o sufixo se aplicável (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Essencial para identificação nas companhias aéreas.</li>
+                <li><strong>RG:</strong> Número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Número do passaporte para passageiros estrangeiros.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Verifique se está válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Bagagem</h2>
+            <p>Verifique se o passageiro adquiriu bagagem no cockpit e insira a bagagem correspondente no site da cia aérea.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Página de pagamento</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Conferir dados do voo e da compra:</li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                    <li><strong>Taxa de embarque:</strong> Verifique se está correta.</li>
+                    <li><strong>Pontos:</strong> Confirme a quantidade de milhas a serem utilizadas.</li>
+                    <li><strong>Data do voo:</strong> Assegure que está correta.</li>
+                    <li><strong>Horário:</strong> Verifique horários de partida e chegada.</li>
+                    <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos.</li>
+                </ul>
+                <li>Adicionar cartão de crédito:</li>
+                <p>Clique...</p>
+            </ul>
+        </div>
+    ),
+},
+'Verificando beneficiários cadastrados': {
+    title: 'Verificando beneficiários cadastrados',
+    videoUrl: 'https://www.youtube.com/embed/qGxhrZ0Kn_k',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Verificando beneficiários cadastrados</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes00} alt="Imagem do programa Azul Fidelidade"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Introdução ao programa Azul fidelidade</h2>
+            <p>A Azul atualizou, em 2024, as regras para o cadastro de beneficiários no seu programa de pontos. Agora, o número de beneficiários que cada cliente pode cadastrar varia de acordo com o nível de fidelidade. Confira as mudanças:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Nível Básico: até 5 beneficiários;</li>
+                <li>Nível Topázio: até 6 beneficiários;</li>
+                <li>Nível Safira: até 7 beneficiários;</li>
+                <li>Nível Diamante: até 8 beneficiários.</li>
+            </ul>
+            <p>Além disso, o tempo de carência para alteração de beneficiários foi reduzido de 60 para 30 dias.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Como cadastrar beneficiários no Azul fidelidade</h2>
+            <p>Siga o passo a passo para cadastrar novos beneficiários usando o aplicativo da Azul:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Login:</strong> Acesse o aplicativo com seu CPF e senha.</li>
+                <li><strong>Menu inicial:</strong> Toque no seu nome na parte inferior da tela inicial.</li>
+                <li><strong>Perfil:</strong> Na tela do perfil, selecione a opção “Meus Beneficiários”.</li>
+                <li><strong>Cadastrar beneficiário:</strong> Se houver vagas disponíveis, clique em "Cadastrar Novo Beneficiário".</li>
+                <li><strong>Preenchimento de dados:</strong> Insira os dados solicitados (nacionalidade, CPF, nome, data de nascimento e gênero).</li>
+                <li><strong>Confirmação:</strong> Confirme o cadastro e o novo beneficiário aparecerá na sua lista.</li>
+            </ul>
+            <p>Agora, você já pode emitir passagens com pontos para o beneficiário cadastrado.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Como alterar beneficiários no Azul fidelidade</h2>
+            <p>Caso seja necessário alterar um beneficiário, siga este guia:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Login:</strong> Acesse o aplicativo com seu CPF e senha.</li>
+                <li><strong>Menu inicial:</strong> Toque no seu nome na parte inferior da tela inicial.</li>
+                <li><strong>Perfil:</strong> Acesse a área “Meus Beneficiários”.</li>
+                <li><strong>Excluir beneficiário:</strong> Selecione o beneficiário a ser removido e clique em "Excluir".</li>
+                <li><strong>Confirmação:</strong> Antes de finalizar, o sistema informará sobre a necessidade de aguardar 30 dias para adicionar um novo beneficiário.</li>
+            </ul>
+            <p>Siga novamente o passo a passo do cadastro para incluir um novo beneficiário.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Comentário final</h2>
+            <p>Com as mudanças implementadas pela Azul, ficou mais fácil gerenciar seus beneficiários, especialmente para clientes de nível superior, como o Nível Diamante, que agora podem cadastrar até 8 beneficiários.</p>
+        </div>
+    ),
+},
+'Cadastrando passageiro azul': {
+    title: 'Cadastrando passageiro azul',
+    videoUrl: 'https://www.youtube.com/embed/b-ejqswdLYA',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiro no site da companhia aérea</h1>
+            <p>Ao acessar o site da companhia aérea para cadastrar os passageiros, siga as orientações abaixo para garantir que todas as informações sejam inseridas corretamente, de acordo com os dados disponíveis no Cockpit:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Informações do passageiro</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit50} alt="Imagem de informações do passageiro"></img>
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Nome:</strong> Insira o primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Para voos nacionais, utilize o último sobrenome do passageiro. Para voos internacionais, insira o nome completo.</li>
+                <li><strong>Sufixo:</strong> Se aplicável, adicione o sufixo do passageiro (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Preencha com o CPF do passageiro. Este dado é essencial para identificação nas companhias aéreas. (Atenção! Na cia LATAM, utilize o CPF do ofertante de milhas para poder prosseguir para a página de pagamento)</li>
+                <li><strong>RG:</strong> Insira o número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Para passageiros estrangeiros ou em voos internacionais, forneça o número do passaporte.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Inclua a data de expiração do passaporte, garantindo que ele esteja válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Informações adicionais</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data de nascimento:</strong> Insira a data de nascimento do passageiro, conforme registrado no Cockpit.</li>
+                <li><strong>E-mail:</strong> Utilize o email do ofertante de milhas. Esse contato é importante para enviar confirmações e informações sobre a passagem.</li>
+                <li><strong>Telefone:</strong> Insira o telefone do ofertante de milhas, que será utilizado para eventuais comunicações ou notificações.</li>
+                <li><strong>Voo internacional:</strong> Atenção! *Em voos internacionais, é necessário utilizar o nome completo do passageiro, incluindo sobrenomes e sufixos.*</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Revisão e confirmação</h2>
+            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros. A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
+        </div>
+    ),
+},
+'Bagagem': {
+    title: 'Bagagem',
+    videoUrl: 'https://www.youtube.com/embed/qv61UCNndpA',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bagagem</h1>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Verificação de bagagens no cockpit</h2>
+            <p>Antes de adicionar bagagens para uma transação, é necessário verificar as informações de bagagem no Cockpit. Siga o passo a passo abaixo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Acessar a transação:</strong> No Cockpit, localize a transação desejada.</li>
+                <li><strong>Verificar Informações:</strong>
+                    <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
+                        <li>Opção 1: No cartão da transação, clique na caixa de informações do voo para visualizar os passageiros e quantas bagagens cada um possui.</li>
+                        <li>Opção 2: Caso precise de mais detalhes, acesse a transação completa e verifique as informações referentes à bagagem.</li>
+                    </ul>
+                </li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit104} alt="Imagem da verificação de bagagens no cockpit"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Adicionando bagagens no site da companhia aérea durante a compra</h2>
+            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com suas credenciais ou as credenciais do cliente.</li>
+                <li><strong>Cadastro de passageiros:</strong> Faça o cadastro dos passageiros de acordo com as informações obtidas no cockpit.</li>
+                <li><strong>Adição de bagagens:</strong> Adicione as bagagens adquiridas por cada passageiro.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Adicionando bagagens no site da companhia aérea após a compra</h2>
+            <p>Após a verificação das informações no Cockpit, prossiga para adicionar as bagagens diretamente no site da companhia aérea:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Login no site da companhia:</strong> Acesse o site da companhia aérea com as credenciais do cliente.</li>
+                <li><strong>Localize a viagem correta:</strong> Utilize as informações do voo para identificar a reserva no sistema da companhia aérea.</li>
+                <li><strong>Adição de bagagens:</strong> Selecione a opção de adicionar bagagens extras conforme a necessidade do passageiro. Verifique a quantidade de bagagens permitidas e os valores cobrados.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Informando o valor pago pela bagagem</h2>
+            <p>Depois de realizar a adição de bagagens no site da companhia aérea, é importante registrar o valor pago:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Registro do valor no cockpit:</strong> Insira no campo correspondente ao valor de bagagem na transação do Cockpit.</li>
+                <li><strong>Comentário na transação:</strong> Faça um comentário na transação informando o valor pago e qualquer detalhe relevante sobre a adição das bagagens.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
+            <p>A adição de bagagens envolve a verificação no Cockpit e o registro adequado no site da companhia aérea. Siga todos os passos para garantir que as informações estejam corretas e atualizadas.</p>
         </div>
     ),
 },

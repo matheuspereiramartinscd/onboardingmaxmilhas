@@ -159,7 +159,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Emissões semiautomáticas", "completed": false},
                         {"title": "Erro após pagamento", "completed": false},
                         {"title": "Erro aumento", "completed": false},
-                        {"title": "Bagagem", "completed": false},
+                        {"title": "Bagagem Gol", "completed": false},
                         {"title": "Checagem", "completed": false},
                         {"title": "Suspeita de fraude", "completed": false},
                         {"title": "Fnc 15", "completed": false},
