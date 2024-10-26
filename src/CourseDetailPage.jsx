@@ -5119,7 +5119,14 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
             <p>Acesso ao Qulture.Rocks: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
-            <p>Link de acesso: <a href="https://app.qulture.rocks/users/sign_in">https://app.qulture.rocks/users/sign_in</a></p>
+            <p>Link de acesso: <a
+      href="https://app.qulture.rocks/users/sign_in"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      https://app.qulture.rocks/users/sign_in
+    </a></p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
             <p>A interface é intuitiva, permitindo que os usuários acessem rapidamente as funcionalidades de feedback, metas e avaliações.</p>
@@ -5306,7 +5313,14 @@ f
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades básicas:</h2>
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Barra de Endereços (URL):</h3>
-            <p>A barra onde se insere o endereço do site que você deseja acessar. Exemplo: Para acessar o site da MaxMilhas, digite www.maxmilhas.com.br na barra de endereços e pressione "Enter".</p>
+            <p>A barra onde se insere o endereço do site que você deseja acessar. Exemplo: Para acessar o site da MaxMilhas, digite<a
+      href="www.maxmilhas.com.br"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      www.maxmilhas.com.br
+    </a> na barra de endereços e pressione "Enter".</p>
             
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Guia de Navegação (Tabs):</h3>
             <p>Abrir múltiplas páginas ao mesmo tempo em diferentes guias.</p>
