@@ -1354,7 +1354,21 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
-            <p>Para consultar os motivos corretos para realizar a troca de ofertante você pode acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
+            <p>Para consultar os motivos corretos para realizar a troca de ofertante você pode acessar este <a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      material
+    </a>  (<a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p
+    </a>)</p>
         </div>
     ),
 },
@@ -2080,7 +2094,21 @@ f
          
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Preencher o Formulário FNC 15</h3>
             <p>
-                Preencha o formulário FNC 15 de acordo com o tutorial disponível neste <a href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p" class="custom-link">slide</a>  (<a href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p" class="custom-link">https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p</a>). Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.
+                Preencha o formulário FNC 15 de acordo com o tutorial disponível neste    <a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      material
+    </a>  (<a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p
+    </a>). Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.
             </p>
           
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Documentação do FNC 15</h2>
@@ -2700,7 +2728,21 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
-            <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar esse <a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">material</a> (<a href="https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639" class="custom-link">https://docs.google.com/spreadsheets/d/1RbI0ieZuJ8vztRISFlsMT-YlOsDw0u0jrd_A-btTfQk/edit?gid=1236744639#gid=1236744639</a> )</p>
+            <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar este    <a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      material
+    </a>  (<a
+      href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
+      className="custom-link"
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+      https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p
+    </a>)</p>
         </div>
     ),
 },
