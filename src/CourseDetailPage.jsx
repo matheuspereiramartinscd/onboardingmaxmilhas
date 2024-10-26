@@ -1556,7 +1556,7 @@ f
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>9. Passou da página de pagamento: verificar LOC</h3>
             <p>Alerta que a transação avançou além da etapa de pagamento.
             <p style={{ color: 'red' }}>
-  <strong>atenção:</strong> é necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.
+  <strong>Atenção:</strong> É necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.
 </p>
 
             </p>
@@ -1564,7 +1564,7 @@ f
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>10. Cancelado pelo timeout</h3>
             <p>Transação cancelada devido a um tempo limite excedido.</p>
             <p style={{ color: 'red' }}>
-  <strong>atenção:</strong> é necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.
+  <strong>Atenção:</strong> É necessário verificar o extrato do ofertante para confirmar a emissão e evitar duplicidade.
 </p>
 
     
