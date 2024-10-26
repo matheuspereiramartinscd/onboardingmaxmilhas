@@ -18,7 +18,7 @@ const courses = [
         id: 'ofertantes',
         imageUrl: require('./assets/card-ofertantes.jpg'),
         title: "Ofertantes",
-        description: "O curso aborda o papel crucial dos ofertantes no ecossistema da Maxmilhas.",
+        description: "O curso aborda o papel dos ofertantes no ecossistema da Maxmilhas.",
         lessons: [
             { title: 'bem-vindo-curso-ofertantes', completed: false }
         ],

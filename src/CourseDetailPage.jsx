@@ -4172,7 +4172,7 @@ f
         </div>
     ),
 },
-'Programa de fidelidade smiles': {
+'Programa de fidelidade Smiles': {
     title: 'Programa de fidelidade Smiles',
     videoUrl: 'https://www.youtube.com/embed/_aQKLZ4uRN0',
     description: (
@@ -4232,7 +4232,7 @@ f
         </div>
     ),
 },
-'Programa de fidelidade tudoazul': {
+'Programa de fidelidade tudoAzul': {
     title: 'TudoAzul',
     videoUrl: 'https://www.youtube.com/embed/e-iI1MYfue8',
     description: (
@@ -4293,7 +4293,7 @@ f
         </div>
     ),
 },
-'Programa de fidelidade Latam Pass': {
+'Programa de fidelidade LATAM Pass': {
     title: 'Programa de fidelidade Latam Pass',
     videoUrl: 'https://www.youtube.com/embed/a6Sc2aqwzK0',
     description: (
@@ -4400,39 +4400,36 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Validação de ofertas</h1>
             <p>A validação automática é realizada por um sistema que utiliza algoritmos para verificar a autenticidade e a conformidade das ofertas. O processo envolve uma série de etapas que garantem a análise eficiente de cada transação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta1} alt="Imagem da validação de ofertas"></img>
+    
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais verificações realizadas</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Fraude</h3>
             <p>O sistema analisa padrões de comportamento e dados que possam indicar tentativas de fraude, garantindo que apenas ofertas legítimas sejam aprovadas.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta2} alt="Imagem da verificação de fraude"></img>
+           
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Bloqueio de conta</h3>
             <p>Verifica se a conta do ofertante está bloqueada ou inativa, impedindo que ofertas de contas não confiáveis sejam consideradas.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta3} alt="Imagem do bloqueio de conta"></img>
-
+          
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Senha incorreta</h3>
             <p>Confirma se as senhas inseridas durante o processo de emissão estão corretas, evitando erros que possam comprometer a transação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta4} alt="Imagem da senha incorreta"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Saldo divergente</h3>
             <p>Avalia se o saldo de milhas informado condiz com o saldo real disponível na conta do ofertante.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta5} alt="Imagem do saldo divergente"></img>
-
+          
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados incorretos</h3>
             <p>Checa se as informações fornecidas (como dados do voo, CPF, etc.) estão corretas e em conformidade com as exigências do programa.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta6} alt="Imagem dos dados incorretos"></img>
+       
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Validação manual de ofertas</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Papel da validação manual</h3>
             <p>Além da validação automática, a Maxmilhas permite que pessoas autorizadas realizem a aprovação manual das ofertas. Essa etapa é fundamental para transações que possam ser mais complexas ou que apresentem alguma irregularidade que a análise automática não consiga resolver.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta7} alt="Imagem da validação manual"></img>
+          
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Processo de aprovação manual</h3>
             <p>Os colaboradores autorizados revisam as ofertas com atenção, considerando fatores que o sistema automático pode não capturar, como a intenção do ofertante e a confiabilidade histórica.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={validacaoOferta8} alt="Imagem do processo de aprovação manual"></img>
+    
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da validação de ofertas</h2>
             <p>A validação eficaz de ofertas é essencial para:</p>
