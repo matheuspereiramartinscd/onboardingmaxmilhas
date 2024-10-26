@@ -314,7 +314,7 @@ a:hover {
     /* Garante que o hover não altere a cor */
 }
 
-.custom-link{
+.customlink{
     font-size: inherit; /* Herda o tamanho de fonte do elemento pai */
     text-decoration:underline;
     color: lightskyblue;

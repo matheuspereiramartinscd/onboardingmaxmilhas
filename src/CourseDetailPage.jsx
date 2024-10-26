@@ -1356,14 +1356,14 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
             <p>Para consultar os motivos corretos para realizar a troca de ofertante você pode acessar este <a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className={styles.custom-link}
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       material
     </a>  (<a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className={styles.custom-link}
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
@@ -2096,14 +2096,14 @@ f
             <p>
                 Preencha o formulário FNC 15 de acordo com o tutorial disponível neste    <a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className={styles.custom-link}
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       material
     </a>  (<a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className={styles.custom-link}
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
