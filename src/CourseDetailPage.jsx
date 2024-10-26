@@ -1853,8 +1853,8 @@ f
         </div>
     ),
 },
-'Erro/aumento': {
-    title: 'Erro/aumento',
+'Erro aumento': {
+    title: 'Erro aumento',
     videoUrl: 'https://www.youtube.com/embed/-At_cLorYyw',
     description: (
         <div>
@@ -1988,50 +1988,61 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estorno de transações incorretas</h1>
-            <p>Quando uma transação é emitida incorretamente, seja por dados errados, voo incorreto ou quantidade de milhas superior à receita mínima, é necessário tomar medidas corretivas para evitar prejuízos. Um dos principais procedimentos é cancelar o localizador na companhia aérea e emitir a passagem novamente, usando o mesmo ofertante.</p>
+            <p>
+                Quando uma transação é emitida incorretamente, seja por dados errados, voo incorreto ou quantidade de milhas superior à receita mínima, é necessário tomar medidas corretivas para evitar prejuízos. Um dos principais procedimentos é cancelar o localizador na companhia aérea e emitir a passagem novamente, usando o mesmo ofertante.
+            </p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Situações que exigem ação</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Dados incorretos ou voo incorreto</h3>
-            <p>Se a transação foi feita com dados do passageiro incorretos ou o voo escolhido foi errado, o procedimento padrão é cancelar o localizador na companhia aérea e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit01} alt="Dados incorretos ou voo incorreto"></img>
-
+            <p>
+                Se a transação foi feita com dados do passageiro incorretos ou o voo escolhido foi errado, o procedimento padrão é cancelar o localizador na companhia aérea e refazer a emissão.
+            </p>
+          
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Quantidade de milhas acima da receita mínima</h3>
-            <p>Quando a quantidade de milhas utilizada excede a receita mínima, também será necessário cancelar o localizador e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit02} alt="Quantidade de milhas acima da receita mínima"></img>
-
+            <p>
+                Quando a quantidade de milhas utilizada excede a receita mínima, também será necessário cancelar o localizador e refazer a emissão.
+            </p>
+          
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Ofertante sem milhas ou CPF para emissão</h3>
-            <p>Caso o ofertante não tenha milhas suficientes ou CPF disponível para nova emissão, será necessário buscar outra solução, como abrir um FNC15.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit03} alt="Ofertante sem milhas ou CPF para emissão"></img>
-
+            <p>
+                Caso o ofertante não tenha milhas suficientes ou CPF disponível para nova emissão, será necessário buscar outra solução, como abrir um FNC 15.
+            </p>
+         
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Aumento de milhas ou voo indisponível</h3>
-            <p>Se houver aumento nas milhas necessárias para a emissão ou o voo se tornar indisponível, também será preciso cancelar o localizador e refazer a emissão.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit04} alt="Aumento de milhas ou voo indisponível"></img>
-
+            <p>
+                Se houver aumento nas milhas necessárias para a emissão ou o voo se tornar indisponível, também será preciso cancelar o localizador e refazer a emissão.
+            </p>
+         
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estorno via FNC 15</h2>
-            <p>Quando o método de pagamento utilizado foi Pay.mee ou Pagar.me e a reemissão não for possível, será necessário solicitar um estorno por meio do FNC 15.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit05} alt="Estorno via FNC 15"></img>
-
+            <p>
+                Quando o método de pagamento utilizado foi Pay.mee ou Pagar.me e a reemissão não for possível, será necessário solicitar um estorno por meio do FNC 15.
+            </p>
+       
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento para abrir o FNC 15</h2>
             <p>Acessar o Zendesk da MaxMilhas:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Entre na plataforma Zendesk da MaxMilhas para iniciar o processo de estorno.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit06} alt="Acessar o Zendesk da MaxMilhas"></img>
-
+        
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Criar um novo ticket</h3>
-            <p>Abra um novo ticket de solicitação, seguindo o procedimento padrão de criação de chamados.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit07} alt="Criar um novo ticket"></img>
-
+            <p>
+                Abra um novo ticket de solicitação, seguindo o procedimento padrão de criação de chamados.
+            </p>
+         
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Preencher o Formulário FNC 15</h3>
-            <p>Preencha o formulário FNC 15 de acordo com o tutorial disponível neste slide. Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit08} alt="Preencher o Formulário FNC 15"></img>
-
+            <p>
+                Preencha o formulário FNC 15 de acordo com o tutorial disponível neste <a href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p" class="custom-link">slide</a>  (<a href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p" class="custom-link">https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p</a>). Certifique-se de seguir todas as instruções corretamente para evitar atrasos no processo de estorno.
+            </p>
+          
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Documentação do FNC 15</h2>
-            <p>Após a criação do ticket, copie e cole o número do ticket nas observações da transação.</p>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit09} alt="Documentação do FNC 15"></img>
-
-            <p>O processo FNC 15 é uma ferramenta importante para garantir a resolução de erros em transações que não podem ser corrigidas com emissão imediata. Ao seguir os procedimentos adequados, você assegura a gestão eficiente dos erros e protege tanto a empresa quanto o cliente de prejuízos.</p>
+            <p>
+                Após a criação do ticket, copie e cole o número do ticket nas observações da transação.
+            </p>
+        
+            <p>
+                O processo FNC 15 é uma ferramenta importante para garantir a resolução de erros em transações que não podem ser corrigidas com emissão imediata. Ao seguir os procedimentos adequados, você assegura a gestão eficiente dos erros e protege tanto a empresa quanto o cliente de prejuízos.
+            </p>
         </div>
     ),
 },
