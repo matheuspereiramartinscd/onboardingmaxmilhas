@@ -3139,6 +3139,410 @@ f
     ),
 },
 /*Curso Gol*/
+'Categoria de ofertantes gol': {
+    title: 'Categoria de ofertantes gol',
+    videoUrl: 'https://www.youtube.com/embed/T2Xblr7CpqE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Programa de fidelidade Smiles</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes01} alt="Imagem do programa de fidelidade Smiles" />
+
+            <p>O Smiles é um dos principais programas de fidelidade do Brasil, vinculado à Gol Linhas Aéreas. Este programa permite que os clientes acumulem milhas ao realizar viagens e compras, que podem ser trocadas por passagens aéreas, produtos e serviços. A seguir, exploraremos as principais características e benefícios do programa Smiles.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acúmulo de milhas</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>1.1 Como funciona</h3>
+            <p>Os membros do programa acumulam milhas ao realizar voos com a Gol e companhias aéreas parceiras, além de compras em estabelecimentos parceiros. As milhas acumuladas podem ser utilizadas para a compra de passagens, upgrades de classe, diárias em hotéis, locação de veículos e muito mais.</p>
+
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>1.2 Tipos de milhas</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Milhas bônus:</strong> Acumuladas em promoções específicas ou por meio de ações de marketing.</li>
+                <li><strong>Milhas regulares:</strong> Obtidas por meio de voos e compras em parceiros.</li>
+                <li><strong>Milhas de categoria:</strong> Acumuladas de acordo com o nível de fidelidade do cliente dentro do programa (Smiles, Prata, Ouro e Diamante).</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Níveis de fidelidade</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>2.1 Categorias de membros</h3>
+            <p>O programa Smiles possui diferentes níveis de fidelidade, que oferecem benefícios exclusivos conforme o cliente acumula mais milhas e realiza mais voos. As categorias são:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Smiles:</strong> Nível básico, com acesso às promoções e ofertas do programa.</li>
+                <li><strong>Prata:</strong> Oferece vantagens adicionais, como milhas bônus em voos e acesso prioritário em filas de embarque.</li>
+                <li><strong>Ouro:</strong> Proporciona benefícios como check-in e embarque prioritário, além de um maior acúmulo de milhas.</li>
+                <li><strong>Diamante:</strong> O nível mais alto, com benefícios exclusivos, como acesso a salas VIP e milhas adicionais para voos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Resgate de milhas</h2>
+            <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>3.1 Como resgatar</h3>
+            <p>Os membros podem resgatar suas milhas de várias maneiras, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Passagens aéreas:</strong> Troca de milhas por passagens em voos da Gol e companhias aéreas parceiras.</li>
+                <li><strong>Upgrades de classe:</strong> Utilização de milhas para atualizar a classe do voo.</li>
+                <li><strong>Produtos e serviços:</strong> Troca de milhas por produtos e serviços disponíveis no catálogo do programa.</li>
+            </ul>
+        </div>
+    ),
+},
+'Verificando quantidade de milhas e voo disponível gol': {
+    title: 'Verificando quantidade de milhas e voo disponível gol',
+    videoUrl: 'https://www.youtube.com/embed/BKqgSWFDQcU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Verificando informações sobre o voo e milhas</h1>
+            <p>Após iniciar uma transação no sistema Cockpit, o próximo passo é garantir que os dados estejam alinhados com a realidade da companhia aérea. Para isso, é necessário verificar se o voo e a quantidade de milhas estão corretos.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da companhia aérea</h2>
+            <p>Acesse o site da companhia aérea escolhida para a emissão da passagem e faça o login na conta do ofertante com os dados disponibilizados no Cockpit.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol00} alt="Imagem do site da companhia aérea"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Buscar pelo voo</h2>
+            <p>Procure o voo exato que foi inserido no Cockpit, verificando:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data do voo:</strong> Confirme se a data está correta e se o voo ainda está disponível para emissão.</li>
+                <li><strong>Horário do voo:</strong> Verifique se o horário de partida e chegada corresponde ao informado.</li>
+                <li><strong>Número do voo:</strong> Confirme o número do voo para garantir que se trata do voo correto.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit101} alt="Imagem dos dados do voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol01} alt="Imagem da busca pelo voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol02} alt="Imagem da confirmação do voo"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Verificar milhas</h2>
+            <p>Certifique-se de que a quantidade de milhas exigida para a emissão no site da companhia aérea está de acordo com o valor indicado no Cockpit. Caso tenha ocorrido um aumento de milhas, será necessário ajustar a transação ou buscar alternativas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Imagem da verificação de milhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol03} alt="Imagem da confirmação de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Verificar a tarifa</h2>
+            <p>Além das milhas, é importante garantir que a tarifa selecionada está correta. Verifique se a tarifa correspondente no site da companhia (Light, Executive, etc.) é a mesma que está registrada no Cockpit. Qualquer divergência na tarifa também deve ser ajustada para evitar problemas na emissão.</p>
+        </div>
+    ),
+},
+'Simulador Android': {
+    title: 'Simulador Android',
+    videoUrl: 'https://www.youtube.com/embed/rfWL5CFWPMM',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Simulador Android</h1>
+            <p>Acesse o aplicativo Smiles pelo simulador LDPlayer e faça o login na conta do ofertante com os dados disponibilizados no Cockpit:</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol04} alt="Login no aplicativo Smiles"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol05} alt="Login no aplicativo Smiles"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Buscar pelo voo</h2>
+            <p>Procure o voo exato que foi inserido no Cockpit, verificando:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Data do voo:</strong> Confirme se a data está correta e se o voo ainda está disponível para emissão.</li>
+                <li><strong>Horário do voo:</strong> Verifique se o horário de partida e chegada corresponde ao informado.</li>
+                <li><strong>Número do voo:</strong> Confirme o número do voo para garantir que se trata do voo correto.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit102} alt="Verificação do voo"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol06} alt="Verificação do voo"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar milhas</h2>
+            <p>Certeza de que a quantidade de milhas exigida para a emissão no site da companhia aérea está de acordo com o valor indicado no Cockpit. Caso tenha ocorrido um aumento de milhas, será necessário ajustar a transação ou buscar alternativas.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit84} alt="Verificação de milhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol07} alt="Verificação de milhas"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificar a tarifa</h2>
+            <p>Além das milhas, é importante garantir que a tarifa selecionada está correta. Verifique se a tarifa correspondente no site da companhia (Light, Executive, etc.) é a mesma que está registrada no Cockpit. Qualquer divergência na tarifa também deve ser ajustada para evitar problemas na emissão.</p>
+        </div>
+    ),
+},
+'Emissões manuais gol': {
+    title: 'Emissões manuais gol',
+    videoUrl: 'https://www.youtube.com/embed/aN62whq7X6g',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Emissões manuais</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoofertantes01} alt="Imagem da emissão manual" />
+
+            <p>A emissão manual é o processo de compra de passagens aéreas onde os dados são inseridos manualmente no sistema, ao contrário das emissões automáticas, que são realizadas de forma automatizada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância</h2>
+            <p>Seguir os procedimentos corretos durante a emissão manual é importante para evitar erros que possam resultar em problemas na viagem, como a falta de informações ou dados incorretos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Verificação de milhas e disponibilidade de voo</h2>
+            <h3>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e verifique a quantidade de milhas disponível para o ofertante.</li>
+                <li>Confirme a disponibilidade do voo desejado.</li>
+            </ul>
+            <h3>Importante</h3>
+            <p>Atualize a quantidade de milhas antes de prosseguir para garantir que a transação possa ser realizada sem contratempos.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Seleção do ofertante</h2>
+            <h3>Procedimento:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Acesse o sistema e localize a lista de ofertantes.</li>
+                <li>Selecione o ofertante que deseja utilizar para a transação.</li>
+            </ul>
+            <h3>Relevância</h3>
+            <p>Verifique se o ofertante está logado corretamente para evitar erros no cadastro do passageiro.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cadastro do passageiro no site da companhia aérea</h2>
+            <h3>Informações a serem inseridas:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Nome:</strong> Primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Último sobrenome para voos nacionais ou nome completo para voos internacionais.</li>
+                <li><strong>Sufixo:</strong> Adicione o sufixo se aplicável (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Essencial para identificação nas companhias aéreas.</li>
+                <li>Nota: Na LATAM, utilize o CPF do ofertante para prosseguir para a página de pagamento.</li>
+                <li><strong>RG:</strong> Número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Número do passaporte para passageiros estrangeiros.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Verifique se está válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Página de pagamento</h2>
+            <h3>Passos:</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li>Conferir dados do voo e da compra:</li>
+                <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
+                    <li><strong>Taxa de embarque:</strong> Verifique se está correta.</li>
+                    <li><strong>Pontos:</strong> Confirme a quantidade de milhas a serem utilizadas.</li>
+                    <li><strong>Data do voo:</strong> Assegure que está correta.</li>
+                    <li><strong>Horário:</strong> Verifique horários de partida e chegada.</li>
+                    <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos.</li>
+                </ul>
+                <li>Adicionar cartão de crédito:</li>
+                <li>Clique no botão para adicionar cartão de crédito...</li>
+            </ul>
+        </div>
+    ),
+},
+'Cadastrando passageiros gol': {
+    title: 'Cadastrando passageiros',
+    videoUrl: 'https://www.youtube.com/embed/pWnvzjU66-Q',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiros</h1>
+            <p>Ao acessar o site da companhia aérea para cadastrar os passageiros, siga as orientações abaixo para garantir que todas as informações sejam inseridas corretamente, de acordo com os dados disponíveis no Cockpit:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Informações do passageiro</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit50} alt="Imagem das informações do passageiro"></img>
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Nome:</strong> Insira o primeiro nome do passageiro conforme registrado no Cockpit.</li>
+                <li><strong>Sobrenome:</strong> Para voos nacionais, utilize o último sobrenome do passageiro. Para voos internacionais, insira o nome completo.</li>
+                <li><strong>Sufixo:</strong> Se aplicável, adicione o sufixo do passageiro (ex.: Jr., Sr., etc.).</li>
+                <li><strong>CPF:</strong> Preencha com o CPF do passageiro. Este dado é essencial para identificação nas companhias aéreas. (Atenção! Na cia LATAM, utilize o CPF do ofertante de milhas para poder prosseguir para a página de pagamento)</li>
+                <li><strong>RG:</strong> Insira o número do RG do passageiro.</li>
+                <li><strong>Passaporte:</strong> Para passageiros estrangeiros ou em voos internacionais, forneça o número do passaporte.</li>
+                <li><strong>Data de expiração do passaporte:</strong> Inclua a data de expiração do passaporte, garantindo que ele esteja válido para a viagem.</li>
+                <li><strong>País emissor:</strong> Indique o país que emitiu o passaporte.</li>
+            </ul>
+
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol08} alt="Imagem de informações adicionais"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol09} alt="Imagem de informações adicionais"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Informações adicionais</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Data de nascimento:</strong> Insira a data de nascimento do passageiro, conforme registrado no Cockpit.</li>
+                <li><strong>E-mail:</strong> Utilize o email do ofertante de milhas. Esse contato é importante para enviar confirmações e informações sobre a passagem.</li>
+                <li><strong>Telefone:</strong> Insira o telefone do ofertante de milhas, que será utilizado para eventuais comunicações ou notificações.</li>
+                <li><strong>Voo internacional:</strong> Atenção! Em voos internacionais, é necessário utilizar o nome completo do passageiro, incluindo sobrenomes e sufixos.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Revisão e confirmação</h2>
+            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros.</p>
+            <p>A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
+        </div>
+    ),
+},
+'Página de pagamento gol': {
+    title: 'Página de pagamento',
+    videoUrl: 'https://www.youtube.com/embed/Z32-WE18OIE',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Página de pagamento</h1>
+            <p>Ao acessar a página de pagamento para finalizar a compra da passagem, siga estas etapas para garantir que o processo seja realizado corretamente:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Conferir dados do voo e da compra</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol10} alt="Imagem de conferência de dados do voo e da compra" />
+
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Taxa de embarque:</strong> Verifique se a taxa de embarque exibida está correta. Esse valor é fundamental, pois influencia o limite do cartão de crédito virtual que será gerado.</li>
+                <li><strong>Pontos:</strong> Confira a quantidade de milhas (pontos) que será utilizada para a compra da passagem.</li>
+                <li><strong>Data do voo:</strong> Confirme que a data do voo está correta e corresponde ao que foi escolhido durante a pesquisa.</li>
+                <li><strong>Horário:</strong> Verifique o horário de partida e chegada para garantir que está tudo conforme esperado.</li>
+                <li><strong>Voo de ida e volta:</strong> Revise os detalhes de ambos os trechos da viagem (ida e volta) para assegurar que não há discrepâncias.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Adicionar cartão de crédito</h2>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol11} alt="Imagem para adicionar cartão de crédito" />
+
+            <p>Após verificar todas as informações, clique no botão para adicionar cartão de crédito.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Gerar cartão de crédito virtual</h2>
+            <p>Voltar ao Cockpit: Navegue de volta até o Cockpit no cartão da transação correspondente.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit86} alt="Imagem de navegação de volta ao Cockpit" />
+
+            <p>Gerar cartão de crédito: Clique no ícone de cartão de crédito. Isso gerará um cartão de crédito virtual que será utilizado para o pagamento da passagem.</p>
+            <p>Limite do cartão: Lembre-se que o limite do cartão de crédito virtual é baseado na taxa de embarque, por isso é importante que esse valor esteja correto.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Preencher dados do cartão</h2>
+            <p>Preencha os dados solicitados do cartão de crédito virtual gerado, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Número do cartão</li>
+                <li>Data de validade</li>
+                <li>Código de segurança (CVV)</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
+            <p>Após preencher todas as informações do cartão, clique no botão para Efetuar pagamento.</p>
+            <p>Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
+
+            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+            <h1 style={{ marginTop: '30px', marginBottom: '30px' }}>Códigos de verificação Gol</h1>
+            <p>Em algumas transações feitas com milhas Gol Smiles, pode ser solicitado um código de verificação para concluir o pagamento. Esse código pode ser enviado via e-mail ou SMS. Na MaxMilhas, os ofertantes podem ter um e-mail de redirecionamento ou utilizar uma chipeira para receber esses códigos, o que facilita o acesso pelos analistas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Código via e-mail</h2>
+            <p>Redirecionamento de e-mail: Muitos ofertantes têm um e-mail de redirecionamento configurado em seu cadastro. Todos os códigos de verificação solicitados durante o pagamento são enviados para esse e-mail, que é acessível pelos analistas.</p>
+            <p>Acesso pelo Cockpit:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>Vá até a transação específica no Cockpit.</li>
+                <li>Clique em Transação completa.</li>
+                <li>Selecione Opções e, em seguida, clique em Código Smiles.</li>
+                <li>Digite o e-mail de redirecionamento para buscar o código.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit77} alt="Imagem do acesso ao código via e-mail"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit78} alt="Imagem do Cockpit mostrando a opção para código Smiles"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Código via SMS (Chipeira)</h2>
+            <p>Utilizando a chipeira: Alguns ofertantes utilizam uma chipeira para receber os códigos via SMS. O código enviado para o número de celular registrado no Gol Smiles é encaminhado para uma caixa de e-mail associada à chipeira, onde os analistas podem acessá-lo.</p>
+            <p>Acesso pelo Cockpit:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li>No Cockpit, vá até a transação que requer o código.</li>
+                <li>Clique em Transação completa, acesse Opções, selecione Código Smiles e insira o número da chipeira para buscar o código.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit77} alt="Imagem do acesso ao código via SMS"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit78} alt="Imagem do Cockpit mostrando a opção para código Smiles"></img>
+
+            <p>Saber acessar os códigos de verificação de e-mail ou SMS é essencial para finalizar com sucesso as transações da Gol Smiles. Utilizar as ferramentas corretas, como o Cockpit, e ter acesso ao e-mail de redirecionamento ou à chipeira garante que o processo seja rápido e eficiente.</p>
+        </div>
+    ),
+},
+'E-tickets gol': {
+    title: 'E-tickets gol',
+    videoUrl: 'https://www.youtube.com/embed/-RwTrJn1IyY',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>E-tickets</h1>
+            <p>Após finalizar o pagamento da passagem, um e-ticket será gerado automaticamente. O e-ticket contém todas as informações necessárias sobre o voo e serve como comprovante da compra. Siga os passos abaixo para garantir que tudo esteja devidamente registrado:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Gerar o e-ticket</h2>
+            <p>Após a confirmação do pagamento, o sistema gerará um e-ticket com os detalhes do voo, incluindo:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Número do voo</li>
+                <li>Data e hora da partida</li>
+                <li>Dados do passageiro</li>
+                <li>Taxas e informações de bagagem</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Capturar o e-ticket</h2>
+            <p>Utilize uma ferramenta de captura de tela (como Captura e Esboço, Lightshot, ou outra de sua preferência) para salvar uma cópia do e-ticket.</p>
+            <p>Dica: Para capturar a tela, você pode usar teclas de atalho como Print Screen ou ferramentas específicas para captura que permitem selecionar apenas a parte da tela desejada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Voltar ao Cockpit</h2>
+            <p>Retorne ao sistema Cockpit no cartão da transação correspondente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Inserir e-ticket</h2>
+            <p>Clique no botão Inserir e-ticket para dar continuidade ao processo de registro do e-ticket.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit87} alt="Imagem da inserção do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Preencher informações necessárias</h2>
+            <p>Digite as seguintes informações na tela de emissão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Número do e-ticket:</strong> Insira o número gerado do e-ticket que você capturou.</li>
+                <li><strong>Login do programa de fidelidade:</strong> Forneça o login que você utilizou para a emissão da passagem.</li>
+                <li><strong>Número da compra para a companhia aérea:</strong> Insira o número de compra associado ao e-ticket (se aplicável).</li>
+                <li><strong>Valor da bagagem paga na companhia aérea:</strong> Informe o valor que foi pago por qualquer bagagem adicional.</li>
+                <li><strong>Cartão de crédito utilizado:</strong> Se solicitado, forneça os dados do cartão de crédito que foi utilizado para a compra.</li>
+            </ul>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit88} alt="Imagem das informações do e-ticket"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Fazer upload do e-ticket</h2>
+            <p>Faça o upload da captura de tela do e-ticket que você salvou anteriormente. Este passo é importante para garantir que a transação e a emissão estejam devidamente documentadas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Mensagens de sucesso e erro</h2>
+            <p>Após a inserção do e-ticket, o sistema verificará as informações e fornecerá uma mensagem de retorno:</p>
+            <p><strong>Mensagem de sucesso:</strong> Se todos os dados estiverem corretos, aparecerá a mensagem: "Sucesso...</p>
+        </div>
+    ),
+},
+'Cancelando localizador na companhia gol': {
+    title: 'Cancelando localizador na companhia gol',
+    videoUrl: 'https://www.youtube.com/embed/-lvapHzmx0o',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cancelamento de e-tickets na companhia aérea</h1>
+            <p>O cancelamento de e-tickets é uma etapa importante que pode ser necessária devido a diversos motivos, como erros na emissão do bilhete ou solicitações dos passageiros. Nesta aula, abordaremos os passos específicos para cancelar e-tickets nas companhias aéreas, com foco na Azul.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Quando cancelar um e-ticket?</h2>
+            <p>O cancelamento do e-ticket é necessário nas seguintes situações:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+                <li><strong>Erros na emissão do bilhete:</strong>
+                    <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
+                        <li>Dados incorretos (nome, CPF, etc.)</li>
+                        <li>Voo incorreto</li>
+                        <li>Quantidade de milhas acima do permitido</li>
+                    </ul>
+                </li>
+                <li><strong>Solicitações do passageiro:</strong>
+                    <ul style={{ listStyleType: 'circle', marginLeft: '30px' }}>
+                        <li>Passageiro requisitou o cancelamento</li>
+                        <li>Emissão duplicidade</li>
+                        <li>Bilhete emitido em duplicidade</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para cancelar um e-ticket na Gol</h2>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da Gol</h3>
+            <p>Entre no site oficial da Gol.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol12} alt="Imagem do site da Gol"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Localizar o voo</h3>
+            <p>Vá até a seção "Meus voos".</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol13} alt="Imagem da seção Meus voos"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Acessar cancelamento de voo</h3>
+            <p>Clique na viagem desejada para acessar a página de detalhes. Selecione a opção "Cancelamento de voo".</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol14} alt="Imagem do cancelamento de voo"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Confirmar cancelamento</h3>
+            <p>Prossiga com o cancelamento.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol15} alt="Imagem da confirmação de cancelamento"></img>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Registrar mensagem de reembolso</h3>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
+
+            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
+        </div>
+    ),
+},
+'Conferindo extrato gol': {
+    title: 'Conferindo extrato gol',
+    videoUrl: 'https://www.youtube.com/embed/UAPr-2fWdjU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Conferindo extrato</h1>
+            <p>Uma etapa importante no processo de emissão e gerenciamento de passagens é a conferência do extrato de milhas. Isso garante que as milhas utilizadas estejam corretas e que os valores estejam de acordo com a transação realizada.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para conferir o extrato</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferindo o extrato de milhas na Gol</h3>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Acessar o site da Gol</h4>
+            <p>Entre no site oficial da Gol.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol12} alt="Acessar o site da Gol"></img>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Acessar "Meu extrato"</h4>
+            <p>Faça login e clique em "Meu extrato" no menu principal.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol16} alt="Acessar Meu extrato"></img>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Conferir o extrato</h4>
+            <p>Verifique o extrato de milhas para confirmar os valores utilizados e acumulados, certificando-se de que tudo está correto com a transação realizada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol17} alt="Conferir extrato de milhas"></img>
+        </div>
+    ),
+},
 
 
 
