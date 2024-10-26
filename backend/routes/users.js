@@ -194,7 +194,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "progress": 0,
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Categoria de ofertantes", "completed": false},
+                        {"title": "Categoria de ofertantes gol", "completed": false},
                         {"title": "Comentários", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível gol", "completed": false},
                         {"title": "Simulador Android", "completed": false},
@@ -215,7 +215,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "progress": 0,
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Categoria de ofertantes", "completed": false},
+                        {"title": "Categoria de ofertantes azul", "completed": false},
                         {"title": "Comentários", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível azul", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
