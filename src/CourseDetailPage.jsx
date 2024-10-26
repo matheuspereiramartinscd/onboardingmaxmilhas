@@ -4232,7 +4232,7 @@ f
         </div>
     ),
 },
-'Programa de fidelidade tudoAzul': {
+'Programa de fidelidade TudoAzul': {
     title: 'TudoAzul',
     videoUrl: 'https://www.youtube.com/embed/e-iI1MYfue8',
     description: (
