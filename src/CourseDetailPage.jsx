@@ -3585,7 +3585,111 @@ f
         </div>
     ),
 },
+/*História*/
+'História da Fundação': {
+    title: 'História da fundação',
+    videoUrl: 'https://www.youtube.com/embed/aWD85TlryOU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>História da fundação</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria00} alt="Imagem da história da fundação da MaxMilhas"></img>
 
+            <p>A MaxMilhas foi fundada em 2013, com o objetivo de resolver um problema comum no mercado de passagens aéreas: a alta variação de preços. O diferencial da empresa é que ela permite que pessoas que acumulam milhas em programas de fidelidade possam vendê-las, enquanto outras pessoas podem comprar passagens aéreas com desconto, utilizando essas milhas.</p>
+            <p>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a MaxMilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O crescimento exponencial</h2>
+            <p>Em pouco tempo, a MaxMilhas se destacou no mercado, ganhando popularidade por oferecer uma plataforma intuitiva e eficiente. A empresa cresceu rapidamente, passando de uma pequena equipe para centenas de colaboradores. Em menos de sete anos, já havia facilitado a emissão de milhões de passagens aéreas.</p>
+            <p>Com seu crescimento, a MaxMilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Inovação e impacto no mercado</h2>
+            <p>A inovação foi sempre um dos pilares da MaxMilhas. Desde o início, a empresa buscou maneiras de facilitar a vida de seus usuários, permitindo que eles viajem mais gastando menos. Essa abordagem fez com que a MaxMilhas fosse reconhecida por diversas premiações no setor de startups e inovação.</p>
+            <p>Ao longo dos anos, a MaxMilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
+
+            <p>A história da MaxMilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
+        </div>
+    ),
+},
+'Principais marcos e conquistas': {
+    title: 'Principais marcos e conquistas',
+    videoUrl: 'https://www.youtube.com/embed/4vDeXN7OZq0',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Principais marcos e conquistas da MaxMilhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria01} alt="Imagem dos principais marcos da MaxMilhas"></img>
+            
+            <p>Ao longo de sua trajetória, a MaxMilhas atingiu marcos importantes e se consolidou como uma das principais empresas de venda de passagens aéreas com milhas no Brasil. Esses marcos e conquistas reforçam a inovação e o impacto positivo que a empresa tem gerado tanto no setor de turismo quanto no mercado de startups. Aqui estão alguns dos principais momentos que definiram o sucesso da empresa:</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Lançamento da plataforma (2013)</h2>
+            <p>A MaxMilhas foi oficialmente lançada como uma plataforma que conecta vendedores de milhas a compradores de passagens aéreas. Essa ideia inovadora permitiu que as pessoas viajassem mais barato, utilizando milhas que antes poderiam expirar sem uso.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Crescimento rápido e aceleração (2014)</h2>
+            <p>Em menos de um ano de operação, a empresa mostrou crescimento exponencial. No mesmo ano, foi acelerada por um dos programas mais reconhecidos do país, o que trouxe visibilidade e impulsionou ainda mais seu desenvolvimento no mercado.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Atingiu o break-even (2014)</h2>
+            <p>Pouco tempo após seu lançamento, a MaxMilhas atingiu o ponto de equilíbrio financeiro (break-even), o que demonstrou a viabilidade do modelo de negócios e permitiu que a empresa seguisse seu caminho de crescimento sustentável.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Reconhecimento nacional como startup de destaque (2017)</h2>
+            <p>A MaxMilhas foi eleita a Startup do Ano pelo Startup Awards, um reconhecimento importante no ecossistema de inovação brasileiro. Esse prêmio consolidou sua posição como uma das startups mais promissoras do país.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Premiações e reconhecimento da mídia (2017-2019)</h2>
+            <p>Ao longo dos anos, a MaxMilhas foi destaque em várias publicações e eventos importantes, incluindo estar entre as 100 Startups Brasileiras para Ficar de Olho, pelas revistas Época Negócios e Pequenas Empresas & Grandes Negócios. Também recebeu o Prêmio E-Commerce Brasil de Inovação, mostrando a força da empresa no setor digital.</p>
+            
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Crescimento da equipe e expansão da estrutura</h2>
+            <p>A MaxMilhas começou com uma equipe reduzida e, ao longo dos anos, cresceu para mais de 400 colaboradores, acompanhando seu ritmo de expansão.</p>
+        </div>
+    ),
+},
+'Cultura organizacional': {
+    title: 'Cultura organizacional',
+    videoUrl: 'https://www.youtube.com/embed/KbSJJyRcsLU',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cultura organizacional</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria02} alt="Imagem da cultura organizacional da Maxmilhas" />
+
+            <p>A cultura organizacional da MaxMilhas é um dos pilares que sustentam o sucesso e o crescimento da empresa ao longo dos anos. Mais do que apenas um conjunto de regras e diretrizes, a cultura da empresa reflete seus valores, práticas e a forma como interage com seus colaboradores e clientes. Aqui estão os principais elementos que definem essa cultura:</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Propósito claro: tornar viagens mais acessíveis</h2>
+            <p>Desde o início, a MaxMilhas foi fundada com o propósito de permitir que mais pessoas pudessem viajar de forma acessível. Esse objetivo se tornou a essência da empresa e guia todas as suas decisões e ações. Cada colaborador é incentivado a trabalhar com foco em como suas atividades impactam diretamente a realização desse propósito, seja melhorando a experiência do cliente ou inovando em soluções.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Inovação e agilidade</h2>
+            <p>A MaxMilhas foi criada em um ambiente de constante mudança e inovação. Isso reflete a forma como a empresa opera internamente: incentivando a criatividade, o aprendizado rápido e a adaptação às demandas do mercado. Os colaboradores são encorajados a propor novas ideias, experimentar e aprender com erros. A inovação não está restrita apenas à tecnologia, mas a todas as áreas da empresa.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Valorização do colaborador</h2>
+            <p>A empresa acredita que as pessoas são seu maior ativo. A MaxMilhas investe fortemente em proporcionar um ambiente de trabalho saudável e colaborativo, onde os funcionários têm espaço para crescer e se desenvolver. A empresa oferece benefícios como milhas para que os colaboradores possam viajar e viver as experiências que ajudam a construir para os clientes.</p>
+            <p>Além disso, programas de reconhecimento interno são comuns, com feedbacks constantes e a promoção de uma cultura de diálogo aberto entre líderes e equipes. Esse reconhecimento contínuo se reflete nos prêmios recebidos pela empresa, como um dos melhores lugares para se trabalhar segundo o Great Place to Work (GPTW).</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Foco no cliente</h2>
+            <p>A MaxMilhas tem um foco intenso no cliente, buscando sempre melhorar a experiência de quem usa a plataforma. Esse compromisso com a excelência no atendimento é refletido na relação próxima que a empresa mantém com seus usuários, tanto nas interações diretas quanto no desenvolvimento de produtos e serviços.</p>
+        </div>
+    ),
+},
+'Valores e missão da empresa': {
+    title: 'Valores e missão da empresa',
+    videoUrl: 'https://www.youtube.com/embed/wTTLTSwG3HI',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Valores e missão da MaxMilhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria03} alt="Imagem dos valores da MaxMilhas"></img>
+            
+            <p>Na MaxMilhas, quatro verbos-chave guiam a forma como a empresa atua e se posiciona, tanto internamente quanto externamente: amar, aproximar, acelerar e arriscar. Esses verbos expressam os princípios centrais da cultura da empresa e o espírito empreendedor que permeia suas atividades.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Amar</h2>
+            <p>Na MaxMilhas, amar o que se faz é fundamental. Esse valor reflete o compromisso de toda a equipe em oferecer as melhores soluções para os clientes, promovendo um ambiente de trabalho onde a paixão por fazer a diferença está sempre presente.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Aproximar</h2>
+            <p>O propósito de aproximar pessoas por meio das viagens é o coração da MaxMilhas. A empresa conecta clientes e vendedores de milhas, tornando as viagens mais acessíveis, e também se empenha em construir laços sólidos entre seus colaboradores, parceiros e consumidores.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acelerar</h2>
+            <p>A MaxMilhas valoriza a agilidade e a inovação. Acelerar significa buscar constantemente melhorias e novas soluções para se manter à frente do mercado, garantindo que as pessoas possam realizar seus sonhos de viajar com mais facilidade e rapidez.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Arriscar</h2>
+            <p>Arriscar faz parte do DNA da MaxMilhas. A empresa encoraja a ousadia e a tomada de decisões corajosas, sempre em busca de novas oportunidades e desafios. Isso envolve testar novas ideias e aprender com os erros, o que é essencial para o crescimento contínuo.</p>
+
+            <p>Esses quatro verbos refletem a essência da MaxMilhas, guiando suas ações e reforçando sua missão de transformar o mercado de passagens aéreas.</p>
+        </div>
+    ),
+},
 
 
 
