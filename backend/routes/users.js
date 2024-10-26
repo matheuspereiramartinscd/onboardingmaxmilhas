@@ -150,7 +150,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Lógica de negócio", "completed": false},
                         {"title": "Iniciando transações", "completed": false},
-                        {"title": "Comentários", "completed": false},
+                        {"title": "Observações", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível", "completed": false},
                         {"title": "Cadastrando passageiros", "completed": false},
                         {"title": "Página de pagamento", "completed": false},
@@ -171,7 +171,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes latam", "completed": false},
-                        {"title": "Comentários", "completed": false},
+                        {"title": "Observações", "completed": false},
                         {"title": "Acessando a conta do ofertante com a bifrost", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível latam", "completed": false},
                         {"title": "Erro na busca de voo", "completed": false},
@@ -195,7 +195,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes gol", "completed": false},
-                        {"title": "Comentários", "completed": false},
+                        {"title": "Observações", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível gol", "completed": false},
                         {"title": "Simulador Android", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
@@ -216,7 +216,7 @@ router.post('/', upload.single('photo'), async (req, res) => {
                     "lessons": [
                         {"title": "Iniciando transações", "completed": false},
                         {"title": "Categoria de ofertantes azul", "completed": false},
-                        {"title": "Comentários", "completed": false},
+                        {"title": "Observações", "completed": false},
                         {"title": "Verificando quantidade de milhas e voo disponível azul", "completed": false},
                         {"title": "Motivos para troca de ofertante", "completed": false},
                         {"title": "Cancelamento por aumento ou voo indisponível", "completed": false},
