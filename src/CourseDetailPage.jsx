@@ -3113,6 +3113,31 @@ f
         </div>
     ),
 },
+'Conferindo extrato azul': {
+    title: 'Conferindo extrato azul',
+    videoUrl: 'https://www.youtube.com/embed/Wwx_PvkaP4U',
+    description: (
+        <div>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Conferindo o extrato de milhas nas companhias aéreas</h1>
+            <p>Uma etapa crucial no processo de emissão e gerenciamento de passagens é a conferência do extrato de milhas. Isso garante que as milhas utilizadas estejam corretas e que os valores estejam de acordo com a transação realizada.</p>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Passo a passo para conferir o extrato</h2>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferindo o extrato de milhas na Azul</h3>
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar o site da Azul:</h4>
+            <p>Entre no site oficial da Azul.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul00} alt="Imagem do site da Azul"></img>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessar "Meu extrato":</h4>
+            <p>Faça login e clique em "Meu extrato" no menu principal.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul06} alt="Imagem da seção 'Meu extrato'"></img>
+
+            <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>Conferir o extrato:</h4>
+            <p>Verifique o extrato de milhas para confirmar os valores utilizados e acumulados, certificando-se de que tudo está correto com a transação realizada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesazul07} alt="Imagem do extrato de milhas"></img>
+        </div>
+    ),
+},
 
 
 
