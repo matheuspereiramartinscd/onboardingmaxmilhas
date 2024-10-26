@@ -205,7 +205,6 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Emissões manuais gol", "completed": false},
                         {"title": "Cadastrando passageiros gol", "completed": false},
                         {"title": "Página de pagamento gol", "completed": false},
-                        {"title": "Código de verificação gol", "completed": false},
                         {"title": "E-tickets gol", "completed": false},
                         {"title": "Cancelando localizador na companhia gol", "completed": false},
                         {"title": "Conferindo extrato gol", "completed": false}
