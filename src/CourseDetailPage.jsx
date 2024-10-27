@@ -259,7 +259,7 @@ import cursoemissoes00 from './assets/Cursos/Emissoes/cursoemissoes00.jpg';
 
 
 const coursesData = {
-    'cockpitsystem': 'Cockpit',
+    'cockpit': 'Cockpit',
     'milhas': 'Milhas',
     'historia': 'História da Empresa e Cultura',
     'ofertantes': 'Ofertantes',
@@ -1749,9 +1749,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
-            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
-
-            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado. Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
         </div>
     ),
 },
@@ -2475,8 +2473,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
-            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
-            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+            <p>Após preencher todas as informações do cartão, clique no botão para efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado. Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
         </div>
     ),
 },
@@ -2621,9 +2618,7 @@ f
             <p>Prossiga com o cancelamento.</p>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>8. Registrar mensagem de reembolso</h3>
-            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
-
-            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit. O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
         </div>
     ),
 },
@@ -2739,14 +2734,14 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tabela com motivos para troca de ofertante</h2>
             <p>Para consultar os motivos corretos para realizar a troca de ofertante você acessar este    <a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       material
     </a>  (<a
       href="https://docs.google.com/presentation/d/1jgMuTNj611SpSR1HUlyb_yHfNEtFudmNf_Pd-kZqANE/edit#slide=id.p"
-      className="custom-link"
+      className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
@@ -3064,9 +3059,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Efetuar o pagamento</h2>
-            <p>Após preencher todas as informações do cartão, clique no botão para Efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado.</p>
-
-            <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
+            <p>Após preencher todas as informações do cartão, clique no botão para Efetuar pagamento. Aguarde a confirmação da transação. Se tudo estiver correto, você deverá receber um recibo da compra, que incluirá os detalhes do voo e as informações do pagamento realizado. Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
         </div>
     ),
 },
@@ -3158,9 +3151,7 @@ f
             <p>Prossiga com o cancelamento.</p>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Registrar mensagem de reembolso</h3>
-            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
-
-            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit. O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
         </div>
     ),
 },
@@ -3562,9 +3553,7 @@ f
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoemissoesgol15} alt="Imagem da confirmação de cancelamento"></img>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Registrar mensagem de reembolso</h3>
-            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit.</p>
-
-            <p>O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
+            <p>Após concluir o cancelamento, copie e cole a mensagem de reembolso feita nos comentários da transação no Cockpit. O cancelamento de e-tickets é um processo que deve ser realizado com atenção, garantindo que todas as etapas sejam seguidas corretamente para evitar problemas futuros. Em caso de dúvidas, sempre consulte as diretrizes da companhia aérea e as políticas de cancelamento.</p>
         </div>
     ),
 },
@@ -5104,7 +5093,7 @@ f
             <p><strong>Acesso ao convenia:</strong> Os colaboradores e gestores podem acessar a plataforma por meio do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa através do link <a href="https://login.convenia.com.br/" target="_blank" rel="noopener noreferrer">https://login.convenia.com.br/</a>.</p>
             <p><strong>Navegação:</strong> A interface é amigável, permitindo que usuários facilmente encontrem informações relacionadas a seus dados e processos de trabalho.</p>
 
-            <p>O convenia é uma ferramenta essencial para a gestão eficiente de recursos humanos, promovendo uma melhor organização e gestão de pessoas dentro da empresa. Ao utilizar o convenia, a MaxMilhas reforça seu compromisso com a transparência e a eficiência nas relações de trabalho.</p>
+           
         </div>
     ),
 },
@@ -5208,10 +5197,12 @@ f
             <p>Utilize essas informações para verificar a exatidão dos dados do passageiro antes de realizar a emissão.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Importância da consulta</h2>
-            <p>Precisão nas emissões: Garantir que os dados estejam corretos evita problemas durante a emissão da passagem e possíveis complicações na hora do embarque.</p>
-            <p>Prevenção de erros: Consultar as informações do CPF pode evitar emissões em contas erradas e outros erros comuns que podem resultar em prejuízos para a empresa.</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+    <li><strong>Precisão nas emissões</strong>: Garantir que os dados estejam corretos evita problemas durante a emissão da passagem e possíveis complicações na hora do embarque.</li>
+    <li><strong>Prevenção de erros</strong>: Consultar as informações do CPF pode evitar emissões em contas erradas e outros erros comuns que podem resultar em prejuízos para a empresa.</li>
+    <li><strong>Consulta de dados na Receita Federal</strong>: Realizar a consulta de dados do passageiro na Receita Federal é uma prática recomendada que ajuda a manter a qualidade das emissões e a satisfação dos clientes. Siga sempre este procedimento antes de iniciar o processo de emissão.</li>
+</ul>
 
-            <p>Realizar a consulta de dados do passageiro na Receita Federal é uma prática recomendada que ajuda a manter a qualidade das emissões e a satisfação dos clientes. Siga sempre este procedimento antes de iniciar o processo de emissão.</p>
         </div>
     ),
 },
@@ -5306,7 +5297,7 @@ f
       rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
     >
       maxmilhas.zendesk.com.
-    </a> Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login. O Zendesk é uma ferramenta poderosa para empresas que buscam aprimorar seu atendimento ao cliente. Com suas diversas funcionalidades, permite que as equipes de suporte gerenciem solicitações de maneira eficaz, contribuindo para uma experiência mais positiva para os clientes.</p>
+    </a> Utilize as credenciais <strong>equipeemissao@maxmilhas.com.br</strong> e <strong>Maxmilhas@2025.</strong> (inclua o ponto no final de 2025) para realizar o login.</p>
         </div>
     ),
 },
