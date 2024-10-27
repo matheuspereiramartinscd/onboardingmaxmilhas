@@ -5954,6 +5954,54 @@ f
             <p><strong>Zendesk:</strong> Suporte ao cliente que protege os dados dos usuários de forma segura e eficiente.</p>
 
             <p>A segurança da informação é um dos pilares mais importantes para o funcionamento eficiente e seguro de uma empresa. Seguindo as melhores práticas de proteção de dados e conscientizando todos os colaboradores sobre os riscos e procedimentos adequados, a MaxMilhas pode garantir a integridade, a confidencialidade e a disponibilidade das suas informações.</p>
+
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Manutenção do sistema e uso do CCleaner</h1>
+            <p>Manter o sistema limpo e otimizado é essencial para garantir o bom desempenho do computador, especialmente em ambientes corporativos, onde a eficiência e a rapidez são fundamentais. Ferramentas como o CCleaner ajudam a remover arquivos temporários, corrigir erros no registro e melhorar o desempenho geral da máquina.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica08} alt="Imagem sobre manutenção do sistema"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que é manutenção de sistema?</h2>
+            <p>A manutenção do sistema envolve práticas para garantir que o computador continue funcionando de forma rápida e sem problemas. Entre os principais aspectos de manutenção estão:</p>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Limpeza de arquivos temporários: São arquivos que ocupam espaço desnecessário no disco rígido.</li>
+                <li>Gerenciamento de aplicativos iniciados automaticamente: Muitos programas são configurados para iniciar com o sistema, o que pode afetar o desempenho.</li>
+                <li>Verificação de erros no registro: O registro do Windows pode acumular entradas desnecessárias ou corrompidas, que podem retardar o desempenho.</li>
+                <li>Atualização de software: Manter os programas atualizados ajuda a prevenir vulnerabilidades de segurança e melhora a compatibilidade com o sistema operacional.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. CCleaner: o que é e como funciona?</h2>
+            <p>O CCleaner é uma ferramenta popular para realizar a manutenção do sistema. Ele permite que você limpe arquivos desnecessários, otimize o desempenho e gerencie o registro do Windows.</p>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Instalação do CCleaner</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li>Acesse o site oficial: Vá até o site oficial: <a href="https://www.ccleaner.com">www.ccleaner.com</a>.</li>
+                <li>Baixe a versão gratuita: Clique no botão Download e escolha a versão gratuita (Free).</li>
+                <li>Execute o instalador: Após o download, localize o arquivo de instalação e clique duas vezes nele. Siga as instruções na tela para concluir a instalação.</li>
+            </ul>
+
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Funções principais do CCleaner</h3>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Limpeza de arquivos:</strong> Abra o CCleaner e vá até a aba limpeza personalizada. Selecione os tipos de arquivos que deseja limpar (navegadores, cache, arquivos temporários de sistema). Clique em analisar e, em seguida, em executar limpeza para remover os arquivos desnecessários.</li>
+                <li><strong>Correção do registro:</strong> Vá até a aba Registro. Clique em procurar erros para analisar o registro do Windows. Após a análise, clique em corrigir erros selecionados. O CCleaner perguntará se deseja fazer um backup do registro – é recomendado que você faça isso antes de corrigir.</li>
+                <li><strong>Gerenciamento de Inicialização:</strong> Na aba Ferramentas, selecione Inicialização. Desative ou remova programas que iniciam automaticamente com o Windows e que não são necessários.</li>
+                <li><strong>Desinstalar programas:</strong> No mesmo menu Ferramentas, você pode acessar a opção Desinstalar para remover programas que não estão sendo utilizados, liberando espaço e melhorando o desempenho.</li>
+                <li><strong>Monitoramento de navegadores:</strong> O CCleaner permite também a limpeza de cookies e cache de navegadores como Chrome, Firefox e Edge, ajudando a liberar memória e a manter a privacidade.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Dicas para uso eficiente do CCleaner</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Frequência:</strong> É recomendado realizar uma limpeza com o CCleaner ao menos uma vez por semana, dependendo da intensidade de uso do computador.</li>
+                <li><strong>Backup de registro:</strong> Sempre faça o backup do registro antes de corrigir erros, garantindo que você possa restaurá-lo em caso de qualquer problema.</li>
+                <li><strong>Cuidados:</strong> Evite a limpeza de cookies essenciais ou senhas salvas, caso você dependa dessas funções no dia a dia.</li>
+            </ul>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Outras dicas de manutenção</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
+                <li><strong>Desfragmentação do disco:</strong> Para computadores com HDs, a desfragmentação pode ajudar a melhorar o desempenho. Isso reorganiza os arquivos para que o sistema possa acessá-los mais rapidamente.</li>
+                <li><strong>Atualizações:</strong> Certifique-se de que o sistema operacional e os drivers estejam sempre atualizados.</li>
+                <li><strong>Verificações de malware:</strong> Use programas antivírus e anti-malware para garantir que seu sistema esteja protegido de ameaças.</li>
+            </ul>
+
+            <p>A manutenção regular do sistema, com a ajuda de ferramentas como o CCleaner, pode prevenir problemas e garantir que seu computador esteja sempre funcionando no máximo desempenho. A prática regular de limpeza, atualização e gerenciamento de programas é essencial para manter um ambiente de trabalho eficiente.</p>
         </div>
     ),
 },
