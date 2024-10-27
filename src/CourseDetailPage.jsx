@@ -5043,8 +5043,7 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao Metabase</h2>
             <p>Para acessar o Metabase, siga os passos abaixo:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li>Abrir seu navegador.</li>
-                <li>Digite o endereço do Metabase da MaxMilhas.</li>
+                <li>Digite o endereço do Metabase da MaxMilhas no navegador: https://bi.maxmilhas.com.br/ .</li>
                 <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas08} alt="Imagem de acesso ao Metabase"></img>
                 <li>Faça login com seu e-mail corporativo (@maxmilhas.com.br).</li>
             </ul>
