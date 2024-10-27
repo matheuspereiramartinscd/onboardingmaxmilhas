@@ -1951,7 +1951,7 @@ f
         </div>
     ),
 },
-'Bagagem gol': {
+'Bagagem Gol': {
     title: 'Bagagem Gol',
     videoUrl: 'https://www.youtube.com/embed/-mEn4IfUu-4',
     description: (
