@@ -4985,14 +4985,14 @@ f
             <p>A funcionalidade de busca permite que os usuários encontrem mensagens, arquivos e informações relevantes rapidamente.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas05} alt="Imagem da busca avançada"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. benefícios do uso do Slack</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Benefícios do uso do Slack</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Comunicação rápida e eficiente:</strong> O Slack proporciona uma forma de comunicação em tempo real, reduzindo a necessidade de e-mails e reuniões.</li>
                 <li><strong>Aumento da colaboração:</strong> Com canais dedicados e integração com outras ferramentas, o Slack facilita a colaboração entre equipes e departamentos.</li>
                 <li><strong>Flexibilidade e acessibilidade:</strong> O Slack pode ser acessado em dispositivos móveis e desktops, permitindo que os colaboradores se mantenham conectados, independentemente de sua localização.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. alterando o status</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Alterando o status</h2>
             <p>O Slack permite que você altere seu status para informar aos colegas de trabalho sua disponibilidade. Para alterar o status:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Acessar seu perfil:</strong> No canto superior direito da tela, clique na sua foto de perfil ou nas iniciais do seu nome.</li>
@@ -5002,7 +5002,7 @@ f
                 <li><strong>Salvar:</strong> Clique em "salvar" para aplicar o novo status.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. indicadores de status</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Indicadores de status</h2>
             <p>Após a alteração do status, um ícone correspondente aparecerá ao lado do seu nome:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Verde:</strong> Disponível</li>
@@ -5011,10 +5011,10 @@ f
                 <li><strong>Cinza:</strong> Offline ou sem status definido</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. chamando a atenção de alguém</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Chamando a atenção de alguém</h2>
             <p>Para chamar a atenção de um colega em uma conversa, use o símbolo "@" para mencionar.</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. instalação do slack</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Instalação do slack</h2>
             
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Slack desktop</h3>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
@@ -5103,7 +5103,14 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
-            <p><strong>Acesso ao convenia:</strong> Os colaboradores e gestores podem acessar a plataforma por meio do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa através do link <a href="https://login.convenia.com.br/" target="_blank" rel="noopener noreferrer">https://login.convenia.com.br/</a>.</p>
+            <p><strong>Acesso ao convenia:</strong> Os colaboradores e gestores podem acessar a plataforma por meio do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa através do link  <a
+      href="https://login.convenia.com.br/"
+      className={styles.customlink}
+      target="_blank" // Abre o link em uma nova aba
+      rel="noopener noreferrer" // Melhora a segurança ao abrir um link externo
+    >
+  https://login.convenia.com.br/
+    </a> </p>
             <p><strong>Navegação:</strong> A interface é amigável, permitindo que usuários facilmente encontrem informações relacionadas a seus dados e processos de trabalho.</p>
 
            
