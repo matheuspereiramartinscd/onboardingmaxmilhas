@@ -5136,8 +5136,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso e navegação</h2>
-            <p>Acesso ao Qulture.Rocks: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa.</p>
-            <p>Link de acesso: <a
+            <p>Acesso ao Qulture.Rocks: Os colaboradores podem acessar a plataforma através do navegador ou aplicativo, utilizando as credenciais fornecidas pela empresa. Link de acesso: <a
       href="https://app.qulture.rocks/users/sign_in"
       className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
@@ -5189,7 +5188,7 @@ f
             <p>Esta aula tem como objetivo ensinar como realizar a consulta de dados do passageiro utilizando o site da Receita Federal. Essa prática é essencial para verificar informações como nome completo e data de nascimento, garantindo a precisão dos dados durante o processo de emissão de passagens aéreas.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao site</h2>
-            <p>URL: Acesse o site da Receita Federal através do seguinte link: <a
+            <p>Acesse o site da Receita Federal através do seguinte link: <a
       href="https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp"
       className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
