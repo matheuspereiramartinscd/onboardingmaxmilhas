@@ -67,7 +67,7 @@ const courses = [
             { question: "Qual programa de fidelidade permite acúmulo de milhas com a TAP Air Portugal?", options: ["Miles&Go", "Executive Club", "TudoAzul", "AAdvantage"], correctAnswer: "Miles&Go" },
             { question: "Como a validade das milhas é determinada?", options: ["Por meio da quantidade de milhas acumuladas", "Pelo nível de fidelidade do cliente", "Pela frequência de voos", "Pelo tipo de cartão de crédito"], correctAnswer: "Pelo nível de fidelidade do cliente" },
             { question: "Quantos meses as milhas do Latam Pass geralmente são válidas?", options: ["12 meses", "18 meses", "24 meses", "36 meses"], correctAnswer: "24 meses" },
-            { question: "Qual estratégia pode ajudar a evitar a perda de milhas por vencimento?", options: ["Transferir milhas para outros programas", "Acumular mais milhas", "Evitar utilizar as milhas", "Pagar uma taxa de renovação"], correctAnswer: "Transferir milhas para outros programas" }
+            { question: "Qual estratégia pode ajudar a evitar a perda de milhas por vencimento?", options: ["Utilizar ou vender as milhas adquiridas", "Acumular mais milhas", "Evitar utilizar as milhas", "Pagar uma taxa de renovação"], correctAnswer: "Utilizar ou vender as milhas adquiridas" }
            
         ]
 

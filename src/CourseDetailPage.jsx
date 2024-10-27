@@ -2013,7 +2013,6 @@ f
                 <li>Confirmar manualmente a transação, anotando o motivo da aprovação.</li>
                 <li>Ou enviar novamente para a checagem automática se preferir que o sistema realize a verificação.</li>
             </ul>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit98} alt="Imagem de confirmação manual"></img>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Acesso ao extrato do ofertante</h2>
             <p>Se a tela de confirmação não foi inserida:</p>
