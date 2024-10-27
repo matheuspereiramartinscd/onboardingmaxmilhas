@@ -106,7 +106,6 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "VPNs", "completed": false},
                         {"title": "Ferramentas de escritório", "completed": false},
                         {"title": "Ferramentas de captura de tela", "completed": false},
-                        {"title": "Manuntenção no sistema utilizando CCleaner", "completed": false},
                         {"title": "Segurança da informação", "completed": false},
                         {"title": "Simuladores Android", "completed": false},
                     ]
