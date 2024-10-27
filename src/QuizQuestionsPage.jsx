@@ -7,7 +7,7 @@ import Header from './Header';
 
 const courses = [
     {
-        id: 'cockpitsystem',
+        id: 'sistema',
         title: "Cockpit",
         questions: [
             { question: "Qual é o principal propósito do Cockpit na Maxmilhas?", options: ["Emitir bilhetes aéreos", "Gerar relatórios financeiros", "Acompanhar viagens", "Controlar as bagagens"], correctAnswer: "Emitir bilhetes aéreos" },
