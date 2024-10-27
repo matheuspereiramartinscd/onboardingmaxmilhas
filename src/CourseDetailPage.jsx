@@ -1106,7 +1106,7 @@ f
 },
 'Transação completa': {
     title: 'Transação completa',
-    videoUrl: 'https://www.youtube.com/embed/{video_id}',
+    videoUrl: 'https://www.youtube.com/embed/zcrQCshKRrI',
     description: (
         <div>
             <h1 style={{ marginTop:'10px', marginBottom:'30px' }}>Transação completa</h1>
@@ -1688,7 +1688,7 @@ f
 },
 'Cadastrando passageiros': {
     title: 'Cadastrando passageiros',
-    videoUrl: 'https://www.youtube.com/embed/8fOnyjC0AOE',
+    videoUrl: 'https://www.youtube.com/embed/J_DYxxYr1dg',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiros</h1>
@@ -4721,7 +4721,7 @@ f
 },
 'Validade das milhas': {
     title: 'Validade das milhas',
-    videoUrl: 'https://www.youtube.com/embed/8fOnyjC0AOE',
+    videoUrl: 'https://www.youtube.com/embed/oXVZEoTevQU',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Validade das milhas</h1>
@@ -5119,7 +5119,7 @@ f
 },
 'Qulture.rocks': {
     title: 'Introdução ao Qulture.rocks',
-    videoUrl: 'https://www.youtube.com/embed/ms0ZpgzXTwk',
+    videoUrl: 'https://www.youtube.com/embed/x8_j4jXSAGE',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Introdução ao Qulture.Rocks</h1>
@@ -5275,7 +5275,7 @@ f
 },
 'Zendesk': {
     title: 'Zendesk',
-    videoUrl: 'https://www.youtube.com/embed/qEmIeEcyu44',
+    videoUrl: 'https://www.youtube.com/embed/HdZ1UX_pszY',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Zendesk</h1>
