@@ -4963,7 +4963,7 @@ f
             <p>O Slack é uma plataforma de comunicação colaborativa projetada para facilitar a interação entre equipes. Ele combina chat em tempo real, troca de arquivos e integração com outras ferramentas, proporcionando um ambiente de trabalho mais conectado e produtivo.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas00} alt="Imagem do Slack"></img>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. principais funcionalidades</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Principais funcionalidades</h2>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Canais</h3>
             <p>O Slack permite a criação de canais públicos e privados para diferentes projetos, equipes ou tópicos, facilitando a organização das conversas.</p>
