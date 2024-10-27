@@ -68,7 +68,6 @@ router.post('/', upload.single('photo'), async (req, res) => {
                         {"title": "Troca de ofertante", "completed": false},
                         {"title": "Opções", "completed": false},
                         {"title": "Alterar milhas", "completed": false},
-                        {"title": "Calculadora de prejuízos", "completed": false}
                     ]
                 },
                 {

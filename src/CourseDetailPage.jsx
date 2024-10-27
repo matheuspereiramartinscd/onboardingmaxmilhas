@@ -1454,6 +1454,20 @@ f
 
             <h3 style={{ marginTop: '20px', marginBottom: '20px' }}>Botão de cancelar:</h3>
             <p>Um botão que permite ao usuário cancelar a operação e retornar à página anterior sem fazer alterações.</p>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Calculadora de prejuízos</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit80} alt="Imagem da calculadora de prejuízos"></img>
+            <p>Ao clicar no ícone da calculadora de prejuízos, uma janela é exibida com a ferramenta de cálculo. Essa calculadora permite avaliar o prejuízo potencial em uma transação específica, considerando o valor atual das milhas na companhia aérea. Para utilizar a calculadora, é necessário que a emissão já tenha sido iniciada.</p>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit81} alt="Imagem da funcionalidade da calculadora de prejuízos"></img>
+
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades da calculadora:</h2>
+            <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+                <li><strong>Número da transação:</strong> Um campo para inserir o número da transação em questão.</li>
+                <li><strong>Valor de milhas atuais na companhia:</strong> Campo para inserir o valor atualizado das milhas na companhia aérea.</li>
+                <li><strong>Botão de calcular:</strong> Após inserir os dados, o botão de "Calcular" processa as informações e exibe o prejuízo estimado.</li>
+            </ul>
+
+            <p>Essa ferramenta é essencial para monitorar as transações e garantir que os ofertantes e a Maxmilhas evitem prejuízos significativos durante o processo de emissão de bilhetes aéreos.</p>
+            
         </div>
     )
 },
