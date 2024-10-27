@@ -259,7 +259,7 @@ import cursoemissoes00 from './assets/Cursos/Emissoes/cursoemissoes00.jpg';
 
 
 const coursesData = {
-    'cockpit': 'Cockpit',
+    'sistema': 'Cockpit',
     'milhas': 'Milhas',
     'historia': 'História da Empresa e Cultura',
     'ofertantes': 'Ofertantes',
