@@ -3859,17 +3859,189 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Brand persona</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria13} alt="Imagem da brand persona"></img>
             <p>A Brand Persona da MaxMilhas é como uma pessoa especialista em viagens, que sabe as melhores dicas e truques para encontrar passagens e roteiros de forma inteligente. É alguém que ajuda no planejamento das viagens e compartilha conhecimento, sempre buscando proporcionar as melhores experiências para quem deseja viajar.</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Evolução do território semântico</h2>
+<p>Nossa comunicação reflete a evolução da MaxMilhas ao longo dos anos. Abaixo, destacamos algumas ideias-chave que permeiam a nossa identidade verbal:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+    <li>Viajar mais ↔ Viajar ao máximo: A comunicação vai além de vender passagens baratas. Ela envolve a ideia de utilizar ferramentas inteligentes para encontrar as melhores ofertas, economizar tempo e dinheiro, e desfrutar de uma experiência intuitiva e prática.</li>
+</ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Identidade verbal</h2>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria14} alt="Imagem da identidade verbal"></img>
-            <p>A identidade verbal é a forma como nos comunicamos e nos expressamos com o nosso público. Nela, destacamos a importância do tom de voz e das diretrizes que devem ser seguidas na construção de uma comunicação clara, amigável e eficaz, refletindo a essência da Maxmilhas.</p>
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Características do tom de voz</h2>
+<p>Nosso tom de voz possui três características principais:</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Identidade visual</h2>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria15} alt="Imagem da identidade visual"></img>
-            <p>A identidade visual é o que representa a Maxmilhas visualmente. Aqui, são abordados aspectos como logotipo, paleta de cores, tipografia e outras diretrizes visuais que devem ser seguidas para garantir uma comunicação visual coesa e impactante.</p>
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Instigante e leve</h3>
+<p><strong>Como é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '10px' }}>
+    <li>Mostra entusiasmo e inspira as pessoas a explorar novas experiências de viagem.</li>
+    <li>Estimula reflexões sobre os destinos e compartilha formas inteligentes e divertidas de planejar viagens.</li>
+    <li>Fala com empolgação, encorajando as pessoas a tentarem algo novo.</li>
+</ul>
+<p><strong>Como não é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Discurso vazio, que só inspira sem entregar.</li>
+    <li>Exagerado ou efusivo demais, com excesso de pontos de exclamação.</li>
+</ul>
+<p><em>Exemplo:</em> "Quer saber mais? Olha só esses destinos incríveis que preparamos para você!"</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Boas práticas no uso de elementos verbais e visuais</h2>
-            <p>Para garantir que nossa comunicação seja sempre eficaz, algumas boas práticas devem ser seguidas, como a consistência no uso de cores e tipografias, o cuidado com a linguagem utilizada e a atenção às imagens que representam a marca. Cada elemento deve estar alinhado à identidade da Maxmilhas, garantindo que a marca seja reconhecida e respeitada.</p>
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Atencioso e bem-humorado</h3>
+<p><strong>Como é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '10px' }}>
+    <li>Faz sugestões personalizadas, escuta ativamente e mantém um diálogo espirituoso.</li>
+    <li>Valoriza os detalhes e cuida de todos os momentos da experiência de viagem.</li>
+</ul>
+<p><strong>Como não é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Invasivo, ou com comunicação excessiva e insistente.</li>
+    <li>Força uma proximidade exagerada.</li>
+</ul>
+<p><em>Exemplo:</em> "O bom da viagem está nos detalhes. Estamos aqui para deixar tudo certinho pra você curtir cada segundo."</p>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Antenado e extrovertido</h3>
+<p><strong>Como é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '10px' }}>
+    <li>Traz dicas atualizadas e participa de conversas sobre tendências e assuntos em alta no mundo das viagens.</li>
+    <li>Usa jargões do universo de viagens, compartilha notícias e trabalha com influenciadores.</li>
+</ul>
+<p><strong>Como não é:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Não sobrecarrega o público com informações irrelevantes ou excesso de notificações.</li>
+</ul>
+<p><em>Exemplo:</em> "Pra gente, viajar é um estilo de vida. E a gente tá sempre por dentro das melhores dicas e novidades pra compartilhar com você."</p>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Recomendações de linguagem</h2>
+<p>Na MaxMilhas, alguns elementos são essenciais para mantermos nossa identidade verbal clara e consistente:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
+    <li><strong>Uso de diminutivos e expressões populares:</strong> A informalidade é bem-vinda, mas sem exageros. A linguagem é acessível e próxima.</li>
+    <li><strong>Voz ativa:</strong> Nossa comunicação é proativa, incentivadora, e usamos verbos no presente, sempre orientando a ação.</li>
+    <li><strong>Uso de emojis:</strong> Eles podem ser usados para deixar a comunicação mais leve, mas com parcimônia e considerando questões de acessibilidade. Nunca substituímos palavras por emojis e eles devem ser usados no final das frases.</li>
+</ul>
+<p><strong>Frases Emblemáticas:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>"Viajar tem que ser o máximo!"</li>
+    <li>"De menos preocupações a aproveitar ao máximo."</li>
+</ul>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Flexões verbais e pronomes</h2>
+<p>Somos a MaxMilhas, no feminino e no plural. Sempre nos referimos à marca no feminino em comunicações institucionais, reforçando a união do time e o esforço coletivo para proporcionar a melhor experiência aos nossos clientes.</p>
+<p><strong>Modo Imperativo:</strong> Usamos para convidar e orientar nossos clientes, por exemplo: "Conheça", "Veja", "Clique".</p>
+<p><strong>Modo Subjuntivo:</strong> Para deixar sugestões abertas, como: "Imagina se você pudesse viajar para...".</p>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Uso de emojis</h2>
+<p>A MaxMilhas utiliza emojis de forma estratégica, sempre respeitando as melhores práticas de acessibilidade:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Não substituir palavras por emojis.</li>
+    <li>Utilizar no final das frases, nunca no meio.</li>
+    <li>Evitar repetição excessiva de emojis iguais.</li>
+    <li>Preferir emojis com a cor padrão amarela, por questões de contraste.</li>
+    <li>Testar a verbalização dos emojis com leitores de tela.</li>
+</ul>
+<p><strong>Emojis comuns que usamos:</strong></p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>😉🙌 — Para expressar uma comunicação leve e amistosa.</li>
+    <li>✅😌 — Para indicar que algo foi concluído com sucesso.</li>
+    <li>💚🌴🛶✳️ — Para reforçar nossa ligação com a natureza e o verde da nossa marca.</li>
+</ul>
+
+<h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Identidade visual da MaxMilhas</h1>
+<p>A identidade visual da MaxMilhas é composta por um conjunto de elementos gráficos que expressam como nos comunicamos e como a nossa marca é percebida. Esses elementos incluem o logo, cores, tipografia, grafismos, ilustrações, fotografias e selos. A identidade visual é essencial para garantir a consistência e a eficácia da nossa comunicação.</p>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Logo</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1. Versão principal</h3>
+<p>O logo é a representação mais expressiva da MaxMilhas e reflete nosso movimento vibrante.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria15} alt="Imagem da versão principal do logo"></img>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2. Adequação cromática</h3>
+<p>O logo deve sempre ser aplicado em fundos que proporcionem contraste suficiente para garantir sua visibilidade.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria16} alt="Imagem da adequação cromática do logo"></img>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.3. Área de proteção</h3>
+<p>Define um espaço de segurança ao redor do logo, evitando interferências gráficas. A medida "x" é utilizada como módulo para essa área de proteção.</p>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.4. Redução máxima</h3>
+<p>O logo deve ser redimensionado respeitando as seguintes medidas:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>200 px (1,5 cm)</li>
+    <li>150 px (1 cm)</li>
+    <li>70 px (0,5 cm)</li>
+    <li>40 px (0,5 cm)</li>
+</ul>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.5. Usos incorretos</h3>
+<p>O logo deve ser utilizado corretamente em todos os pontos de contato. Situações que devem ser evitadas incluem:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Uso de cores não pertencentes à paleta.</li>
+    <li>Aplicação de mais de uma cor.</li>
+    <li>Distorções ou criações de versões alternativas.</li>
+    <li>Aplicação de texturas, sombras ou efeitos 3D.</li>
+</ul>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria17} alt="Imagem dos usos incorretos do logo"></img>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Cores</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.1. Paleta principal</h3>
+<p>O verde e seus tons são as cores principais, representando a energia e alegria de viajar, além da tranquilidade da experiência. Cores adicionais incluem o branco e o preto, que transmitem tecnologia e modernidade.</p>
+<p>Cores principais:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Verde 300: #CAECC0</li>
+    <li>Verde 500 (principal): #97DA82</li>
+    <li>Verde 700: #50AD34</li>
+    <li>Verde 900: #336E21</li>
+    <li>Branco: #FFFFFF</li>
+    <li>Preto: #0F1A2A</li>
+</ul>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria18} alt="Imagem da paleta principal de cores"></img>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>2.2. Paleta secundária</h3>
+<p>A paleta secundária inclui cores de acento e ilustrações, que trazem dinamismo à comunicação. As cores secundárias não devem ser usadas como fundos, mas sim como detalhes.</p>
+<p>Exemplos de cores:</p>
+<ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
+    <li>Rosa: #CC338A</li>
+    <li>Azul: #4C46C3</li>
+    <li>Amarelo: #D1284A</li>
+    <li>Outros tons variados.</li>
+</ul>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria19} alt="Imagem da paleta secundária de cores"></img>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria20} alt="Imagem de exemplos adicionais de cores"></img>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Tipografia</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>3.1. Tipografia principal</h3>
+<p><strong>Sora:</strong> Fonte moderna e digital, utilizada em títulos e textos.</p>
+<p><strong>Caveat:</strong> Fonte com estilo gestual, usada para detalhes de personalização.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={require('./assets/Cursos/Historia/cursohistoria21.jpg')} alt="Imagem da tipografia"></img>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Grafismos</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4.1. Estilo gráfico</h3>
+<p>Os grafismos da MaxMilhas são inspirados nas telas e janelas que encontramos ao viajar, representando dinamismo e movimento.</p>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Ilustrações</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.1. Estilo atual e vetorial</h3>
+<p>As ilustrações refletem o cotidiano dos viajantes e as memórias de viagem, estimulando o público a planejar novas aventuras.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria22} alt="Imagem de ilustrações atuais e vetoriais"></img>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>5.2. Ilustrações de destinos</h3>
+<p>Usadas em campanhas e redes sociais, essas ilustrações oferecem uma abordagem única, diferenciando-se das fotos tradicionais.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria23}alt="Imagem de ilustrações de destinos"></img>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Selos</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>6.1. Gamificação e comunidade</h3>
+<p>Os selos ilustrados são utilizados para destacar publicações, criar promoções e fomentar um senso de comunidade entre os usuários.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria24}alt="Imagem de selos ilustrados"></img>
+
+<h2 style={{ marginTop: '30px', marginBottom: '30px' }}>7. Fotografia</h2>
+
+<h3 style={{ marginTop: '30px', marginBottom: '30px' }}>7.1. Foco nas pessoas viajantes</h3>
+<p>A fotografia destaca as experiências dos viajantes, com imagens que capturam a alegria e o momento da viagem, como selfies e interações com os destinos.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria25}alt="Imagem de fotografia de viajantes"></img>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria26}alt="Imagem adicional de fotografia de viajantes"></img>
+
+<p>A identidade visual da MaxMilhas é um conjunto coeso de elementos que expressam a essência da nossa marca. Ao manter a consistência na aplicação de todos esses componentes, garantimos que nossa comunicação seja clara, moderna e atraente para nossos clientes.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria27}alt="Imagem da identidade visual da MaxMilhas"></img>
+
+           
         </div>
     )
 },
