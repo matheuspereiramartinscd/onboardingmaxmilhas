@@ -427,7 +427,7 @@ const lessonsData = {
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - Ferramentas Auxiliares</h1>
-            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao uso de ferramentas auxiliares essenciais para otimizar seu trabalho na MaxMilhas. Ao longo deste treinamento, você aprenderá a utilizar plataformas como Slack, Metabase, Convenia, Qulture.rocks e Zendesk, fundamentais para melhorar a comunicação, a gestão de dados e a experiência do cliente.</p>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado ao uso de ferramentas auxiliares essenciais para otimizar seu trabalho na Maxmilhas. Ao longo deste treinamento, você aprenderá a utilizar plataformas como Slack, Metabase, Convenia, Qulture.rocks e Zendesk, fundamentais para melhorar a comunicação, a gestão de dados e a experiência do cliente.</p>
 
             <p style={{ marginTop: '30px', marginBottom: '30px' }}>Neste curso, você adquirirá habilidades práticas que facilitarão o seu dia a dia, ajudando a garantir uma operação mais eficiente e integrada.</p>
 
@@ -435,7 +435,7 @@ const lessonsData = {
             <p>Neste curso, exploraremos os seguintes tópicos:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>Introdução ao Slack:</strong> Aprenda como utilizar o Slack para comunicação interna, gerenciamento de projetos e colaboração em equipe. Abordaremos funcionalidades como canais, mensagens diretas e integração com outras ferramentas.</li>
-                <li><strong>Explorando o Metabase:</strong> Descubra como utilizar o Metabase para consultar e analisar dados da MaxMilhas. Você aprenderá a criar relatórios, visualizar métricas e extrair informações valiosas para a tomada de decisões.</li>
+                <li><strong>Explorando o Metabase:</strong> Descubra como utilizar o Metabase para consultar e analisar dados da Maxmilhas. Você aprenderá a criar relatórios, visualizar métricas e extrair informações valiosas para a tomada de decisões.</li>
                 <li><strong>Uso do Convenia:</strong> Entenda como o Convenia pode facilitar a gestão de benefícios e a comunicação com os colaboradores. Veremos como utilizar a plataforma para gerenciar folhas de pagamento, férias e outros aspectos administrativos.</li>
                 <li><strong>Qulture.rocks para gestão de desempenho:</strong> Aprenda a usar o Qulture.rocks para definir e acompanhar metas de desempenho, feedbacks e desenvolvimento de talentos na equipe. Focaremos em como essa ferramenta pode ajudar a criar uma cultura de alta performance.</li>
                 <li><strong>Zendesk para atendimento ao cliente:</strong> Explore o Zendesk como uma solução de atendimento ao cliente. Você aprenderá a criar tickets, gerenciar solicitações e utilizar relatórios para melhorar a experiência do usuário.</li>
@@ -443,7 +443,7 @@ const lessonsData = {
 
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit00} alt="Imagem das ferramentas auxiliares" />
 
-            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser prático e interativo, com exemplos e exercícios que reforçam o aprendizado de cada ferramenta. Ao final, você estará totalmente apto a utilizar essas plataformas para melhorar sua eficiência e a qualidade do atendimento na MaxMilhas.</p>
+            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser prático e interativo, com exemplos e exercícios que reforçam o aprendizado de cada ferramenta. Ao final, você estará totalmente apto a utilizar essas plataformas para melhorar sua eficiência e a qualidade do atendimento na Maxmilhas.</p>
 
             <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você estará preparado para utilizar essas ferramentas auxiliares com confiança e competência.</p>
         </div>
@@ -458,23 +458,23 @@ const lessonsData = {
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - História da Empresa e Cultura</h1>
             <p>Estamos muito felizes em tê-lo conosco neste curso dedicado à rica história da Maxmilhas. Ao longo deste treinamento, você terá a oportunidade de explorar a fundação da empresa, os principais marcos e conquistas, além de entender a cultura organizacional, os valores e a missão que nos guiam.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Compreender a trajetória da Maxmilhas é essencial para fortalecer seu conhecimento sobre a empresa e alinhá-lo com nossos princípios e objetivos. Neste curso, abordaremos a evolução da MaxMilhas ao longo dos anos e como a nossa cultura influencia o dia a dia de trabalho.</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Compreender a trajetória da Maxmilhas é essencial para fortalecer seu conhecimento sobre a empresa e alinhá-lo com nossos princípios e objetivos. Neste curso, abordaremos a evolução da Maxmilhas ao longo dos anos e como a nossa cultura influencia o dia a dia de trabalho.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que esperar do curso</h2>
             <p>Neste curso, exploraremos os seguintes tópicos:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
-                <li><strong>História da fundação:</strong> Conheça a história da fundação da MaxMilhas, desde a ideia inicial até a concretização do projeto. Vamos abordar os desafios enfrentados e as decisões que moldaram o início da nossa jornada.</li>
+                <li><strong>História da fundação:</strong> Conheça a história da fundação da Maxmilhas, desde a ideia inicial até a concretização do projeto. Vamos abordar os desafios enfrentados e as decisões que moldaram o início da nossa jornada.</li>
                 <li><strong>Principais marcos e conquistas:</strong> Descubra os momentos mais significativos da nossa trajetória, incluindo lançamentos de produtos, expansão de serviços e reconhecimento no mercado. Vamos destacar os marcos que definiram a nossa história e contribuíram para o nosso crescimento.</li>
                 <li><strong>Cultura organizacional:</strong> Entenda a cultura que permeia a Maxmilhas. Abordaremos os aspectos que tornam nosso ambiente de trabalho único, incluindo práticas de colaboração, inovação e inclusão que promovem um forte espírito de equipe.</li>
                 <li><strong>Valores e missão:</strong> Conheça os valores que guiam nossas ações e decisões, além da missão que nos inspira a entregar sempre o melhor aos nossos clientes. Vamos discutir como esses princípios estão incorporados no nosso dia a dia.</li>
-                <li><strong>Guia da marca:</strong> Aprenda sobre a identidade visual e a comunicação da marca MaxMilhas. Vamos explorar os elementos que constituem nossa imagem, como cores, tipografia e a linguagem utilizada para transmitir nossa mensagem ao mercado.</li>
+                <li><strong>Guia da marca:</strong> Aprenda sobre a identidade visual e a comunicação da marca Maxmilhas. Vamos explorar os elementos que constituem nossa imagem, como cores, tipografia e a linguagem utilizada para transmitir nossa mensagem ao mercado.</li>
             </ul>
 
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit00} alt="Imagem da história e cultura da empresa" />
 
-            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser informativo e envolvente, com conteúdos que vão enriquecer sua compreensão sobre a MaxMilhas. Ao final, você estará preparado para representar a empresa com orgulho e alinhamento aos nossos valores e missão.</p>
+            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser informativo e envolvente, com conteúdos que vão enriquecer sua compreensão sobre a Maxmilhas. Ao final, você estará preparado para representar a empresa com orgulho e alinhamento aos nossos valores e missão.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você terá uma visão abrangente da história e da cultura da MaxMilhas.</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você terá uma visão abrangente da história e da cultura da Maxmilhas.</p>
         </div>
     )
 },
@@ -500,9 +500,9 @@ const lessonsData = {
 
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit00} alt="Imagem do curso sobre milhas" />
 
-            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da MaxMilhas.</p>
+            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso é projetado para ser interativo e prático, com exemplos reais e exercícios que ajudarão a solidificar seu aprendizado. Ao final do curso, você estará apto a utilizar o sistema Cockpit com confiança, otimizando suas operações e melhorando a experiência dos clientes da Maxmilhas.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da MaxMilhas!</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Prepare-se para uma jornada de aprendizado repleta de insights e práticas valiosas. Estamos ansiosos para começar essa experiência com você e ajudá-lo a se tornar um expert no uso do Cockpit da Maxmilhas!</p>
         </div>
     )
 },
@@ -587,7 +587,7 @@ const lessonsData = {
 
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit00} alt="Imagem do curso sobre prejuízos" />
 
-            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser prático e informativo, com exemplos do mundo real que ajudarão a reforçar o aprendizado de cada tópico. Ao final, você estará preparado para identificar e gerenciar prejuízos na emissão de passagens de forma eficaz, contribuindo para a eficiência operacional da MaxMilhas.</p>
+            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser prático e informativo, com exemplos do mundo real que ajudarão a reforçar o aprendizado de cada tópico. Ao final, você estará preparado para identificar e gerenciar prejuízos na emissão de passagens de forma eficaz, contribuindo para a eficiência operacional da Maxmilhas.</p>
 
             <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você terá as ferramentas necessárias para lidar com prejuízos e melhorar a qualidade do serviço prestado.</p>
         </div>
@@ -600,9 +600,9 @@ const lessonsData = {
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao curso - tour virtual</h1>
-            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado a apresentar as instalações da MaxMilhas através de um tour virtual. Ao longo deste treinamento, você terá a oportunidade de conhecer nossa sede, localizada em Belo Horizonte, e explorar as diversas áreas que compõem nosso ambiente de trabalho.</p>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado a apresentar as instalações da Maxmilhas através de um tour virtual. Ao longo deste treinamento, você terá a oportunidade de conhecer nossa sede, localizada em Belo Horizonte, e explorar as diversas áreas que compõem nosso ambiente de trabalho.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>O tour virtual é uma ferramenta essencial para que você se familiarize com o espaço, a cultura e as práticas que tornam a MaxMilhas um lugar especial para se trabalhar. Este curso foi projetado para fornecer uma visão abrangente das nossas instalações e como elas contribuem para a nossa missão e valores.</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>O tour virtual é uma ferramenta essencial para que você se familiarize com o espaço, a cultura e as práticas que tornam a Maxmilhas um lugar especial para se trabalhar. Este curso foi projetado para fornecer uma visão abrangente das nossas instalações e como elas contribuem para a nossa missão e valores.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que esperar do curso</h2>
             <p>Neste curso, exploraremos os seguintes tópicos:</p>
@@ -610,15 +610,15 @@ const lessonsData = {
                 <li><strong>Localização da sede da Maxmilhas:</strong> Conheça a localização da nossa sede na Rua Matias Cardoso, 169 - Santo Agostinho, Belo Horizonte - MG. Vamos falar sobre a importância da localização e como ela facilita o acesso de colaboradores e clientes.</li>
                 <li><strong>Área de recepção e atendimento - 11º andar:</strong> Explore a área de recepção e atendimento, onde garantimos uma recepção calorosa aos nossos visitantes e clientes. Vamos destacar a importância desse espaço para a experiência do usuário.</li>
                 <li><strong>Área de refeição e descanso - 11º andar:</strong> Descubra nossa área de refeição e descanso, um espaço dedicado ao bem-estar e à alimentação dos colaboradores, promovendo um ambiente saudável e produtivo.</li>
-                <li><strong>Cozinha - 11º andar:</strong> Conheça nossa cozinha, onde são preparadas as refeições para a equipe. Vamos discutir como a alimentação saudável é parte da cultura da MaxMilhas.</li>
+                <li><strong>Cozinha - 11º andar:</strong> Conheça nossa cozinha, onde são preparadas as refeições para a equipe. Vamos discutir como a alimentação saudável é parte da cultura da Maxmilhas.</li>
                 <li><strong>Deck - 11º andar:</strong> Explore o deck, um espaço ao ar livre que proporciona um ambiente agradável para relaxamento e interação entre os colaboradores.</li>
             </ul>
 
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursocockpit00} alt="Imagem do curso sobre tour virtual" />
 
-            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser interativo e envolvente, utilizando recursos visuais que facilitarão a sua imersão no ambiente da MaxMilhas. Ao final, você terá uma visão completa das nossas instalações e como elas refletem a cultura e os valores da empresa.</p>
+            <p style={{ marginTop: '10px', marginBottom: '30px' }}>Este curso foi desenvolvido para ser interativo e envolvente, utilizando recursos visuais que facilitarão a sua imersão no ambiente da Maxmilhas. Ao final, você terá uma visão completa das nossas instalações e como elas refletem a cultura e os valores da empresa.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você se sentirá mais conectado com o ambiente de trabalho da MaxMilhas.</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Estamos entusiasmados por embarcar nesta jornada com você e temos certeza de que, ao final, você se sentirá mais conectado com o ambiente de trabalho da Maxmilhas.</p>
         </div>
     )
 },
@@ -2049,7 +2049,7 @@ f
             <p>Se o pagamento foi feito com cartão de crédito, siga os passos abaixo:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
                 <li><strong>Verifique o perfil do Cliente:</strong> Abra o perfil do cliente e revise as observações salvas. Essas observações conterão orientações específicas e o motivo pelo qual o cliente está com o status de suspeita de fraude. Exemplo de anotação: “Atenção: não emitir para esse cliente, pois ele não quitou o débito.”</li>
-                <li><strong>Zendesk:</strong> Busque no Zendesk usando o código da compra (e não pelo e-mail do cliente). Procure por e-mails com o título "Contestação de Pagamento XXXXXXX - MaxMilhas". A marcação deve ser realizada usando o código da compra com CBK.</li>
+                <li><strong>Zendesk:</strong> Busque no Zendesk usando o código da compra (e não pelo e-mail do cliente). Procure por e-mails com o título "Contestação de Pagamento XXXXXXX - Maxmilhas". A marcação deve ser realizada usando o código da compra com CBK.</li>
                 <li><strong>E-mail encontrado:</strong> Se encontrar esse e-mail e a conta continuar marcada como suspeita, significa que o cliente não regularizou o débito. NÃO EMITIR a passagem nesse caso.</li>
                 <li><strong>E-mail não encontrado:</strong> Se não houver e-mail relacionado à compra contestada, você pode proceder com a emissão, mas deve notificar o grupo de prevenção.</li>
             </ul>
@@ -2102,9 +2102,9 @@ f
             </p>
        
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Procedimento para abrir o FNC 15</h2>
-            <p>Acessar o Zendesk da MaxMilhas:</p>
+            <p>Acessar o Zendesk da Maxmilhas:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
-                <li>Entre na plataforma Zendesk da MaxMilhas para iniciar o processo de estorno.</li>
+                <li>Entre na plataforma Zendesk da Maxmilhas para iniciar o processo de estorno.</li>
             </ul>
         
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Criar um novo ticket</h3>
@@ -3444,7 +3444,7 @@ f
 
             <p>Seguindo estas etapas, você poderá realizar o pagamento de forma eficiente e sem erros, assegurando a finalização da compra da passagem aérea.</p>
             <h1 style={{ marginTop: '30px', marginBottom: '30px' }}>Códigos de verificação Gol</h1>
-            <p>Em algumas transações feitas com milhas Gol Smiles, pode ser solicitado um código de verificação para concluir o pagamento. Esse código pode ser enviado via e-mail ou SMS. Na MaxMilhas, os ofertantes podem ter um e-mail de redirecionamento ou utilizar uma chipeira para receber esses códigos, o que facilita o acesso pelos analistas.</p>
+            <p>Em algumas transações feitas com milhas Gol Smiles, pode ser solicitado um código de verificação para concluir o pagamento. Esse código pode ser enviado via e-mail ou SMS. Na Maxmilhas, os ofertantes podem ter um e-mail de redirecionamento ou utilizar uma chipeira para receber esses códigos, o que facilita o acesso pelos analistas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Código via e-mail</h2>
             <p>Redirecionamento de e-mail: Muitos ofertantes têm um e-mail de redirecionamento configurado em seu cadastro. Todos os códigos de verificação solicitados durante o pagamento são enviados para esse e-mail, que é acessível pelos analistas.</p>
@@ -3604,15 +3604,15 @@ f
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>História da fundação</h1>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria00} alt="Imagem da história da fundação da Maxmilhas"></img>
 
-            <p>A MaxMilhas foi fundada em 2013, com o objetivo de resolver um problema comum no mercado de passagens aéreas: a alta variação de preços. O diferencial da empresa é que ela permite que pessoas que acumulam milhas em programas de fidelidade possam vendê-las, enquanto outras pessoas podem comprar passagens aéreas com desconto, utilizando essas milhas.</p>
-            <p style={{ marginTop:'10px', marginBottom:'30px' }}>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a MaxMilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
+            <p>A Maxmilhas foi fundada em 2013, com o objetivo de resolver um problema comum no mercado de passagens aéreas: a alta variação de preços. O diferencial da empresa é que ela permite que pessoas que acumulam milhas em programas de fidelidade possam vendê-las, enquanto outras pessoas podem comprar passagens aéreas com desconto, utilizando essas milhas.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a Maxmilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O crescimento exponencial</h2>
-            <p>Em pouco tempo, a MaxMilhas se destacou no mercado, ganhando popularidade por oferecer uma plataforma intuitiva e eficiente. A empresa cresceu rapidamente, passando de uma pequena equipe para centenas de colaboradores. Em menos de sete anos, já havia facilitado a emissão de milhões de passagens aéreas.</p>
+            <p>Em pouco tempo, a Maxmilhas se destacou no mercado, ganhando popularidade por oferecer uma plataforma intuitiva e eficiente. A empresa cresceu rapidamente, passando de uma pequena equipe para centenas de colaboradores. Em menos de sete anos, já havia facilitado a emissão de milhões de passagens aéreas.</p>
             <p style={{ marginTop:'10px', marginBottom:'30px' }}> Com seu crescimento, a Maxmilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Inovação e impacto no mercado</h2>
-            <p>A inovação foi sempre um dos pilares da MaxMilhas. Desde o início, a empresa buscou maneiras de facilitar a vida de seus usuários, permitindo que eles viajem mais gastando menos. Essa abordagem fez com que a MaxMilhas fosse reconhecida por diversas premiações no setor de startups e inovação.</p>
+            <p>A inovação foi sempre um dos pilares da Maxmilhas. Desde o início, a empresa buscou maneiras de facilitar a vida de seus usuários, permitindo que eles viajem mais gastando menos. Essa abordagem fez com que a Maxmilhas fosse reconhecida por diversas premiações no setor de startups e inovação.</p>
             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Ao longo dos anos, a Maxmilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
 
             <p>A história da Maxmilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
@@ -3624,28 +3624,28 @@ f
     videoUrl: 'https://www.youtube.com/embed/4vDeXN7OZq0',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Principais marcos e conquistas da MaxMilhas</h1>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria01} alt="Imagem dos principais marcos da MaxMilhas"></img>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Principais marcos e conquistas da Maxmilhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria01} alt="Imagem dos principais marcos da Maxmilhas"></img>
             
-            <p>Ao longo de sua trajetória, a MaxMilhas atingiu marcos importantes e se consolidou como uma das principais empresas de venda de passagens aéreas com milhas no Brasil. Esses marcos e conquistas reforçam a inovação e o impacto positivo que a empresa tem gerado tanto no setor de turismo quanto no mercado de startups. Aqui estão alguns dos principais momentos que definiram o sucesso da empresa:</p>
+            <p>Ao longo de sua trajetória, a Maxmilhas atingiu marcos importantes e se consolidou como uma das principais empresas de venda de passagens aéreas com milhas no Brasil. Esses marcos e conquistas reforçam a inovação e o impacto positivo que a empresa tem gerado tanto no setor de turismo quanto no mercado de startups. Aqui estão alguns dos principais momentos que definiram o sucesso da empresa:</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Lançamento da plataforma (2013)</h2>
-            <p>A MaxMilhas foi oficialmente lançada como uma plataforma que conecta vendedores de milhas a compradores de passagens aéreas. Essa ideia inovadora permitiu que as pessoas viajassem mais barato, utilizando milhas que antes poderiam expirar sem uso.</p>
+            <p>A Maxmilhas foi oficialmente lançada como uma plataforma que conecta vendedores de milhas a compradores de passagens aéreas. Essa ideia inovadora permitiu que as pessoas viajassem mais barato, utilizando milhas que antes poderiam expirar sem uso.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Crescimento rápido e aceleração (2014)</h2>
             <p>Em menos de um ano de operação, a empresa mostrou crescimento exponencial. No mesmo ano, foi acelerada por um dos programas mais reconhecidos do país, o que trouxe visibilidade e impulsionou ainda mais seu desenvolvimento no mercado.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Atingiu o break-even (2014)</h2>
-            <p>Pouco tempo após seu lançamento, a MaxMilhas atingiu o ponto de equilíbrio financeiro (break-even), o que demonstrou a viabilidade do modelo de negócios e permitiu que a empresa seguisse seu caminho de crescimento sustentável.</p>
+            <p>Pouco tempo após seu lançamento, a Maxmilhas atingiu o ponto de equilíbrio financeiro (break-even), o que demonstrou a viabilidade do modelo de negócios e permitiu que a empresa seguisse seu caminho de crescimento sustentável.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Reconhecimento nacional como startup de destaque (2017)</h2>
-            <p>A MaxMilhas foi eleita a Startup do Ano pelo Startup Awards, um reconhecimento importante no ecossistema de inovação brasileiro. Esse prêmio consolidou sua posição como uma das startups mais promissoras do país.</p>
+            <p>A Maxmilhas foi eleita a Startup do Ano pelo Startup Awards, um reconhecimento importante no ecossistema de inovação brasileiro. Esse prêmio consolidou sua posição como uma das startups mais promissoras do país.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Premiações e reconhecimento da mídia (2017-2019)</h2>
-            <p>Ao longo dos anos, a MaxMilhas foi destaque em várias publicações e eventos importantes, incluindo estar entre as 100 Startups Brasileiras para Ficar de Olho, pelas revistas Época Negócios e Pequenas Empresas & Grandes Negócios. Também recebeu o Prêmio E-Commerce Brasil de Inovação, mostrando a força da empresa no setor digital.</p>
+            <p>Ao longo dos anos, a Maxmilhas foi destaque em várias publicações e eventos importantes, incluindo estar entre as 100 Startups Brasileiras para Ficar de Olho, pelas revistas Época Negócios e Pequenas Empresas & Grandes Negócios. Também recebeu o Prêmio E-Commerce Brasil de Inovação, mostrando a força da empresa no setor digital.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Crescimento da equipe e expansão da estrutura</h2>
-            <p>A MaxMilhas começou com uma equipe reduzida e, ao longo dos anos, cresceu para mais de 400 colaboradores, acompanhando seu ritmo de expansão.</p>
+            <p>A Maxmilhas começou com uma equipe reduzida e, ao longo dos anos, cresceu para mais de 400 colaboradores, acompanhando seu ritmo de expansão.</p>
         </div>
     ),
 },
@@ -3657,20 +3657,20 @@ f
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cultura organizacional</h1>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria02} alt="Imagem da cultura organizacional da Maxmilhas" />
 
-            <p>A cultura organizacional da MaxMilhas é um dos pilares que sustentam o sucesso e o crescimento da empresa ao longo dos anos. Mais do que apenas um conjunto de regras e diretrizes, a cultura da empresa reflete seus valores, práticas e a forma como interage com seus colaboradores e clientes. Aqui estão os principais elementos que definem essa cultura:</p>
+            <p>A cultura organizacional da Maxmilhas é um dos pilares que sustentam o sucesso e o crescimento da empresa ao longo dos anos. Mais do que apenas um conjunto de regras e diretrizes, a cultura da empresa reflete seus valores, práticas e a forma como interage com seus colaboradores e clientes. Aqui estão os principais elementos que definem essa cultura:</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Propósito claro: tornar viagens mais acessíveis</h2>
-            <p>Desde o início, a MaxMilhas foi fundada com o propósito de permitir que mais pessoas pudessem viajar de forma acessível. Esse objetivo se tornou a essência da empresa e guia todas as suas decisões e ações. Cada colaborador é incentivado a trabalhar com foco em como suas atividades impactam diretamente a realização desse propósito, seja melhorando a experiência do cliente ou inovando em soluções.</p>
+            <p>Desde o início, a Maxmilhas foi fundada com o propósito de permitir que mais pessoas pudessem viajar de forma acessível. Esse objetivo se tornou a essência da empresa e guia todas as suas decisões e ações. Cada colaborador é incentivado a trabalhar com foco em como suas atividades impactam diretamente a realização desse propósito, seja melhorando a experiência do cliente ou inovando em soluções.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Inovação e agilidade</h2>
-            <p>A MaxMilhas foi criada em um ambiente de constante mudança e inovação. Isso reflete a forma como a empresa opera internamente: incentivando a criatividade, o aprendizado rápido e a adaptação às demandas do mercado. Os colaboradores são encorajados a propor novas ideias, experimentar e aprender com erros. A inovação não está restrita apenas à tecnologia, mas a todas as áreas da empresa.</p>
+            <p>A Maxmilhas foi criada em um ambiente de constante mudança e inovação. Isso reflete a forma como a empresa opera internamente: incentivando a criatividade, o aprendizado rápido e a adaptação às demandas do mercado. Os colaboradores são encorajados a propor novas ideias, experimentar e aprender com erros. A inovação não está restrita apenas à tecnologia, mas a todas as áreas da empresa.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Valorização do colaborador</h2>
-            <p>A empresa acredita que as pessoas são seu maior ativo. A MaxMilhas investe fortemente em proporcionar um ambiente de trabalho saudável e colaborativo, onde os funcionários têm espaço para crescer e se desenvolver. A empresa oferece benefícios como milhas para que os colaboradores possam viajar e viver as experiências que ajudam a construir para os clientes.</p>
+            <p>A empresa acredita que as pessoas são seu maior ativo. A Maxmilhas investe fortemente em proporcionar um ambiente de trabalho saudável e colaborativo, onde os funcionários têm espaço para crescer e se desenvolver. A empresa oferece benefícios como milhas para que os colaboradores possam viajar e viver as experiências que ajudam a construir para os clientes.</p>
             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Além disso, programas de reconhecimento interno são comuns, com feedbacks constantes e a promoção de uma cultura de diálogo aberto entre líderes e equipes. Esse reconhecimento contínuo se reflete nos prêmios recebidos pela empresa, como um dos melhores lugares para se trabalhar segundo o Great Place to Work (GPTW).</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Foco no cliente</h2>
-            <p>A MaxMilhas tem um foco intenso no cliente, buscando sempre melhorar a experiência de quem usa a plataforma. Esse compromisso com a excelência no atendimento é refletido na relação próxima que a empresa mantém com seus usuários, tanto nas interações diretas quanto no desenvolvimento de produtos e serviços.</p>
+            <p>A Maxmilhas tem um foco intenso no cliente, buscando sempre melhorar a experiência de quem usa a plataforma. Esse compromisso com a excelência no atendimento é refletido na relação próxima que a empresa mantém com seus usuários, tanto nas interações diretas quanto no desenvolvimento de produtos e serviços.</p>
         </div>
     ),
 },
@@ -3679,22 +3679,22 @@ f
     videoUrl: 'https://www.youtube.com/embed/wTTLTSwG3HI',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Valores e missão da MaxMilhas</h1>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria03} alt="Imagem dos valores da MaxMilhas"></img>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Valores e missão da Maxmilhas</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria03} alt="Imagem dos valores da Maxmilhas"></img>
             
-            <p>Na MaxMilhas, quatro verbos-chave guiam a forma como a empresa atua e se posiciona, tanto internamente quanto externamente: amar, aproximar, acelerar e arriscar. Esses verbos expressam os princípios centrais da cultura da empresa e o espírito empreendedor que permeia suas atividades.</p>
+            <p>Na Maxmilhas, quatro verbos-chave guiam a forma como a empresa atua e se posiciona, tanto internamente quanto externamente: amar, aproximar, acelerar e arriscar. Esses verbos expressam os princípios centrais da cultura da empresa e o espírito empreendedor que permeia suas atividades.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Amar</h2>
-            <p>Na MaxMilhas, amar o que se faz é fundamental. Esse valor reflete o compromisso de toda a equipe em oferecer as melhores soluções para os clientes, promovendo um ambiente de trabalho onde a paixão por fazer a diferença está sempre presente.</p>
+            <p>Na Maxmilhas, amar o que se faz é fundamental. Esse valor reflete o compromisso de toda a equipe em oferecer as melhores soluções para os clientes, promovendo um ambiente de trabalho onde a paixão por fazer a diferença está sempre presente.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Aproximar</h2>
-            <p>O propósito de aproximar pessoas por meio das viagens é o coração da MaxMilhas. A empresa conecta clientes e vendedores de milhas, tornando as viagens mais acessíveis, e também se empenha em construir laços sólidos entre seus colaboradores, parceiros e consumidores.</p>
+            <p>O propósito de aproximar pessoas por meio das viagens é o coração da Maxmilhas. A empresa conecta clientes e vendedores de milhas, tornando as viagens mais acessíveis, e também se empenha em construir laços sólidos entre seus colaboradores, parceiros e consumidores.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acelerar</h2>
-            <p>A MaxMilhas valoriza a agilidade e a inovação. Acelerar significa buscar constantemente melhorias e novas soluções para se manter à frente do mercado, garantindo que as pessoas possam realizar seus sonhos de viajar com mais facilidade e rapidez.</p>
+            <p>A Maxmilhas valoriza a agilidade e a inovação. Acelerar significa buscar constantemente melhorias e novas soluções para se manter à frente do mercado, garantindo que as pessoas possam realizar seus sonhos de viajar com mais facilidade e rapidez.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Arriscar</h2>
-            <p>Arriscar faz parte do DNA da MaxMilhas. A empresa encoraja a ousadia e a tomada de decisões corajosas, sempre em busca de novas oportunidades e desafios. Isso envolve testar novas ideias e aprender com os erros, o que é essencial para o crescimento contínuo.</p>
+            <p>Arriscar faz parte do DNA da Maxmilhas. A empresa encoraja a ousadia e a tomada de decisões corajosas, sempre em busca de novas oportunidades e desafios. Isso envolve testar novas ideias e aprender com os erros, o que é essencial para o crescimento contínuo.</p>
 
         
         </div>
@@ -3705,60 +3705,60 @@ f
     videoUrl: 'https://www.youtube.com/embed/aJT8j6HSdFw',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Posicionamento da MaxMilhas no mercado</h1>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria04} alt="Imagem do posicionamento da MaxMilhas no mercado"></img>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Posicionamento da Maxmilhas no mercado</h1>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria04} alt="Imagem do posicionamento da Maxmilhas no mercado"></img>
 
-            <p>A MaxMilhas se destaca no mercado de passagens aéreas por meio de uma proposta inovadora e acessível, que visa democratizar o acesso a viagens. O posicionamento da empresa pode ser resumido em alguns pontos-chave:</p>
+            <p>A Maxmilhas se destaca no mercado de passagens aéreas por meio de uma proposta inovadora e acessível, que visa democratizar o acesso a viagens. O posicionamento da empresa pode ser resumido em alguns pontos-chave:</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Modelo de negócio único</h2>
-            <p>A MaxMilhas opera como uma plataforma que conecta pessoas que desejam vender suas milhas com aquelas que desejam comprar passagens aéreas. Esse modelo permite que a empresa ofereça tarifas mais competitivas em comparação com as praticadas pelas companhias aéreas tradicionais.</p>
+            <p>A Maxmilhas opera como uma plataforma que conecta pessoas que desejam vender suas milhas com aquelas que desejam comprar passagens aéreas. Esse modelo permite que a empresa ofereça tarifas mais competitivas em comparação com as praticadas pelas companhias aéreas tradicionais.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acessibilidade e inclusão</h2>
             <p>A missão da empresa é tornar as viagens mais acessíveis, permitindo que mais pessoas realizem o sonho de viajar. Isso se reflete em preços justos e na oferta de opções que atendem a diferentes perfis de consumidores.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Tecnologia e inovação</h2>
-            <p>A MaxMilhas investe continuamente em tecnologia para aprimorar a experiência do usuário, facilitando a pesquisa e a compra de passagens. A plataforma é projetada para ser intuitiva e eficiente, oferecendo informações claras e relevantes aos clientes.</p>
+            <p>A Maxmilhas investe continuamente em tecnologia para aprimorar a experiência do usuário, facilitando a pesquisa e a compra de passagens. A plataforma é projetada para ser intuitiva e eficiente, oferecendo informações claras e relevantes aos clientes.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Experiência do cliente</h2>
             <p>A empresa se preocupa em proporcionar uma experiência positiva aos seus usuários. O atendimento ao cliente é um dos pilares do negócio, sendo reconhecido pela qualidade e pela personalização. Isso se reflete em prêmios e certificações que atestam a excelência no relacionamento com o consumidor.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Cultura de inovação</h2>
-            <p>A MaxMilhas promove uma cultura organizacional que valoriza a inovação e a criatividade. A empresa está sempre em busca de novas soluções e serviços que possam enriquecer a experiência de viagem, como ofertas exclusivas e parcerias estratégicas.</p>
+            <p>A Maxmilhas promove uma cultura organizacional que valoriza a inovação e a criatividade. A empresa está sempre em busca de novas soluções e serviços que possam enriquecer a experiência de viagem, como ofertas exclusivas e parcerias estratégicas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Reconhecimento no mercado</h2>
-            <p>Com o passar dos anos, a MaxMilhas consolidou sua posição como uma das principais plataformas de venda de passagens aéreas do Brasil. O reconhecimento em premiações e a presença em rankings de destaque refletem sua credibilidade e relevância no setor.</p>
+            <p>Com o passar dos anos, a Maxmilhas consolidou sua posição como uma das principais plataformas de venda de passagens aéreas do Brasil. O reconhecimento em premiações e a presença em rankings de destaque refletem sua credibilidade e relevância no setor.</p>
 
             <p style={{ marginTop:'10px', marginBottom:'30px' }}>Em resumo, a Maxmilhas se posiciona como uma empresa inovadora e acessível no mercado de passagens aéreas, comprometida com a democratização das viagens e a satisfação do cliente.</p>
         </div>
     ),
 },
 'Estrutura hierárquica e equipes': {
-    title: 'Estrutura hierárquica e equipes da MaxMilhas',
+    title: 'Estrutura hierárquica e equipes da Maxmilhas',
     videoUrl: 'https://www.youtube.com/embed/cXZ10wKdJC8',
     description: (
         <div>
-            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estrutura hierárquica e equipes da MaxMilhas</h1>
+            <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estrutura hierárquica e equipes da Maxmilhas</h1>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={require('./assets/Cursos/Historia/cursohistoria05.jpg')} alt="Imagem da estrutura hierárquica"></img>
 
-            <p>A estrutura hierárquica da MaxMilhas é projetada para promover a colaboração, a inovação e a agilidade nas operações. Com uma equipe diversificada e multidisciplinar, a empresa está organizada em diferentes camadas, cada uma com responsabilidades claras e bem definidas. Abaixo estão os principais níveis da estrutura organizacional:</p>
+            <p>A estrutura hierárquica da Maxmilhas é projetada para promover a colaboração, a inovação e a agilidade nas operações. Com uma equipe diversificada e multidisciplinar, a empresa está organizada em diferentes camadas, cada uma com responsabilidades claras e bem definidas. Abaixo estão os principais níveis da estrutura organizacional:</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Alta direção</h2>
-            <p>A alta direção é composta pelos fundadores e executivos seniores, responsáveis pela definição da estratégia global da empresa, pela visão a longo prazo e pela tomada de decisões críticas que afetam o futuro da MaxMilhas. Este grupo lidera a cultura organizacional e garante que os valores e a missão sejam incorporados em todas as operações.</p>
+            <p>A alta direção é composta pelos fundadores e executivos seniores, responsáveis pela definição da estratégia global da empresa, pela visão a longo prazo e pela tomada de decisões críticas que afetam o futuro da Maxmilhas. Este grupo lidera a cultura organizacional e garante que os valores e a missão sejam incorporados em todas as operações.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Gerências</h2>
             <p>As gerências são responsáveis pela supervisão de áreas específicas, como marketing, operações, tecnologia, finanças e atendimento ao cliente. Cada gerente lidera uma equipe e é responsável pela implementação de estratégias que atendam aos objetivos da empresa, garantindo eficiência e eficácia em suas respectivas áreas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipes de operações</h2>
-            <p>As equipes de operações são fundamentais para o funcionamento diário da MaxMilhas. Elas lidam com a emissão de passagens, a gestão de milhas, o relacionamento com companhias aéreas e a resolução de problemas dos clientes. Essas equipes são formadas por profissionais que trabalham em conjunto para garantir que cada transação seja processada com precisão e agilidade.</p>
+            <p>As equipes de operações são fundamentais para o funcionamento diário da Maxmilhas. Elas lidam com a emissão de passagens, a gestão de milhas, o relacionamento com companhias aéreas e a resolução de problemas dos clientes. Essas equipes são formadas por profissionais que trabalham em conjunto para garantir que cada transação seja processada com precisão e agilidade.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de atendimento ao cliente</h2>
-            <p>A equipe de atendimento ao cliente é o ponto de contato entre a empresa e os clientes. Com uma abordagem centrada no cliente, essa equipe se dedica a resolver dúvidas, fornecer suporte e garantir que cada cliente tenha uma experiência positiva ao interagir com a MaxMilhas. Eles são treinados para lidar com uma variedade de situações e garantir a satisfação do cliente.</p>
+            <p>A equipe de atendimento ao cliente é o ponto de contato entre a empresa e os clientes. Com uma abordagem centrada no cliente, essa equipe se dedica a resolver dúvidas, fornecer suporte e garantir que cada cliente tenha uma experiência positiva ao interagir com a Maxmilhas. Eles são treinados para lidar com uma variedade de situações e garantir a satisfação do cliente.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de marketing</h2>
-            <p>A equipe de marketing é responsável por promover a marca MaxMilhas e suas ofertas. Eles desenvolvem campanhas publicitárias, gerenciam as redes sociais e trabalham na criação de conteúdos que informem e atraiam potenciais clientes. O objetivo é aumentar a visibilidade da empresa e expandir sua base de clientes.</p>
+            <p>A equipe de marketing é responsável por promover a marca Maxmilhas e suas ofertas. Eles desenvolvem campanhas publicitárias, gerenciam as redes sociais e trabalham na criação de conteúdos que informem e atraiam potenciais clientes. O objetivo é aumentar a visibilidade da empresa e expandir sua base de clientes.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Equipe de tecnologia</h2>
-            <p>A equipe de tecnologia é encarregada de desenvolver e manter a plataforma da MaxMilhas. Eles garantem que o sistema funcione de maneira eficiente e segura, implementando novas funcionalidades e atualizações para melhorar a experiência do usuário.</p>
+            <p>A equipe de tecnologia é encarregada de desenvolver e manter a plataforma da Maxmilhas. Eles garantem que o sistema funcione de maneira eficiente e segura, implementando novas funcionalidades e atualizações para melhorar a experiência do usuário.</p>
         </div>
     ),
 },
@@ -3800,9 +3800,9 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Estratégia de marca</h2>
             <p>A estratégia de marca da Maxmilhas é guiada por um conceito chamado Cérebro de Branding, que organiza as diretrizes da empresa em duas vertentes:</p>
 
-            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Cérebro de branding da MaxMilhas</h3>
+            <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Cérebro de branding da Maxmilhas</h3>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria07} alt="Imagem do cérebro de branding"></img>
-            <p>O conceito de "Cérebro de Branding" é uma ferramenta que centraliza toda a estratégia da marca MaxMilhas, abrangendo tanto a personalidade quanto os objetivos do nosso negócio. Dividimos o cérebro em dois lados: o racional (esquerdo), que se relaciona com o negócio, e o emocional (direito), que representa a nossa marca. O sucesso do branding está no equilíbrio entre esses dois lados.</p>
+            <p>O conceito de "Cérebro de Branding" é uma ferramenta que centraliza toda a estratégia da marca Maxmilhas, abrangendo tanto a personalidade quanto os objetivos do nosso negócio. Dividimos o cérebro em dois lados: o racional (esquerdo), que se relaciona com o negócio, e o emocional (direito), que representa a nossa marca. O sucesso do branding está no equilíbrio entre esses dois lados.</p>
 
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Cérebro de branding</h3>
             <h4 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1. Visão do negócio</h4>
@@ -3828,7 +3828,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Personalidade da marca</h2>
-            <p>A personalidade da MaxMilhas reflete quem somos e como nos expressamos no mercado. Nossos traços de personalidade incluem:</p>
+            <p>A personalidade da Maxmilhas reflete quem somos e como nos expressamos no mercado. Nossos traços de personalidade incluem:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Sabe a manha: Expertise em oferecer soluções inteligentes.</li>
                 <li>Inconformada: Sempre buscando inovação e melhorias.</li>
@@ -3854,13 +3854,13 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Manifesto da marca</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria12} alt="Imagem do manifesto da marca"></img>
-            <p>O manifesto da MaxMilhas expressa a missão da empresa de fazer com que as pessoas viajem mais, conectando-se não apenas com destinos, mas consigo mesmas e com o mundo ao seu redor. Viajar é viver ao máximo, e a MaxMilhas busca proporcionar essas experiências ao tornar a organização de viagens mais acessível e prazerosa.</p>
+            <p>O manifesto da Maxmilhas expressa a missão da empresa de fazer com que as pessoas viajem mais, conectando-se não apenas com destinos, mas consigo mesmas e com o mundo ao seu redor. Viajar é viver ao máximo, e a Maxmilhas busca proporcionar essas experiências ao tornar a organização de viagens mais acessível e prazerosa.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Brand persona</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria13} alt="Imagem da brand persona"></img>
-            <p>A Brand Persona da MaxMilhas é como uma pessoa especialista em viagens, que sabe as melhores dicas e truques para encontrar passagens e roteiros de forma inteligente. É alguém que ajuda no planejamento das viagens e compartilha conhecimento, sempre buscando proporcionar as melhores experiências para quem deseja viajar.</p>
+            <p>A Brand Persona da Maxmilhas é como uma pessoa especialista em viagens, que sabe as melhores dicas e truques para encontrar passagens e roteiros de forma inteligente. É alguém que ajuda no planejamento das viagens e compartilha conhecimento, sempre buscando proporcionar as melhores experiências para quem deseja viajar.</p>
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Evolução do território semântico</h2>
-<p>Nossa comunicação reflete a evolução da MaxMilhas ao longo dos anos. Abaixo, destacamos algumas ideias-chave que permeiam a nossa identidade verbal:</p>
+<p>Nossa comunicação reflete a evolução da Maxmilhas ao longo dos anos. Abaixo, destacamos algumas ideias-chave que permeiam a nossa identidade verbal:</p>
 <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
     <li>Viajar mais ↔ Viajar ao máximo: A comunicação vai além de vender passagens baratas. Ela envolve a ideia de utilizar ferramentas inteligentes para encontrar as melhores ofertas, economizar tempo e dinheiro, e desfrutar de uma experiência intuitiva e prática.</li>
 </ul>
@@ -3908,7 +3908,7 @@ f
 <p><em>Exemplo:</em> "Pra gente, viajar é um estilo de vida. E a gente tá sempre por dentro das melhores dicas e novidades pra compartilhar com você."</p>
 
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Recomendações de linguagem</h2>
-<p>Na MaxMilhas, alguns elementos são essenciais para mantermos nossa identidade verbal clara e consistente:</p>
+<p>Na Maxmilhas, alguns elementos são essenciais para mantermos nossa identidade verbal clara e consistente:</p>
 <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
     <li><strong>Uso de diminutivos e expressões populares:</strong> A informalidade é bem-vinda, mas sem exageros. A linguagem é acessível e próxima.</li>
     <li><strong>Voz ativa:</strong> Nossa comunicação é proativa, incentivadora, e usamos verbos no presente, sempre orientando a ação.</li>
@@ -3921,12 +3921,12 @@ f
 </ul>
 
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Flexões verbais e pronomes</h2>
-<p>Somos a MaxMilhas, no feminino e no plural. Sempre nos referimos à marca no feminino em comunicações institucionais, reforçando a união do time e o esforço coletivo para proporcionar a melhor experiência aos nossos clientes.</p>
+<p>Somos a Maxmilhas, no feminino e no plural. Sempre nos referimos à marca no feminino em comunicações institucionais, reforçando a união do time e o esforço coletivo para proporcionar a melhor experiência aos nossos clientes.</p>
 <p><strong>Modo Imperativo:</strong> Usamos para convidar e orientar nossos clientes, por exemplo: "Conheça", "Veja", "Clique".</p>
 <p><strong>Modo Subjuntivo:</strong> Para deixar sugestões abertas, como: "Imagina se você pudesse viajar para...".</p>
 
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Uso de emojis</h2>
-<p>A MaxMilhas utiliza emojis de forma estratégica, sempre respeitando as melhores práticas de acessibilidade:</p>
+<p>A Maxmilhas utiliza emojis de forma estratégica, sempre respeitando as melhores práticas de acessibilidade:</p>
 <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '10px', marginBottom: '30px' }}>
     <li>Não substituir palavras por emojis.</li>
     <li>Utilizar no final das frases, nunca no meio.</li>
@@ -3941,13 +3941,13 @@ f
     <li>💚🌴🛶✳️ — Para reforçar nossa ligação com a natureza e o verde da nossa marca.</li>
 </ul>
 
-<h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Identidade visual da MaxMilhas</h1>
-<p>A identidade visual da MaxMilhas é composta por um conjunto de elementos gráficos que expressam como nos comunicamos e como a nossa marca é percebida. Esses elementos incluem o logo, cores, tipografia, grafismos, ilustrações, fotografias e selos. A identidade visual é essencial para garantir a consistência e a eficácia da nossa comunicação.</p>
+<h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Identidade visual da Maxmilhas</h1>
+<p>A identidade visual da Maxmilhas é composta por um conjunto de elementos gráficos que expressam como nos comunicamos e como a nossa marca é percebida. Esses elementos incluem o logo, cores, tipografia, grafismos, ilustrações, fotografias e selos. A identidade visual é essencial para garantir a consistência e a eficácia da nossa comunicação.</p>
 
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Logo</h2>
 
 <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.1. Versão principal</h3>
-<p>O logo é a representação mais expressiva da MaxMilhas e reflete nosso movimento vibrante.</p>
+<p>O logo é a representação mais expressiva da Maxmilhas e reflete nosso movimento vibrante.</p>
 <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria15} alt="Imagem da versão principal do logo"></img>
 
 <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>1.2. Adequação cromática</h3>
@@ -4013,7 +4013,7 @@ f
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Grafismos</h2>
 
 <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>4.1. Estilo gráfico</h3>
-<p>Os grafismos da MaxMilhas são inspirados nas telas e janelas que encontramos ao viajar, representando dinamismo e movimento.</p>
+<p>Os grafismos da Maxmilhas são inspirados nas telas e janelas que encontramos ao viajar, representando dinamismo e movimento.</p>
 
 <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Ilustrações</h2>
 
@@ -4038,8 +4038,8 @@ f
 <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria25}alt="Imagem de fotografia de viajantes"></img>
 <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria26}alt="Imagem adicional de fotografia de viajantes"></img>
 
-<p>A identidade visual da MaxMilhas é um conjunto coeso de elementos que expressam a essência da nossa marca. Ao manter a consistência na aplicação de todos esses componentes, garantimos que nossa comunicação seja clara, moderna e atraente para nossos clientes.</p>
-<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria27}alt="Imagem da identidade visual da MaxMilhas"></img>
+<p>A identidade visual da Maxmilhas é um conjunto coeso de elementos que expressam a essência da nossa marca. Ao manter a consistência na aplicação de todos esses componentes, garantimos que nossa comunicação seja clara, moderna e atraente para nossos clientes.</p>
+<img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria27}alt="Imagem da identidade visual da Maxmilhas"></img>
 
            
         </div>
@@ -5030,9 +5030,7 @@ f
                 <li>Treinar os analistas para que realizem essa verificação rigorosamente, ajudando a minimizar os erros e melhorar a eficiência do processo de emissão.</li>
             </ul>
 
-            <p>A emissão duplicada não é apenas um erro administrativo, mas um problema que pode ter consequências financeiras significativas. Implementar práticas de verificação mais robustas e treinar a equipe para seguir essas diretrizes ajudará a reduzir a incidência desse problema, melhorando a operação da empresa e a satisfação do cliente.</p>
-
-            <p>A identificação e análise desses tipos comuns de prejuízos são essenciais para a saúde financeira da empresa. Implementar medidas preventivas e treinamento adequado para os colaboradores pode ajudar a minimizar esses problemas e melhorar a experiência do cliente.</p>
+            <p>A emissão duplicada não é apenas um erro administrativo, mas um problema que pode ter consequências financeiras significativas. Implementar práticas de verificação mais robustas e treinar a equipe para seguir essas diretrizes ajudará a reduzir a incidência desse problema, melhorando a operação da empresa e a satisfação do cliente. A identificação e análise desses tipos comuns de prejuízos são essenciais para a saúde financeira da empresa. Implementar medidas preventivas e treinamento adequado para os colaboradores pode ajudar a minimizar esses problemas e melhorar a experiência do cliente.</p>
         </div>
     ),
 },
@@ -5940,7 +5938,7 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ferramentas de captura de tela</h1>
-            <p>As ferramentas de captura de tela são amplamente utilizadas no ambiente de trabalho para registrar informações visuais que facilitam a comunicação e a documentação de processos. No contexto da MaxMilhas, essas ferramentas são essenciais, especialmente para capturar e-tickets e outras informações relacionadas ao sistema, como detalhes de transações, comprovantes de emissão e mensagens de erro.</p>
+            <p>As ferramentas de captura de tela são amplamente utilizadas no ambiente de trabalho para registrar informações visuais que facilitam a comunicação e a documentação de processos. No contexto da Maxmilhas, essas ferramentas são essenciais, especialmente para capturar e-tickets e outras informações relacionadas ao sistema, como detalhes de transações, comprovantes de emissão e mensagens de erro.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Principais ferramentas de captura de tela utilizadas</h2>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
@@ -6118,7 +6116,7 @@ f
             <p><strong>Política de e-mails:</strong> Evite enviar informações confidenciais por e-mail sem criptografia, e siga as políticas da empresa para o envio e recebimento de dados sensíveis. Desconfie de solicitações urgentes ou inusitadas que exigem o envio de informações pessoais ou senhas por e-mail.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Conformidade e legislação</h2>
-            <p><strong>LGPD (Lei Geral de Proteção de Dados Pessoais):</strong> A LGPD regulamenta como as empresas devem coletar, armazenar e tratar dados pessoais no Brasil. É essencial que todas as práticas de segurança da informação estejam alinhadas com os requisitos dessa lei. Garantir o cumprimento da LGPD na MaxMilhas envolve proteção adequada dos dados de clientes e colaboradores, tanto em sistemas internos quanto externos.</p>
+            <p><strong>LGPD (Lei Geral de Proteção de Dados Pessoais):</strong> A LGPD regulamenta como as empresas devem coletar, armazenar e tratar dados pessoais no Brasil. É essencial que todas as práticas de segurança da informação estejam alinhadas com os requisitos dessa lei. Garantir o cumprimento da LGPD na Maxmilhas envolve proteção adequada dos dados de clientes e colaboradores, tanto em sistemas internos quanto externos.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Ferramentas de segurança utilizadas na Maxmilhas</h2>
             <p><strong>Slack:</strong> Comunicação interna segura, com a possibilidade de configurar níveis de permissões para cada canal.</p>
@@ -6219,7 +6217,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Usos dos simuladores Android na Maxmilhas</h2>
-            <p>Na MaxMilhas, os simuladores Android são usados para:</p>
+            <p>Na Maxmilhas, os simuladores Android são usados para:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Testar navegação em sites de companhias aéreas: Permitem simular o acesso via dispositivo móvel e realizar emissões de passagens.</li>
                 <li>Testar aplicativos internos que precisam ser usados em um ambiente Android.</li>
