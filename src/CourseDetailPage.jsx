@@ -456,9 +456,9 @@ const lessonsData = {
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Bem-vindo ao Curso - História da Empresa e Cultura</h1>
-            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado à rica história da MaxMilhas. Ao longo deste treinamento, você terá a oportunidade de explorar a fundação da empresa, os principais marcos e conquistas, além de entender a cultura organizacional, os valores e a missão que nos guiam.</p>
+            <p>Estamos muito felizes em tê-lo conosco neste curso dedicado à rica história da Maxmilhas. Ao longo deste treinamento, você terá a oportunidade de explorar a fundação da empresa, os principais marcos e conquistas, além de entender a cultura organizacional, os valores e a missão que nos guiam.</p>
 
-            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Compreender a trajetória da MaxMilhas é essencial para fortalecer seu conhecimento sobre a empresa e alinhá-lo com nossos princípios e objetivos. Neste curso, abordaremos a evolução da MaxMilhas ao longo dos anos e como a nossa cultura influencia o dia a dia de trabalho.</p>
+            <p style={{ marginTop: '30px', marginBottom: '30px' }}>Compreender a trajetória da Maxmilhas é essencial para fortalecer seu conhecimento sobre a empresa e alinhá-lo com nossos princípios e objetivos. Neste curso, abordaremos a evolução da MaxMilhas ao longo dos anos e como a nossa cultura influencia o dia a dia de trabalho.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O que esperar do curso</h2>
             <p>Neste curso, exploraremos os seguintes tópicos:</p>
@@ -3602,20 +3602,20 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>História da fundação</h1>
-            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria00} alt="Imagem da história da fundação da MaxMilhas"></img>
+            <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria00} alt="Imagem da história da fundação da Maxmilhas"></img>
 
             <p>A MaxMilhas foi fundada em 2013, com o objetivo de resolver um problema comum no mercado de passagens aéreas: a alta variação de preços. O diferencial da empresa é que ela permite que pessoas que acumulam milhas em programas de fidelidade possam vendê-las, enquanto outras pessoas podem comprar passagens aéreas com desconto, utilizando essas milhas.</p>
             <p style={{ marginTop:'10px', marginBottom:'30px' }}>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a MaxMilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O crescimento exponencial</h2>
             <p>Em pouco tempo, a MaxMilhas se destacou no mercado, ganhando popularidade por oferecer uma plataforma intuitiva e eficiente. A empresa cresceu rapidamente, passando de uma pequena equipe para centenas de colaboradores. Em menos de sete anos, já havia facilitado a emissão de milhões de passagens aéreas.</p>
-            <p style={{ marginTop:'10px', marginBottom:'30px' }}> Com seu crescimento, a MaxMilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}> Com seu crescimento, a Maxmilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Inovação e impacto no mercado</h2>
             <p>A inovação foi sempre um dos pilares da MaxMilhas. Desde o início, a empresa buscou maneiras de facilitar a vida de seus usuários, permitindo que eles viajem mais gastando menos. Essa abordagem fez com que a MaxMilhas fosse reconhecida por diversas premiações no setor de startups e inovação.</p>
-            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Ao longo dos anos, a MaxMilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Ao longo dos anos, a Maxmilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
 
-            <p style={{ marginTop:'10px', marginBottom:'30px' }}>A história da MaxMilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
+            <p>A história da Maxmilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
         </div>
     ),
 },
