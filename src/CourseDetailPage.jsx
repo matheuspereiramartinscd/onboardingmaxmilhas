@@ -3395,8 +3395,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Revisão e confirmação</h2>
-            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros.</p>
-            <p>A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
+            <p>Após preencher todos os campos, revise as informações inseridas para garantir que não haja erros. A precisão dos dados é importante para evitar problemas durante o embarque e garantir que a emissão da passagem ocorra sem contratempos.</p>
         </div>
     ),
 },
@@ -3606,17 +3605,17 @@ f
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria00} alt="Imagem da história da fundação da MaxMilhas"></img>
 
             <p>A MaxMilhas foi fundada em 2013, com o objetivo de resolver um problema comum no mercado de passagens aéreas: a alta variação de preços. O diferencial da empresa é que ela permite que pessoas que acumulam milhas em programas de fidelidade possam vendê-las, enquanto outras pessoas podem comprar passagens aéreas com desconto, utilizando essas milhas.</p>
-            <p>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a MaxMilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>A ideia surgiu a partir de uma observação sobre como as milhas aéreas, muitas vezes, são subutilizadas pelos usuários, enquanto outras pessoas poderiam se beneficiar de passagens mais acessíveis. Esse modelo de negócio é único, e a MaxMilhas revolucionou o setor ao conectar quem deseja vender suas milhas com quem procura comprar passagens mais baratas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>O crescimento exponencial</h2>
             <p>Em pouco tempo, a MaxMilhas se destacou no mercado, ganhando popularidade por oferecer uma plataforma intuitiva e eficiente. A empresa cresceu rapidamente, passando de uma pequena equipe para centenas de colaboradores. Em menos de sete anos, já havia facilitado a emissão de milhões de passagens aéreas.</p>
-            <p>Com seu crescimento, a MaxMilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}> Com seu crescimento, a MaxMilhas também expandiu seu leque de serviços, passando a oferecer não só a emissão de passagens com milhas, mas também a comparação de preços com companhias aéreas tradicionais, permitindo que o cliente faça a melhor escolha em suas viagens.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Inovação e impacto no mercado</h2>
             <p>A inovação foi sempre um dos pilares da MaxMilhas. Desde o início, a empresa buscou maneiras de facilitar a vida de seus usuários, permitindo que eles viajem mais gastando menos. Essa abordagem fez com que a MaxMilhas fosse reconhecida por diversas premiações no setor de startups e inovação.</p>
-            <p>Ao longo dos anos, a MaxMilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Ao longo dos anos, a MaxMilhas também tem sido uma empresa com uma forte cultura de impacto social, buscando proporcionar experiências não apenas aos seus clientes, mas também aos seus colaboradores, promovendo um ambiente de trabalho saudável e inovador.</p>
 
-            <p>A história da MaxMilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>A história da MaxMilhas é marcada por uma combinação de inovação, identificação de uma necessidade de mercado e a criação de uma solução que beneficia milhares de pessoas. A empresa continua em crescimento, buscando novas maneiras de melhorar a experiência de compra de passagens aéreas e manter sua posição de destaque no mercado latino-americano.</p>
         </div>
     ),
 },
@@ -3668,7 +3667,7 @@ f
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Valorização do colaborador</h2>
             <p>A empresa acredita que as pessoas são seu maior ativo. A MaxMilhas investe fortemente em proporcionar um ambiente de trabalho saudável e colaborativo, onde os funcionários têm espaço para crescer e se desenvolver. A empresa oferece benefícios como milhas para que os colaboradores possam viajar e viver as experiências que ajudam a construir para os clientes.</p>
-            <p>Além disso, programas de reconhecimento interno são comuns, com feedbacks constantes e a promoção de uma cultura de diálogo aberto entre líderes e equipes. Esse reconhecimento contínuo se reflete nos prêmios recebidos pela empresa, como um dos melhores lugares para se trabalhar segundo o Great Place to Work (GPTW).</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Além disso, programas de reconhecimento interno são comuns, com feedbacks constantes e a promoção de uma cultura de diálogo aberto entre líderes e equipes. Esse reconhecimento contínuo se reflete nos prêmios recebidos pela empresa, como um dos melhores lugares para se trabalhar segundo o Great Place to Work (GPTW).</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Foco no cliente</h2>
             <p>A MaxMilhas tem um foco intenso no cliente, buscando sempre melhorar a experiência de quem usa a plataforma. Esse compromisso com a excelência no atendimento é refletido na relação próxima que a empresa mantém com seus usuários, tanto nas interações diretas quanto no desenvolvimento de produtos e serviços.</p>
@@ -3697,7 +3696,7 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Arriscar</h2>
             <p>Arriscar faz parte do DNA da MaxMilhas. A empresa encoraja a ousadia e a tomada de decisões corajosas, sempre em busca de novas oportunidades e desafios. Isso envolve testar novas ideias e aprender com os erros, o que é essencial para o crescimento contínuo.</p>
 
-            <p>Esses quatro verbos refletem a essência da MaxMilhas, guiando suas ações e reforçando sua missão de transformar o mercado de passagens aéreas.</p>
+        
         </div>
     ),
 },
@@ -3729,7 +3728,7 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Reconhecimento no mercado</h2>
             <p>Com o passar dos anos, a MaxMilhas consolidou sua posição como uma das principais plataformas de venda de passagens aéreas do Brasil. O reconhecimento em premiações e a presença em rankings de destaque refletem sua credibilidade e relevância no setor.</p>
 
-            <p>Em resumo, a MaxMilhas se posiciona como uma empresa inovadora e acessível no mercado de passagens aéreas, comprometida com a democratização das viagens e a satisfação do cliente.</p>
+            <p style={{ marginTop:'10px', marginBottom:'30px' }}>Em resumo, a Maxmilhas se posiciona como uma empresa inovadora e acessível no mercado de passagens aéreas, comprometida com a democratização das viagens e a satisfação do cliente.</p>
         </div>
     ),
 },
@@ -3852,8 +3851,6 @@ f
             <h3 style={{ marginTop: '30px', marginBottom: '30px' }}>Viajante a trabalho</h3>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria11} alt="Imagem do viajante a trabalho"></img>
             <p>Prioriza praticidade e conveniência na compra de passagens e organização de viagens.</p>
-
-            <p>A marca se diferencia por ser uma plataforma inteligente que oferece a melhor experiência de compra de viagens, com uma navegação intuitiva, preços competitivos e serviços complementares, como dicas e comparações de preços.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Manifesto da marca</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursohistoria12} alt="Imagem do manifesto da marca"></img>
@@ -5037,12 +5034,12 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>O que é o Metabase?</h1>
-            <p>O Metabase é uma ferramenta de Business Intelligence (BI) que permite a visualização e análise de dados de forma intuitiva. Na MaxMilhas, essa ferramenta é utilizada para monitorar e gerar relatórios sobre as emissões realizadas, ajudando a equipe a tomar decisões informadas.</p>
+            <p>O Metabase é uma ferramenta de Business Intelligence (BI) que permite a visualização e análise de dados de forma intuitiva. Na Maxmilhas, essa ferramenta é utilizada para monitorar e gerar relatórios sobre as emissões realizadas, ajudando a equipe a tomar decisões informadas.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Acesso ao Metabase</h2>
             <p>Para acessar o Metabase, siga os passos abaixo:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop:'30px', marginBottom:'30px' }}>
-                <li>Digite o endereço do Metabase da MaxMilhas no navegador: https://bi.maxmilhas.com.br/ .</li>
+                <li>Digite o endereço do Metabase da Maxmilhas no navegador: https://bi.maxmilhas.com.br/ .</li>
                 <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas08} alt="Imagem de acesso ao Metabase"></img>
                 <li>Faça login com seu e-mail corporativo (@maxmilhas.com.br).</li>
             </ul>
@@ -5148,7 +5145,7 @@ f
             <p>A interface é intuitiva, permitindo que os usuários acessem rapidamente as funcionalidades de feedback, metas e avaliações.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Conclusão</h2>
-            <p>O Qulture.Rocks é uma ferramenta essencial para promover uma cultura de alto desempenho e engajamento dentro da MaxMilhas. Ao implementar essa plataforma, a empresa se compromete a fortalecer a comunicação interna, o desenvolvimento contínuo e o alinhamento de objetivos, resultando em uma equipe mais motivada e produtiva.</p>
+            <p>O Qulture.Rocks é uma ferramenta essencial para promover uma cultura de alto desempenho e engajamento dentro da Maxmilhas. Ao implementar essa plataforma, a empresa se compromete a fortalecer a comunicação interna, o desenvolvimento contínuo e o alinhamento de objetivos, resultando em uma equipe mais motivada e produtiva.</p>
         </div>
     ),
 },
@@ -5174,7 +5171,7 @@ f
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoferramentas14} alt="Imagem do acesso ao iFractal ponto online"></img>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Navegação</h2>
-            <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências. O iFractal Ponto Online é uma ferramenta importante para a gestão eficaz do ponto na MaxMilhas. Ao utilizar essa plataforma, a empresa consegue otimizar o controle de jornada de trabalho, garantindo maior eficiência nas operações e melhor acompanhamento da frequência dos colaboradores.</p>
+            <p>A interface é intuitiva, com menus que facilitam o acesso às funcionalidades de registro de ponto, relatórios e gestão de ausências. O iFractal Ponto Online é uma ferramenta importante para a gestão eficaz do ponto na Maxmilhas. Ao utilizar essa plataforma, a empresa consegue otimizar o controle de jornada de trabalho, garantindo maior eficiência nas operações e melhor acompanhamento da frequência dos colaboradores.</p>
         </div>
     ),
 },
@@ -5341,7 +5338,7 @@ f
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Funcionalidades básicas:</h2>
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Barra de Endereços (URL):</h3>
-            <p>A barra onde se insere o endereço do site que você deseja acessar. Exemplo: Para acessar o site da MaxMilhas, digite<a
+            <p>A barra onde se insere o endereço do site que você deseja acessar. Exemplo: Para acessar o site da Maxmilhas, digite<a
       href="www.maxmilhas.com.br"
       className={styles.customlink}
       target="_blank" // Abre o link em uma nova aba
@@ -5388,12 +5385,12 @@ f
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Exercício prático:</h2>
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Abrir e navegar em um site:</h3>
-            <p>Acesse o site da MaxMilhas (www.maxmilhas.com.br), navegue pelas diferentes seções e adicione o site aos seus favoritos.</p>
+            <p>Acesse o site da Maxmilhas (www.maxmilhas.com.br), navegue pelas diferentes seções e adicione o site aos seus favoritos.</p>
             
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>Limpeza de cookies e cache:</h3>
             <p>Limpe os cookies e o cache do seu navegador, seguindo as orientações acima.</p>
 
-            <p>O uso adequado de navegadores é essencial para a eficiência no trabalho, principalmente em ambientes corporativos como o da MaxMilhas, onde várias ferramentas são acessadas pela web. Lembrando que, ao seguir boas práticas de segurança, você também protege seus dados e informações da empresa.</p>
+            <p>O uso adequado de navegadores é essencial para a eficiência no trabalho, principalmente em ambientes corporativos como o da Maxmilhas, onde várias ferramentas são acessadas pela web. Lembrando que, ao seguir boas práticas de segurança, você também protege seus dados e informações da empresa.</p>
         </div>
     ),
 },
@@ -5666,8 +5663,8 @@ f
             <p><strong>Autenticação em dois fatores:</strong> Muitas empresas exigem que, além de uma senha, você utilize um segundo fator de autenticação, como um código enviado ao celular, para acessar a VPN.</p>
             <p><strong>Firewall e antivírus:</strong> Mesmo usando uma VPN, é importante manter um firewall ativo e um antivírus atualizado, pois a VPN protege a conexão, mas não elimina riscos de malwares locais.</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Na MaxMilhas</h2>
-            <p>Na MaxMilhas, as VPNs Bifrost e AVG Secure VPN desempenham um papel importante para garantir a continuidade das emissões de passagens, especialmente em sites de companhias aéreas como Latam, Gol e Azul. Essas ferramentas são utilizadas para superar bloqueios e evitar problemas durante o processo de emissão, como erros de pagamento ou de busca de voo.</p>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>Na Maxmilhas</h2>
+            <p>Na Maxmilhas, as VPNs Bifrost e AVG Secure VPN desempenham um papel importante para garantir a continuidade das emissões de passagens, especialmente em sites de companhias aéreas como Latam, Gol e Azul. Essas ferramentas são utilizadas para superar bloqueios e evitar problemas durante o processo de emissão, como erros de pagamento ou de busca de voo.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>AVG Secure VPN</h2>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica05} alt="Imagem da AVG Secure VPN"></img>
@@ -5696,7 +5693,7 @@ f
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Ferramentas de escritório</h1>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica06} alt="Imagem de ferramentas de escritório"></img>
             
-            <p>No ambiente corporativo da MaxMilhas, várias ferramentas de escritório são utilizadas diariamente para otimizar a produtividade, colaboração e comunicação. Entre as mais comuns, destacam-se ferramentas da Google e outros utilitários que facilitam o trabalho. Nesta aula, exploraremos as principais funcionalidades e como elas são utilizadas.</p>
+            <p>No ambiente corporativo da Maxmilhas, várias ferramentas de escritório são utilizadas diariamente para otimizar a produtividade, colaboração e comunicação. Entre as mais comuns, destacam-se ferramentas da Google e outros utilitários que facilitam o trabalho. Nesta aula, exploraremos as principais funcionalidades e como elas são utilizadas.</p>
             
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Google Docs</h2>
             <p>Ferramenta de edição de texto online, utilizada para criar e compartilhar documentos de forma colaborativa.</p>
@@ -5761,7 +5758,7 @@ f
                 <li>Armazenamento em nuvem: Carregue e compartilhe a captura rapidamente por meio de links.</li>
             </ul>
 
-            <p>Essas ferramentas são essenciais para o bom funcionamento das operações na MaxMilhas. Elas permitem uma comunicação eficaz, colaboração em tempo real e maior organização das tarefas diárias. Familiarizar-se com cada uma delas ajuda a otimizar o trabalho e a garantir que todos estejam alinhados com os processos internos.</p>
+            <p>Essas ferramentas são essenciais para o bom funcionamento das operações na Maxmilhas. Elas permitem uma comunicação eficaz, colaboração em tempo real e maior organização das tarefas diárias. Familiarizar-se com cada uma delas ajuda a otimizar o trabalho e a garantir que todos estejam alinhados com os processos internos.</p>
         </div>
     ),
 },
@@ -5916,7 +5913,7 @@ f
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Segurança da informação</h1>
-            <p>A segurança da informação refere-se ao conjunto de práticas e medidas adotadas para proteger dados e informações contra acessos não autorizados, alterações, destruições e roubos. No ambiente corporativo, como na MaxMilhas, garantir a integridade, confidencialidade e disponibilidade das informações é importante para proteger a empresa, seus clientes e seus colaboradores.</p>
+            <p>A segurança da informação refere-se ao conjunto de práticas e medidas adotadas para proteger dados e informações contra acessos não autorizados, alterações, destruições e roubos. No ambiente corporativo, como na Maxmilhas, garantir a integridade, confidencialidade e disponibilidade das informações é importante para proteger a empresa, seus clientes e seus colaboradores.</p>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica09} alt="Imagem sobre segurança da informação" />
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. Princípios da segurança da informação</h2>
@@ -5934,7 +5931,7 @@ f
             
             <p><strong>Navegação segura:</strong> Sempre verifique se o site acessado é seguro, observando o ícone de cadeado e o prefixo HTTPS. Evite acessar sites suspeitos ou clicar em links desconhecidos, especialmente em e-mails e mensagens de remetentes desconhecidos. Cuidado com downloads de fontes não confiáveis, que podem conter malware ou vírus.</p>
             
-            <p><strong>Uso de VPNs:</strong> Em ambientes corporativos, utilize VPNs (Virtual Private Networks) para acessar redes e sistemas internos de forma segura, especialmente ao trabalhar remotamente. Na MaxMilhas, o uso de VPNs como a Bifrost e AVG Secure VPN é comum para contornar bloqueios de sites de companhias aéreas e garantir a segurança da conexão.</p>
+            <p><strong>Uso de VPNs:</strong> Em ambientes corporativos, utilize VPNs (Virtual Private Networks) para acessar redes e sistemas internos de forma segura, especialmente ao trabalhar remotamente. Na Maxmilhas, o uso de VPNs como a Bifrost e AVG Secure VPN é comum para contornar bloqueios de sites de companhias aéreas e garantir a segurança da conexão.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>3. Identificando ameaças comuns</h2>
             <p><strong>Phishing:</strong> Ataques de phishing são tentativas de enganar o usuário para que forneça dados pessoais, senhas ou informações sensíveis. Geralmente ocorrem por meio de e-mails falsos, mensagens de texto ou sites fraudulentos que se passam por instituições legítimas. Para evitar phishing, nunca clique em links ou forneça informações confidenciais sem verificar a autenticidade do remetente.</p>
@@ -5951,13 +5948,13 @@ f
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>5. Conformidade e legislação</h2>
             <p><strong>LGPD (Lei Geral de Proteção de Dados Pessoais):</strong> A LGPD regulamenta como as empresas devem coletar, armazenar e tratar dados pessoais no Brasil. É essencial que todas as práticas de segurança da informação estejam alinhadas com os requisitos dessa lei. Garantir o cumprimento da LGPD na MaxMilhas envolve proteção adequada dos dados de clientes e colaboradores, tanto em sistemas internos quanto externos.</p>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Ferramentas de segurança utilizadas na MaxMilhas</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>6. Ferramentas de segurança utilizadas na Maxmilhas</h2>
             <p><strong>Slack:</strong> Comunicação interna segura, com a possibilidade de configurar níveis de permissões para cada canal.</p>
             <p><strong>Metabase:</strong> Ferramenta para análise de dados, onde o controle de acesso garante que informações sensíveis estejam protegidas.</p>
             <p><strong>VPNs (Bifrost e AVG Secure VPN):</strong> Para garantir segurança nas conexões ao acessar redes externas.</p>
             <p><strong>Zendesk:</strong> Suporte ao cliente que protege os dados dos usuários de forma segura e eficiente.</p>
 
-            <p>A segurança da informação é um dos pilares mais importantes para o funcionamento eficiente e seguro de uma empresa. Seguindo as melhores práticas de proteção de dados e conscientizando todos os colaboradores sobre os riscos e procedimentos adequados, a MaxMilhas pode garantir a integridade, a confidencialidade e a disponibilidade das suas informações.</p>
+            <p>A segurança da informação é um dos pilares mais importantes para o funcionamento eficiente e seguro de uma empresa. Seguindo as melhores práticas de proteção de dados e conscientizando todos os colaboradores sobre os riscos e procedimentos adequados, a Maxmilhas pode garantir a integridade, a confidencialidade e a disponibilidade das suas informações.</p>
 
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Manutenção do sistema e uso do CCleaner</h1>
             <p>Manter o sistema limpo e otimizado é essencial para garantir o bom desempenho do computador, especialmente em ambientes corporativos, onde a eficiência e a rapidez são fundamentais. Ferramentas como o CCleaner ajudam a remover arquivos temporários, corrigir erros no registro e melhorar o desempenho geral da máquina.</p>
@@ -6016,11 +6013,11 @@ f
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Simuladores Android</h1>
             <img style={{ marginTop: '10px', marginBottom: '30px' }} className={styles.image} src={cursoinformatica10} alt="Imagem de simuladores Android"></img>
-            <p>Simuladores Android são ferramentas que emulam o ambiente de um dispositivo Android em um computador, permitindo o teste de aplicativos, navegação em sites e simulação de interações, sem a necessidade de um smartphone físico. Na MaxMilhas, os simuladores são amplamente utilizados para auxiliar em processos como emissão de passagens e conferência de dados.</p>
+            <p>Simuladores Android são ferramentas que emulam o ambiente de um dispositivo Android em um computador, permitindo o teste de aplicativos, navegação em sites e simulação de interações, sem a necessidade de um smartphone físico. Na Maxmilhas, os simuladores são amplamente utilizados para auxiliar em processos como emissão de passagens e conferência de dados.</p>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>1. O que é um simulador Android?</h2>
             <p>Um simulador Android é um software que cria uma versão virtual de um dispositivo Android, permitindo que você use todas as funcionalidades do sistema operacional diretamente no seu computador. Ele é comumente usado por desenvolvedores de aplicativos para testar seus aplicativos em diferentes dispositivos e versões do Android.</p>
-            <p>Na MaxMilhas, os simuladores são utilizados para:</p>
+            <p>Na Maxmilhas, os simuladores são utilizados para:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Testar processos de navegação em sites de companhias aéreas.</li>
                 <li>Verificar o funcionamento de sistemas que exigem simulação móvel.</li>
@@ -6028,7 +6025,7 @@ f
             </ul>
 
             <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>2. Principais simuladores utilizados</h2>
-            <p>Na MaxMilhas, utilizamos os seguintes simuladores Android:</p>
+            <p>Na Maxmilhas, utilizamos os seguintes simuladores Android:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li><strong>LDPlayer 9:</strong> O LDPlayer 9 é um emulador leve e de alto desempenho que permite jogar e utilizar aplicativos Android no PC. É conhecido por sua facilidade de uso e pela capacidade de rodar aplicativos de forma fluida.</li>
                 <li><strong>BlueStacks:</strong> O BlueStacks é uma ferramenta popular entre usuários que desejam emular jogos ou aplicativos Android no PC. Ele permite rodar qualquer aplicativo Android diretamente no Windows ou macOS e é fácil de usar.</li>
@@ -6049,7 +6046,7 @@ f
                 <li>Após instalado, você pode acessar a Google Play Store ou importar APKs para rodar no simulador.</li>
             </ul>
 
-            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Usos dos simuladores Android na MaxMilhas</h2>
+            <h2 style={{ marginTop: '30px', marginBottom: '30px' }}>4. Usos dos simuladores Android na Maxmilhas</h2>
             <p>Na MaxMilhas, os simuladores Android são usados para:</p>
             <ul style={{ listStyleType: 'disc', marginLeft: '30px', marginTop: '30px', marginBottom: '30px' }}>
                 <li>Testar navegação em sites de companhias aéreas: Permitem simular o acesso via dispositivo móvel e realizar emissões de passagens.</li>
@@ -6057,7 +6054,7 @@ f
                 <li>Conferir e validar informações que são exibidas em versões móveis de sites e aplicativos.</li>
             </ul>
 
-            <p>Os simuladores Android, como LDPlayer 9 e BlueStacks, são ferramentas valiosas na MaxMilhas para facilitar e aprimorar os processos de emissão e suporte, garantindo uma experiência de usuário mais completa e eficiente.</p>
+            <p>Os simuladores Android, como LDPlayer 9 e BlueStacks, são ferramentas valiosas na Maxmilhas para facilitar e aprimorar os processos de emissão e suporte, garantindo uma experiência de usuário mais completa e eficiente.</p>
         </div>
     ),
 },
