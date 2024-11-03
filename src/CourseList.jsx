@@ -9,7 +9,7 @@ const courses = [
         id: 'sistema',
         imageUrl: require('./assets/card-cockpit.jpg'),
         title: "Cockpit",
-        description: "O cockpit é um sistema web especializado na emissão de passagens aéreas.",
+        description: "O curso apresenta o papel do Cockpit, um sistema web especializado na emissão de passagens aéreas.",
         lessons: [
             { title: 'bem-vindo-curso-cockpit', completed: false },
         ],
