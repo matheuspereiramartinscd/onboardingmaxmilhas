@@ -3363,7 +3363,7 @@ f
 },
 'Cadastrando passageiros gol': {
     title: 'Cadastrando passageiros',
-    videoUrl: 'https://www.youtube.com/embed/pWnvzjU66-Q',
+    videoUrl: 'https://www.youtube.com/embed/lAjB32CBY3I',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Cadastrando passageiros</h1>
@@ -3734,7 +3734,7 @@ f
 },
 'Estrutura hierárquica e equipes': {
     title: 'Estrutura hierárquica e equipes da Maxmilhas',
-    videoUrl: 'https://www.youtube.com/embed/cXZ10wKdJC8',
+    videoUrl: 'https://www.youtube.com/embed/DjIay2P9c3Y',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Estrutura hierárquica e equipes da Maxmilhas</h1>
@@ -4976,7 +4976,7 @@ f
 },
 'Tipos mais comuns de prejuízos': {
     title: 'Tipos comuns de prejuízos',
-    videoUrl: 'https://www.youtube.com/embed/6--ZiF3BEto',
+    videoUrl: 'https://www.youtube.com/embed/BCL2jh_Ijj8',
     description: (
         <div>
             <h1 style={{ marginTop: '10px', marginBottom: '30px' }}>Tipos comuns de prejuízos</h1>
