@@ -13,7 +13,7 @@ const courses = [
             { question: "Qual é o principal propósito do Cockpit na Maxmilhas?", options: ["Emitir bilhetes aéreos", "Gerar relatórios financeiros", "Acompanhar viagens", "Controlar as bagagens"], correctAnswer: "Emitir bilhetes aéreos" },
             { question: "O que o sistema Cockpit permite gerenciar?", options: ["Transações de emissão", "Apenas clientes", "Apenas milhas", "Reservas de hotéis"], correctAnswer: "Transações de emissão" },
             { question: "Como os colaboradores acessam o sistema Cockpit?", options: ["Com senha pessoal", "Com e-mail corporativo", "Com CPF", "Com número de telefone"], correctAnswer: "Com e-mail corporativo" },
-            { question: "Qual opção no menu lateral permite iniciar a emissão de passagens?", options: ["Clientes", "Milhas", "Criar transação", "Relatórios"], correctAnswer: "Criar transação" },
+            { question: "Qual opção no menu lateral permite iniciar a emissão de passagens?", options: ["Clientes", "Cockpit", "Criar transação", "Relatórios"], correctAnswer: "Cockpit" },
             { question: "O que os indicadores no Cockpit mostram?", options: ["Dados de vendas", "Status das emissões", "Horários dos voos", "Informações de clientes"], correctAnswer: "Status das emissões" },
             { question: "Qual é uma das funções disponíveis no menu lateral do Cockpit?", options: ["Inserção de crédito", "Gerenciamento de redes sociais", "Cadastro de produtos", "Configuração de sistemas"], correctAnswer: "Inserção de crédito" },
             { question: "Qual é a primeira tela que o colaborador vê ao acessar o Cockpit?", options: ["Tela de relatórios", "Tela de login", "Tela inicial", "Tela de configurações"], correctAnswer: "Tela inicial" },
