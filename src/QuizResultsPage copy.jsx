@@ -2,7 +2,6 @@ import styles from './QuizResultsPage.module.css';
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import emailjs from 'emailjs-com'; // Importação do EmailJS
 import Header from './Header';
 
 const QuizResultsPage = () => {
@@ -13,11 +12,9 @@ const QuizResultsPage = () => {
     const percentage = (score / totalQuestions) * 100;
     const [points, setPoints] = useState(0);
     const [pointsAwarded, setPointsAwarded] = useState(false);
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [comment, setComment] = useState('');
 
     useEffect(() => {
+        // Calcular pontos com base na porcentagem
         if (percentage === 100) {
             setPoints(2000);
         } else if (percentage >= 90) {
@@ -49,6 +46,8 @@ const QuizResultsPage = () => {
     useEffect(() => {
         const updateUserPoints = async () => {
             const userId = localStorage.getItem('userId');
+            const pointsAlreadyAwarded = localStorage.getItem('pointsAwarded');
+
             if (userId && points > 0 && !pointsAwarded) {
                 try {
                     const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
@@ -59,6 +58,7 @@ const QuizResultsPage = () => {
                             'Authorization': `Bearer ${localStorage.getItem('token')}`,
                         },
                     });
+                    console.log('Pontuação atualizada com sucesso!');
                     setPointsAwarded(true);
                     localStorage.setItem('pointsAwarded', 'true');
                 } catch (error) {
@@ -74,30 +74,6 @@ const QuizResultsPage = () => {
         localStorage.removeItem('pointsAwarded');
         setPointsAwarded(false);
         navigate('/quiz');
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        emailjs.send(
-            'service_jtzc7mg', // Substitua pelo seu Service ID
-            'template_ijmx5cd', // Substitua pelo seu Template ID
-            {
-                name: name,
-                email: email,
-                comment: comment,
-            },
-            '2HDsj1HNfrgCYTIS8' // Substitua pelo seu User ID
-        )
-        .then(() => {
-            alert("Comentário enviado com sucesso!");
-            setName('');
-            setEmail('');
-            setComment('');
-        })
-        .catch((error) => {
-            console.error('Erro ao enviar comentário:', error);
-            alert("Erro ao enviar o comentário. Tente novamente.");
-        });
     };
 
     return (
@@ -126,18 +102,19 @@ const QuizResultsPage = () => {
                         <div className={styles.questTitle}>{index + 1}. {item.question}</div>
                         <div className={styles.options}>
                             {item.options.map((option, idx) => {
-                                const isSelected = option === answers[index];
-                                const isCorrect = option === item.correctAnswer;
+                                const isSelected = option === answers[index]; // Verifica se a opção foi selecionada
+                                const isCorrect = option === item.correctAnswer; // Verifica se a opção é correta
+
                                 return (
                                     <div key={idx} className={styles.option}>
                                         {isSelected ? (
                                             isCorrect ? (
-                                                <span className={styles.correctIcon}>✔️</span>
+                                                <span className={styles.correctIcon}>✔️</span> // Ícone verde para resposta correta
                                             ) : (
-                                                <span className={styles.incorrectIcon}>❌</span>
+                                                <span className={styles.incorrectIcon}>❌</span> // Ícone vermelho para resposta errada
                                             )
                                         ) : (
-                                            <span className={styles.optionLetter}>{String.fromCharCode(65 + idx)}. </span>
+                                            <span className={styles.optionLetter}>{String.fromCharCode(65 + idx)}. </span> // Letra da opção se não selecionada
                                         )}
                                         <span className={styles.optionText}>{option}</span>
                                     </div>
@@ -146,24 +123,6 @@ const QuizResultsPage = () => {
                         </div>
                     </div>
                 ))}
-            </div>
-            <div className={styles.feedbackSection}>
-                <h3>Dúvida ou sugestões? Envie um comentário.</h3>
-                <form onSubmit={handleSubmit} className={styles.feedbackForm}>
-                    <label>
-                        Nome:
-                        <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
-                    </label>
-                    <label>
-                        E-mail:
-                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                    </label>
-                    <label>
-                        Comentário:
-                        <textarea value={comment} onChange={(e) => setComment(e.target.value)} required />
-                    </label>
-                    <button type="submit">Enviar</button>
-                </form>
             </div>
         </div>
     );

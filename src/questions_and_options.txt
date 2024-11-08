@@ -1,0 +1,2563 @@
+Curso: Cockpit
+
+Pergunta 1: Qual é o principal propósito do Cockpit na Maxmilhas?
+  Opção 1: Emitir bilhetes aéreos
+  Opção 2: Gerar relatórios financeiros
+  Opção 3: Acompanhar viagens
+  Opção 4: Controlar as bagagens
+Resposta correta: Emitir bilhetes aéreos
+
+Pergunta 2: O que o sistema Cockpit permite gerenciar?
+  Opção 1: Transações de emissão
+  Opção 2: Apenas clientes
+  Opção 3: Apenas milhas
+  Opção 4: Reservas de hotéis
+Resposta correta: Transações de emissão
+
+Pergunta 3: Como os colaboradores acessam o sistema Cockpit?
+  Opção 1: Com senha pessoal
+  Opção 2: Com e-mail corporativo
+  Opção 3: Com CPF
+  Opção 4: Com número de telefone
+Resposta correta: Com e-mail corporativo
+
+Pergunta 4: Qual opção no menu lateral permite iniciar a emissão de passagens?
+  Opção 1: Clientes
+  Opção 2: Cockpit
+  Opção 3: Criar transação
+  Opção 4: Relatórios
+Resposta correta: Cockpit
+
+Pergunta 5: O que os indicadores no Cockpit mostram?
+  Opção 1: Dados de vendas
+  Opção 2: Status das emissões
+  Opção 3: Horários dos voos
+  Opção 4: Informações de clientes
+Resposta correta: Status das emissões
+
+Pergunta 6: Qual é uma das funções disponíveis no menu lateral do Cockpit?
+  Opção 1: Inserção de crédito
+  Opção 2: Gerenciamento de redes sociais
+  Opção 3: Cadastro de produtos
+  Opção 4: Configuração de sistemas
+Resposta correta: Inserção de crédito
+
+Pergunta 7: Qual é a primeira tela que o colaborador vê ao acessar o Cockpit?
+  Opção 1: Tela de relatórios
+  Opção 2: Tela de login
+  Opção 3: Tela inicial
+  Opção 4: Tela de configurações
+Resposta correta: Tela inicial
+
+Pergunta 8: Qual é a função da opção 'Milhas' no menu lateral do Cockpit?
+  Opção 1: Emitir passagens
+  Opção 2: Buscar ofertantes
+  Opção 3: Gerar relatórios
+  Opção 4: Gerenciar usuários
+Resposta correta: Buscar ofertantes
+
+Pergunta 9: Quais são os critérios de filtragem disponíveis na busca de ofertantes?
+  Opção 1: Login, Status, Companhia aérea
+  Opção 2: Nome, E-mail, Telefone
+  Opção 3: Saldo, CPF, Média
+  Opção 4: Tipo de oferta, Estratégia 2FA
+Resposta correta: Login, Status, Companhia aérea
+
+Pergunta 10: Qual status indica que um ofertante está pronto para ser utilizado em transações?
+  Opção 1: Inativo - CPF divergente
+  Opção 2: Ativo - liberado
+  Opção 3: Bloqueado - Não atende celular
+  Opção 4: Pendente - Divergência na oferta paga
+Resposta correta: Ativo - liberado
+
+Pergunta 11: Quais tipos de oferta podem ser filtrados na busca avançada?
+  Opção 1: Venda convencional, Venda rápida, Revenda
+  Opção 2: Ativo, Bloqueado, Inativo
+  Opção 3: Milhas, CPF, E-mail
+  Opção 4: Login, Nome, Telefone
+Resposta correta: Venda convencional, Venda rápida, Revenda
+
+Pergunta 12: O que é exibido na tela de busca após realizar a busca de um ofertante?
+  Opção 1: Login, Categoria, Status
+  Opção 2: Nome, Telefone, E-mail
+  Opção 3: ID da transação, Voo, Data do Voo
+  Opção 4: Observações, Histórico, Documentos
+Resposta correta: Login, Categoria, Status
+
+Pergunta 13: Qual informação é apresentada na seção de 'Dados do vendedor'?
+  Opção 1: Saldo de milhas
+  Opção 2: Nome, CPF, E-mail, Telefone
+  Opção 3: Código da transação
+  Opção 4: Histórico de vendas
+Resposta correta: Nome, CPF, E-mail, Telefone
+
+Pergunta 14: Para que serve a seção de 'Observações' no Cockpit?
+  Opção 1: Registrar comentários sobre transações
+  Opção 2: Visualizar dados do vendedor
+  Opção 3: Gerar relatórios de vendas
+  Opção 4: Filtrar ofertantes
+Resposta correta: Registrar comentários sobre transações
+
+Pergunta 15: Qual é a primeira etapa para iniciar uma pesquisa no Cockpit?
+  Opção 1: Clicar no botão Emitir
+  Opção 2: Selecionar uma aba
+  Opção 3: Inserir o número do pedido
+  Opção 4: Ativar o filtro de milhas
+Resposta correta: Selecionar uma aba
+
+Pergunta 16: O que o botão 'Filtrar' faz no Cockpit?
+  Opção 1: Retorna todas as transações
+  Opção 2: Processa as opções de filtro selecionadas
+  Opção 3: Exclui transações
+  Opção 4: Exibe apenas transações internacionais
+Resposta correta: Processa as opções de filtro selecionadas
+
+Pergunta 17: Qual é o objetivo da pesquisa por 'Transação' no Cockpit?
+  Opção 1: Identificar o número do pedido
+  Opção 2: Visualizar detalhes do voo
+  Opção 3: Encontrar informações do cliente
+  Opção 4: Acessar relatórios financeiros
+Resposta correta: Visualizar detalhes do voo
+
+Pergunta 18: Como o analista pode filtrar transações com base no valor de milhas?
+  Opção 1: Usando o campo de 'Valor mínimo de milhas'
+  Opção 2: Inserindo o valor no campo de pesquisa
+  Opção 3: Definindo o 'Valor máximo de milhas'
+  Opção 4: Selecionando a opção 'Internacional'
+Resposta correta: Definindo o 'Valor máximo de milhas'
+
+Pergunta 19: Quais meios de pagamento estão disponíveis no Cockpit?
+  Opção 1: Transferência bancária e PayPal
+  Opção 2: Cartão de crédito e SafetyPay
+  Opção 3: Apenas cartão de crédito
+  Opção 4: Apenas transferência bancária
+Resposta correta: Cartão de crédito e SafetyPay
+
+Pergunta 20: Qual é a funcionalidade da opção 'Emitindo' no Cockpit?
+  Opção 1: Iniciar novas transações
+  Opção 2: Buscar transações em processo de emissão
+  Opção 3: Cancelar transações
+  Opção 4: Exibir transações concluídas
+Resposta correta: Buscar transações em processo de emissão
+
+Pergunta 21: O que a opção 'Recompra' permite no Cockpit?
+  Opção 1: Selecionar transações recentes
+  Opção 2: Filtrar voos internacionais
+  Opção 3: Identificar transações canceladas que foram compradas novamente
+  Opção 4: Acessar relatórios de vendas
+Resposta correta: Identificar transações canceladas que foram compradas novamente
+
+Pergunta 22: O que é exibido na página de Transação completa do Cockpit?
+  Opção 1: Informações detalhadas da transação
+  Opção 2: Histórico de vendas
+  Opção 3: Relatórios financeiros
+  Opção 4: Detalhes da companhia aérea
+Resposta correta: Informações detalhadas da transação
+
+Pergunta 23: Qual é o propósito do botão de lançar cobrança na Transação completa?
+  Opção 1: Cancelar a transação
+  Opção 2: Lançar cobranças adicionais
+  Opção 3: Visualizar detalhes da transação
+  Opção 4: Editar dados do voo
+Resposta correta: Lançar cobranças adicionais
+
+Pergunta 24: Quais dados são apresentados sob 'Dados financeiros' na Transação completa?
+  Opção 1: Dados do comprador
+  Opção 2: Número do voo
+  Opção 3: Valor total da transação
+  Opção 4: Saldo de milhas disponíveis
+Resposta correta: Valor total da transação
+
+Pergunta 25: O que o botão de cancelar transação permite ao usuário fazer?
+  Opção 1: Emitir um novo bilhete
+  Opção 2: Cancelar completamente a transação atual
+  Opção 3: Alterar dados do passageiro
+  Opção 4: Consultar logs de transações
+Resposta correta: Cancelar completamente a transação atual
+
+Pergunta 26: Qual informação é necessária para selecionar um motivo de cancelamento?
+  Opção 1: Número do voo
+  Opção 2: Data da partida
+  Opção 3: Motivo específico de cancelamento
+  Opção 4: Nome do passageiro
+Resposta correta: Motivo específico de cancelamento
+
+Pergunta 27: Qual é a função do botão de editar informações do voo?
+  Opção 1: Alterar dados do passageiro
+  Opção 2: Modificar detalhes do voo
+  Opção 3: Cancelar a transação
+  Opção 4: Buscar voos alternativos
+Resposta correta: Modificar detalhes do voo
+
+Pergunta 28: O que deve ser confirmado pelo usuário antes de cancelar uma transação?
+  Opção 1: Número de milhas restantes
+  Opção 2: Motivo do cancelamento e estorno
+  Opção 3: Tipo de companhia aérea
+  Opção 4: Dados do vendedor
+Resposta correta: Motivo do cancelamento e estorno
+
+
+Curso: Milhas
+
+Pergunta 1: O que são milhas aéreas?
+  Opção 1: Pontos acumulados em programas de fidelidade
+  Opção 2: Taxas de embarque
+  Opção 3: Bônus de cartões de crédito
+  Opção 4: Descontos em passagens
+Resposta correta: Pontos acumulados em programas de fidelidade
+
+Pergunta 2: Como as milhas aéreas podem ser acumuladas?
+  Opção 1: Apenas através de voos
+  Opção 2: Compras em lojas parceiras
+  Opção 3: Utilização de cartões de crédito
+  Opção 4: Todas as opções acima
+Resposta correta: Todas as opções acima
+
+Pergunta 3: O que pode ser trocado pelas milhas acumuladas?
+  Opção 1: Apenas passagens aéreas
+  Opção 2: Upgrades de classe
+  Opção 3: Produtos e serviços
+  Opção 4: Todas as opções acima
+Resposta correta: Todas as opções acima
+
+Pergunta 4: Qual é a principal consideração sobre a validade das milhas?
+  Opção 1: Elas não expiram nunca
+  Opção 2: Podem expirar após um período de inatividade
+  Opção 3: Sempre valem por um ano
+  Opção 4: São válidas apenas para um único voo
+Resposta correta: Podem expirar após um período de inatividade
+
+Pergunta 5: Por que é importante entender as regras do programa de fidelidade?
+  Opção 1: Para maximizar a utilização das milhas acumuladas
+  Opção 2: Para garantir passagens de graça
+  Opção 3: Para evitar taxas adicionais
+  Opção 4: Para saber quando comprar bilhetes
+Resposta correta: Para maximizar a utilização das milhas acumuladas
+
+Pergunta 6: Quais aspectos legais devem ser considerados ao vender milhas?
+  Opção 1: Políticas do programa de fidelidade
+  Opção 2: Código de Defesa do Consumidor
+  Opção 3: Obrigações fiscais
+  Opção 4: Todas as opções acima
+Resposta correta: Todas as opções acima
+
+Pergunta 7: O que é um marketplace de milhas?
+  Opção 1: Uma plataforma para comprar e vender milhas
+  Opção 2: Um programa de fidelidade
+  Opção 3: Um tipo de cartão de crédito
+  Opção 4: Um serviço de aluguel de carros
+Resposta correta: Uma plataforma para comprar e vender milhas
+
+Pergunta 8: Qual é o principal fator que influencia a precificação das milhas aéreas?
+  Opção 1: Demanda e oferta
+  Opção 2: Tipo de companhia aérea
+  Opção 3: Validade das milhas
+  Opção 4: Promoções e ofertas
+Resposta correta: Demanda e oferta
+
+Pergunta 9: Como a validade das milhas afeta seu preço?
+  Opção 1: Milhas não expiram nunca
+  Opção 2: Milhas próximas da expiração valem menos
+  Opção 3: Milhas com validade longa são mais baratas
+  Opção 4: Não tem impacto
+Resposta correta: Milhas próximas da expiração valem menos
+
+Pergunta 10: Qual tipo de tarifa acumula mais milhas?
+  Opção 1: Tarifa econômica
+  Opção 2: Tarifa promocional
+  Opção 3: Tarifa de classe executiva
+  Opção 4: Tarifa de grupo
+Resposta correta: Tarifa de classe executiva
+
+Pergunta 11: O que é o custo por milheiro (CPM)?
+  Opção 1: Preço pago por cada 1.000 milhas
+  Opção 2: Valor total das milhas
+  Opção 3: Preço de mercado das milhas
+  Opção 4: Taxa de conversão
+Resposta correta: Preço pago por cada 1.000 milhas
+
+Pergunta 12: Como podem ser acumuladas milhas utilizando cartões de crédito?
+  Opção 1: Por gastos cotidianos
+  Opção 2: Apenas por voos
+  Opção 3: Apenas por compras em lojas
+  Opção 4: Não é possível
+Resposta correta: Por gastos cotidianos
+
+Pergunta 13: Quais serviços podem oferecer acúmulo de milhas além de voos?
+  Opção 1: Reservas de hotéis e aluguel de carros
+  Opção 2: Compras em supermercados
+  Opção 3: Serviços de streaming
+  Opção 4: Todas as opções acima
+Resposta correta: Todas as opções acima
+
+Pergunta 14: O que são 'clubes de milhas'?
+  Opção 1: Programas que oferecem milhas mensais por assinatura
+  Opção 2: Companhias aéreas de baixo custo
+  Opção 3: Agências de viagens
+  Opção 4: Plataformas de compra de milhas
+Resposta correta: Programas que oferecem milhas mensais por assinatura
+
+Pergunta 15: Qual é o programa de fidelidade da GOL Linhas Aéreas?
+  Opção 1: LATAM Pass
+  Opção 2: TudoAzul
+  Opção 3: Smiles
+  Opção 4: AAdvantage
+Resposta correta: Smiles
+
+Pergunta 16: Qual é o principal benefício do Club Smiles?
+  Opção 1: Acesso a salas VIP
+  Opção 2: Acúmulo mensal de milhas
+  Opção 3: Check-in prioritário
+  Opção 4: Desconto em passagens
+Resposta correta: Acúmulo mensal de milhas
+
+Pergunta 17: O que é o LATAM Pass?
+  Opção 1: Um programa de recompensas de hotéis
+  Opção 2: Um programa de fidelidade da LATAM Airlines
+  Opção 3: Um cartão de crédito
+  Opção 4: Um clube de milhas da GOL
+Resposta correta: Um programa de fidelidade da LATAM Airlines
+
+Pergunta 18: Qual programa de fidelidade permite acúmulo de milhas com a TAP Air Portugal?
+  Opção 1: Miles&Go
+  Opção 2: Executive Club
+  Opção 3: TudoAzul
+  Opção 4: AAdvantage
+Resposta correta: Miles&Go
+
+Pergunta 19: Como a validade das milhas é determinada?
+  Opção 1: Por meio da quantidade de milhas acumuladas
+  Opção 2: Pelo nível de fidelidade do cliente
+  Opção 3: Pela frequência de voos
+  Opção 4: Pelo tipo de cartão de crédito
+Resposta correta: Pelo nível de fidelidade do cliente
+
+Pergunta 20: Quantos meses as milhas do Latam Pass geralmente são válidas?
+  Opção 1: 12 meses
+  Opção 2: 18 meses
+  Opção 3: 24 meses
+  Opção 4: 36 meses
+Resposta correta: 24 meses
+
+Pergunta 21: Qual estratégia pode ajudar a evitar a perda de milhas por vencimento?
+  Opção 1: Utilizar ou vender as milhas adquiridas
+  Opção 2: Acumular mais milhas
+  Opção 3: Evitar utilizar as milhas
+  Opção 4: Pagar uma taxa de renovação
+Resposta correta: Utilizar ou vender as milhas adquiridas
+
+
+Curso: Ofertantes
+
+Pergunta 1: O que são ofertantes de milhas?
+  Opção 1: Empresas que vendem passagens aéreas
+  Opção 2: Indivíduos ou entidades que vendem milhas acumuladas
+  Opção 3: Clientes da Maxmilhas
+  Opção 4: Agências de viagem
+Resposta correta: Indivíduos ou entidades que vendem milhas acumuladas
+
+Pergunta 2: Qual é o principal benefício para os viajantes ao comprar milhas de ofertantes?
+  Opção 1: Redução do custo da passagem aérea
+  Opção 2: Acúmulo de mais milhas
+  Opção 3: Acesso a voos exclusivos
+  Opção 4: Pagamento facilitado
+Resposta correta: Redução do custo da passagem aérea
+
+Pergunta 3: Qual papel a Maxmilhas desempenha na relação entre ofertantes e compradores?
+  Opção 1: Intermediação das transações
+  Opção 2: Venda direta de milhas
+  Opção 3: Garantia de voos exclusivos
+  Opção 4: Análise de crédito
+Resposta correta: Intermediação das transações
+
+Pergunta 4: Como os ofertantes contribuem para a competitividade da Maxmilhas?
+  Opção 1: Facilitando transações rápidas
+  Opção 2: Aumentando a variedade de preços
+  Opção 3: Fornecendo voos gratuitos
+  Opção 4: Excluindo milhas expiradas
+Resposta correta: Aumentando a variedade de preços
+
+Pergunta 5: Qual tipo de transação permite comprar milhas por um valor abaixo da passagem?
+  Opção 1: Venda convencional
+  Opção 2: Compra parcelada
+  Opção 3: Revenda
+  Opção 4: Troca de milhas
+Resposta correta: Revenda
+
+Pergunta 6: O que significa 'Venda rápida' no contexto dos tipos de oferta?
+  Opção 1: Transações com pagamento antecipado
+  Opção 2: Ofertas com transações rápidas
+  Opção 3: Ofertas com desconto para milhas acumuladas
+  Opção 4: Promoções de milhas
+Resposta correta: Ofertas com transações rápidas
+
+Pergunta 7: Qual opção de estratégia 2FA pode ser usada para verificar transações?
+  Opção 1: E-mail
+  Opção 2: Senha
+  Opção 3: CPF
+  Opção 4: Cartão de crédito
+Resposta correta: E-mail
+
+Pergunta 8: O que representa o saldo de milhas em um programa de fidelidade?
+  Opção 1: A quantidade total de milhas disponíveis para um ofertante
+  Opção 2: O valor financeiro total das milhas
+  Opção 3: O número de clientes cadastrados no programa
+  Opção 4: A quantidade de CPFs autorizados
+Resposta correta: A quantidade total de milhas disponíveis para um ofertante
+
+Pergunta 9: Qual é o principal benefício de manter um saldo elevado de milhas?
+  Opção 1: Aumenta as chances de vendas
+  Opção 2: Reduz custos de transação
+  Opção 3: Garante prioridade no atendimento
+  Opção 4: Facilita o controle de CPFs
+Resposta correta: Aumenta as chances de vendas
+
+Pergunta 10: O que é a razão em termos de milhas e CPFs?
+  Opção 1: A média de vendas realizadas
+  Opção 2: A quantidade de milhas por CPF disponível
+  Opção 3: O saldo médio de milhas
+  Opção 4: A porcentagem de milhas resgatadas
+Resposta correta: A quantidade de milhas por CPF disponível
+
+Pergunta 11: Como é calculada a média de milhas por CPF?
+  Opção 1: Dividindo as milhas totais pelo número de CPFs
+  Opção 2: Multiplicando o número de CPFs pelas milhas médias
+  Opção 3: Somando o saldo e a razão
+  Opção 4: Subtraindo as milhas não utilizadas
+Resposta correta: Dividindo as milhas totais pelo número de CPFs
+
+Pergunta 12: Qual é a importância de se calcular a média de milhas por CPF?
+  Opção 1: Para equilibrar vendas e milhas pessoais
+  Opção 2: Para maximizar o número de CPFs
+  Opção 3: Para aumentar o saldo total
+  Opção 4: Para facilitar a troca de milhas
+Resposta correta: Para equilibrar vendas e milhas pessoais
+
+Pergunta 13: Qual é o impacto de ter mais CPFs disponíveis para um ofertante?
+  Opção 1: Maior capacidade de venda de milhas
+  Opção 2: Menos demanda por passagens
+  Opção 3: Redução no saldo de milhas
+  Opção 4: Menor controle de transações
+Resposta correta: Maior capacidade de venda de milhas
+
+Pergunta 14: Onde é possível consultar o saldo, razão e quantidade de CPFs de um ofertante?
+  Opção 1: Na página de troca de ofertantes e busca de ofertantes pelo Milhas
+  Opção 2: Na página de relatórios financeiros
+  Opção 3: No site oficial da Gol
+  Opção 4: Na aba de atendimento ao cliente
+Resposta correta: Na página de troca de ofertantes e busca de ofertantes pelo Milhas
+
+Pergunta 15: Como os membros do Latam Pass podem acumular pontos?
+  Opção 1: Ao voar com a LATAM e parceiros
+  Opção 2: Realizando compras em lojas online
+  Opção 3: Com transferências bancárias
+  Opção 4: Através de doações
+Resposta correta: Ao voar com a LATAM e parceiros
+
+Pergunta 16: Qual a vantagem de se atingir a categoria Platinum no Latam Pass?
+  Opção 1: Acesso a áreas VIP
+  Opção 2: Descontos em passagens
+  Opção 3: Milhas ilimitadas
+  Opção 4: Benefícios apenas em voos internacionais
+Resposta correta: Acesso a áreas VIP
+
+Pergunta 17: Como os pontos Latam Pass podem ser resgatados?
+  Opção 1: Em passagens aéreas e upgrades
+  Opção 2: Somente em produtos parceiros
+  Opção 3: Em descontos de hospedagem
+  Opção 4: Para adquirir milhas de outra companhia
+Resposta correta: Em passagens aéreas e upgrades
+
+Pergunta 18: Quem pode utilizar as milhas de um membro no programa TudoAzul?
+  Opção 1: Somente o titular
+  Opção 2: Beneficiários cadastrados
+  Opção 3: Qualquer pessoa
+  Opção 4: Apenas familiares de primeiro grau
+Resposta correta: Beneficiários cadastrados
+
+Pergunta 19: Quais são as principais verificações na validação automática de ofertas?
+  Opção 1: Fraude e saldo divergente
+  Opção 2: Análise de pagamento
+  Opção 3: Verificação de beneficiários
+  Opção 4: Comparação de promoções
+Resposta correta: Fraude e saldo divergente
+
+Pergunta 20: Qual é o principal objetivo da validação manual de ofertas?
+  Opção 1: Aprovar todas as ofertas
+  Opção 2: Analisar ofertas complexas ou com irregularidades
+  Opção 3: Rejeitar todas as ofertas automáticas
+  Opção 4: Confirmar o pagamento do cliente
+Resposta correta: Analisar ofertas complexas ou com irregularidades
+
+Pergunta 21: Qual é a importância da validação de ofertas na MaxMilhas?
+  Opção 1: Proteger usuários e manter a integridade do mercado
+  Opção 2: Aprovar todas as transações automaticamente
+  Opção 3: Eliminar fraudes em transações de produtos
+  Opção 4: Aumentar a quantidade de milhas disponíveis
+Resposta correta: Proteger usuários e manter a integridade do mercado
+
+
+Curso: Tour Virtual da Empresa
+
+Pergunta 1: Onde está localizada a sede da MaxMilhas?
+  Opção 1: Rua Matias Cardoso, 169 - Belo Horizonte, MG
+  Opção 2: Avenida Paulista, São Paulo, SP
+  Opção 3: Rua da Consolação, Rio de Janeiro, RJ
+  Opção 4: Praça da Liberdade, Belo Horizonte, MG
+Resposta correta: Rua Matias Cardoso, 169 - Belo Horizonte, MG
+
+Pergunta 2: Qual é a localização do setor de recepção e atendimento da MaxMilhas?
+  Opção 1: 11º andar
+  Opção 2: Térreo
+  Opção 3: 5º andar
+  Opção 4: 12º andar
+Resposta correta: 11º andar
+
+Pergunta 3: Qual é o principal objetivo do espaço de recepção e atendimento?
+  Opção 1: Oferecer um ambiente agradável para visitantes
+  Opção 2: Realizar reuniões com clientes
+  Opção 3: Armazenar documentos
+  Opção 4: Área de descanso para colaboradores
+Resposta correta: Oferecer um ambiente agradável para visitantes
+
+Pergunta 4: O que é registrado no sistema de controle de entrada da recepção?
+  Opção 1: Os visitantes
+  Opção 2: As entregas
+  Opção 3: Os funcionários
+  Opção 4: Os fornecedores
+Resposta correta: Os visitantes
+
+Pergunta 5: O que a área de espera oferece aos visitantes?
+  Opção 1: Assentos confortáveis e Wi-Fi gratuito
+  Opção 2: Alimentos e bebidas
+  Opção 3: Serviço de impressão
+  Opção 4: Espaço de coworking
+Resposta correta: Assentos confortáveis e Wi-Fi gratuito
+
+Pergunta 6: Onde estão localizadas as telas de exibição na área de espera?
+  Opção 1: No ambiente dinâmico
+  Opção 2: Na cozinha
+  Opção 3: No deck ao ar livre
+  Opção 4: Na área de refeição
+Resposta correta: No ambiente dinâmico
+
+Pergunta 7: Qual o objetivo principal da área de refeição e descanso no 11º andar?
+  Opção 1: Oferecer conforto e bem-estar aos colaboradores
+  Opção 2: Realizar reuniões formais
+  Opção 3: Treinar novos funcionários
+  Opção 4: Organizar eventos
+Resposta correta: Oferecer conforto e bem-estar aos colaboradores
+
+Pergunta 8: Que itens estão disponíveis na área de refeição para os colaboradores?
+  Opção 1: Geladeiras, micro-ondas e cafeteiras
+  Opção 2: Cadeiras de massagem
+  Opção 3: Lousa para anotações
+  Opção 4: Sala de ginástica
+Resposta correta: Geladeiras, micro-ondas e cafeteiras
+
+Pergunta 9: Qual é a principal finalidade da cozinha localizada no 11º andar?
+  Opção 1: Uso exclusivo para funcionários autorizados
+  Opção 2: Serviço de catering
+  Opção 3: Preparação de refeições para visitantes
+  Opção 4: Armazenamento de materiais de escritório
+Resposta correta: Uso exclusivo para funcionários autorizados
+
+Pergunta 10: Onde fica o deck ao ar livre na sede da MaxMilhas?
+  Opção 1: No 11º andar
+  Opção 2: No 5º andar
+  Opção 3: No 15º andar
+  Opção 4: No 2º andar
+Resposta correta: No 11º andar
+
+Pergunta 11: O que o deck ao ar livre oferece aos colaboradores?
+  Opção 1: Espaço para relaxamento e descontração
+  Opção 2: Espaço para prática de esportes
+  Opção 3: Sala de ginástica
+  Opção 4: Biblioteca
+Resposta correta: Espaço para relaxamento e descontração
+
+Pergunta 12: Qual é um dos benefícios de utilizar o deck no 11º andar?
+  Opção 1: Ambiente agradável para reuniões informais
+  Opção 2: Atividades físicas monitoradas
+  Opção 3: Curso de formação interna
+  Opção 4: Sessões de meditação guiada
+Resposta correta: Ambiente agradável para reuniões informais
+
+Pergunta 13: O deck do 11º andar contribui para qual aspecto do ambiente?
+  Opção 1: Ambiente leve e arejado
+  Opção 2: Melhoria nas vendas
+  Opção 3: Planejamento financeiro
+  Opção 4: Controle de acessos
+Resposta correta: Ambiente leve e arejado
+
+Pergunta 14: Qual é a vantagem de ter áreas de descanso na MaxMilhas?
+  Opção 1: Promover bem-estar e socialização
+  Opção 2: Aumentar as vendas
+  Opção 3: Armazenar documentos importantes
+  Opção 4: Organizar eventos para clientes
+Resposta correta: Promover bem-estar e socialização
+
+Pergunta 15: Por que o deck é importante para a equipe da MaxMilhas?
+  Opção 1: Proporciona um espaço para pausas e descontração
+  Opção 2: Serve como área de alimentação
+  Opção 3: É um local para arquivos importantes
+  Opção 4: Espaço exclusivo para reuniões formais
+Resposta correta: Proporciona um espaço para pausas e descontração
+
+Pergunta 16: Onde está localizada a sede da MaxMilhas?
+  Opção 1: São Paulo
+  Opção 2: Rio de Janeiro
+  Opção 3: Belo Horizonte
+  Opção 4: Brasília
+Resposta correta: Belo Horizonte
+
+Pergunta 17: Em que andar fica a recepção e atendimento da MaxMilhas?
+  Opção 1: 10º andar
+  Opção 2: 11º andar
+  Opção 3: 12º andar
+  Opção 4: Térreo
+Resposta correta: 11º andar
+
+Pergunta 18: Qual é o objetivo da área de operações no 10º andar?
+  Opção 1: Atender clientes
+  Opção 2: Gerenciar operações diárias
+  Opção 3: Armazenar documentos
+  Opção 4: Fazer reuniões
+Resposta correta: Gerenciar operações diárias
+
+Pergunta 19: Como a sala de operações da MaxMilhas é descrita?
+  Opção 1: Clássica e tranquila
+  Opção 2: Moderna e tecnológica
+  Opção 3: Rústica e simples
+  Opção 4: Pequena e isolada
+Resposta correta: Moderna e tecnológica
+
+Pergunta 20: Qual é o principal uso das salas de reunião na MaxMilhas?
+  Opção 1: Eventos sociais
+  Opção 2: Reuniões e brainstorming
+  Opção 3: Armazenamento de arquivos
+  Opção 4: Descanso dos funcionários
+Resposta correta: Reuniões e brainstorming
+
+Pergunta 21: Quantas salas de reunião existem no 10º andar da MaxMilhas?
+  Opção 1: 2
+  Opção 2: 3
+  Opção 3: 4
+  Opção 4: 5
+Resposta correta: 4
+
+Pergunta 22: Qual sala de reunião do 11º andar é dedicada a reuniões estratégicas?
+  Opção 1: Sala Nova York
+  Opção 2: Sala Roma
+  Opção 3: Sala São Paulo
+  Opção 4: Sala 3
+Resposta correta: Sala Roma
+
+Pergunta 23: O que caracteriza o auditório na sede da MaxMilhas?
+  Opção 1: É pequeno e reservado
+  Opção 2: É um espaço para eventos e treinamentos
+  Opção 3: É exclusivo para o time de TI
+  Opção 4: É utilizado como área de descanso
+Resposta correta: É um espaço para eventos e treinamentos
+
+Pergunta 24: Onde está localizado o time de emissões no 10º andar?
+  Opção 1: No lado esquerdo
+  Opção 2: No centro da sala
+  Opção 3: No lado direito
+  Opção 4: Em uma sala separada
+Resposta correta: No centro da sala
+
+Pergunta 25: Qual é a principal responsabilidade do time de chat e atendimento na MaxMilhas?
+  Opção 1: Controlar orçamentos
+  Opção 2: Oferecer suporte ao cliente
+  Opção 3: Gerenciar finanças
+  Opção 4: Planejar estratégias
+Resposta correta: Oferecer suporte ao cliente
+
+Pergunta 26: Em que área o time de financeiro está alocado no 10º andar?
+  Opção 1: No lado esquerdo
+  Opção 2: No centro da sala
+  Opção 3: No lado direito
+  Opção 4: Em uma sala específica
+Resposta correta: Em uma sala específica
+
+Pergunta 27: Qual é a função do suporte de TI na MaxMilhas?
+  Opção 1: Gerar relatórios financeiros
+  Opção 2: Auxiliar nas operações do Cockpit
+  Opção 3: Manter a infraestrutura tecnológica
+  Opção 4: Fazer atendimento ao cliente
+Resposta correta: Manter a infraestrutura tecnológica
+
+Pergunta 28: A área de TI e suporte é responsável por:
+  Opção 1: Organizar eventos
+  Opção 2: Controlar vendas
+  Opção 3: Garantir o funcionamento dos sistemas
+  Opção 4: Planejar estratégias de marketing
+Resposta correta: Garantir o funcionamento dos sistemas
+
+
+Curso: História da Empresa e Cultura
+
+Pergunta 1: Em que ano a MaxMilhas foi fundada?
+  Opção 1: 2011
+  Opção 2: 2012
+  Opção 3: 2013
+  Opção 4: 2014
+Resposta correta: 2013
+
+Pergunta 2: Qual era o objetivo principal da MaxMilhas ao ser criada?
+  Opção 1: Aumentar o uso de milhas aéreas
+  Opção 2: Reduzir o custo de passagens
+  Opção 3: Conectar pessoas em viagens
+  Opção 4: Gerar mais pontos em programas de fidelidade
+Resposta correta: Reduzir o custo de passagens
+
+Pergunta 3: Como a MaxMilhas conecta vendedores e compradores?
+  Opção 1: Por meio de um sistema de pontos
+  Opção 2: Através de uma plataforma online
+  Opção 3: Com atendimento telefônico
+  Opção 4: Apenas pessoalmente
+Resposta correta: Através de uma plataforma online
+
+Pergunta 4: Qual foi um dos principais diferenciais da MaxMilhas?
+  Opção 1: Oferecer voos gratuitos
+  Opção 2: Permitir venda e compra de milhas
+  Opção 3: Criar seu próprio programa de fidelidade
+  Opção 4: Concentrar-se em voos internacionais
+Resposta correta: Permitir venda e compra de milhas
+
+Pergunta 5: Qual foi o reconhecimento recebido pela MaxMilhas em 2017?
+  Opção 1: Prêmio de Melhor Empresa de Turismo
+  Opção 2: Startup do Ano
+  Opção 3: Melhor Atendimento ao Cliente
+  Opção 4: Empresa com Maior Crescimento
+Resposta correta: Startup do Ano
+
+Pergunta 6: Qual foi o marco financeiro que a MaxMilhas alcançou em 2014?
+  Opção 1: Entrou na Bolsa de Valores
+  Opção 2: Alcançou break-even
+  Opção 3: Fez sua primeira aquisição
+  Opção 4: Mudou para um novo escritório
+Resposta correta: Alcançou break-even
+
+Pergunta 7: Quantas passagens a MaxMilhas emitiu desde seu lançamento?
+  Opção 1: Mais de 1 milhão
+  Opção 2: Mais de 3 milhões
+  Opção 3: Mais de 5 milhões
+  Opção 4: Mais de 6 milhões
+Resposta correta: Mais de 6 milhões
+
+Pergunta 8: A MaxMilhas foi reconhecida pelo Great Place to Work (GPTW) em qual categoria?
+  Opção 1: Inovação no Trabalho
+  Opção 2: Melhor Empresa de Turismo
+  Opção 3: Melhor Empresa para Trabalhar
+  Opção 4: Empresa de Maior Impacto Social
+Resposta correta: Melhor Empresa para Trabalhar
+
+Pergunta 9: A expansão da equipe MaxMilhas é reflexo de quê?
+  Opção 1: Baixa demanda no mercado
+  Opção 2: Alta demanda e confiança nos serviços
+  Opção 3: Concorrência com outras empresas
+  Opção 4: Redução do número de clientes
+Resposta correta: Alta demanda e confiança nos serviços
+
+Pergunta 10: Qual objetivo a MaxMilhas busca alcançar com seu impacto social?
+  Opção 1: Aumentar o uso de milhas aéreas
+  Opção 2: Tornar viagens mais acessíveis
+  Opção 3: Ser a maior empresa de milhas
+  Opção 4: Acumular mais milhas para clientes
+Resposta correta: Tornar viagens mais acessíveis
+
+Pergunta 11: O que motivou a criação da MaxMilhas?
+  Opção 1: Facilitar a venda de milhas aéreas
+  Opção 2: Conectar empresas de aviação
+  Opção 3: Oferecer voos internacionais
+  Opção 4: Gerar fidelidade ao cliente
+Resposta correta: Facilitar a venda de milhas aéreas
+
+Pergunta 12: Qual premiação da MaxMilhas envolveu uma revista?
+  Opção 1: Startup do Ano
+  Opção 2: Great Place to Work
+  Opção 3: E-Commerce Brasil de Inovação
+  Opção 4: Melhor Empresa de Turismo
+Resposta correta: E-Commerce Brasil de Inovação
+
+Pergunta 13: Qual serviço adicional a MaxMilhas oferece além da emissão de passagens com milhas?
+  Opção 1: Compra de milhas
+  Opção 2: Comparação de preços com companhias aéreas
+  Opção 3: Reserva de hotéis
+  Opção 4: Aluguel de veículos
+Resposta correta: Comparação de preços com companhias aéreas
+
+Pergunta 14: Qual é o principal valor que orienta a MaxMilhas em sua missão de tornar viagens mais acessíveis?
+  Opção 1: Propósito claro
+  Opção 2: Crescimento pessoal
+  Opção 3: Valorização do colaborador
+  Opção 4: Inovação
+Resposta correta: Propósito claro
+
+Pergunta 15: Qual característica da cultura da MaxMilhas promove a criação de novas ideias e aprendizado?
+  Opção 1: Transparência e ética
+  Opção 2: Inovação e agilidade
+  Opção 3: Foco no cliente
+  Opção 4: Diversidade e inclusão
+Resposta correta: Inovação e agilidade
+
+Pergunta 16: Qual benefício a MaxMilhas oferece aos colaboradores para que possam vivenciar as experiências oferecidas aos clientes?
+  Opção 1: Milhas para viagens
+  Opção 2: Treinamentos semanais
+  Opção 3: Convênios com escolas
+  Opção 4: Auxílio-moradia
+Resposta correta: Milhas para viagens
+
+Pergunta 17: Qual prêmio a MaxMilhas recebeu que atesta a qualidade do seu ambiente de trabalho?
+  Opção 1: Melhores Empresas para Trabalhar
+  Opção 2: Prêmio RA 1000
+  Opção 3: Prêmio de Inovação Tecnológica
+  Opção 4: Empresas de Sucesso
+Resposta correta: Melhores Empresas para Trabalhar
+
+Pergunta 18: Qual é o foco principal do atendimento ao cliente na MaxMilhas?
+  Opção 1: Rapidez nas transações
+  Opção 2: Excelência e personalização
+  Opção 3: Vendas exclusivas
+  Opção 4: Descontos de fidelidade
+Resposta correta: Excelência e personalização
+
+Pergunta 19: Qual selo a MaxMilhas recebeu no Reclame Aqui?
+  Opção 1: RA 1000
+  Opção 2: Excelência em Atendimento
+  Opção 3: Selo de Qualidade
+  Opção 4: Top 10 Atendimento
+Resposta correta: RA 1000
+
+Pergunta 20: Qual valor guia a MaxMilhas a promover um ambiente de trabalho onde todos se sentem incluídos e respeitados?
+  Opção 1: Diversidade e inclusão
+  Opção 2: Crescimento pessoal
+  Opção 3: Inovação e agilidade
+  Opção 4: Foco no cliente
+Resposta correta: Diversidade e inclusão
+
+Pergunta 21: Como a MaxMilhas incentiva o desenvolvimento dos colaboradores?
+  Opção 1: Com treinamentos e mentorias
+  Opção 2: Apenas com feedbacks
+  Opção 3: Com cursos externos
+  Opção 4: Com aumento de salário
+Resposta correta: Com treinamentos e mentorias
+
+Pergunta 22: Qual é o modelo de negócio único que destaca a MaxMilhas no mercado de passagens?
+  Opção 1: Conexão entre vendedores de milhas e compradores de passagens
+  Opção 2: Venda direta de passagens aéreas
+  Opção 3: Promoção de viagens exclusivas
+  Opção 4: Ofertas de pacotes turísticos
+Resposta correta: Conexão entre vendedores de milhas e compradores de passagens
+
+Pergunta 23: Em que a MaxMilhas investe continuamente para aprimorar a experiência do usuário?
+  Opção 1: Tecnologia e inovação
+  Opção 2: Parcerias com hotéis
+  Opção 3: Marketing e publicidade
+  Opção 4: Descontos para clientes frequentes
+Resposta correta: Tecnologia e inovação
+
+Pergunta 24: Qual verbo-chave reflete o compromisso da MaxMilhas em oferecer as melhores soluções aos clientes?
+  Opção 1: Amar
+  Opção 2: Aproximar
+  Opção 3: Arriscar
+  Opção 4: Acelerar
+Resposta correta: Amar
+
+Pergunta 25: Qual é a missão da MaxMilhas que envolve conectar clientes e vendedores de milhas?
+  Opção 1: Aproximar
+  Opção 2: Arriscar
+  Opção 3: Amar
+  Opção 4: Acelerar
+Resposta correta: Aproximar
+
+Pergunta 26: O que a MaxMilhas busca ao encorajar a ousadia e a tomada de decisões corajosas?
+  Opção 1: Arriscar
+  Opção 2: Aproximar
+  Opção 3: Acelerar
+  Opção 4: Amar
+Resposta correta: Arriscar
+
+Pergunta 27: Qual é a principal responsabilidade da alta direção na MaxMilhas?
+  Opção 1: Gerenciar as operações diárias
+  Opção 2: Definir a estratégia global
+  Opção 3: Realizar atendimentos aos clientes
+  Opção 4: Desenvolver campanhas publicitárias
+Resposta correta: Definir a estratégia global
+
+Pergunta 28: Qual é a função principal das gerências na MaxMilhas?
+  Opção 1: Liderar equipes de atendimento
+  Opção 2: Supervisionar áreas específicas
+  Opção 3: Desenvolver software
+  Opção 4: Garantir conformidade legal
+Resposta correta: Supervisionar áreas específicas
+
+Pergunta 29: Qual equipe é responsável pela emissão de passagens na MaxMilhas?
+  Opção 1: Equipe de tecnologia
+  Opção 2: Equipe de operações
+  Opção 3: Equipe financeira
+  Opção 4: Equipe de marketing
+Resposta correta: Equipe de operações
+
+Pergunta 30: Qual o foco da equipe de atendimento ao cliente da MaxMilhas?
+  Opção 1: Garantir segurança dos dados
+  Opção 2: Resolver dúvidas e fornecer suporte
+  Opção 3: Gerenciar finanças
+  Opção 4: Criar estratégias de marketing
+Resposta correta: Resolver dúvidas e fornecer suporte
+
+Pergunta 31: Qual o principal objetivo da equipe de marketing da MaxMilhas?
+  Opção 1: Aumentar a visibilidade da marca
+  Opção 2: Analisar dados financeiros
+  Opção 3: Gerenciar emissão de passagens
+  Opção 4: Atender aos clientes
+Resposta correta: Aumentar a visibilidade da marca
+
+Pergunta 32: Quem é responsável pela plataforma tecnológica da MaxMilhas?
+  Opção 1: Equipe de operações
+  Opção 2: Equipe de tecnologia
+  Opção 3: Equipe de análise de dados
+  Opção 4: Equipe jurídica
+Resposta correta: Equipe de tecnologia
+
+Pergunta 33: Qual o papel da equipe de análise de dados na MaxMilhas?
+  Opção 1: Controlar receitas e despesas
+  Opção 2: Realizar emissões de passagens
+  Opção 3: Fornecer insights estratégicos
+  Opção 4: Atuar no atendimento ao cliente
+Resposta correta: Fornecer insights estratégicos
+
+Pergunta 34: Qual equipe gerencia as finanças da MaxMilhas?
+  Opção 1: Equipe de operações
+  Opção 2: Equipe financeira
+  Opção 3: Equipe de análise de dados
+  Opção 4: Alta direção
+Resposta correta: Equipe financeira
+
+Pergunta 35: Qual é a responsabilidade da equipe jurídica na MaxMilhas?
+  Opção 1: Proteger os dados dos clientes
+  Opção 2: Garantir conformidade legal
+  Opção 3: Desenvolver campanhas de marketing
+  Opção 4: Gerenciar operações diárias
+Resposta correta: Garantir conformidade legal
+
+Pergunta 36: Como a MaxMilhas promove a colaboração entre as equipes?
+  Opção 1: Impondo regras rígidas
+  Opção 2: Estimulando inovação e comunicação aberta
+  Opção 3: Usando sistemas de controle
+  Opção 4: Limitando interações entre setores
+Resposta correta: Estimulando inovação e comunicação aberta
+
+Pergunta 37: O que significa o termo 'Cérebro de Branding' na MaxMilhas?
+  Opção 1: Uma equipe de marketing
+  Opção 2: Uma ferramenta que centraliza a estratégia de marca
+  Opção 3: Um setor da alta direção
+  Opção 4: Um software de análise de dados
+Resposta correta: Uma ferramenta que centraliza a estratégia de marca
+
+Pergunta 38: Qual é o principal compromisso da MaxMilhas?
+  Opção 1: Garantir satisfação financeira
+  Opção 2: Oferecer formas inteligentes de viajar mais
+  Opção 3: Ser a líder em viagens a negócios
+  Opção 4: Focar no desenvolvimento tecnológico
+Resposta correta: Oferecer formas inteligentes de viajar mais
+
+Pergunta 39: Como a MaxMilhas se diferencia no mercado?
+  Opção 1: Pela exclusividade dos serviços
+  Opção 2: Por oferecer uma experiência intuitiva e preços competitivos
+  Opção 3: Por limitar seu público a viajantes de negócios
+  Opção 4: Por ser exclusivamente uma agência de viagens
+Resposta correta: Por oferecer uma experiência intuitiva e preços competitivos
+
+
+Curso: Noções de Informática
+
+Pergunta 1: Qual é a função principal de um navegador de internet?
+  Opção 1: Acessar sites na web
+  Opção 2: Criar documentos
+  Opção 3: Executar programas
+  Opção 4: Armazenar arquivos
+Resposta correta: Acessar sites na web
+
+Pergunta 2: Qual é o navegador mais popular, conhecido por sua velocidade e integração com a conta do Google?
+  Opção 1: Mozilla Firefox
+  Opção 2: Opera GX
+  Opção 3: Google Chrome
+  Opção 4: Microsoft Edge
+Resposta correta: Google Chrome
+
+Pergunta 3: Qual o atalho no Chrome para abrir o histórico de navegação?
+  Opção 1: Ctrl + T
+  Opção 2: Ctrl + W
+  Opção 3: Ctrl + H
+  Opção 4: Ctrl + Shift + N
+Resposta correta: Ctrl + H
+
+Pergunta 4: Qual a finalidade da navegação anônima ou privada?
+  Opção 1: Salvar favoritos
+  Opção 2: Armazenar histórico
+  Opção 3: Bloquear anúncios
+  Opção 4: Navegar sem salvar histórico ou cookies
+Resposta correta: Navegar sem salvar histórico ou cookies
+
+Pergunta 5: Para acessar um site seguro, o que você deve observar no início do endereço do site?
+  Opção 1: ftp://
+  Opção 2: http://
+  Opção 3: https://
+  Opção 4: www.
+Resposta correta: https://
+
+Pergunta 6: O que são extensões de navegador?
+  Opção 1: Sites na web
+  Opção 2: Pequenos programas que adicionam funcionalidades
+  Opção 3: Sistemas operacionais
+  Opção 4: Aplicativos de segurança
+Resposta correta: Pequenos programas que adicionam funcionalidades
+
+Pergunta 7: Como habilitar uma extensão para funcionar em modo anônimo no Google Chrome?
+  Opção 1: Vá até Configurações > Segurança
+  Opção 2: Acesse chrome://extensions/ e ative o modo desenvolvedor
+  Opção 3: Acesse chrome://extensions/ e ative a opção permitir em modo anônimo
+  Opção 4: Arraste a extensão para a barra de endereços
+Resposta correta: Acesse chrome://extensions/ e ative a opção permitir em modo anônimo
+
+Pergunta 8: O que são cookies?
+  Opção 1: Arquivos de texto armazenados no navegador
+  Opção 2: Programas de software
+  Opção 3: Imagens de sites
+  Opção 4: Vídeos de navegação
+Resposta correta: Arquivos de texto armazenados no navegador
+
+Pergunta 9: Qual é a função dos cookies de preferências?
+  Opção 1: Armazenar dados de login
+  Opção 2: Guardar preferências de idioma e layout
+  Opção 3: Rastrear a atividade do usuário
+  Opção 4: Controlar o tempo de navegação
+Resposta correta: Guardar preferências de idioma e layout
+
+Pergunta 10: O que são cookies de sessão?
+  Opção 1: Cookies que permanecem no navegador por tempo indeterminado
+  Opção 2: Cookies que desaparecem ao fechar o navegador
+  Opção 3: Cookies utilizados apenas para publicidade
+  Opção 4: Cookies que armazenam dados de forma permanente
+Resposta correta: Cookies que desaparecem ao fechar o navegador
+
+Pergunta 11: Qual é a principal preocupação com cookies de terceiros?
+  Opção 1: Aumentam a velocidade de navegação
+  Opção 2: Comprometem a segurança do navegador
+  Opção 3: Rastreiam a atividade do usuário em vários sites
+  Opção 4: Facilitam o login automático
+Resposta correta: Rastreiam a atividade do usuário em vários sites
+
+Pergunta 12: Qual é a função de um cookie persistente?
+  Opção 1: Guardar informações temporariamente
+  Opção 2: Permitir o login automático em várias visitas
+  Opção 3: Desaparecer ao fechar o navegador
+  Opção 4: Aumentar a largura de banda da conexão
+Resposta correta: Permitir o login automático em várias visitas
+
+Pergunta 13: Como os cookies ajudam na personalização da experiência de navegação?
+  Opção 1: Impedindo que sites sejam acessados
+  Opção 2: Lembrando preferências e informações do usuário
+  Opção 3: Aumentando a velocidade de download
+  Opção 4: Bloqueando anúncios
+Resposta correta: Lembrando preferências e informações do usuário
+
+Pergunta 14: Por que é importante gerenciar cookies?
+  Opção 1: Para aumentar a velocidade do navegador
+  Opção 2: Para proteger a privacidade online
+  Opção 3: Para evitar downloads automáticos
+  Opção 4: Para melhorar a qualidade da imagem
+Resposta correta: Para proteger a privacidade online
+
+Pergunta 15: O que é uma VPN?
+  Opção 1: Rede privada virtual
+  Opção 2: Serviço de e-mail
+  Opção 3: Sistema de backup
+  Opção 4: Antivírus
+Resposta correta: Rede privada virtual
+
+Pergunta 16: Qual é a principal função de uma VPN?
+  Opção 1: Aumentar a velocidade da internet
+  Opção 2: Criar uma conexão segura
+  Opção 3: Compartilhar arquivos
+  Opção 4: Limitar o acesso à internet
+Resposta correta: Criar uma conexão segura
+
+Pergunta 17: Qual é uma vantagem do uso de uma VPN?
+  Opção 1: Acesso a redes públicas
+  Opção 2: Maior privacidade online
+  Opção 3: Redução de custos de internet
+  Opção 4: Aumento de sinal Wi-Fi
+Resposta correta: Maior privacidade online
+
+Pergunta 18: O que é criptografia em uma VPN?
+  Opção 1: O processo de aumentar a velocidade da conexão
+  Opção 2: A técnica de ocultar dados durante a transmissão
+  Opção 3: Uma forma de acessar a internet rapidamente
+  Opção 4: Um método de compartilhar arquivos
+Resposta correta: A técnica de ocultar dados durante a transmissão
+
+Pergunta 19: Qual é um tipo de VPN?
+  Opção 1: VPN de acesso remoto
+  Opção 2: VPN de backup
+  Opção 3: VPN de armazenamento
+  Opção 4: VPN de comunicação
+Resposta correta: VPN de acesso remoto
+
+Pergunta 20: Para que serve a VPN de site a site?
+  Opção 1: Conectar redes locais de diferentes escritórios
+  Opção 2: Aumentar a velocidade da internet
+  Opção 3: Bloquear sites indesejados
+  Opção 4: Armazenar dados na nuvem
+Resposta correta: Conectar redes locais de diferentes escritórios
+
+Pergunta 21: Qual ferramenta de VPN é utilizada pela MaxMilhas para superar bloqueios em sites de companhias aéreas?
+  Opção 1: AVG Secure VPN
+  Opção 2: NordVPN
+  Opção 3: ExpressVPN
+  Opção 4: CyberGhost
+Resposta correta: AVG Secure VPN
+
+Pergunta 22: Qual é a função principal das ferramentas de captura de tela na MaxMilhas?
+  Opção 1: Registrar informações visuais
+  Opção 2: Editar vídeos
+  Opção 3: Criar apresentações
+  Opção 4: Enviar e-mails
+Resposta correta: Registrar informações visuais
+
+Pergunta 23: Qual ferramenta nativa do Windows é utilizada para capturar a tela?
+  Opção 1: Lightshot
+  Opção 2: Snipping Tool
+  Opção 3: Photoshop
+  Opção 4: Paint
+Resposta correta: Snipping Tool
+
+Pergunta 24: Como você pode capturar um e-ticket utilizando as ferramentas de captura?
+  Opção 1: Através de um aplicativo de vídeo
+  Opção 2: Utilizando Snipping Tool ou Lightshot
+  Opção 3: Fazendo uma captura de som
+  Opção 4: Mandando um e-mail
+Resposta correta: Utilizando Snipping Tool ou Lightshot
+
+Pergunta 25: Qual é uma das funções do CCleaner?
+  Opção 1: Capturar telas
+  Opção 2: Remover arquivos temporários
+  Opção 3: Editar imagens
+  Opção 4: Criar backups de arquivos
+Resposta correta: Remover arquivos temporários
+
+Pergunta 26: Qual é o atalho padrão para usar a Ferramenta de Captura no Windows 10/11?
+  Opção 1: Ctrl + C
+  Opção 2: Alt + S
+  Opção 3: Windows + Shift + S
+  Opção 4: Print Screen
+Resposta correta: Windows + Shift + S
+
+Pergunta 27: Qual simulador Android é conhecido por sua leveza e alto desempenho?
+  Opção 1: BlueStacks
+  Opção 2: LDPlayer 9
+  Opção 3: NoxPlayer
+  Opção 4: Genymotion
+Resposta correta: LDPlayer 9
+
+Pergunta 28: Para que os simuladores Android são utilizados na MaxMilhas?
+  Opção 1: Apenas para jogos
+  Opção 2: Para emular a experiência de dispositivos móveis
+  Opção 3: Para edição de vídeos
+  Opção 4: Para programação
+Resposta correta: Para emular a experiência de dispositivos móveis
+
+Pergunta 29: Qual é o principal objetivo da segurança da informação?
+  Opção 1: Proteger dados contra acessos não autorizados
+  Opção 2: Aumentar a velocidade da internet
+  Opção 3: Reduzir custos operacionais
+  Opção 4: Facilitar a comunicação interna
+Resposta correta: Proteger dados contra acessos não autorizados
+
+Pergunta 30: Quais são os três pilares fundamentais da segurança da informação?
+  Opção 1: Confidencialidade, integridade e disponibilidade
+  Opção 2: Autenticidade, segurança e transparência
+  Opção 3: Privacidade, confiabilidade e acessibilidade
+  Opção 4: Veracidade, controle e rastreabilidade
+Resposta correta: Confidencialidade, integridade e disponibilidade
+
+Pergunta 31: O que deve ser evitado ao criar senhas?
+  Opção 1: Utilizar combinações de letras e números
+  Opção 2: Usar informações pessoais como data de nascimento
+  Opção 3: Trocar senhas periodicamente
+  Opção 4: Utilizar autenticação de dois fatores
+Resposta correta: Usar informações pessoais como data de nascimento
+
+Pergunta 32: Qual prática deve ser adotada para proteger dispositivos?
+  Opção 1: Deixar o dispositivo desbloqueado em locais públicos
+  Opção 2: Utilizar senhas e bloqueios de tela
+  Opção 3: Instalar software de fontes desconhecidas
+  Opção 4: Desativar atualizações de segurança
+Resposta correta: Utilizar senhas e bloqueios de tela
+
+Pergunta 33: O que é phishing?
+  Opção 1: Uma técnica de proteção de dados
+  Opção 2: Um tipo de ataque que tenta enganar o usuário para obter informações sensíveis
+  Opção 3: Uma ferramenta de segurança da informação
+  Opção 4: Um tipo de software antivírus
+Resposta correta: Um tipo de ataque que tenta enganar o usuário para obter informações sensíveis
+
+Pergunta 34: Qual é a finalidade da LGPD?
+  Opção 1: Regular a coleta, armazenamento e tratamento de dados pessoais
+  Opção 2: Aumentar a velocidade da internet
+  Opção 3: Facilitar a comunicação interna
+  Opção 4: Reduzir os custos operacionais
+Resposta correta: Regular a coleta, armazenamento e tratamento de dados pessoais
+
+Pergunta 35: Qual ferramenta é utilizada na MaxMilhas para comunicação interna segura?
+  Opção 1: Slack
+  Opção 2: Metabase
+  Opção 3: Zendesk
+  Opção 4: AVG Secure VPN
+Resposta correta: Slack
+
+
+Curso: Prejuízos
+
+Pergunta 1: O que são prejuízos financeiros?
+  Opção 1: Aumento de receitas
+  Opção 2: Perda financeira em operações ou investimentos
+  Opção 3: Lucro líquido da empresa
+  Opção 4: Reservas de emergência
+Resposta correta: Perda financeira em operações ou investimentos
+
+Pergunta 2: Qual é um dos impactos diretos dos prejuízos na empresa?
+  Opção 1: Aumento do lucro
+  Opção 2: Comprometimento do fluxo de caixa
+  Opção 3: Facilidade de financiamento
+  Opção 4: Melhoria na reputação
+Resposta correta: Comprometimento do fluxo de caixa
+
+Pergunta 3: Qual dos seguintes fatores contribui para os prejuízos na MaxMilhas?
+  Opção 1: Aumento de vendas
+  Opção 2: Emissão na conta errada
+  Opção 3: Redução de custos operacionais
+  Opção 4: Investimentos bem-sucedidos
+Resposta correta: Emissão na conta errada
+
+Pergunta 4: Qual tipo de prejuízo ocorre quando uma passagem é emitida mais de uma vez?
+  Opção 1: Emissão na conta errada
+  Opção 2: Emissão duplicada
+  Opção 3: Transação cancelada
+  Opção 4: Aumento indevido de milhas
+Resposta correta: Emissão duplicada
+
+Pergunta 5: O que significa 'transação cancelada com localizador ativo'?
+  Opção 1: Transação concluída com sucesso
+  Opção 2: Cancelamento de uma transação sem impacto
+  Opção 3: Cancelamento sem remoção do localizador, resultando em possíveis custos adicionais
+  Opção 4: Transação reembolsada totalmente
+Resposta correta: Cancelamento sem remoção do localizador, resultando em possíveis custos adicionais
+
+Pergunta 6: Qual é um dos tipos comuns de prejuízos identificados na MaxMilhas?
+  Opção 1: Aumento das vendas
+  Opção 2: Emissão na conta errada
+  Opção 3: Transferência de milhas bem-sucedida
+  Opção 4: Promoções de milhas
+Resposta correta: Emissão na conta errada
+
+Pergunta 7: O que é essencial para minimizar prejuízos na empresa?
+  Opção 1: Aumento de investimentos
+  Opção 2: Implementação de medidas preventivas e treinamento adequado
+  Opção 3: Expansão das operações
+  Opção 4: Redução de custos
+Resposta correta: Implementação de medidas preventivas e treinamento adequado
+
+Pergunta 8: O que é uma emissão duplicada?
+  Opção 1: Uma passagem emitida corretamente
+  Opção 2: Quando a mesma transação é emitida mais de uma vez
+  Opção 3: Emissão de passagens em contas diferentes
+  Opção 4: Cancelamento de uma passagem
+Resposta correta: Quando a mesma transação é emitida mais de uma vez
+
+Pergunta 9: Qual é a principal causa das emissões duplicadas?
+  Opção 1: Falta de checagem no log automático
+  Opção 2: Verificação rigorosa
+  Opção 3: Processo de treinamento adequado
+  Opção 4: Controle de qualidade das emissões
+Resposta correta: Falta de checagem no log automático
+
+Pergunta 10: Qual ação deve ser tomada ao identificar uma emissão duplicada?
+  Opção 1: Emitir uma nova passagem
+  Opção 2: Cancelar a transação anterior
+  Opção 3: Alterar os dados da nova transação
+  Opção 4: Ignorar o erro
+Resposta correta: Cancelar a transação anterior
+
+Pergunta 11: O que pode resultar de uma emissão na conta errada?
+  Opção 1: Confusão no gerenciamento das reservas
+  Opção 2: Aumento de receitas
+  Opção 3: Melhoria na experiência do cliente
+  Opção 4: Redução de custos operacionais
+Resposta correta: Confusão no gerenciamento das reservas
+
+Pergunta 12: Por que as emissões na conta errada ocorrem?
+  Opção 1: Falta de atenção do analista
+  Opção 2: Processos automatizados
+  Opção 3: Verificações constantes
+  Opção 4: Comunicação eficaz
+Resposta correta: Falta de atenção do analista
+
+Pergunta 13: Qual é um passo importante para evitar emissões na conta errada?
+  Opção 1: Realizar uma verificação no extrato do ofertante
+  Opção 2: Emitir passagens rapidamente
+  Opção 3: Aumentar o número de transações
+  Opção 4: Simplificar o processo de emissão
+Resposta correta: Realizar uma verificação no extrato do ofertante
+
+Pergunta 14: Qual a importância do treinamento para os analistas?
+  Opção 1: Aumentar a quantidade de emissões
+  Opção 2: Minimizar erros e melhorar a eficiência do processo de emissão
+  Opção 3: Reduzir o tempo de trabalho
+  Opção 4: Eliminação de controles
+Resposta correta: Minimizar erros e melhorar a eficiência do processo de emissão
+
+Pergunta 15: O que ocorre quando uma transação é cancelada sem verificação?
+  Opção 1: O cancelamento é bem-sucedido
+  Opção 2: Um localizador ativo permanece
+  Opção 3: O cliente é informado automaticamente
+  Opção 4: Não há impacto na reserva
+Resposta correta: Um localizador ativo permanece
+
+Pergunta 16: Qual é a principal causa de uma transação cancelada com localizador ativo?
+  Opção 1: Verificação excessiva
+  Opção 2: Falta de checagem no log automático
+  Opção 3: Atualização de dados
+  Opção 4: Comunicação com o cliente
+Resposta correta: Falta de checagem no log automático
+
+Pergunta 17: Como deve ser tratada uma transação cancelada em até 24 horas?
+  Opção 1: Aguarda-se o retorno do cliente
+  Opção 2: Contato com a companhia aérea para cancelamento sem custo
+  Opção 3: Realiza-se nova emissão
+  Opção 4: Ignora-se a transação
+Resposta correta: Contato com a companhia aérea para cancelamento sem custo
+
+Pergunta 18: O que acontece quando há um aumento de milhas e a emissão é realizada sem correção?
+  Opção 1: O cliente recebe reembolso
+  Opção 2: A quantidade de milhas utilizada permanece incorreta
+  Opção 3: O sistema cancela automaticamente
+  Opção 4: Não há consequências
+Resposta correta: A quantidade de milhas utilizada permanece incorreta
+
+Pergunta 19: Qual é uma ação importante para tratar um aumento sem tratativa?
+  Opção 1: Alterar a quantidade de milhas no sistema administrativo
+  Opção 2: Emitir a passagem imediatamente
+  Opção 3: Comunicar apenas a equipe
+  Opção 4: Esperar feedback do cliente
+Resposta correta: Alterar a quantidade de milhas no sistema administrativo
+
+Pergunta 20: O que deve ser inserido no fluxo de processo de emissão em relação à quantidade de milhas?
+  Opção 1: Um passo que exige checagem da quantidade de milhas
+  Opção 2: Um botão para ignorar aumentos
+  Opção 3: Uma tabela de referência
+  Opção 4: Nada, pois não é necessário
+Resposta correta: Um passo que exige checagem da quantidade de milhas
+
+Pergunta 21: Por que é importante treinar a equipe sobre as verificações de milhas?
+  Opção 1: Para aumentar a carga de trabalho
+  Opção 2: Para garantir a eficiência no atendimento ao cliente
+  Opção 3: Para evitar erros e garantir a precisão nas transações
+  Opção 4: Para reduzir o número de passagens emitidas
+Resposta correta: Para evitar erros e garantir a precisão nas transações
+
+
+Curso: Emissões
+
+Pergunta 1: Qual é o primeiro passo do processo de transação na Maxmilhas?
+  Opção 1: Análise do pagamento
+  Opção 2: Compra de passagem no site
+  Opção 3: Criação da transação no Cockpit
+  Opção 4: Envio do localizador ao cliente
+Resposta correta: Compra de passagem no site
+
+Pergunta 2: Quanto tempo pode levar a análise do pagamento após a compra?
+  Opção 1: Imediatamente
+  Opção 2: Até 12 horas
+  Opção 3: 24 horas
+  Opção 4: 48 horas
+Resposta correta: Até 12 horas
+
+Pergunta 3: O que ocorre após a aprovação do pagamento?
+  Opção 1: A transação é cancelada
+  Opção 2: A transação é criada no Cockpit
+  Opção 3: O cliente recebe um reembolso
+  Opção 4: Nada acontece
+Resposta correta: A transação é criada no Cockpit
+
+Pergunta 4: Qual é o objetivo principal do Cockpit na Maxmilhas?
+  Opção 1: Emitir passagens
+  Opção 2: Gerenciar o atendimento ao cliente
+  Opção 3: Conectar ofertantes de milhas
+  Opção 4: Realizar pagamentos
+Resposta correta: Conectar ofertantes de milhas
+
+Pergunta 5: Qual é a finalidade do localizador enviado ao cliente?
+  Opção 1: Acompanhar a viagem
+  Opção 2: Realizar o pagamento
+  Opção 3: Alterar a reserva
+  Opção 4: Emitir novas passagens
+Resposta correta: Acompanhar a viagem
+
+Pergunta 6: O que deve ser feito para iniciar transações no Cockpit?
+  Opção 1: Contatar o cliente
+  Opção 2: Efetuar login no sistema
+  Opção 3: Aguarda-se o pagamento
+  Opção 4: Verificar as milhas disponíveis
+Resposta correta: Efetuar login no sistema
+
+Pergunta 7: Quais informações podem ser registradas nos comentários das transações?
+  Opção 1: Detalhes do voo
+  Opção 2: Dados pessoais do cliente
+  Opção 3: Informações sobre a emissão
+  Opção 4: Status de pagamento
+Resposta correta: Informações sobre a emissão
+
+Pergunta 8: Qual é o primeiro passo após iniciar uma transação no Cockpit?
+  Opção 1: Verificar a tarifa
+  Opção 2: Acessar o site da companhia aérea
+  Opção 3: Confirmar a data do voo
+  Opção 4: Emitir o bilhete
+Resposta correta: Acessar o site da companhia aérea
+
+Pergunta 9: O que deve ser confirmado ao buscar pelo voo no site da companhia aérea?
+  Opção 1: O nome do passageiro
+  Opção 2: O número do voo
+  Opção 3: A quantidade de milhas
+  Opção 4: O CPF do ofertante
+Resposta correta: O número do voo
+
+Pergunta 10: Por que é importante verificar a tarifa no site da companhia aérea?
+  Opção 1: Para alterar o número do voo
+  Opção 2: Para evitar problemas na emissão
+  Opção 3: Para adicionar mais milhas
+  Opção 4: Para cancelar a transação
+Resposta correta: Para evitar problemas na emissão
+
+Pergunta 11: O que deve ser feito se houver um aumento na quantidade de milhas durante a verificação?
+  Opção 1: Atualizar as milhas no Cockpit
+  Opção 2: Emitir um novo bilhete
+  Opção 3: Remover o ofertante
+  Opção 4: Cancelar a transação
+Resposta correta: Atualizar as milhas no Cockpit
+
+Pergunta 12: Qual é a primeira ação ao cancelar uma transação por voo indisponível?
+  Opção 1: Atualizar a página
+  Opção 2: Trocar o ofertante
+  Opção 3: Selecionar o motivo do cancelamento
+  Opção 4: Confirmar o cancelamento
+Resposta correta: Trocar o ofertante
+
+Pergunta 13: Qual informação é essencial para cadastrar passageiros no site da companhia aérea?
+  Opção 1: Data de nascimento
+  Opção 2: Número do voo
+  Opção 3: Horário do voo
+  Opção 4: Limite do cartão
+Resposta correta: CPF
+
+Pergunta 14: O que deve ser revisado na página de pagamento antes de finalizar a compra?
+  Opção 1: Dados do passageiro
+  Opção 2: Número do cartão de crédito
+  Opção 3: Informações do voo
+  Opção 4: Dados do ofertante
+Resposta correta: Informações do voo
+
+Pergunta 15: O que é um e-ticket?
+  Opção 1: Um bilhete físico
+  Opção 2: Um comprovante digital da compra
+  Opção 3: Um código de acesso ao voo
+  Opção 4: Uma etiqueta de bagagem
+Resposta correta: Um comprovante digital da compra
+
+Pergunta 16: Qual informação NÃO está incluída no e-ticket?
+  Opção 1: Número do voo
+  Opção 2: Data e hora da partida
+  Opção 3: Número da mala
+  Opção 4: Dados do passageiro
+Resposta correta: Número da mala
+
+Pergunta 17: Como deve ser capturado o e-ticket?
+  Opção 1: Imprimindo-o
+  Opção 2: Usando uma ferramenta de captura de tela
+  Opção 3: Salvando em formato PDF
+  Opção 4: Enviando por e-mail
+Resposta correta: Usando uma ferramenta de captura de tela
+
+Pergunta 18: Qual é a primeira ação a ser realizada após a confirmação do pagamento?
+  Opção 1: Retornar ao Cockpit
+  Opção 2: Capturar o e-ticket
+  Opção 3: Fazer upload do e-ticket
+  Opção 4: Iniciar a emissão automática
+Resposta correta: Capturar o e-ticket
+
+Pergunta 19: Qual é a função do botão 'Inserir e-ticket' no Cockpit?
+  Opção 1: Emitir um novo e-ticket
+  Opção 2: Registrar o e-ticket capturado
+  Opção 3: Cancelar a transação
+  Opção 4: Visualizar detalhes do voo
+Resposta correta: Registrar o e-ticket capturado
+
+Pergunta 20: O que deve ser feito se aparecer uma mensagem de erro na checagem automática?
+  Opção 1: Ignorar a mensagem
+  Opção 2: Verificar os dados inseridos
+  Opção 3: Repetir o processo de inserção
+  Opção 4: Registrar o erro no sistema
+Resposta correta: Verificar os dados inseridos
+
+Pergunta 21: Qual é o propósito das emissões semi-automáticas?
+  Opção 1: Emitir passagens sem supervisão
+  Opção 2: Combinar automação com supervisão humana
+  Opção 3: Facilitar a emissão manual de passagens
+  Opção 4: Gerar relatórios financeiros
+Resposta correta: Combinar automação com supervisão humana
+
+Pergunta 22: Qual é a função principal da aba de Erro após pagamento?
+  Opção 1: Emitir bilhetes aéreos
+  Opção 2: Gerenciar transações com problemas
+  Opção 3: Controlar as bagagens
+  Opção 4: Registrar pagamentos
+Resposta correta: Gerenciar transações com problemas
+
+Pergunta 23: O que deve ser verificado na conta do ofertante para transações com erro?
+  Opção 1: Saldo disponível
+  Opção 2: Status da emissão da passagem
+  Opção 3: Número de milhas acumuladas
+  Opção 4: Data da compra
+Resposta correta: Status da emissão da passagem
+
+Pergunta 24: Qual ação deve ser tomada se a passagem não tiver sido emitida após um erro?
+  Opção 1: Encerrar a transação
+  Opção 2: Emitir a passagem manualmente
+  Opção 3: Aguardar mais um dia
+  Opção 4: Contactar o suporte
+Resposta correta: Emitir a passagem manualmente
+
+Pergunta 25: O que a aba Erro/Aumento monitora?
+  Opção 1: Transações finalizadas
+  Opção 2: Transações com aumento de milhas ou erros
+  Opção 3: Histórico de emissões
+  Opção 4: Dados do cliente
+Resposta correta: Transações com aumento de milhas ou erros
+
+Pergunta 26: Qual é o prazo para monitorar transações na aba Erro/Aumento?
+  Opção 1: 30 minutos
+  Opção 2: 1 a 2 horas
+  Opção 3: 24 horas
+  Opção 4: Imediatamente
+Resposta correta: 1 a 2 horas
+
+Pergunta 27: Qual é a primeira etapa para adicionar bagagens em uma transação da Gol?
+  Opção 1: Contatar o suporte
+  Opção 2: Acessar o site da Gol
+  Opção 3: Emitir um novo e-ticket
+  Opção 4: Cancelar a passagem
+Resposta correta: Acessar o site da Gol
+
+Pergunta 28: Por que é importante adicionar bagagens corretamente?
+  Opção 1: Para evitar erros de pagamento
+  Opção 2: Para garantir a experiência tranquila no aeroporto
+  Opção 3: Para aumentar as milhas
+  Opção 4: Para finalizar a compra mais rápido
+Resposta correta: Para garantir a experiência tranquila no aeroporto
+
+Pergunta 29: Qual é a função principal da aba de checagem?
+  Opção 1: Emitir bilhetes aéreos
+  Opção 2: Gerenciar transações pendentes devido a erros
+  Opção 3: Registrar pagamentos
+  Opção 4: Adicionar bagagens
+Resposta correta: Gerenciar transações pendentes devido a erros
+
+Pergunta 30: O que deve ser verificado na aba de checagem?
+  Opção 1: Dados de pagamento e informações do cartão
+  Opção 2: Informações do cliente
+  Opção 3: Transações anteriores
+  Opção 4: Estatísticas de vendas
+Resposta correta: Dados de pagamento e informações do cartão
+
+Pergunta 31: Qual ação deve ser tomada se os dados estiverem incorretos na aba de checagem?
+  Opção 1: Cancelar e reemitir a passagem
+  Opção 2: Notificar o cliente
+  Opção 3: Aguardar mais um dia
+  Opção 4: Emitir o bilhete normalmente
+Resposta correta: Cancelar e reemitir a passagem
+
+Pergunta 32: Quando uma transação é marcada como suspeita de fraude, o que deve ser feito?
+  Opção 1: Emitir a passagem imediatamente
+  Opção 2: Verificar cuidadosamente antes da emissão
+  Opção 3: Cancelar a transação
+  Opção 4: Aguardar autorização do gerente
+Resposta correta: Verificar cuidadosamente antes da emissão
+
+Pergunta 33: Qual método de pagamento permite prosseguir com a emissão sem verificações adicionais?
+  Opção 1: Cartão de crédito
+  Opção 2: Payme ou Pagar.me
+  Opção 3: Transferência bancária
+  Opção 4: Boleto
+Resposta correta: Payme ou Pagar.me
+
+Pergunta 34: O que deve ser feito se encontrar um e-mail de contestação de pagamento no Zendesk?
+  Opção 1: Emitir a passagem
+  Opção 2: Notificar o grupo de prevenção
+  Opção 3: Cancelar a transação
+  Opção 4: Prosseguir com a emissão após notificação
+Resposta correta: Não emitir a passagem nesse caso
+
+Pergunta 35: Qual é o procedimento padrão se uma transação foi feita com dados incorretos?
+  Opção 1: Cancelar o localizador e refazer a emissão
+  Opção 2: Emitir a passagem novamente
+  Opção 3: Notificar o cliente
+  Opção 4: Aguardar mais um dia
+Resposta correta: Cancelar o localizador e refazer a emissão
+
+
+Curso: Emissoes LATAM
+
+Pergunta 1: Qual é o primeiro passo para iniciar a emissão de passagens no Cockpit da Maxmilhas?
+  Opção 1: Selecionar a aba Completo
+  Opção 2: Efetuar login
+  Opção 3: Escolher a companhia aérea
+  Opção 4: Iniciar emissões
+Resposta correta: Efetuar login
+
+Pergunta 2: Qual opção deve ser selecionada no menu lateral para acessar as funcionalidades completas de emissão?
+  Opção 1: Emissões
+  Opção 2: Cockpit
+  Opção 3: Relatórios
+  Opção 4: Configurações
+Resposta correta: Cockpit
+
+Pergunta 3: O que é necessário fazer após escolher uma aba para emissões no Cockpit?
+  Opção 1: Aplicar opções de filtragem
+  Opção 2: Efetuar logout
+  Opção 3: Acessar o suporte
+  Opção 4: Visualizar o histórico
+Resposta correta: Aplicar opções de filtragem
+
+Pergunta 4: Quais tipos de pontos os membros do Latam Pass podem acumular ao voar?
+  Opção 1: Pontos de bônus e pontos qualificáveis
+  Opção 2: Pontos de milhas e pontos de desconto
+  Opção 3: Pontos internacionais e locais
+  Opção 4: Pontos de viagem e pontos promocionais
+Resposta correta: Pontos de bônus e pontos qualificáveis
+
+Pergunta 5: Qual categoria do Latam Pass oferece benefícios como acesso a salas VIP?
+  Opção 1: Gold
+  Opção 2: Latam Pass
+  Opção 3: Diamante
+  Opção 4: Platinum
+Resposta correta: Platinum
+
+Pergunta 6: O que os membros do Latam Pass podem fazer com seus pontos acumulados?
+  Opção 1: Trocar por passagens aéreas
+  Opção 2: Realizar check-in
+  Opção 3: Criar novos voos
+  Opção 4: Cancelar passagens
+Resposta correta: Trocar por passagens aéreas
+
+Pergunta 7: O que indica o comentário 'Erro: usuário e/ou senha inválidos'?
+  Opção 1: Problema na conexão com a internet
+  Opção 2: Credenciais fornecidas não foram aceitas
+  Opção 3: Sistema fora do ar
+  Opção 4: Erro no código de emissão
+Resposta correta: Credenciais fornecidas não foram aceitas
+
+Pergunta 8: Qual é a função principal da Bifrost na emissão de bilhetes da Latam?
+  Opção 1: Salvar sessões para login
+  Opção 2: Emitir bilhetes aéreos
+  Opção 3: Criar relatórios de milhas
+  Opção 4: Gerar alertas de voos
+Resposta correta: Salvar sessões para login
+
+Pergunta 9: Qual é o primeiro passo para acessar a conta do ofertante usando a Bifrost?
+  Opção 1: Inserir o CPF do ofertante
+  Opção 2: Conectar ao IP do ofertante
+  Opção 3: Abrir o site da Latam
+  Opção 4: Salvar a sessão
+Resposta correta: Inserir o CPF do ofertante
+
+Pergunta 10: O que deve ser feito se não houver uma sessão salva na Bifrost?
+  Opção 1: Acessar a conta manualmente
+  Opção 2: Reiniciar o aplicativo
+  Opção 3: Desconectar do IP
+  Opção 4: Aguardar um tempo
+Resposta correta: Acessar a conta manualmente
+
+Pergunta 11: Qual é a importância de salvar a sessão após o login na Latam?
+  Opção 1: Facilitar futuras emissões
+  Opção 2: Aumentar a segurança do login
+  Opção 3: Permitir acesso a relatórios
+  Opção 4: Alterar dados do ofertante
+Resposta correta: Facilitar futuras emissões
+
+Pergunta 12: Qual é o passo correto para deslogar do ofertante?
+  Opção 1: Fechar o navegador
+  Opção 2: Deslogar na extensão e no aplicativo
+  Opção 3: Reiniciar o computador
+  Opção 4: Desconectar da internet
+Resposta correta: Deslogar na extensão e no aplicativo
+
+Pergunta 13: O que deve ser verificado após iniciar uma transação no Cockpit?
+  Opção 1: Dados do voo e quantidade de milhas
+  Opção 2: Saldo do CPF
+  Opção 3: Histórico de emissões
+  Opção 4: Tarifas de outros voos
+Resposta correta: Dados do voo e quantidade de milhas
+
+Pergunta 14: Qual é uma solução para o erro de busca no site da Latam?
+  Opção 1: Pesquisar em dinheiro primeiro
+  Opção 2: Limpar o histórico do navegador
+  Opção 3: Aumentar a velocidade da internet
+  Opção 4: Trocar de computador
+Resposta correta: Pesquisar em dinheiro primeiro
+
+Pergunta 15: Qual motivo pode ser selecionado se a senha do ofertante atual estiver incorreta?
+  Opção 1: Saldo insuficiente
+  Opção 2: Conta bloqueada
+  Opção 3: Senha incorreta
+  Opção 4: Erro de pagamento
+Resposta correta: Senha incorreta
+
+Pergunta 16: Quando é necessário trocar de ofertante devido à falta de CPFs disponíveis?
+  Opção 1: Saldo insuficiente
+  Opção 2: Sem beneficiários (CPFs) disponíveis
+  Opção 3: Conta bloqueada
+  Opção 4: Erro de pagamento
+Resposta correta: Sem beneficiários (CPFs) disponíveis
+
+Pergunta 17: O que acontece se a conta do ofertante estiver bloqueada na LATAM?
+  Opção 1: Nada acontece
+  Opção 2: Oferta vai para 'Inativo - forbidden'
+  Opção 3: Emissão é permitida
+  Opção 4: Ofertante é removido automaticamente
+Resposta correta: Oferta vai para 'Inativo - forbidden'
+
+Pergunta 18: Qual motivo deve ser utilizado se o ofertante não atende o telefone/WhatsApp?
+  Opção 1: Conta bloqueada
+  Opção 2: Erro de pagamento
+  Opção 3: Não atende o Telefone/WhatsApp
+  Opção 4: Saldo insuficiente
+Resposta correta: Não atende o Telefone/WhatsApp
+
+Pergunta 19: Qual é uma das opções de motivo para troca de ofertante?
+  Opção 1: Problema na bagagem
+  Opção 2: Saldo positivo
+  Opção 3: Erro de pagamento
+  Opção 4: Alteração de horário
+Resposta correta: Erro de pagamento
+
+Pergunta 20: Qual ação deve ser realizada se houver um problema ao localizar o voo?
+  Opção 1: Trocar de ofertante
+  Opção 2: Confirmar a reserva
+  Opção 3: Cancelar a transação
+  Opção 4: Atualizar a página
+Resposta correta: Trocar de ofertante
+
+Pergunta 21: O que deve ser feito se houver um aumento de milhas inesperado?
+  Opção 1: Ignorar
+  Opção 2: Realizar o cancelamento
+  Opção 3: Trocar de ofertante
+  Opção 4: Aumentar o número de milhas
+Resposta correta: Realizar o cancelamento
+
+Pergunta 22: Qual é o primeiro passo para iniciar uma transação no Cockpit?
+  Opção 1: Inserir código da transação na extensão
+  Opção 2: Acessar o site da companhia aérea
+  Opção 3: Iniciar a transação no Cockpit
+  Opção 4: Capturar o e-ticket
+Resposta correta: Iniciar a transação no Cockpit
+
+Pergunta 23: Qual é a função da extensão do navegador para emissões semi-automáticas?
+  Opção 1: Gerar relatórios financeiros
+  Opção 2: Preencher dados da transação
+  Opção 3: Registrar e-tickets
+  Opção 4: Realizar pagamentos
+Resposta correta: Preencher dados da transação
+
+Pergunta 24: O que deve ser feito após a inserção do código da transação na extensão?
+  Opção 1: Fechar a extensão
+  Opção 2: Acessar o site da companhia aérea
+  Opção 3: Emitir o bilhete
+  Opção 4: Revisar os dados do passageiro
+Resposta correta: Acessar o site da companhia aérea
+
+Pergunta 25: Por que é importante revisar os dados preenchidos pela extensão?
+  Opção 1: Para evitar erros
+  Opção 2: Para aumentar a velocidade da emissão
+  Opção 3: Para simplificar o processo
+  Opção 4: Para gerar mais e-tickets
+Resposta correta: Para evitar erros
+
+Pergunta 26: Qual é a funcionalidade da opção 'Histórico' na extensão?
+  Opção 1: Visualizar dados do passageiro
+  Opção 2: Revisar emissões anteriores
+  Opção 3: Emitir novos bilhetes
+  Opção 4: Gerar cartões de crédito
+Resposta correta: Revisar emissões anteriores
+
+Pergunta 27: O que deve ser capturado após o pagamento?
+  Opção 1: O código da transação
+  Opção 2: A confirmação do pagamento
+  Opção 3: O e-ticket
+  Opção 4: O histórico de transações
+Resposta correta: O e-ticket
+
+Pergunta 28: Qual é a informação essencial a ser inserida durante o cadastro do passageiro?
+  Opção 1: Número do voo
+  Opção 2: CPF
+  Opção 3: Data de emissão
+  Opção 4: E-mail do passageiro
+Resposta correta: CPF
+
+Pergunta 29: O que é um e-ticket?
+  Opção 1: Um tipo de cartão de embarque
+  Opção 2: Um comprovante de pagamento
+  Opção 3: Um bilhete aéreo eletrônico
+  Opção 4: Um voucher de desconto
+Resposta correta: Um bilhete aéreo eletrônico
+
+Pergunta 30: Qual informação NÃO está presente no e-ticket?
+  Opção 1: Dados do passageiro
+  Opção 2: Número do voo
+  Opção 3: Data de retorno
+  Opção 4: Taxas de bagagem
+Resposta correta: Data de retorno
+
+Pergunta 31: Qual ferramenta pode ser usada para capturar o e-ticket?
+  Opção 1: Microsoft Word
+  Opção 2: Captura e Esboço
+  Opção 3: Navegador de Internet
+  Opção 4: Photoshop
+Resposta correta: Captura e Esboço
+
+Pergunta 32: O que fazer após fazer o upload do e-ticket?
+  Opção 1: Registrar o e-ticket no sistema
+  Opção 2: Imprimir o e-ticket
+  Opção 3: Enviar o e-ticket por e-mail
+  Opção 4: Excluir o e-ticket
+Resposta correta: Registrar o e-ticket no sistema
+
+Pergunta 33: Qual é a primeira etapa após a confirmação do pagamento da passagem?
+  Opção 1: Fazer o upload do e-ticket
+  Opção 2: Gerar o e-ticket
+  Opção 3: Cancelar a passagem
+  Opção 4: Verificar a disponibilidade do voo
+Resposta correta: Gerar o e-ticket
+
+Pergunta 34: O que significa a mensagem 'Sucesso: e-ticket inserido com sucesso'?
+  Opção 1: Todos os dados estão incorretos
+  Opção 2: O e-ticket foi cancelado
+  Opção 3: O e-ticket foi registrado corretamente
+  Opção 4: O pagamento falhou
+Resposta correta: O e-ticket foi registrado corretamente
+
+Pergunta 35: Qual é uma razão válida para cancelar um e-ticket?
+  Opção 1: Alterar a data do voo
+  Opção 2: Erro na emissão do bilhete
+  Opção 3: Trocar de companhia aérea
+  Opção 4: Aumentar a quantidade de milhas
+Resposta correta: Erro na emissão do bilhete
+
+
+Curso: Emissoes Gol
+
+Pergunta 1: Qual é o primeiro passo para iniciar a emissão de passagens no Cockpit?
+  Opção 1: Escolher uma aba para emissões
+  Opção 2: Efetuar login
+  Opção 3: Selecionar 'Completo'
+  Opção 4: Iniciar emissão
+Resposta correta: Efetuar login
+
+Pergunta 2: O que deve ser feito após efetuar login no Cockpit?
+  Opção 1: Selecionar a opção 'Completo'
+  Opção 2: Acessar o menu de ajuda
+  Opção 3: Emitir bilhetes
+  Opção 4: Conectar ao programa de fidelidade
+Resposta correta: Selecionar a opção 'Completo'
+
+Pergunta 3: Qual é a função da aba 'Completo' no Cockpit?
+  Opção 1: Acessar funcionalidades básicas
+  Opção 2: Acessar funcionalidades completas de emissão
+  Opção 3: Verificar saldo de milhas
+  Opção 4: Gerar relatórios financeiros
+Resposta correta: Acessar funcionalidades completas de emissão
+
+Pergunta 4: O que deve ser feito antes de iniciar uma emissão no Cockpit?
+  Opção 1: Aplicar filtros
+  Opção 2: Conectar ao Wi-Fi
+  Opção 3: Verificar o saldo de milhas
+  Opção 4: Ler os termos de uso
+Resposta correta: Aplicar filtros
+
+Pergunta 5: Qual é um dos benefícios do programa de fidelidade Smiles?
+  Opção 1: Acumular pontos em compras
+  Opção 2: Gerar relatórios de viagem
+  Opção 3: Emitir bilhetes de forma automática
+  Opção 4: Controlar o embarque de passageiros
+Resposta correta: Acumular pontos em compras
+
+Pergunta 6: Como os membros do programa Smiles acumulam milhas?
+  Opção 1: Somente por voos
+  Opção 2: Através de voos e compras em parceiros
+  Opção 3: Apenas em promoções
+  Opção 4: Exclusivamente com a Gol
+Resposta correta: Através de voos e compras em parceiros
+
+Pergunta 7: Qual é a categoria mais alta do programa Smiles?
+  Opção 1: Prata
+  Opção 2: Ouro
+  Opção 3: Diamante
+  Opção 4: Smiles
+Resposta correta: Diamante
+
+Pergunta 8: Qual é o primeiro passo após iniciar uma transação no Cockpit?
+  Opção 1: Verificar o saldo de milhas
+  Opção 2: Acessar o site da companhia aérea
+  Opção 3: Emitir o bilhete aéreo
+  Opção 4: Trocar de ofertante
+Resposta correta: Acessar o site da companhia aérea
+
+Pergunta 9: Qual informação deve ser confirmada ao buscar pelo voo?
+  Opção 1: Número do cartão de crédito
+  Opção 2: Data do voo
+  Opção 3: Nome do passageiro
+  Opção 4: Cidade de origem
+Resposta correta: Data do voo
+
+Pergunta 10: O que deve ser verificado em relação às milhas?
+  Opção 1: Se as milhas são transferíveis
+  Opção 2: Se a quantidade de milhas está correta
+  Opção 3: Se as milhas estão expiradas
+  Opção 4: Se as milhas são suficientes para a troca
+Resposta correta: Se a quantidade de milhas está correta
+
+Pergunta 11: Por que é importante verificar a tarifa selecionada?
+  Opção 1: Para evitar erros de pagamento
+  Opção 2: Para garantir que o voo seja emitido
+  Opção 3: Para saber o valor em dinheiro
+  Opção 4: Para confirmar a identidade do ofertante
+Resposta correta: Para evitar erros de pagamento
+
+Pergunta 12: Qual é um dos motivos válidos para a troca de ofertante?
+  Opção 1: Alteração de endereço
+  Opção 2: Senha incorreta
+  Opção 3: Mudança de data do voo
+  Opção 4: Transferência de milhas
+Resposta correta: Senha incorreta
+
+Pergunta 13: O que acontece se a conta do ofertante atual estiver bloqueada?
+  Opção 1: A oferta é mantida
+  Opção 2: A oferta é excluída
+  Opção 3: A oferta fica inativa
+  Opção 4: O processo é reiniciado
+Resposta correta: A oferta fica inativa
+
+Pergunta 14: Qual motivo deve ser escolhido se houver um erro de pagamento?
+  Opção 1: Problema ao localizar voo
+  Opção 2: Erro de pagamento
+  Opção 3: Saldo insuficiente
+  Opção 4: Cadastro pendente
+Resposta correta: Erro de pagamento
+
+Pergunta 15: Qual é o primeiro passo a ser tomado se o voo está indisponível ou houve aumento de milhas?
+  Opção 1: Iniciar o cancelamento
+  Opção 2: Remover o ofertante
+  Opção 3: Atualizar a página
+  Opção 4: Selecionar o motivo do cancelamento
+Resposta correta: Remover o ofertante
+
+Pergunta 16: O que deve ser feito após remover o ofertante?
+  Opção 1: Iniciar o cancelamento
+  Opção 2: Atualizar a página
+  Opção 3: Escolher o motivo do cancelamento
+  Opção 4: Finalizar a transação
+Resposta correta: Atualizar a página
+
+Pergunta 17: Qual botão deve ser clicado para iniciar o processo de cancelamento da transação?
+  Opção 1: Emitir automaticamente
+  Opção 2: Cancelar
+  Opção 3: Trocar ofertante
+  Opção 4: Confirmar cancelamento
+Resposta correta: Cancelar
+
+Pergunta 18: Qual motivo pode ser selecionado ao solicitar o cancelamento por aumento de milhas?
+  Opção 1: Voo indisponível na CIA
+  Opção 2: Transação abaixo da receita mínima
+  Opção 3: Desistência pelo cliente
+  Opção 4: Erro no site da CIA
+Resposta correta: Aumento de milhas
+
+Pergunta 19: Qual ação deve ser tomada após selecionar o motivo do cancelamento?
+  Opção 1: Confirmar cancelamento
+  Opção 2: Retornar o saldo de milhas
+  Opção 3: Iniciar emissões automáticas
+  Opção 4: Verificação do log de emissão
+Resposta correta: Responder às perguntas
+
+Pergunta 20: O que o usuário deve fazer após a emissão automática ser iniciada?
+  Opção 1: Monitorar o status da transação
+  Opção 2: Atualizar a página
+  Opção 3: Remover o ofertante
+  Opção 4: Finalizar a transação
+Resposta correta: Monitorar o status da transação
+
+Pergunta 21: Qual ferramenta deve ser utilizada para salvar uma cópia do e-ticket como comprovante?
+  Opção 1: Captura de tela
+  Opção 2: E-mail
+  Opção 3: Impressão
+  Opção 4: Transferência para o celular
+Resposta correta: Captura de tela
+
+Pergunta 22: Qual é a principal diferença entre a emissão manual e a emissão automática de passagens aéreas?
+  Opção 1: A emissão manual é feita automaticamente
+  Opção 2: A emissão automática requer login do ofertante
+  Opção 3: A emissão manual envolve inserção manual de dados
+  Opção 4: A emissão automática permite edição de dados
+Resposta correta: A emissão manual envolve inserção manual de dados
+
+Pergunta 23: Por que é importante verificar a quantidade de milhas antes de prosseguir com a emissão manual?
+  Opção 1: Para garantir que o sistema esteja atualizado
+  Opção 2: Para evitar problemas na viagem
+  Opção 3: Para confirmar o cadastro do passageiro
+  Opção 4: Para evitar pagamentos duplicados
+Resposta correta: Para evitar problemas na viagem
+
+Pergunta 24: Qual informação é essencial para a identificação do passageiro nas companhias aéreas?
+  Opção 1: Nome completo
+  Opção 2: Endereço
+  Opção 3: Número do cartão de crédito
+  Opção 4: Data de nascimento
+Resposta correta: Número do cartão de crédito
+
+Pergunta 25: Qual é o primeiro passo ao acessar a página de pagamento?
+  Opção 1: Conferir dados do voo e da compra
+  Opção 2: Adicionar cartão de crédito
+  Opção 3: Gerar cartão de crédito virtual
+  Opção 4: Revisar informações do passageiro
+Resposta correta: Conferir dados do voo e da compra
+
+Pergunta 26: O que deve ser verificado antes de adicionar o cartão de crédito na página de pagamento?
+  Opção 1: Dados do voo
+  Opção 2: Limite do cartão
+  Opção 3: Dados do passageiro
+  Opção 4: Forma de pagamento
+Resposta correta: Dados do voo
+
+Pergunta 27: O que deve ser feito após a confirmação do pagamento?
+  Opção 1: Salvar uma cópia do e-ticket
+  Opção 2: Verificar dados do cartão
+  Opção 3: Cadastrar novo passageiro
+  Opção 4: Adicionar milhas ao programa de fidelidade
+Resposta correta: Salvar uma cópia do e-ticket
+
+Pergunta 28: Qual é a mensagem de sucesso que aparece após o e-ticket ser inserido corretamente no Cockpit?
+  Opção 1: Erro na checagem: Dados incorretos
+  Opção 2: Sucesso: E-ticket inserido com sucesso
+  Opção 3: Transação cancelada
+  Opção 4: Dados do voo estão errados
+Resposta correta: Sucesso: E-ticket inserido com sucesso
+
+Pergunta 29: Como os ofertantes podem receber o código de verificação para pagamentos com milhas Gol Smiles?
+  Opção 1: Apenas via e-mail
+  Opção 2: Apenas via SMS
+  Opção 3: Via e-mail ou SMS
+  Opção 4: Apenas pelo Cockpit
+Resposta correta: Via e-mail ou SMS
+
+Pergunta 30: Qual é o primeiro passo para acessar o código de verificação enviado por e-mail?
+  Opção 1: Acessar o site da Gol
+  Opção 2: Ir até a transação no Cockpit
+  Opção 3: Confirmar o pagamento
+  Opção 4: Registrar o e-ticket
+Resposta correta: Ir até a transação no Cockpit
+
+Pergunta 31: O que deve ser feito após confirmar o pagamento da passagem?
+  Opção 1: Capturar o e-ticket
+  Opção 2: Enviar o código de verificação
+  Opção 3: Cancelar a transação
+  Opção 4: Acessar o Cockpit novamente
+Resposta correta: Capturar o e-ticket
+
+Pergunta 32: O que é necessário preencher ao inserir o e-ticket no Cockpit?
+  Opção 1: Nome do passageiro
+  Opção 2: Número do e-ticket
+  Opção 3: Código de verificação
+  Opção 4: Data da viagem
+Resposta correta: Número do e-ticket
+
+Pergunta 33: Qual mensagem aparece se todos os dados do e-ticket forem inseridos corretamente?
+  Opção 1: Erro na checagem
+  Opção 2: Sucesso: e-ticket inserido com sucesso
+  Opção 3: Código de verificação inválido
+  Opção 4: Dados do voo incorretos
+Resposta correta: Sucesso: e-ticket inserido com sucesso
+
+Pergunta 34: Quando é necessário cancelar um e-ticket?
+  Opção 1: Quando o pagamento é confirmado
+  Opção 2: Quando há erro na emissão do bilhete
+  Opção 3: Após o voo realizado
+  Opção 4: Quando o código de verificação não é recebido
+Resposta correta: Quando há erro na emissão do bilhete
+
+Pergunta 35: Qual é o primeiro passo para cancelar um e-ticket na Gol?
+  Opção 1: Acessar o site oficial da Gol
+  Opção 2: Localizar o e-ticket no Cockpit
+  Opção 3: Contactar o atendimento ao cliente
+  Opção 4: Acessar a seção de reembolsos
+Resposta correta: Acessar o site oficial da Gol
+
+
+Curso: Emissoes Azul
+
+Pergunta 1: Quais passos são necessários para iniciar a emissão de passagens no Cockpit?
+  Opção 1: Efetuar login e selecionar 'Completo'
+  Opção 2: Escolher uma companhia aérea e aguardar
+  Opção 3: Emitir bilhetes automaticamente
+  Opção 4: Contatar o suporte técnico
+Resposta correta: Efetuar login e selecionar 'Completo'
+
+Pergunta 2: O que é o programa TudoAzul?
+  Opção 1: Um sistema de emissão de passagens
+  Opção 2: Um programa de fidelidade da Azul Linhas Aéreas
+  Opção 3: Uma plataforma de reservas de hotéis
+  Opção 4: Uma aplicação para gerenciamento de viagens
+Resposta correta: Um programa de fidelidade da Azul Linhas Aéreas
+
+Pergunta 3: Qual é um dos principais benefícios do TudoAzul?
+  Opção 1: Acúmulo de pontos para resgates
+  Opção 2: Acesso a voos internacionais
+  Opção 3: Descontos em locadoras de veículos
+  Opção 4: Transferências de milhas entre contas
+Resposta correta: Acúmulo de pontos para resgates
+
+Pergunta 4: Como os membros do TudoAzul podem utilizar seus pontos?
+  Opção 1: Apenas para passagens aéreas
+  Opção 2: Para passagens, upgrades e experiências
+  Opção 3: Para compras em lojas físicas
+  Opção 4: Para voos apenas dentro do Brasil
+Resposta correta: Para passagens, upgrades e experiências
+
+Pergunta 5: O que indica um comentário 'Erro ao preencher dados dos passageiros'?
+  Opção 1: Problema na emissão do e-ticket
+  Opção 2: Erro na inserção das informações dos passageiros
+  Opção 3: Transação cancelada
+  Opção 4: Aguarda aprovação do analista
+Resposta correta: Erro na inserção das informações dos passageiros
+
+Pergunta 6: O que significa 'Milhas insuficientes' em uma transação?
+  Opção 1: Saldo de milhas é suficiente para a compra
+  Opção 2: Saldo de milhas não é suficiente para completar a transação
+  Opção 3: As milhas estão bloqueadas
+  Opção 4: As milhas foram expiradas
+Resposta correta: Saldo de milhas não é suficiente para completar a transação
+
+Pergunta 7: Qual a importância de verificar o extrato do ofertante após uma transação?
+  Opção 1: Para saber quantas milhas foram acumuladas
+  Opção 2: Para evitar duplicidade na emissão da passagem
+  Opção 3: Para receber pontos bônus
+  Opção 4: Para acessar promoções especiais
+Resposta correta: Para evitar duplicidade na emissão da passagem
+
+Pergunta 8: Qual é o primeiro passo após iniciar uma transação no Cockpit?
+  Opção 1: Emitir o bilhete
+  Opção 2: Verificar dados do voo e milhas
+  Opção 3: Trocar de ofertante
+  Opção 4: Cancelar a transação
+Resposta correta: Verificar dados do voo e milhas
+
+Pergunta 9: O que deve ser feito ao acessar o site da companhia aérea?
+  Opção 1: Fazer logout
+  Opção 2: Confirmar saldo de milhas
+  Opção 3: Fazer login com os dados do ofertante
+  Opção 4: Emitir o bilhete
+Resposta correta: Fazer login com os dados do ofertante
+
+Pergunta 10: Qual informação deve ser confirmada ao buscar pelo voo?
+  Opção 1: A data do voo
+  Opção 2: O preço do bilhete
+  Opção 3: O número de passageiros
+  Opção 4: A classe do assento
+Resposta correta: A data do voo
+
+Pergunta 11: O que fazer se houver um aumento de milhas após a verificação?
+  Opção 1: Prosseguir com a emissão
+  Opção 2: Ajustar a transação ou buscar alternativas
+  Opção 3: Trocar de ofertante
+  Opção 4: Cancelar a transação
+Resposta correta: Ajustar a transação ou buscar alternativas
+
+Pergunta 12: Qual é uma das opções de motivo para troca de ofertante?
+  Opção 1: Erro de pagamento
+  Opção 2: Mudança de voo
+  Opção 3: Viagem cancelada
+  Opção 4: Desejo de reembolso
+Resposta correta: Erro de pagamento
+
+Pergunta 13: Qual é a importância de escolher o motivo correto para a troca de ofertante?
+  Opção 1: Melhorar a experiência do cliente
+  Opção 2: Impactar na validade da oferta e uso do saldo de milhas
+  Opção 3: Aumentar o número de milhas
+  Opção 4: Facilitar a emissão do bilhete
+Resposta correta: Impactar na validade da oferta e uso do saldo de milhas
+
+Pergunta 14: O que deve ser feito se o voo estiver indisponível?
+  Opção 1: Trocar de ofertante
+  Opção 2: Remover o ofertante e cancelar a transação
+  Opção 3: Emitir o bilhete assim mesmo
+  Opção 4: Esperar 24 horas para verificar novamente
+Resposta correta: Remover o ofertante e cancelar a transação
+
+Pergunta 15: Qual é a primeira etapa para iniciar a emissão automática no Cockpit?
+  Opção 1: Clique em Emitir automaticamente
+  Opção 2: Verifique o log de emissão
+  Opção 3: Escolha um ofertante
+  Opção 4: Acesse a aba de status
+Resposta correta: Clique em Emitir automaticamente
+
+Pergunta 16: O que deve ser verificado antes de iniciar a emissão automática?
+  Opção 1: A quantidade de milhas
+  Opção 2: O log de emissão automática e comentários
+  Opção 3: O código da transação
+  Opção 4: A lista de ofertantes
+Resposta correta: O log de emissão automática e comentários
+
+Pergunta 17: Qual é a principal função da extensão do navegador para emissões semi-automáticas?
+  Opção 1: Gerar relatórios
+  Opção 2: Facilitar o preenchimento de dados da transação
+  Opção 3: Emitir passagens automaticamente
+  Opção 4: Controlar o saldo de milhas
+Resposta correta: Facilitar o preenchimento de dados da transação
+
+Pergunta 18: Após o pagamento na emissão semi-automática, o que deve ser capturado como comprovante?
+  Opção 1: A fatura de pagamento
+  Opção 2: O e-ticket
+  Opção 3: O histórico de transações
+  Opção 4: A mensagem de erro
+Resposta correta: O e-ticket
+
+Pergunta 19: Qual é um dos passos necessários na emissão manual?
+  Opção 1: Acessar a lista de passageiros
+  Opção 2: Inserir dados do cartão de crédito
+  Opção 3: Verificar a quantidade de milhas
+  Opção 4: Emitir o e-ticket automaticamente
+Resposta correta: Verificar a quantidade de milhas
+
+Pergunta 20: O que deve ser conferido na página de pagamento durante a emissão manual?
+  Opção 1: Nome do passageiro
+  Opção 2: Número do e-ticket
+  Opção 3: Taxa de embarque
+  Opção 4: Código da transação
+Resposta correta: Taxa de embarque
+
+Pergunta 21: Qual é uma das mensagens de erro possíveis ao inserir o e-ticket no Cockpit?
+  Opção 1: E-ticket inserido com sucesso
+  Opção 2: Erro na checagem: Verifique os dados inseridos
+  Opção 3: Transação concluída
+  Opção 4: E-ticket não encontrado
+Resposta correta: Erro na checagem: Verifique os dados inseridos
+
+Pergunta 22: Qual é o número máximo de beneficiários que um cliente do Nível Diamante pode cadastrar no programa Azul fidelidade?
+  Opção 1: 5
+  Opção 2: 6
+  Opção 3: 7
+  Opção 4: 8
+Resposta correta: 8
+
+Pergunta 23: Qual é o tempo de carência para alteração de beneficiários no programa Azul fidelidade?
+  Opção 1: 30 dias
+  Opção 2: 60 dias
+  Opção 3: 90 dias
+  Opção 4: 7 dias
+Resposta correta: 30 dias
+
+Pergunta 24: O que deve ser feito antes de cadastrar um novo beneficiário no programa Azul fidelidade?
+  Opção 1: Verificar o saldo de pontos
+  Opção 2: Confirmar a exclusão de um beneficiário
+  Opção 3: Acessar o perfil no aplicativo
+  Opção 4: Alterar a senha do aplicativo
+Resposta correta: Acessar o perfil no aplicativo
+
+Pergunta 25: Qual é a primeira informação que deve ser inserida ao cadastrar um passageiro no site da companhia aérea?
+  Opção 1: Sobrenome
+  Opção 2: Data de nascimento
+  Opção 3: Nome
+  Opção 4: CPF
+Resposta correta: Nome
+
+Pergunta 26: Para voos internacionais, que informação é necessária além do nome completo do passageiro?
+  Opção 1: Data de nascimento
+  Opção 2: Número do RG
+  Opção 3: Número do passaporte
+  Opção 4: Email
+Resposta correta: Número do passaporte
+
+Pergunta 27: Qual deve ser feito antes de adicionar bagagens para uma transação no Cockpit?
+  Opção 1: Acessar a transação desejada
+  Opção 2: Confirmar o cadastro do passageiro
+  Opção 3: Verificar a disponibilidade de voos
+  Opção 4: Emitir o bilhete aéreo
+Resposta correta: Acessar a transação desejada
+
+Pergunta 28: O que deve ser registrado no Cockpit após adicionar bagagens no site da companhia aérea?
+  Opção 1: Valor pago pela bagagem
+  Opção 2: Número da reserva
+  Opção 3: Data da viagem
+  Opção 4: Nome do passageiro
+Resposta correta: Valor pago pela bagagem
+
+Pergunta 29: Qual é a primeira etapa ao acessar a página de pagamento para finalizar a compra?
+  Opção 1: Adicionar cartão de crédito
+  Opção 2: Conferir dados do voo e da compra
+  Opção 3: Gerar cartão de crédito virtual
+  Opção 4: Efetuar o pagamento
+Resposta correta: Conferir dados do voo e da compra
+
+Pergunta 30: O que deve ser verificado em relação à taxa de embarque na página de pagamento?
+  Opção 1: Se está correta
+  Opção 2: Se é maior que o valor da passagem
+  Opção 3: Se não é cobrada
+  Opção 4: Se é cobrada em milhas
+Resposta correta: Se está correta
+
+Pergunta 31: Qual informação é necessária para gerar um cartão de crédito virtual?
+  Opção 1: Nome do passageiro
+  Opção 2: Valor da passagem
+  Opção 3: Taxa de embarque
+  Opção 4: Data do voo
+Resposta correta: Taxa de embarque
+
+Pergunta 32: O que deve ser feito após preencher os dados do cartão de crédito virtual?
+  Opção 1: Gerar o e-ticket
+  Opção 2: Efetuar o pagamento
+  Opção 3: Adicionar novo cartão
+  Opção 4: Voltar ao Cockpit
+Resposta correta: Efetuar o pagamento
+
+Pergunta 33: O que é gerado automaticamente após o pagamento da passagem?
+  Opção 1: Recibo de pagamento
+  Opção 2: E-ticket
+  Opção 3: Cartão de crédito virtual
+  Opção 4: Confirmação de e-mail
+Resposta correta: E-ticket
+
+Pergunta 34: Qual é a primeira informação a ser inserida ao registrar o e-ticket no sistema?
+  Opção 1: Login do programa de fidelidade
+  Opção 2: Número do e-ticket
+  Opção 3: Dados do passageiro
+  Opção 4: Valor da bagagem
+Resposta correta: Número do e-ticket
+
+Pergunta 35: O que deve ser feito se o sistema retornar uma mensagem de erro na checagem automática?
+  Opção 1: Registrar o e-ticket novamente
+  Opção 2: Verificar os dados inseridos
+  Opção 3: Cancelar a compra
+  Opção 4: Consultar a companhia aérea
+Resposta correta: Verificar os dados inseridos
+
+
+Curso: Ferramentas Auxiliares
+
+Pergunta 1: O que é o Slack?
+  Opção 1: Uma plataforma de videoconferência
+  Opção 2: Uma ferramenta de gerenciamento de projetos
+  Opção 3: Uma plataforma de comunicação colaborativa
+  Opção 4: Um sistema de gerenciamento de tarefas
+Resposta correta: Uma plataforma de comunicação colaborativa
+
+Pergunta 2: Qual é uma das principais funcionalidades do Slack?
+  Opção 1: Edição de vídeos
+  Opção 2: Criação de gráficos
+  Opção 3: Canais públicos e privados
+  Opção 4: Armazenamento de dados
+Resposta correta: Canais públicos e privados
+
+Pergunta 3: Como os usuários podem se comunicar de forma mais pessoal no Slack?
+  Opção 1: Por meio de canais
+  Opção 2: Por meio de mensagens diretas
+  Opção 3: Por meio de videoconferências
+  Opção 4: Por meio de e-mails
+Resposta correta: Por meio de mensagens diretas
+
+Pergunta 4: O Slack permite integração com quais tipos de ferramentas?
+  Opção 1: Apenas ferramentas de chat
+  Opção 2: Ferramentas de BI apenas
+  Opção 3: Diversas ferramentas e aplicativos
+  Opção 4: Apenas ferramentas de produtividade
+Resposta correta: Diversas ferramentas e aplicativos
+
+Pergunta 5: Qual é um dos benefícios do uso do Slack?
+  Opção 1: Redução do tempo de férias
+  Opção 2: Comunicação rápida e eficiente
+  Opção 3: Menos necessidade de internet
+  Opção 4: Aumento de reuniões presenciais
+Resposta correta: Comunicação rápida e eficiente
+
+Pergunta 6: Como os usuários alteram seu status no Slack?
+  Opção 1: Pelo menu de configurações
+  Opção 2: Alterando a foto de perfil
+  Opção 3: Por meio do painel de controle
+  Opção 4: Alterando seu status diretamente no perfil
+Resposta correta: Alterando seu status diretamente no perfil
+
+Pergunta 7: Qual ícone representa um usuário ausente no Slack?
+  Opção 1: Verde
+  Opção 2: Amarelo
+  Opção 3: Vermelho
+  Opção 4: Cinza
+Resposta correta: Amarelo
+
+Pergunta 8: Qual é o principal propósito do Qulture.Rocks?
+  Opção 1: Transformar a cultura organizacional
+  Opção 2: Gerenciar finanças da empresa
+  Opção 3: Controlar o tempo de trabalho
+  Opção 4: Emitir bilhetes aéreos
+Resposta correta: Transformar a cultura organizacional
+
+Pergunta 9: Como o Qulture.Rocks promove a comunicação entre colaboradores e gestores?
+  Opção 1: Por meio de e-mails
+  Opção 2: Através de feedback contínuo
+  Opção 3: Usando videoconferências
+  Opção 4: Realizando reuniões mensais
+Resposta correta: Através de feedback contínuo
+
+Pergunta 10: Qual é uma funcionalidade do Qulture.Rocks relacionada ao reconhecimento dos colaboradores?
+  Opção 1: Gestão de metas
+  Opção 2: Feedback anual
+  Opção 3: Reconhecimento e recompensa
+  Opção 4: Análises financeiras
+Resposta correta: Reconhecimento e recompensa
+
+Pergunta 11: Qual ferramenta permite o registro de ponto dos colaboradores?
+  Opção 1: Qulture.Rocks
+  Opção 2: iFractal Ponto Online
+  Opção 3: Google Drive
+  Opção 4: Slack
+Resposta correta: iFractal Ponto Online
+
+Pergunta 12: O que o iFractal Ponto Online ajuda a monitorar em tempo real?
+  Opção 1: Desempenho financeiro
+  Opção 2: Jornada de trabalho dos colaboradores
+  Opção 3: Feedback dos clientes
+  Opção 4: Metas de vendas
+Resposta correta: Jornada de trabalho dos colaboradores
+
+Pergunta 13: Qual é um dos benefícios da integração do iFractal com a folha de pagamento?
+  Opção 1: Facilita o registro de horas
+  Opção 2: Aumenta o número de folgas
+  Opção 3: Melhora a comunicação entre departamentos
+  Opção 4: Evita erros na apuração de horas trabalhadas
+Resposta correta: Evita erros na apuração de horas trabalhadas
+
+Pergunta 14: Como os colaboradores podem solicitar folgas no iFractal Ponto Online?
+  Opção 1: Por e-mail
+  Opção 2: Diretamente pela plataforma
+  Opção 3: Através de um formulário físico
+  Opção 4: Pelo Slack
+Resposta correta: Diretamente pela plataforma
+
+Pergunta 15: Qual é o objetivo da consulta de dados do passageiro na Receita Federal?
+  Opção 1: Emitir passagens aéreas
+  Opção 2: Verificar informações do passageiro
+  Opção 3: Criar novas viagens
+  Opção 4: Acessar e-tickets
+Resposta correta: Verificar informações do passageiro
+
+Pergunta 16: O que é necessário inserir no site da Receita Federal para consultar os dados do passageiro?
+  Opção 1: Nome completo e CPF
+  Opção 2: CPF e data de nascimento
+  Opção 3: E-mail e data de nascimento
+  Opção 4: Número da passagem e CPF
+Resposta correta: CPF e data de nascimento
+
+Pergunta 17: Quais informações podem ser retornadas ao consultar na Receita Federal?
+  Opção 1: Nome completo, data de nascimento e situação cadastral do CPF
+  Opção 2: Endereço e telefone
+  Opção 3: Histórico de viagens
+  Opção 4: Nome do pai e mãe
+Resposta correta: Nome completo, data de nascimento e situação cadastral do CPF
+
+Pergunta 18: Quando o TripCase é especialmente útil?
+  Opção 1: Quando a companhia aérea gera um localizador
+  Opção 2: Quando a companhia aérea não gera um localizador
+  Opção 3: Durante o check-in
+  Opção 4: Na emissão de bilhetes
+Resposta correta: Quando a companhia aérea não gera um localizador
+
+Pergunta 19: Qual é uma funcionalidade do TripCase?
+  Opção 1: Emitir passagens
+  Opção 2: Buscar e acessar e-tickets
+  Opção 3: Registrar ponto
+  Opção 4: Enviar feedback
+Resposta correta: Buscar e acessar e-tickets
+
+Pergunta 20: Como os usuários podem organizar suas viagens no TripCase?
+  Opção 1: Criando uma nova viagem
+  Opção 2: Consultando a Receita Federal
+  Opção 3: Acessando o e-mail
+  Opção 4: Registrando no papel
+Resposta correta: Criando uma nova viagem
+
+Pergunta 21: Quais alertas os usuários recebem do TripCase?
+  Opção 1: Mudanças de status de voos
+  Opção 2: Promoções de passagens
+  Opção 3: Ofertas de hotéis
+  Opção 4: Notificações de restaurantes
+Resposta correta: Mudanças de status de voos
+
+Pergunta 22: Qual é a principal função do Zendesk?
+  Opção 1: Gerenciar o atendimento ao cliente
+  Opção 2: Emitir passagens aéreas
+  Opção 3: Criar campanhas de marketing
+  Opção 4: Registrar ponto dos funcionários
+Resposta correta: Gerenciar o atendimento ao cliente
+
+Pergunta 23: O que acontece quando um cliente entra em contato com a empresa pelo Zendesk?
+  Opção 1: A solicitação é ignorada
+  Opção 2: É criada uma nova conta
+  Opção 3: Uma solicitação é convertida em um 'ticket'
+  Opção 4: A conversa é encerrada
+Resposta correta: Uma solicitação é convertida em um 'ticket'
+
+Pergunta 24: Qual funcionalidade do Zendesk permite que os clientes encontrem respostas para perguntas frequentes?
+  Opção 1: Base de conhecimento
+  Opção 2: Chat ao vivo
+  Opção 3: Registro de ponto
+  Opção 4: Central de atendimento
+Resposta correta: Base de conhecimento
+
+Pergunta 25: Como o Zendesk melhora a experiência do cliente?
+  Opção 1: Proporcionando um atendimento mais ágil e eficaz
+  Opção 2: Aumentando o número de vendas
+  Opção 3: Reduzindo custos
+  Opção 4: Eliminando o suporte ao cliente
+Resposta correta: Proporcionando um atendimento mais ágil e eficaz
+
+Pergunta 26: Qual recurso do Zendesk permite comunicação em tempo real com os clientes?
+  Opção 1: Base de conhecimento
+  Opção 2: Tickets
+  Opção 3: Chat ao vivo
+  Opção 4: Relatórios
+Resposta correta: Chat ao vivo
+
+Pergunta 27: Qual é um dos benefícios do uso do Zendesk?
+  Opção 1: Melhoria na experiência do cliente
+  Opção 2: Aumento no tempo de espera
+  Opção 3: Diminuição no número de tickets
+  Opção 4: Eliminação do suporte ao cliente
+Resposta correta: Melhoria na experiência do cliente
+
+Pergunta 28: Onde pode ser acessado o Zendesk?
+  Opção 1: https://maxmilhas.zendesk.com/agent/dashboard
+  Opção 2: https://maxmilhas.com
+  Opção 3: https://zendesk.com
+  Opção 4: https://maxmilhas.com/zendesk
+Resposta correta: https://maxmilhas.zendesk.com/agent/dashboard
+
+
