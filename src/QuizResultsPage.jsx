@@ -78,7 +78,7 @@ const QuizResultsPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const recipients = 'matheuspereiramartins1993@gmail.com, matheus.pereira@maxmilhas.com.br'; // Adicione os e-mails aqui
+        const recipients = 'matheuspereiramartins1993@gmail.com, matheus.pereira@maxmilhas.com.br, valesca.batista@maxmilhas.com.br, luciene.vertelo@maxmilhas.com.br, ana.souza@maxmilhas.com.br, jennifer.vieira@maxmilhas.com.br'; // Adicione os e-mails aqui
 
         const templateParams = {
             to_email: recipients,
