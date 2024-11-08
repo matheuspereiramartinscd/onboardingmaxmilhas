@@ -78,15 +78,20 @@ const QuizResultsPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        const recipients = 'matheuspereiramartins1993@gmail.com, matheus.pereira@maxmilhas.com.br'; // Adicione os e-mails aqui
+
+        const templateParams = {
+            to_email: recipients,
+            from_name: name,
+            from_email: email,
+            message: comment
+        };
+
         emailjs.send(
             'service_jtzc7mg', // Substitua pelo seu Service ID
             'template_ijmx5cd', // Substitua pelo seu Template ID
-            {
-                name: name,
-                email: email,
-                comment: comment,
-            },
-            '2HDsj1HNfrgCYTIS8' // Substitua pelo seu User ID
+            templateParams, // Passagem do objeto templateParams com as variáveis associadas
+            '2HDsj1HNfrgCYTIS8' // Substitua pela sua Public Key
         )
         .then(() => {
             alert("Comentário enviado com sucesso!");
@@ -146,8 +151,7 @@ const QuizResultsPage = () => {
                         </div>
                     </div>
                 ))}
-            </div>
-            <div className={styles.feedbackSection}>
+                    <div className={styles.feedbackSection}>
                 <h3>Dúvida ou sugestões? Envie um comentário.</h3>
                 <form onSubmit={handleSubmit} className={styles.feedbackForm}>
                     <label>
@@ -164,6 +168,7 @@ const QuizResultsPage = () => {
                     </label>
                     <button type="submit">Enviar</button>
                 </form>
+            </div>
             </div>
         </div>
     );

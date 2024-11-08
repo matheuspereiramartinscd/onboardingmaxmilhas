@@ -1,4 +1,71 @@
 /* Estilos da página */
+.feedbackSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; /* Distância do conteúdo anterior */
+    width: 100%;
+}
+
+.feedbackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 500px; /* Limita o tamanho máximo do formulário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+    background-color: #f6f8fc; /* Fundo suave */
+}
+
+.feedbackForm label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+    width: 100%;
+}
+
+.feedbackForm input,
+.feedbackForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px; /* Espaço entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.feedbackForm textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.feedbackForm button {
+    background-color: #98da82;
+    color: #0f1a2a;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedbackForm button:hover {
+    background-color: #82c77f;
+}
+
+.feedbackForm input:focus,
+.feedbackForm textarea:focus {
+    border-color: #98da82; /* Cor de borda verde quando em foco */
+    outline: none; /* Remove o contorno padrão */
+}
+
+
 .resultsPage {
     margin-top: 91px;
     min-height: 100vh;
