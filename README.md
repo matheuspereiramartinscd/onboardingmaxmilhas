@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Plataforma de Cursos Web - Sistema de Onboarding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma plataforma de cursos online voltada para a área de emissões da MaxMilhas, onde os usuários podem acessar cursos divididos em aulas com videoaulas e conteúdo de texto. Com autenticação via Google Sign-In para emails corporativos e um sistema de pontuação gamificado, o projeto visa engajar os usuários na conclusão de cursos. A aplicação está hospedada no Render e possui uma estrutura completa de frontend e backend.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Autenticação Segura: Login via Google Sign-In, restrito a emails corporativos.
+- Cursos e Aulas: Organização em aulas com conteúdo de vídeo e texto para cada curso.
+- Sistema de Pontuação: Usuários ganham 50 pontos por aula completada e entre 1600 a 2000 pontos por desempenho acima de 50% nos quizzes.
+- Quizzes Desbloqueáveis: Disponíveis apenas após a conclusão de todas as aulas de um curso.
+- Páginas de Suporte: Inclui FAQ e Links Úteis para ajudar o usuário.
+- Perfil Personalizável: Permite ao usuário editar seu nome e foto.
+- Responsividade: Design adaptado para dispositivos móveis e desktops.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React: Biblioteca JavaScript para criação de interfaces de usuário (versão 18.3.1).
+- @mui/material: Biblioteca de componentes com Material Design (versão 6.1.1).
+- Bootstrap: Framework de CSS para layout e responsividade (versão 5.3.3).
+- Axios: Biblioteca para chamadas HTTP (versão 1.7.7).
+- @react-oauth/google: Integração para login com Google OAuth (versão 0.12.1).
+- Font Awesome: Ícones para interface (versão 6.6.0).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- Node.js: Plataforma para execução de JavaScript no servidor.
+- Express: Framework para APIs RESTful (versão 4.21.0).
+- Mongoose: ODM para MongoDB (versão 8.6.3).
+- Multer: Middleware para upload de arquivos (versão 1.4.5-lts.1).
+- jsonwebtoken e express-jwt: Gerenciamento de autenticação com JSON Web Tokens (JWT) para segurança das requisições.
 
-### `npm test`
+### Outras Bibliotecas
+- @emotion/react e @emotion/styled: Para estilos CSS (versões 11.13.3 e 11.13.0).
+- dotenv: Gerenciamento de variáveis de ambiente (versão 16.4.5).
+- emailjs-com: Envio de emails diretamente do cliente (versão 3.2.0).
+- bcrypt e bcryptjs: Hashing de senhas para segurança (versões 5.1.1 e 2.4.3).
+- react-icons: Biblioteca de ícones para React (versão 5.3.0).
+- react-router-dom: Roteamento para navegação dinâmica (versão 6.26.2).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tela de Login
+![onboarding01](https://github.com/user-attachments/assets/aaa1d5a1-6aff-45b1-9d4b-23ea9864aaae)
 
-### `npm run build`
+Tela Inicial
+![onboarding02](https://github.com/user-attachments/assets/a961c633-0d92-4a00-8ef8-ce6132d4a726)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tela de Cursos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ranking de Pontuação
+![onboarding03](https://github.com/user-attachments/assets/e6f75744-023d-4b22-80eb-115ced097263)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Página de Edição de Perfil
 
-### `npm run eject`
+![onboarding04](https://github.com/user-attachments/assets/4052ff3e-cdf8-4700-9dac-74a9dd11083b)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
